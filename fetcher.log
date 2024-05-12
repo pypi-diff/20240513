@@ -723,3 +723,18 @@
 [2024-05-13 01:09:58] INFO root fetch - processPackages [cltk]: Remove: archive file [/home/abi/fetcher/tmp/cltk-1.3.0.tar.gz]
 [2024-05-13 01:09:58] INFO root fetch - main [MainThread]: End processing [cltk]: success
 [2024-05-13 01:09:58] INFO root fetch - main [MainThread]: Store serial: [23174655]
+[2024-05-13 01:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174655]
+[2024-05-13 01:12:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savourierz
+[2024-05-13 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schwab-api-wrapper
+[2024-05-13 01:12:07] WARNING root fetch - processPackages [savourierz]: Skipping, unable to determine old version
+[2024-05-13 01:12:07] INFO root fetch - main [MainThread]: End processing [savourierz] error
+[2024-05-13 01:12:07] INFO root fetch - processPackages [schwab-api-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 01:12:07] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/f7/6e/74d0e218b04bc0bda8b4d2c8d2970f0f25012464c3ab1d918cf291497105/schwab_api_wrapper-0.0.2.tar.gz
+[2024-05-13 01:12:08] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/fd/2b/0dc690e062682605a935f1549ba94d7b5d3ed501e4bf8dc7169c74253638/schwab_api_wrapper-0.0.3.tar.gz
+[2024-05-13 01:12:08] INFO root fetch - processPackages [schwab-api-wrapper]: executing diffoscope
+[2024-05-13 01:12:08] INFO root fetch - processPackages [schwab-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab_api_wrapper-0.0.2.tar.gz tmp/schwab_api_wrapper-0.0.3.tar.gz --markdown 20240513/s/schwab-api-wrapper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 01:12:08] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.2.tar.gz]
+[2024-05-13 01:12:08] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.3.tar.gz]
+[2024-05-13 01:12:08] INFO root fetch - main [MainThread]: End processing [schwab-api-wrapper]: success
+[2024-05-13 01:12:08] INFO root fetch - main [MainThread]: Store serial: [23174662]
