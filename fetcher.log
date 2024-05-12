@@ -834,3 +834,26 @@
 [2024-05-13 01:21:00] INFO root fetch - processPackages [psplpy]: Remove: archive file [/home/abi/fetcher/tmp/psplpy-1.1.2.tar.gz]
 [2024-05-13 01:21:00] INFO root fetch - main [MainThread]: End processing [psplpy]: success
 [2024-05-13 01:21:00] INFO root fetch - main [MainThread]: Store serial: [23174729]
+[2024-05-13 01:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174729]
+[2024-05-13 01:23:09] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-13 01:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174729]
+[2024-05-13 01:25:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 01:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notion-duplicates
+[2024-05-13 01:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annonition
+[2024-05-13 01:25:14] INFO root fetch - processPackages [notion-duplicates]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-13 01:25:14] INFO root fetch - processPackages [annonition]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 01:25:14] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/d0/0a/21ba00cd230c236c304719a78da24e0f51bbe9008d6ba172734eedef5987/annonition-0.0.3.tar.gz
+[2024-05-13 01:25:14] INFO root fetch - processPackages [notion-duplicates]: Downloading https://files.pythonhosted.org/packages/a3/7c/ab7a0806ce3a004d5f7c43fd4096ec5902c017bd764bc5a0807f49efec40/notion_duplicates-0.3.0.tar.gz
+[2024-05-13 01:25:14] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/92/48/165334b685126b6c1f9904aaee58bf3d2b60d6e5cf13baea81df0709f648/annonition-0.0.4.tar.gz
+[2024-05-13 01:25:14] INFO root fetch - processPackages [notion-duplicates]: Downloading https://files.pythonhosted.org/packages/e7/fb/f65f682be6fb202ff4318149ec195e6fe7dce71000931d6e93519df50b02/notion_duplicates-0.4.0.tar.gz
+[2024-05-13 01:25:14] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-13 01:25:14] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.0.3.tar.gz tmp/annonition-0.0.4.tar.gz --markdown 20240513/a/annonition/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 01:25:14] INFO root fetch - processPackages [notion-duplicates]: executing diffoscope
+[2024-05-13 01:25:14] INFO root fetch - processPackages [notion-duplicates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion_duplicates-0.3.0.tar.gz tmp/notion_duplicates-0.4.0.tar.gz --markdown 20240513/n/notion-duplicates/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-13 01:25:15] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.0.3.tar.gz]
+[2024-05-13 01:25:15] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.0.4.tar.gz]
+[2024-05-13 01:25:15] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-13 01:25:15] INFO root fetch - processPackages [notion-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/notion_duplicates-0.3.0.tar.gz]
+[2024-05-13 01:25:15] INFO root fetch - processPackages [notion-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/notion_duplicates-0.4.0.tar.gz]
+[2024-05-13 01:25:15] INFO root fetch - main [MainThread]: End processing [notion-duplicates]: success
+[2024-05-13 01:25:15] INFO root fetch - main [MainThread]: Store serial: [23174735]
