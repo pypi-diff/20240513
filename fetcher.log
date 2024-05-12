@@ -544,3 +544,23 @@
 [2024-05-13 00:50:31] WARNING root fetch - processPackages [quislingismz]: Skipping, unable to determine old version
 [2024-05-13 00:50:31] INFO root fetch - main [MainThread]: End processing [quislingismz] error
 [2024-05-13 00:50:31] INFO root fetch - main [MainThread]: Store serial: [23174583]
+[2024-05-13 00:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174583]
+[2024-05-13 00:52:39] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-13 00:54:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174583]
+[2024-05-13 00:54:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Compress-csv-files-gcs-bucket
+[2024-05-13 00:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antoninaz
+[2024-05-13 00:54:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unfortifiedz
+[2024-05-13 00:54:45] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: New version: [0.1] Old Version: [0.0]
+[2024-05-13 00:54:45] WARNING root fetch - processPackages [antoninaz]: Skipping, unable to determine old version
+[2024-05-13 00:54:45] INFO root fetch - main [MainThread]: End processing [antoninaz] error
+[2024-05-13 00:54:45] WARNING root fetch - processPackages [unfortifiedz]: Skipping, unable to determine old version
+[2024-05-13 00:54:45] INFO root fetch - main [MainThread]: End processing [unfortifiedz] error
+[2024-05-13 00:54:45] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: Downloading https://files.pythonhosted.org/packages/60/9a/637156f6ee3ddeb7e9d63a29e007ff023a845b63dccd9404c40f82d64a98/Compress_csv_files_gcs_bucket-0.0.tar.gz
+[2024-05-13 00:54:46] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: Downloading https://files.pythonhosted.org/packages/15/88/395da02ebec3719626ac2410677aefdc2eac405fec42117b37ed0b76d39b/Compress_csv_files_gcs_bucket-0.1.tar.gz
+[2024-05-13 00:54:46] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: executing diffoscope
+[2024-05-13 00:54:46] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Compress_csv_files_gcs_bucket-0.0.tar.gz tmp/Compress_csv_files_gcs_bucket-0.1.tar.gz --markdown 20240513/C/Compress-csv-files-gcs-bucket/0.0-0.1/README.md --exclude *.pyd
+[2024-05-13 00:54:46] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: Remove: archive file [/home/abi/fetcher/tmp/Compress_csv_files_gcs_bucket-0.0.tar.gz]
+[2024-05-13 00:54:46] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: Remove: archive file [/home/abi/fetcher/tmp/Compress_csv_files_gcs_bucket-0.1.tar.gz]
+[2024-05-13 00:54:46] INFO root fetch - main [MainThread]: End processing [Compress-csv-files-gcs-bucket]: success
+[2024-05-13 00:54:46] INFO root fetch - main [MainThread]: Store serial: [23174590]
