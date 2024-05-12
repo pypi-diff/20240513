@@ -166,3 +166,21 @@
 [2024-05-13 00:13:37] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.24.tar.gz]
 [2024-05-13 00:13:37] INFO root fetch - main [MainThread]: End processing [cyclomonitor]: success
 [2024-05-13 00:13:37] INFO root fetch - main [MainThread]: Store serial: [23174398]
+[2024-05-13 00:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174398]
+[2024-05-13 00:15:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visual-debugger
+[2024-05-13 00:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gentlemensz
+[2024-05-13 00:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-05-13 00:15:45] INFO root fetch - processPackages [fnschool]: New version: [20240513.546.54] Old Version: [20240513.518.24]
+[2024-05-13 00:15:45] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/fd/b4/5c91678cd471e95d6ae57250e3b6ce58216a4bd52116dfeff78764fc7205/fnschool-20240513.518.24.tar.gz
+[2024-05-13 00:15:45] WARNING root fetch - processPackages [visual-debugger]: Skipping, unable to determine old version
+[2024-05-13 00:15:45] INFO root fetch - main [MainThread]: End processing [visual-debugger] error
+[2024-05-13 00:15:45] WARNING root fetch - processPackages [gentlemensz]: Skipping, unable to determine old version
+[2024-05-13 00:15:45] INFO root fetch - main [MainThread]: End processing [gentlemensz] error
+[2024-05-13 00:15:46] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/79/ae/4fcc7b7d2b78c3786619f48912f8bfad6f3b87d329f9e28f14e8f643ed6f/fnschool-20240513.546.54.tar.gz
+[2024-05-13 00:15:46] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-13 00:15:46] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240513.518.24.tar.gz tmp/fnschool-20240513.546.54.tar.gz --markdown 20240513/f/fnschool/20240513.518.24-20240513.546.54/README.md --exclude *.pyd
+[2024-05-13 00:15:46] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.518.24.tar.gz]
+[2024-05-13 00:15:46] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.546.54.tar.gz]
+[2024-05-13 00:15:46] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-13 00:15:46] INFO root fetch - main [MainThread]: Store serial: [23174412]
