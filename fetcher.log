@@ -91,3 +91,30 @@
 [2024-05-13 00:07:08] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
 [2024-05-13 00:07:08] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
 [2024-05-13 00:07:08] INFO root fetch - main [MainThread]: Store serial: [23174360]
+[2024-05-13 00:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174360]
+[2024-05-13 00:09:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echordpost
+[2024-05-13 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbmanager
+[2024-05-13 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verbalityz
+[2024-05-13 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hot-import
+[2024-05-13 00:09:16] INFO root fetch - processPackages [echordpost]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 00:09:16] INFO root fetch - processPackages [echordpost]: Downloading https://files.pythonhosted.org/packages/30/b4/1b707c792b22e3080405f89f7eecc546f469344eca81053e030061fdba44/echordpost-0.1.1.tar.gz
+[2024-05-13 00:09:16] INFO root fetch - processPackages [hot-import]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-13 00:09:16] WARNING root fetch - processPackages [verbalityz]: Skipping, unable to determine old version
+[2024-05-13 00:09:16] INFO root fetch - main [MainThread]: End processing [verbalityz] error
+[2024-05-13 00:09:16] WARNING root fetch - processPackages [adbmanager]: Skipping, unable to determine old version
+[2024-05-13 00:09:16] INFO root fetch - main [MainThread]: End processing [adbmanager] error
+[2024-05-13 00:09:16] INFO root fetch - processPackages [hot-import]: Downloading https://files.pythonhosted.org/packages/22/56/81715f8671724c8ad2130c0d9aa9f18f2de5a8f99dcb8ad06dbf4958bb96/hot-import-2.0.0.tar.gz
+[2024-05-13 00:09:16] INFO root fetch - processPackages [echordpost]: Downloading https://files.pythonhosted.org/packages/74/cf/2be239467f8ce3034056159320f12f55c8487a2fce8806d023fa06bf2874/echordpost-0.1.2.tar.gz
+[2024-05-13 00:09:17] INFO root fetch - processPackages [echordpost]: executing diffoscope
+[2024-05-13 00:09:17] INFO root fetch - processPackages [echordpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echordpost-0.1.1.tar.gz tmp/echordpost-0.1.2.tar.gz --markdown 20240513/e/echordpost/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 00:09:17] INFO root fetch - processPackages [hot-import]: Downloading https://files.pythonhosted.org/packages/f9/d2/6a4c9c882033ac33977d3b26e8e349833d01eaaad2b6196093e28f127a79/hot-import-3.0.0.tar.gz
+[2024-05-13 00:09:17] INFO root fetch - processPackages [hot-import]: executing diffoscope
+[2024-05-13 00:09:17] INFO root fetch - processPackages [hot-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot-import-2.0.0.tar.gz tmp/hot-import-3.0.0.tar.gz --markdown 20240513/h/hot-import/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-13 00:09:17] INFO root fetch - processPackages [echordpost]: Remove: archive file [/home/abi/fetcher/tmp/echordpost-0.1.1.tar.gz]
+[2024-05-13 00:09:17] INFO root fetch - processPackages [echordpost]: Remove: archive file [/home/abi/fetcher/tmp/echordpost-0.1.2.tar.gz]
+[2024-05-13 00:09:17] INFO root fetch - main [MainThread]: End processing [echordpost]: success
+[2024-05-13 00:09:17] INFO root fetch - processPackages [hot-import]: Remove: archive file [/home/abi/fetcher/tmp/hot-import-2.0.0.tar.gz]
+[2024-05-13 00:09:17] INFO root fetch - processPackages [hot-import]: Remove: archive file [/home/abi/fetcher/tmp/hot-import-3.0.0.tar.gz]
+[2024-05-13 00:09:17] INFO root fetch - main [MainThread]: End processing [hot-import]: success
+[2024-05-13 00:09:17] INFO root fetch - main [MainThread]: Store serial: [23174376]
