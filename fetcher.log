@@ -118,3 +118,18 @@
 [2024-05-13 00:09:17] INFO root fetch - processPackages [hot-import]: Remove: archive file [/home/abi/fetcher/tmp/hot-import-3.0.0.tar.gz]
 [2024-05-13 00:09:17] INFO root fetch - main [MainThread]: End processing [hot-import]: success
 [2024-05-13 00:09:17] INFO root fetch - main [MainThread]: Store serial: [23174376]
+[2024-05-13 00:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174376]
+[2024-05-13 00:11:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 00:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goyimz
+[2024-05-13 00:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wikipya
+[2024-05-13 00:11:26] WARNING root fetch - processPackages [goyimz]: Skipping, unable to determine old version
+[2024-05-13 00:11:26] INFO root fetch - main [MainThread]: End processing [goyimz] error
+[2024-05-13 00:11:26] INFO root fetch - processPackages [wikipya]: New version: [4.0.8] Old Version: [4.0.7]
+[2024-05-13 00:11:26] INFO root fetch - processPackages [wikipya]: Downloading https://files.pythonhosted.org/packages/b5/8a/049e7881cd160caf5b3a57e2bb652a64c003bb993f6b0d677907d5c849de/wikipya-4.0.7.tar.gz
+[2024-05-13 00:11:26] INFO root fetch - processPackages [wikipya]: Downloading https://files.pythonhosted.org/packages/34/3f/b75f0f1c3e3d3e3bad09e8f7849a6a1aee233a71b000007619fed0fa9c44/wikipya-4.0.8.tar.gz
+[2024-05-13 00:11:26] INFO root fetch - processPackages [wikipya]: executing diffoscope
+[2024-05-13 00:11:26] INFO root fetch - processPackages [wikipya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipya-4.0.7.tar.gz tmp/wikipya-4.0.8.tar.gz --markdown 20240513/w/wikipya/4.0.7-4.0.8/README.md --exclude *.pyd
+[2024-05-13 00:11:27] INFO root fetch - processPackages [wikipya]: Remove: archive file [/home/abi/fetcher/tmp/wikipya-4.0.7.tar.gz]
+[2024-05-13 00:11:27] INFO root fetch - processPackages [wikipya]: Remove: archive file [/home/abi/fetcher/tmp/wikipya-4.0.8.tar.gz]
+[2024-05-13 00:11:27] INFO root fetch - main [MainThread]: End processing [wikipya]: success
+[2024-05-13 00:11:27] INFO root fetch - main [MainThread]: Store serial: [23174384]
