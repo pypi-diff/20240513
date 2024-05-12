@@ -229,3 +229,12 @@
 [2024-05-13 00:20:06] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-1.2.0.tar.gz]
 [2024-05-13 00:20:06] INFO root fetch - main [MainThread]: End processing [tenduke-scale]: success
 [2024-05-13 00:20:06] INFO root fetch - main [MainThread]: Store serial: [23174440]
+[2024-05-13 00:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174440]
+[2024-05-13 00:22:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btledstrip
+[2024-05-13 00:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freyrz
+[2024-05-13 00:22:15] WARNING root fetch - processPackages [btledstrip]: Skipping, unable to determine old version
+[2024-05-13 00:22:15] INFO root fetch - main [MainThread]: End processing [btledstrip] error
+[2024-05-13 00:22:15] WARNING root fetch - processPackages [freyrz]: Skipping, unable to determine old version
+[2024-05-13 00:22:15] INFO root fetch - main [MainThread]: End processing [freyrz] error
+[2024-05-13 00:22:15] INFO root fetch - main [MainThread]: Store serial: [23174449]
