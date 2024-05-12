@@ -993,3 +993,36 @@
 [2024-05-13 01:38:46] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.4-py3-none-any.whl.zip]
 [2024-05-13 01:38:46] INFO root fetch - main [MainThread]: End processing [pymrm]: success
 [2024-05-13 01:38:46] INFO root fetch - main [MainThread]: Store serial: [23174814]
+[2024-05-13 01:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174814]
+[2024-05-13 01:40:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 01:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzchatbot
+[2024-05-13 01:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jamstats
+[2024-05-13 01:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leachedz
+[2024-05-13 01:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twiner
+[2024-05-13 01:40:55] INFO root fetch - processPackages [jzchatbot]: New version: [59.83.97] Old Version: [59.83.96]
+[2024-05-13 01:40:55] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/4c/b2/3a93ffefbd6f355dda289aeba8384c50c1edf86c939df7287e1c39fb0479/jzchatbot-59.83.96.tar.gz
+[2024-05-13 01:40:55] INFO root fetch - processPackages [jamstats]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-13 01:40:55] WARNING root fetch - processPackages [leachedz]: Skipping, unable to determine old version
+[2024-05-13 01:40:55] INFO root fetch - main [MainThread]: End processing [leachedz] error
+[2024-05-13 01:40:55] INFO root fetch - processPackages [twiner]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-13 01:40:55] INFO root fetch - processPackages [jamstats]: Downloading https://files.pythonhosted.org/packages/4b/6f/64e371a5a131c544f4e62e943736553ae3581183de6276a19666ddf66154/jamstats-1.4.8.tar.gz
+[2024-05-13 01:40:56] INFO root fetch - processPackages [twiner]: Downloading https://files.pythonhosted.org/packages/36/4d/b8c9136621dec59d346141a10688703fc6fc8bdb9601f8c896de14bec54a/twiner-0.2.1.tar.gz
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/aa/b3/0442e0e472d040de364c01aaa2b4a8a55a10cf55e991fe68782b39950e68/jzchatbot-59.83.97.tar.gz
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.96.tar.gz tmp/jzchatbot-59.83.97.tar.gz --markdown 20240513/j/jzchatbot/59.83.96-59.83.97/README.md --exclude *.pyd
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jamstats]: Downloading https://files.pythonhosted.org/packages/ae/51/2d4536e2671cf31c8a977eca57696f8b3e095fa62b99932542fb140dc5e9/jamstats-1.4.9.tar.gz
+[2024-05-13 01:40:56] INFO root fetch - processPackages [twiner]: Downloading https://files.pythonhosted.org/packages/3f/7a/08e90a2c7c93e3edf3feff646ce5a3a2581e736751c81f2c9479c5ace6fa/twiner-0.3.0.tar.gz
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jamstats]: executing diffoscope
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jamstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamstats-1.4.8.tar.gz tmp/jamstats-1.4.9.tar.gz --markdown 20240513/j/jamstats/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.96.tar.gz]
+[2024-05-13 01:40:56] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.97.tar.gz]
+[2024-05-13 01:40:56] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-13 01:40:56] INFO root fetch - processPackages [twiner]: executing diffoscope
+[2024-05-13 01:40:56] INFO root fetch - processPackages [twiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twiner-0.2.1.tar.gz tmp/twiner-0.3.0.tar.gz --markdown 20240513/t/twiner/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-13 01:40:57] INFO root fetch - processPackages [jamstats]: Remove: archive file [/home/abi/fetcher/tmp/jamstats-1.4.8.tar.gz]
+[2024-05-13 01:40:57] INFO root fetch - processPackages [jamstats]: Remove: archive file [/home/abi/fetcher/tmp/jamstats-1.4.9.tar.gz]
+[2024-05-13 01:40:57] INFO root fetch - main [MainThread]: End processing [jamstats]: success
+[2024-05-13 01:40:57] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.2.1.tar.gz]
+[2024-05-13 01:40:57] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.3.0.tar.gz]
+[2024-05-13 01:40:57] INFO root fetch - main [MainThread]: End processing [twiner]: success
+[2024-05-13 01:40:57] INFO root fetch - main [MainThread]: Store serial: [23174823]
