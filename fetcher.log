@@ -16,3 +16,18 @@
 [2024-05-13 00:00:38] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.158.tar.gz]
 [2024-05-13 00:00:38] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
 [2024-05-13 00:00:38] INFO root fetch - main [MainThread]: Store serial: [23174323]
+[2024-05-13 00:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174323]
+[2024-05-13 00:02:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 00:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: retell-sdk
+[2024-05-13 00:02:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: router-movistar
+[2024-05-13 00:02:47] INFO root fetch - processPackages [retell-sdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-13 00:02:47] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/e1/53/f375ee017875b3c24fc03d377dc5f55fc4f3759c3ecd37e3c7fcb29192ff/retell_sdk-3.8.0.tar.gz
+[2024-05-13 00:02:47] WARNING root fetch - processPackages [router-movistar]: Skipping, unable to determine old version
+[2024-05-13 00:02:47] INFO root fetch - main [MainThread]: End processing [router-movistar] error
+[2024-05-13 00:02:47] INFO root fetch - processPackages [retell-sdk]: Downloading https://files.pythonhosted.org/packages/75/b5/15a8ee4ce52c9f786d1bcf55ee0681a2f4e137e3c72085347dd5733e6ff0/retell_sdk-3.9.0.tar.gz
+[2024-05-13 00:02:47] INFO root fetch - processPackages [retell-sdk]: executing diffoscope
+[2024-05-13 00:02:47] INFO root fetch - processPackages [retell-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retell_sdk-3.8.0.tar.gz tmp/retell_sdk-3.9.0.tar.gz --markdown 20240513/r/retell-sdk/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-13 00:02:48] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.8.0.tar.gz]
+[2024-05-13 00:02:48] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.9.0.tar.gz]
+[2024-05-13 00:02:48] INFO root fetch - main [MainThread]: End processing [retell-sdk]: success
+[2024-05-13 00:02:48] INFO root fetch - main [MainThread]: Store serial: [23174331]
