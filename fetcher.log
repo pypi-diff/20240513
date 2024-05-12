@@ -1122,3 +1122,41 @@
 [2024-05-13 01:49:59] INFO root fetch - processPackages [mesher]: Remove: archive file [/home/abi/fetcher/tmp/mesher-2.1.5.tar.gz]
 [2024-05-13 01:49:59] INFO root fetch - main [MainThread]: End processing [mesher]: success
 [2024-05-13 01:49:59] INFO root fetch - main [MainThread]: Store serial: [23174860]
+[2024-05-13 01:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174860]
+[2024-05-13 01:52:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytilpack
+[2024-05-13 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Riskfolio-Lib
+[2024-05-13 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orgalz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mb-pytorch
+[2024-05-13 01:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-chargebee
+[2024-05-13 01:52:10] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 01:52:10] INFO root fetch - processPackages [pytilpack]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-13 01:52:10] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [Riskfolio-Lib]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-13 01:52:10] WARNING root fetch - processPackages [orgalz]: Skipping, unable to determine old version
+[2024-05-13 01:52:10] INFO root fetch - main [MainThread]: End processing [orgalz] error
+[2024-05-13 01:52:10] INFO root fetch - processPackages [airbyte-source-chargebee]: New version: [0.5.1.dev202405122351] Old Version: [0.5.1]
+[2024-05-13 01:52:10] INFO root fetch - processPackages [pytilpack]: Downloading https://files.pythonhosted.org/packages/b6/34/652de762559a3358067373ade3e5d22a64f14443952b00c651d57ab9bda8/pytilpack-0.3.0.tar.gz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [Riskfolio-Lib]: Downloading https://files.pythonhosted.org/packages/81/8a/0b4252b10d1e1a652b0b4dd293b8fbe82007c5f5a0c37ddb4ef5f0e77a8d/Riskfolio-Lib-6.1.0.tar.gz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [pytilpack]: Downloading https://files.pythonhosted.org/packages/9b/33/a44911512c87cc07e92e0dffb1b0471954cbcd301eaf80ae1c2dee855ad3/pytilpack-0.4.0.tar.gz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [airbyte-source-chargebee]: Downloading https://files.pythonhosted.org/packages/5f/a8/b84d491124df97bd8fafab934ebd2d42290c74b4fc1c128df26129028848/airbyte_source_chargebee-0.5.1.tar.gz
+[2024-05-13 01:52:10] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 01:52:10] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 01:52:10] INFO root fetch - processPackages [pytilpack]: executing diffoscope
+[2024-05-13 01:52:10] INFO root fetch - processPackages [pytilpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytilpack-0.3.0.tar.gz tmp/pytilpack-0.4.0.tar.gz --markdown 20240513/p/pytilpack/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-13 01:52:10] ERROR root fetch - processPackages [airbyte-source-chargebee]: Unable to fetch info: No such project/version 'airbyte-source-chargebee' 0.5.1.dev202405122351
+[2024-05-13 01:52:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-chargebee] error
+[2024-05-13 01:52:11] INFO root fetch - processPackages [Riskfolio-Lib]: Downloading https://files.pythonhosted.org/packages/62/e9/492562551290559a71b3f9ae21d88209471c3253caee1d76d12d270c0499/Riskfolio-Lib-6.1.1.tar.gz
+[2024-05-13 01:52:11] INFO root fetch - processPackages [pytilpack]: Remove: archive file [/home/abi/fetcher/tmp/pytilpack-0.3.0.tar.gz]
+[2024-05-13 01:52:11] INFO root fetch - processPackages [pytilpack]: Remove: archive file [/home/abi/fetcher/tmp/pytilpack-0.4.0.tar.gz]
+[2024-05-13 01:52:11] INFO root fetch - main [MainThread]: End processing [pytilpack]: success
+[2024-05-13 01:52:11] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 01:52:11] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 01:52:11] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 01:52:11] INFO root fetch - processPackages [Riskfolio-Lib]: executing diffoscope
+[2024-05-13 01:52:11] INFO root fetch - processPackages [Riskfolio-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Riskfolio-Lib-6.1.0.tar.gz tmp/Riskfolio-Lib-6.1.1.tar.gz --markdown 20240513/R/Riskfolio-Lib/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-13 01:52:18] INFO root fetch - processPackages [Riskfolio-Lib]: Remove: archive file [/home/abi/fetcher/tmp/Riskfolio-Lib-6.1.0.tar.gz]
+[2024-05-13 01:52:18] INFO root fetch - processPackages [Riskfolio-Lib]: Remove: archive file [/home/abi/fetcher/tmp/Riskfolio-Lib-6.1.1.tar.gz]
+[2024-05-13 01:52:18] INFO root fetch - main [MainThread]: End processing [Riskfolio-Lib]: success
+[2024-05-13 01:52:18] INFO root fetch - main [MainThread]: Store serial: [23174900]
