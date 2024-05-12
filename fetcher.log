@@ -352,3 +352,30 @@
 [2024-05-13 00:33:03] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
 [2024-05-13 00:33:03] INFO root fetch - main [MainThread]: End processing [report-creator]: success
 [2024-05-13 00:33:03] INFO root fetch - main [MainThread]: Store serial: [23174499]
+[2024-05-13 00:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174499]
+[2024-05-13 00:35:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quacc
+[2024-05-13 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dj-dynamic-settings
+[2024-05-13 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: incitedz
+[2024-05-13 00:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aka-data-prep
+[2024-05-13 00:35:12] WARNING root fetch - processPackages [aka-data-prep]: Skipping, unable to determine old version
+[2024-05-13 00:35:12] INFO root fetch - main [MainThread]: End processing [aka-data-prep] error
+[2024-05-13 00:35:12] WARNING root fetch - processPackages [incitedz]: Skipping, unable to determine old version
+[2024-05-13 00:35:12] INFO root fetch - main [MainThread]: End processing [incitedz] error
+[2024-05-13 00:35:12] INFO root fetch - processPackages [quacc]: New version: [0.8.0] Old Version: [0.7.8]
+[2024-05-13 00:35:12] INFO root fetch - processPackages [dj-dynamic-settings]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-13 00:35:12] INFO root fetch - processPackages [quacc]: Downloading https://files.pythonhosted.org/packages/35/e7/7793f5d71db2b09326753b18ee3cb3f4436acf3178bdf300f18c6031a6d7/quacc-0.7.8.tar.gz
+[2024-05-13 00:35:12] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/85/79/3184981e394f6438ea82427824d14545688f97a3c42744aa88dae59b1b79/dj-dynamic-settings-0.2.5.tar.gz
+[2024-05-13 00:35:12] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/6f/3d/6d813de87e595469a8a93323bca2c25f84eaaf1332760546f9532c56c38b/dj-dynamic-settings-0.2.6.tar.gz
+[2024-05-13 00:35:13] INFO root fetch - processPackages [quacc]: Downloading https://files.pythonhosted.org/packages/46/9d/134b5e2b3e4b80ebaea26b07017c9825f1fcde64e5ab5aed18e947c7ea31/quacc-0.8.0.tar.gz
+[2024-05-13 00:35:13] INFO root fetch - processPackages [dj-dynamic-settings]: executing diffoscope
+[2024-05-13 00:35:13] INFO root fetch - processPackages [dj-dynamic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-dynamic-settings-0.2.5.tar.gz tmp/dj-dynamic-settings-0.2.6.tar.gz --markdown 20240513/d/dj-dynamic-settings/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-13 00:35:13] INFO root fetch - processPackages [quacc]: executing diffoscope
+[2024-05-13 00:35:13] INFO root fetch - processPackages [quacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quacc-0.7.8.tar.gz tmp/quacc-0.8.0.tar.gz --markdown 20240513/q/quacc/0.7.8-0.8.0/README.md --exclude *.pyd
+[2024-05-13 00:35:13] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.5.tar.gz]
+[2024-05-13 00:35:13] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.6.tar.gz]
+[2024-05-13 00:35:13] INFO root fetch - main [MainThread]: End processing [dj-dynamic-settings]: success
+[2024-05-13 00:35:13] INFO root fetch - processPackages [quacc]: Remove: archive file [/home/abi/fetcher/tmp/quacc-0.7.8.tar.gz]
+[2024-05-13 00:35:13] INFO root fetch - processPackages [quacc]: Remove: archive file [/home/abi/fetcher/tmp/quacc-0.8.0.tar.gz]
+[2024-05-13 00:35:13] INFO root fetch - main [MainThread]: End processing [quacc]: success
+[2024-05-13 00:35:13] INFO root fetch - main [MainThread]: Store serial: [23174510]
