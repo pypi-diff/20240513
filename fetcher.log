@@ -58,3 +58,36 @@
 [2024-05-13 00:04:57] INFO root fetch - processPackages [PayOpt]: Remove: archive file [/home/abi/fetcher/tmp/payopt-1.0.2.tar.gz]
 [2024-05-13 00:04:57] INFO root fetch - main [MainThread]: End processing [PayOpt]: success
 [2024-05-13 00:04:57] INFO root fetch - main [MainThread]: Store serial: [23174345]
+[2024-05-13 00:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174345]
+[2024-05-13 00:07:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: router-movistar
+[2024-05-13 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemeru
+[2024-05-13 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2024-05-13 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: understar
+[2024-05-13 00:07:06] WARNING root fetch - processPackages [router-movistar]: Skipping, unable to determine old version
+[2024-05-13 00:07:06] INFO root fetch - main [MainThread]: End processing [router-movistar] error
+[2024-05-13 00:07:06] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-05-13 00:07:06] INFO root fetch - processPackages [understar]: New version: [3.0.0] Old Version: [2.50]
+[2024-05-13 00:07:06] INFO root fetch - processPackages [pymemeru]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 00:07:06] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-05-13 00:07:06] INFO root fetch - processPackages [pymemeru]: Downloading https://files.pythonhosted.org/packages/4b/9b/8a9759131af7e60927b9689a8c2bafbcfd574b6c8135007d2350b462cce0/pymemeru-0.2.1.tar.gz
+[2024-05-13 00:07:06] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/5f/e4/afbf277fa196e1e603f5645e4654f3c71a620f4560805484bfa7edd3da8a/understar-2.50.tar.gz
+[2024-05-13 00:07:06] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-05-13 00:07:06] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-05-13 00:07:06] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240513/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-05-13 00:07:06] INFO root fetch - processPackages [pymemeru]: Downloading https://files.pythonhosted.org/packages/ef/45/bd585f765610a3d26f7a6cdc569e9b6ffd2c8832dc0aa1f21379660e1021/pymemeru-0.2.2.tar.gz
+[2024-05-13 00:07:06] INFO root fetch - processPackages [understar]: Downloading https://files.pythonhosted.org/packages/de/f7/d153faefc32cee1dc8d2af6e5326a29d4bb74e197db6ac41ea4a2ea6bfc3/understar-3.0.0.tar.gz
+[2024-05-13 00:07:07] INFO root fetch - processPackages [pymemeru]: executing diffoscope
+[2024-05-13 00:07:07] INFO root fetch - processPackages [pymemeru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemeru-0.2.1.tar.gz tmp/pymemeru-0.2.2.tar.gz --markdown 20240513/p/pymemeru/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 00:07:07] INFO root fetch - processPackages [understar]: executing diffoscope
+[2024-05-13 00:07:07] INFO root fetch - processPackages [understar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/understar-2.50.tar.gz tmp/understar-3.0.0.tar.gz --markdown 20240513/u/understar/2.50-3.0.0/README.md --exclude *.pyd
+[2024-05-13 00:07:07] INFO root fetch - processPackages [pymemeru]: Remove: archive file [/home/abi/fetcher/tmp/pymemeru-0.2.1.tar.gz]
+[2024-05-13 00:07:07] INFO root fetch - processPackages [pymemeru]: Remove: archive file [/home/abi/fetcher/tmp/pymemeru-0.2.2.tar.gz]
+[2024-05-13 00:07:07] INFO root fetch - main [MainThread]: End processing [pymemeru]: success
+[2024-05-13 00:07:07] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-2.50.tar.gz]
+[2024-05-13 00:07:07] INFO root fetch - processPackages [understar]: Remove: archive file [/home/abi/fetcher/tmp/understar-3.0.0.tar.gz]
+[2024-05-13 00:07:07] INFO root fetch - main [MainThread]: End processing [understar]: success
+[2024-05-13 00:07:08] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-05-13 00:07:08] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-05-13 00:07:08] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-05-13 00:07:08] INFO root fetch - main [MainThread]: Store serial: [23174360]
