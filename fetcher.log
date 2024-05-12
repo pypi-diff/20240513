@@ -184,3 +184,21 @@
 [2024-05-13 00:15:46] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.546.54.tar.gz]
 [2024-05-13 00:15:46] INFO root fetch - main [MainThread]: End processing [fnschool]: success
 [2024-05-13 00:15:46] INFO root fetch - main [MainThread]: Store serial: [23174412]
+[2024-05-13 00:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174412]
+[2024-05-13 00:17:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypervigilantnessz
+[2024-05-13 00:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transcoders-slim
+[2024-05-13 00:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blar-graph
+[2024-05-13 00:17:55] WARNING root fetch - processPackages [hypervigilantnessz]: Skipping, unable to determine old version
+[2024-05-13 00:17:55] INFO root fetch - main [MainThread]: End processing [hypervigilantnessz] error
+[2024-05-13 00:17:55] INFO root fetch - processPackages [blar-graph]: New version: [0.0.9a0] Old Version: [0.0.8]
+[2024-05-13 00:17:55] WARNING root fetch - processPackages [transcoders-slim]: Skipping, unable to determine old version
+[2024-05-13 00:17:55] INFO root fetch - main [MainThread]: End processing [transcoders-slim] error
+[2024-05-13 00:17:55] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/43/c9/222901972a41b1e279d8429d4441be683af4bee8ec7b3181bef2c5079833/blar_graph-0.0.8.tar.gz
+[2024-05-13 00:17:55] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/1d/ed/d05270d9939f1168d4cd9cef98cf914164b71fdce1d378a959f3f946fa16/blar_graph-0.0.9a0.tar.gz
+[2024-05-13 00:17:56] INFO root fetch - processPackages [blar-graph]: executing diffoscope
+[2024-05-13 00:17:56] INFO root fetch - processPackages [blar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blar_graph-0.0.8.tar.gz tmp/blar_graph-0.0.9a0.tar.gz --markdown 20240513/b/blar-graph/0.0.8-0.0.9a0/README.md --exclude *.pyd
+[2024-05-13 00:17:56] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.8.tar.gz]
+[2024-05-13 00:17:56] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
+[2024-05-13 00:17:56] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
+[2024-05-13 00:17:56] INFO root fetch - main [MainThread]: Store serial: [23174424]
