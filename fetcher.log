@@ -421,3 +421,54 @@
 [2024-05-13 00:39:33] INFO root fetch - processPackages [aioclock]: Remove: archive file [/home/abi/fetcher/tmp/aioclock-0.0.7.tar.gz]
 [2024-05-13 00:39:33] INFO root fetch - main [MainThread]: End processing [aioclock]: success
 [2024-05-13 00:39:33] INFO root fetch - main [MainThread]: Store serial: [23174531]
+[2024-05-13 00:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174531]
+[2024-05-13 00:41:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 00:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adbmanager
+[2024-05-13 00:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Consolidate-csv-files-from-gcs
+[2024-05-13 00:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transcoders-slim
+[2024-05-13 00:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rattail
+[2024-05-13 00:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mstool
+[2024-05-13 00:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tailbone
+[2024-05-13 00:41:41] WARNING root fetch - processPackages [transcoders-slim]: Skipping, unable to determine old version
+[2024-05-13 00:41:41] INFO root fetch - main [MainThread]: End processing [transcoders-slim] error
+[2024-05-13 00:41:41] INFO root fetch - processPackages [adbmanager]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 00:41:41] INFO root fetch - processPackages [mstool]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-13 00:41:41] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: New version: [0.1] Old Version: [0.0]
+[2024-05-13 00:41:41] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-13 00:41:41] INFO root fetch - processPackages [Tailbone]: New version: [0.9.96] Old Version: [0.9.95]
+[2024-05-13 00:41:42] INFO root fetch - processPackages [adbmanager]: Downloading https://files.pythonhosted.org/packages/98/4b/cbe7a46e1f4a8f0fb929cac37511c5b1f5ab271a8208ab9b06da2e05e769/adbmanager-0.0.1.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: Downloading https://files.pythonhosted.org/packages/e4/ee/527f21ff3eafeaf8bded065519e29971847c05511b1383e9aeb5eeeb94e8/Consolidate_csv_files_from_gcs-0.0.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d3/f5/6281835322a9736c1e981d64eaedbd9719a7822f9b959938a9e431dfae22/tailbone-0.9.95.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [mstool]: Downloading https://files.pythonhosted.org/packages/c2/d4/9b1a188b3dcf9d1e535e6f2274825f832ba0d6c30949b13987768430451e/mstool-0.2.0.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [adbmanager]: Downloading https://files.pythonhosted.org/packages/b8/40/c2e521c8897d9891d11aba34b678d4abd37c526e7254c95dfcbde6aa009c/adbmanager-0.0.2.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: Downloading https://files.pythonhosted.org/packages/1b/74/afd0166421023cf995bee44b78011f3c8476b245da6b09175d98d61c8b66/Consolidate_csv_files_from_gcs-0.1.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: executing diffoscope
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Consolidate_csv_files_from_gcs-0.0.tar.gz tmp/Consolidate_csv_files_from_gcs-0.1.tar.gz --markdown 20240513/C/Consolidate-csv-files-from-gcs/0.0-0.1/README.md --exclude *.pyd
+[2024-05-13 00:41:42] INFO root fetch - processPackages [adbmanager]: executing diffoscope
+[2024-05-13 00:41:42] INFO root fetch - processPackages [adbmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbmanager-0.0.1.tar.gz tmp/adbmanager-0.0.2.tar.gz --markdown 20240513/a/adbmanager/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 00:41:42] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/40/48/d068d15e5c14b9048d5ffad6867d9353d33adf32a71b13b2a439ef5bdb17/tailbone-0.9.96.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2024-05-13 00:41:42] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20240513/r/rattail/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-13 00:41:42] INFO root fetch - processPackages [mstool]: Downloading https://files.pythonhosted.org/packages/6c/06/7b881b662ca52deae2deef0264404c7d406a636ce022be76908802567a16/mstool-0.3.0.tar.gz
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-05-13 00:41:42] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-0.9.95.tar.gz tmp/tailbone-0.9.96.tar.gz --markdown 20240513/T/Tailbone/0.9.95-0.9.96/README.md --exclude *.pyd
+[2024-05-13 00:41:43] INFO root fetch - processPackages [adbmanager]: Remove: archive file [/home/abi/fetcher/tmp/adbmanager-0.0.1.tar.gz]
+[2024-05-13 00:41:43] INFO root fetch - processPackages [adbmanager]: Remove: archive file [/home/abi/fetcher/tmp/adbmanager-0.0.2.tar.gz]
+[2024-05-13 00:41:43] INFO root fetch - main [MainThread]: End processing [adbmanager]: success
+[2024-05-13 00:41:43] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: Remove: archive file [/home/abi/fetcher/tmp/Consolidate_csv_files_from_gcs-0.0.tar.gz]
+[2024-05-13 00:41:43] INFO root fetch - processPackages [Consolidate-csv-files-from-gcs]: Remove: archive file [/home/abi/fetcher/tmp/Consolidate_csv_files_from_gcs-0.1.tar.gz]
+[2024-05-13 00:41:43] INFO root fetch - main [MainThread]: End processing [Consolidate-csv-files-from-gcs]: success
+[2024-05-13 00:41:43] INFO root fetch - processPackages [mstool]: executing diffoscope
+[2024-05-13 00:41:43] INFO root fetch - processPackages [mstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstool-0.2.0.tar.gz tmp/mstool-0.3.0.tar.gz --markdown 20240513/m/mstool/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-13 00:41:44] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2024-05-13 00:41:44] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2024-05-13 00:41:44] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2024-05-13 00:41:44] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.95.tar.gz]
+[2024-05-13 00:41:44] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.96.tar.gz]
+[2024-05-13 00:41:44] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-05-13 00:41:52] INFO root fetch - processPackages [mstool]: Remove: archive file [/home/abi/fetcher/tmp/mstool-0.2.0.tar.gz]
+[2024-05-13 00:41:52] INFO root fetch - processPackages [mstool]: Remove: archive file [/home/abi/fetcher/tmp/mstool-0.3.0.tar.gz]
+[2024-05-13 00:41:52] INFO root fetch - main [MainThread]: End processing [mstool]: success
+[2024-05-13 00:41:52] INFO root fetch - main [MainThread]: Store serial: [23174547]
