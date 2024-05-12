@@ -1,0 +1,18 @@
+[2024-05-13 00:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174312]
+[2024-05-13 00:00:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recopyz
+[2024-05-13 00:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcrutils
+[2024-05-13 00:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: outcriesz
+[2024-05-13 00:00:37] INFO root fetch - processPackages [tcrutils]: New version: [12.0.158] Old Version: [12.0.157]
+[2024-05-13 00:00:37] WARNING root fetch - processPackages [outcriesz]: Skipping, unable to determine old version
+[2024-05-13 00:00:37] INFO root fetch - main [MainThread]: End processing [outcriesz] error
+[2024-05-13 00:00:37] WARNING root fetch - processPackages [recopyz]: Skipping, unable to determine old version
+[2024-05-13 00:00:37] INFO root fetch - main [MainThread]: End processing [recopyz] error
+[2024-05-13 00:00:37] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/ad/54/a7cb44f31ededcbb8b7cfdc9b722e13d85104a62388e13a0035135920b08/tcrutils-12.0.157.tar.gz
+[2024-05-13 00:00:37] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/c8/8d/fd81eeccde090926fd2490108dbf3cc1e00c39ddf7b95f9a58d7126e44da/tcrutils-12.0.158.tar.gz
+[2024-05-13 00:00:38] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-13 00:00:38] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.157.tar.gz tmp/tcrutils-12.0.158.tar.gz --markdown 20240513/t/tcrutils/12.0.157-12.0.158/README.md --exclude *.pyd
+[2024-05-13 00:00:38] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.157.tar.gz]
+[2024-05-13 00:00:38] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.158.tar.gz]
+[2024-05-13 00:00:38] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-13 00:00:38] INFO root fetch - main [MainThread]: Store serial: [23174323]
