@@ -472,3 +472,27 @@
 [2024-05-13 00:41:52] INFO root fetch - processPackages [mstool]: Remove: archive file [/home/abi/fetcher/tmp/mstool-0.3.0.tar.gz]
 [2024-05-13 00:41:52] INFO root fetch - main [MainThread]: End processing [mstool]: success
 [2024-05-13 00:41:52] INFO root fetch - main [MainThread]: Store serial: [23174547]
+[2024-05-13 00:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174547]
+[2024-05-13 00:44:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annonition
+[2024-05-13 00:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dialysationz
+[2024-05-13 00:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tghtml
+[2024-05-13 00:44:01] INFO root fetch - processPackages [tghtml]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-13 00:44:01] INFO root fetch - processPackages [tghtml]: Downloading https://files.pythonhosted.org/packages/9a/cc/b570a5991ed3d819fcb95a982e65fc4773070291a1f7e90fbc0002c09c09/tghtml-1.1.5.tar.gz
+[2024-05-13 00:44:01] INFO root fetch - processPackages [annonition]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 00:44:01] WARNING root fetch - processPackages [dialysationz]: Skipping, unable to determine old version
+[2024-05-13 00:44:01] INFO root fetch - main [MainThread]: End processing [dialysationz] error
+[2024-05-13 00:44:01] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/73/34/277fe7c4a360aec514d38438f4715cd58768b3ae99e79d096d1e75bb56c0/annonition-0.0.2.tar.gz
+[2024-05-13 00:44:01] INFO root fetch - processPackages [tghtml]: Downloading https://files.pythonhosted.org/packages/e5/b6/703f42c8caa911be2af0ba6f96f085f35b995044220b82884da4c04ca1ea/tghtml-1.1.6.tar.gz
+[2024-05-13 00:44:01] INFO root fetch - processPackages [tghtml]: executing diffoscope
+[2024-05-13 00:44:01] INFO root fetch - processPackages [tghtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tghtml-1.1.5.tar.gz tmp/tghtml-1.1.6.tar.gz --markdown 20240513/t/tghtml/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-13 00:44:02] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/d0/0a/21ba00cd230c236c304719a78da24e0f51bbe9008d6ba172734eedef5987/annonition-0.0.3.tar.gz
+[2024-05-13 00:44:02] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-13 00:44:02] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.0.2.tar.gz tmp/annonition-0.0.3.tar.gz --markdown 20240513/a/annonition/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 00:44:02] INFO root fetch - processPackages [tghtml]: Remove: archive file [/home/abi/fetcher/tmp/tghtml-1.1.5.tar.gz]
+[2024-05-13 00:44:02] INFO root fetch - processPackages [tghtml]: Remove: archive file [/home/abi/fetcher/tmp/tghtml-1.1.6.tar.gz]
+[2024-05-13 00:44:02] INFO root fetch - main [MainThread]: End processing [tghtml]: success
+[2024-05-13 00:44:02] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.0.2.tar.gz]
+[2024-05-13 00:44:02] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.0.3.tar.gz]
+[2024-05-13 00:44:02] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-13 00:44:02] INFO root fetch - main [MainThread]: Store serial: [23174557]
