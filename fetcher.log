@@ -238,3 +238,30 @@
 [2024-05-13 00:22:15] WARNING root fetch - processPackages [freyrz]: Skipping, unable to determine old version
 [2024-05-13 00:22:15] INFO root fetch - main [MainThread]: End processing [freyrz] error
 [2024-05-13 00:22:15] INFO root fetch - main [MainThread]: Store serial: [23174449]
+[2024-05-13 00:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174449]
+[2024-05-13 00:24:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hplc-data-analysis
+[2024-05-13 00:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wild-code
+[2024-05-13 00:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wconsole-extractor
+[2024-05-13 00:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waviesz
+[2024-05-13 00:24:24] WARNING root fetch - processPackages [wconsole-extractor]: Skipping, unable to determine old version
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 00:24:24] INFO root fetch - main [MainThread]: End processing [wconsole-extractor] error
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: Downloading https://files.pythonhosted.org/packages/23/94/d7e140a46d7865bedfda0865baae2191e54094975795444de48ae27c5fa0/hplc_data_analysis-1.0.4.tar.gz
+[2024-05-13 00:24:24] WARNING root fetch - processPackages [waviesz]: Skipping, unable to determine old version
+[2024-05-13 00:24:24] INFO root fetch - main [MainThread]: End processing [waviesz] error
+[2024-05-13 00:24:24] INFO root fetch - processPackages [wild-code]: New version: [0.4.3] Old Version: [0.4.0]
+[2024-05-13 00:24:24] INFO root fetch - processPackages [wild-code]: Downloading https://files.pythonhosted.org/packages/2e/dc/8524c1f85ab1294990e1357e4173679924a6510030591b9ee92961e0c350/wild_code-0.4.0.tar.gz
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: Downloading https://files.pythonhosted.org/packages/c9/99/c3348232bed6845b82ba8625673a47b8dfcc264b9d479b0de3dcf4ca74f5/hplc_data_analysis-1.0.5.tar.gz
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: executing diffoscope
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hplc_data_analysis-1.0.4.tar.gz tmp/hplc_data_analysis-1.0.5.tar.gz --markdown 20240513/h/hplc-data-analysis/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 00:24:24] INFO root fetch - processPackages [wild-code]: Downloading https://files.pythonhosted.org/packages/c2/32/eeaeb9d4a2c00837c84ff11f64e004aaeac29e063a13c94cc1b58e9b87dd/wild_code-0.4.3.tar.gz
+[2024-05-13 00:24:24] INFO root fetch - processPackages [wild-code]: executing diffoscope
+[2024-05-13 00:24:24] INFO root fetch - processPackages [wild-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wild_code-0.4.0.tar.gz tmp/wild_code-0.4.3.tar.gz --markdown 20240513/w/wild-code/0.4.0-0.4.3/README.md --exclude *.pyd
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hplc_data_analysis-1.0.4.tar.gz]
+[2024-05-13 00:24:24] INFO root fetch - processPackages [hplc-data-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hplc_data_analysis-1.0.5.tar.gz]
+[2024-05-13 00:24:24] INFO root fetch - main [MainThread]: End processing [hplc-data-analysis]: success
+[2024-05-13 00:24:25] INFO root fetch - processPackages [wild-code]: Remove: archive file [/home/abi/fetcher/tmp/wild_code-0.4.0.tar.gz]
+[2024-05-13 00:24:25] INFO root fetch - processPackages [wild-code]: Remove: archive file [/home/abi/fetcher/tmp/wild_code-0.4.3.tar.gz]
+[2024-05-13 00:24:25] INFO root fetch - main [MainThread]: End processing [wild-code]: success
+[2024-05-13 00:24:25] INFO root fetch - main [MainThread]: Store serial: [23174462]
