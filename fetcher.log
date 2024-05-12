@@ -328,3 +328,27 @@
 [2024-05-13 00:30:54] WARNING root fetch - processPackages [lieusz]: Skipping, unable to determine old version
 [2024-05-13 00:30:54] INFO root fetch - main [MainThread]: End processing [lieusz] error
 [2024-05-13 00:30:54] INFO root fetch - main [MainThread]: Store serial: [23174489]
+[2024-05-13 00:32:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174489]
+[2024-05-13 00:33:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tghtml
+[2024-05-13 00:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aroyntz
+[2024-05-13 00:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: report-creator
+[2024-05-13 00:33:02] INFO root fetch - processPackages [tghtml]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-13 00:33:02] INFO root fetch - processPackages [tghtml]: Downloading https://files.pythonhosted.org/packages/6b/aa/bf8640618de515c5aaced63888c6174c73e3e0a0ec49eba26f2f369b2828/tghtml-1.1.4.tar.gz
+[2024-05-13 00:33:02] WARNING root fetch - processPackages [aroyntz]: Skipping, unable to determine old version
+[2024-05-13 00:33:02] INFO root fetch - main [MainThread]: End processing [aroyntz] error
+[2024-05-13 00:33:02] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 00:33:02] INFO root fetch - processPackages [tghtml]: Downloading https://files.pythonhosted.org/packages/9a/cc/b570a5991ed3d819fcb95a982e65fc4773070291a1f7e90fbc0002c09c09/tghtml-1.1.5.tar.gz
+[2024-05-13 00:33:02] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-05-13 00:33:03] INFO root fetch - processPackages [tghtml]: executing diffoscope
+[2024-05-13 00:33:03] INFO root fetch - processPackages [tghtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tghtml-1.1.4.tar.gz tmp/tghtml-1.1.5.tar.gz --markdown 20240513/t/tghtml/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-13 00:33:03] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-05-13 00:33:03] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-05-13 00:33:03] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240513/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 00:33:03] INFO root fetch - processPackages [tghtml]: Remove: archive file [/home/abi/fetcher/tmp/tghtml-1.1.4.tar.gz]
+[2024-05-13 00:33:03] INFO root fetch - processPackages [tghtml]: Remove: archive file [/home/abi/fetcher/tmp/tghtml-1.1.5.tar.gz]
+[2024-05-13 00:33:03] INFO root fetch - main [MainThread]: End processing [tghtml]: success
+[2024-05-13 00:33:03] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-05-13 00:33:03] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-05-13 00:33:03] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-05-13 00:33:03] INFO root fetch - main [MainThread]: Store serial: [23174499]
