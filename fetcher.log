@@ -1080,3 +1080,45 @@
 [2024-05-13 01:47:25] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
 [2024-05-13 01:47:25] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
 [2024-05-13 01:47:25] INFO root fetch - main [MainThread]: Store serial: [23174845]
+[2024-05-13 01:49:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174845]
+[2024-05-13 01:49:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 01:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2024-05-13 01:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reinauguratedz
+[2024-05-13 01:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdbt
+[2024-05-13 01:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyboiler-anonoei
+[2024-05-13 01:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mesher
+[2024-05-13 01:49:33] INFO root fetch - processPackages [cdbt]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-13 01:49:33] INFO root fetch - processPackages [pyboiler-anonoei]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 01:49:33] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 01:49:33] WARNING root fetch - processPackages [reinauguratedz]: Skipping, unable to determine old version
+[2024-05-13 01:49:33] INFO root fetch - main [MainThread]: End processing [reinauguratedz] error
+[2024-05-13 01:49:33] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/35/3c/e819d416993f780f2b538effa95914021ad659e1595dbba299170c8ccbc1/cdbt-0.1.1.tar.gz
+[2024-05-13 01:49:33] INFO root fetch - processPackages [pyboiler-anonoei]: Downloading https://files.pythonhosted.org/packages/cb/ea/216d363dc7c108adc8a8ddcfb2dd626ddbc7d655254ed94cc1c2769526dc/pyboiler_anonoei-0.0.3.tar.gz
+[2024-05-13 01:49:33] INFO root fetch - processPackages [mesher]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-13 01:49:33] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mesher]: Downloading https://files.pythonhosted.org/packages/38/ad/f2059d764c89eca4793110e32ea65c4c902bd67bbc97804efa8638600c94/mesher-2.1.4.tar.gz
+[2024-05-13 01:49:34] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/53/93/1025eedd9bbd602bc7895734d4ba3df0e069868a0a35e58981bff4e71531/cdbt-0.1.3.tar.gz
+[2024-05-13 01:49:34] INFO root fetch - processPackages [pyboiler-anonoei]: Downloading https://files.pythonhosted.org/packages/80/b7/b27f3205bdc39536347553f0ebf46fe559ddef8ef5656b53baf31304e1a1/pyboiler_anonoei-0.0.4.tar.gz
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 01:49:34] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-13 01:49:34] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.1.1.tar.gz tmp/cdbt-0.1.3.tar.gz --markdown 20240513/c/cdbt/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-13 01:49:34] INFO root fetch - processPackages [pyboiler-anonoei]: executing diffoscope
+[2024-05-13 01:49:34] INFO root fetch - processPackages [pyboiler-anonoei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyboiler_anonoei-0.0.3.tar.gz tmp/pyboiler_anonoei-0.0.4.tar.gz --markdown 20240513/p/pyboiler-anonoei/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mesher]: Downloading https://files.pythonhosted.org/packages/c7/81/c6d30573805baeb1e95566f48db63e4664bd5a901f598c657117d21eab21/mesher-2.1.5.tar.gz
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mesher]: executing diffoscope
+[2024-05-13 01:49:34] INFO root fetch - processPackages [mesher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesher-2.1.4.tar.gz tmp/mesher-2.1.5.tar.gz --markdown 20240513/m/mesher/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-13 01:49:34] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.1.1.tar.gz]
+[2024-05-13 01:49:34] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.1.3.tar.gz]
+[2024-05-13 01:49:34] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-13 01:49:35] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 01:49:35] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 01:49:35] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 01:49:35] INFO root fetch - processPackages [pyboiler-anonoei]: Remove: archive file [/home/abi/fetcher/tmp/pyboiler_anonoei-0.0.3.tar.gz]
+[2024-05-13 01:49:35] INFO root fetch - processPackages [pyboiler-anonoei]: Remove: archive file [/home/abi/fetcher/tmp/pyboiler_anonoei-0.0.4.tar.gz]
+[2024-05-13 01:49:35] INFO root fetch - main [MainThread]: End processing [pyboiler-anonoei]: success
+[2024-05-13 01:49:59] INFO root fetch - processPackages [mesher]: Remove: archive file [/home/abi/fetcher/tmp/mesher-2.1.4.tar.gz]
+[2024-05-13 01:49:59] INFO root fetch - processPackages [mesher]: Remove: archive file [/home/abi/fetcher/tmp/mesher-2.1.5.tar.gz]
+[2024-05-13 01:49:59] INFO root fetch - main [MainThread]: End processing [mesher]: success
+[2024-05-13 01:49:59] INFO root fetch - main [MainThread]: Store serial: [23174860]
