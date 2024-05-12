@@ -639,3 +639,51 @@
 [2024-05-13 01:03:28] INFO root fetch - processPackages [Clean-up-gcs-bucket]: Remove: archive file [/home/abi/fetcher/tmp/Clean_up_gcs_bucket-0.1.tar.gz]
 [2024-05-13 01:03:28] INFO root fetch - main [MainThread]: End processing [Clean-up-gcs-bucket]: success
 [2024-05-13 01:03:28] INFO root fetch - main [MainThread]: Store serial: [23174620]
+[2024-05-13 01:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174620]
+[2024-05-13 01:05:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-cpp-agent
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: broz
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lilush_llm_backend
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: harmonizingz
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crowbar-package-manager
+[2024-05-13 01:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flwr-nightly
+[2024-05-13 01:05:36] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 01:05:36] WARNING root fetch - processPackages [lilush_llm_backend]: Skipping, unable to determine old version
+[2024-05-13 01:05:36] INFO root fetch - main [MainThread]: End processing [lilush_llm_backend] error
+[2024-05-13 01:05:36] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240511] Old Version: [0.7.52b20240510]
+[2024-05-13 01:05:36] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240511] Old Version: [1.9.0.dev20240510]
+[2024-05-13 01:05:36] WARNING root fetch - processPackages [broz]: Skipping, unable to determine old version
+[2024-05-13 01:05:36] INFO root fetch - main [MainThread]: End processing [broz] error
+[2024-05-13 01:05:36] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b6/14/2679f3c2b1f1699545063a231324266d8e059c9cc8ef6fd050ce8e8db05e/llama_cpp_agent-0.2.0.tar.gz
+[2024-05-13 01:05:36] WARNING root fetch - processPackages [harmonizingz]: Skipping, unable to determine old version
+[2024-05-13 01:05:36] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 01:05:36] INFO root fetch - main [MainThread]: End processing [harmonizingz] error
+[2024-05-13 01:05:36] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/b8/e0/62c8d56766991d222bf6c9613b1788f9f81cddf9af75cf7d641a1ff35206/flwr_nightly-1.9.0.dev20240510.tar.gz
+[2024-05-13 01:05:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/79/45/7f9f24bdae8aa1857bc7306fa06c3b9343d388b429f7029d1aa942128d5c/tmnt-0.7.52b20240510.tar.gz
+[2024-05-13 01:05:37] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/63/97/4cb1d2617c5619e7148f9ac7c4a014fba249dc920ead6cc4d17a0b3b8359/crowbar_package_manager-0.1.8.tar.gz
+[2024-05-13 01:05:37] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/a8/de/85f4c8037dde2fbef21b92cd27dc691263343069552d095a3d3be87b9207/llama_cpp_agent-0.2.1.tar.gz
+[2024-05-13 01:05:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c2/8b/bf097654012407b716c14d14bd7f9426947a5e4fece416149a193aa042c6/tmnt-0.7.52b20240511.tar.gz
+[2024-05-13 01:05:37] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d8/0d/93ed6ef81cb36b97003e910c24207479799f48d6d4e2f553b2b693394c31/flwr_nightly-1.9.0.dev20240511.tar.gz
+[2024-05-13 01:05:37] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-13 01:05:37] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.0.tar.gz tmp/llama_cpp_agent-0.2.1.tar.gz --markdown 20240513/l/llama-cpp-agent/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 01:05:37] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-13 01:05:37] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240510.tar.gz tmp/tmnt-0.7.52b20240511.tar.gz --markdown 20240513/t/tmnt/0.7.52b20240510-0.7.52b20240511/README.md --exclude *.pyd
+[2024-05-13 01:05:37] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-13 01:05:37] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240510.tar.gz tmp/flwr_nightly-1.9.0.dev20240511.tar.gz --markdown 20240513/f/flwr-nightly/1.9.0.dev20240510-1.9.0.dev20240511/README.md --exclude *.pyd
+[2024-05-13 01:05:37] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/59/37/0dd70904f55a40f9d1306d5e4dbb6c73e7e18f7120c236406426245e1b93/crowbar_package_manager-0.1.9.tar.gz
+[2024-05-13 01:05:37] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-05-13 01:05:37] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.8.tar.gz tmp/crowbar_package_manager-0.1.9.tar.gz --markdown 20240513/c/crowbar-package-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 01:05:37] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240510.tar.gz]
+[2024-05-13 01:05:37] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240511.tar.gz]
+[2024-05-13 01:05:37] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-13 01:05:37] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.0.tar.gz]
+[2024-05-13 01:05:37] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.1.tar.gz]
+[2024-05-13 01:05:37] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-13 01:05:38] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.8.tar.gz]
+[2024-05-13 01:05:38] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.9.tar.gz]
+[2024-05-13 01:05:38] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-05-13 01:05:38] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240510.tar.gz]
+[2024-05-13 01:05:38] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240511.tar.gz]
+[2024-05-13 01:05:38] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-13 01:05:38] INFO root fetch - main [MainThread]: Store serial: [23174643]
