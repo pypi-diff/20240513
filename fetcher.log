@@ -588,3 +588,27 @@
 [2024-05-13 00:56:56] INFO root fetch - processPackages [st-forna-component]: Remove: archive file [/home/abi/fetcher/tmp/st_forna_component-0.0.2.tar.gz]
 [2024-05-13 00:56:56] INFO root fetch - main [MainThread]: End processing [st-forna-component]: success
 [2024-05-13 00:56:56] INFO root fetch - main [MainThread]: Store serial: [23174600]
+[2024-05-13 00:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174600]
+[2024-05-13 00:59:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ntrfc
+[2024-05-13 00:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-restit
+[2024-05-13 00:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: doldrumz
+[2024-05-13 00:59:04] WARNING root fetch - processPackages [doldrumz]: Skipping, unable to determine old version
+[2024-05-13 00:59:04] INFO root fetch - main [MainThread]: End processing [doldrumz] error
+[2024-05-13 00:59:04] INFO root fetch - processPackages [ntrfc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 00:59:04] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-05-13 00:59:05] INFO root fetch - processPackages [ntrfc]: Downloading https://files.pythonhosted.org/packages/1e/b4/37fbc269f0887056ab773ee5ccf369b1753e04aee6392e9a1024600093d0/ntrfc-0.1.8.tar.gz
+[2024-05-13 00:59:05] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/c2/a7/9a624d19b03f5a2774d34ae27fa11ab51ecdc59b679adabd04219cc8b435/django_restit-4.2.8.tar.gz
+[2024-05-13 00:59:05] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-13 00:59:05] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-13 00:59:05] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.8.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240513/d/django-restit/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-05-13 00:59:06] INFO root fetch - processPackages [ntrfc]: Downloading https://files.pythonhosted.org/packages/0a/d2/28d19cc22b038a33e0d05f282bd4b81fc79b233a725809376a9106b7fa88/ntrfc-0.1.9.tar.gz
+[2024-05-13 00:59:07] INFO root fetch - processPackages [ntrfc]: executing diffoscope
+[2024-05-13 00:59:07] INFO root fetch - processPackages [ntrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntrfc-0.1.8.tar.gz tmp/ntrfc-0.1.9.tar.gz --markdown 20240513/n/ntrfc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 00:59:07] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.8.tar.gz]
+[2024-05-13 00:59:07] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-13 00:59:07] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-13 00:59:08] INFO root fetch - processPackages [ntrfc]: Remove: archive file [/home/abi/fetcher/tmp/ntrfc-0.1.8.tar.gz]
+[2024-05-13 00:59:08] INFO root fetch - processPackages [ntrfc]: Remove: archive file [/home/abi/fetcher/tmp/ntrfc-0.1.9.tar.gz]
+[2024-05-13 00:59:08] INFO root fetch - main [MainThread]: End processing [ntrfc]: success
+[2024-05-13 00:59:08] INFO root fetch - main [MainThread]: Store serial: [23174610]
