@@ -202,3 +202,30 @@
 [2024-05-13 00:17:56] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
 [2024-05-13 00:17:56] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
 [2024-05-13 00:17:56] INFO root fetch - main [MainThread]: Store serial: [23174424]
+[2024-05-13 00:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174424]
+[2024-05-13 00:20:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kerriez
+[2024-05-13 00:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-composition
+[2024-05-13 00:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reflectllm
+[2024-05-13 00:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tenduke-scale
+[2024-05-13 00:20:05] INFO root fetch - processPackages [mass-composition]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-13 00:20:05] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/ac/d8/a7a7fc02d215c0b82f15700da97b7dff1935b484e48f6f90564e9253daef/mass_composition-0.4.8.tar.gz
+[2024-05-13 00:20:05] WARNING root fetch - processPackages [kerriez]: Skipping, unable to determine old version
+[2024-05-13 00:20:05] INFO root fetch - main [MainThread]: End processing [kerriez] error
+[2024-05-13 00:20:05] WARNING root fetch - processPackages [reflectllm]: Skipping, unable to determine old version
+[2024-05-13 00:20:05] INFO root fetch - processPackages [tenduke-scale]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-13 00:20:05] INFO root fetch - main [MainThread]: End processing [reflectllm] error
+[2024-05-13 00:20:05] INFO root fetch - processPackages [tenduke-scale]: Downloading https://files.pythonhosted.org/packages/bd/8c/91552b634e7e3723410079e6af43d89728951a932e6421f9a0539ad9fb7f/tenduke_scale-1.1.0.tar.gz
+[2024-05-13 00:20:05] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4b/cd/caf2aa726cf95d02b127329aa5f4ada331061389c9565c8746f5f4bb1212/mass_composition-0.4.9.tar.gz
+[2024-05-13 00:20:05] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-13 00:20:05] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.4.8.tar.gz tmp/mass_composition-0.4.9.tar.gz --markdown 20240513/m/mass-composition/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-13 00:20:05] INFO root fetch - processPackages [tenduke-scale]: Downloading https://files.pythonhosted.org/packages/32/36/33465aaee7b672580f0c7f0041feb6566311fd752e1a36f854127d514347/tenduke_scale-1.2.0.tar.gz
+[2024-05-13 00:20:06] INFO root fetch - processPackages [tenduke-scale]: executing diffoscope
+[2024-05-13 00:20:06] INFO root fetch - processPackages [tenduke-scale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenduke_scale-1.1.0.tar.gz tmp/tenduke_scale-1.2.0.tar.gz --markdown 20240513/t/tenduke-scale/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-13 00:20:06] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.8.tar.gz]
+[2024-05-13 00:20:06] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.9.tar.gz]
+[2024-05-13 00:20:06] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-13 00:20:06] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-1.1.0.tar.gz]
+[2024-05-13 00:20:06] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-1.2.0.tar.gz]
+[2024-05-13 00:20:06] INFO root fetch - main [MainThread]: End processing [tenduke-scale]: success
+[2024-05-13 00:20:06] INFO root fetch - main [MainThread]: Store serial: [23174440]
