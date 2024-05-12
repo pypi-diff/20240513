@@ -538,3 +538,9 @@
 [2024-05-13 00:48:22] INFO root fetch - processPackages [docprompt]: Remove: archive file [/home/abi/fetcher/tmp/docprompt-0.4.6.tar.gz]
 [2024-05-13 00:48:22] INFO root fetch - main [MainThread]: End processing [docprompt]: success
 [2024-05-13 00:48:22] INFO root fetch - main [MainThread]: Store serial: [23174579]
+[2024-05-13 00:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174579]
+[2024-05-13 00:50:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 00:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quislingismz
+[2024-05-13 00:50:31] WARNING root fetch - processPackages [quislingismz]: Skipping, unable to determine old version
+[2024-05-13 00:50:31] INFO root fetch - main [MainThread]: End processing [quislingismz] error
+[2024-05-13 00:50:31] INFO root fetch - main [MainThread]: Store serial: [23174583]
