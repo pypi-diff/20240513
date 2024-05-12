@@ -627,3 +627,15 @@
 [2024-05-13 01:01:18] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.7.0.tar.gz]
 [2024-05-13 01:01:18] INFO root fetch - main [MainThread]: End processing [pygount]: success
 [2024-05-13 01:01:18] INFO root fetch - main [MainThread]: Store serial: [23174617]
+[2024-05-13 01:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174617]
+[2024-05-13 01:03:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 01:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Clean-up-gcs-bucket
+[2024-05-13 01:03:26] INFO root fetch - processPackages [Clean-up-gcs-bucket]: New version: [0.1] Old Version: [0.0]
+[2024-05-13 01:03:26] INFO root fetch - processPackages [Clean-up-gcs-bucket]: Downloading https://files.pythonhosted.org/packages/34/9c/feeb8145bd0ee3baaaa4b04cb250209eaf8ca818b0e26d8d7ab7fa60ec21/Clean_up_gcs_bucket-0.0.tar.gz
+[2024-05-13 01:03:27] INFO root fetch - processPackages [Clean-up-gcs-bucket]: Downloading https://files.pythonhosted.org/packages/4f/4b/99f185342a085726b84d1c38aa899b3291da5e809bf3b968c6b483200bb8/Clean_up_gcs_bucket-0.1.tar.gz
+[2024-05-13 01:03:27] INFO root fetch - processPackages [Clean-up-gcs-bucket]: executing diffoscope
+[2024-05-13 01:03:27] INFO root fetch - processPackages [Clean-up-gcs-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clean_up_gcs_bucket-0.0.tar.gz tmp/Clean_up_gcs_bucket-0.1.tar.gz --markdown 20240513/C/Clean-up-gcs-bucket/0.0-0.1/README.md --exclude *.pyd
+[2024-05-13 01:03:28] INFO root fetch - processPackages [Clean-up-gcs-bucket]: Remove: archive file [/home/abi/fetcher/tmp/Clean_up_gcs_bucket-0.0.tar.gz]
+[2024-05-13 01:03:28] INFO root fetch - processPackages [Clean-up-gcs-bucket]: Remove: archive file [/home/abi/fetcher/tmp/Clean_up_gcs_bucket-0.1.tar.gz]
+[2024-05-13 01:03:28] INFO root fetch - main [MainThread]: End processing [Clean-up-gcs-bucket]: success
+[2024-05-13 01:03:28] INFO root fetch - main [MainThread]: Store serial: [23174620]
