@@ -564,3 +564,27 @@
 [2024-05-13 00:54:46] INFO root fetch - processPackages [Compress-csv-files-gcs-bucket]: Remove: archive file [/home/abi/fetcher/tmp/Compress_csv_files_gcs_bucket-0.1.tar.gz]
 [2024-05-13 00:54:46] INFO root fetch - main [MainThread]: End processing [Compress-csv-files-gcs-bucket]: success
 [2024-05-13 00:54:46] INFO root fetch - main [MainThread]: Store serial: [23174590]
+[2024-05-13 00:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174590]
+[2024-05-13 00:56:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unfortifiedz
+[2024-05-13 00:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tenduke-scale
+[2024-05-13 00:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-forna-component
+[2024-05-13 00:56:55] INFO root fetch - processPackages [tenduke-scale]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-13 00:56:55] WARNING root fetch - processPackages [unfortifiedz]: Skipping, unable to determine old version
+[2024-05-13 00:56:55] INFO root fetch - processPackages [st-forna-component]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 00:56:55] INFO root fetch - main [MainThread]: End processing [unfortifiedz] error
+[2024-05-13 00:56:55] INFO root fetch - processPackages [tenduke-scale]: Downloading https://files.pythonhosted.org/packages/bd/8c/91552b634e7e3723410079e6af43d89728951a932e6421f9a0539ad9fb7f/tenduke_scale-1.1.0.tar.gz
+[2024-05-13 00:56:55] INFO root fetch - processPackages [st-forna-component]: Downloading https://files.pythonhosted.org/packages/eb/ac/b429616fc2af96183b7d0df1dcab16a7ee6de166da587ecf18482bd1b35f/st_forna_component-0.0.1.tar.gz
+[2024-05-13 00:56:55] INFO root fetch - processPackages [tenduke-scale]: Downloading https://files.pythonhosted.org/packages/32/36/33465aaee7b672580f0c7f0041feb6566311fd752e1a36f854127d514347/tenduke_scale-1.2.0.tar.gz
+[2024-05-13 00:56:55] INFO root fetch - processPackages [tenduke-scale]: executing diffoscope
+[2024-05-13 00:56:55] INFO root fetch - processPackages [tenduke-scale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenduke_scale-1.1.0.tar.gz tmp/tenduke_scale-1.2.0.tar.gz --markdown 20240513/t/tenduke-scale/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-13 00:56:55] INFO root fetch - processPackages [st-forna-component]: Downloading https://files.pythonhosted.org/packages/ad/a2/ad165ea086bdbe75a2d731767f5fa73af4bd8be85ed309a3de08692b46a1/st_forna_component-0.0.2.tar.gz
+[2024-05-13 00:56:55] INFO root fetch - processPackages [st-forna-component]: executing diffoscope
+[2024-05-13 00:56:55] INFO root fetch - processPackages [st-forna-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_forna_component-0.0.1.tar.gz tmp/st_forna_component-0.0.2.tar.gz --markdown 20240513/s/st-forna-component/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 00:56:56] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-1.1.0.tar.gz]
+[2024-05-13 00:56:56] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-1.2.0.tar.gz]
+[2024-05-13 00:56:56] INFO root fetch - main [MainThread]: End processing [tenduke-scale]: success
+[2024-05-13 00:56:56] INFO root fetch - processPackages [st-forna-component]: Remove: archive file [/home/abi/fetcher/tmp/st_forna_component-0.0.1.tar.gz]
+[2024-05-13 00:56:56] INFO root fetch - processPackages [st-forna-component]: Remove: archive file [/home/abi/fetcher/tmp/st_forna_component-0.0.2.tar.gz]
+[2024-05-13 00:56:56] INFO root fetch - main [MainThread]: End processing [st-forna-component]: success
+[2024-05-13 00:56:56] INFO root fetch - main [MainThread]: Store serial: [23174600]
