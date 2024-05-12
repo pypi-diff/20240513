@@ -857,3 +857,39 @@
 [2024-05-13 01:25:15] INFO root fetch - processPackages [notion-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/notion_duplicates-0.4.0.tar.gz]
 [2024-05-13 01:25:15] INFO root fetch - main [MainThread]: End processing [notion-duplicates]: success
 [2024-05-13 01:25:15] INFO root fetch - main [MainThread]: Store serial: [23174735]
+[2024-05-13 01:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174735]
+[2024-05-13 01:27:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eva-shell
+[2024-05-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lophophorez
+[2024-05-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unpinningz
+[2024-05-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eva4-controller-py
+[2024-05-13 01:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: okn-py-updater
+[2024-05-13 01:27:23] WARNING root fetch - processPackages [unpinningz]: Skipping, unable to determine old version
+[2024-05-13 01:27:23] INFO root fetch - main [MainThread]: End processing [unpinningz] error
+[2024-05-13 01:27:23] WARNING root fetch - processPackages [lophophorez]: Skipping, unable to determine old version
+[2024-05-13 01:27:23] INFO root fetch - main [MainThread]: End processing [lophophorez] error
+[2024-05-13 01:27:23] INFO root fetch - processPackages [eva4-controller-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 01:27:23] INFO root fetch - processPackages [okn-py-updater]: New version: [2.0.0] Old Version: [1.0.7]
+[2024-05-13 01:27:23] INFO root fetch - processPackages [eva-shell]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 01:27:23] INFO root fetch - processPackages [eva4-controller-py]: Downloading https://files.pythonhosted.org/packages/87/d2/bd3f5f2bb6ce89d688290f14d47456155b6f9843ff274315cdf0fb5809ab/eva4-controller-py-0.1.4.tar.gz
+[2024-05-13 01:27:23] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/0f/00/955d31c6f8ea07b74b16e88dfc99ecb847017590abb0eede2e1296ae114d/eva-shell-0.2.8.tar.gz
+[2024-05-13 01:27:23] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/28/48/9c42fa51e4e2b16cc6f3bd4a0d44ecdc9fb4e64a98796a8112f896af87b5/okn_py_updater-1.0.7.tar.gz
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva4-controller-py]: Downloading https://files.pythonhosted.org/packages/b0/3c/60b59a4472d3bff1d7d1d940b76c579375c5c7e1f64ee237a771a4d16402/eva4-controller-py-0.1.5.tar.gz
+[2024-05-13 01:27:24] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/0f/06/46d8e23e7a5499ec00d3eb83005f5fd10cbffa38a2d110514e634138505b/okn_py_updater-2.0.0.tar.gz
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/f3/a3/4bba45b044742c2c426c1fc97e77b5c50cc9c096c2f4958a1dbeac0d4cdd/eva-shell-0.2.9.tar.gz
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva4-controller-py]: executing diffoscope
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva4-controller-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eva4-controller-py-0.1.4.tar.gz tmp/eva4-controller-py-0.1.5.tar.gz --markdown 20240513/e/eva4-controller-py/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 01:27:24] INFO root fetch - processPackages [okn-py-updater]: executing diffoscope
+[2024-05-13 01:27:24] INFO root fetch - processPackages [okn-py-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okn_py_updater-1.0.7.tar.gz tmp/okn_py_updater-2.0.0.tar.gz --markdown 20240513/o/okn-py-updater/1.0.7-2.0.0/README.md --exclude *.pyd
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva-shell]: executing diffoscope
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eva-shell-0.2.8.tar.gz tmp/eva-shell-0.2.9.tar.gz --markdown 20240513/e/eva-shell/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 01:27:24] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-1.0.7.tar.gz]
+[2024-05-13 01:27:24] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.0.tar.gz]
+[2024-05-13 01:27:24] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva-shell]: Remove: archive file [/home/abi/fetcher/tmp/eva-shell-0.2.8.tar.gz]
+[2024-05-13 01:27:24] INFO root fetch - processPackages [eva-shell]: Remove: archive file [/home/abi/fetcher/tmp/eva-shell-0.2.9.tar.gz]
+[2024-05-13 01:27:24] INFO root fetch - main [MainThread]: End processing [eva-shell]: success
+[2024-05-13 01:27:25] INFO root fetch - processPackages [eva4-controller-py]: Remove: archive file [/home/abi/fetcher/tmp/eva4-controller-py-0.1.4.tar.gz]
+[2024-05-13 01:27:25] INFO root fetch - processPackages [eva4-controller-py]: Remove: archive file [/home/abi/fetcher/tmp/eva4-controller-py-0.1.5.tar.gz]
+[2024-05-13 01:27:25] INFO root fetch - main [MainThread]: End processing [eva4-controller-py]: success
+[2024-05-13 01:27:25] INFO root fetch - main [MainThread]: Store serial: [23174750]
