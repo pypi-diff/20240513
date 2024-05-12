@@ -298,3 +298,27 @@
 [2024-05-13 00:26:35] INFO root fetch - processPackages [ChatDBG]: Remove: archive file [/home/abi/fetcher/tmp/chatdbg-0.6.3.tar.gz]
 [2024-05-13 00:26:35] INFO root fetch - main [MainThread]: End processing [ChatDBG]: success
 [2024-05-13 00:26:35] INFO root fetch - main [MainThread]: Store serial: [23174475]
+[2024-05-13 00:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174475]
+[2024-05-13 00:28:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 00:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: communitivez
+[2024-05-13 00:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-audit-events
+[2024-05-13 00:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-manager
+[2024-05-13 00:28:44] INFO root fetch - processPackages [torch-model-manager]: New version: [0.3.0.dev8] Old Version: [0.3.0.dev7]
+[2024-05-13 00:28:44] INFO root fetch - processPackages [django-audit-events]: New version: [0.3.1.dev0] Old Version: [0.3.0]
+[2024-05-13 00:28:44] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/df/35/bd2818fa8a51f01bd5bef13e89697b59a4d9c25e9fee6dc77ed36f872371/torch_model_manager-0.3.0.dev7.tar.gz
+[2024-05-13 00:28:44] WARNING root fetch - processPackages [communitivez]: Skipping, unable to determine old version
+[2024-05-13 00:28:44] INFO root fetch - main [MainThread]: End processing [communitivez] error
+[2024-05-13 00:28:44] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/6b/25/c35946bbe5293ecf74549934c16137fa7a5a99835036b3ac2256cfc80778/django-audit-events-0.3.0.tar.gz
+[2024-05-13 00:28:44] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/82/76/723a47a0b5e14322f60a269006414d93e83c283e4ab99957663bf0a14374/django-audit-events-0.3.1.dev0.tar.gz
+[2024-05-13 00:28:45] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5e/b6/318a59b2e0fede61acaeba28c3e24eefc4709e2658296e5b1b08891bffb1/torch_model_manager-0.3.0.dev8.tar.gz
+[2024-05-13 00:28:45] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2024-05-13 00:28:45] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.3.0.tar.gz tmp/django-audit-events-0.3.1.dev0.tar.gz --markdown 20240513/d/django-audit-events/0.3.0-0.3.1.dev0/README.md --exclude *.pyd
+[2024-05-13 00:28:45] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-13 00:28:45] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.3.0.dev7.tar.gz tmp/torch_model_manager-0.3.0.dev8.tar.gz --markdown 20240513/t/torch-model-manager/0.3.0.dev7-0.3.0.dev8/README.md --exclude *.pyd
+[2024-05-13 00:28:45] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.3.0.dev7.tar.gz]
+[2024-05-13 00:28:45] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.3.0.dev8.tar.gz]
+[2024-05-13 00:28:45] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-13 00:28:45] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.0.tar.gz]
+[2024-05-13 00:28:45] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.1.dev0.tar.gz]
+[2024-05-13 00:28:45] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2024-05-13 00:28:45] INFO root fetch - main [MainThread]: Store serial: [23174485]
