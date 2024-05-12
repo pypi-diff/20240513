@@ -893,3 +893,44 @@
 [2024-05-13 01:27:25] INFO root fetch - processPackages [eva4-controller-py]: Remove: archive file [/home/abi/fetcher/tmp/eva4-controller-py-0.1.5.tar.gz]
 [2024-05-13 01:27:25] INFO root fetch - main [MainThread]: End processing [eva4-controller-py]: success
 [2024-05-13 01:27:25] INFO root fetch - main [MainThread]: Store serial: [23174750]
+[2024-05-13 01:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174750]
+[2024-05-13 01:29:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-13 01:31:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174750]
+[2024-05-13 01:31:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 01:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xerotesz
+[2024-05-13 01:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remla24-team7-libversion
+[2024-05-13 01:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foldedtensor
+[2024-05-13 01:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tisicz
+[2024-05-13 01:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mb-pytorch
+[2024-05-13 01:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: burr
+[2024-05-13 01:31:38] INFO root fetch - processPackages [foldedtensor]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-13 01:31:38] WARNING root fetch - processPackages [xerotesz]: Skipping, unable to determine old version
+[2024-05-13 01:31:38] INFO root fetch - main [MainThread]: End processing [xerotesz] error
+[2024-05-13 01:31:38] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-13 01:31:38] ERROR root fetch - processPackages [remla24-team7-libversion]: Unable to get metadata: No such project 'remla24-team7-libversion'
+[2024-05-13 01:31:38] INFO root fetch - main [MainThread]: End processing [remla24-team7-libversion] error
+[2024-05-13 01:31:38] WARNING root fetch - processPackages [tisicz]: Skipping, unable to determine old version
+[2024-05-13 01:31:38] INFO root fetch - main [MainThread]: End processing [tisicz] error
+[2024-05-13 01:31:38] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 01:31:38] INFO root fetch - processPackages [foldedtensor]: Downloading https://files.pythonhosted.org/packages/d6/f8/64f6e6d1eced35f9cd910004ff76fd868fa7cc1ccb219f92f4182292cb62/foldedtensor-0.3.3.tar.gz
+[2024-05-13 01:31:38] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-05-13 01:31:38] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 01:31:39] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 01:31:39] INFO root fetch - processPackages [foldedtensor]: Downloading https://files.pythonhosted.org/packages/2a/f0/2e1f6bee28e06ba9193c893a157e0bf01bfe6b8c117ecdaa40239461fd40/foldedtensor-0.3.4.tar.gz
+[2024-05-13 01:31:39] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 01:31:39] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 01:31:39] INFO root fetch - processPackages [foldedtensor]: executing diffoscope
+[2024-05-13 01:31:39] INFO root fetch - processPackages [foldedtensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foldedtensor-0.3.3.tar.gz tmp/foldedtensor-0.3.4.tar.gz --markdown 20240513/f/foldedtensor/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-13 01:31:39] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-05-13 01:31:39] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 01:31:39] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 01:31:39] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 01:31:39] INFO root fetch - processPackages [foldedtensor]: Remove: archive file [/home/abi/fetcher/tmp/foldedtensor-0.3.3.tar.gz]
+[2024-05-13 01:31:39] INFO root fetch - processPackages [foldedtensor]: Remove: archive file [/home/abi/fetcher/tmp/foldedtensor-0.3.4.tar.gz]
+[2024-05-13 01:31:39] INFO root fetch - main [MainThread]: End processing [foldedtensor]: success
+[2024-05-13 01:31:39] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-05-13 01:31:39] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240513/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-13 01:32:16] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-05-13 01:32:16] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-05-13 01:32:16] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-05-13 01:32:16] INFO root fetch - main [MainThread]: Store serial: [23174793]
