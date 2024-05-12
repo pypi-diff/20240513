@@ -1160,3 +1160,36 @@
 [2024-05-13 01:52:18] INFO root fetch - processPackages [Riskfolio-Lib]: Remove: archive file [/home/abi/fetcher/tmp/Riskfolio-Lib-6.1.1.tar.gz]
 [2024-05-13 01:52:18] INFO root fetch - main [MainThread]: End processing [Riskfolio-Lib]: success
 [2024-05-13 01:52:18] INFO root fetch - main [MainThread]: Store serial: [23174900]
+[2024-05-13 01:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174900]
+[2024-05-13 01:54:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2024-05-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QT-PyQt-PySide-Custom-Widgets
+[2024-05-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homoeomorphyz
+[2024-05-13 01:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparse-lmm
+[2024-05-13 01:54:27] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 01:54:28] WARNING root fetch - processPackages [homoeomorphyz]: Skipping, unable to determine old version
+[2024-05-13 01:54:28] INFO root fetch - main [MainThread]: End processing [homoeomorphyz] error
+[2024-05-13 01:54:28] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 01:54:28] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-13 01:54:28] INFO root fetch - processPackages [sparse-lmm]: New version: [0.7] Old Version: [0.6]
+[2024-05-13 01:54:28] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/ad/19/1445eaa11e03ca3be08afd359e9b416c73dc7ffb8aded89eabf95b92c6c5/QT-PyQt-PySide-Custom-Widgets-0.9.6.tar.gz
+[2024-05-13 01:54:28] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 01:54:28] INFO root fetch - processPackages [sparse-lmm]: Downloading https://files.pythonhosted.org/packages/fd/61/7af7e2608d52902d5ed3241f63805ef20f6c3384c9d6947e2cf600c9943f/sparse-lmm-0.6.tar.gz
+[2024-05-13 01:54:28] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 01:54:28] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 01:54:28] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/21/1b/3a6711415f002d1b6c21a2ab747a537190695ec1ba39645e2c08f86cd7ba/qt_pyqt_pyside_custom_widgets-0.9.7.tar.gz
+[2024-05-13 01:54:28] INFO root fetch - processPackages [sparse-lmm]: Downloading https://files.pythonhosted.org/packages/9b/2c/1ff9ec4cc60e654b1b9d0a489f22806746a28f5002176f17767aaf130a0d/sparse-lmm-0.7.tar.gz
+[2024-05-13 01:54:28] INFO root fetch - processPackages [sparse-lmm]: executing diffoscope
+[2024-05-13 01:54:28] INFO root fetch - processPackages [sparse-lmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-lmm-0.6.tar.gz tmp/sparse-lmm-0.7.tar.gz --markdown 20240513/s/sparse-lmm/0.6-0.7/README.md --exclude *.pyd
+[2024-05-13 01:54:28] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 01:54:28] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 01:54:28] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 01:54:28] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: executing diffoscope
+[2024-05-13 01:54:28] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QT-PyQt-PySide-Custom-Widgets-0.9.6.tar.gz tmp/qt_pyqt_pyside_custom_widgets-0.9.7.tar.gz --markdown 20240513/Q/QT-PyQt-PySide-Custom-Widgets/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-13 01:54:29] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.6.tar.gz]
+[2024-05-13 01:54:29] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.7.tar.gz]
+[2024-05-13 01:54:29] INFO root fetch - main [MainThread]: End processing [sparse-lmm]: success
+[2024-05-13 01:54:46] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.6.tar.gz]
+[2024-05-13 01:54:46] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/qt_pyqt_pyside_custom_widgets-0.9.7.tar.gz]
+[2024-05-13 01:54:46] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
+[2024-05-13 01:54:46] INFO root fetch - main [MainThread]: Store serial: [23174913]
