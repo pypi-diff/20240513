@@ -1193,3 +1193,36 @@
 [2024-05-13 01:54:46] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/qt_pyqt_pyside_custom_widgets-0.9.7.tar.gz]
 [2024-05-13 01:54:46] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
 [2024-05-13 01:54:46] INFO root fetch - main [MainThread]: Store serial: [23174913]
+[2024-05-13 01:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174913]
+[2024-05-13 01:56:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flyflowclient
+[2024-05-13 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2024-05-13 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epiphyseolysisz
+[2024-05-13 01:56:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipkgs-core
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-13 01:56:56] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/bf/19/359300ffe7918592b53a17a80d63383f52df957160f3f5c04d0522f590c3/aipkgs_core-0.4.2-py3-none-any.whl
+[2024-05-13 01:56:56] WARNING root fetch - processPackages [epiphyseolysisz]: Skipping, unable to determine old version
+[2024-05-13 01:56:56] INFO root fetch - main [MainThread]: End processing [epiphyseolysisz] error
+[2024-05-13 01:56:56] INFO root fetch - processPackages [flyflowclient]: New version: [1.14.4] Old Version: [1.14.3]
+[2024-05-13 01:56:56] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/e9/6e/5d7f5bf9ecafc15d8bf21e050e013e23792833bc190f17611b231c321d58/aipkgs_core-0.4.3.tar.gz
+[2024-05-13 01:56:56] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/10/01/6a5ded997e2721e4619ae823a32d7e76c3532aa45180f7a5859b2b469f9c/flyflowclient-1.14.3.tar.gz
+[2024-05-13 01:56:56] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-0.4.2-py3-none-any.whl.zip tmp/aipkgs_core-0.4.3.tar.gz --markdown 20240513/a/aipkgs-core/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-13 01:56:56] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 01:56:56] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 01:56:56] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/9e/56/9c76088fe9390b0c12b963bbf1271e139d8a9b3c080130e011213abb05cd/flyflowclient-1.14.4.tar.gz
+[2024-05-13 01:56:56] INFO root fetch - processPackages [flyflowclient]: executing diffoscope
+[2024-05-13 01:56:56] INFO root fetch - processPackages [flyflowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyflowclient-1.14.3.tar.gz tmp/flyflowclient-1.14.4.tar.gz --markdown 20240513/f/flyflowclient/1.14.3-1.14.4/README.md --exclude *.pyd
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-0.4.2-py3-none-any.whl.zip]
+[2024-05-13 01:56:56] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-0.4.3.tar.gz]
+[2024-05-13 01:56:56] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-13 01:56:57] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 01:56:57] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 01:56:57] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 01:56:57] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.3.tar.gz]
+[2024-05-13 01:56:57] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.4.tar.gz]
+[2024-05-13 01:56:57] INFO root fetch - main [MainThread]: End processing [flyflowclient]: success
+[2024-05-13 01:56:57] INFO root fetch - main [MainThread]: Store serial: [23174926]
