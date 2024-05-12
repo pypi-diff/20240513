@@ -31,3 +31,30 @@
 [2024-05-13 00:02:48] INFO root fetch - processPackages [retell-sdk]: Remove: archive file [/home/abi/fetcher/tmp/retell_sdk-3.9.0.tar.gz]
 [2024-05-13 00:02:48] INFO root fetch - main [MainThread]: End processing [retell-sdk]: success
 [2024-05-13 00:02:48] INFO root fetch - main [MainThread]: Store serial: [23174331]
+[2024-05-13 00:04:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174331]
+[2024-05-13 00:04:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xaivision
+[2024-05-13 00:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etherionz
+[2024-05-13 00:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PayOpt
+[2024-05-13 00:04:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adornoz
+[2024-05-13 00:04:56] INFO root fetch - processPackages [xaivision]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-13 00:04:56] INFO root fetch - processPackages [xaivision]: Downloading https://files.pythonhosted.org/packages/df/27/edbca54b246eb1db52bdc04014a09c8ff1a182acbc3b4f83d5ab579090dd/xaivision-0.5.2.tar.gz
+[2024-05-13 00:04:56] WARNING root fetch - processPackages [etherionz]: Skipping, unable to determine old version
+[2024-05-13 00:04:56] INFO root fetch - main [MainThread]: End processing [etherionz] error
+[2024-05-13 00:04:56] WARNING root fetch - processPackages [adornoz]: Skipping, unable to determine old version
+[2024-05-13 00:04:56] INFO root fetch - main [MainThread]: End processing [adornoz] error
+[2024-05-13 00:04:56] INFO root fetch - processPackages [PayOpt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 00:04:56] INFO root fetch - processPackages [PayOpt]: Downloading https://files.pythonhosted.org/packages/16/44/04e51b910de63e85c3864ce66ac739720fff735df9f2a19a5cf0f1233f7c/payopt-1.0.1.tar.gz
+[2024-05-13 00:04:56] INFO root fetch - processPackages [xaivision]: Downloading https://files.pythonhosted.org/packages/8a/fd/d685bed3acf1cbae2449bb1438f4a5c4db812e00cf5a7e4be512b78bd74c/xaivision-0.5.3.tar.gz
+[2024-05-13 00:04:57] INFO root fetch - processPackages [xaivision]: executing diffoscope
+[2024-05-13 00:04:57] INFO root fetch - processPackages [xaivision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xaivision-0.5.2.tar.gz tmp/xaivision-0.5.3.tar.gz --markdown 20240513/x/xaivision/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-13 00:04:57] INFO root fetch - processPackages [PayOpt]: Downloading https://files.pythonhosted.org/packages/57/4e/3c5fd277cb41e5a42efb1c076059dfc7842dc7226d031ec3ea4cd46d5179/payopt-1.0.2.tar.gz
+[2024-05-13 00:04:57] INFO root fetch - processPackages [PayOpt]: executing diffoscope
+[2024-05-13 00:04:57] INFO root fetch - processPackages [PayOpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payopt-1.0.1.tar.gz tmp/payopt-1.0.2.tar.gz --markdown 20240513/P/PayOpt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 00:04:57] INFO root fetch - processPackages [xaivision]: Remove: archive file [/home/abi/fetcher/tmp/xaivision-0.5.2.tar.gz]
+[2024-05-13 00:04:57] INFO root fetch - processPackages [xaivision]: Remove: archive file [/home/abi/fetcher/tmp/xaivision-0.5.3.tar.gz]
+[2024-05-13 00:04:57] INFO root fetch - main [MainThread]: End processing [xaivision]: success
+[2024-05-13 00:04:57] INFO root fetch - processPackages [PayOpt]: Remove: archive file [/home/abi/fetcher/tmp/payopt-1.0.1.tar.gz]
+[2024-05-13 00:04:57] INFO root fetch - processPackages [PayOpt]: Remove: archive file [/home/abi/fetcher/tmp/payopt-1.0.2.tar.gz]
+[2024-05-13 00:04:57] INFO root fetch - main [MainThread]: End processing [PayOpt]: success
+[2024-05-13 00:04:57] INFO root fetch - main [MainThread]: Store serial: [23174345]
