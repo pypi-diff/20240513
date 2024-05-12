@@ -322,3 +322,9 @@
 [2024-05-13 00:28:45] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.1.dev0.tar.gz]
 [2024-05-13 00:28:45] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
 [2024-05-13 00:28:45] INFO root fetch - main [MainThread]: Store serial: [23174485]
+[2024-05-13 00:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174485]
+[2024-05-13 00:30:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 00:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lieusz
+[2024-05-13 00:30:54] WARNING root fetch - processPackages [lieusz]: Skipping, unable to determine old version
+[2024-05-13 00:30:54] INFO root fetch - main [MainThread]: End processing [lieusz] error
+[2024-05-13 00:30:54] INFO root fetch - main [MainThread]: Store serial: [23174489]
