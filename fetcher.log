@@ -612,3 +612,18 @@
 [2024-05-13 00:59:08] INFO root fetch - processPackages [ntrfc]: Remove: archive file [/home/abi/fetcher/tmp/ntrfc-0.1.9.tar.gz]
 [2024-05-13 00:59:08] INFO root fetch - main [MainThread]: End processing [ntrfc]: success
 [2024-05-13 00:59:08] INFO root fetch - main [MainThread]: Store serial: [23174610]
+[2024-05-13 01:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174610]
+[2024-05-13 01:01:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 01:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygount
+[2024-05-13 01:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: complaintsz
+[2024-05-13 01:01:17] INFO root fetch - processPackages [pygount]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-05-13 01:01:17] WARNING root fetch - processPackages [complaintsz]: Skipping, unable to determine old version
+[2024-05-13 01:01:17] INFO root fetch - main [MainThread]: End processing [complaintsz] error
+[2024-05-13 01:01:17] INFO root fetch - processPackages [pygount]: Downloading https://files.pythonhosted.org/packages/71/0e/c7d891315a721fa4197e501835ba181a6241decb289d65d71a815167b2dd/pygount-1.6.1.tar.gz
+[2024-05-13 01:01:17] INFO root fetch - processPackages [pygount]: Downloading https://files.pythonhosted.org/packages/9c/95/abdf57358208ade338e07521ac459d7d93df0a0f7f9328e611400f05df0f/pygount-1.7.0.tar.gz
+[2024-05-13 01:01:17] INFO root fetch - processPackages [pygount]: executing diffoscope
+[2024-05-13 01:01:17] INFO root fetch - processPackages [pygount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygount-1.6.1.tar.gz tmp/pygount-1.7.0.tar.gz --markdown 20240513/p/pygount/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-05-13 01:01:18] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.6.1.tar.gz]
+[2024-05-13 01:01:18] INFO root fetch - processPackages [pygount]: Remove: archive file [/home/abi/fetcher/tmp/pygount-1.7.0.tar.gz]
+[2024-05-13 01:01:18] INFO root fetch - main [MainThread]: End processing [pygount]: success
+[2024-05-13 01:01:18] INFO root fetch - main [MainThread]: Store serial: [23174617]
