@@ -400,3 +400,24 @@
 [2024-05-13 00:37:24] INFO root fetch - processPackages [cosolvkit]: Remove: archive file [/home/abi/fetcher/tmp/cosolvkit-0.4.3.tar.gz]
 [2024-05-13 00:37:24] INFO root fetch - main [MainThread]: End processing [cosolvkit]: success
 [2024-05-13 00:37:24] INFO root fetch - main [MainThread]: Store serial: [23174517]
+[2024-05-13 00:39:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174517]
+[2024-05-13 00:39:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruffianlyz
+[2024-05-13 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botrun-gemini
+[2024-05-13 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioclock
+[2024-05-13 00:39:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embryulcusesz
+[2024-05-13 00:39:32] WARNING root fetch - processPackages [botrun-gemini]: Skipping, unable to determine old version
+[2024-05-13 00:39:32] INFO root fetch - main [MainThread]: End processing [botrun-gemini] error
+[2024-05-13 00:39:32] INFO root fetch - processPackages [aioclock]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 00:39:32] WARNING root fetch - processPackages [embryulcusesz]: Skipping, unable to determine old version
+[2024-05-13 00:39:32] INFO root fetch - main [MainThread]: End processing [embryulcusesz] error
+[2024-05-13 00:39:32] WARNING root fetch - processPackages [ruffianlyz]: Skipping, unable to determine old version
+[2024-05-13 00:39:32] INFO root fetch - main [MainThread]: End processing [ruffianlyz] error
+[2024-05-13 00:39:32] INFO root fetch - processPackages [aioclock]: Downloading https://files.pythonhosted.org/packages/1a/ef/8fcdd8a9e156315f67f0c2d88606becfdded87bdb786180b2cb17a3666fc/aioclock-0.0.6.tar.gz
+[2024-05-13 00:39:32] INFO root fetch - processPackages [aioclock]: Downloading https://files.pythonhosted.org/packages/74/14/2e37fa1398f56da1f64ebdb425e67b977c6bb8f7f4d29536d8b4e361d910/aioclock-0.0.7.tar.gz
+[2024-05-13 00:39:33] INFO root fetch - processPackages [aioclock]: executing diffoscope
+[2024-05-13 00:39:33] INFO root fetch - processPackages [aioclock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioclock-0.0.6.tar.gz tmp/aioclock-0.0.7.tar.gz --markdown 20240513/a/aioclock/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 00:39:33] INFO root fetch - processPackages [aioclock]: Remove: archive file [/home/abi/fetcher/tmp/aioclock-0.0.6.tar.gz]
+[2024-05-13 00:39:33] INFO root fetch - processPackages [aioclock]: Remove: archive file [/home/abi/fetcher/tmp/aioclock-0.0.7.tar.gz]
+[2024-05-13 00:39:33] INFO root fetch - main [MainThread]: End processing [aioclock]: success
+[2024-05-13 00:39:33] INFO root fetch - main [MainThread]: Store serial: [23174531]
