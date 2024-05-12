@@ -1026,3 +1026,21 @@
 [2024-05-13 01:40:57] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.3.0.tar.gz]
 [2024-05-13 01:40:57] INFO root fetch - main [MainThread]: End processing [twiner]: success
 [2024-05-13 01:40:57] INFO root fetch - main [MainThread]: Store serial: [23174823]
+[2024-05-13 01:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174823]
+[2024-05-13 01:43:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twiner
+[2024-05-13 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prodomosz
+[2024-05-13 01:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fidat
+[2024-05-13 01:43:05] INFO root fetch - processPackages [twiner]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-13 01:43:05] INFO root fetch - processPackages [twiner]: Downloading https://files.pythonhosted.org/packages/36/4d/b8c9136621dec59d346141a10688703fc6fc8bdb9601f8c896de14bec54a/twiner-0.2.1.tar.gz
+[2024-05-13 01:43:05] WARNING root fetch - processPackages [prodomosz]: Skipping, unable to determine old version
+[2024-05-13 01:43:05] INFO root fetch - main [MainThread]: End processing [prodomosz] error
+[2024-05-13 01:43:05] WARNING root fetch - processPackages [fidat]: Skipping, unable to determine old version
+[2024-05-13 01:43:05] INFO root fetch - main [MainThread]: End processing [fidat] error
+[2024-05-13 01:43:05] INFO root fetch - processPackages [twiner]: Downloading https://files.pythonhosted.org/packages/3f/7a/08e90a2c7c93e3edf3feff646ce5a3a2581e736751c81f2c9479c5ace6fa/twiner-0.3.0.tar.gz
+[2024-05-13 01:43:06] INFO root fetch - processPackages [twiner]: executing diffoscope
+[2024-05-13 01:43:06] INFO root fetch - processPackages [twiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twiner-0.2.1.tar.gz tmp/twiner-0.3.0.tar.gz --markdown 20240513/t/twiner/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-13 01:43:06] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.2.1.tar.gz]
+[2024-05-13 01:43:06] INFO root fetch - processPackages [twiner]: Remove: archive file [/home/abi/fetcher/tmp/twiner-0.3.0.tar.gz]
+[2024-05-13 01:43:06] INFO root fetch - main [MainThread]: End processing [twiner]: success
+[2024-05-13 01:43:06] INFO root fetch - main [MainThread]: Store serial: [23174835]
