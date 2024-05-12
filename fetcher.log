@@ -768,3 +768,21 @@
 [2024-05-13 01:14:19] INFO root fetch - processPackages [hyped]: Remove: archive file [/home/abi/fetcher/tmp/hyped-0.1.0a2.tar.gz]
 [2024-05-13 01:14:19] INFO root fetch - main [MainThread]: End processing [hyped]: success
 [2024-05-13 01:14:19] INFO root fetch - main [MainThread]: Store serial: [23174671]
+[2024-05-13 01:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174671]
+[2024-05-13 01:16:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: overtimidityz
+[2024-05-13 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drawbeamz
+[2024-05-13 01:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartExecutorx
+[2024-05-13 01:16:27] WARNING root fetch - processPackages [drawbeamz]: Skipping, unable to determine old version
+[2024-05-13 01:16:27] INFO root fetch - main [MainThread]: End processing [drawbeamz] error
+[2024-05-13 01:16:27] WARNING root fetch - processPackages [overtimidityz]: Skipping, unable to determine old version
+[2024-05-13 01:16:27] INFO root fetch - main [MainThread]: End processing [overtimidityz] error
+[2024-05-13 01:16:27] INFO root fetch - processPackages [smartExecutorx]: New version: [4.1] Old Version: [4.0.0]
+[2024-05-13 01:16:27] INFO root fetch - processPackages [smartExecutorx]: Downloading https://files.pythonhosted.org/packages/76/c2/e5ac47d097f6176c081c9badacf5cd0853aad0faa91c5a9624ded161f3b0/smartExecutorx-4.0.0.tar.gz
+[2024-05-13 01:16:28] INFO root fetch - processPackages [smartExecutorx]: Downloading https://files.pythonhosted.org/packages/e7/23/c9721e272d2b51c43e57371e13cc88020f47d3e5bec9e99e5a852c8aa8f9/smartExecutorx-4.1.tar.gz
+[2024-05-13 01:16:28] INFO root fetch - processPackages [smartExecutorx]: executing diffoscope
+[2024-05-13 01:16:28] INFO root fetch - processPackages [smartExecutorx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartExecutorx-4.0.0.tar.gz tmp/smartExecutorx-4.1.tar.gz --markdown 20240513/s/smartExecutorx/4.0.0-4.1/README.md --exclude *.pyd
+[2024-05-13 01:16:30] INFO root fetch - processPackages [smartExecutorx]: Remove: archive file [/home/abi/fetcher/tmp/smartExecutorx-4.0.0.tar.gz]
+[2024-05-13 01:16:30] INFO root fetch - processPackages [smartExecutorx]: Remove: archive file [/home/abi/fetcher/tmp/smartExecutorx-4.1.tar.gz]
+[2024-05-13 01:16:30] INFO root fetch - main [MainThread]: End processing [smartExecutorx]: success
+[2024-05-13 01:16:30] INFO root fetch - main [MainThread]: Store serial: [23174681]
