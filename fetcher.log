@@ -786,3 +786,33 @@
 [2024-05-13 01:16:30] INFO root fetch - processPackages [smartExecutorx]: Remove: archive file [/home/abi/fetcher/tmp/smartExecutorx-4.1.tar.gz]
 [2024-05-13 01:16:30] INFO root fetch - main [MainThread]: End processing [smartExecutorx]: success
 [2024-05-13 01:16:30] INFO root fetch - main [MainThread]: Store serial: [23174681]
+[2024-05-13 01:18:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174681]
+[2024-05-13 01:18:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 01:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fakeredis
+[2024-05-13 01:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qablet-basic
+[2024-05-13 01:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dendron
+[2024-05-13 01:18:39] INFO root fetch - processPackages [dendron]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-13 01:18:39] INFO root fetch - processPackages [qablet-basic]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-13 01:18:39] INFO root fetch - processPackages [dendron]: Downloading https://files.pythonhosted.org/packages/b0/64/a557a8e06c49aa3d36544ce40149d3b095d84c25e381d7211040c4e39912/dendron-0.1.5.tar.gz
+[2024-05-13 01:18:39] INFO root fetch - processPackages [qablet-basic]: Downloading https://files.pythonhosted.org/packages/6b/30/53cf24fdfbb502305cea366525e8bb282639213b94424a4b233de431aa90/qablet_basic-0.3.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 01:18:39] INFO root fetch - processPackages [fakeredis]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-13 01:18:39] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/27/c5/a8bb6a94bad96b40a7e760bbbac99c73a6868017ab58c54a66bf62d6041d/fakeredis-2.9.1.tar.gz
+[2024-05-13 01:18:39] INFO root fetch - processPackages [dendron]: Downloading https://files.pythonhosted.org/packages/4a/a4/0415406914ae02adfbb75790450905990972e653b7db0826a75c9e61c20f/dendron-0.1.6.tar.gz
+[2024-05-13 01:18:39] INFO root fetch - processPackages [dendron]: executing diffoscope
+[2024-05-13 01:18:39] INFO root fetch - processPackages [dendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendron-0.1.5.tar.gz tmp/dendron-0.1.6.tar.gz --markdown 20240513/d/dendron/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-13 01:18:39] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/c9/d0/063259876691b0c48dfa578a01777c92875d9f234e1ac49900f305c4a9aa/fakeredis-2.9.2.tar.gz
+[2024-05-13 01:18:39] INFO root fetch - processPackages [qablet-basic]: Downloading https://files.pythonhosted.org/packages/6c/c8/5b98061086b1f3e4567a5a2f3aa8fb58b1d9026b5bf13056a808d70c79fb/qablet_basic-0.3.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 01:18:39] INFO root fetch - processPackages [fakeredis]: executing diffoscope
+[2024-05-13 01:18:39] INFO root fetch - processPackages [fakeredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeredis-2.9.1.tar.gz tmp/fakeredis-2.9.2.tar.gz --markdown 20240513/f/fakeredis/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-13 01:18:40] INFO root fetch - processPackages [qablet-basic]: executing diffoscope
+[2024-05-13 01:18:40] INFO root fetch - processPackages [qablet-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qablet_basic-0.3.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qablet_basic-0.3.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/q/qablet-basic/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-13 01:18:40] INFO root fetch - processPackages [dendron]: Remove: archive file [/home/abi/fetcher/tmp/dendron-0.1.5.tar.gz]
+[2024-05-13 01:18:40] INFO root fetch - processPackages [dendron]: Remove: archive file [/home/abi/fetcher/tmp/dendron-0.1.6.tar.gz]
+[2024-05-13 01:18:40] INFO root fetch - main [MainThread]: End processing [dendron]: success
+[2024-05-13 01:18:40] INFO root fetch - processPackages [fakeredis]: Remove: archive file [/home/abi/fetcher/tmp/fakeredis-2.9.1.tar.gz]
+[2024-05-13 01:18:40] INFO root fetch - processPackages [fakeredis]: Remove: archive file [/home/abi/fetcher/tmp/fakeredis-2.9.2.tar.gz]
+[2024-05-13 01:18:40] INFO root fetch - main [MainThread]: End processing [fakeredis]: success
+[2024-05-13 01:18:48] INFO root fetch - processPackages [qablet-basic]: Remove: archive file [/home/abi/fetcher/tmp/qablet_basic-0.3.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 01:18:48] INFO root fetch - processPackages [qablet-basic]: Remove: archive file [/home/abi/fetcher/tmp/qablet_basic-0.3.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 01:18:48] INFO root fetch - main [MainThread]: End processing [qablet-basic]: success
+[2024-05-13 01:18:48] INFO root fetch - main [MainThread]: Store serial: [23174718]
