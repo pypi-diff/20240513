@@ -265,3 +265,36 @@
 [2024-05-13 00:24:25] INFO root fetch - processPackages [wild-code]: Remove: archive file [/home/abi/fetcher/tmp/wild_code-0.4.3.tar.gz]
 [2024-05-13 00:24:25] INFO root fetch - main [MainThread]: End processing [wild-code]: success
 [2024-05-13 00:24:25] INFO root fetch - main [MainThread]: Store serial: [23174462]
+[2024-05-13 00:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174462]
+[2024-05-13 00:26:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwdtm
+[2024-05-13 00:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-audit-events
+[2024-05-13 00:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aka-data-prep
+[2024-05-13 00:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ChatDBG
+[2024-05-13 00:26:33] WARNING root fetch - processPackages [aka-data-prep]: Skipping, unable to determine old version
+[2024-05-13 00:26:33] INFO root fetch - main [MainThread]: End processing [aka-data-prep] error
+[2024-05-13 00:26:33] INFO root fetch - processPackages [wwdtm]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-13 00:26:33] INFO root fetch - processPackages [django-audit-events]: New version: [0.3.1.dev0] Old Version: [0.3.0]
+[2024-05-13 00:26:33] INFO root fetch - processPackages [ChatDBG]: New version: [0.6.3] Old Version: [0.6.1]
+[2024-05-13 00:26:34] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/6b/25/c35946bbe5293ecf74549934c16137fa7a5a99835036b3ac2256cfc80778/django-audit-events-0.3.0.tar.gz
+[2024-05-13 00:26:34] INFO root fetch - processPackages [wwdtm]: Downloading https://files.pythonhosted.org/packages/4a/97/932c29ba40f01d50f24cde324db56ec4b06f9dc923eb6012ca9c95684e5f/wwdtm-2.9.0.tar.gz
+[2024-05-13 00:26:34] INFO root fetch - processPackages [ChatDBG]: Downloading https://files.pythonhosted.org/packages/62/5f/ca520241f5d751252c1662efe0f7ea8a5836193627ca3f4a3d02b07079d2/chatdbg-0.6.1.tar.gz
+[2024-05-13 00:26:34] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/82/76/723a47a0b5e14322f60a269006414d93e83c283e4ab99957663bf0a14374/django-audit-events-0.3.1.dev0.tar.gz
+[2024-05-13 00:26:34] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2024-05-13 00:26:34] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.3.0.tar.gz tmp/django-audit-events-0.3.1.dev0.tar.gz --markdown 20240513/d/django-audit-events/0.3.0-0.3.1.dev0/README.md --exclude *.pyd
+[2024-05-13 00:26:34] INFO root fetch - processPackages [wwdtm]: Downloading https://files.pythonhosted.org/packages/79/87/b64a383c0bb0931dffebec810e0acbf86a5fd7ba9a047230fd96ffe62090/wwdtm-2.9.1.tar.gz
+[2024-05-13 00:26:34] INFO root fetch - processPackages [ChatDBG]: Downloading https://files.pythonhosted.org/packages/4c/29/be63d5c4a91ea7fd14705d38a4a6a2705f88acd04e54d51cd2ec50012454/chatdbg-0.6.3.tar.gz
+[2024-05-13 00:26:34] INFO root fetch - processPackages [wwdtm]: executing diffoscope
+[2024-05-13 00:26:34] INFO root fetch - processPackages [wwdtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwdtm-2.9.0.tar.gz tmp/wwdtm-2.9.1.tar.gz --markdown 20240513/w/wwdtm/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-13 00:26:34] INFO root fetch - processPackages [ChatDBG]: executing diffoscope
+[2024-05-13 00:26:34] INFO root fetch - processPackages [ChatDBG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatdbg-0.6.1.tar.gz tmp/chatdbg-0.6.3.tar.gz --markdown 20240513/C/ChatDBG/0.6.1-0.6.3/README.md --exclude *.pyd
+[2024-05-13 00:26:35] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.0.tar.gz]
+[2024-05-13 00:26:35] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.1.dev0.tar.gz]
+[2024-05-13 00:26:35] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2024-05-13 00:26:35] INFO root fetch - processPackages [wwdtm]: Remove: archive file [/home/abi/fetcher/tmp/wwdtm-2.9.0.tar.gz]
+[2024-05-13 00:26:35] INFO root fetch - processPackages [wwdtm]: Remove: archive file [/home/abi/fetcher/tmp/wwdtm-2.9.1.tar.gz]
+[2024-05-13 00:26:35] INFO root fetch - main [MainThread]: End processing [wwdtm]: success
+[2024-05-13 00:26:35] INFO root fetch - processPackages [ChatDBG]: Remove: archive file [/home/abi/fetcher/tmp/chatdbg-0.6.1.tar.gz]
+[2024-05-13 00:26:35] INFO root fetch - processPackages [ChatDBG]: Remove: archive file [/home/abi/fetcher/tmp/chatdbg-0.6.3.tar.gz]
+[2024-05-13 00:26:35] INFO root fetch - main [MainThread]: End processing [ChatDBG]: success
+[2024-05-13 00:26:35] INFO root fetch - main [MainThread]: Store serial: [23174475]
