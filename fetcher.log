@@ -1226,3 +1226,20 @@
 [2024-05-13 01:56:57] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.4.tar.gz]
 [2024-05-13 01:56:57] INFO root fetch - main [MainThread]: End processing [flyflowclient]: success
 [2024-05-13 01:56:57] INFO root fetch - main [MainThread]: Store serial: [23174926]
+[2024-05-13 01:59:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174926]
+[2024-05-13 01:59:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 01:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metagene
+[2024-05-13 01:59:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: greatbrowser
+[2024-05-13 01:59:06] INFO root fetch - processPackages [metagene]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev49]
+[2024-05-13 01:59:06] INFO root fetch - processPackages [greatbrowser]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 01:59:06] INFO root fetch - processPackages [greatbrowser]: Downloading https://files.pythonhosted.org/packages/83/c5/1f29d0e69ec38f867c936417d91128b0afde1991d7e798d3b896ea05b345/greatbrowser-1.0.0.tar.gz
+[2024-05-13 01:59:06] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/26/15/b53e4127e5b27cc1875e489a946f1dd3d6e55bd8f54202e81b7c6091200d/metagene-0.0.0.dev49.tar.gz
+[2024-05-13 01:59:06] WARNING root fetch - processPackages [metagene]: Skipping package: exceeds size limit 17510167>=10485760
+[2024-05-13 01:59:06] INFO root fetch - main [MainThread]: End processing [metagene] error
+[2024-05-13 01:59:06] INFO root fetch - processPackages [greatbrowser]: Downloading https://files.pythonhosted.org/packages/33/92/c2434ee9568aef3b1d5051f7492c6cf5eacc452c346353fc500bf781776c/greatbrowser-1.0.1.tar.gz
+[2024-05-13 01:59:07] INFO root fetch - processPackages [greatbrowser]: executing diffoscope
+[2024-05-13 01:59:07] INFO root fetch - processPackages [greatbrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greatbrowser-1.0.0.tar.gz tmp/greatbrowser-1.0.1.tar.gz --markdown 20240513/g/greatbrowser/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 01:59:07] INFO root fetch - processPackages [greatbrowser]: Remove: archive file [/home/abi/fetcher/tmp/greatbrowser-1.0.0.tar.gz]
+[2024-05-13 01:59:07] INFO root fetch - processPackages [greatbrowser]: Remove: archive file [/home/abi/fetcher/tmp/greatbrowser-1.0.1.tar.gz]
+[2024-05-13 01:59:07] INFO root fetch - main [MainThread]: End processing [greatbrowser]: success
+[2024-05-13 01:59:07] INFO root fetch - main [MainThread]: Store serial: [23174932]
