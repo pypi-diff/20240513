@@ -133,3 +133,36 @@
 [2024-05-13 00:11:27] INFO root fetch - processPackages [wikipya]: Remove: archive file [/home/abi/fetcher/tmp/wikipya-4.0.8.tar.gz]
 [2024-05-13 00:11:27] INFO root fetch - main [MainThread]: End processing [wikipya]: success
 [2024-05-13 00:11:27] INFO root fetch - main [MainThread]: Store serial: [23174384]
+[2024-05-13 00:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174384]
+[2024-05-13 00:13:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 00:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyclomonitor
+[2024-05-13 00:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botrun-gemini
+[2024-05-13 00:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PayOpt
+[2024-05-13 00:13:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentforge
+[2024-05-13 00:13:35] INFO root fetch - processPackages [PayOpt]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 00:13:35] INFO root fetch - processPackages [cyclomonitor]: New version: [2024.4.24] Old Version: [2024.4.19]
+[2024-05-13 00:13:35] INFO root fetch - processPackages [agentforge]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 00:13:35] WARNING root fetch - processPackages [botrun-gemini]: Skipping, unable to determine old version
+[2024-05-13 00:13:35] INFO root fetch - main [MainThread]: End processing [botrun-gemini] error
+[2024-05-13 00:13:35] INFO root fetch - processPackages [PayOpt]: Downloading https://files.pythonhosted.org/packages/16/44/04e51b910de63e85c3864ce66ac739720fff735df9f2a19a5cf0f1233f7c/payopt-1.0.1.tar.gz
+[2024-05-13 00:13:35] INFO root fetch - processPackages [agentforge]: Downloading https://files.pythonhosted.org/packages/ee/8e/66c93be2800c61a49a8e05255959440a964f61bc12fc350d687eef6e0468/agentforge-0.2.8.tar.gz
+[2024-05-13 00:13:35] INFO root fetch - processPackages [cyclomonitor]: Downloading https://files.pythonhosted.org/packages/54/89/283b3f8405dc157ef5af02d68f78faa46525eaa9041fc519b279ccfd4ba9/cyclomonitor-2024.4.19.tar.gz
+[2024-05-13 00:13:36] INFO root fetch - processPackages [PayOpt]: Downloading https://files.pythonhosted.org/packages/57/4e/3c5fd277cb41e5a42efb1c076059dfc7842dc7226d031ec3ea4cd46d5179/payopt-1.0.2.tar.gz
+[2024-05-13 00:13:36] INFO root fetch - processPackages [agentforge]: Downloading https://files.pythonhosted.org/packages/27/4d/3ba886c7d34c7b76efeb089e1e5644689d63133705549ac4d79f8c98afe0/agentforge-0.2.9.tar.gz
+[2024-05-13 00:13:36] INFO root fetch - processPackages [PayOpt]: executing diffoscope
+[2024-05-13 00:13:36] INFO root fetch - processPackages [PayOpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payopt-1.0.1.tar.gz tmp/payopt-1.0.2.tar.gz --markdown 20240513/P/PayOpt/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 00:13:36] INFO root fetch - processPackages [agentforge]: executing diffoscope
+[2024-05-13 00:13:36] INFO root fetch - processPackages [agentforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentforge-0.2.8.tar.gz tmp/agentforge-0.2.9.tar.gz --markdown 20240513/a/agentforge/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 00:13:36] INFO root fetch - processPackages [cyclomonitor]: Downloading https://files.pythonhosted.org/packages/6e/92/974c44d7d30aee7157ca3dda7ea8437cd0f1630bdd405bf15e559885f3ac/cyclomonitor-2024.4.24.tar.gz
+[2024-05-13 00:13:36] INFO root fetch - processPackages [cyclomonitor]: executing diffoscope
+[2024-05-13 00:13:36] INFO root fetch - processPackages [cyclomonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclomonitor-2024.4.19.tar.gz tmp/cyclomonitor-2024.4.24.tar.gz --markdown 20240513/c/cyclomonitor/2024.4.19-2024.4.24/README.md --exclude *.pyd
+[2024-05-13 00:13:36] INFO root fetch - processPackages [PayOpt]: Remove: archive file [/home/abi/fetcher/tmp/payopt-1.0.1.tar.gz]
+[2024-05-13 00:13:36] INFO root fetch - processPackages [PayOpt]: Remove: archive file [/home/abi/fetcher/tmp/payopt-1.0.2.tar.gz]
+[2024-05-13 00:13:36] INFO root fetch - main [MainThread]: End processing [PayOpt]: success
+[2024-05-13 00:13:36] INFO root fetch - processPackages [agentforge]: Remove: archive file [/home/abi/fetcher/tmp/agentforge-0.2.8.tar.gz]
+[2024-05-13 00:13:36] INFO root fetch - processPackages [agentforge]: Remove: archive file [/home/abi/fetcher/tmp/agentforge-0.2.9.tar.gz]
+[2024-05-13 00:13:36] INFO root fetch - main [MainThread]: End processing [agentforge]: success
+[2024-05-13 00:13:37] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.19.tar.gz]
+[2024-05-13 00:13:37] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.24.tar.gz]
+[2024-05-13 00:13:37] INFO root fetch - main [MainThread]: End processing [cyclomonitor]: success
+[2024-05-13 00:13:37] INFO root fetch - main [MainThread]: Store serial: [23174398]
