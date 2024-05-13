@@ -9730,3 +9730,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:45:25] INFO root fetch - processPackages [helm-hawk]: Remove: archive file [/home/abi/fetcher/tmp/helm_hawk-0.0.3.tar.gz]
 [2024-05-13 08:45:25] INFO root fetch - main [MainThread]: End processing [helm-hawk]: success
 [2024-05-13 08:45:25] INFO root fetch - main [MainThread]: Store serial: [23178920]
+[2024-05-13 08:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178920]
+[2024-05-13 08:47:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homogamousz
+[2024-05-13 08:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slsvd
+[2024-05-13 08:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bland
+[2024-05-13 08:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aparat-crawler
+[2024-05-13 08:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mm-sdk
+[2024-05-13 08:47:33] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.9] Old Version: [0.9.1.8]
+[2024-05-13 08:47:34] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.378] Old Version: [0.1.377]
+[2024-05-13 08:47:34] WARNING root fetch - processPackages [homogamousz]: Skipping, unable to determine old version
+[2024-05-13 08:47:34] INFO root fetch - main [MainThread]: End processing [homogamousz] error
+[2024-05-13 08:47:34] INFO root fetch - processPackages [bland]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-13 08:47:34] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/02/af/b10d88d84b8e9ba24a6fa09c360602a04c2c0a7a6b2c7132630adf5c04f0/aparat_crawler-0.9.1.8.tar.gz
+[2024-05-13 08:47:34] WARNING root fetch - processPackages [slsvd]: Skipping, unable to determine old version
+[2024-05-13 08:47:34] INFO root fetch - main [MainThread]: End processing [slsvd] error
+[2024-05-13 08:47:34] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/53/c5/19005ba26fb004db1324c5a10878750a58112546bf8338fee709a74bbcd8/mm_sdk-0.1.377.tar.gz
+[2024-05-13 08:47:34] INFO root fetch - processPackages [bland]: Downloading https://files.pythonhosted.org/packages/ea/e9/bc3fd86c7cb852141ec3c8c2dd875b6d659cc3e68e3842752d0245ee9282/bland-0.2.2.tar.gz
+[2024-05-13 08:47:34] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/c8/ad/dbb8e645b847d174de56c66fc5e9ae55341a07f6709e19d0a5d3ef04a54f/aparat_crawler-0.9.1.9.tar.gz
+[2024-05-13 08:47:34] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/87/4b/470bcf9cb4658dfe199540ec9df2fdfd9368027fbcab10c8b12d00f00fde/mm_sdk-0.1.378.tar.gz
+[2024-05-13 08:47:34] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 08:47:34] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.8.tar.gz tmp/aparat_crawler-0.9.1.9.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.8-0.9.1.9/README.md --exclude *.pyd
+[2024-05-13 08:47:34] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2024-05-13 08:47:34] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.377.tar.gz tmp/mm_sdk-0.1.378.tar.gz --markdown 20240513/m/mm-sdk/0.1.377-0.1.378/README.md --exclude *.pyd
+[2024-05-13 08:47:34] INFO root fetch - processPackages [bland]: Downloading https://files.pythonhosted.org/packages/ba/52/68280fe786ee4795afbe57e7d7558b67a01f2be275e6de6493073fd0b1fe/bland-0.3.0.tar.gz
+[2024-05-13 08:47:34] INFO root fetch - processPackages [bland]: executing diffoscope
+[2024-05-13 08:47:34] INFO root fetch - processPackages [bland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bland-0.2.2.tar.gz tmp/bland-0.3.0.tar.gz --markdown 20240513/b/bland/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-13 08:47:35] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.8.tar.gz]
+[2024-05-13 08:47:35] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.9.tar.gz]
+[2024-05-13 08:47:35] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 08:47:35] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.377.tar.gz]
+[2024-05-13 08:47:35] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.378.tar.gz]
+[2024-05-13 08:47:35] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2024-05-13 08:47:35] INFO root fetch - processPackages [bland]: Remove: archive file [/home/abi/fetcher/tmp/bland-0.2.2.tar.gz]
+[2024-05-13 08:47:35] INFO root fetch - processPackages [bland]: Remove: archive file [/home/abi/fetcher/tmp/bland-0.3.0.tar.gz]
+[2024-05-13 08:47:35] INFO root fetch - main [MainThread]: End processing [bland]: success
+[2024-05-13 08:47:35] INFO root fetch - main [MainThread]: Store serial: [23178938]
