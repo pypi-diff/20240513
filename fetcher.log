@@ -10812,3 +10812,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:40:02] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-flow-log-bucket-1.4.2.tar.gz]
 [2024-05-13 09:40:02] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-flow-log-bucket]: success
 [2024-05-13 09:40:02] INFO root fetch - main [MainThread]: Store serial: [23179423]
+[2024-05-13 09:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179423]
+[2024-05-13 09:42:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-prep-toolkit
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cs20151215
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tq42-grpc-client
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycwr
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: augmolino
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remla-preprocess
+[2024-05-13 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paropsisz
+[2024-05-13 09:42:10] INFO root fetch - processPackages [data-prep-toolkit]: New version: [0.0.1.dev4] Old Version: [0.0.1.dev3]
+[2024-05-13 09:42:10] INFO root fetch - processPackages [data-prep-toolkit]: Downloading https://files.pythonhosted.org/packages/8b/64/2e270cd8564ec0c1e0b99d280467472b33fdec13dc65b0a5b4bf9e733aa8/data_prep_toolkit-0.0.1.dev3.tar.gz
+[2024-05-13 09:42:10] INFO root fetch - processPackages [pycwr]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-13 09:42:10] INFO root fetch - processPackages [augmolino]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 09:42:10] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-13 09:42:10] WARNING root fetch - processPackages [paropsisz]: Skipping, unable to determine old version
+[2024-05-13 09:42:10] INFO root fetch - main [MainThread]: End processing [paropsisz] error
+[2024-05-13 09:42:10] WARNING root fetch - processPackages [remla-preprocess]: Skipping, unable to determine old version
+[2024-05-13 09:42:10] INFO root fetch - main [MainThread]: End processing [remla-preprocess] error
+[2024-05-13 09:42:10] INFO root fetch - processPackages [alibabacloud-cs20151215]: New version: [4.0.8] Old Version: [4.0.7]
+[2024-05-13 09:42:11] INFO root fetch - processPackages [augmolino]: Downloading https://files.pythonhosted.org/packages/48/0d/6e514117d7b223d1f9204134df3e05437b745515aedd39b7d98cf6410e85/augmolino-0.0.4.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [pycwr]: Downloading https://files.pythonhosted.org/packages/49/20/57d41f35a55f44bb3dbd0b7d096367756b4b7224a59255c3122cf565a454/pycwr-0.3.6.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/f1/b0/0abd940fa38ce45b3e2f2f6b7f536749318fb31432fa0465c5c5e5ffbc85/alibabacloud_cs20151215-4.0.7.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [data-prep-toolkit]: Downloading https://files.pythonhosted.org/packages/1e/b0/ba34a8ff7c12742e025b6c6479d762f6bc2ef3fa377208685d36d5f437a9/data_prep_toolkit-0.0.1.dev4.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [data-prep-toolkit]: executing diffoscope
+[2024-05-13 09:42:11] INFO root fetch - processPackages [data-prep-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit-0.0.1.dev3.tar.gz tmp/data_prep_toolkit-0.0.1.dev4.tar.gz --markdown 20240513/d/data-prep-toolkit/0.0.1.dev3-0.0.1.dev4/README.md --exclude *.pyd
+[2024-05-13 09:42:11] INFO root fetch - processPackages [augmolino]: Downloading https://files.pythonhosted.org/packages/44/09/00d43724d9c7b119e1e0cd0ea18a6edecc17aa9fc5dd3f1164f3e7e3258e/augmolino-0.0.5.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/eb/ed/c226dc42752264371c5ab574560605813891aef845e07872533d0d8e91bb/alibabacloud_cs20151215-4.0.8.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [augmolino]: executing diffoscope
+[2024-05-13 09:42:11] INFO root fetch - processPackages [augmolino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmolino-0.0.4.tar.gz tmp/augmolino-0.0.5.tar.gz --markdown 20240513/a/augmolino/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 09:42:11] INFO root fetch - processPackages [pycwr]: Downloading https://files.pythonhosted.org/packages/ee/cd/675e8b9e40fcd0ecce163cbfaffd81c3070979330de5c1f4d8ffe025ec85/pycwr-0.3.7.tar.gz
+[2024-05-13 09:42:11] INFO root fetch - processPackages [alibabacloud-cs20151215]: executing diffoscope
+[2024-05-13 09:42:11] INFO root fetch - processPackages [alibabacloud-cs20151215]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cs20151215-4.0.7.tar.gz tmp/alibabacloud_cs20151215-4.0.8.tar.gz --markdown 20240513/a/alibabacloud-cs20151215/4.0.7-4.0.8/README.md --exclude *.pyd
+[2024-05-13 09:42:11] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-13 09:42:11] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240513/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-13 09:42:11] INFO root fetch - processPackages [pycwr]: executing diffoscope
+[2024-05-13 09:42:11] INFO root fetch - processPackages [pycwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycwr-0.3.6.tar.gz tmp/pycwr-0.3.7.tar.gz --markdown 20240513/p/pycwr/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-13 09:42:12] INFO root fetch - processPackages [augmolino]: Remove: archive file [/home/abi/fetcher/tmp/augmolino-0.0.4.tar.gz]
+[2024-05-13 09:42:12] INFO root fetch - processPackages [augmolino]: Remove: archive file [/home/abi/fetcher/tmp/augmolino-0.0.5.tar.gz]
+[2024-05-13 09:42:12] INFO root fetch - main [MainThread]: End processing [augmolino]: success
+[2024-05-13 09:42:12] INFO root fetch - processPackages [data-prep-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit-0.0.1.dev3.tar.gz]
+[2024-05-13 09:42:12] INFO root fetch - processPackages [data-prep-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit-0.0.1.dev4.tar.gz]
+[2024-05-13 09:42:12] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit]: success
+[2024-05-13 09:42:12] INFO root fetch - processPackages [pycwr]: Remove: archive file [/home/abi/fetcher/tmp/pycwr-0.3.6.tar.gz]
+[2024-05-13 09:42:12] INFO root fetch - processPackages [pycwr]: Remove: archive file [/home/abi/fetcher/tmp/pycwr-0.3.7.tar.gz]
+[2024-05-13 09:42:12] INFO root fetch - main [MainThread]: End processing [pycwr]: success
+[2024-05-13 09:42:13] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-4.0.7.tar.gz]
+[2024-05-13 09:42:13] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-4.0.8.tar.gz]
+[2024-05-13 09:42:13] INFO root fetch - main [MainThread]: End processing [alibabacloud-cs20151215]: success
+[2024-05-13 09:42:13] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-13 09:42:13] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-13 09:42:13] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-13 09:42:13] INFO root fetch - main [MainThread]: Store serial: [23179448]
