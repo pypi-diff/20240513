@@ -2003,3 +2003,33 @@
 [2024-05-13 02:47:24] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-13 02:47:24] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-13 02:47:24] INFO root fetch - main [MainThread]: Store serial: [23175315]
+[2024-05-13 02:49:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175315]
+[2024-05-13 02:49:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 02:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webflask
+[2024-05-13 02:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-13 02:49:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rlmarlbot-plugin
+[2024-05-13 02:49:33] INFO root fetch - processPackages [rlmarlbot-plugin]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 02:49:33] INFO root fetch - processPackages [webflask]: New version: [0.5] Old Version: [0.4.5]
+[2024-05-13 02:49:33] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-13 02:49:33] INFO root fetch - processPackages [webflask]: Downloading https://files.pythonhosted.org/packages/47/fd/f2d3e78b93480c044a75939bdbb8b32021f260b49a3f4ed33b150be296df/webflask-0.4.5.tar.gz
+[2024-05-13 02:49:33] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-13 02:49:33] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/fc/ea/bc7ff2806a9287351b75ee034c4da9f76aaa2d4ef3b5a50441234c6e3127/rlmarlbot_plugin-0.1.0.tar.gz
+[2024-05-13 02:49:33] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/2e/91/2b509c4213b70aad6e9d48147dd663366031e0419e0c3215b9479303fd28/rlmarlbot_plugin-0.1.1.tar.gz
+[2024-05-13 02:49:33] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-13 02:49:33] INFO root fetch - processPackages [rlmarlbot-plugin]: executing diffoscope
+[2024-05-13 02:49:33] INFO root fetch - processPackages [rlmarlbot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlmarlbot_plugin-0.1.0.tar.gz tmp/rlmarlbot_plugin-0.1.1.tar.gz --markdown 20240513/r/rlmarlbot-plugin/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 02:49:33] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-13 02:49:33] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240513/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-13 02:49:33] INFO root fetch - processPackages [webflask]: Downloading https://files.pythonhosted.org/packages/8b/90/4bba665ee700fcccaa19d571e16144cb2526c54cfdae753bfa569a242c01/webflask-0.5.tar.gz
+[2024-05-13 02:49:34] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.0.tar.gz]
+[2024-05-13 02:49:34] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.1.tar.gz]
+[2024-05-13 02:49:34] INFO root fetch - main [MainThread]: End processing [rlmarlbot-plugin]: success
+[2024-05-13 02:49:34] INFO root fetch - processPackages [webflask]: executing diffoscope
+[2024-05-13 02:49:34] INFO root fetch - processPackages [webflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webflask-0.4.5.tar.gz tmp/webflask-0.5.tar.gz --markdown 20240513/w/webflask/0.4.5-0.5/README.md --exclude *.pyd
+[2024-05-13 02:49:34] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-13 02:49:34] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-13 02:49:34] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-13 02:49:35] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.4.5.tar.gz]
+[2024-05-13 02:49:35] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.5.tar.gz]
+[2024-05-13 02:49:35] INFO root fetch - main [MainThread]: End processing [webflask]: success
+[2024-05-13 02:49:35] INFO root fetch - main [MainThread]: Store serial: [23175324]
