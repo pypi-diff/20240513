@@ -22322,3 +22322,45 @@ EOFError: EOF read where object expected
 [2024-05-13 16:18:10] INFO root fetch - processPackages [pkilint]: Remove: archive file [/home/abi/fetcher/tmp/pkilint-0.9.9.tar.gz]
 [2024-05-13 16:18:10] INFO root fetch - main [MainThread]: End processing [pkilint]: success
 [2024-05-13 16:18:10] INFO root fetch - main [MainThread]: Store serial: [23184464]
+[2024-05-13 16:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184464]
+[2024-05-13 16:20:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 16:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlcbase
+[2024-05-13 16:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-auth-st
+[2024-05-13 16:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrippleapi
+[2024-05-13 16:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anabih-python-test
+[2024-05-13 16:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcg-extensionmigrationassistant
+[2024-05-13 16:20:19] INFO root fetch - processPackages [google-auth-st]: New version: [1.1] Old Version: [0.3]
+[2024-05-13 16:20:19] INFO root fetch - processPackages [pyrippleapi]: New version: [2024.5.1] Old Version: [2024.2.2]
+[2024-05-13 16:20:19] INFO root fetch - processPackages [anabih-python-test]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-13 16:20:19] INFO root fetch - processPackages [mlcbase]: New version: [1.2.0a1] Old Version: [1.1.0rc1]
+[2024-05-13 16:20:19] WARNING root fetch - processPackages [dcg-extensionmigrationassistant]: Skipping, unable to determine old version
+[2024-05-13 16:20:19] INFO root fetch - main [MainThread]: End processing [dcg-extensionmigrationassistant] error
+[2024-05-13 16:20:19] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/48/db/4db5c5c5e10b5ae5647da0b02ce7744e0a308b6ba1ebf47258b1d024de71/pyrippleapi-2024.2.2.tar.gz
+[2024-05-13 16:20:19] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/8f/0d/cb4164f3f11269487379fdf0c45ca126f81d3ab4355ce23e4cdf8dd2b4cd/anabih_python_test-8.0.0.tar.gz
+[2024-05-13 16:20:19] INFO root fetch - processPackages [google-auth-st]: Downloading https://files.pythonhosted.org/packages/1a/35/6370d503eaf57c23642d8170fc5d676d0b5c528c7fac1126f18900a9f0b3/google-auth-st-0.3.tar.gz
+[2024-05-13 16:20:19] INFO root fetch - processPackages [mlcbase]: Downloading https://files.pythonhosted.org/packages/ce/1d/2f70fed6cca81316ef74ca21adaac5a2e073ec2a2c50206b4f741adc537c/mlcbase-1.1.0rc1.tar.gz
+[2024-05-13 16:20:20] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/c7/66/811ce30caa258c995af6e8a47830fc8b96d79dfd458ff0459b7e96aded68/pyrippleapi-2024.5.1.tar.gz
+[2024-05-13 16:20:20] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/83/16/9305f1d0ffc310349acc9a6c48a942e3c816874b788e87e5252e12b1a42a/anabih_python_test-9.0.0.tar.gz
+[2024-05-13 16:20:20] INFO root fetch - processPackages [mlcbase]: Downloading https://files.pythonhosted.org/packages/43/31/1de1356ac5c6d2acb4921ce5acfd5e726d574323d35cc56696444e8a9c88/mlcbase-1.2.0a1.tar.gz
+[2024-05-13 16:20:20] INFO root fetch - processPackages [google-auth-st]: Downloading https://files.pythonhosted.org/packages/17/61/3c34537c3e0f8be0906da12e4f1ccf941527639241956f0a7a4fec542418/google-auth-st-1.1.tar.gz
+[2024-05-13 16:20:20] INFO root fetch - processPackages [pyrippleapi]: executing diffoscope
+[2024-05-13 16:20:20] INFO root fetch - processPackages [pyrippleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrippleapi-2024.2.2.tar.gz tmp/pyrippleapi-2024.5.1.tar.gz --markdown 20240513/p/pyrippleapi/2024.2.2-2024.5.1/README.md --exclude *.pyd
+[2024-05-13 16:20:20] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-13 16:20:20] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-8.0.0.tar.gz tmp/anabih_python_test-9.0.0.tar.gz --markdown 20240513/a/anabih-python-test/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-13 16:20:20] INFO root fetch - processPackages [mlcbase]: executing diffoscope
+[2024-05-13 16:20:20] INFO root fetch - processPackages [mlcbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcbase-1.1.0rc1.tar.gz tmp/mlcbase-1.2.0a1.tar.gz --markdown 20240513/m/mlcbase/1.1.0rc1-1.2.0a1/README.md --exclude *.pyd
+[2024-05-13 16:20:20] INFO root fetch - processPackages [google-auth-st]: executing diffoscope
+[2024-05-13 16:20:20] INFO root fetch - processPackages [google-auth-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-auth-st-0.3.tar.gz tmp/google-auth-st-1.1.tar.gz --markdown 20240513/g/google-auth-st/0.3-1.1/README.md --exclude *.pyd
+[2024-05-13 16:20:21] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2024.2.2.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2024.5.1.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - main [MainThread]: End processing [pyrippleapi]: success
+[2024-05-13 16:20:21] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-8.0.0.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-9.0.0.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-13 16:20:21] INFO root fetch - processPackages [google-auth-st]: Remove: archive file [/home/abi/fetcher/tmp/google-auth-st-0.3.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - processPackages [google-auth-st]: Remove: archive file [/home/abi/fetcher/tmp/google-auth-st-1.1.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - main [MainThread]: End processing [google-auth-st]: success
+[2024-05-13 16:20:21] INFO root fetch - processPackages [mlcbase]: Remove: archive file [/home/abi/fetcher/tmp/mlcbase-1.1.0rc1.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - processPackages [mlcbase]: Remove: archive file [/home/abi/fetcher/tmp/mlcbase-1.2.0a1.tar.gz]
+[2024-05-13 16:20:21] INFO root fetch - main [MainThread]: End processing [mlcbase]: success
+[2024-05-13 16:20:21] INFO root fetch - main [MainThread]: Store serial: [23184535]
