@@ -1937,3 +1937,24 @@
 [2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/notion_duplicates-0.5.0.tar.gz]
 [2024-05-13 02:42:54] INFO root fetch - main [MainThread]: End processing [notion-duplicates]: success
 [2024-05-13 02:42:54] INFO root fetch - main [MainThread]: Store serial: [23175290]
+[2024-05-13 02:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175290]
+[2024-05-13 02:45:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 02:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzchatbot
+[2024-05-13 02:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-13 02:45:03] INFO root fetch - processPackages [jzchatbot]: New version: [59.83.98] Old Version: [59.83.97]
+[2024-05-13 02:45:03] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405120044] Old Version: [4.9.4.dev202405110044]
+[2024-05-13 02:45:03] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/aa/b3/0442e0e472d040de364c01aaa2b4a8a55a10cf55e991fe68782b39950e68/jzchatbot-59.83.97.tar.gz
+[2024-05-13 02:45:03] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/4d/e0/46ce680ecbaa4aefdd2e503fc0da1bd74fe5a4244e364a0dc8ea129c9f64/tfds-nightly-4.9.4.dev202405110044.tar.gz
+[2024-05-13 02:45:03] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/ec/f9/de74041579f3507c4fe766d873a4ae78a80d94a91042deeb81adea1939a5/jzchatbot-59.83.98.tar.gz
+[2024-05-13 02:45:04] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-13 02:45:04] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.97.tar.gz tmp/jzchatbot-59.83.98.tar.gz --markdown 20240513/j/jzchatbot/59.83.97-59.83.98/README.md --exclude *.pyd
+[2024-05-13 02:45:04] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/cf/2f/5a29aae97201b34490525b6ebcbc3ca233982b4ff2b1a527a0f8cd4a1495/tfds-nightly-4.9.4.dev202405120044.tar.gz
+[2024-05-13 02:45:04] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-13 02:45:04] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405110044.tar.gz tmp/tfds-nightly-4.9.4.dev202405120044.tar.gz --markdown 20240513/t/tfds-nightly/4.9.4.dev202405110044-4.9.4.dev202405120044/README.md --exclude *.pyd
+[2024-05-13 02:45:04] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.97.tar.gz]
+[2024-05-13 02:45:04] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.98.tar.gz]
+[2024-05-13 02:45:04] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-13 02:45:13] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405110044.tar.gz]
+[2024-05-13 02:45:13] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405120044.tar.gz]
+[2024-05-13 02:45:13] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-13 02:45:13] INFO root fetch - main [MainThread]: Store serial: [23175296]
