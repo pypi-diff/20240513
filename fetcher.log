@@ -13471,3 +13471,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:22:48] INFO root fetch - processPackages [mobio-mail-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio_mail_client_sdk-0.1.7.tar.gz]
 [2024-05-13 11:22:48] INFO root fetch - main [MainThread]: End processing [mobio-mail-client-sdk]: success
 [2024-05-13 11:22:48] INFO root fetch - main [MainThread]: Store serial: [23180780]
+[2024-05-13 11:24:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180780]
+[2024-05-13 11:24:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxalio-studio-tools
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creyPY
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poianaz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: velintegrator
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IvmInstruments-test
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LaueTools
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dmtipy
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testsolar-pytestx
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keelson
+[2024-05-13 11:24:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2024-05-13 11:24:57] WARNING root fetch - processPackages [dmtipy]: Skipping, unable to determine old version
+[2024-05-13 11:24:57] INFO root fetch - processPackages [dmtipy]: Start processing: pms-encoder
+[2024-05-13 11:24:57] INFO root fetch - main [MainThread]: End processing [dmtipy] error
+[2024-05-13 11:24:57] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 11:24:57] WARNING root fetch - processPackages [poianaz]: Skipping, unable to determine old version
+[2024-05-13 11:24:57] INFO root fetch - processPackages [poianaz]: Start processing: cdo-sdk-python
+[2024-05-13 11:24:57] INFO root fetch - main [MainThread]: End processing [poianaz] error
+[2024-05-13 11:24:57] INFO root fetch - processPackages [creyPY]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [velintegrator]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [testsolar-pytestx]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/0b/ce/63d35b41b73043373429832b1678b4afc5dd805686f0fbae496e9e69ca95/pms_encoder-0.0.5.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [keelson]: New version: [0.3.2] Old Version: [0.3.1rc9]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [LaueTools]: New version: [3.0.99] Old Version: [3.0.98]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 11:24:57] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/66/b5/40e237aaad7799ed298d175b5e7a69e7eaca0e934dd1e19551c531d43e9e/cxalio_studio_tools-0.1.8.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/f5/1b/35fa103f400b7268daccdd2ed166559e8d29d3b5ff27f14706166322f1ea/creyPY-1.2.2.tar.gz
+[2024-05-13 11:24:57] WARNING root fetch - processPackages [IvmInstruments-test]: Skipping, unable to determine old version
+[2024-05-13 11:24:57] INFO root fetch - main [MainThread]: End processing [IvmInstruments-test] error
+[2024-05-13 11:24:57] INFO root fetch - processPackages [testsolar-pytestx]: Downloading https://files.pythonhosted.org/packages/a7/9d/1877cda29631c9cc679242b8b42925f835e2f3e49f627fc7208a4c664bca/testsolar-pytestx-0.1.4.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/a3/b8/58324a4beca73d55b30165753dbe32f24c8d77c2da6a1805914890a90d34/LaueTools-3.0.98.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-05-13 11:24:57] INFO root fetch - processPackages [velintegrator]: Downloading https://files.pythonhosted.org/packages/44/af/eb634a692a8ed1c1a3888dbc0abeb6247449b1fef9ca93314881a87ae072/velintegrator-1.1.4.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/f6/0e/ecebc566ff5e0abc914942d7823771bdcd583ee887434ef5740d8eeb2bfc/pms_encoder-0.0.6.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-13 11:24:57] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 53919499>=10485760
+[2024-05-13 11:24:57] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2024-05-13 11:24:57] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/da/40/10d87fad2228e4d2cbfe295a19ddd36bf281c0e7375be7a1603222bd9e23/cxalio_studio_tools-0.1.9.tar.gz
+[2024-05-13 11:24:57] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-13 11:24:57] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.5.tar.gz tmp/pms_encoder-0.0.6.tar.gz --markdown 20240513/p/pms-encoder/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-13 11:24:58] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/5d/92/fba1d54fc753c51e4c076048229f49d7ff2ad81a14925070c9c8ca80efaa/creyPY-1.2.3.tar.gz
+[2024-05-13 11:24:58] INFO root fetch - processPackages [testsolar-pytestx]: Downloading https://files.pythonhosted.org/packages/ef/e7/ec7afca41c4b43afc36948f5a1bc475877e3a1fdc672e42144e527720abd/testsolar-pytestx-0.1.5.tar.gz
+[2024-05-13 11:24:58] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.8.tar.gz tmp/cxalio_studio_tools-0.1.9.tar.gz --markdown 20240513/c/cxalio-studio-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240513/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-1.2.2.tar.gz tmp/creyPY-1.2.3.tar.gz --markdown 20240513/c/creyPY/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/8c/0b/86273094e86080a0e6c88a9076d6677235bde6f1f0449bfd9cf542b958c5/keelson-0.3.2-py3-none-any.whl
+[2024-05-13 11:24:58] INFO root fetch - processPackages [velintegrator]: Downloading https://files.pythonhosted.org/packages/bb/39/1dfa6ce8e2e571317df3e58b63ce5d2a667a8db95c6e14793cf88b1c17b6/velintegrator-1.1.5.tar.gz
+[2024-05-13 11:24:58] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-13 11:24:58] INFO root fetch - processPackages [testsolar-pytestx]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [testsolar-pytestx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-pytestx-0.1.4.tar.gz tmp/testsolar-pytestx-0.1.5.tar.gz --markdown 20240513/t/testsolar-pytestx/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc9-py3-none-any.whl.zip tmp/keelson-0.3.2-py3-none-any.whl.zip --markdown 20240513/k/keelson/0.3.1rc9-0.3.2/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [velintegrator]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [velintegrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velintegrator-1.1.4.tar.gz tmp/velintegrator-1.1.5.tar.gz --markdown 20240513/v/velintegrator/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-13 11:24:58] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-13 11:24:58] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 11:24:59] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.5.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.6.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-13 11:24:59] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-1.2.2.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-1.2.3.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-05-13 11:24:59] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.8.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.9.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-13 11:24:59] INFO root fetch - processPackages [velintegrator]: Remove: archive file [/home/abi/fetcher/tmp/velintegrator-1.1.4.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - processPackages [velintegrator]: Remove: archive file [/home/abi/fetcher/tmp/velintegrator-1.1.5.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - main [MainThread]: End processing [velintegrator]: success
+[2024-05-13 11:24:59] INFO root fetch - processPackages [testsolar-pytestx]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-pytestx-0.1.4.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - processPackages [testsolar-pytestx]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-pytestx-0.1.5.tar.gz]
+[2024-05-13 11:24:59] INFO root fetch - main [MainThread]: End processing [testsolar-pytestx]: success
+[2024-05-13 11:24:59] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-05-13 11:24:59] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.2-py3-none-any.whl.zip]
+[2024-05-13 11:24:59] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-13 11:25:00] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-13 11:25:00] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-13 11:25:00] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-13 11:25:00] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-13 11:25:00] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-13 11:25:00] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-13 11:25:00] INFO root fetch - main [MainThread]: Store serial: [23180820]
