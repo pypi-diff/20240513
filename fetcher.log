@@ -2375,3 +2375,33 @@
 [2024-05-13 03:20:14] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-05-13 03:20:14] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-05-13 03:20:14] INFO root fetch - main [MainThread]: Store serial: [23175479]
+[2024-05-13 03:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175479]
+[2024-05-13 03:22:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 03:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alliance-platform-codegen
+[2024-05-13 03:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alliance-platform-frontend
+[2024-05-13 03:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gqylpy-exception
+[2024-05-13 03:22:25] INFO root fetch - processPackages [alliance-platform-codegen]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 03:22:25] INFO root fetch - processPackages [alliance-platform-frontend]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 03:22:25] INFO root fetch - processPackages [gqylpy-exception]: New version: [3.0.1] Old Version: [3.0]
+[2024-05-13 03:22:25] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/c0/3f/eb3835553203e3a903554dba0620a2b44aad41ed48209e1227a62cace852/alliance_platform_codegen-0.0.3.tar.gz
+[2024-05-13 03:22:25] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/1b/2d/4eac7c5be43e823d717b1046a0f5ebb071fb17f0ff6b50f021cb80adb262/alliance_platform_frontend-0.0.4.tar.gz
+[2024-05-13 03:22:25] INFO root fetch - processPackages [gqylpy-exception]: Downloading https://files.pythonhosted.org/packages/d8/4e/41f3ebb96d9829e7f9b2d2c078fa65442ba30d1065e076cac16854b5567c/gqylpy_exception-3.0.tar.gz
+[2024-05-13 03:22:25] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/b5/57/38188b4533dadd8aa515a9c4771c624fb6e1a333ce5c6697f8380707ce22/alliance_platform_codegen-0.0.4.tar.gz
+[2024-05-13 03:22:25] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/9d/1c/1f972fdf66e2962c6e2c62df9a092385076d5c35373b7e0d616c8ac361ee/alliance_platform_frontend-0.0.5.tar.gz
+[2024-05-13 03:22:25] INFO root fetch - processPackages [gqylpy-exception]: Downloading https://files.pythonhosted.org/packages/7e/72/b223229b95113cb254b52565d802df6368d5ceb22fc7b0dc17e4b14e87b6/gqylpy_exception-3.0.1.tar.gz
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-codegen]: executing diffoscope
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_codegen-0.0.3.tar.gz tmp/alliance_platform_codegen-0.0.4.tar.gz --markdown 20240513/a/alliance-platform-codegen/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-frontend]: executing diffoscope
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_frontend-0.0.4.tar.gz tmp/alliance_platform_frontend-0.0.5.tar.gz --markdown 20240513/a/alliance-platform-frontend/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 03:22:26] INFO root fetch - processPackages [gqylpy-exception]: executing diffoscope
+[2024-05-13 03:22:26] INFO root fetch - processPackages [gqylpy-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_exception-3.0.tar.gz tmp/gqylpy_exception-3.0.1.tar.gz --markdown 20240513/g/gqylpy-exception/3.0-3.0.1/README.md --exclude *.pyd
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.3.tar.gz]
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.4.tar.gz]
+[2024-05-13 03:22:26] INFO root fetch - main [MainThread]: End processing [alliance-platform-codegen]: success
+[2024-05-13 03:22:26] INFO root fetch - processPackages [gqylpy-exception]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_exception-3.0.tar.gz]
+[2024-05-13 03:22:26] INFO root fetch - processPackages [gqylpy-exception]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_exception-3.0.1.tar.gz]
+[2024-05-13 03:22:26] INFO root fetch - main [MainThread]: End processing [gqylpy-exception]: success
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.4.tar.gz]
+[2024-05-13 03:22:26] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.5.tar.gz]
+[2024-05-13 03:22:26] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend]: success
+[2024-05-13 03:22:26] INFO root fetch - main [MainThread]: Store serial: [23175488]
