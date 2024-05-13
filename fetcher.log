@@ -2171,3 +2171,36 @@
 [2024-05-13 03:02:49] WARNING root fetch - processPackages [transcendentalistsz]: Skipping, unable to determine old version
 [2024-05-13 03:02:49] INFO root fetch - main [MainThread]: End processing [transcendentalistsz] error
 [2024-05-13 03:02:49] INFO root fetch - main [MainThread]: Store serial: [23175380]
+[2024-05-13 03:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175380]
+[2024-05-13 03:04:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 03:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iaptoolkit
+[2024-05-13 03:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: banjoesz
+[2024-05-13 03:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomeshader
+[2024-05-13 03:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kbp2video
+[2024-05-13 03:04:58] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 03:04:58] INFO root fetch - processPackages [iaptoolkit]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-05-13 03:04:58] INFO root fetch - processPackages [kbp2video]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 03:04:58] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-13 03:04:58] WARNING root fetch - processPackages [banjoesz]: Skipping, unable to determine old version
+[2024-05-13 03:04:58] INFO root fetch - main [MainThread]: End processing [banjoesz] error
+[2024-05-13 03:04:58] INFO root fetch - processPackages [iaptoolkit]: Downloading https://files.pythonhosted.org/packages/fa/b7/39bf6aec6e8023f6b3f42296d0d933420f9cc880702ea1555d0c660de60f/iaptoolkit-0.0.5.tar.gz
+[2024-05-13 03:04:58] INFO root fetch - processPackages [kbp2video]: Downloading https://files.pythonhosted.org/packages/31/e8/b95f11ac3b34d51ca7b4bf63ee110e71806cfd577201d82eb553fc25b0a0/kbp2video-0.1.4.tar.gz
+[2024-05-13 03:04:58] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-13 03:04:58] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-13 03:04:58] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240513/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 03:04:58] INFO root fetch - processPackages [iaptoolkit]: Downloading https://files.pythonhosted.org/packages/05/6e/dd7de83700d1d548b9289601c15766f3512f9e5b5f16e565dc22451428b2/iaptoolkit-0.1.0.tar.gz
+[2024-05-13 03:04:58] INFO root fetch - processPackages [kbp2video]: Downloading https://files.pythonhosted.org/packages/d4/dd/7a948d9c291d8949c21811cc83ce70b9ada6ff4599e15581fed02a472189/kbp2video-0.1.5.tar.gz
+[2024-05-13 03:04:58] INFO root fetch - processPackages [iaptoolkit]: executing diffoscope
+[2024-05-13 03:04:58] INFO root fetch - processPackages [iaptoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iaptoolkit-0.0.5.tar.gz tmp/iaptoolkit-0.1.0.tar.gz --markdown 20240513/i/iaptoolkit/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-05-13 03:04:58] INFO root fetch - processPackages [kbp2video]: executing diffoscope
+[2024-05-13 03:04:58] INFO root fetch - processPackages [kbp2video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbp2video-0.1.4.tar.gz tmp/kbp2video-0.1.5.tar.gz --markdown 20240513/k/kbp2video/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 03:04:59] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-13 03:04:59] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-13 03:04:59] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-13 03:04:59] INFO root fetch - processPackages [kbp2video]: Remove: archive file [/home/abi/fetcher/tmp/kbp2video-0.1.4.tar.gz]
+[2024-05-13 03:04:59] INFO root fetch - processPackages [kbp2video]: Remove: archive file [/home/abi/fetcher/tmp/kbp2video-0.1.5.tar.gz]
+[2024-05-13 03:04:59] INFO root fetch - main [MainThread]: End processing [kbp2video]: success
+[2024-05-13 03:04:59] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.0.5.tar.gz]
+[2024-05-13 03:04:59] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.1.0.tar.gz]
+[2024-05-13 03:04:59] INFO root fetch - main [MainThread]: End processing [iaptoolkit]: success
+[2024-05-13 03:04:59] INFO root fetch - main [MainThread]: Store serial: [23175395]
