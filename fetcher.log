@@ -2351,3 +2351,27 @@
 [2024-05-13 03:18:04] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-05-13 03:18:04] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-05-13 03:18:04] INFO root fetch - main [MainThread]: Store serial: [23175468]
+[2024-05-13 03:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175468]
+[2024-05-13 03:20:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 03:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-05-13 03:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moped
+[2024-05-13 03:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biogenesistz
+[2024-05-13 03:20:12] WARNING root fetch - processPackages [biogenesistz]: Skipping, unable to determine old version
+[2024-05-13 03:20:12] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-13 03:20:12] INFO root fetch - main [MainThread]: End processing [biogenesistz] error
+[2024-05-13 03:20:12] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-05-13 03:20:12] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-05-13 03:20:13] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-05-13 03:20:13] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-05-13 03:20:13] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-05-13 03:20:13] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-05-13 03:20:13] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240513/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-13 03:20:13] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-05-13 03:20:13] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240513/m/moped/1.9.9-1rc1/README.md --exclude *.pyd
+[2024-05-13 03:20:14] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-05-13 03:20:14] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-05-13 03:20:14] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-05-13 03:20:14] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-05-13 03:20:14] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-05-13 03:20:14] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-05-13 03:20:14] INFO root fetch - main [MainThread]: Store serial: [23175479]
