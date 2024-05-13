@@ -3483,3 +3483,42 @@
 [2024-05-13 04:37:10] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.2.9.tar.gz]
 [2024-05-13 04:37:10] INFO root fetch - main [MainThread]: End processing [tator]: success
 [2024-05-13 04:37:10] INFO root fetch - main [MainThread]: Store serial: [23175984]
+[2024-05-13 04:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175984]
+[2024-05-13 04:39:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hummingbot
+[2024-05-13 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-inclusive-balance-detail-analysis
+[2024-05-13 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytegg
+[2024-05-13 04:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clipzyme
+[2024-05-13 04:39:18] INFO root fetch - processPackages [bytegg]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 04:39:18] INFO root fetch - processPackages [hummingbot]: New version: [20240429] Old Version: [20240129]
+[2024-05-13 04:39:18] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 04:39:18] INFO root fetch - processPackages [bytegg]: Downloading https://files.pythonhosted.org/packages/70/8b/5094f49164f303993d075998519f3e0ffe0ca324eaf3ade9e3175121de05/bytegg-0.1.0.tar.gz
+[2024-05-13 04:39:18] INFO root fetch - processPackages [hummingbot]: Downloading https://files.pythonhosted.org/packages/5f/90/1b46fb63ea6e33fcdc9b903647a3238a979ae65260bc20182773f40f8013/hummingbot-20240129.tar.gz
+[2024-05-13 04:39:18] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: Downloading https://files.pythonhosted.org/packages/b8/c3/08929092ef84ae84cedb1c9b876e7794189ab04b05e58caebcd2d36939cd/sc_inclusive_balance_detail_analysis-0.0.5-py3-none-any.whl
+[2024-05-13 04:39:19] INFO root fetch - processPackages [clipzyme]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-13 04:39:19] INFO root fetch - processPackages [bytegg]: Downloading https://files.pythonhosted.org/packages/c2/a4/1e653f7dee40895e5a1e013e67700d29640d999e378ed3d6b53af8148535/bytegg-0.1.1.tar.gz
+[2024-05-13 04:39:19] INFO root fetch - processPackages [clipzyme]: Downloading https://files.pythonhosted.org/packages/a4/07/35d016100669f666e29f752f8f883601164ac5cace813c0dbcf4f8aa4e26/clipzyme-0.0.6.tar.gz
+[2024-05-13 04:39:19] INFO root fetch - processPackages [bytegg]: executing diffoscope
+[2024-05-13 04:39:19] INFO root fetch - processPackages [bytegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytegg-0.1.0.tar.gz tmp/bytegg-0.1.1.tar.gz --markdown 20240513/b/bytegg/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 04:39:19] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: Downloading https://files.pythonhosted.org/packages/5f/f4/3513063bba61f9857a5a29443cb4be155795c0bc772a063c2cf2aaabb3b4/sc_inclusive_balance_detail_analysis-0.0.6-py3-none-any.whl
+[2024-05-13 04:39:19] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: executing diffoscope
+[2024-05-13 04:39:19] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_inclusive_balance_detail_analysis-0.0.5-py3-none-any.whl.zip tmp/sc_inclusive_balance_detail_analysis-0.0.6-py3-none-any.whl.zip --markdown 20240513/s/sc-inclusive-balance-detail-analysis/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 04:39:19] INFO root fetch - processPackages [clipzyme]: Downloading https://files.pythonhosted.org/packages/c3/ae/1c92e40d0a1deb4515c18a7cde0252ab78c8e984cc94c802a52f90bcf741/clipzyme-0.0.8.tar.gz
+[2024-05-13 04:39:19] INFO root fetch - processPackages [bytegg]: Remove: archive file [/home/abi/fetcher/tmp/bytegg-0.1.0.tar.gz]
+[2024-05-13 04:39:19] INFO root fetch - processPackages [bytegg]: Remove: archive file [/home/abi/fetcher/tmp/bytegg-0.1.1.tar.gz]
+[2024-05-13 04:39:19] INFO root fetch - main [MainThread]: End processing [bytegg]: success
+[2024-05-13 04:39:20] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sc_inclusive_balance_detail_analysis-0.0.5-py3-none-any.whl.zip]
+[2024-05-13 04:39:20] INFO root fetch - processPackages [sc-inclusive-balance-detail-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sc_inclusive_balance_detail_analysis-0.0.6-py3-none-any.whl.zip]
+[2024-05-13 04:39:20] INFO root fetch - main [MainThread]: End processing [sc-inclusive-balance-detail-analysis]: success
+[2024-05-13 04:39:20] INFO root fetch - processPackages [hummingbot]: Downloading https://files.pythonhosted.org/packages/ea/8d/d0f00f7ffea170e87abc852fae70324d602f38e4dc0a225031ffeb343f18/hummingbot-20240429.tar.gz
+[2024-05-13 04:39:20] INFO root fetch - processPackages [clipzyme]: executing diffoscope
+[2024-05-13 04:39:20] INFO root fetch - processPackages [clipzyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipzyme-0.0.6.tar.gz tmp/clipzyme-0.0.8.tar.gz --markdown 20240513/c/clipzyme/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:39:20] INFO root fetch - processPackages [hummingbot]: executing diffoscope
+[2024-05-13 04:39:20] INFO root fetch - processPackages [hummingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hummingbot-20240129.tar.gz tmp/hummingbot-20240429.tar.gz --markdown 20240513/h/hummingbot/20240129-20240429/README.md --exclude *.pyd
+[2024-05-13 04:39:21] INFO root fetch - processPackages [clipzyme]: Remove: archive file [/home/abi/fetcher/tmp/clipzyme-0.0.6.tar.gz]
+[2024-05-13 04:39:21] INFO root fetch - processPackages [clipzyme]: Remove: archive file [/home/abi/fetcher/tmp/clipzyme-0.0.8.tar.gz]
+[2024-05-13 04:39:21] INFO root fetch - main [MainThread]: End processing [clipzyme]: success
+[2024-05-13 04:39:40] INFO root fetch - processPackages [hummingbot]: Remove: archive file [/home/abi/fetcher/tmp/hummingbot-20240129.tar.gz]
+[2024-05-13 04:39:40] INFO root fetch - processPackages [hummingbot]: Remove: archive file [/home/abi/fetcher/tmp/hummingbot-20240429.tar.gz]
+[2024-05-13 04:39:40] INFO root fetch - main [MainThread]: End processing [hummingbot]: success
+[2024-05-13 04:39:40] INFO root fetch - main [MainThread]: Store serial: [23175993]
