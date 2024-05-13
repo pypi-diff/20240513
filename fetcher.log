@@ -1712,3 +1712,65 @@
 [2024-05-13 02:27:22] INFO root fetch - processPackages [nooscope-rpc]: Remove: archive file [/home/abi/fetcher/tmp/nooscope-rpc-1.0.9.tar.gz]
 [2024-05-13 02:27:22] INFO root fetch - main [MainThread]: End processing [nooscope-rpc]: success
 [2024-05-13 02:27:22] INFO root fetch - main [MainThread]: Store serial: [23175182]
+[2024-05-13 02:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175182]
+[2024-05-13 02:29:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hassle
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crossword-puzzle
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qb-parser
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kMCpy-victor
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyllmtools
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-aurora-globaldatabase
+[2024-05-13 02:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metagene
+[2024-05-13 02:29:30] INFO root fetch - processPackages [metagene]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev53]
+[2024-05-13 02:29:30] WARNING root fetch - processPackages [pyllmtools]: Skipping, unable to determine old version
+[2024-05-13 02:29:30] INFO root fetch - main [MainThread]: End processing [pyllmtools] error
+[2024-05-13 02:29:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-13 02:29:30] WARNING root fetch - processPackages [qb-parser]: Skipping, unable to determine old version
+[2024-05-13 02:29:30] INFO root fetch - main [MainThread]: End processing [qb-parser] error
+[2024-05-13 02:29:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-13 02:29:30] INFO root fetch - processPackages [hassle]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-13 02:29:30] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.68] Old Version: [1.2.67]
+[2024-05-13 02:29:30] WARNING root fetch - processPackages [kMCpy-victor]: Skipping, unable to determine old version
+[2024-05-13 02:29:30] INFO root fetch - main [MainThread]: End processing [kMCpy-victor] error
+[2024-05-13 02:29:30] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-13 02:29:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-13 02:29:30] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-13 02:29:30] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/60/96/68dfa5efa0d311b0c1e46fc96777c2f392ee54d54422bafe18348a6c51f6/metagene-0.0.0.dev53.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/c3/33/00a9b32c2147120199884149e7081789835d7f1dc7cd26bbffe77d9a3d48/hassle-3.1.8.tar.gz
+[2024-05-13 02:29:31] WARNING root fetch - processPackages [metagene]: Skipping package: exceeds size limit 17510074>=10485760
+[2024-05-13 02:29:31] INFO root fetch - main [MainThread]: End processing [metagene] error
+[2024-05-13 02:29:31] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/5b/5b/f5270b98bc99a9ddd63e53c3dfb1e34f2d38bbf5734d3a04d6fdbf3cd342/crossword_puzzle-1.2.67.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240513/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240513/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-13 02:29:31] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/3a/71/1ff9820866e4d55de6f02e8f4e11e2b8cc31d36cf83dd8037d889babf444/hassle-3.1.9.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/04/d9/c9b6011a887651ceee404eed40c6e90d4e2c7095bef0bfc66a687ee7719f/crossword_puzzle-1.2.68.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-13 02:29:31] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2024-05-13 02:29:31] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-3.1.8.tar.gz tmp/hassle-3.1.9.tar.gz --markdown 20240513/h/hassle/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240513/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-13 02:29:31] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-13 02:29:31] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.67.tar.gz tmp/crossword_puzzle-1.2.68.tar.gz --markdown 20240513/c/crossword-puzzle/1.2.67-1.2.68/README.md --exclude *.pyd
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-13 02:29:31] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-13 02:29:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-13 02:29:31] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-13 02:29:32] INFO root fetch - processPackages [hassle]: Remove: archive file [/home/abi/fetcher/tmp/hassle-3.1.8.tar.gz]
+[2024-05-13 02:29:32] INFO root fetch - processPackages [hassle]: Remove: archive file [/home/abi/fetcher/tmp/hassle-3.1.9.tar.gz]
+[2024-05-13 02:29:32] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2024-05-13 02:29:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-13 02:29:32] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-13 02:29:32] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-13 02:29:51] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.67.tar.gz]
+[2024-05-13 02:29:51] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.68.tar.gz]
+[2024-05-13 02:29:51] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-13 02:29:51] INFO root fetch - main [MainThread]: Store serial: [23175213]
