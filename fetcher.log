@@ -1552,3 +1552,32 @@
 [2024-05-13 02:18:41] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
 [2024-05-13 02:18:41] INFO root fetch - main [MainThread]: End processing [ezside]: success
 [2024-05-13 02:18:41] INFO root fetch - main [MainThread]: Store serial: [23175076]
+[2024-05-13 02:20:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175076]
+[2024-05-13 02:20:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 02:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elm-messenger
+[2024-05-13 02:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-chargebee
+[2024-05-13 02:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: low-cost-ecs
+[2024-05-13 02:20:49] INFO root fetch - processPackages [airbyte-source-chargebee]: New version: [0.5.1.dev202405122351] Old Version: [0.5.1]
+[2024-05-13 02:20:49] INFO root fetch - processPackages [elm-messenger]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-13 02:20:49] INFO root fetch - processPackages [low-cost-ecs]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 02:20:50] INFO root fetch - processPackages [airbyte-source-chargebee]: Downloading https://files.pythonhosted.org/packages/08/ea/d61bde939421831793fb0d4e9eea2eaa23ea8cb0e88a4c58addc1008ca8e/airbyte_source_chargebee-0.5.1.dev202405122351.tar.gz
+[2024-05-13 02:20:50] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/e9/e9/430e772caf3779b9da7c2b31988916858dafcc366d9d8a4b52ff6936dfc2/elm-messenger-0.2.6.tar.gz
+[2024-05-13 02:20:50] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/e6/c8/fa123ed233e8206fe656664743eb3d51ac4636d89c2abdc192eb4cec74fe/low-cost-ecs-0.0.98.tar.gz
+[2024-05-13 02:20:50] INFO root fetch - processPackages [airbyte-source-chargebee]: executing diffoscope
+[2024-05-13 02:20:50] INFO root fetch - processPackages [airbyte-source-chargebee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_chargebee-0.5.1.tar.gz tmp/airbyte_source_chargebee-0.5.1.dev202405122351.tar.gz --markdown 20240513/a/airbyte-source-chargebee/0.5.1-0.5.1.dev202405122351/README.md --exclude *.pyd
+[2024-05-13 02:20:50] INFO root fetch - processPackages [low-cost-ecs]: Downloading https://files.pythonhosted.org/packages/69/68/92afff1c75cea5f1f28ad173f44b74991debb8dad36acd7e4fe4faf59364/low-cost-ecs-0.0.99.tar.gz
+[2024-05-13 02:20:50] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/5b/c4/cb91f5760000d85615eabe37232cb06f040c3c9a0062b26cec44076b88f6/elm_messenger-0.3.0.tar.gz
+[2024-05-13 02:20:50] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2024-05-13 02:20:50] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm-messenger-0.2.6.tar.gz tmp/elm_messenger-0.3.0.tar.gz --markdown 20240513/e/elm-messenger/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-13 02:20:50] INFO root fetch - processPackages [low-cost-ecs]: executing diffoscope
+[2024-05-13 02:20:50] INFO root fetch - processPackages [low-cost-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/low-cost-ecs-0.0.98.tar.gz tmp/low-cost-ecs-0.0.99.tar.gz --markdown 20240513/l/low-cost-ecs/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 02:20:50] INFO root fetch - processPackages [airbyte-source-chargebee]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_chargebee-0.5.1.tar.gz]
+[2024-05-13 02:20:50] INFO root fetch - processPackages [airbyte-source-chargebee]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_chargebee-0.5.1.dev202405122351.tar.gz]
+[2024-05-13 02:20:50] INFO root fetch - main [MainThread]: End processing [airbyte-source-chargebee]: success
+[2024-05-13 02:20:51] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.98.tar.gz]
+[2024-05-13 02:20:51] INFO root fetch - processPackages [low-cost-ecs]: Remove: archive file [/home/abi/fetcher/tmp/low-cost-ecs-0.0.99.tar.gz]
+[2024-05-13 02:20:51] INFO root fetch - main [MainThread]: End processing [low-cost-ecs]: success
+[2024-05-13 02:20:51] INFO root fetch - processPackages [elm-messenger]: Remove: archive file [/home/abi/fetcher/tmp/elm-messenger-0.2.6.tar.gz]
+[2024-05-13 02:20:51] INFO root fetch - processPackages [elm-messenger]: Remove: archive file [/home/abi/fetcher/tmp/elm_messenger-0.3.0.tar.gz]
+[2024-05-13 02:20:51] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2024-05-13 02:20:51] INFO root fetch - main [MainThread]: Store serial: [23175087]
