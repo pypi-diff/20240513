@@ -13749,3 +13749,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:33:49] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-13 11:33:49] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-13 11:33:49] INFO root fetch - main [MainThread]: Store serial: [23180910]
+[2024-05-13 11:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180910]
+[2024-05-13 11:35:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osef
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pseudovolcanicz
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistralrs
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistralrs-accelerate
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mistralrs-cuda
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistralrs-metal
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mistralrs-mkl
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-feedback-govuk
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-smile-test
+[2024-05-13 11:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sparse
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-accelerate]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [odoo-smile-test]: New version: [16.0.1] Old Version: [15.0.0]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-metal]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-mkl]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-cuda]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:35:58] WARNING root fetch - processPackages [pseudovolcanicz]: Skipping, unable to determine old version
+[2024-05-13 11:35:58] INFO root fetch - processPackages [django-feedback-govuk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 11:35:58] INFO root fetch - main [MainThread]: End processing [pseudovolcanicz] error
+[2024-05-13 11:35:58] INFO root fetch - processPackages [osef]: New version: [3.1.0a1] Old Version: [3.0.0a4]
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/9f/9b/cdbb1bbdcca146c541dc568925ff9772072453983ab03e4e6a9a12235a9f/mistralrs_accelerate-0.1.4.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/9b/72/11e51d98d997723848d7fc9e4073c88f450f83bb626c18154f4d57c45320/mistralrs-0.1.4.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [odoo-smile-test]: Downloading https://files.pythonhosted.org/packages/31/09/9cb6ad539c09e5445dbd9a3310de9a14768597adda6a07fcf8991a9d3f9c/odoo-smile_test-15.0.0.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/f5/4e/05ae3ade47a1ff2e80e0fac728c2d2b571125afd5a1b7d65459a7a4cff74/mistralrs_metal-0.1.4.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [django-feedback-govuk]: Downloading https://files.pythonhosted.org/packages/58/09/e6c1ef71e2a977b78508d72ba3878c6d2bd8e809ce5018a00fbf58b74503/django_feedback_govuk-0.2.8.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/b8/a1/4ff931d35ad078ba9121424657730c1988e750b5f5111ab1df84b39d37d5/mistralrs_cuda-0.1.4.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [osef]: Downloading https://files.pythonhosted.org/packages/cc/75/c72081a29f31e486a76353e29653729c6ec841bddf0c0a31149af4315d98/osef-3.0.0a4.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/74/c2/fb9eab5092904a74aa5c613679078b669f3681cffef1e234db75108e7009/mistralrs_mkl-0.1.4.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/26/a3/31ac876436ca3106b1cd94de05deb4524072f399dffd7475bc00cd38e400/mistralrs-0.1.5.tar.gz
+[2024-05-13 11:35:58] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/62/e7/743f7342f5cf0a6a7a77c80733e545cf92c04c516cc76985a42606381841/mistralrs_mkl-0.1.5.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/eb/6f/1bd24967bd68005b87356d952044acc13cc77c6253e04c44caf9fd56b921/mistralrs_accelerate-0.1.5.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/c1/94/85e8a69431272f01d3d506c29bf592c96c4754bb3de2bb6bb2a6bdcfaf92/mistralrs_metal-0.1.5.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/27/a3/4d78c0ad3deb2b0b15f9c1792301239ef797b05d3db5597ce809d0b581a6/mistralrs_cuda-0.1.5.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [django-feedback-govuk]: Downloading https://files.pythonhosted.org/packages/e2/96/e446fcf1ffbaf305527ce2162e7ff5997093065f582a12bc0e152c173c30/django_feedback_govuk-0.2.9.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [odoo-smile-test]: Downloading https://files.pythonhosted.org/packages/b9/bc/94ae8876e033db658d5b7fa88cafca2069fda2ed7a0845749e48488b2995/odoo-smile_test-16.0.1.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [osef]: Downloading https://files.pythonhosted.org/packages/47/8d/933b2a77e2896b03779ce81b6d81ef2dc8fb1ac0130c5380716676cc00b6/osef-3.1.0a1.tar.gz
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-mkl]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-mkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_mkl-0.1.4.tar.gz tmp/mistralrs_mkl-0.1.5.tar.gz --markdown 20240513/m/mistralrs-mkl/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.4.tar.gz tmp/mistralrs-0.1.5.tar.gz --markdown 20240513/m/mistralrs/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [django-feedback-govuk]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [django-feedback-govuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_feedback_govuk-0.2.8.tar.gz tmp/django_feedback_govuk-0.2.9.tar.gz --markdown 20240513/d/django-feedback-govuk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-cuda]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_cuda-0.1.4.tar.gz tmp/mistralrs_cuda-0.1.5.tar.gz --markdown 20240513/m/mistralrs-cuda/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-accelerate]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_accelerate-0.1.4.tar.gz tmp/mistralrs_accelerate-0.1.5.tar.gz --markdown 20240513/m/mistralrs-accelerate/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-metal]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [mistralrs-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_metal-0.1.4.tar.gz tmp/mistralrs_metal-0.1.5.tar.gz --markdown 20240513/m/mistralrs-metal/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [osef]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [osef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osef-3.0.0a4.tar.gz tmp/osef-3.1.0a1.tar.gz --markdown 20240513/o/osef/3.0.0a4-3.1.0a1/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [odoo-smile-test]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [odoo-smile-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo-smile_test-15.0.0.tar.gz tmp/odoo-smile_test-16.0.1.tar.gz --markdown 20240513/o/odoo-smile-test/15.0.0-16.0.1/README.md --exclude *.pyd
+[2024-05-13 11:35:59] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-05-13 11:35:59] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240513/s/sparse/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 11:36:00] INFO root fetch - processPackages [django-feedback-govuk]: Remove: archive file [/home/abi/fetcher/tmp/django_feedback_govuk-0.2.8.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - processPackages [django-feedback-govuk]: Remove: archive file [/home/abi/fetcher/tmp/django_feedback_govuk-0.2.9.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - main [MainThread]: End processing [django-feedback-govuk]: success
+[2024-05-13 11:36:00] INFO root fetch - processPackages [osef]: Remove: archive file [/home/abi/fetcher/tmp/osef-3.0.0a4.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - processPackages [osef]: Remove: archive file [/home/abi/fetcher/tmp/osef-3.1.0a1.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - main [MainThread]: End processing [osef]: success
+[2024-05-13 11:36:00] INFO root fetch - processPackages [odoo-smile-test]: Remove: archive file [/home/abi/fetcher/tmp/odoo-smile_test-15.0.0.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - processPackages [odoo-smile-test]: Remove: archive file [/home/abi/fetcher/tmp/odoo-smile_test-16.0.1.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - main [MainThread]: End processing [odoo-smile-test]: success
+[2024-05-13 11:36:00] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-05-13 11:36:00] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.4.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.5.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - main [MainThread]: End processing [mistralrs-mkl]: success
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.4.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.5.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.4.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.5.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - main [MainThread]: End processing [mistralrs-metal]: success
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.4.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.5.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - main [MainThread]: End processing [mistralrs-accelerate]: success
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.4.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.5.tar.gz]
+[2024-05-13 11:36:01] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
+[2024-05-13 11:36:01] INFO root fetch - main [MainThread]: Store serial: [23180936]
