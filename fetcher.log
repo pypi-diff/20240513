@@ -2468,3 +2468,42 @@
 [2024-05-13 03:31:04] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405120129.tar.gz]
 [2024-05-13 03:31:04] INFO root fetch - main [MainThread]: End processing [onediffx]: success
 [2024-05-13 03:31:04] INFO root fetch - main [MainThread]: Store serial: [23175521]
+[2024-05-13 03:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175521]
+[2024-05-13 03:33:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basharmor
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-skill-volume
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hmmix
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-openapi3-scalar
+[2024-05-13 03:33:13] INFO root fetch - processPackages [basharmor]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ovos-skill-volume]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-05-13 03:33:13] INFO root fetch - processPackages [flask-openapi3-scalar]: New version: [1.22.32] Old Version: [1.20.29]
+[2024-05-13 03:33:13] INFO root fetch - processPackages [hmmix]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-13 03:33:13] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/94/68/71af35a262f3787519e383f603d87ec5c6023c3e201948bff95ca5dff774/flask_openapi3_scalar-1.20.29.tar.gz
+[2024-05-13 03:33:13] INFO root fetch - processPackages [basharmor]: Downloading https://files.pythonhosted.org/packages/c3/4f/c6124893120f379e665f470dd76c90671cad9cc5226659fecc922f1c1618/basharmor-3.0.0.tar.gz
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ovos-skill-volume]: Downloading https://files.pythonhosted.org/packages/b8/59/770b0e85a32e1d2dd2dabc5bc9d8e144935594e852243a39c78c4507ea69/ovos_skill_volume-0.0.2a8-py3-none-any.whl
+[2024-05-13 03:33:13] INFO root fetch - processPackages [hmmix]: Downloading https://files.pythonhosted.org/packages/98/21/288929eab602f1a3c39401e56847c216ac4114e9159a67526d6cf0cabb22/hmmix-0.6.9.tar.gz
+[2024-05-13 03:33:13] INFO root fetch - processPackages [basharmor]: Downloading https://files.pythonhosted.org/packages/f8/66/e2d36809b3949cf92ec7b87aeb56c28c93d0c6c160428b1674c08196b63d/basharmor-3.1.0.tar.gz
+[2024-05-13 03:33:13] INFO root fetch - processPackages [ovos-skill-volume]: Downloading https://files.pythonhosted.org/packages/e1/49/f34df9c80aa0eb95392e913668b981c7f131c44d37517d3e225b81a648d0/ovos_skill_volume-0.0.2a9-py3-none-any.whl
+[2024-05-13 03:33:13] INFO root fetch - processPackages [hmmix]: Downloading https://files.pythonhosted.org/packages/8c/07/a82cdb5a5569a663171636b4072053a3294941ba9cb7973c7666b7411cbe/hmmix-0.7.0.tar.gz
+[2024-05-13 03:33:14] INFO root fetch - processPackages [basharmor]: executing diffoscope
+[2024-05-13 03:33:14] INFO root fetch - processPackages [basharmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basharmor-3.0.0.tar.gz tmp/basharmor-3.1.0.tar.gz --markdown 20240513/b/basharmor/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-13 03:33:14] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/d8/b3/e5680667ca8214e258845682ad227538dd73fc708fed94e396e24d04f89c/flask_openapi3_scalar-1.22.32.tar.gz
+[2024-05-13 03:33:14] INFO root fetch - processPackages [ovos-skill-volume]: executing diffoscope
+[2024-05-13 03:33:14] INFO root fetch - processPackages [ovos-skill-volume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_volume-0.0.2a8-py3-none-any.whl.zip tmp/ovos_skill_volume-0.0.2a9-py3-none-any.whl.zip --markdown 20240513/o/ovos-skill-volume/0.0.2a8-0.0.2a9/README.md --exclude *.pyd
+[2024-05-13 03:33:14] INFO root fetch - processPackages [hmmix]: executing diffoscope
+[2024-05-13 03:33:14] INFO root fetch - processPackages [hmmix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmix-0.6.9.tar.gz tmp/hmmix-0.7.0.tar.gz --markdown 20240513/h/hmmix/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-13 03:33:14] INFO root fetch - processPackages [flask-openapi3-scalar]: executing diffoscope
+[2024-05-13 03:33:14] INFO root fetch - processPackages [flask-openapi3-scalar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_scalar-1.20.29.tar.gz tmp/flask_openapi3_scalar-1.22.32.tar.gz --markdown 20240513/f/flask-openapi3-scalar/1.20.29-1.22.32/README.md --exclude *.pyd
+[2024-05-13 03:33:14] INFO root fetch - processPackages [basharmor]: Remove: archive file [/home/abi/fetcher/tmp/basharmor-3.0.0.tar.gz]
+[2024-05-13 03:33:14] INFO root fetch - processPackages [basharmor]: Remove: archive file [/home/abi/fetcher/tmp/basharmor-3.1.0.tar.gz]
+[2024-05-13 03:33:14] INFO root fetch - main [MainThread]: End processing [basharmor]: success
+[2024-05-13 03:33:14] INFO root fetch - processPackages [hmmix]: Remove: archive file [/home/abi/fetcher/tmp/hmmix-0.6.9.tar.gz]
+[2024-05-13 03:33:14] INFO root fetch - processPackages [hmmix]: Remove: archive file [/home/abi/fetcher/tmp/hmmix-0.7.0.tar.gz]
+[2024-05-13 03:33:14] INFO root fetch - main [MainThread]: End processing [hmmix]: success
+[2024-05-13 03:33:14] INFO root fetch - processPackages [ovos-skill-volume]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_volume-0.0.2a8-py3-none-any.whl.zip]
+[2024-05-13 03:33:14] INFO root fetch - processPackages [ovos-skill-volume]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_volume-0.0.2a9-py3-none-any.whl.zip]
+[2024-05-13 03:33:14] INFO root fetch - main [MainThread]: End processing [ovos-skill-volume]: success
+[2024-05-13 03:33:28] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.20.29.tar.gz]
+[2024-05-13 03:33:28] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.32.tar.gz]
+[2024-05-13 03:33:28] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
+[2024-05-13 03:33:28] INFO root fetch - main [MainThread]: Store serial: [23175531]
