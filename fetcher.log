@@ -23980,3 +23980,72 @@ EOFError: EOF read where object expected
 [2024-05-13 17:05:04] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
 [2024-05-13 17:05:04] INFO root fetch - main [MainThread]: End processing [laboneq]: success
 [2024-05-13 17:05:04] INFO root fetch - main [MainThread]: Store serial: [23185430]
+[2024-05-13 17:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185430]
+[2024-05-13 17:07:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anabih-python-test
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magia-flow
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PSELPyBaseCamera
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testplans
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dash-express-components
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretencedz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ooui
+[2024-05-13 17:07:13] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ooui]: New version: [0.5.0] Old Version: [0.2.0]
+[2024-05-13 17:07:13] INFO root fetch - processPackages [anabih-python-test]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/31/e8/3ee53d4612c22865a4b0f11788f4784f2313f860ff10262c174b09ac179e/ooui-0.2.0.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [PSELPyBaseCamera]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-13 17:07:13] INFO root fetch - processPackages [magia-flow]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 17:07:13] WARNING root fetch - processPackages [pretencedz]: Skipping, unable to determine old version
+[2024-05-13 17:07:13] INFO root fetch - main [MainThread]: End processing [pretencedz] error
+[2024-05-13 17:07:13] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 17:07:13] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-13 17:07:13] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/8f/0d/cb4164f3f11269487379fdf0c45ca126f81d3ab4355ce23e4cdf8dd2b4cd/anabih_python_test-8.0.0.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/c8/76/729300818fde08d0ec74ad944834453cfead5f9a597862cce365e5ea26b2/dash_express_components-0.0.91.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/0c/bc/e8fd2c3c601a508714ca24af0b61f10a7f1ac50899bbc458052f2ce9cc1f/ooui-0.5.0.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [PSELPyBaseCamera]: Downloading https://files.pythonhosted.org/packages/ff/f9/d9f5423043782f990fdc40e01f96937be76045cf0091d7b3552f09cd86b1/PSELPyBaseCamera-0.1.0-py3-none-any.whl
+[2024-05-13 17:07:13] INFO root fetch - processPackages [magia-flow]: Downloading https://files.pythonhosted.org/packages/42/ed/79fcf9d78028fd1e7f51aebcbf1ee1939a989f0c71d6f2e40b17e4b16187/magia_flow-0.2.0.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/83/16/9305f1d0ffc310349acc9a6c48a942e3c816874b788e87e5252e12b1a42a/anabih_python_test-9.0.0.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-13 17:07:13] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.2.0.tar.gz tmp/ooui-0.5.0.tar.gz --markdown 20240513/o/ooui/0.2.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-13 17:07:14] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-8.0.0.tar.gz tmp/anabih_python_test-9.0.0.tar.gz --markdown 20240513/a/anabih-python-test/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-13 17:07:14] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240513/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/20/fa/6c562661777a9080d5e82ea573a8568eddf618fed8c7a3bc5f140fe59b7f/dash_express_components-0.0.92.tar.gz
+[2024-05-13 17:07:14] INFO root fetch - processPackages [PSELPyBaseCamera]: Downloading https://files.pythonhosted.org/packages/35/f1/333644c41b1eff2ce4365029ca57c206e4b8bab0260339e39d8a35c7fff7/PSELPyBaseCamera-0.2.0-py3-none-any.whl
+[2024-05-13 17:07:14] INFO root fetch - processPackages [magia-flow]: Downloading https://files.pythonhosted.org/packages/29/90/9ab3abdb05de757cdfc70adea1e1c9f25b05f43d6ededa3586a7d6023d78/magia_flow-0.2.1.tar.gz
+[2024-05-13 17:07:14] INFO root fetch - processPackages [PSELPyBaseCamera]: executing diffoscope
+[2024-05-13 17:07:14] INFO root fetch - processPackages [PSELPyBaseCamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PSELPyBaseCamera-0.1.0-py3-none-any.whl.zip tmp/PSELPyBaseCamera-0.2.0-py3-none-any.whl.zip --markdown 20240513/P/PSELPyBaseCamera/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2024-05-13 17:07:14] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.91.tar.gz tmp/dash_express_components-0.0.92.tar.gz --markdown 20240513/d/dash-express-components/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [magia-flow]: executing diffoscope
+[2024-05-13 17:07:14] INFO root fetch - processPackages [magia-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magia_flow-0.2.0.tar.gz tmp/magia_flow-0.2.1.tar.gz --markdown 20240513/m/magia-flow/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-13 17:07:14] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-13 17:07:14] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240513/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-13 17:07:14] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.2.0.tar.gz]
+[2024-05-13 17:07:14] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.5.0.tar.gz]
+[2024-05-13 17:07:14] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-13 17:07:14] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-8.0.0.tar.gz]
+[2024-05-13 17:07:14] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-9.0.0.tar.gz]
+[2024-05-13 17:07:14] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-13 17:07:15] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-13 17:07:15] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-13 17:07:15] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-13 17:07:15] INFO root fetch - processPackages [magia-flow]: Remove: archive file [/home/abi/fetcher/tmp/magia_flow-0.2.0.tar.gz]
+[2024-05-13 17:07:15] INFO root fetch - processPackages [magia-flow]: Remove: archive file [/home/abi/fetcher/tmp/magia_flow-0.2.1.tar.gz]
+[2024-05-13 17:07:15] INFO root fetch - main [MainThread]: End processing [magia-flow]: success
+[2024-05-13 17:07:15] INFO root fetch - processPackages [PSELPyBaseCamera]: Remove: archive file [/home/abi/fetcher/tmp/PSELPyBaseCamera-0.1.0-py3-none-any.whl.zip]
+[2024-05-13 17:07:15] INFO root fetch - processPackages [PSELPyBaseCamera]: Remove: archive file [/home/abi/fetcher/tmp/PSELPyBaseCamera-0.2.0-py3-none-any.whl.zip]
+[2024-05-13 17:07:15] INFO root fetch - main [MainThread]: End processing [PSELPyBaseCamera]: success
+[2024-05-13 17:07:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-13 17:07:16] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-13 17:07:16] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-13 17:07:20] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.91.tar.gz]
+[2024-05-13 17:07:20] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.92.tar.gz]
+[2024-05-13 17:07:20] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2024-05-13 17:07:20] INFO root fetch - main [MainThread]: Store serial: [23185452]
