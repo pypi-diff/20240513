@@ -13348,3 +13348,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:16:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-13 11:16:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-13 11:16:09] INFO root fetch - main [MainThread]: Store serial: [23180682]
+[2024-05-13 11:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180682]
+[2024-05-13 11:18:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 11:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leprikon
+[2024-05-13 11:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MASSiveChem
+[2024-05-13 11:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aparat-crawler
+[2024-05-13 11:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: request-response-logging
+[2024-05-13 11:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tract
+[2024-05-13 11:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalpha
+[2024-05-13 11:18:19] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.9.1] Old Version: [0.9.1.9]
+[2024-05-13 11:18:19] INFO root fetch - processPackages [request-response-logging]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 11:18:19] WARNING root fetch - processPackages [MASSiveChem]: Skipping, unable to determine old version
+[2024-05-13 11:18:19] INFO root fetch - main [MainThread]: End processing [MASSiveChem] error
+[2024-05-13 11:18:19] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/c8/ad/dbb8e645b847d174de56c66fc5e9ae55341a07f6709e19d0a5d3ef04a54f/aparat_crawler-0.9.1.9.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [request-response-logging]: Downloading https://files.pythonhosted.org/packages/08/96/4527b7c231f9ae30d1f4c141897842e9fa434f51602c6e581ebf036f952c/request_response_logging-1.0.0.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [dalpha]: New version: [0.5.0rc2] Old Version: [0.5.0rc1]
+[2024-05-13 11:18:19] INFO root fetch - processPackages [leprikon]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-05-13 11:18:19] INFO root fetch - processPackages [request-response-logging]: Downloading https://files.pythonhosted.org/packages/1c/bc/a6f01b4a9769b4bea8d2bfb9362267050d32263ed6dede8b0dccb93066a8/request_response_logging-1.0.1.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/99/21ce93e1da5d239f8eaaa5fbf7f5627d13a923b2d46973e82c4daf2a2861/dalpha-0.5.0rc1.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/9a/bf/16e38fcebc2544dc6fd08fdff9c24cd12630fe6ea1f3d08275d0b499eaa6/leprikon-3.9.8.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/c5/39/223c9502385a2a9d17b54ad0ea469de4c8876be20ac55d196638a0fcc14d/aparat_crawler-0.9.1.9.1.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [request-response-logging]: executing diffoscope
+[2024-05-13 11:18:19] INFO root fetch - processPackages [request-response-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_response_logging-1.0.0.tar.gz tmp/request_response_logging-1.0.1.tar.gz --markdown 20240513/r/request-response-logging/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 11:18:19] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 11:18:19] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.9.tar.gz tmp/aparat_crawler-0.9.1.9.1.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.9-0.9.1.9.1/README.md --exclude *.pyd
+[2024-05-13 11:18:19] INFO root fetch - processPackages [tract]: New version: [0.21.5] Old Version: [0.21.4]
+[2024-05-13 11:18:19] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/c7/d3/eb2c973f21c2d7ce6563fc9b547937447a68a3afdb7d5628df976ec57ee9/dalpha-0.5.0rc2.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-13 11:18:19] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.0rc1.tar.gz tmp/dalpha-0.5.0rc2.tar.gz --markdown 20240513/d/dalpha/0.5.0rc1-0.5.0rc2/README.md --exclude *.pyd
+[2024-05-13 11:18:19] INFO root fetch - processPackages [tract]: Downloading https://files.pythonhosted.org/packages/76/13/b8e75855001d27c08eabacdb69d1c92ae80d989efd8b2773ce3f0852d805/tract-0.21.4.tar.gz
+[2024-05-13 11:18:19] INFO root fetch - processPackages [leprikon]: Downloading https://files.pythonhosted.org/packages/fc/bf/8586488436c267dc0a04120d5c3497c1e51ea0c492c84ab51e0402564b30/leprikon-3.9.9.tar.gz
+[2024-05-13 11:18:20] INFO root fetch - processPackages [leprikon]: executing diffoscope
+[2024-05-13 11:18:20] INFO root fetch - processPackages [leprikon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leprikon-3.9.8.tar.gz tmp/leprikon-3.9.9.tar.gz --markdown 20240513/l/leprikon/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-05-13 11:18:20] INFO root fetch - processPackages [request-response-logging]: Remove: archive file [/home/abi/fetcher/tmp/request_response_logging-1.0.0.tar.gz]
+[2024-05-13 11:18:20] INFO root fetch - processPackages [request-response-logging]: Remove: archive file [/home/abi/fetcher/tmp/request_response_logging-1.0.1.tar.gz]
+[2024-05-13 11:18:20] INFO root fetch - main [MainThread]: End processing [request-response-logging]: success
+[2024-05-13 11:18:20] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.9.tar.gz]
+[2024-05-13 11:18:20] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.9.1.tar.gz]
+[2024-05-13 11:18:20] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 11:18:20] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc1.tar.gz]
+[2024-05-13 11:18:20] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc2.tar.gz]
+[2024-05-13 11:18:20] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-13 11:18:20] INFO root fetch - processPackages [tract]: Downloading https://files.pythonhosted.org/packages/80/2c/c6e542e0c6bfc114c3fc31f1213a48358451c939a4d7bacba842ee2d17a1/tract-0.21.5-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 11:18:21] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.8.tar.gz]
+[2024-05-13 11:18:21] INFO root fetch - processPackages [leprikon]: Remove: archive file [/home/abi/fetcher/tmp/leprikon-3.9.9.tar.gz]
+[2024-05-13 11:18:21] INFO root fetch - main [MainThread]: End processing [leprikon]: success
+[2024-05-13 11:18:26] INFO root fetch - processPackages [tract]: executing diffoscope
+[2024-05-13 11:18:26] INFO root fetch - processPackages [tract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tract-0.21.4.tar.gz tmp/tract-0.21.5-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/t/tract/0.21.4-0.21.5/README.md --exclude *.pyd
+[2024-05-13 11:18:28] INFO root fetch - processPackages [tract]: Remove: archive file [/home/abi/fetcher/tmp/tract-0.21.4.tar.gz]
+[2024-05-13 11:18:28] INFO root fetch - processPackages [tract]: Remove: archive file [/home/abi/fetcher/tmp/tract-0.21.5-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 11:18:28] INFO root fetch - main [MainThread]: End processing [tract]: success
+[2024-05-13 11:18:28] INFO root fetch - main [MainThread]: Store serial: [23180734]
