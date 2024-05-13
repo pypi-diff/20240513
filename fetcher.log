@@ -15621,3 +15621,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:41:33] INFO root fetch - processPackages [onnxtr]: Remove: archive file [/home/abi/fetcher/tmp/onnxtr-0.2.0.tar.gz]
 [2024-05-13 12:41:33] INFO root fetch - main [MainThread]: End processing [onnxtr]: success
 [2024-05-13 12:41:33] INFO root fetch - main [MainThread]: Store serial: [23181647]
+[2024-05-13 12:43:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181647]
+[2024-05-13 12:43:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 12:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-version-remla24-team02
+[2024-05-13 12:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyStratum-Backend
+[2024-05-13 12:43:43] INFO root fetch - processPackages [PyStratum-Backend]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-13 12:43:43] INFO root fetch - processPackages [lib-version-remla24-team02]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 12:43:43] INFO root fetch - processPackages [lib-version-remla24-team02]: Downloading https://files.pythonhosted.org/packages/b5/ad/9c989788f87a4cbaf766c90ffad603e9bcc35075f95a8cd03b35f7db7bfc/lib_version_remla24_team02-0.0.2.tar.gz
+[2024-05-13 12:43:43] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/13/ae/86fe825a5fbc52c56e8d81ee2ad25308be1d713cf5118559bffbc61b3bd3/pystratum_backend-2.0.0.tar.gz
+[2024-05-13 12:43:44] INFO root fetch - processPackages [lib-version-remla24-team02]: Downloading https://files.pythonhosted.org/packages/fd/17/6a1ba4799540ccb875b3172c344a524c7c182373abad0cd1d6c327bc3138/lib_version_remla24_team02-0.0.3.tar.gz
+[2024-05-13 12:43:44] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/13/ae/a14f97872596671cf3079f9d61281ea380699a2a75092e3f0f348533ce2e/pystratum_backend-2.0.1.tar.gz
+[2024-05-13 12:43:44] INFO root fetch - processPackages [lib-version-remla24-team02]: executing diffoscope
+[2024-05-13 12:43:44] INFO root fetch - processPackages [lib-version-remla24-team02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla24_team02-0.0.2.tar.gz tmp/lib_version_remla24_team02-0.0.3.tar.gz --markdown 20240513/l/lib-version-remla24-team02/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 12:43:44] INFO root fetch - processPackages [PyStratum-Backend]: executing diffoscope
+[2024-05-13 12:43:44] INFO root fetch - processPackages [PyStratum-Backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystratum_backend-2.0.0.tar.gz tmp/pystratum_backend-2.0.1.tar.gz --markdown 20240513/P/PyStratum-Backend/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-13 12:43:45] INFO root fetch - processPackages [lib-version-remla24-team02]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla24_team02-0.0.2.tar.gz]
+[2024-05-13 12:43:45] INFO root fetch - processPackages [lib-version-remla24-team02]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla24_team02-0.0.3.tar.gz]
+[2024-05-13 12:43:45] INFO root fetch - main [MainThread]: End processing [lib-version-remla24-team02]: success
+[2024-05-13 12:43:45] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.0.tar.gz]
+[2024-05-13 12:43:45] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.1.tar.gz]
+[2024-05-13 12:43:45] INFO root fetch - main [MainThread]: End processing [PyStratum-Backend]: success
+[2024-05-13 12:43:45] INFO root fetch - main [MainThread]: Store serial: [23181654]
