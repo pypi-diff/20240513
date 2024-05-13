@@ -23774,3 +23774,60 @@ EOFError: EOF read where object expected
 [2024-05-13 16:58:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405131453.tar.gz]
 [2024-05-13 16:58:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-13 16:58:27] INFO root fetch - main [MainThread]: Store serial: [23185364]
+[2024-05-13 17:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185364]
+[2024-05-13 17:00:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 17:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anemone-daisy-maker
+[2024-05-13 17:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylmkit
+[2024-05-13 17:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-digitalocean
+[2024-05-13 17:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigfunctions
+[2024-05-13 17:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdsetool
+[2024-05-13 17:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2024-05-13 17:00:36] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.55.8] Old Version: [1.55.7]
+[2024-05-13 17:00:36] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-13 17:00:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202405131456] Old Version: [99.0.202405130627]
+[2024-05-13 17:00:37] INFO root fetch - processPackages [bigfunctions]: New version: [0.6] Old Version: [0.5]
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pylmkit]: New version: [0.0.22] Old Version: [0.0.21]
+[2024-05-13 17:00:37] INFO root fetch - processPackages [cdsetool]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 17:00:37] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/a6/28/5fc03b3acf7258c5fbd045277e6233d557438185c9fef2e6290be892fe51/anemone_daisy_maker-1.55.7.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bc/62/858d9f540a94bbd367e0e3288c87acac2f7c86cdfb9517f67bf0caa06842/kfish-99.0.202405130627-py3-none-any.whl
+[2024-05-13 17:00:37] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/5e/73/fc502c00fe35c1a4183a74e6c9b3875cb0313d47f3174fa5d8685a18a340/bigfunctions-0.5.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pylmkit]: Downloading https://files.pythonhosted.org/packages/7b/b9/3c5708b066ca775a406a4d459d622589ec10a9170691a4d67bfb5590f5a6/pylmkit-0.0.21.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [cdsetool]: Downloading https://files.pythonhosted.org/packages/39/25/ca649c8ed8a47a55a732fd5d3ddcfdbb6b8d4bf248516de0e218ba183aac/cdsetool-0.2.8.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7c/e5/8df9a03561bcc5b63778b07c22b09a7a3db09b6b0595f56b1dee53666952/kfish-99.0.202405131456-py3-none-any.whl
+[2024-05-13 17:00:37] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/a1/f8/894aad5efccdd319ea904ec3f305a267ebb75eddfa790cbb83ab850d6ece/anemone_daisy_maker-1.55.8.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240513/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-13 17:00:37] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-13 17:00:37] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405130627-py3-none-any.whl.zip tmp/kfish-99.0.202405131456-py3-none-any.whl.zip --markdown 20240513/k/kfish/99.0.202405130627-99.0.202405131456/README.md --exclude *.pyd
+[2024-05-13 17:00:37] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-13 17:00:37] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.55.7.tar.gz tmp/anemone_daisy_maker-1.55.8.tar.gz --markdown 20240513/a/anemone-daisy-maker/1.55.7-1.55.8/README.md --exclude *.pyd
+[2024-05-13 17:00:37] INFO root fetch - processPackages [cdsetool]: Downloading https://files.pythonhosted.org/packages/78/55/66596777ca8fbbaa0a4b0a0d1161197141127ed07052ea19cea691838158/cdsetool-0.2.9.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pylmkit]: Downloading https://files.pythonhosted.org/packages/7b/10/588371c873cc7a81404ace1a788b015a3dd5090b0085828da575b47d3d32/pylmkit-0.0.22.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/7c/48/301edc971e6f3a5a996e49ec808c4b918f3a8231f3078480f4edaca0b626/bigfunctions-0.6.tar.gz
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pylmkit]: executing diffoscope
+[2024-05-13 17:00:37] INFO root fetch - processPackages [pylmkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylmkit-0.0.21.tar.gz tmp/pylmkit-0.0.22.tar.gz --markdown 20240513/p/pylmkit/0.0.21-0.0.22/README.md --exclude *.pyd
+[2024-05-13 17:00:37] INFO root fetch - processPackages [cdsetool]: executing diffoscope
+[2024-05-13 17:00:37] INFO root fetch - processPackages [cdsetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdsetool-0.2.8.tar.gz tmp/cdsetool-0.2.9.tar.gz --markdown 20240513/c/cdsetool/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 17:00:37] INFO root fetch - processPackages [bigfunctions]: executing diffoscope
+[2024-05-13 17:00:37] INFO root fetch - processPackages [bigfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigfunctions-0.5.tar.gz tmp/bigfunctions-0.6.tar.gz --markdown 20240513/b/bigfunctions/0.5-0.6/README.md --exclude *.pyd
+[2024-05-13 17:00:38] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.55.7.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.55.8.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-13 17:00:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405130627-py3-none-any.whl.zip]
+[2024-05-13 17:00:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405131456-py3-none-any.whl.zip]
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-13 17:00:38] INFO root fetch - processPackages [cdsetool]: Remove: archive file [/home/abi/fetcher/tmp/cdsetool-0.2.8.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - processPackages [cdsetool]: Remove: archive file [/home/abi/fetcher/tmp/cdsetool-0.2.9.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [cdsetool]: success
+[2024-05-13 17:00:38] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-13 17:00:38] INFO root fetch - processPackages [pylmkit]: Remove: archive file [/home/abi/fetcher/tmp/pylmkit-0.0.21.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - processPackages [pylmkit]: Remove: archive file [/home/abi/fetcher/tmp/pylmkit-0.0.22.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [pylmkit]: success
+[2024-05-13 17:00:38] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.5.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.6.tar.gz]
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [bigfunctions]: success
+[2024-05-13 17:00:38] INFO root fetch - main [MainThread]: Store serial: [23185379]
