@@ -9276,3 +9276,29 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:20:47] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.9.tar.gz]
 [2024-05-13 08:20:47] INFO root fetch - main [MainThread]: End processing [constellate]: success
 [2024-05-13 08:20:47] INFO root fetch - main [MainThread]: Store serial: [23178667]
+[2024-05-13 08:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178667]
+[2024-05-13 08:22:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 08:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingosdk
+[2024-05-13 08:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscloud
+[2024-05-13 08:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-xlsx
+[2024-05-13 08:22:56] INFO root fetch - processPackages [hscloud]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2024-05-13 08:22:56] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/4c/49/e237c19025a28a987a9cdd4026731ec2c21eeb32e086949eb8751b4f0480/hscloud-0.0.0.5.tar.gz
+[2024-05-13 08:22:56] INFO root fetch - processPackages [pytest-xlsx]: New version: [1.1.1.dev0] Old Version: [1.0.36.1]
+[2024-05-13 08:22:56] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc6] Old Version: [0.1rc4]
+[2024-05-13 08:22:56] INFO root fetch - processPackages [pytest-xlsx]: Downloading https://files.pythonhosted.org/packages/06/de/99c06702d2e0fe7987c6cc7443b433325c6e5ad6959c0880656ebb814008/pytest_xlsx-1.0.36.1-py3-none-any.whl
+[2024-05-13 08:22:56] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/89/da/7cf7f8e3703492b62d9765dd2080fe4338f112e94690c5160f600c9ee023/dingosdk-0.1rc4.tar.gz
+[2024-05-13 08:22:56] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 67169560>=10485760
+[2024-05-13 08:22:56] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-13 08:22:56] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/9f/f2/f37bfd4cac52c71f72d645e0ab882fbfd0efcbf2e68b8ef721e6227b2400/hscloud-0.0.0.6.tar.gz
+[2024-05-13 08:22:56] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-13 08:22:56] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.5.tar.gz tmp/hscloud-0.0.0.6.tar.gz --markdown 20240513/h/hscloud/0.0.0.5-0.0.0.6/README.md --exclude *.pyd
+[2024-05-13 08:22:56] INFO root fetch - processPackages [pytest-xlsx]: Downloading https://files.pythonhosted.org/packages/4e/19/99cbaac8b7444511002db019801b35d48f441f2bf2f32d743e70e2ab040d/pytest_xlsx-1.1.1.dev0-cp312-cp312-win_amd64.whl
+[2024-05-13 08:22:57] INFO root fetch - processPackages [pytest-xlsx]: executing diffoscope
+[2024-05-13 08:22:57] INFO root fetch - processPackages [pytest-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_xlsx-1.0.36.1-py3-none-any.whl.zip tmp/pytest_xlsx-1.1.1.dev0-cp312-cp312-win_amd64.whl.zip --markdown 20240513/p/pytest-xlsx/1.0.36.1-1.1.1.dev0/README.md --exclude *.pyd
+[2024-05-13 08:22:57] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.5.tar.gz]
+[2024-05-13 08:22:57] INFO root fetch - processPackages [pytest-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xlsx-1.0.36.1-py3-none-any.whl.zip]
+[2024-05-13 08:22:57] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.6.tar.gz]
+[2024-05-13 08:22:57] INFO root fetch - processPackages [pytest-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_xlsx-1.1.1.dev0-cp312-cp312-win_amd64.whl.zip]
+[2024-05-13 08:22:57] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-13 08:22:57] INFO root fetch - main [MainThread]: End processing [pytest-xlsx]: success
+[2024-05-13 08:22:57] INFO root fetch - main [MainThread]: Store serial: [23178674]
