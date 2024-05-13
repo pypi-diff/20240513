@@ -16867,3 +16867,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:32:12] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.9.tar.gz]
 [2024-05-13 13:32:12] INFO root fetch - main [MainThread]: End processing [multipie]: success
 [2024-05-13 13:32:12] INFO root fetch - main [MainThread]: Store serial: [23182127]
+[2024-05-13 13:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182127]
+[2024-05-13 13:34:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hstream
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opperai
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-phone-local
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agoraiot
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agora-busclient
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agora-config
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agora-logging
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agora-redis-client
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agora-twin-property
+[2024-05-13 13:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agora-utils
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-config]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [hstream]: New version: [0.1.42] Old Version: [0.1.41]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-utils]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-redis-client]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-busclient]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-twin-property]: New version: [1.1.54] Old Version: [1.1.49b0]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-logging]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agoraiot]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [contact-phone-local]: New version: [0.0.9] Old Version: [0.0.15]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [opperai]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-13 13:34:22] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/09/5c/3df409baf121693574da2a39e7c155b5494202bfe32db96e689a94ec966c/hstream-0.1.41.tar.gz
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/eb/33/3a69e5d499601799b06a5a56f1f63a601b6a2bb335bb272c51b03e205b84/agora_config-1.1.52-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/b0/c3/a7627c24fee9275e351dc315b5142a83d4a7e88154edd66dfcd258bd5dbe/agora_utils-1.1.52-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/7f/25/29c80dcd3aa6bc3b98b6e2b8637512eac57acb902a44d1a6af27af47b6ad/contact_phone_local-0.0.15.tar.gz
+[2024-05-13 13:34:22] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/c5/53/565450550f7d02560589c702731300fac0041c3e48deae0a471b95d2244a/opperai-0.5.3.tar.gz
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/b5/b7/1f7c2c250c32b5dd3f4e16cffe59eb11dc926cbb35d3d391e6d79a1f0bff/agora_busclient-1.1.52-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/67/d7/4c57936ce9fa3c1b3d7a49290c5ee766875b761eb2a561668f41c4617dfa/agora_redis_client-1.1.52-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-twin-property]: Downloading https://files.pythonhosted.org/packages/04/6a/56e02669528a430d6d181523a7b6399ad8b1aadf70fd669ccff60195dc45/agora_twin_property-1.1.49b0-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/41/aa/3acef09c94d0bee3ea6ce62c7a0682bf21f0f05bf5f877069822d7bbf6b2/agoraiot-1.1.52-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/9b/fd/5141b7e7675086b568bce224a3120816f38219bda15af1fbbe7c7674420d/agora_logging-1.1.52-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/8b/ec/da89f52c088be8e569fbcff565bb43654b93385a17239469ec7055e9e52a/hstream-0.1.42.tar.gz
+[2024-05-13 13:34:22] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 13:34:22] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.41.tar.gz tmp/hstream-0.1.42.tar.gz --markdown 20240513/h/hstream/0.1.41-0.1.42/README.md --exclude *.pyd
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/2c/6f/f4070539b047ea362cca4449f48ccda4eab94cf81ca09017abfa935bb735/agora_config-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/02/87/0d54c4154845fa126fe5d0f11b212eb3f96f02f01f00ccc0623e0b53b2a6/agora_utils-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/88/b5/c3cd7b2322b674e5115abe0cf1665d7405051dc6307ded8f38e07f5d95e7/contact_phone_local-0.0.9.tar.gz
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/d2/20/c6acdff15163685c9fa95e844f454bfc2b4abc93fda61b2b0997e4d60c53/agora_busclient-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/02/45/94ce37c3388c12f66e7eb52e65b2a64b03fb8fa2cf4e36e477215ae41b7b/agora_redis_client-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.1.52-py2.py3-none-any.whl.zip tmp/agora_config-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agora-config/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:22] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/14/c7/12f80fe83c725b2ea1768fa4d55607ce9379435007410724c49048ef5423/opperai-0.6.0.tar.gz
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-twin-property]: Downloading https://files.pythonhosted.org/packages/5e/8e/d8d0dffff6b77fb11bf115b4b4a3f117bacd910ebeaceed12dac9922297c/agora_twin_property-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/8e/fd/e85ce9ee74c32a7eba07d12b48f2ad64da04414fb07045ad90409d90c542/agora_logging-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/3d/fe/b2c984bbb19180636e7b23eaec350478930f7afa36ef1a5c4cb1dfe5b98c/agoraiot-1.1.54-py2.py3-none-any.whl
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2024-05-13 13:34:22] INFO root fetch - processPackages [contact-phone-local]: executing diffoscope
+[2024-05-13 13:34:22] INFO root fetch - processPackages [contact-phone-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_phone_local-0.0.15.tar.gz tmp/contact_phone_local-0.0.9.tar.gz --markdown 20240513/c/contact-phone-local/0.0.15-0.0.9/README.md --exclude *.pyd
+[2024-05-13 13:34:22] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.1.52-py2.py3-none-any.whl.zip tmp/agora_utils-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agora-utils/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.1.52-py2.py3-none-any.whl.zip tmp/agora_busclient-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agora-busclient/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.1.52-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agora-redis-client/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-twin-property]: executing diffoscope
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-twin-property]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_twin_property-1.1.49b0-py2.py3-none-any.whl.zip tmp/agora_twin_property-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agora-twin-property/1.1.49b0-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.1.52-py2.py3-none-any.whl.zip tmp/agoraiot-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agoraiot/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.1.52-py2.py3-none-any.whl.zip tmp/agora_logging-1.1.54-py2.py3-none-any.whl.zip --markdown 20240513/a/agora-logging/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [opperai]: executing diffoscope
+[2024-05-13 13:34:23] INFO root fetch - processPackages [opperai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opperai-0.5.3.tar.gz tmp/opperai-0.6.0.tar.gz --markdown 20240513/o/opperai/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-13 13:34:23] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.41.tar.gz]
+[2024-05-13 13:34:23] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.42.tar.gz]
+[2024-05-13 13:34:23] INFO root fetch - processPackages [hstream]: Start processing: ludfor-utils
+[2024-05-13 13:34:23] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 13:34:23] INFO root fetch - processPackages [ludfor-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:23] INFO root fetch - processPackages [agora-utils]: Start processing: mtpandas
+[2024-05-13 13:34:23] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2024-05-13 13:34:23] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.15.tar.gz]
+[2024-05-13 13:34:23] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.9.tar.gz]
+[2024-05-13 13:34:23] INFO root fetch - main [MainThread]: End processing [contact-phone-local]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [ludfor-utils]: Downloading https://files.pythonhosted.org/packages/cd/eb/b33d30d3eac2af32823c25f3a2680042f7d174108cc687a10642790e77e8/ludfor-utils-0.1.6.tar.gz
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-twin-property]: Remove: archive file [/home/abi/fetcher/tmp/agora_twin_property-1.1.49b0-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-twin-property]: Remove: archive file [/home/abi/fetcher/tmp/agora_twin_property-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [agora-twin-property]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [mtpandas]: New version: [1.9.202208120520] Old Version: [1.9.202208011136]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/83/07/ea7b949233637231b605ad043e5af153695fabeec4dd4d2941c8d0bdd8c1/mtpandas-1.9.202208011136-py3-none-any.whl
+[2024-05-13 13:34:24] INFO root fetch - processPackages [ludfor-utils]: Downloading https://files.pythonhosted.org/packages/67/ac/1ebf02ef1c4f7ddc4f94f51dd81459b6331630ba4bb9c903a7edd28c2b33/ludfor-utils-0.1.7.tar.gz
+[2024-05-13 13:34:24] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.5.3.tar.gz]
+[2024-05-13 13:34:24] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.6.0.tar.gz]
+[2024-05-13 13:34:24] INFO root fetch - main [MainThread]: End processing [opperai]: success
+[2024-05-13 13:34:24] INFO root fetch - processPackages [ludfor-utils]: executing diffoscope
+[2024-05-13 13:34:24] INFO root fetch - processPackages [ludfor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ludfor-utils-0.1.6.tar.gz tmp/ludfor-utils-0.1.7.tar.gz --markdown 20240513/l/ludfor-utils/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-13 13:34:24] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/6b/c5/5887a43a006743313198ea775120a74710c0da606c9ccbd6612c8010296a/mtpandas-1.9.202208120520-py3-none-any.whl
+[2024-05-13 13:34:24] INFO root fetch - processPackages [mtpandas]: executing diffoscope
+[2024-05-13 13:34:24] INFO root fetch - processPackages [mtpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip --markdown 20240513/m/mtpandas/1.9.202208011136-1.9.202208120520/README.md --exclude *.pyd
+[2024-05-13 13:34:25] INFO root fetch - processPackages [ludfor-utils]: Remove: archive file [/home/abi/fetcher/tmp/ludfor-utils-0.1.6.tar.gz]
+[2024-05-13 13:34:25] INFO root fetch - processPackages [ludfor-utils]: Remove: archive file [/home/abi/fetcher/tmp/ludfor-utils-0.1.7.tar.gz]
+[2024-05-13 13:34:25] INFO root fetch - main [MainThread]: End processing [ludfor-utils]: success
+[2024-05-13 13:34:25] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip]
+[2024-05-13 13:34:25] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip]
+[2024-05-13 13:34:25] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
+[2024-05-13 13:34:25] INFO root fetch - main [MainThread]: Store serial: [23182153]
