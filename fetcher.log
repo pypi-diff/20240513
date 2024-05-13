@@ -15642,3 +15642,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:43:45] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.1.tar.gz]
 [2024-05-13 12:43:45] INFO root fetch - main [MainThread]: End processing [PyStratum-Backend]: success
 [2024-05-13 12:43:45] INFO root fetch - main [MainThread]: Store serial: [23181654]
+[2024-05-13 12:45:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181654]
+[2024-05-13 12:45:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pineboo
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microdata-tools
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acmecse
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezkl-gpu
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agent360
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognite-power-ops
+[2024-05-13 12:45:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monkshoodsz
+[2024-05-13 12:45:54] WARNING root fetch - processPackages [acmecse]: Skipping, unable to determine old version
+[2024-05-13 12:45:54] INFO root fetch - main [MainThread]: End processing [acmecse] error
+[2024-05-13 12:45:54] INFO root fetch - processPackages [pineboo]: New version: [0.99.84.3] Old Version: [0.99.84.2]
+[2024-05-13 12:45:54] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-13 12:45:54] INFO root fetch - processPackages [agent360]: New version: [1.3.0] Old Version: [1.2.48]
+[2024-05-13 12:45:54] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/bf/80/347f29d1e8446b590cd9cd3cf66e87c76c982e71941e43e1671b6a3c12d7/pineboo-0.99.84.2.tar.gz
+[2024-05-13 12:45:54] WARNING root fetch - processPackages [monkshoodsz]: Skipping, unable to determine old version
+[2024-05-13 12:45:54] INFO root fetch - main [MainThread]: End processing [monkshoodsz] error
+[2024-05-13 12:45:54] INFO root fetch - processPackages [microdata-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 12:45:54] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-05-13 12:45:54] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.94.3] Old Version: [0.94.2]
+[2024-05-13 12:45:54] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-05-13 12:45:54] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-05-13 12:45:54] INFO root fetch - processPackages [agent360]: Downloading https://files.pythonhosted.org/packages/db/aa/9849794883fec11cfe3ffe642db57e2b4afe9836ad641fc9c7e0031d9588/agent360-1.2.48.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/25/3f/0890aa28d934c49f15258d124f262332fe3ecfac877e0b49b91b63b74520/microdata_tools-0.9.0.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/b7/c0/40d220c9daa73359db01ea385db4edccc5e65a93d762c9305278bd1e70c3/cognite_power_ops-0.94.2.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [agent360]: Downloading https://files.pythonhosted.org/packages/94/9a/05c5e84e825a81ceca76de7bc9da323d2255def0c14ee9f999c0f31c50f5/agent360-1.3.0.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [microdata-tools]: Downloading https://files.pythonhosted.org/packages/ee/6a/f591fa90f15b48b1226089d2c142433db80b8c63b6727ea5c6d591a91c2f/microdata_tools-0.9.1.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9e/b0/12b1c46a8c7dc5e99925243724b9c4e9e61834d949669ba8112fe972e9fc/pineboo-0.99.84.3.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/9c/d4/88db0d646f91d3c668251810b2560e1d0371f0a9d06d105dd07f5fb54f67/cognite_power_ops-0.94.3.tar.gz
+[2024-05-13 12:45:54] INFO root fetch - processPackages [agent360]: executing diffoscope
+[2024-05-13 12:45:54] INFO root fetch - processPackages [agent360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent360-1.2.48.tar.gz tmp/agent360-1.3.0.tar.gz --markdown 20240513/a/agent360/1.2.48-1.3.0/README.md --exclude *.pyd
+[2024-05-13 12:45:55] INFO root fetch - processPackages [microdata-tools]: executing diffoscope
+[2024-05-13 12:45:55] INFO root fetch - processPackages [microdata-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdata_tools-0.9.0.tar.gz tmp/microdata_tools-0.9.1.tar.gz --markdown 20240513/m/microdata-tools/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 12:45:55] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2024-05-13 12:45:55] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.94.2.tar.gz tmp/cognite_power_ops-0.94.3.tar.gz --markdown 20240513/c/cognite-power-ops/0.94.2-0.94.3/README.md --exclude *.pyd
+[2024-05-13 12:45:55] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 12:45:55] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.84.2.tar.gz tmp/pineboo-0.99.84.3.tar.gz --markdown 20240513/p/pineboo/0.99.84.2-0.99.84.3/README.md --exclude *.pyd
+[2024-05-13 12:45:55] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.9.0.tar.gz]
+[2024-05-13 12:45:55] INFO root fetch - processPackages [microdata-tools]: Remove: archive file [/home/abi/fetcher/tmp/microdata_tools-0.9.1.tar.gz]
+[2024-05-13 12:45:55] INFO root fetch - main [MainThread]: End processing [microdata-tools]: success
+[2024-05-13 12:45:56] INFO root fetch - processPackages [agent360]: Remove: archive file [/home/abi/fetcher/tmp/agent360-1.2.48.tar.gz]
+[2024-05-13 12:45:56] INFO root fetch - processPackages [agent360]: Remove: archive file [/home/abi/fetcher/tmp/agent360-1.3.0.tar.gz]
+[2024-05-13 12:45:56] INFO root fetch - main [MainThread]: End processing [agent360]: success
+[2024-05-13 12:45:58] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.2.tar.gz]
+[2024-05-13 12:45:58] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.3.tar.gz]
+[2024-05-13 12:45:58] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2024-05-13 12:45:59] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.2.tar.gz]
+[2024-05-13 12:45:59] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.3.tar.gz]
+[2024-05-13 12:45:59] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 12:45:59] INFO root fetch - main [MainThread]: Store serial: [23181674]
