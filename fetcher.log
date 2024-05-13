@@ -17648,3 +17648,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:56:07] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc2-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-13 13:56:07] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
 [2024-05-13 13:56:07] INFO root fetch - main [MainThread]: Store serial: [23182464]
+[2024-05-13 13:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182464]
+[2024-05-13 13:58:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: file-process
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiotgm
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nchuchain
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddeutil-io
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcnodes-sklearn
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: algokit-utils
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toroidz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hao
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Contentstack
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ddeutil-io]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [nchuchain]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [algokit-utils]: New version: [2.3.0b3] Old Version: [2.3.0b2]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [file-process]: New version: [1.4.0] Old Version: [1.3.4]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [cg]: New version: [60.7.6] Old Version: [60.7.5]
+[2024-05-13 13:58:16] WARNING root fetch - processPackages [aiotgm]: Skipping, unable to determine old version
+[2024-05-13 13:58:16] INFO root fetch - processPackages [aiotgm]: Start processing: finbourne-access-sdk
+[2024-05-13 13:58:16] INFO root fetch - main [MainThread]: End processing [aiotgm] error
+[2024-05-13 13:58:16] INFO root fetch - processPackages [funcnodes-sklearn]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/d4/42/58b114fb2a7dadb8d01c2b78ae6221674de2f9085146b8f0576e40de6117/nchuchain-1.0.1.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [Contentstack]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-13 13:58:16] WARNING root fetch - processPackages [toroidz]: Skipping, unable to determine old version
+[2024-05-13 13:58:16] INFO root fetch - processPackages [toroidz]: Start processing: keelson
+[2024-05-13 13:58:16] INFO root fetch - main [MainThread]: End processing [toroidz] error
+[2024-05-13 13:58:16] INFO root fetch - processPackages [hao]: New version: [3.8.9] Old Version: [3.8.8]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ce/8f/158327259fa08e70862d382ca9e3aee64c258ceccc11998b9bd4a3899b8c/algokit_utils-2.3.0b2-py3-none-any.whl
+[2024-05-13 13:58:16] INFO root fetch - processPackages [keelson]: New version: [0.3.2] Old Version: [0.3.1rc9]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 13:58:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c3/af/9718a017f69c937171bcc9d82985ace9b5178dfedfb9448126007e1b3a12/cg-60.7.5.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [ddeutil-io]: Downloading https://files.pythonhosted.org/packages/0d/b0/ad08202cf7fc12a8cef4578412eab33e46bdac3273cac9f6e3240ec6ab1a/ddeutil-io-0.0.3.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [file-process]: Downloading https://files.pythonhosted.org/packages/ab/ee/0dc8ac6bc424378ef739df2d6c8e64f77a00c8b895c3213c8aa0416bcfde/file_process-1.3.4.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/4a/ba/cefc34095247ac3c73733ffd7bcc61af205103f59fd0d321879e755e720b/funcnodes_sklearn-0.1.4.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-05-13 13:58:16] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [Contentstack]: Downloading https://files.pythonhosted.org/packages/ae/00/f94759df472114ce5b1f05a82a312257559d832c4eb728e1b06dd88fe208/Contentstack-1.8.2.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/50/a5/21a2b7deb1f7d7f2edb0ec75496faeb22d27da451ca4c2cd041d4d0ac14e/hao-3.8.8.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/88/aa/ce2d6ab5801f7bdbc5537c0e5d6721df851f3ebb5a53e6e54ce84dd5f101/nchuchain-1.0.2.tar.gz
+[2024-05-13 13:58:16] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/3c/9b/a0eaf12e84e03e3e973d110ba9af3c31588252ce523016e71491b3e34fc8/algokit_utils-2.3.0b3-py3-none-any.whl
+[2024-05-13 13:58:17] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.1.tar.gz tmp/nchuchain-1.0.2.tar.gz --markdown 20240513/n/nchuchain/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/8c/0b/86273094e86080a0e6c88a9076d6677235bde6f1f0449bfd9cf542b958c5/keelson-0.3.2-py3-none-any.whl
+[2024-05-13 13:58:17] INFO root fetch - processPackages [file-process]: Downloading https://files.pythonhosted.org/packages/64/e3/8ca5d0320374bed5d97936d6799f67bb4d19c22d360d8916b89d049074aa/file_process-1.4.0.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [ddeutil-io]: Downloading https://files.pythonhosted.org/packages/26/87/cba0eb748c3e0838ace508d32413e53c2f6cb76a8f18e85c542953f554c8/ddeutil_io-0.1.0.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/55/1b/4e7caa889fbe966b27b423f6170e474fa7bb115e61027fdf78c525cedfe1/cg-60.7.6.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/41/08/510530b27678c0af9b0384d5f095ff80db9541e56cce8f7ccbdd893fee00/funcnodes_sklearn-0.1.5.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip tmp/algokit_utils-2.3.0b3-py3-none-any.whl.zip --markdown 20240513/a/algokit-utils/2.3.0b2-2.3.0b3/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [Contentstack]: Downloading https://files.pythonhosted.org/packages/67/4e/288d4a75e3194da23ec98ce566e4e86ac8bc4049d098aefc98810ac1a6a0/contentstack-1.9.0.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc9-py3-none-any.whl.zip tmp/keelson-0.3.2-py3-none-any.whl.zip --markdown 20240513/k/keelson/0.3.1rc9-0.3.2/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [hao]: Downloading https://files.pythonhosted.org/packages/81/28/223d0196528f795f7853f77945f9bd597a93cc99fe9e02770218cfdaaaab/hao-3.8.9.tar.gz
+[2024-05-13 13:58:17] INFO root fetch - processPackages [file-process]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [file-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_process-1.3.4.tar.gz tmp/file_process-1.4.0.tar.gz --markdown 20240513/f/file-process/1.3.4-1.4.0/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [ddeutil-io]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [ddeutil-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddeutil-io-0.0.3.tar.gz tmp/ddeutil_io-0.1.0.tar.gz --markdown 20240513/d/ddeutil-io/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [funcnodes-sklearn]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [funcnodes-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_sklearn-0.1.4.tar.gz tmp/funcnodes_sklearn-0.1.5.tar.gz --markdown 20240513/f/funcnodes-sklearn/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [Contentstack]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [Contentstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Contentstack-1.8.2.tar.gz tmp/contentstack-1.9.0.tar.gz --markdown 20240513/C/Contentstack/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [hao]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [hao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hao-3.8.8.tar.gz tmp/hao-3.8.9.tar.gz --markdown 20240513/h/hao/3.8.8-3.8.9/README.md --exclude *.pyd
+[2024-05-13 13:58:17] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-13 13:58:17] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.5.tar.gz tmp/cg-60.7.6.tar.gz --markdown 20240513/c/cg/60.7.5-60.7.6/README.md --exclude *.pyd
+[2024-05-13 13:58:18] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.1.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.2.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 13:58:18] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil-io-0.0.3.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [ddeutil-io]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_io-0.1.0.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [ddeutil-io]: success
+[2024-05-13 13:58:18] INFO root fetch - processPackages [file-process]: Remove: archive file [/home/abi/fetcher/tmp/file_process-1.3.4.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [file-process]: Remove: archive file [/home/abi/fetcher/tmp/file_process-1.4.0.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [file-process]: success
+[2024-05-13 13:58:18] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b3-py3-none-any.whl.zip]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-05-13 13:58:18] INFO root fetch - processPackages [Contentstack]: Remove: archive file [/home/abi/fetcher/tmp/Contentstack-1.8.2.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [Contentstack]: Remove: archive file [/home/abi/fetcher/tmp/contentstack-1.9.0.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [Contentstack]: success
+[2024-05-13 13:58:18] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.2-py3-none-any.whl.zip]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-13 13:58:18] INFO root fetch - processPackages [hao]: Remove: archive file [/home/abi/fetcher/tmp/hao-3.8.8.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - processPackages [hao]: Remove: archive file [/home/abi/fetcher/tmp/hao-3.8.9.tar.gz]
+[2024-05-13 13:58:18] INFO root fetch - main [MainThread]: End processing [hao]: success
+[2024-05-13 13:58:19] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.4.tar.gz]
+[2024-05-13 13:58:19] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.5.tar.gz]
+[2024-05-13 13:58:19] INFO root fetch - main [MainThread]: End processing [funcnodes-sklearn]: success
+[2024-05-13 13:58:19] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-13 13:58:19] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-13 13:58:19] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-13 13:58:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.5.tar.gz]
+[2024-05-13 13:58:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.6.tar.gz]
+[2024-05-13 13:58:22] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-13 13:58:22] INFO root fetch - main [MainThread]: Store serial: [23182504]
