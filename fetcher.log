@@ -13938,3 +13938,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:40:28] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.20-py3-none-any.whl.zip]
 [2024-05-13 11:40:28] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
 [2024-05-13 11:40:28] INFO root fetch - main [MainThread]: Store serial: [23180977]
+[2024-05-13 11:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180977]
+[2024-05-13 11:42:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-auth-st
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browserbase
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-pivotal-tracker
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geometricalgebra
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitbuilding
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slint
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pms-encoder
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-ai-python
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: g3tables
+[2024-05-13 11:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlpage
+[2024-05-13 11:42:36] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [browserbase]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 11:42:36] WARNING root fetch - processPackages [google-auth-st]: Skipping, unable to determine old version
+[2024-05-13 11:42:36] INFO root fetch - processPackages [google-auth-st]: Start processing: sqlpage
+[2024-05-13 11:42:36] INFO root fetch - main [MainThread]: End processing [google-auth-st] error
+[2024-05-13 11:42:36] INFO root fetch - processPackages [slint]: New version: [1.6.0a8] Old Version: [1.6.0a7]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [g3tables]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [geometricalgebra]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 11:42:36] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/f6/0e/ecebc566ff5e0abc914942d7823771bdcd583ee887434ef5740d8eeb2bfc/pms_encoder-0.0.6.tar.gz
+[2024-05-13 11:42:36] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 11:42:37] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/5d/02/d9c71baf1393f7e1fed92d62be7ad76d2d954368badcb806fac4afb5d257/gitbuilding-0.9.0.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: Downloading https://files.pythonhosted.org/packages/66/f4/576f199a3e88d16abe64e270612dd7443860988d4f3ce531a8e31adff411/airbyte-source-pivotal-tracker-0.1.1.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/97/33/f0124d5e0776b662b77b3a950edd964219b1ad487966aaf81cd4c8d07d40/browserbase-0.1.0.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [geometricalgebra]: Downloading https://files.pythonhosted.org/packages/7f/84/3a2faab7f49ab60f6290d39b0e5d1f7fff6fc9782f85dfb683a22a7bdb50/geometricalgebra-0.1.2.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/88/a2/19b200994c5ff87f799b51be2034c92fdcd23f56ba0d93aeb1dc9e7e3674/sqlpage-0.0.4-py3-none-any.whl
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/88/a2/19b200994c5ff87f799b51be2034c92fdcd23f56ba0d93aeb1dc9e7e3674/sqlpage-0.0.4-py3-none-any.whl
+[2024-05-13 11:42:37] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/34/6b/148acc72584bf424be9eba6d823ca97ce53a3a3bc5f0988929c397ff3429/g3tables-0.2.2.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [slint]: Downloading https://files.pythonhosted.org/packages/cf/77/812b6c6d6bcff5bf5d2d5da4d4c3c1ac09687f3ae943c6b59044b71a88bf/slint-1.6.0a7.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/b6/dd/aecf4442e21bede0fbed014db39b6a3066ae0ddc00c3d51b359739bea238/pms_encoder-0.0.7.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: Downloading https://files.pythonhosted.org/packages/5a/db/8ec8db7ab98776d22590348ad0ebc352fd6f3cb91472a026fc93745059d0/airbyte_source_pivotal_tracker-0.2.0.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.6.tar.gz tmp/pms_encoder-0.0.7.tar.gz --markdown 20240513/p/pms-encoder/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 11:42:37] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240513/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 11:42:37] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/fb/89/3d1096e8cdffddae567b7b9a4628a0fc0da98977dfada09ffd81c412d6ff/browserbase-0.1.1.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [browserbase]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [browserbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserbase-0.1.0.tar.gz tmp/browserbase-0.1.1.tar.gz --markdown 20240513/b/browserbase/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 11:42:37] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/34/2d/d3f6a57281a0cadeb60d54d1e73ee72f46d6f39a1b797b0ef6d170916555/g3tables-0.2.3.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/78/4c/ec29a5bb91b66a572273c4c8e4b699f9cace8e18006dc39de812d498efd3/sqlpage-0.0.5-py3-none-any.whl
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/78/4c/ec29a5bb91b66a572273c4c8e4b699f9cace8e18006dc39de812d498efd3/sqlpage-0.0.5-py3-none-any.whl
+[2024-05-13 11:42:37] INFO root fetch - processPackages [geometricalgebra]: Downloading https://files.pythonhosted.org/packages/15/ee/09819b362d30399eb5f02d6a8e42e6c933f8405c712f38d0604da2ea520e/geometricalgebra-0.1.3.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/15/ed/67289495ef2328366701013c075dc09429e3101a0d66d3f73ca280175e13/gitbuilding-0.9.1.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-pivotal-tracker-0.1.1.tar.gz tmp/airbyte_source_pivotal_tracker-0.2.0.tar.gz --markdown 20240513/a/airbyte-source-pivotal-tracker/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 11:42:37] INFO root fetch - processPackages [slint]: Downloading https://files.pythonhosted.org/packages/49/4b/d58abf5ad75640d3775ba946da9c46f68c44d9d362794f4a29ad97b25af0/slint-1.6.0a8.tar.gz
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.4-py3-none-any.whl.zip tmp/sqlpage-0.0.5-py3-none-any.whl.zip --markdown 20240513/s/sqlpage/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.4-py3-none-any.whl.zip tmp/sqlpage-0.0.5-py3-none-any.whl.zip --markdown 20240513/s/sqlpage/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 11:42:37] INFO root fetch - processPackages [geometricalgebra]: executing diffoscope
+[2024-05-13 11:42:37] INFO root fetch - processPackages [geometricalgebra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geometricalgebra-0.1.2.tar.gz tmp/geometricalgebra-0.1.3.tar.gz --markdown 20240513/g/geometricalgebra/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 11:42:38] INFO root fetch - processPackages [g3tables]: executing diffoscope
+[2024-05-13 11:42:38] INFO root fetch - processPackages [g3tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3tables-0.2.2.tar.gz tmp/g3tables-0.2.3.tar.gz --markdown 20240513/g/g3tables/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-13 11:42:38] INFO root fetch - processPackages [slint]: executing diffoscope
+[2024-05-13 11:42:38] INFO root fetch - processPackages [slint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slint-1.6.0a7.tar.gz tmp/slint-1.6.0a8.tar.gz --markdown 20240513/s/slint/1.6.0a7-1.6.0a8/README.md --exclude *.pyd
+[2024-05-13 11:42:38] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2024-05-13 11:42:38] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20240513/g/gitbuilding/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 11:42:38] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.6.tar.gz]
+[2024-05-13 11:42:38] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.7.tar.gz]
+[2024-05-13 11:42:38] INFO root fetch - processPackages [pms-encoder]: Start processing: sqlpage
+[2024-05-13 11:42:38] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-13 11:42:38] INFO root fetch - processPackages [sqlpage]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 11:42:38] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.0.tar.gz]
+[2024-05-13 11:42:38] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.1.tar.gz]
+[2024-05-13 11:42:38] INFO root fetch - processPackages [browserbase]: Start processing: sqlpage
+[2024-05-13 11:42:38] INFO root fetch - main [MainThread]: End processing [browserbase]: success
+[2024-05-13 11:42:38] INFO root fetch - processPackages [sqlpage]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.4-py3-none-any.whl.zip]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.5-py3-none-any.whl.zip]
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [sqlpage]: success
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/78/4c/ec29a5bb91b66a572273c4c8e4b699f9cace8e18006dc39de812d498efd3/sqlpage-0.0.5-py3-none-any.whl
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [sqlpage]: success
+[2024-05-13 11:42:39] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-pivotal-tracker-0.1.1.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [airbyte-source-pivotal-tracker]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pivotal_tracker-0.2.0.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [airbyte-source-pivotal-tracker]: success
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/78/4c/ec29a5bb91b66a572273c4c8e4b699f9cace8e18006dc39de812d498efd3/sqlpage-0.0.5-py3-none-any.whl
+[2024-05-13 11:42:39] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.2.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.3.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [g3tables]: success
+[2024-05-13 11:42:39] INFO root fetch - processPackages [geometricalgebra]: Remove: archive file [/home/abi/fetcher/tmp/geometricalgebra-0.1.2.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [geometricalgebra]: Remove: archive file [/home/abi/fetcher/tmp/geometricalgebra-0.1.3.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [geometricalgebra]: success
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.4-py3-none-any.whl.zip tmp/sqlpage-0.0.5-py3-none-any.whl.zip --markdown 20240513/s/sqlpage/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 11:42:39] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/64/10/c1427e1cf10497564cd0e6d38adc86d133cb4776b4c7007237d6695d077f/sqlpage-0.0.6-py3-none-any.whl
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:42:39] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.5-py3-none-any.whl.zip tmp/sqlpage-0.0.6-py3-none-any.whl.zip --markdown 20240513/s/sqlpage/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 11:42:39] ERROR root fetch - processPackages [sqlpage]: Diffoscope failed: time="2024-05-13T11:42:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/sqlpage-0.0.4-py3-none-any.whl.zip: No such file or directory
+
+[2024-05-13 11:42:39] INFO root fetch - main [MainThread]: End processing [sqlpage] error
+[2024-05-13 11:42:40] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.0.tar.gz]
+[2024-05-13 11:42:40] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
+[2024-05-13 11:42:40] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2024-05-13 11:42:40] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.5-py3-none-any.whl.zip]
+[2024-05-13 11:42:40] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.6-py3-none-any.whl.zip]
+[2024-05-13 11:42:40] INFO root fetch - main [MainThread]: End processing [sqlpage]: success
+[2024-05-13 11:42:43] INFO root fetch - processPackages [slint]: Remove: archive file [/home/abi/fetcher/tmp/slint-1.6.0a7.tar.gz]
+[2024-05-13 11:42:43] INFO root fetch - processPackages [slint]: Remove: archive file [/home/abi/fetcher/tmp/slint-1.6.0a8.tar.gz]
+[2024-05-13 11:42:43] INFO root fetch - main [MainThread]: End processing [slint]: success
+[2024-05-13 11:42:43] INFO root fetch - main [MainThread]: Store serial: [23181019]
