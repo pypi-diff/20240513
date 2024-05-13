@@ -1774,3 +1774,46 @@
 [2024-05-13 02:29:51] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.68.tar.gz]
 [2024-05-13 02:29:51] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-13 02:29:51] INFO root fetch - main [MainThread]: Store serial: [23175213]
+[2024-05-13 02:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175213]
+[2024-05-13 02:32:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2024-05-13 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akismet
+[2024-05-13 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb-pytorch
+[2024-05-13 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vacuationz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astropy-iers-data
+[2024-05-13 02:32:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numberz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 02:32:01] INFO root fetch - processPackages [akismet]: New version: [24.5.0] Old Version: [1.3]
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2024.5.6.0.29.28] Old Version: [0.2024.5.13.0.30.12]
+[2024-05-13 02:32:01] WARNING root fetch - processPackages [numberz]: Skipping, unable to determine old version
+[2024-05-13 02:32:01] INFO root fetch - main [MainThread]: End processing [numberz] error
+[2024-05-13 02:32:01] WARNING root fetch - processPackages [vacuationz]: Skipping, unable to determine old version
+[2024-05-13 02:32:01] INFO root fetch - processPackages [akismet]: Downloading https://files.pythonhosted.org/packages/f8/8a/b893021d1463aba91b8987d9498609a6128a09c82d74059513cb088261d6/akismet-1.3.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - main [MainThread]: End processing [vacuationz] error
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/4b/4b/65e1556396a08a3aa74afab4e5108b291612ef7c320bdb02460c31bdefe4/astropy_iers_data-0.2024.5.13.0.30.12.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [akismet]: Downloading https://files.pythonhosted.org/packages/98/d0/244a055550f22d839ca1b46b8ae3cd07c49fdde12932f1ce8d9147ab9e35/akismet-24.5.0.tar.gz
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 02:32:01] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 02:32:01] INFO root fetch - processPackages [akismet]: executing diffoscope
+[2024-05-13 02:32:01] INFO root fetch - processPackages [akismet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akismet-1.3.tar.gz tmp/akismet-24.5.0.tar.gz --markdown 20240513/a/akismet/1.3-24.5.0/README.md --exclude *.pyd
+[2024-05-13 02:32:02] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 02:32:02] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 02:32:02] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 02:32:02] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/28/a2/5cf0b233b4a6a64f61cb83772b273ea44fb849db662d55e625f44bfa92c6/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz
+[2024-05-13 02:32:02] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 02:32:02] INFO root fetch - processPackages [akismet]: Remove: archive file [/home/abi/fetcher/tmp/akismet-1.3.tar.gz]
+[2024-05-13 02:32:02] INFO root fetch - processPackages [akismet]: Remove: archive file [/home/abi/fetcher/tmp/akismet-24.5.0.tar.gz]
+[2024-05-13 02:32:02] INFO root fetch - main [MainThread]: End processing [akismet]: success
+[2024-05-13 02:32:02] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2024-05-13 02:32:02] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy_iers_data-0.2024.5.13.0.30.12.tar.gz tmp/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz --markdown 20240513/a/astropy-iers-data/0.2024.5.13.0.30.12-0.2024.5.6.0.29.28/README.md --exclude *.pyd
+[2024-05-13 02:32:04] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.5.13.0.30.12.tar.gz]
+[2024-05-13 02:32:04] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz]
+[2024-05-13 02:32:04] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2024-05-13 02:32:04] INFO root fetch - main [MainThread]: Store serial: [23175235]
