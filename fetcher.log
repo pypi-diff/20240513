@@ -22118,3 +22118,54 @@ EOFError: EOF read where object expected
 [2024-05-13 16:11:34] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
 [2024-05-13 16:11:34] INFO root fetch - main [MainThread]: End processing [synrbl]: success
 [2024-05-13 16:11:34] INFO root fetch - main [MainThread]: Store serial: [23184346]
+[2024-05-13 16:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184346]
+[2024-05-13 16:13:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 16:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eolymp
+[2024-05-13 16:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resc-backend
+[2024-05-13 16:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: locust
+[2024-05-13 16:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django_fast_export
+[2024-05-13 16:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sniffing-io
+[2024-05-13 16:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: messages-local
+[2024-05-13 16:13:43] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 16:13:43] INFO root fetch - processPackages [sniffing-io]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-13 16:13:43] WARNING root fetch - processPackages [django_fast_export]: Skipping, unable to determine old version
+[2024-05-13 16:13:43] INFO root fetch - main [MainThread]: End processing [django_fast_export] error
+[2024-05-13 16:13:43] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-13 16:13:43] INFO root fetch - processPackages [resc-backend]: New version: [4.0.0] Old Version: [3.1.2]
+[2024-05-13 16:13:43] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-13 16:13:43] INFO root fetch - processPackages [messages-local]: New version: [0.0.51] Old Version: [0.0.50]
+[2024-05-13 16:13:43] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/d2/d2/25b743001640fdeea4376a89a1350b7a042fba006c0e19e1827df1c2e80a/sniffing-io-0.0.0.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/f6/f5/b731cd46977bdece908881cfa22e7743bac70e61bf0b65dc88f839b6a43a/resc_backend-3.1.2.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/49/71/d492d10d22c488118e93aab943218198635eaf551acab467c2c2813a094c/sniffing-io-0.0.1.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/6b/dd/810f45051467596bf5826228b6435378f5c9cab9b65b6aa740b4bdc4c9da/messages_local-0.0.50.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [sniffing-io]: executing diffoscope
+[2024-05-13 16:13:44] INFO root fetch - processPackages [sniffing-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniffing-io-0.0.0.tar.gz tmp/sniffing-io-0.0.1.tar.gz --markdown 20240513/s/sniffing-io/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-13 16:13:44] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-13 16:13:44] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240513/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 16:13:44] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/14/1e/6e1264e90a1095c8de72b810c6a6e519b36ac221b65789a7b664ba638e08/resc_backend-4.0.0.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/40/ff/f4a3581daeb44c3d15aea5c6b133678c7cad593bcc40279c13afd75c033f/messages_local-0.0.51.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-13 16:13:44] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.1.2.tar.gz tmp/resc_backend-4.0.0.tar.gz --markdown 20240513/r/resc-backend/3.1.2-4.0.0/README.md --exclude *.pyd
+[2024-05-13 16:13:44] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-13 16:13:44] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.50.tar.gz tmp/messages_local-0.0.51.tar.gz --markdown 20240513/m/messages-local/0.0.50-0.0.51/README.md --exclude *.pyd
+[2024-05-13 16:13:44] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-13 16:13:44] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-13 16:13:44] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240513/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-13 16:13:45] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.0.tar.gz]
+[2024-05-13 16:13:45] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.1.tar.gz]
+[2024-05-13 16:13:45] INFO root fetch - main [MainThread]: End processing [sniffing-io]: success
+[2024-05-13 16:13:45] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.50.tar.gz]
+[2024-05-13 16:13:45] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.51.tar.gz]
+[2024-05-13 16:13:45] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-13 16:13:45] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.1.2.tar.gz]
+[2024-05-13 16:13:45] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-4.0.0.tar.gz]
+[2024-05-13 16:13:45] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-13 16:13:46] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-13 16:13:46] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-13 16:13:46] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-13 16:13:46] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-13 16:13:46] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-13 16:13:46] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-13 16:13:46] INFO root fetch - main [MainThread]: Store serial: [23184363]
