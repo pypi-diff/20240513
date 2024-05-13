@@ -9125,3 +9125,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:12:04] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-13 08:12:04] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-13 08:12:04] INFO root fetch - main [MainThread]: Store serial: [23178584]
+[2024-05-13 08:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178584]
+[2024-05-13 08:14:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelmerge
+[2024-05-13 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stubbornestz
+[2024-05-13 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-core
+[2024-05-13 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zaide
+[2024-05-13 08:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-command
+[2024-05-13 08:14:12] WARNING root fetch - processPackages [test-core]: Skipping, unable to determine old version
+[2024-05-13 08:14:12] INFO root fetch - main [MainThread]: End processing [test-core] error
+[2024-05-13 08:14:12] WARNING root fetch - processPackages [stubbornestz]: Skipping, unable to determine old version
+[2024-05-13 08:14:12] INFO root fetch - processPackages [modelmerge]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-13 08:14:12] INFO root fetch - main [MainThread]: End processing [stubbornestz] error
+[2024-05-13 08:14:12] INFO root fetch - processPackages [zaide]: New version: [4.1] Old Version: [4.0]
+[2024-05-13 08:14:12] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-05-13 08:14:13] INFO root fetch - processPackages [zaide]: Downloading https://files.pythonhosted.org/packages/8b/5e/8317c445f86583accd3a58b23c743b826eaef17ed9d535139f1d91cec515/zaide-4.0.tar.gz
+[2024-05-13 08:14:13] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/0b/79/23e7a487ae0d01cafa71a821e3c420056428c45b288a402ab7fd067b5d70/modelmerge-0.3.1.tar.gz
+[2024-05-13 08:14:13] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-05-13 08:14:13] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/ad/1e/75697a75a2357f5bd8c676f9b3f4969e94cd7c6164216645ad9823fcd2d3/modelmerge-0.3.2.tar.gz
+[2024-05-13 08:14:13] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-05-13 08:14:13] INFO root fetch - processPackages [zaide]: Downloading https://files.pythonhosted.org/packages/47/18/6e0a5c005d2cc2e1337b01e445e60bee1463b0a11f21f62aecd4961e74a7/zaide-4.1.tar.gz
+[2024-05-13 08:14:13] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-13 08:14:13] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.1.tar.gz tmp/modelmerge-0.3.2.tar.gz --markdown 20240513/m/modelmerge/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-13 08:14:13] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-05-13 08:14:13] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240513/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-05-13 08:14:13] INFO root fetch - processPackages [zaide]: executing diffoscope
+[2024-05-13 08:14:13] INFO root fetch - processPackages [zaide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaide-4.0.tar.gz tmp/zaide-4.1.tar.gz --markdown 20240513/z/zaide/4.0-4.1/README.md --exclude *.pyd
+[2024-05-13 08:14:14] INFO root fetch - processPackages [zaide]: Remove: archive file [/home/abi/fetcher/tmp/zaide-4.0.tar.gz]
+[2024-05-13 08:14:14] INFO root fetch - processPackages [zaide]: Remove: archive file [/home/abi/fetcher/tmp/zaide-4.1.tar.gz]
+[2024-05-13 08:14:14] INFO root fetch - main [MainThread]: End processing [zaide]: success
+[2024-05-13 08:14:14] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.1.tar.gz]
+[2024-05-13 08:14:14] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.2.tar.gz]
+[2024-05-13 08:14:14] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-13 08:14:14] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-05-13 08:14:14] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-05-13 08:14:14] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-05-13 08:14:14] INFO root fetch - main [MainThread]: Store serial: [23178615]
