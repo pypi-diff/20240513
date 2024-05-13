@@ -3522,3 +3522,46 @@
 [2024-05-13 04:39:40] INFO root fetch - processPackages [hummingbot]: Remove: archive file [/home/abi/fetcher/tmp/hummingbot-20240429.tar.gz]
 [2024-05-13 04:39:40] INFO root fetch - main [MainThread]: End processing [hummingbot]: success
 [2024-05-13 04:39:40] INFO root fetch - main [MainThread]: Store serial: [23175993]
+[2024-05-13 04:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175993]
+[2024-05-13 04:41:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clipzyme
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bytegg
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sawmillerz
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandisplay
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-redis-storage
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bytegg
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ImputeHiFI
+[2024-05-13 04:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valiant-valiant-inequality-prover
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 04:41:51] INFO root fetch - processPackages [clipzyme]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-13 04:41:51] WARNING root fetch - processPackages [ImputeHiFI]: Skipping, unable to determine old version
+[2024-05-13 04:41:51] INFO root fetch - main [MainThread]: End processing [ImputeHiFI] error
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: Downloading https://files.pythonhosted.org/packages/c2/a4/1e653f7dee40895e5a1e013e67700d29640d999e378ed3d6b53af8148535/bytegg-0.1.1.tar.gz
+[2024-05-13 04:41:51] INFO root fetch - processPackages [clipzyme]: Downloading https://files.pythonhosted.org/packages/a4/07/35d016100669f666e29f752f8f883601164ac5cace813c0dbcf4f8aa4e26/clipzyme-0.0.6.tar.gz
+[2024-05-13 04:41:51] WARNING root fetch - processPackages [pandisplay]: Skipping, unable to determine old version
+[2024-05-13 04:41:51] INFO root fetch - main [MainThread]: End processing [pandisplay] error
+[2024-05-13 04:41:51] WARNING root fetch - processPackages [sawmillerz]: Skipping, unable to determine old version
+[2024-05-13 04:41:51] INFO root fetch - main [MainThread]: End processing [sawmillerz] error
+[2024-05-13 04:41:51] WARNING root fetch - processPackages [valiant-valiant-inequality-prover]: Skipping, unable to determine old version
+[2024-05-13 04:41:51] INFO root fetch - main [MainThread]: End processing [valiant-valiant-inequality-prover] error
+[2024-05-13 04:41:51] WARNING root fetch - processPackages [smart-redis-storage]: Skipping, unable to determine old version
+[2024-05-13 04:41:51] INFO root fetch - main [MainThread]: End processing [smart-redis-storage] error
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: Downloading https://files.pythonhosted.org/packages/c2/a4/1e653f7dee40895e5a1e013e67700d29640d999e378ed3d6b53af8148535/bytegg-0.1.1.tar.gz
+[2024-05-13 04:41:51] INFO root fetch - processPackages [clipzyme]: Downloading https://files.pythonhosted.org/packages/c3/ae/1c92e40d0a1deb4515c18a7cde0252ab78c8e984cc94c802a52f90bcf741/clipzyme-0.0.8.tar.gz
+[2024-05-13 04:41:51] INFO root fetch - processPackages [clipzyme]: executing diffoscope
+[2024-05-13 04:41:51] INFO root fetch - processPackages [clipzyme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipzyme-0.0.6.tar.gz tmp/clipzyme-0.0.8.tar.gz --markdown 20240513/c/clipzyme/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: Downloading https://files.pythonhosted.org/packages/35/72/e042d7143b57db1adad13567c0e33219f44dc0041b6679862bcf41f33562/bytegg-0.1.2.tar.gz
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: Downloading https://files.pythonhosted.org/packages/35/72/e042d7143b57db1adad13567c0e33219f44dc0041b6679862bcf41f33562/bytegg-0.1.2.tar.gz
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: executing diffoscope
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytegg-0.1.1.tar.gz tmp/bytegg-0.1.2.tar.gz --markdown 20240513/b/bytegg/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: executing diffoscope
+[2024-05-13 04:41:51] INFO root fetch - processPackages [bytegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytegg-0.1.1.tar.gz tmp/bytegg-0.1.2.tar.gz --markdown 20240513/b/bytegg/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 04:41:52] INFO root fetch - processPackages [bytegg]: Remove: archive file [/home/abi/fetcher/tmp/bytegg-0.1.1.tar.gz]
+[2024-05-13 04:41:52] INFO root fetch - processPackages [bytegg]: Remove: archive file [/home/abi/fetcher/tmp/bytegg-0.1.2.tar.gz]
+[2024-05-13 04:41:52] INFO root fetch - main [MainThread]: End processing [bytegg]: success
+[2024-05-13 04:41:52] INFO root fetch - processPackages [clipzyme]: Remove: archive file [/home/abi/fetcher/tmp/clipzyme-0.0.6.tar.gz]
+[2024-05-13 04:41:52] INFO root fetch - processPackages [clipzyme]: Remove: archive file [/home/abi/fetcher/tmp/clipzyme-0.0.8.tar.gz]
+[2024-05-13 04:41:52] INFO root fetch - main [MainThread]: End processing [clipzyme]: success
+[2024-05-13 04:41:52] INFO root fetch - main [MainThread]: End processing [bytegg]: success
+[2024-05-13 04:41:52] INFO root fetch - main [MainThread]: Store serial: [23176027]
