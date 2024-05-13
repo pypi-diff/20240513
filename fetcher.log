@@ -13306,3 +13306,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:13:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.9.tar.gz]
 [2024-05-13 11:13:56] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-13 11:13:56] INFO root fetch - main [MainThread]: Store serial: [23180669]
+[2024-05-13 11:16:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180669]
+[2024-05-13 11:16:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 11:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-13 11:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smart-sdk
+[2024-05-13 11:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnmaps
+[2024-05-13 11:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-05-13 11:16:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cryptmoji
+[2024-05-13 11:16:05] INFO root fetch - processPackages [cryptmoji]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-13 11:16:05] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-13 11:16:05] INFO root fetch - processPackages [cnmaps]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-13 11:16:05] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/a1/9d/3d917f2384a3373fe4d3676f51961aca7c7f0809b996e91577c4601202a0/duwi_smart_sdk-0.2.9.tar.gz
+[2024-05-13 11:16:05] INFO root fetch - processPackages [cnmaps]: Downloading https://files.pythonhosted.org/packages/9a/a5/7e15bd16396fa98ff2af91f35c2274e2b5c49c841a5963dd955649d83d0f/cnmaps-1.1.7.tar.gz
+[2024-05-13 11:16:05] INFO root fetch - processPackages [cryptmoji]: Downloading https://files.pythonhosted.org/packages/42/16/a7f21af6d919f7098d36cdc7e5d261875ae2410cd08268224384704705ca/cryptmoji-2.0.0.tar.gz
+[2024-05-13 11:16:05] WARNING root fetch - processPackages [cnmaps]: Skipping package: exceeds size limit 50596740>=10485760
+[2024-05-13 11:16:05] INFO root fetch - main [MainThread]: End processing [cnmaps] error
+[2024-05-13 11:16:05] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/38/59/aefcdd8ef72c14ba9272f14b5acfb5112104eca813cfaf75ff36bfe6d0e1/duwi_smart_sdk-0.3.0.tar.gz
+[2024-05-13 11:16:05] INFO root fetch - processPackages [cryptmoji]: Downloading https://files.pythonhosted.org/packages/4e/57/62d193989a1d7319c90101b4a2dc6aec9e959f2c2a4b074a2f467f82da6d/cryptmoji-2.1.0.tar.gz
+[2024-05-13 11:16:05] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-13 11:16:05] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.2.9.tar.gz tmp/duwi_smart_sdk-0.3.0.tar.gz --markdown 20240513/d/duwi-smart-sdk/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-13 11:16:06] INFO root fetch - processPackages [cryptmoji]: executing diffoscope
+[2024-05-13 11:16:06] INFO root fetch - processPackages [cryptmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptmoji-2.0.0.tar.gz tmp/cryptmoji-2.1.0.tar.gz --markdown 20240513/c/cryptmoji/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-13 11:16:06] INFO root fetch - processPackages [cryptmoji]: Remove: archive file [/home/abi/fetcher/tmp/cryptmoji-2.0.0.tar.gz]
+[2024-05-13 11:16:06] INFO root fetch - processPackages [cryptmoji]: Remove: archive file [/home/abi/fetcher/tmp/cryptmoji-2.1.0.tar.gz]
+[2024-05-13 11:16:06] INFO root fetch - main [MainThread]: End processing [cryptmoji]: success
+[2024-05-13 11:16:06] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.2.9.tar.gz]
+[2024-05-13 11:16:06] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.3.0.tar.gz]
+[2024-05-13 11:16:06] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-13 11:16:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-13 11:16:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240513/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-13 11:16:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240513/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-13 11:16:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-13 11:16:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-13 11:16:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-13 11:16:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-13 11:16:09] INFO root fetch - main [MainThread]: Store serial: [23180682]
