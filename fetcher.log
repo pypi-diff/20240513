@@ -16410,3 +16410,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:14:34] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.22-py3-none-any.whl.zip]
 [2024-05-13 13:14:34] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
 [2024-05-13 13:14:34] INFO root fetch - main [MainThread]: Store serial: [23181919]
+[2024-05-13 13:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181919]
+[2024-05-13 13:16:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 13:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alephclient
+[2024-05-13 13:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Data-Checkmate
+[2024-05-13 13:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2024-05-13 13:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remla-preprocess
+[2024-05-13 13:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wallaz
+[2024-05-13 13:16:43] WARNING root fetch - processPackages [remla-preprocess]: Skipping, unable to determine old version
+[2024-05-13 13:16:43] INFO root fetch - main [MainThread]: End processing [remla-preprocess] error
+[2024-05-13 13:16:43] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.984]
+[2024-05-13 13:16:43] WARNING root fetch - processPackages [wallaz]: Skipping, unable to determine old version
+[2024-05-13 13:16:43] INFO root fetch - main [MainThread]: End processing [wallaz] error
+[2024-05-13 13:16:43] INFO root fetch - processPackages [Data-Checkmate]: New version: [1.4] Old Version: [1.3]
+[2024-05-13 13:16:43] INFO root fetch - processPackages [alephclient]: New version: [2.4.0] Old Version: [2.3.6]
+[2024-05-13 13:16:43] INFO root fetch - processPackages [Data-Checkmate]: Downloading https://files.pythonhosted.org/packages/d1/b0/e3676d1bd065875acae12f58e02aa5fd9e85519118a326f9a4f9c286382e/Data-Checkmate-1.3.tar.gz
+[2024-05-13 13:16:43] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/95/f2/7f27c091e40368f77f4ace70bd505c6aab30b8d1087967cbdf5aa0e3bf3b/thesilent-0.0.984.tar.gz
+[2024-05-13 13:16:43] INFO root fetch - processPackages [alephclient]: Downloading https://files.pythonhosted.org/packages/49/46/978dee60cfe548768608e86f8f1df1a0b7e3e93a80c29069ee05ed6d113a/alephclient-2.3.6.tar.gz
+[2024-05-13 13:16:43] INFO root fetch - processPackages [Data-Checkmate]: Downloading https://files.pythonhosted.org/packages/1a/a6/e230fd1e0a7085efd1ede9408e1d97e151347b5d062f15ab74d37b241ba4/Data-Checkmate-1.4.tar.gz
+[2024-05-13 13:16:43] INFO root fetch - processPackages [alephclient]: Downloading https://files.pythonhosted.org/packages/7c/65/abac935777e54e538f7d050436bf623df03231d36cc0577d132ec1ac63b5/alephclient-2.4.0.tar.gz
+[2024-05-13 13:16:43] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 13:16:44] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 13:16:44] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.984.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.984-0.0.99/README.md --exclude *.pyd
+[2024-05-13 13:16:44] INFO root fetch - processPackages [Data-Checkmate]: executing diffoscope
+[2024-05-13 13:16:44] INFO root fetch - processPackages [Data-Checkmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Data-Checkmate-1.3.tar.gz tmp/Data-Checkmate-1.4.tar.gz --markdown 20240513/D/Data-Checkmate/1.3-1.4/README.md --exclude *.pyd
+[2024-05-13 13:16:44] INFO root fetch - processPackages [alephclient]: executing diffoscope
+[2024-05-13 13:16:44] INFO root fetch - processPackages [alephclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alephclient-2.3.6.tar.gz tmp/alephclient-2.4.0.tar.gz --markdown 20240513/a/alephclient/2.3.6-2.4.0/README.md --exclude *.pyd
+[2024-05-13 13:16:44] INFO root fetch - processPackages [Data-Checkmate]: Remove: archive file [/home/abi/fetcher/tmp/Data-Checkmate-1.3.tar.gz]
+[2024-05-13 13:16:44] INFO root fetch - processPackages [Data-Checkmate]: Remove: archive file [/home/abi/fetcher/tmp/Data-Checkmate-1.4.tar.gz]
+[2024-05-13 13:16:44] INFO root fetch - main [MainThread]: End processing [Data-Checkmate]: success
+[2024-05-13 13:16:44] INFO root fetch - processPackages [alephclient]: Remove: archive file [/home/abi/fetcher/tmp/alephclient-2.3.6.tar.gz]
+[2024-05-13 13:16:44] INFO root fetch - processPackages [alephclient]: Remove: archive file [/home/abi/fetcher/tmp/alephclient-2.4.0.tar.gz]
+[2024-05-13 13:16:44] INFO root fetch - main [MainThread]: End processing [alephclient]: success
+[2024-05-13 13:16:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.984.tar.gz]
+[2024-05-13 13:16:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 13:16:44] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 13:16:44] INFO root fetch - main [MainThread]: Store serial: [23181937]
