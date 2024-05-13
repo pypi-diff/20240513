@@ -2090,3 +2090,30 @@
 [2024-05-13 02:56:21] WARNING root fetch - processPackages [vegan]: Skipping package: exceeds size limit 44415374>=10485760
 [2024-05-13 02:56:21] INFO root fetch - main [MainThread]: End processing [vegan] error
 [2024-05-13 02:56:21] INFO root fetch - main [MainThread]: Store serial: [23175346]
+[2024-05-13 02:58:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175346]
+[2024-05-13 02:58:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 02:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparse-lmm
+[2024-05-13 02:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enthusiastsz
+[2024-05-13 02:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flyflowclient
+[2024-05-13 02:58:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beeregarz
+[2024-05-13 02:58:29] INFO root fetch - processPackages [sparse-lmm]: New version: [0.7] Old Version: [0.6]
+[2024-05-13 02:58:29] INFO root fetch - processPackages [flyflowclient]: New version: [1.14.4] Old Version: [1.14.3]
+[2024-05-13 02:58:29] INFO root fetch - processPackages [sparse-lmm]: Downloading https://files.pythonhosted.org/packages/fd/61/7af7e2608d52902d5ed3241f63805ef20f6c3384c9d6947e2cf600c9943f/sparse-lmm-0.6.tar.gz
+[2024-05-13 02:58:29] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/10/01/6a5ded997e2721e4619ae823a32d7e76c3532aa45180f7a5859b2b469f9c/flyflowclient-1.14.3.tar.gz
+[2024-05-13 02:58:29] WARNING root fetch - processPackages [beeregarz]: Skipping, unable to determine old version
+[2024-05-13 02:58:29] INFO root fetch - main [MainThread]: End processing [beeregarz] error
+[2024-05-13 02:58:29] WARNING root fetch - processPackages [enthusiastsz]: Skipping, unable to determine old version
+[2024-05-13 02:58:29] INFO root fetch - main [MainThread]: End processing [enthusiastsz] error
+[2024-05-13 02:58:30] INFO root fetch - processPackages [sparse-lmm]: Downloading https://files.pythonhosted.org/packages/9b/2c/1ff9ec4cc60e654b1b9d0a489f22806746a28f5002176f17767aaf130a0d/sparse-lmm-0.7.tar.gz
+[2024-05-13 02:58:30] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/9e/56/9c76088fe9390b0c12b963bbf1271e139d8a9b3c080130e011213abb05cd/flyflowclient-1.14.4.tar.gz
+[2024-05-13 02:58:30] INFO root fetch - processPackages [flyflowclient]: executing diffoscope
+[2024-05-13 02:58:30] INFO root fetch - processPackages [flyflowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyflowclient-1.14.3.tar.gz tmp/flyflowclient-1.14.4.tar.gz --markdown 20240513/f/flyflowclient/1.14.3-1.14.4/README.md --exclude *.pyd
+[2024-05-13 02:58:30] INFO root fetch - processPackages [sparse-lmm]: executing diffoscope
+[2024-05-13 02:58:30] INFO root fetch - processPackages [sparse-lmm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-lmm-0.6.tar.gz tmp/sparse-lmm-0.7.tar.gz --markdown 20240513/s/sparse-lmm/0.6-0.7/README.md --exclude *.pyd
+[2024-05-13 02:58:30] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.3.tar.gz]
+[2024-05-13 02:58:30] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.4.tar.gz]
+[2024-05-13 02:58:30] INFO root fetch - main [MainThread]: End processing [flyflowclient]: success
+[2024-05-13 02:58:30] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.6.tar.gz]
+[2024-05-13 02:58:30] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.7.tar.gz]
+[2024-05-13 02:58:30] INFO root fetch - main [MainThread]: End processing [sparse-lmm]: success
+[2024-05-13 02:58:30] INFO root fetch - main [MainThread]: Store serial: [23175360]
