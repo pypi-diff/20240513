@@ -9697,3 +9697,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:43:15] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.post6.tar.gz]
 [2024-05-13 08:43:15] INFO root fetch - main [MainThread]: End processing [deepgpu]: success
 [2024-05-13 08:43:15] INFO root fetch - main [MainThread]: Store serial: [23178903]
+[2024-05-13 08:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178903]
+[2024-05-13 08:45:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aparat-crawler
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai2-kit
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helm-hawk
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roustaboutsz
+[2024-05-13 08:45:23] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.8] Old Version: [0.9.1.7]
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 08:45:23] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/4d/58/f1d5b8269f30ea57434e2bd904e12a254b88fb0702a3349d3fd47315d63d/aparat_crawler-0.9.1.7.tar.gz
+[2024-05-13 08:45:23] INFO root fetch - processPackages [helm-hawk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-13 08:45:23] WARNING root fetch - processPackages [roustaboutsz]: Skipping, unable to determine old version
+[2024-05-13 08:45:23] INFO root fetch - main [MainThread]: End processing [roustaboutsz] error
+[2024-05-13 08:45:23] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-13 08:45:24] INFO root fetch - processPackages [helm-hawk]: Downloading https://files.pythonhosted.org/packages/e8/29/18b983658d1d45aa9750ca3762d6fd3cbf82e4d1dc47e0a5a9e7f2790898/helm-hawk-0.0.2.tar.gz
+[2024-05-13 08:45:24] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/02/af/b10d88d84b8e9ba24a6fa09c360602a04c2c0a7a6b2c7132630adf5c04f0/aparat_crawler-0.9.1.8.tar.gz
+[2024-05-13 08:45:24] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-13 08:45:24] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240513/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 08:45:24] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 08:45:24] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.7.tar.gz tmp/aparat_crawler-0.9.1.8.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.7-0.9.1.8/README.md --exclude *.pyd
+[2024-05-13 08:45:24] INFO root fetch - processPackages [helm-hawk]: Downloading https://files.pythonhosted.org/packages/e2/bb/f699d26965d999093d149ff1cc718b2450f43da9df75e64866eb3429d8a6/helm_hawk-0.0.3.tar.gz
+[2024-05-13 08:45:24] INFO root fetch - processPackages [helm-hawk]: executing diffoscope
+[2024-05-13 08:45:24] INFO root fetch - processPackages [helm-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helm-hawk-0.0.2.tar.gz tmp/helm_hawk-0.0.3.tar.gz --markdown 20240513/h/helm-hawk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 08:45:24] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.7.tar.gz]
+[2024-05-13 08:45:24] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.8.tar.gz]
+[2024-05-13 08:45:24] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 08:45:25] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-13 08:45:25] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-13 08:45:25] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-13 08:45:25] INFO root fetch - processPackages [helm-hawk]: Remove: archive file [/home/abi/fetcher/tmp/helm-hawk-0.0.2.tar.gz]
+[2024-05-13 08:45:25] INFO root fetch - processPackages [helm-hawk]: Remove: archive file [/home/abi/fetcher/tmp/helm_hawk-0.0.3.tar.gz]
+[2024-05-13 08:45:25] INFO root fetch - main [MainThread]: End processing [helm-hawk]: success
+[2024-05-13 08:45:25] INFO root fetch - main [MainThread]: Store serial: [23178920]
