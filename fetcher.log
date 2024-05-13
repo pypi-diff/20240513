@@ -16633,3 +16633,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:23:22] INFO root fetch - processPackages [solara-ui]: Remove: archive file [/home/abi/fetcher/tmp/solara_ui-1.32.2.tar.gz]
 [2024-05-13 13:23:22] INFO root fetch - main [MainThread]: End processing [solara-ui]: success
 [2024-05-13 13:23:22] INFO root fetch - main [MainThread]: Store serial: [23182016]
+[2024-05-13 13:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182016]
+[2024-05-13 13:25:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-email-auth-backend
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mergefast1
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viswa-friend
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clear-skies-stripe
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: organizations-local
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inoopa_utils
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heat
+[2024-05-13 13:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: process-time-azure-devops
+[2024-05-13 13:25:31] WARNING root fetch - processPackages [mergefast1]: Skipping, unable to determine old version
+[2024-05-13 13:25:31] INFO root fetch - main [MainThread]: End processing [mergefast1] error
+[2024-05-13 13:25:31] WARNING root fetch - processPackages [viswa-friend]: Skipping, unable to determine old version
+[2024-05-13 13:25:31] INFO root fetch - main [MainThread]: End processing [viswa-friend] error
+[2024-05-13 13:25:31] INFO root fetch - processPackages [clear-skies-stripe]: New version: [0.9.7] Old Version: [0.9.5]
+[2024-05-13 13:25:32] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-13 13:25:32] WARNING root fetch - processPackages [django-email-auth-backend]: Skipping, unable to determine old version
+[2024-05-13 13:25:32] INFO root fetch - main [MainThread]: End processing [django-email-auth-backend] error
+[2024-05-13 13:25:32] WARNING root fetch - processPackages [process-time-azure-devops]: Skipping, unable to determine old version
+[2024-05-13 13:25:32] INFO root fetch - main [MainThread]: End processing [process-time-azure-devops] error
+[2024-05-13 13:25:32] INFO root fetch - processPackages [organizations-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 13:25:32] INFO root fetch - processPackages [clear-skies-stripe]: Downloading https://files.pythonhosted.org/packages/8a/91/a803bf576db463ab0d817ce5e170c91d59a518f63d59da7d0357da8a40b7/clear_skies_stripe-0.9.5.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [heat]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-13 13:25:32] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-13 13:25:32] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/5b/7e/09b4d410b99d4d4b3d10725e50ba481bd8741acca902b216e9368c50f4aa/organizations-local-0.0.8.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [heat]: Downloading https://files.pythonhosted.org/packages/a7/e4/d4ab6fbd5031121bb08f123bea25749d1b9740ef023bb9bd2d2a411ef624/heat-1.4.0.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [clear-skies-stripe]: Downloading https://files.pythonhosted.org/packages/2b/6f/1dfd444e78b0b311ecddf668e32140d5bbc02acd939b67a32cee844ef56e/clear_skies_stripe-0.9.7.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [clear-skies-stripe]: executing diffoscope
+[2024-05-13 13:25:32] INFO root fetch - processPackages [clear-skies-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_stripe-0.9.5.tar.gz tmp/clear_skies_stripe-0.9.7.tar.gz --markdown 20240513/c/clear-skies-stripe/0.9.5-0.9.7/README.md --exclude *.pyd
+[2024-05-13 13:25:32] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-13 13:25:32] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240513/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-13 13:25:32] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/fc/80/42cde22657fe954391a6e80fc840bcfd4599230f000e8eaaa14ac36177a7/organizations-local-0.0.9.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [organizations-local]: executing diffoscope
+[2024-05-13 13:25:32] INFO root fetch - processPackages [organizations-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organizations-local-0.0.8.tar.gz tmp/organizations-local-0.0.9.tar.gz --markdown 20240513/o/organizations-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 13:25:32] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [heat]: Downloading https://files.pythonhosted.org/packages/97/3f/5ad7a32daafef35688301f06767cbc64a206ae2e669c4f32c77ae557b52f/heat-1.4.1.tar.gz
+[2024-05-13 13:25:32] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-13 13:25:32] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240513/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-13 13:25:33] INFO root fetch - processPackages [heat]: executing diffoscope
+[2024-05-13 13:25:33] INFO root fetch - processPackages [heat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heat-1.4.0.tar.gz tmp/heat-1.4.1.tar.gz --markdown 20240513/h/heat/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-13 13:25:33] INFO root fetch - processPackages [clear-skies-stripe]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_stripe-0.9.5.tar.gz]
+[2024-05-13 13:25:33] INFO root fetch - processPackages [clear-skies-stripe]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_stripe-0.9.7.tar.gz]
+[2024-05-13 13:25:33] INFO root fetch - main [MainThread]: End processing [clear-skies-stripe]: success
+[2024-05-13 13:25:33] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.8.tar.gz]
+[2024-05-13 13:25:33] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.9.tar.gz]
+[2024-05-13 13:25:33] INFO root fetch - main [MainThread]: End processing [organizations-local]: success
+[2024-05-13 13:25:33] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-13 13:25:33] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-13 13:25:33] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-13 13:25:34] INFO root fetch - processPackages [heat]: Remove: archive file [/home/abi/fetcher/tmp/heat-1.4.0.tar.gz]
+[2024-05-13 13:25:34] INFO root fetch - processPackages [heat]: Remove: archive file [/home/abi/fetcher/tmp/heat-1.4.1.tar.gz]
+[2024-05-13 13:25:34] INFO root fetch - main [MainThread]: End processing [heat]: success
+[2024-05-13 13:25:35] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-13 13:25:35] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-13 13:25:35] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-13 13:25:35] INFO root fetch - main [MainThread]: Store serial: [23182047]
