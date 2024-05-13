@@ -1310,3 +1310,54 @@
 [2024-05-13 02:05:37] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240512.446.tar.gz]
 [2024-05-13 02:05:37] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-13 02:05:37] INFO root fetch - main [MainThread]: Store serial: [23174962]
+[2024-05-13 02:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174962]
+[2024-05-13 02:07:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 02:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-05-13 02:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conbinasz
+[2024-05-13 02:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2024-05-13 02:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxutils-nightly
+[2024-05-13 02:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ical
+[2024-05-13 02:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: convocations
+[2024-05-13 02:07:45] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240512] Old Version: [0.1.0.dev20240511]
+[2024-05-13 02:07:45] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-05-13 02:07:45] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240512] Old Version: [0.0.8.dev20240511]
+[2024-05-13 02:07:46] WARNING root fetch - processPackages [conbinasz]: Skipping, unable to determine old version
+[2024-05-13 02:07:46] INFO root fetch - main [MainThread]: End processing [conbinasz] error
+[2024-05-13 02:07:46] INFO root fetch - processPackages [convocations]: New version: [1.9] Old Version: [1.8]
+[2024-05-13 02:07:46] INFO root fetch - processPackages [ical]: New version: [8.0.2] Old Version: [8.0.1]
+[2024-05-13 02:07:46] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/94/35/5ed9c402996b301dd396e581a82ee870ad827fd74dbb2bf70b6b27085b7c/onnxscript-0.1.0.dev20240511.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/2c/3a/72e9e126cdcebe49fb9ff14fa1e0e403baa042da26a51fff99018690cbc9/jaxutils-nightly-0.0.8.dev20240511.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/fb/db/da2992e9f055eacb2edfe5237427e57be8ce302e032f3050481941ae1bf7/convocations-1.8.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [ical]: Downloading https://files.pythonhosted.org/packages/53/32/ddf3ad3617bdd37b29e5db3cb01257193879bf44aa4513a5799e3881049c/ical-8.0.1.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/fc/c7/fc2d241f67f5629277c29ad5cfde5604c73474041ead39c510087497b8ff/jaxutils-nightly-0.0.8.dev20240512.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/13/6a/0dafc127ade2897e61a3bac29eee3f4283b8da265587b51648c81a6e77d8/onnxscript-0.1.0.dev20240512.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-05-13 02:07:46] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240513/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-05-13 02:07:46] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-13 02:07:46] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240511.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240512.tar.gz --markdown 20240513/j/jaxutils-nightly/0.0.8.dev20240511-0.0.8.dev20240512/README.md --exclude *.pyd
+[2024-05-13 02:07:46] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/26/06/8cba7e1f874d3ad177924e3e894b6709038b6ca3e28d49b7f73b9a438925/convocations-1.9.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [ical]: Downloading https://files.pythonhosted.org/packages/3b/b7/7cf63d699a14d07868a76c9446a95bd7f502e6c36db0bec595f8e7d6de22/ical-8.0.2.tar.gz
+[2024-05-13 02:07:46] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-13 02:07:46] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240511.tar.gz tmp/onnxscript-0.1.0.dev20240512.tar.gz --markdown 20240513/o/onnxscript/0.1.0.dev20240511-0.1.0.dev20240512/README.md --exclude *.pyd
+[2024-05-13 02:07:46] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2024-05-13 02:07:46] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-1.8.tar.gz tmp/convocations-1.9.tar.gz --markdown 20240513/c/convocations/1.8-1.9/README.md --exclude *.pyd
+[2024-05-13 02:07:46] INFO root fetch - processPackages [ical]: executing diffoscope
+[2024-05-13 02:07:46] INFO root fetch - processPackages [ical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ical-8.0.1.tar.gz tmp/ical-8.0.2.tar.gz --markdown 20240513/i/ical/8.0.1-8.0.2/README.md --exclude *.pyd
+[2024-05-13 02:07:47] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240511.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240512.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-13 02:07:47] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-8.0.1.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - processPackages [ical]: Remove: archive file [/home/abi/fetcher/tmp/ical-8.0.2.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - main [MainThread]: End processing [ical]: success
+[2024-05-13 02:07:47] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.8.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.9.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2024-05-13 02:07:47] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240511.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240512.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-13 02:07:47] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-05-13 02:07:47] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-05-13 02:07:47] INFO root fetch - main [MainThread]: Store serial: [23174980]
