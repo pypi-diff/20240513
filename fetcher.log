@@ -4894,3 +4894,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:51:42] INFO root fetch - processPackages [landlab]: Remove: archive file [/home/abi/fetcher/tmp/landlab-2.8.0.tar.gz]
 [2024-05-13 05:51:42] INFO root fetch - main [MainThread]: End processing [landlab]: success
 [2024-05-13 05:51:42] INFO root fetch - main [MainThread]: Store serial: [23176635]
+[2024-05-13 05:53:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176635]
+[2024-05-13 05:53:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 05:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adolphz
+[2024-05-13 05:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labelme2datasets
+[2024-05-13 05:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: borneo-python-client
+[2024-05-13 05:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SelfCalibratedConformal
+[2024-05-13 05:53:51] INFO root fetch - processPackages [borneo-python-client]: New version: [3.10.2] Old Version: [3.10.1]
+[2024-05-13 05:53:51] INFO root fetch - processPackages [SelfCalibratedConformal]: New version: [0.431] Old Version: [0.43]
+[2024-05-13 05:53:51] INFO root fetch - processPackages [borneo-python-client]: Downloading https://files.pythonhosted.org/packages/09/34/b0c4f13f101ab885fd4fdc411dc275547db1dbf0b8183a35ec3f45951578/borneo_python_client-3.10.1.tar.gz
+[2024-05-13 05:53:51] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/6a/87/332fe632350f287fd8bda5594e2d2adf7d4c5c108667f0f67f27caa51b4e/SelfCalibratedConformal-0.43.tar.gz
+[2024-05-13 05:53:51] WARNING root fetch - processPackages [adolphz]: Skipping, unable to determine old version
+[2024-05-13 05:53:51] INFO root fetch - main [MainThread]: End processing [adolphz] error
+[2024-05-13 05:53:51] INFO root fetch - processPackages [labelme2datasets]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 05:53:52] INFO root fetch - processPackages [labelme2datasets]: Downloading https://files.pythonhosted.org/packages/92/f9/a9aae5e662d95148c8a6a1a1c9d06e2a72dc136b75a8673914c4d6b19cf5/labelme2datasets-0.0.2.tar.gz
+[2024-05-13 05:53:52] INFO root fetch - processPackages [borneo-python-client]: Downloading https://files.pythonhosted.org/packages/e3/08/c9ed9b6017be0a47a0e8c75eee23c475adb0097436d084fbb78ce3377990/borneo_python_client-3.10.2.tar.gz
+[2024-05-13 05:53:52] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/98/27/d57a2e4bbac789446e9a300bffe00b8b783f7cfead30e5b9bcde91168144/SelfCalibratedConformal-0.431.tar.gz
+[2024-05-13 05:53:52] INFO root fetch - processPackages [borneo-python-client]: executing diffoscope
+[2024-05-13 05:53:52] INFO root fetch - processPackages [borneo-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_python_client-3.10.1.tar.gz tmp/borneo_python_client-3.10.2.tar.gz --markdown 20240513/b/borneo-python-client/3.10.1-3.10.2/README.md --exclude *.pyd
+[2024-05-13 05:53:52] INFO root fetch - processPackages [SelfCalibratedConformal]: executing diffoscope
+[2024-05-13 05:53:52] INFO root fetch - processPackages [SelfCalibratedConformal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SelfCalibratedConformal-0.43.tar.gz tmp/SelfCalibratedConformal-0.431.tar.gz --markdown 20240513/S/SelfCalibratedConformal/0.43-0.431/README.md --exclude *.pyd
+[2024-05-13 05:53:52] INFO root fetch - processPackages [labelme2datasets]: Downloading https://files.pythonhosted.org/packages/63/e0/e756cc8ea2739b99e8801093c4a11cb0c41b4fa4c40c2aa3a2ca9d41dfed/labelme2datasets-0.0.3.tar.gz
+[2024-05-13 05:53:52] INFO root fetch - processPackages [labelme2datasets]: executing diffoscope
+[2024-05-13 05:53:52] INFO root fetch - processPackages [labelme2datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme2datasets-0.0.2.tar.gz tmp/labelme2datasets-0.0.3.tar.gz --markdown 20240513/l/labelme2datasets/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 05:53:52] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.43.tar.gz]
+[2024-05-13 05:53:52] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.431.tar.gz]
+[2024-05-13 05:53:52] INFO root fetch - main [MainThread]: End processing [SelfCalibratedConformal]: success
+[2024-05-13 05:53:52] INFO root fetch - processPackages [borneo-python-client]: Remove: archive file [/home/abi/fetcher/tmp/borneo_python_client-3.10.1.tar.gz]
+[2024-05-13 05:53:52] INFO root fetch - processPackages [borneo-python-client]: Remove: archive file [/home/abi/fetcher/tmp/borneo_python_client-3.10.2.tar.gz]
+[2024-05-13 05:53:52] INFO root fetch - main [MainThread]: End processing [borneo-python-client]: success
+[2024-05-13 05:53:53] INFO root fetch - processPackages [labelme2datasets]: Remove: archive file [/home/abi/fetcher/tmp/labelme2datasets-0.0.2.tar.gz]
+[2024-05-13 05:53:53] INFO root fetch - processPackages [labelme2datasets]: Remove: archive file [/home/abi/fetcher/tmp/labelme2datasets-0.0.3.tar.gz]
+[2024-05-13 05:53:53] INFO root fetch - main [MainThread]: End processing [labelme2datasets]: success
+[2024-05-13 05:53:53] INFO root fetch - main [MainThread]: Store serial: [23176648]
