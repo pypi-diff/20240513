@@ -21744,3 +21744,107 @@ EOFError: EOF read where object expected
 [2024-05-13 15:58:18] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.2.tar.gz]
 [2024-05-13 15:58:18] INFO root fetch - main [MainThread]: End processing [borneo-client-python]: success
 [2024-05-13 15:58:18] INFO root fetch - main [MainThread]: Store serial: [23184158]
+[2024-05-13 16:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184158]
+[2024-05-13 16:00:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jwodder-ps1
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-auth-st
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbtof
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supervision
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lions
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imod
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plico
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: complimentaryz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kicost
+[2024-05-13 16:00:29] INFO root fetch - processPackages [google-auth-st]: New version: [0.2] Old Version: [0.1]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [lions]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-13 16:00:29] WARNING root fetch - processPackages [jwodder-ps1]: Skipping, unable to determine old version
+[2024-05-13 16:00:29] INFO root fetch - processPackages [jwodder-ps1]: Start processing: Weblate
+[2024-05-13 16:00:29] INFO root fetch - main [MainThread]: End processing [jwodder-ps1] error
+[2024-05-13 16:00:29] INFO root fetch - processPackages [supervision]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [nbtof]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [imod]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [plico]: New version: [0.27.0] Old Version: [0.26.0]
+[2024-05-13 16:00:29] WARNING root fetch - processPackages [complimentaryz]: Skipping, unable to determine old version
+[2024-05-13 16:00:29] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/87/40/52e25ac20dd77be38f2cdc6ad862782b439cc0bd3ae1b07a66e1726690f0/lions-1.0.2.tar.gz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [kicost]: New version: [1.1.8] Old Version: [1.1.6]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [complimentaryz]: Start processing: OperationBattleshipCommonUtilities
+[2024-05-13 16:00:29] INFO root fetch - main [MainThread]: End processing [complimentaryz] error
+[2024-05-13 16:00:29] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-13 16:00:29] INFO root fetch - processPackages [google-auth-st]: Downloading https://files.pythonhosted.org/packages/bc/bd/bb5c948a56755a6a7dfa15eb55063544e7f4d0b25b645f99728c07a8e80b/google_auth_st-0.1.tar.gz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/fd/46/504e103d0921ed63e9e221ea4f3a1e6e23c70f8b7bd69114ec09cda3d87c/supervision-0.8.0.tar.gz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [Weblate]: New version: [5.5.5] Old Version: [5.5.4]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-13 16:00:29] INFO root fetch - processPackages [nbtof]: Downloading https://files.pythonhosted.org/packages/12/4d/ba1c15fa6a956c8b19fa31a1b009e8d43f340d3826f078699a0a312db0e5/nbtof-0.0.7.tar.gz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [plico]: Downloading https://files.pythonhosted.org/packages/04/a5/2972706addcb71a41933d643f281eaf4989468804ccd8fff45708a37f866/plico-0.26.0.tar.gz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [imod]: Downloading https://files.pythonhosted.org/packages/f0/13/1b38864e96142ed276cc17a1a78bd84234454d6d8dbc692e0fd72e70969a/imod-0.8.0.tar.gz
+[2024-05-13 16:00:29] INFO root fetch - processPackages [kicost]: Downloading https://files.pythonhosted.org/packages/40/f3/1f0335b13b6e612e5cd111644ea8f346569abc3c8fe6ea25a889900769cb/kicost-1.1.6.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/8b/8f/91c6035bc07116c87e81e86937f285e53f4c8c00c118463139bc9d71947d/lions-1.0.4.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [google-auth-st]: Downloading https://files.pythonhosted.org/packages/83/b2/e4f9562b3f0af2cb59420ce3ea561d7774a91887217deae6b9ae984e970a/google-auth-st-0.2.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/74/1b/17b6f1d915fbfc12f917d0495e789d892de0ab9a4591af3f6d7f9867d65c/operationbattleshipcommonutilities-0.4.7.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [Weblate]: Downloading https://files.pythonhosted.org/packages/42/fb/e9097c0bccb82e50bce6335f079f5ab6024f5eb3823206e4a49412904433/weblate-5.5.4.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [nbtof]: Downloading https://files.pythonhosted.org/packages/dd/cf/fef89f41d731dbebe72a21e1ca1b0ead8778938e442b721d23cd0a097db6/nbtof-0.0.8.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-13 16:00:30] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.2.tar.gz tmp/lions-1.0.4.tar.gz --markdown 20240513/l/lions/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-13 16:00:30] WARNING root fetch - processPackages [Weblate]: Skipping package: exceeds size limit 64852385>=10485760
+[2024-05-13 16:00:30] INFO root fetch - processPackages [Weblate]: Start processing: superblocks-types
+[2024-05-13 16:00:30] INFO root fetch - main [MainThread]: End processing [Weblate] error
+[2024-05-13 16:00:30] INFO root fetch - processPackages [google-auth-st]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [google-auth-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_auth_st-0.1.tar.gz tmp/google-auth-st-0.2.tar.gz --markdown 20240513/g/google-auth-st/0.1-0.2/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/2f/2e/d3b88227b65bdc7baf25b7c2c6f46b214b5926f7dc583ffbe2d8abcf496a/supervision-0.9.0.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [nbtof]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [nbtof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbtof-0.0.7.tar.gz tmp/nbtof-0.0.8.tar.gz --markdown 20240513/n/nbtof/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [plico]: Downloading https://files.pythonhosted.org/packages/cc/d8/c723f5c9cea795308a9a76a8479187dffe5b4b6d3ab8f67a198999f2e4af/plico-0.27.0.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [supervision]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [supervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervision-0.8.0.tar.gz tmp/supervision-0.9.0.tar.gz --markdown 20240513/s/supervision/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [imod]: Downloading https://files.pythonhosted.org/packages/f2/d0/e5d63672802905506930c45bedb656d9ea045306836d156c2190284535fe/imod-0.9.0.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [kicost]: Downloading https://files.pythonhosted.org/packages/82/60/f979d9b374917c0c9e2d0cec3bdbaabd608f12def1efbf4dcc6ccaadcba7/kicost-1.1.8.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/61/19/493aac647b8e3df4fde85b20cde9c44e0d20209b8b0efd6396a454719245/OperationBattleshipCommonUtilities-0.4.8.tar.gz
+[2024-05-13 16:00:30] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 16:00:30] INFO root fetch - processPackages [plico]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [plico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plico-0.26.0.tar.gz tmp/plico-0.27.0.tar.gz --markdown 20240513/p/plico/0.26.0-0.27.0/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240513/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [imod]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [imod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imod-0.8.0.tar.gz tmp/imod-0.9.0.tar.gz --markdown 20240513/i/imod/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operationbattleshipcommonutilities-0.4.7.tar.gz tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz --markdown 20240513/O/OperationBattleshipCommonUtilities/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [kicost]: executing diffoscope
+[2024-05-13 16:00:30] INFO root fetch - processPackages [kicost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kicost-1.1.6.tar.gz tmp/kicost-1.1.8.tar.gz --markdown 20240513/k/kicost/1.1.6-1.1.8/README.md --exclude *.pyd
+[2024-05-13 16:00:30] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/78/fa/1113bab36ddae9527c218ca24e51744210e3fca643855160bc85e71dde20/superblocks-types-0.0.2.tar.gz
+[2024-05-13 16:00:31] INFO root fetch - processPackages [google-auth-st]: Remove: archive file [/home/abi/fetcher/tmp/google_auth_st-0.1.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [google-auth-st]: Remove: archive file [/home/abi/fetcher/tmp/google-auth-st-0.2.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [google-auth-st]: success
+[2024-05-13 16:00:31] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.2.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.4.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 16:00:31] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/80/89/b3d0f647bf1674cb15a8732e2749bdb9019be669484a7fa2187d5b42959a/superblocks-types-0.0.3.tar.gz
+[2024-05-13 16:00:31] INFO root fetch - processPackages [nbtof]: Remove: archive file [/home/abi/fetcher/tmp/nbtof-0.0.7.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [nbtof]: Remove: archive file [/home/abi/fetcher/tmp/nbtof-0.0.8.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [nbtof]: success
+[2024-05-13 16:00:31] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.8.0.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-13 16:00:31] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.2.tar.gz tmp/superblocks-types-0.0.3.tar.gz --markdown 20240513/s/superblocks-types/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 16:00:31] INFO root fetch - processPackages [supervision]: Remove: archive file [/home/abi/fetcher/tmp/supervision-0.9.0.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [supervision]: success
+[2024-05-13 16:00:31] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/operationbattleshipcommonutilities-0.4.7.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.4.8.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-05-13 16:00:31] INFO root fetch - processPackages [plico]: Remove: archive file [/home/abi/fetcher/tmp/plico-0.26.0.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [plico]: Remove: archive file [/home/abi/fetcher/tmp/plico-0.27.0.tar.gz]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [plico]: success
+[2024-05-13 16:00:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-13 16:00:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-13 16:00:31] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-13 16:00:32] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.2.tar.gz]
+[2024-05-13 16:00:32] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.3.tar.gz]
+[2024-05-13 16:00:32] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-13 16:00:32] INFO root fetch - processPackages [imod]: Remove: archive file [/home/abi/fetcher/tmp/imod-0.8.0.tar.gz]
+[2024-05-13 16:00:32] INFO root fetch - processPackages [imod]: Remove: archive file [/home/abi/fetcher/tmp/imod-0.9.0.tar.gz]
+[2024-05-13 16:00:32] INFO root fetch - main [MainThread]: End processing [imod]: success
+[2024-05-13 16:00:32] INFO root fetch - processPackages [kicost]: Remove: archive file [/home/abi/fetcher/tmp/kicost-1.1.6.tar.gz]
+[2024-05-13 16:00:32] INFO root fetch - processPackages [kicost]: Remove: archive file [/home/abi/fetcher/tmp/kicost-1.1.8.tar.gz]
+[2024-05-13 16:00:32] INFO root fetch - main [MainThread]: End processing [kicost]: success
+[2024-05-13 16:00:32] INFO root fetch - main [MainThread]: Store serial: [23184196]
