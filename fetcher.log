@@ -8865,3 +8865,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:59:00] WARNING root fetch - processPackages [ps-game-21]: Skipping, unable to determine old version
 [2024-05-13 07:59:00] INFO root fetch - main [MainThread]: End processing [ps-game-21] error
 [2024-05-13 07:59:00] INFO root fetch - main [MainThread]: Store serial: [23178368]
+[2024-05-13 08:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178368]
+[2024-05-13 08:01:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regelatez
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyStratum-Backend
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: measure-execution-time
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ryutils
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-sale-workflow
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ryutils]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-05-13 08:01:09] INFO root fetch - processPackages [PyStratum-Backend]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ryutils]: Downloading https://files.pythonhosted.org/packages/5f/cf/ad3fc222c7bcc27830a54549affb767890a8206aaa1cdee09c4982106a1d/ryutils-4.2.0.tar.gz
+[2024-05-13 08:01:09] WARNING root fetch - processPackages [measure-execution-time]: Skipping, unable to determine old version
+[2024-05-13 08:01:09] INFO root fetch - main [MainThread]: End processing [measure-execution-time] error
+[2024-05-13 08:01:09] WARNING root fetch - processPackages [regelatez]: Skipping, unable to determine old version
+[2024-05-13 08:01:09] INFO root fetch - main [MainThread]: End processing [regelatez] error
+[2024-05-13 08:01:09] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/11/55/db9df99067b1c302ea56cb5eb6c2e12e6d177e0874b28ea2a6e3ecb02b32/PyStratum-Backend-1.0.2.tar.gz
+[2024-05-13 08:01:09] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20240502.1] Old Version: [16.0.20240213.0]
+[2024-05-13 08:01:09] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/13/ae/86fe825a5fbc52c56e8d81ee2ad25308be1d713cf5118559bffbc61b3bd3/pystratum_backend-2.0.0.tar.gz
+[2024-05-13 08:01:09] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/e6/9d/df5e0ce3613ec4510ce7cc5e8bcca93c415b973b0fdca158d2ea701d2a3c/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl
+[2024-05-13 08:01:09] INFO root fetch - processPackages [PyStratum-Backend]: executing diffoscope
+[2024-05-13 08:01:09] INFO root fetch - processPackages [PyStratum-Backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Backend-1.0.2.tar.gz tmp/pystratum_backend-2.0.0.tar.gz --markdown 20240513/P/PyStratum-Backend/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ryutils]: Downloading https://files.pythonhosted.org/packages/8e/14/50173fe5e289c296db01eb81fd7df98efa54a655f69c214e3d0686202697/ryutils-5.0.0.tar.gz
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ryutils]: executing diffoscope
+[2024-05-13 08:01:09] INFO root fetch - processPackages [ryutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryutils-4.2.0.tar.gz tmp/ryutils-5.0.0.tar.gz --markdown 20240513/r/ryutils/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-05-13 08:01:10] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/31/3d/163b2ea43dada577af8fb1d3062ef3bcdb67a172374847a71db194270694/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl
+[2024-05-13 08:01:10] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2024-05-13 08:01:10] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip --markdown 20240513/o/odoo-addons-oca-sale-workflow/16.0.20240213.0-16.0.20240502.1/README.md --exclude *.pyd
+[2024-05-13 08:01:10] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Backend-1.0.2.tar.gz]
+[2024-05-13 08:01:10] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.0.tar.gz]
+[2024-05-13 08:01:10] INFO root fetch - main [MainThread]: End processing [PyStratum-Backend]: success
+[2024-05-13 08:01:10] INFO root fetch - processPackages [ryutils]: Remove: archive file [/home/abi/fetcher/tmp/ryutils-4.2.0.tar.gz]
+[2024-05-13 08:01:10] INFO root fetch - processPackages [ryutils]: Remove: archive file [/home/abi/fetcher/tmp/ryutils-5.0.0.tar.gz]
+[2024-05-13 08:01:10] INFO root fetch - main [MainThread]: End processing [ryutils]: success
+[2024-05-13 08:01:10] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip]
+[2024-05-13 08:01:10] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip]
+[2024-05-13 08:01:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2024-05-13 08:01:10] INFO root fetch - main [MainThread]: Store serial: [23178387]
