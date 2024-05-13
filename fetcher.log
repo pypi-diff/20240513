@@ -24133,3 +24133,93 @@ EOFError: EOF read where object expected
 [2024-05-13 17:10:00] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240512-py3-none-win_amd64.whl.zip]
 [2024-05-13 17:10:00] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-13 17:10:00] INFO root fetch - main [MainThread]: Store serial: [23185490]
+[2024-05-13 17:12:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185490]
+[2024-05-13 17:12:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Peliqan
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-simple-package
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codefly-cli
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: didcomm-messaging
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartlink-local
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grasp_planning
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-notification-sdk-preview
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypothesis-torch
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sovai
+[2024-05-13 17:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: process-time-azure-devops
+[2024-05-13 17:12:09] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [codefly-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [didcomm-messaging]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [process-time-azure-devops]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 17:12:09] WARNING root fetch - processPackages [my-simple-package]: Skipping, unable to determine old version
+[2024-05-13 17:12:09] INFO root fetch - processPackages [my-simple-package]: Start processing: thermaesthesiaz
+[2024-05-13 17:12:09] INFO root fetch - main [MainThread]: End processing [my-simple-package] error
+[2024-05-13 17:12:09] INFO root fetch - processPackages [Peliqan]: New version: [1.6.2] Old Version: [1.6.0]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [grasp_planning]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/b8/e5/357ddbfd7cf2f40905b503ea67b055a66f1dcb674216c7c592c2462a8dc8/codefly_cli-0.0.2.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.938] Old Version: [0.1.936]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [sovai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 17:12:09] INFO root fetch - processPackages [process-time-azure-devops]: Downloading https://files.pythonhosted.org/packages/0b/4a/d7e3fd5cd677742cf801f737dbcd07d6408a3101504d16cbcadde5661c6b/process_time_azure_devops-0.0.3.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-13 17:12:09] WARNING root fetch - processPackages [thermaesthesiaz]: Skipping, unable to determine old version
+[2024-05-13 17:12:09] INFO root fetch - main [MainThread]: End processing [thermaesthesiaz] error
+[2024-05-13 17:12:09] INFO root fetch - processPackages [didcomm-messaging]: Downloading https://files.pythonhosted.org/packages/46/90/3e12fbe547620e6981c85024437cb4ec95d6f687db547c345de0c9ed6efc/didcomm_messaging-0.1.1a0.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/60/8b/abe909bf53354caf16ec937c07cebac2f51cbe89f699c881426e7b3b147b/Peliqan-1.6.0.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/28/a8/a48e82f1315529f959cd35b3fd3135342a806b5fb9e2bfa2e4e249f5801a/grasp_planning-0.4.2.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/58/b7/2c937c315c17d5fe0e45d3768fb60ae72afe41fa5a08a940a8431b85d9d3/lusid-notification-sdk-preview-0.1.936.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/ac/e7/03f2560140340d856a3e126652daaa62fd4de996010769fa3a07952a73d8/hypothesis_torch-0.6.3.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [sovai]: Downloading https://files.pythonhosted.org/packages/62/80/0e0dbddc5b44cb1cc0000a0ccba3981c8bca4a60299d65ea0739ed1ef529/sovai-0.1.0.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/cf/57/3538d76185a9d2194dedd4d19aba89718328816acc3807c3bce08b31b689/codefly_cli-0.0.3.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [process-time-azure-devops]: Downloading https://files.pythonhosted.org/packages/54/f4/b7181162389484f0e26b3d952efd12a752753fce794db0c1f3ae09416daf/process_time_azure_devops-0.0.4.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-13 17:12:09] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240513/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 17:12:09] INFO root fetch - processPackages [didcomm-messaging]: Downloading https://files.pythonhosted.org/packages/07/ed/fb4fe560435cb63fc1dcb9a5c45471bb747f98eb6cccca9cd9353ceacc13/didcomm_messaging-0.1.1a1.tar.gz
+[2024-05-13 17:12:09] INFO root fetch - processPackages [process-time-azure-devops]: executing diffoscope
+[2024-05-13 17:12:09] INFO root fetch - processPackages [process-time-azure-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process_time_azure_devops-0.0.3.tar.gz tmp/process_time_azure_devops-0.0.4.tar.gz --markdown 20240513/p/process-time-azure-devops/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 17:12:09] INFO root fetch - processPackages [codefly-cli]: executing diffoscope
+[2024-05-13 17:12:09] INFO root fetch - processPackages [codefly-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefly_cli-0.0.2.tar.gz tmp/codefly_cli-0.0.3.tar.gz --markdown 20240513/c/codefly-cli/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 17:12:10] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/0c/c5/c79bed69dd1f16a0888b55817fe8b20029a939731c8039f968aabf2e047f/Peliqan-1.6.2.tar.gz
+[2024-05-13 17:12:10] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/7b/6b/6e765f5842ab5984efbf8f5e81580720f1c218eca5ad3f3eba36fa8db93e/grasp_planning-0.5.0.tar.gz
+[2024-05-13 17:12:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b1/4d/f4ecf517cae7e55078365585a95b44e11d276205c87cf242660146a83969/lusid-notification-sdk-preview-0.1.938.tar.gz
+[2024-05-13 17:12:10] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/63/6f/3cc5f822ca79dd3e3ea7c523f36737a520646256baedba28bb0216d42170/hypothesis_torch-0.6.4.tar.gz
+[2024-05-13 17:12:10] INFO root fetch - processPackages [didcomm-messaging]: executing diffoscope
+[2024-05-13 17:12:10] INFO root fetch - processPackages [didcomm-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didcomm_messaging-0.1.1a0.tar.gz tmp/didcomm_messaging-0.1.1a1.tar.gz --markdown 20240513/d/didcomm-messaging/0.1.1a0-0.1.1a1/README.md --exclude *.pyd
+[2024-05-13 17:12:10] INFO root fetch - processPackages [sovai]: Downloading https://files.pythonhosted.org/packages/f0/e7/041cc33431080b2a0a698738d7ce1516b185b84ce7999d60d61397e63eab/sovai-0.1.1.tar.gz
+[2024-05-13 17:12:10] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2024-05-13 17:12:10] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-1.6.0.tar.gz tmp/Peliqan-1.6.2.tar.gz --markdown 20240513/P/Peliqan/1.6.0-1.6.2/README.md --exclude *.pyd
+[2024-05-13 17:12:10] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-13 17:12:10] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.4.2.tar.gz tmp/grasp_planning-0.5.0.tar.gz --markdown 20240513/g/grasp_planning/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-13 17:12:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2024-05-13 17:12:10] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.936.tar.gz tmp/lusid-notification-sdk-preview-0.1.938.tar.gz --markdown 20240513/l/lusid-notification-sdk-preview/0.1.936-0.1.938/README.md --exclude *.pyd
+[2024-05-13 17:12:10] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-05-13 17:12:10] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.6.3.tar.gz tmp/hypothesis_torch-0.6.4.tar.gz --markdown 20240513/h/hypothesis-torch/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-13 17:12:10] INFO root fetch - processPackages [sovai]: executing diffoscope
+[2024-05-13 17:12:10] INFO root fetch - processPackages [sovai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovai-0.1.0.tar.gz tmp/sovai-0.1.1.tar.gz --markdown 20240513/s/sovai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 17:12:11] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [process-time-azure-devops]: Remove: archive file [/home/abi/fetcher/tmp/process_time_azure_devops-0.0.3.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [process-time-azure-devops]: Remove: archive file [/home/abi/fetcher/tmp/process_time_azure_devops-0.0.4.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [process-time-azure-devops]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [sovai]: Remove: archive file [/home/abi/fetcher/tmp/sovai-0.1.0.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [sovai]: Remove: archive file [/home/abi/fetcher/tmp/sovai-0.1.1.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [sovai]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.4.2.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.0.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.6.3.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.6.4.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.1a0.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.1a1.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [didcomm-messaging]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.2.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.3.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [codefly-cli]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.6.0.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.6.2.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2024-05-13 17:12:11] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.936.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.938.tar.gz]
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2024-05-13 17:12:11] INFO root fetch - main [MainThread]: Store serial: [23185518]
