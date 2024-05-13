@@ -3411,3 +3411,9 @@
 [2024-05-13 04:32:50] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
 [2024-05-13 04:32:50] INFO root fetch - main [MainThread]: End processing [wah]: success
 [2024-05-13 04:32:50] INFO root fetch - main [MainThread]: Store serial: [23175946]
+[2024-05-13 04:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175946]
+[2024-05-13 04:34:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epinastyz
+[2024-05-13 04:34:59] WARNING root fetch - processPackages [epinastyz]: Skipping, unable to determine old version
+[2024-05-13 04:34:59] INFO root fetch - main [MainThread]: End processing [epinastyz] error
+[2024-05-13 04:34:59] INFO root fetch - main [MainThread]: Store serial: [23175955]
