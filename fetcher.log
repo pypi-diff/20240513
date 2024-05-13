@@ -15585,3 +15585,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:39:22] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240512.tar.gz]
 [2024-05-13 12:39:22] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-13 12:39:22] INFO root fetch - main [MainThread]: Store serial: [23181629]
+[2024-05-13 12:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181629]
+[2024-05-13 12:41:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt-nightly
+[2024-05-13 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aerophanez
+[2024-05-13 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-problem
+[2024-05-13 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnxtr
+[2024-05-13 12:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tableqallmagent
+[2024-05-13 12:41:31] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-13 12:41:31] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-13 12:41:31] WARNING root fetch - processPackages [tableqallmagent]: Skipping, unable to determine old version
+[2024-05-13 12:41:31] INFO root fetch - main [MainThread]: End processing [tableqallmagent] error
+[2024-05-13 12:41:31] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/00/73/1c6ea4dd51b71e049494594b8d823143b819144e9b42b5f70716b7a46ccc/fastapi_problem-0.7.3.tar.gz
+[2024-05-13 12:41:31] WARNING root fetch - processPackages [aerophanez]: Skipping, unable to determine old version
+[2024-05-13 12:41:31] INFO root fetch - main [MainThread]: End processing [aerophanez] error
+[2024-05-13 12:41:31] INFO root fetch - processPackages [onnxtr]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-13 12:41:31] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-13 12:41:31] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/e8/e6/a85479e096cdb1733b9fdc2523f5f4756cbb56f2cbdb13e743d7e470ea13/fastapi_problem-0.7.4.tar.gz
+[2024-05-13 12:41:31] INFO root fetch - processPackages [onnxtr]: Downloading https://files.pythonhosted.org/packages/ef/42/ddcb10fe6961edcfdae986cfd7664b76077a350f1226d67432d775cd7a3c/onnxtr-0.1.2.tar.gz
+[2024-05-13 12:41:31] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-13 12:41:31] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-13 12:41:31] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.3.tar.gz tmp/fastapi_problem-0.7.4.tar.gz --markdown 20240513/f/fastapi-problem/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-13 12:41:31] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-13 12:41:31] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240513/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-13 12:41:32] INFO root fetch - processPackages [onnxtr]: Downloading https://files.pythonhosted.org/packages/f2/e3/46beb7206a64157124108705d0651a14033875a68a73ac346b87d0b85c16/onnxtr-0.2.0.tar.gz
+[2024-05-13 12:41:32] INFO root fetch - processPackages [onnxtr]: executing diffoscope
+[2024-05-13 12:41:32] INFO root fetch - processPackages [onnxtr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxtr-0.1.2.tar.gz tmp/onnxtr-0.2.0.tar.gz --markdown 20240513/o/onnxtr/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-13 12:41:32] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.3.tar.gz]
+[2024-05-13 12:41:32] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.4.tar.gz]
+[2024-05-13 12:41:32] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-13 12:41:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-13 12:41:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-13 12:41:33] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-13 12:41:33] INFO root fetch - processPackages [onnxtr]: Remove: archive file [/home/abi/fetcher/tmp/onnxtr-0.1.2.tar.gz]
+[2024-05-13 12:41:33] INFO root fetch - processPackages [onnxtr]: Remove: archive file [/home/abi/fetcher/tmp/onnxtr-0.2.0.tar.gz]
+[2024-05-13 12:41:33] INFO root fetch - main [MainThread]: End processing [onnxtr]: success
+[2024-05-13 12:41:33] INFO root fetch - main [MainThread]: Store serial: [23181647]
