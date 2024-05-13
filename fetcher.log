@@ -19400,3 +19400,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:50:32] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.5.tar.gz]
 [2024-05-13 14:50:32] INFO root fetch - main [MainThread]: End processing [bigfunctions]: success
 [2024-05-13 14:50:32] INFO root fetch - main [MainThread]: Store serial: [23183170]
+[2024-05-13 14:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183170]
+[2024-05-13 14:52:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigfunctions
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-contour
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monapipe
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-socio-grpc
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsms-sdk
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-source-hubspot
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: konoha
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garmin-daily
+[2024-05-13 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crutil
+[2024-05-13 14:52:42] INFO root fetch - processPackages [torch-contour]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [bigfunctions]: New version: [0.5] Old Version: [0.4]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/5c/b5/ba8be7819a479b53cf73362144abfd190bc76d1ac78f5807abd5ecea9006/torch_contour-0.0.3.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [cg]: New version: [60.7.7] Old Version: [60.7.6]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [monapipe]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [garmin-daily]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/13/c0/17ac0612dd827b2413b53f1292fcd12c62cfd9ac3be4456f74dfd43a31e4/bigfunctions-0.4.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [konoha]: New version: [5.5.6a0] Old Version: [5.5.5]
+[2024-05-13 14:52:42] WARNING root fetch - processPackages [crutil]: Skipping, unable to determine old version
+[2024-05-13 14:52:42] INFO root fetch - processPackages [crutil]: Start processing: pheval-ai-marrvel
+[2024-05-13 14:52:42] INFO root fetch - main [MainThread]: End processing [crutil] error
+[2024-05-13 14:52:42] INFO root fetch - processPackages [airbyte-source-hubspot]: New version: [4.1.3] Old Version: [4.1.2.dev202405072234]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/55/1b/4e7caa889fbe966b27b423f6170e474fa7bb115e61027fdf78c525cedfe1/cg-60.7.6.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [pheval-ai-marrvel]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 14:52:42] INFO root fetch - processPackages [monapipe]: Downloading https://files.pythonhosted.org/packages/83/5f/69895b94add2321cc60a501f78530c8a5375c20de0e2da2c1323d5b67d9e/monapipe-4.0.0.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/99/f2/574cc897b36eaa90d9d659e0e3ca096c1c734ad8e9381a87579cff03e716/dsms_sdk-1.4.0rc8.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [airbyte-source-hubspot]: Downloading https://files.pythonhosted.org/packages/10/a8/f4447ac36bd3c8eceaeef0c7ef02f1f4f83de38e5a1f7a045fc7c007a124/airbyte_source_hubspot-4.1.2.dev202405072234.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [garmin-daily]: Downloading https://files.pythonhosted.org/packages/3e/98/478ca23b3994d5a0eaea26edd3b46752b1bd299574cdda5661210a962f0d/garmin-daily-1.3.4.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [konoha]: Downloading https://files.pythonhosted.org/packages/bf/32/d93630f9a5d7759ebfd3bc2c4873d815d5d5746f063582f0594e6a46ea80/konoha-5.5.5.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/55/73/1c695bb8dddbe0c81e814b47e47531bd70b8199c14bf9daf6eb3d400d30e/torch_contour-0.0.4.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/5e/73/fc502c00fe35c1a4183a74e6c9b3875cb0313d47f3174fa5d8685a18a340/bigfunctions-0.5.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [pheval-ai-marrvel]: Downloading https://files.pythonhosted.org/packages/74/16/a44eb6450b4eff6ac59a49fb3a8e910648b26a7bbff3201f048e68214579/pheval_ai_marrvel-0.1.3.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [torch-contour]: executing diffoscope
+[2024-05-13 14:52:42] INFO root fetch - processPackages [torch-contour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_contour-0.0.3.tar.gz tmp/torch_contour-0.0.4.tar.gz --markdown 20240513/t/torch-contour/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 14:52:42] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/d6/80/4a34169d48bf3fd90ed612c6344540560cc43ee54e6e17e4cb161b988cdf/dsms_sdk-1.4.0rc9.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [monapipe]: Downloading https://files.pythonhosted.org/packages/ed/07/80f9015bea5413004623c7d7e05661e1277280f4cf248f7f17c7fcf5375a/monapipe-4.1.0.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [garmin-daily]: Downloading https://files.pythonhosted.org/packages/5e/23/bf4c8794b24dc71e7ecd1baa3c9ea8e92bce85556ba38806ccec464c4156/garmin_daily-1.3.5.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2024-05-13 14:52:42] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20240513/d/django-socio-grpc/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-13 14:52:42] INFO root fetch - processPackages [bigfunctions]: executing diffoscope
+[2024-05-13 14:52:42] INFO root fetch - processPackages [airbyte-source-hubspot]: Downloading https://files.pythonhosted.org/packages/2e/e3/52ac2d09053902a169862b2a88697d7960b9af3467a916bd91d9ded23105/airbyte_source_hubspot-4.1.3.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [bigfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigfunctions-0.4.tar.gz tmp/bigfunctions-0.5.tar.gz --markdown 20240513/b/bigfunctions/0.4-0.5/README.md --exclude *.pyd
+[2024-05-13 14:52:42] INFO root fetch - processPackages [pheval-ai-marrvel]: Downloading https://files.pythonhosted.org/packages/c3/d2/56beba36fe2942a04ec2d8a78b7552c23acc60565bfdf38fffb69b430afc/pheval_ai_marrvel-0.1.4.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/9c/0e/ab804f1d5cc7ca49e8a9adefbf3341830c8d34e7b276c7a9e376ef175acd/cg-60.7.7.tar.gz
+[2024-05-13 14:52:42] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-05-13 14:52:42] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc8.tar.gz tmp/dsms_sdk-1.4.0rc9.tar.gz --markdown 20240513/d/dsms-sdk/1.4.0rc8-1.4.0rc9/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [monapipe]: executing diffoscope
+[2024-05-13 14:52:43] INFO root fetch - processPackages [monapipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monapipe-4.0.0.tar.gz tmp/monapipe-4.1.0.tar.gz --markdown 20240513/m/monapipe/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [garmin-daily]: executing diffoscope
+[2024-05-13 14:52:43] INFO root fetch - processPackages [garmin-daily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garmin-daily-1.3.4.tar.gz tmp/garmin_daily-1.3.5.tar.gz --markdown 20240513/g/garmin-daily/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [konoha]: Downloading https://files.pythonhosted.org/packages/50/ac/269e3954fdad939a016d69266e7d0ab9ac0a3fc949d9a1e3d80d75673ce5/konoha-5.5.6a0.tar.gz
+[2024-05-13 14:52:43] INFO root fetch - processPackages [pheval-ai-marrvel]: executing diffoscope
+[2024-05-13 14:52:43] INFO root fetch - processPackages [pheval-ai-marrvel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheval_ai_marrvel-0.1.3.tar.gz tmp/pheval_ai_marrvel-0.1.4.tar.gz --markdown 20240513/p/pheval-ai-marrvel/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [airbyte-source-hubspot]: executing diffoscope
+[2024-05-13 14:52:43] INFO root fetch - processPackages [airbyte-source-hubspot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_hubspot-4.1.2.dev202405072234.tar.gz tmp/airbyte_source_hubspot-4.1.3.tar.gz --markdown 20240513/a/airbyte-source-hubspot/4.1.2.dev202405072234-4.1.3/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [konoha]: executing diffoscope
+[2024-05-13 14:52:43] INFO root fetch - processPackages [konoha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konoha-5.5.5.tar.gz tmp/konoha-5.5.6a0.tar.gz --markdown 20240513/k/konoha/5.5.5-5.5.6a0/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-13 14:52:43] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.6.tar.gz tmp/cg-60.7.7.tar.gz --markdown 20240513/c/cg/60.7.6-60.7.7/README.md --exclude *.pyd
+[2024-05-13 14:52:43] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.3.tar.gz]
+[2024-05-13 14:52:43] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.4.tar.gz]
+[2024-05-13 14:52:43] INFO root fetch - main [MainThread]: End processing [torch-contour]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.8.9.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [pheval-ai-marrvel]: Remove: archive file [/home/abi/fetcher/tmp/pheval_ai_marrvel-0.1.3.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [pheval-ai-marrvel]: Remove: archive file [/home/abi/fetcher/tmp/pheval_ai_marrvel-0.1.4.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [pheval-ai-marrvel]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.4.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.5.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [bigfunctions]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [garmin-daily]: Remove: archive file [/home/abi/fetcher/tmp/garmin-daily-1.3.4.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [garmin-daily]: Remove: archive file [/home/abi/fetcher/tmp/garmin_daily-1.3.5.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [garmin-daily]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc8.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc9.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [airbyte-source-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_hubspot-4.1.2.dev202405072234.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [airbyte-source-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_hubspot-4.1.3.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [airbyte-source-hubspot]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [konoha]: Remove: archive file [/home/abi/fetcher/tmp/konoha-5.5.5.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [konoha]: Remove: archive file [/home/abi/fetcher/tmp/konoha-5.5.6a0.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [konoha]: success
+[2024-05-13 14:52:44] INFO root fetch - processPackages [monapipe]: Remove: archive file [/home/abi/fetcher/tmp/monapipe-4.0.0.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - processPackages [monapipe]: Remove: archive file [/home/abi/fetcher/tmp/monapipe-4.1.0.tar.gz]
+[2024-05-13 14:52:44] INFO root fetch - main [MainThread]: End processing [monapipe]: success
+[2024-05-13 14:52:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.6.tar.gz]
+[2024-05-13 14:52:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.7.tar.gz]
+[2024-05-13 14:52:48] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-13 14:52:48] INFO root fetch - main [MainThread]: Store serial: [23183203]
