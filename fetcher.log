@@ -10992,3 +10992,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:46:40] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
 [2024-05-13 09:46:40] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
 [2024-05-13 09:46:40] INFO root fetch - main [MainThread]: Store serial: [23179489]
+[2024-05-13 09:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179489]
+[2024-05-13 09:48:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 09:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctrinalistz
+[2024-05-13 09:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpgPy
+[2024-05-13 09:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: badkeys
+[2024-05-13 09:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxcubecore
+[2024-05-13 09:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: r3xa
+[2024-05-13 09:48:48] INFO root fetch - processPackages [r3xa]: New version: [2024.5.dev2] Old Version: [2024.5.dev1]
+[2024-05-13 09:48:48] INFO root fetch - processPackages [rpgPy]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 09:48:48] WARNING root fetch - processPackages [doctrinalistz]: Skipping, unable to determine old version
+[2024-05-13 09:48:48] INFO root fetch - main [MainThread]: End processing [doctrinalistz] error
+[2024-05-13 09:48:48] INFO root fetch - processPackages [badkeys]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 09:48:48] INFO root fetch - processPackages [mxcubecore]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-13 09:48:49] INFO root fetch - processPackages [badkeys]: Downloading https://files.pythonhosted.org/packages/ef/be/ebdc7b274a4bacaab1d0f01da8237b5dac6e98f04063b7802a6cf88a75ea/badkeys-0.0.8.tar.gz
+[2024-05-13 09:48:49] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/f9/9c/9a2ee848c97171d8dca5de669b819fc5470c4195e13d05b476eb407172bb/rpgPy-0.8.0.tar.gz
+[2024-05-13 09:48:49] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/ca/26/d71bc00e5725764636053f8b78cb971b65641284331f42c0496031835f69/mxcubecore-1.98.0.tar.gz
+[2024-05-13 09:48:49] INFO root fetch - processPackages [r3xa]: Downloading https://files.pythonhosted.org/packages/ad/de/f1da895b301255e5d4c727b2698f353e38963f1ddca81b795f2502665187/r3xa-2024.5.dev1.tar.gz
+[2024-05-13 09:48:49] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30978471>=10485760
+[2024-05-13 09:48:49] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-05-13 09:48:49] INFO root fetch - processPackages [r3xa]: Downloading https://files.pythonhosted.org/packages/54/2f/6ee9b22200b73708d9f3190caae3e87f69577c792069ee95e28dd9202ec7/r3xa-2024.5.dev2.tar.gz
+[2024-05-13 09:48:49] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/95/be/a78072a656626a68d3b17c7dbe27f3b2c55b5bb2692fd18e338eda986c0c/rpgPy-0.9.0.tar.gz
+[2024-05-13 09:48:49] INFO root fetch - processPackages [badkeys]: Downloading https://files.pythonhosted.org/packages/88/1e/8f47852ae7030e034f5d2b1710e2e45c5fe1ae2233f2e2ae62acc93ffcc0/badkeys-0.0.9.tar.gz
+[2024-05-13 09:48:49] INFO root fetch - processPackages [rpgPy]: executing diffoscope
+[2024-05-13 09:48:49] INFO root fetch - processPackages [rpgPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpgPy-0.8.0.tar.gz tmp/rpgPy-0.9.0.tar.gz --markdown 20240513/r/rpgPy/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 09:48:49] INFO root fetch - processPackages [badkeys]: executing diffoscope
+[2024-05-13 09:48:49] INFO root fetch - processPackages [badkeys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badkeys-0.0.8.tar.gz tmp/badkeys-0.0.9.tar.gz --markdown 20240513/b/badkeys/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 09:48:49] INFO root fetch - processPackages [r3xa]: executing diffoscope
+[2024-05-13 09:48:49] INFO root fetch - processPackages [r3xa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r3xa-2024.5.dev1.tar.gz tmp/r3xa-2024.5.dev2.tar.gz --markdown 20240513/r/r3xa/2024.5.dev1-2024.5.dev2/README.md --exclude *.pyd
+[2024-05-13 09:48:50] INFO root fetch - processPackages [r3xa]: Remove: archive file [/home/abi/fetcher/tmp/r3xa-2024.5.dev1.tar.gz]
+[2024-05-13 09:48:50] INFO root fetch - processPackages [r3xa]: Remove: archive file [/home/abi/fetcher/tmp/r3xa-2024.5.dev2.tar.gz]
+[2024-05-13 09:48:50] INFO root fetch - main [MainThread]: End processing [r3xa]: success
+[2024-05-13 09:48:50] INFO root fetch - processPackages [badkeys]: Remove: archive file [/home/abi/fetcher/tmp/badkeys-0.0.8.tar.gz]
+[2024-05-13 09:48:50] INFO root fetch - processPackages [badkeys]: Remove: archive file [/home/abi/fetcher/tmp/badkeys-0.0.9.tar.gz]
+[2024-05-13 09:48:50] INFO root fetch - main [MainThread]: End processing [badkeys]: success
+[2024-05-13 09:48:50] INFO root fetch - processPackages [rpgPy]: Remove: archive file [/home/abi/fetcher/tmp/rpgPy-0.8.0.tar.gz]
+[2024-05-13 09:48:50] INFO root fetch - processPackages [rpgPy]: Remove: archive file [/home/abi/fetcher/tmp/rpgPy-0.9.0.tar.gz]
+[2024-05-13 09:48:50] INFO root fetch - main [MainThread]: End processing [rpgPy]: success
+[2024-05-13 09:48:50] INFO root fetch - main [MainThread]: Store serial: [23179534]
