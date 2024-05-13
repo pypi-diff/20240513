@@ -4694,3 +4694,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:42:53] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.14.tar.gz]
 [2024-05-13 05:42:53] INFO root fetch - main [MainThread]: End processing [blasttools]: success
 [2024-05-13 05:42:53] INFO root fetch - main [MainThread]: Store serial: [23176469]
+[2024-05-13 05:44:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176469]
+[2024-05-13 05:45:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: furrow1k
+[2024-05-13 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coretex
+[2024-05-13 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qqutils
+[2024-05-13 05:45:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SelfCalibratedConformal
+[2024-05-13 05:45:02] INFO root fetch - processPackages [furrow1k]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 05:45:02] INFO root fetch - processPackages [SelfCalibratedConformal]: New version: [0.43] Old Version: [0.42]
+[2024-05-13 05:45:02] INFO root fetch - processPackages [qqutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 05:45:02] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/02/f9/5661edf3d06bfdc0bc0377779eef937da31cce3d89850b6c4b0b900855f4/furrow1k-1.0.0.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/e5/04/8821b3fbc99b99833fb85863ffe2bd9c1b4f48308c0772619925bbfc8cba/SelfCalibratedConformal-0.42.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [qqutils]: Downloading https://files.pythonhosted.org/packages/22/4f/3ce34722045d57cb6a9b6d6469d338da55fbf340a195b1c7ab660728de5d/qqutils-0.0.8.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-13 05:45:02] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [qqutils]: Downloading https://files.pythonhosted.org/packages/06/c1/33c0483032fb5ac0bee6dbcf8f5b27f863a729814aba235a698680a2e0e5/qqutils-0.0.9.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c7/af/7a45aa909c85a3dbd7842e4b28813452bc44d1350cbd535bcd51daa05162/furrow1k-1.0.1.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [qqutils]: executing diffoscope
+[2024-05-13 05:45:02] INFO root fetch - processPackages [qqutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qqutils-0.0.8.tar.gz tmp/qqutils-0.0.9.tar.gz --markdown 20240513/q/qqutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 05:45:02] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/6a/87/332fe632350f287fd8bda5594e2d2adf7d4c5c108667f0f67f27caa51b4e/SelfCalibratedConformal-0.43.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-13 05:45:02] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-1.0.0.tar.gz tmp/furrow1k-1.0.1.tar.gz --markdown 20240513/f/furrow1k/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 05:45:02] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-05-13 05:45:02] INFO root fetch - processPackages [SelfCalibratedConformal]: executing diffoscope
+[2024-05-13 05:45:02] INFO root fetch - processPackages [SelfCalibratedConformal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SelfCalibratedConformal-0.42.tar.gz tmp/SelfCalibratedConformal-0.43.tar.gz --markdown 20240513/S/SelfCalibratedConformal/0.42-0.43/README.md --exclude *.pyd
+[2024-05-13 05:45:02] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-05-13 05:45:02] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240513/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-13 05:45:03] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.0.tar.gz]
+[2024-05-13 05:45:03] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.1.tar.gz]
+[2024-05-13 05:45:03] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-13 05:45:03] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.42.tar.gz]
+[2024-05-13 05:45:03] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.43.tar.gz]
+[2024-05-13 05:45:03] INFO root fetch - main [MainThread]: End processing [SelfCalibratedConformal]: success
+[2024-05-13 05:45:03] INFO root fetch - processPackages [qqutils]: Remove: archive file [/home/abi/fetcher/tmp/qqutils-0.0.8.tar.gz]
+[2024-05-13 05:45:03] INFO root fetch - processPackages [qqutils]: Remove: archive file [/home/abi/fetcher/tmp/qqutils-0.0.9.tar.gz]
+[2024-05-13 05:45:03] INFO root fetch - main [MainThread]: End processing [qqutils]: success
+[2024-05-13 05:45:04] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-05-13 05:45:04] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-05-13 05:45:04] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-05-13 05:45:04] INFO root fetch - main [MainThread]: Store serial: [23176482]
