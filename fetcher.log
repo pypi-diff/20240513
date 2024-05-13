@@ -11867,3 +11867,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:24:05] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-05-13 10:24:05] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-05-13 10:24:05] INFO root fetch - main [MainThread]: Store serial: [23179871]
+[2024-05-13 10:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179871]
+[2024-05-13 10:26:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 10:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackfire
+[2024-05-13 10:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annofabcli
+[2024-05-13 10:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipez
+[2024-05-13 10:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scenebuilder
+[2024-05-13 10:26:14] INFO root fetch - processPackages [scenebuilder]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-13 10:26:14] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-13 10:26:14] INFO root fetch - processPackages [pipez]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 10:26:14] INFO root fetch - processPackages [blackfire]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-13 10:26:14] INFO root fetch - processPackages [scenebuilder]: Downloading https://files.pythonhosted.org/packages/71/21/6895f0a2113240b8a041c56970fc697935844b38a4ffa6e7f0ad410fc06b/scenebuilder-0.1.5.tar.gz
+[2024-05-13 10:26:14] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2024-05-13 10:26:14] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/64/65/c3cdb7e4097093b1a2bddd6fa2147b88c0d2018fe1cb7ffbbe75a79213c1/blackfire-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-13 10:26:14] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/c8/62/5b717f40c0fa19b721b0c32e9704e07e3efc6ef66d9e9235e125637ee655/pipez-0.0.98.tar.gz
+[2024-05-13 10:26:14] INFO root fetch - processPackages [scenebuilder]: Downloading https://files.pythonhosted.org/packages/a9/d5/ac6b55c28dff50739c764013f91560fb173d61df2a89f08f874f8c6f9e68/scenebuilder-0.2.0.tar.gz
+[2024-05-13 10:26:14] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/f1/2f/c549ec10aabd1e91b0f61f993249914c2e2876bcbecbe0475d78319d32ab/blackfire-1.9.1-cp39-cp39-win_amd64.whl
+[2024-05-13 10:26:14] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2024-05-13 10:26:15] INFO root fetch - processPackages [blackfire]: executing diffoscope
+[2024-05-13 10:26:15] INFO root fetch - processPackages [blackfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240513/b/blackfire/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-13 10:26:15] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2024-05-13 10:26:15] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20240513/a/annofabcli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-13 10:26:15] INFO root fetch - processPackages [scenebuilder]: executing diffoscope
+[2024-05-13 10:26:15] INFO root fetch - processPackages [scenebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenebuilder-0.1.5.tar.gz tmp/scenebuilder-0.2.0.tar.gz --markdown 20240513/s/scenebuilder/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:26:15] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/e6/6e/340bc500f971bf2861a377a6dd615982ddeeb6ee3175f01910d829d31484/pipez-0.0.99.tar.gz
+[2024-05-13 10:26:15] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-05-13 10:26:15] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.98.tar.gz tmp/pipez-0.0.99.tar.gz --markdown 20240513/p/pipez/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 10:26:15] INFO root fetch - processPackages [scenebuilder]: Remove: archive file [/home/abi/fetcher/tmp/scenebuilder-0.1.5.tar.gz]
+[2024-05-13 10:26:15] INFO root fetch - processPackages [scenebuilder]: Remove: archive file [/home/abi/fetcher/tmp/scenebuilder-0.2.0.tar.gz]
+[2024-05-13 10:26:15] INFO root fetch - main [MainThread]: End processing [scenebuilder]: success
+[2024-05-13 10:26:15] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 10:26:15] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 10:26:15] INFO root fetch - main [MainThread]: End processing [blackfire]: success
+[2024-05-13 10:26:15] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.0.tar.gz]
+[2024-05-13 10:26:15] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.1.tar.gz]
+[2024-05-13 10:26:15] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2024-05-13 10:26:17] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.98.tar.gz]
+[2024-05-13 10:26:17] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
+[2024-05-13 10:26:17] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-05-13 10:26:17] INFO root fetch - main [MainThread]: Store serial: [23179922]
