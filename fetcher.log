@@ -1512,3 +1512,28 @@
 [2024-05-13 02:14:22] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-13 02:14:22] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-13 02:14:22] INFO root fetch - main [MainThread]: Store serial: [23175045]
+[2024-05-13 02:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175045]
+[2024-05-13 02:16:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 02:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx-weekly
+[2024-05-13 02:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-tf-module-stack
+[2024-05-13 02:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emmetropismz
+[2024-05-13 02:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metagene
+[2024-05-13 02:16:30] INFO root fetch - processPackages [metagene]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev52]
+[2024-05-13 02:16:30] WARNING root fetch - processPackages [emmetropismz]: Skipping, unable to determine old version
+[2024-05-13 02:16:30] INFO root fetch - main [MainThread]: End processing [emmetropismz] error
+[2024-05-13 02:16:30] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-13 02:16:30] INFO root fetch - processPackages [onnx-weekly]: New version: [1.17.0.dev20240513] Old Version: [1.17.0.dev20240506]
+[2024-05-13 02:16:30] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/5e/8d/259148dac424c542c1fef2110d051410f473035aaa64ea2998872ccc10e5/metagene-0.0.0.dev52.tar.gz
+[2024-05-13 02:16:30] WARNING root fetch - processPackages [metagene]: Skipping package: exceeds size limit 17509960>=10485760
+[2024-05-13 02:16:30] INFO root fetch - main [MainThread]: End processing [metagene] error
+[2024-05-13 02:16:30] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/c1/d6/bcdb03cd6a1d878e00460831e6347159681b80373ee2f77adf41661e8719/cdktf-tf-module-stack-5.0.8.tar.gz
+[2024-05-13 02:16:30] INFO root fetch - processPackages [onnx-weekly]: Downloading https://files.pythonhosted.org/packages/b3/3c/9458ed768d6d156c87a77312fc2f87131bcfde3ec7a2e9e773a6f609e76d/onnx_weekly-1.17.0.dev20240506.tar.gz
+[2024-05-13 02:16:31] WARNING root fetch - processPackages [onnx-weekly]: Skipping package: exceeds size limit 11373142>=10485760
+[2024-05-13 02:16:31] INFO root fetch - main [MainThread]: End processing [onnx-weekly] error
+[2024-05-13 02:16:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/af/b7/75603d995d5224ba49ee11765e757fab2ecf9e2a28e00a542ad9d8669ba4/cdktf-tf-module-stack-5.0.9.tar.gz
+[2024-05-13 02:16:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2024-05-13 02:16:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-5.0.8.tar.gz tmp/cdktf-tf-module-stack-5.0.9.tar.gz --markdown 20240513/c/cdktf-tf-module-stack/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-13 02:16:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.8.tar.gz]
+[2024-05-13 02:16:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.9.tar.gz]
+[2024-05-13 02:16:31] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2024-05-13 02:16:31] INFO root fetch - main [MainThread]: Store serial: [23175062]
