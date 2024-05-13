@@ -18325,3 +18325,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:16:23] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik_blockchain-2.3.0.tar.gz]
 [2024-05-13 14:16:23] INFO root fetch - main [MainThread]: End processing [chik-blockchain]: success
 [2024-05-13 14:16:23] INFO root fetch - main [MainThread]: Store serial: [23182742]
+[2024-05-13 14:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182742]
+[2024-05-13 14:18:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-pseudonimizer
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project-arrakis
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosmicfrog
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlcbase
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-contour
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bargemanz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hstream
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afeng-py-tools
+[2024-05-13 14:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-kurogames
+[2024-05-13 14:18:33] WARNING root fetch - processPackages [mlcbase]: Skipping, unable to determine old version
+[2024-05-13 14:18:33] INFO root fetch - main [MainThread]: End processing [mlcbase] error
+[2024-05-13 14:18:33] INFO root fetch - processPackages [project-arrakis]: New version: [0.1.2a0] Old Version: [0.1.2]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [nonebot-plugin-kurogames]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [hstream]: New version: [0.1.44] Old Version: [0.1.43]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [project-arrakis]: Downloading https://files.pythonhosted.org/packages/cd/ae/c659456f4e51881e2f736a27e8997c87d87a85b098a50c9cfd7f52f03c9b/project_arrakis-0.1.2-py3-none-any.whl
+[2024-05-13 14:18:33] WARNING root fetch - processPackages [bargemanz]: Skipping, unable to determine old version
+[2024-05-13 14:18:33] INFO root fetch - main [MainThread]: End processing [bargemanz] error
+[2024-05-13 14:18:33] INFO root fetch - processPackages [torch-contour]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Downloading https://files.pythonhosted.org/packages/fa/e2/375238e8b37f79dff225598410d1cc5d0039d8bd3907df1c475f645552b1/nonebot_plugin_kurogames-0.1.7.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/6a/ff/f4b35c72ff7eec4b6d0dbca6e82efe5ae064fe8cd180c30e6e3995b5b01d/hstream-0.1.43.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [cosmicfrog]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 14:18:33] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Downloading https://files.pythonhosted.org/packages/57/02/3076afc68812021af268f3ada8a74e51cf8ecf553d11205ca3d2736ac859/pyprocessors-pseudonimizer-0.5.7.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [project-arrakis]: Downloading https://files.pythonhosted.org/packages/85/aa/c25852d03e357ba5df55689a852901f38e39d78e3e8189a3bb76de225a67/project_arrakis-0.1.2a0-py3-none-any.whl
+[2024-05-13 14:18:33] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/25/89/f75200c7d15ab835b3980d290e024586122816f4d9131af6c5e42756250e/torch_contour-0.0.2.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/97/53/fc3eb04c8f54a74af5e1dfd5807bca0ea132a15809092ec214278b616e12/hstream-0.1.44.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [cosmicfrog]: Downloading https://files.pythonhosted.org/packages/ad/f0/eef0eb7577ca588fab9f4288ba2fe666bb050559c1f63b6fda33e14074e4/cosmicfrog-0.3.8.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-13 14:18:33] INFO root fetch - processPackages [project-arrakis]: executing diffoscope
+[2024-05-13 14:18:33] INFO root fetch - processPackages [project-arrakis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_arrakis-0.1.2-py3-none-any.whl.zip tmp/project_arrakis-0.1.2a0-py3-none-any.whl.zip --markdown 20240513/p/project-arrakis/0.1.2-0.1.2a0/README.md --exclude *.pyd
+[2024-05-13 14:18:33] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 14:18:33] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.43.tar.gz tmp/hstream-0.1.44.tar.gz --markdown 20240513/h/hstream/0.1.43-0.1.44/README.md --exclude *.pyd
+[2024-05-13 14:18:33] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-13 14:18:33] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240513/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 14:18:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Downloading https://files.pythonhosted.org/packages/20/66/36651888d7a67dd5784f05fdf46e8c8573a66adf85021ecf6470e2a5405f/pyprocessors-pseudonimizer-0.5.9.tar.gz
+[2024-05-13 14:18:34] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/5c/b5/ba8be7819a479b53cf73362144abfd190bc76d1ac78f5807abd5ecea9006/torch_contour-0.0.3.tar.gz
+[2024-05-13 14:18:34] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Downloading https://files.pythonhosted.org/packages/22/a6/a157e12db09b4ebb5281564fed0c11f28639b4ceac1e8a7da7cef02354a1/nonebot_plugin_kurogames-0.1.8.tar.gz
+[2024-05-13 14:18:34] INFO root fetch - processPackages [cosmicfrog]: Downloading https://files.pythonhosted.org/packages/6f/0e/9b67df4e89801510ca3ecf4242832fcd9d5055d13652023ea11cbbc97121/cosmicfrog-0.3.9.tar.gz
+[2024-05-13 14:18:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: executing diffoscope
+[2024-05-13 14:18:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-pseudonimizer-0.5.7.tar.gz tmp/pyprocessors-pseudonimizer-0.5.9.tar.gz --markdown 20240513/p/pyprocessors-pseudonimizer/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-05-13 14:18:34] INFO root fetch - processPackages [torch-contour]: executing diffoscope
+[2024-05-13 14:18:34] INFO root fetch - processPackages [torch-contour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_contour-0.0.2.tar.gz tmp/torch_contour-0.0.3.tar.gz --markdown 20240513/t/torch-contour/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 14:18:34] INFO root fetch - processPackages [cosmicfrog]: executing diffoscope
+[2024-05-13 14:18:34] INFO root fetch - processPackages [cosmicfrog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmicfrog-0.3.8.tar.gz tmp/cosmicfrog-0.3.9.tar.gz --markdown 20240513/c/cosmicfrog/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 14:18:34] INFO root fetch - processPackages [nonebot-plugin-kurogames]: executing diffoscope
+[2024-05-13 14:18:34] INFO root fetch - processPackages [nonebot-plugin-kurogames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kurogames-0.1.7.tar.gz tmp/nonebot_plugin_kurogames-0.1.8.tar.gz --markdown 20240513/n/nonebot-plugin-kurogames/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-13 14:18:34] INFO root fetch - processPackages [project-arrakis]: Remove: archive file [/home/abi/fetcher/tmp/project_arrakis-0.1.2-py3-none-any.whl.zip]
+[2024-05-13 14:18:34] INFO root fetch - processPackages [project-arrakis]: Remove: archive file [/home/abi/fetcher/tmp/project_arrakis-0.1.2a0-py3-none-any.whl.zip]
+[2024-05-13 14:18:34] INFO root fetch - main [MainThread]: End processing [project-arrakis]: success
+[2024-05-13 14:18:34] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.43.tar.gz]
+[2024-05-13 14:18:34] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.44.tar.gz]
+[2024-05-13 14:18:34] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 14:18:35] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.2.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.3.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - main [MainThread]: End processing [torch-contour]: success
+[2024-05-13 14:18:35] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-pseudonimizer-0.5.7.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-pseudonimizer-0.5.9.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - main [MainThread]: End processing [pyprocessors-pseudonimizer]: success
+[2024-05-13 14:18:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-13 14:18:35] INFO root fetch - processPackages [cosmicfrog]: Remove: archive file [/home/abi/fetcher/tmp/cosmicfrog-0.3.8.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - processPackages [cosmicfrog]: Remove: archive file [/home/abi/fetcher/tmp/cosmicfrog-0.3.9.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - main [MainThread]: End processing [cosmicfrog]: success
+[2024-05-13 14:18:35] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.7.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.8.tar.gz]
+[2024-05-13 14:18:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kurogames]: success
+[2024-05-13 14:18:35] INFO root fetch - main [MainThread]: Store serial: [23182766]
