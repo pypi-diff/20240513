@@ -21555,3 +21555,63 @@ EOFError: EOF read where object expected
 [2024-05-13 15:51:25] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-13 15:51:25] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-13 15:51:25] INFO root fetch - main [MainThread]: Store serial: [23184077]
+[2024-05-13 15:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184077]
+[2024-05-13 15:53:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-utils-xmlangel
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kadet
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codefly-cli
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: create-dara-app
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dara-core
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dara-components
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml4xcube
+[2024-05-13 15:53:33] WARNING root fetch - processPackages [selenium-utils-xmlangel]: Skipping, unable to determine old version
+[2024-05-13 15:53:33] INFO root fetch - main [MainThread]: End processing [selenium-utils-xmlangel] error
+[2024-05-13 15:53:33] INFO root fetch - processPackages [kadet]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-13 15:53:33] INFO root fetch - processPackages [ml4xcube]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 15:53:33] INFO root fetch - processPackages [codefly-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 15:53:33] INFO root fetch - processPackages [dara-components]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-13 15:53:33] INFO root fetch - processPackages [dara-core]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-13 15:53:33] INFO root fetch - processPackages [create-dara-app]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-13 15:53:34] INFO root fetch - processPackages [kadet]: Downloading https://files.pythonhosted.org/packages/96/de/d7f5aa3732c408361ce6e332dd1088dddc97a88e30df0fb0dbcbd47e872e/kadet-0.3.1.tar.gz
+[2024-05-13 15:53:34] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/7f/fa/411d6863f64c07c19f0424e1680eb9286a40ac8965ec37d81115011db279/dara_components-1.9.0-py3-none-any.whl
+[2024-05-13 15:53:34] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/63/4a/ed137f1d23c139a5b3cf47ed0d191d7838a8c791885b6adc435672f1dc2c/codefly_cli-0.0.1.tar.gz
+[2024-05-13 15:53:34] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/2c/0e/5d68d255ad7ee2541d9e05ebbfbb02d19117a1b999a601b8a67f318aaae0/dara_core-1.9.0-py3-none-any.whl
+[2024-05-13 15:53:34] INFO root fetch - processPackages [ml4xcube]: Downloading https://files.pythonhosted.org/packages/e6/82/e79d2fe9284877b531fe19c4387ecbc99b26788ae94ec40cc6d645283caf/ml4xcube-0.0.5.tar.gz
+[2024-05-13 15:53:34] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/88/3d/1fc20643737a8d52cabf8bd94ee68dd1d89d0296a3587c18fb5e59ee40bf/create_dara_app-1.9.0-py3-none-any.whl
+[2024-05-13 15:53:34] INFO root fetch - processPackages [kadet]: Downloading https://files.pythonhosted.org/packages/57/6c/0a257cd62ce85a3360b9b4b191958f4afb0b3fd919b3ac4570b176e78528/kadet-0.3.2.tar.gz
+[2024-05-13 15:53:34] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/b8/e5/357ddbfd7cf2f40905b503ea67b055a66f1dcb674216c7c592c2462a8dc8/codefly_cli-0.0.2.tar.gz
+[2024-05-13 15:53:34] INFO root fetch - processPackages [create-dara-app]: Downloading https://files.pythonhosted.org/packages/da/0a/b1f68e56ee9a4e18e35e51e9f7163e174f782b73e1aa4e9dd8f834c437cd/create_dara_app-1.9.1-py3-none-any.whl
+[2024-05-13 15:53:34] INFO root fetch - processPackages [kadet]: executing diffoscope
+[2024-05-13 15:53:34] INFO root fetch - processPackages [kadet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadet-0.3.1.tar.gz tmp/kadet-0.3.2.tar.gz --markdown 20240513/k/kadet/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-13 15:53:34] INFO root fetch - processPackages [ml4xcube]: Downloading https://files.pythonhosted.org/packages/4a/6d/4fe318e238837e9d2b6f2c789ad612fff2f8e7d629ef7425dfa5d2c87c21/ml4xcube-0.0.6.tar.gz
+[2024-05-13 15:53:34] INFO root fetch - processPackages [codefly-cli]: executing diffoscope
+[2024-05-13 15:53:34] INFO root fetch - processPackages [codefly-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefly_cli-0.0.1.tar.gz tmp/codefly_cli-0.0.2.tar.gz --markdown 20240513/c/codefly-cli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 15:53:34] INFO root fetch - processPackages [dara-components]: Downloading https://files.pythonhosted.org/packages/d1/fb/51e3cbe366c40068602669bdd5db9d415d7e94d99a8cb83d98379b99a2a8/dara_components-1.9.1-py3-none-any.whl
+[2024-05-13 15:53:34] INFO root fetch - processPackages [create-dara-app]: executing diffoscope
+[2024-05-13 15:53:34] INFO root fetch - processPackages [create-dara-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_dara_app-1.9.0-py3-none-any.whl.zip tmp/create_dara_app-1.9.1-py3-none-any.whl.zip --markdown 20240513/c/create-dara-app/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-13 15:53:34] INFO root fetch - processPackages [dara-core]: Downloading https://files.pythonhosted.org/packages/c1/9b/0e21614a737ce4e6a05bac411f61a5d7ed2ffdab68685a781e631e3d730e/dara_core-1.9.1-py3-none-any.whl
+[2024-05-13 15:53:34] INFO root fetch - processPackages [ml4xcube]: executing diffoscope
+[2024-05-13 15:53:34] INFO root fetch - processPackages [ml4xcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml4xcube-0.0.5.tar.gz tmp/ml4xcube-0.0.6.tar.gz --markdown 20240513/m/ml4xcube/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 15:53:35] INFO root fetch - processPackages [dara-core]: executing diffoscope
+[2024-05-13 15:53:35] INFO root fetch - processPackages [dara-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_core-1.9.0-py3-none-any.whl.zip tmp/dara_core-1.9.1-py3-none-any.whl.zip --markdown 20240513/d/dara-core/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-13 15:53:35] INFO root fetch - processPackages [kadet]: Remove: archive file [/home/abi/fetcher/tmp/kadet-0.3.1.tar.gz]
+[2024-05-13 15:53:35] INFO root fetch - processPackages [kadet]: Remove: archive file [/home/abi/fetcher/tmp/kadet-0.3.2.tar.gz]
+[2024-05-13 15:53:35] INFO root fetch - main [MainThread]: End processing [kadet]: success
+[2024-05-13 15:53:35] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.9.0-py3-none-any.whl.zip]
+[2024-05-13 15:53:35] INFO root fetch - processPackages [create-dara-app]: Remove: archive file [/home/abi/fetcher/tmp/create_dara_app-1.9.1-py3-none-any.whl.zip]
+[2024-05-13 15:53:35] INFO root fetch - main [MainThread]: End processing [create-dara-app]: success
+[2024-05-13 15:53:35] INFO root fetch - processPackages [dara-components]: executing diffoscope
+[2024-05-13 15:53:35] INFO root fetch - processPackages [dara-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dara_components-1.9.0-py3-none-any.whl.zip tmp/dara_components-1.9.1-py3-none-any.whl.zip --markdown 20240513/d/dara-components/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-13 15:53:35] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.1.tar.gz]
+[2024-05-13 15:53:35] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.2.tar.gz]
+[2024-05-13 15:53:35] INFO root fetch - main [MainThread]: End processing [codefly-cli]: success
+[2024-05-13 15:53:36] INFO root fetch - processPackages [ml4xcube]: Remove: archive file [/home/abi/fetcher/tmp/ml4xcube-0.0.5.tar.gz]
+[2024-05-13 15:53:36] INFO root fetch - processPackages [ml4xcube]: Remove: archive file [/home/abi/fetcher/tmp/ml4xcube-0.0.6.tar.gz]
+[2024-05-13 15:53:36] INFO root fetch - main [MainThread]: End processing [ml4xcube]: success
+[2024-05-13 15:53:36] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.0-py3-none-any.whl.zip]
+[2024-05-13 15:53:36] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.1-py3-none-any.whl.zip]
+[2024-05-13 15:53:36] INFO root fetch - main [MainThread]: End processing [dara-components]: success
+[2024-05-13 15:53:55] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.9.0-py3-none-any.whl.zip]
+[2024-05-13 15:53:55] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.9.1-py3-none-any.whl.zip]
+[2024-05-13 15:53:55] INFO root fetch - main [MainThread]: End processing [dara-core]: success
+[2024-05-13 15:53:55] INFO root fetch - main [MainThread]: Store serial: [23184097]
