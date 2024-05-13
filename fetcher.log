@@ -9412,3 +9412,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:27:22] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
 [2024-05-13 08:27:22] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2024-05-13 08:27:22] INFO root fetch - main [MainThread]: Store serial: [23178722]
+[2024-05-13 08:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178722]
+[2024-05-13 08:29:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ast-grep-py
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perissodactylismz
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heare-config
+[2024-05-13 08:29:32] WARNING root fetch - processPackages [perissodactylismz]: Skipping, unable to determine old version
+[2024-05-13 08:29:32] INFO root fetch - main [MainThread]: End processing [perissodactylismz] error
+[2024-05-13 08:29:32] INFO root fetch - processPackages [heare-config]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ast-grep-py]: New version: [0.22.3] Old Version: [0.22.2]
+[2024-05-13 08:29:32] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-13 08:29:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202405130627] Old Version: [99.0.202405091645]
+[2024-05-13 08:29:32] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-13 08:29:32] INFO root fetch - processPackages [heare-config]: Downloading https://files.pythonhosted.org/packages/1a/35/2792ee55498e478aabb44dabebcb08d1777f928bc66de9391fb60c50e0eb/heare-config-1.0.2.tar.gz
+[2024-05-13 08:29:32] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-13 08:29:32] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/e3/32/5f8a0650a9ad6df7c1b332338b943cc41c6d4260d1c9ab4ab27fa2a3879f/ast_grep_py-0.22.2.tar.gz
+[2024-05-13 08:29:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c1/b5/4a4c5bacd4a3b39b24e5d07d2064c07331d5963718e80967fa99e384c318/kfish-99.0.202405091645-py3-none-any.whl
+[2024-05-13 08:29:32] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-13 08:29:32] INFO root fetch - processPackages [heare-config]: Downloading https://files.pythonhosted.org/packages/fa/49/ac72b48ecdfff91bf3f6edb5aba3cc3d3d1300efff5f1dea9db77c95ce77/heare_config-1.0.4.tar.gz
+[2024-05-13 08:29:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bc/62/858d9f540a94bbd367e0e3288c87acac2f7c86cdfb9517f67bf0caa06842/kfish-99.0.202405130627-py3-none-any.whl
+[2024-05-13 08:29:33] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-13 08:29:33] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/be/21/33325b5aef4844375e78056bcad38b1f4c0cd8cbe43c3b40fc1f42d29c38/ast_grep_py-0.22.3.tar.gz
+[2024-05-13 08:29:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-13 08:29:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405091645-py3-none-any.whl.zip tmp/kfish-99.0.202405130627-py3-none-any.whl.zip --markdown 20240513/k/kfish/99.0.202405091645-99.0.202405130627/README.md --exclude *.pyd
+[2024-05-13 08:29:33] INFO root fetch - processPackages [heare-config]: executing diffoscope
+[2024-05-13 08:29:33] INFO root fetch - processPackages [heare-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heare-config-1.0.2.tar.gz tmp/heare_config-1.0.4.tar.gz --markdown 20240513/h/heare-config/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-13 08:29:33] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-13 08:29:33] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240513/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-13 08:29:33] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-13 08:29:33] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-05-13 08:29:33] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.22.2.tar.gz tmp/ast_grep_py-0.22.3.tar.gz --markdown 20240513/a/ast-grep-py/0.22.2-0.22.3/README.md --exclude *.pyd
+[2024-05-13 08:29:33] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-13 08:29:33] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240513/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-13 08:29:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405091645-py3-none-any.whl.zip]
+[2024-05-13 08:29:34] INFO root fetch - processPackages [heare-config]: Remove: archive file [/home/abi/fetcher/tmp/heare-config-1.0.2.tar.gz]
+[2024-05-13 08:29:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405130627-py3-none-any.whl.zip]
+[2024-05-13 08:29:34] INFO root fetch - processPackages [heare-config]: Remove: archive file [/home/abi/fetcher/tmp/heare_config-1.0.4.tar.gz]
+[2024-05-13 08:29:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-13 08:29:34] INFO root fetch - main [MainThread]: End processing [heare-config]: success
+[2024-05-13 08:29:34] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-13 08:29:34] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-13 08:29:34] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-13 08:29:34] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.22.2.tar.gz]
+[2024-05-13 08:29:34] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.22.3.tar.gz]
+[2024-05-13 08:29:34] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-05-13 08:29:44] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-13 08:29:44] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-13 08:29:44] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-13 08:29:44] INFO root fetch - main [MainThread]: Store serial: [23178771]
