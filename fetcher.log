@@ -3179,3 +3179,48 @@
 [2024-05-13 04:19:41] INFO root fetch - processPackages [PwnModules]: Remove: archive file [/home/abi/fetcher/tmp/PwnModules-1.7.tar.gz]
 [2024-05-13 04:19:41] INFO root fetch - main [MainThread]: End processing [PwnModules]: success
 [2024-05-13 04:19:41] INFO root fetch - main [MainThread]: Store serial: [23175815]
+[2024-05-13 04:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175815]
+[2024-05-13 04:21:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 04:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffsim
+[2024-05-13 04:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-taxi
+[2024-05-13 04:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mossiestz
+[2024-05-13 04:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-05-13 04:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2024-05-13 04:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fajrGPT
+[2024-05-13 04:21:50] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-13 04:21:50] INFO root fetch - processPackages [ffsim]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 04:21:50] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-13 04:21:50] WARNING root fetch - processPackages [llm-taxi]: Skipping, unable to determine old version
+[2024-05-13 04:21:50] INFO root fetch - main [MainThread]: End processing [llm-taxi] error
+[2024-05-13 04:21:50] WARNING root fetch - processPackages [mossiestz]: Skipping, unable to determine old version
+[2024-05-13 04:21:50] INFO root fetch - main [MainThread]: End processing [mossiestz] error
+[2024-05-13 04:21:50] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.982]
+[2024-05-13 04:21:50] INFO root fetch - processPackages [fajrGPT]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-13 04:21:50] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/2e/99/8dd07af7a50fbac6c2f6084853a12f007db2faac6b180724ce6b79e465ae/ffsim-0.0.8.tar.gz
+[2024-05-13 04:21:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/17/74/1a2ec8136d666486897a08ea14ed8363b9d45e78c4b1ffe31a3480ab8301/thesilent-0.0.982.tar.gz
+[2024-05-13 04:21:50] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-13 04:21:50] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/ef/f9/945be2dbe931020ad084d0c65b0a5ff6a91aaa789de923df9ae64e2f17f1/fajrGPT-1.6.6.tar.gz
+[2024-05-13 04:21:50] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-13 04:21:50] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240513/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-13 04:21:50] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/44/73/0a674ae24e0d1adf0b2d2be576e9763c16ffe468b8aef7a301a7eceef858/ffsim-0.0.9.tar.gz
+[2024-05-13 04:21:50] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 04:21:50] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 04:21:50] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.982.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.982-0.0.99/README.md --exclude *.pyd
+[2024-05-13 04:21:50] INFO root fetch - processPackages [ffsim]: executing diffoscope
+[2024-05-13 04:21:50] INFO root fetch - processPackages [ffsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffsim-0.0.8.tar.gz tmp/ffsim-0.0.9.tar.gz --markdown 20240513/f/ffsim/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 04:21:51] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/02/9c/bad3d741bb507cc91d751c2f6134155faaedc9111ae5faae5fe66cd28ad4/fajrGPT-1.6.7-py3-none-any.whl
+[2024-05-13 04:21:51] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-13 04:21:51] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-13 04:21:51] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-13 04:21:51] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.982.tar.gz]
+[2024-05-13 04:21:51] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 04:21:51] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 04:21:51] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.8.tar.gz]
+[2024-05-13 04:21:51] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
+[2024-05-13 04:21:51] INFO root fetch - main [MainThread]: End processing [ffsim]: success
+[2024-05-13 04:21:55] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2024-05-13 04:21:55] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.6.6.tar.gz tmp/fajrGPT-1.6.7-py3-none-any.whl.zip --markdown 20240513/f/fajrGPT/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-13 04:21:56] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.6.6.tar.gz]
+[2024-05-13 04:21:56] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.6.7-py3-none-any.whl.zip]
+[2024-05-13 04:21:56] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2024-05-13 04:21:56] INFO root fetch - main [MainThread]: Store serial: [23175835]
