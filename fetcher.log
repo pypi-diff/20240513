@@ -2867,3 +2867,21 @@
 [2024-05-13 03:57:23] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo_workflows-6.5.6.tar.gz]
 [2024-05-13 03:57:23] INFO root fetch - main [MainThread]: End processing [argo-workflows]: success
 [2024-05-13 03:57:23] INFO root fetch - main [MainThread]: Store serial: [23175693]
+[2024-05-13 03:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175693]
+[2024-05-13 03:59:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 03:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outwitsz
+[2024-05-13 03:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parse-llm-code
+[2024-05-13 03:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unlubricantz
+[2024-05-13 03:59:32] INFO root fetch - processPackages [parse-llm-code]: New version: [0.1.5] Old Version: [0.1.23]
+[2024-05-13 03:59:32] INFO root fetch - processPackages [parse-llm-code]: Downloading https://files.pythonhosted.org/packages/4c/cd/41a0c4827aee34c1135557701584749d0f4732958868156d324e257ba022/parse_llm_code-0.1.23.tar.gz
+[2024-05-13 03:59:32] WARNING root fetch - processPackages [unlubricantz]: Skipping, unable to determine old version
+[2024-05-13 03:59:32] INFO root fetch - main [MainThread]: End processing [unlubricantz] error
+[2024-05-13 03:59:32] WARNING root fetch - processPackages [outwitsz]: Skipping, unable to determine old version
+[2024-05-13 03:59:32] INFO root fetch - main [MainThread]: End processing [outwitsz] error
+[2024-05-13 03:59:32] INFO root fetch - processPackages [parse-llm-code]: Downloading https://files.pythonhosted.org/packages/46/1f/88c3f6ca2ad61f0ec88608aba44764240db7f46e606fa92df7517d1e204b/parse_llm_code-0.1.5.tar.gz
+[2024-05-13 03:59:32] INFO root fetch - processPackages [parse-llm-code]: executing diffoscope
+[2024-05-13 03:59:32] INFO root fetch - processPackages [parse-llm-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_llm_code-0.1.23.tar.gz tmp/parse_llm_code-0.1.5.tar.gz --markdown 20240513/p/parse-llm-code/0.1.23-0.1.5/README.md --exclude *.pyd
+[2024-05-13 03:59:33] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.23.tar.gz]
+[2024-05-13 03:59:33] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.5.tar.gz]
+[2024-05-13 03:59:33] INFO root fetch - main [MainThread]: End processing [parse-llm-code]: success
+[2024-05-13 03:59:33] INFO root fetch - main [MainThread]: Store serial: [23175704]
