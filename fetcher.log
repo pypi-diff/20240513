@@ -14535,3 +14535,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:58:16] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.7.0.post1.tar.gz]
 [2024-05-13 11:58:16] INFO root fetch - main [MainThread]: End processing [ridepy]: success
 [2024-05-13 11:58:16] INFO root fetch - main [MainThread]: Store serial: [23181212]
+[2024-05-13 12:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181212]
+[2024-05-13 12:00:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 12:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pineboo
+[2024-05-13 12:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-05-13 12:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiskit-scaleway
+[2024-05-13 12:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: craftsmenz
+[2024-05-13 12:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marshmallow-i18n-messages
+[2024-05-13 12:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: storybuilder
+[2024-05-13 12:00:25] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-05-13 12:00:25] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024051209] Old Version: [2.17.0.dev2024051109]
+[2024-05-13 12:00:25] INFO root fetch - processPackages [qiskit-scaleway]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 12:00:25] INFO root fetch - processPackages [pineboo]: New version: [0.99.84] Old Version: [0.99.83.1]
+[2024-05-13 12:00:25] WARNING root fetch - processPackages [craftsmenz]: Skipping, unable to determine old version
+[2024-05-13 12:00:25] ERROR root fetch - processPackages [marshmallow-i18n-messages]: Unable to get metadata: No such project 'marshmallow-i18n-messages'
+[2024-05-13 12:00:25] INFO root fetch - main [MainThread]: End processing [craftsmenz] error
+[2024-05-13 12:00:25] INFO root fetch - main [MainThread]: End processing [marshmallow-i18n-messages] error
+[2024-05-13 12:00:25] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/51/45/0021c3b2132fd3558280468b4d478fcef600bdb393fb28d4a022a7f609b7/tf_keras_nightly-2.17.0.dev2024051109.tar.gz
+[2024-05-13 12:00:25] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/82/91/903b9e695cc48de71c4955b70e018f9a844648d7048f1c4cfa5e21e5355d/storybuilder-0.0.14-py3-none-any.whl
+[2024-05-13 12:00:25] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/43/6b/abe9ec58d7c104717106f46631ffff111da4311cedc9b906f9058dc5d4d2/pineboo-0.99.83.1.tar.gz
+[2024-05-13 12:00:25] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/b5/cf/871e8c6fa6a0446b3210ba51e6120b199375794667096113176e64e8d6d4/qiskit_scaleway-0.1.8.tar.gz
+[2024-05-13 12:00:25] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-13 12:00:25] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/40/71/b4b4904daecc513ebc1472c144a834669006d7c55b40500978c75bc3ee12/tf_keras_nightly-2.17.0.dev2024051209.tar.gz
+[2024-05-13 12:00:25] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-13 12:00:25] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.14-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240513/s/storybuilder/0.0.14-0.0.9/README.md --exclude *.pyd
+[2024-05-13 12:00:25] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/af/89/0f416e1ba80fb5c5d2067b862d0fb22564804d63c56005f72fb0ec524b08/qiskit_scaleway-0.1.9.tar.gz
+[2024-05-13 12:00:25] INFO root fetch - processPackages [qiskit-scaleway]: executing diffoscope
+[2024-05-13 12:00:25] INFO root fetch - processPackages [qiskit-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_scaleway-0.1.8.tar.gz tmp/qiskit_scaleway-0.1.9.tar.gz --markdown 20240513/q/qiskit-scaleway/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 12:00:25] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-13 12:00:25] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024051109.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024051209.tar.gz --markdown 20240513/t/tf-keras-nightly/2.17.0.dev2024051109-2.17.0.dev2024051209/README.md --exclude *.pyd
+[2024-05-13 12:00:26] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cd/61/e3a8ac9e2f5d83c54a293e605a5ca480322d966c2f92d238bb5b550051b4/pineboo-0.99.84.tar.gz
+[2024-05-13 12:00:26] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.14-py3-none-any.whl.zip]
+[2024-05-13 12:00:26] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-13 12:00:26] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-13 12:00:26] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.8.tar.gz]
+[2024-05-13 12:00:26] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.9.tar.gz]
+[2024-05-13 12:00:26] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
+[2024-05-13 12:00:27] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 12:00:27] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.83.1.tar.gz tmp/pineboo-0.99.84.tar.gz --markdown 20240513/p/pineboo/0.99.83.1-0.99.84/README.md --exclude *.pyd
+[2024-05-13 12:00:28] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051109.tar.gz]
+[2024-05-13 12:00:28] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051209.tar.gz]
+[2024-05-13 12:00:28] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-13 12:00:30] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.83.1.tar.gz]
+[2024-05-13 12:00:30] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.tar.gz]
+[2024-05-13 12:00:30] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 12:00:30] INFO root fetch - main [MainThread]: Store serial: [23181231]
