@@ -11174,3 +11174,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:53:15] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.2.tar.gz]
 [2024-05-13 09:53:15] INFO root fetch - main [MainThread]: End processing [sardana-nxsrecorder]: success
 [2024-05-13 09:53:15] INFO root fetch - main [MainThread]: Store serial: [23179578]
+[2024-05-13 09:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179578]
+[2024-05-13 09:55:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinned-import-linter
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpi4py-fft
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wkutils
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backtesting-server
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jeedomdaemon
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lgjsfinance
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: destinelab
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: algokit-utils
+[2024-05-13 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nxswriter
+[2024-05-13 09:55:24] INFO root fetch - processPackages [algokit-utils]: New version: [2.3.0b2] Old Version: [2.3.0b1]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [wkutils]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [lgjsfinance]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [backtesting-server]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [destinelab]: New version: [0.3] Old Version: [0.2]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [mpi4py-fft]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-13 09:55:24] WARNING root fetch - processPackages [pinned-import-linter]: Skipping, unable to determine old version
+[2024-05-13 09:55:24] INFO root fetch - main [MainThread]: End processing [pinned-import-linter] error
+[2024-05-13 09:55:24] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/15/e3/ced5aaddf8e6cd19b6a155f3c83a7d76f5187a5cafde20065b8cddd9d3a3/algokit_utils-2.3.0b1-py3-none-any.whl
+[2024-05-13 09:55:24] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/37/d3/a1b5bdb0ba288c74efb1ad38369e8dffaf2f16f89a0e007375d53ae8a481/wkutils-0.0.9.tar.gz
+[2024-05-13 09:55:24] INFO root fetch - processPackages [nxswriter]: New version: [3.9.0] Old Version: [3.8.2]
+[2024-05-13 09:55:24] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/9c/2e/48000fb7dde833f3997985c1069c809eb573f07c6197bbc68dfe5b725679/jeedomdaemon-0.8.8.tar.gz
+[2024-05-13 09:55:24] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/7a/bd/dcac60e9bc39cf0b8f278eb60c9d0ea01ab79554b9ffd0ba60a4d7b86a52/lgjsfinance-0.0.1.tar.gz
+[2024-05-13 09:55:24] INFO root fetch - processPackages [backtesting-server]: Downloading https://files.pythonhosted.org/packages/25/a4/c8b41bc23c4d60398383a13cafac8cd887c7af929a67477a925dd8b92e87/backtesting_server-0.5.1.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [mpi4py-fft]: Downloading https://files.pythonhosted.org/packages/45/68/9857b84a9947b2eafc1387b6d2cd6f4c3772ff0b857a046c349f64dadda9/mpi4py-fft-2.0.5.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ce/8f/158327259fa08e70862d382ca9e3aee64c258ceccc11998b9bd4a3899b8c/algokit_utils-2.3.0b2-py3-none-any.whl
+[2024-05-13 09:55:25] INFO root fetch - processPackages [nxswriter]: Downloading https://files.pythonhosted.org/packages/23/c8/db813cec2a9b15afad0e0003b0030aa16ccca0dc9f91ca8d1de1d7f73ea4/nxswriter-3.8.2.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [destinelab]: Downloading https://files.pythonhosted.org/packages/e8/ac/d55e78a48f1ccfa3e1d1771943eb4c624fe149e37b8b3670884e30fe252d/destinelab-0.2.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [wkutils]: Downloading https://files.pythonhosted.org/packages/d0/69/b60233016a09b0921dab319fca01387259f8a70924a8aec79567c278f27a/wkutils-0.1.0.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.3.0b1-py3-none-any.whl.zip tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip --markdown 20240513/a/algokit-utils/2.3.0b1-2.3.0b2/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/60/cd/c3bc2ad7e24b09a0f71459a9fef1359ad007564f42b5bd30d0f8972a1f2d/jeedomdaemon-0.8.9.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [wkutils]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [wkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wkutils-0.0.9.tar.gz tmp/wkutils-0.1.0.tar.gz --markdown 20240513/w/wkutils/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/38/06/9b9aa83772490f062673c844a973bc82115ca0e4268f15cb91039d39dba3/lgjsfinance-0.0.2.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [backtesting-server]: Downloading https://files.pythonhosted.org/packages/8b/e5/a5d2c59c7bac43a44c067a45b47f83c748676258075ce4674cfe429c3322/backtesting_server-0.6.0.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.8.8.tar.gz tmp/jeedomdaemon-0.8.9.tar.gz --markdown 20240513/j/jeedomdaemon/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [mpi4py-fft]: Downloading https://files.pythonhosted.org/packages/d8/7d/3cdd7dfae4032dad498311197c4c78040cd16b736739bac6b9c2758fdd7a/mpi4py_fft-2.0.6.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [destinelab]: Downloading https://files.pythonhosted.org/packages/34/a3/4ffbcbb418ac916b95c78e35356dcf41232fa1052d1849f45dbc85092fcc/destinelab-0.3-py3-none-any.whl
+[2024-05-13 09:55:25] INFO root fetch - processPackages [lgjsfinance]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [lgjsfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lgjsfinance-0.0.1.tar.gz tmp/lgjsfinance-0.0.2.tar.gz --markdown 20240513/l/lgjsfinance/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [backtesting-server]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [backtesting-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtesting_server-0.5.1.tar.gz tmp/backtesting_server-0.6.0.tar.gz --markdown 20240513/b/backtesting-server/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [mpi4py-fft]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [mpi4py-fft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpi4py-fft-2.0.5.tar.gz tmp/mpi4py_fft-2.0.6.tar.gz --markdown 20240513/m/mpi4py-fft/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [nxswriter]: Downloading https://files.pythonhosted.org/packages/32/f0/61dd6b6bc10b971eab3a13352d4aff8ceb59353b0583f354d5261cb073f9/nxswriter-3.9.0.tar.gz
+[2024-05-13 09:55:25] INFO root fetch - processPackages [destinelab]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [destinelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/destinelab-0.2.tar.gz tmp/destinelab-0.3-py3-none-any.whl.zip --markdown 20240513/d/destinelab/0.2-0.3/README.md --exclude *.pyd
+[2024-05-13 09:55:25] INFO root fetch - processPackages [nxswriter]: executing diffoscope
+[2024-05-13 09:55:25] INFO root fetch - processPackages [nxswriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxswriter-3.8.2.tar.gz tmp/nxswriter-3.9.0.tar.gz --markdown 20240513/n/nxswriter/3.8.2-3.9.0/README.md --exclude *.pyd
+[2024-05-13 09:55:26] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.0.9.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [wkutils]: Remove: archive file [/home/abi/fetcher/tmp/wkutils-0.1.0.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [wkutils]: success
+[2024-05-13 09:55:26] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b1-py3-none-any.whl.zip]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-05-13 09:55:26] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.8.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.9.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-05-13 09:55:26] INFO root fetch - processPackages [destinelab]: Remove: archive file [/home/abi/fetcher/tmp/destinelab-0.2.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [destinelab]: Remove: archive file [/home/abi/fetcher/tmp/destinelab-0.3-py3-none-any.whl.zip]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [destinelab]: success
+[2024-05-13 09:55:26] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.1.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.2.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [lgjsfinance]: success
+[2024-05-13 09:55:26] INFO root fetch - processPackages [backtesting-server]: Remove: archive file [/home/abi/fetcher/tmp/backtesting_server-0.5.1.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [backtesting-server]: Remove: archive file [/home/abi/fetcher/tmp/backtesting_server-0.6.0.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [backtesting-server]: success
+[2024-05-13 09:55:26] INFO root fetch - processPackages [mpi4py-fft]: Remove: archive file [/home/abi/fetcher/tmp/mpi4py-fft-2.0.5.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - processPackages [mpi4py-fft]: Remove: archive file [/home/abi/fetcher/tmp/mpi4py_fft-2.0.6.tar.gz]
+[2024-05-13 09:55:26] INFO root fetch - main [MainThread]: End processing [mpi4py-fft]: success
+[2024-05-13 09:55:29] INFO root fetch - processPackages [nxswriter]: Remove: archive file [/home/abi/fetcher/tmp/nxswriter-3.8.2.tar.gz]
+[2024-05-13 09:55:29] INFO root fetch - processPackages [nxswriter]: Remove: archive file [/home/abi/fetcher/tmp/nxswriter-3.9.0.tar.gz]
+[2024-05-13 09:55:29] INFO root fetch - main [MainThread]: End processing [nxswriter]: success
+[2024-05-13 09:55:29] INFO root fetch - main [MainThread]: Store serial: [23179605]
