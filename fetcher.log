@@ -2786,3 +2786,54 @@
 [2024-05-13 03:53:01] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-13 03:53:01] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-13 03:53:01] INFO root fetch - main [MainThread]: Store serial: [23175668]
+[2024-05-13 03:55:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175668]
+[2024-05-13 03:55:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 03:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-answ-auto
+[2024-05-13 03:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystools
+[2024-05-13 03:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeharvest
+[2024-05-13 03:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonpacificatoryz
+[2024-05-13 03:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-msg-q
+[2024-05-13 03:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psrdb
+[2024-05-13 03:55:10] INFO root fetch - processPackages [homeharvest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 03:55:10] WARNING root fetch - processPackages [nonpacificatoryz]: Skipping, unable to determine old version
+[2024-05-13 03:55:10] INFO root fetch - main [MainThread]: End processing [nonpacificatoryz] error
+[2024-05-13 03:55:10] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/ee/35/82f17de156d1492ba0d7f70a81ed3e1f7ab03e7c2ff18bdee5221afa91e5/homeharvest-0.3.8.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [psrdb]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-answ-auto]: New version: [0.23] Old Version: [0.22]
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-msg-q]: New version: [0.13] Old Version: [0.12]
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/83/e8/5f2bd54c512fc378051d31e111e99c3cd865e9e09ff4f9acd2f029e2f8c7/pih-answ_auto-0.22.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [homeharvest]: Downloading https://files.pythonhosted.org/packages/14/3a/bcc101a19e2e5e446203d0d2bd533ee0645cf7ab9697bb8e9dc45c839790/homeharvest-0.3.9.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/70/44/b54a006d879dfe384bd97da2bbb063c446fbeeec0c581516f87ee6012495/psrdb-3.0.5.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-msg-q]: Downloading https://files.pythonhosted.org/packages/c8/70/7d546ffd31896be4230641cc88886cdb39a5469c47b22a1c89c97bf20a9a/pih-msg_q-0.12.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [homeharvest]: executing diffoscope
+[2024-05-13 03:55:10] INFO root fetch - processPackages [homeharvest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeharvest-0.3.8.tar.gz tmp/homeharvest-0.3.9.tar.gz --markdown 20240513/h/homeharvest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/c0/c0/c4cb5ab29b44ea1081d71e2d15cc7458d8ff5da267a0b1da6b38855d3c27/pih-answ_auto-0.23.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-msg-q]: Downloading https://files.pythonhosted.org/packages/a3/9e/8baea6e7f54a2a3d0bd49416eec1d39377f3a2da0583dc7048efa782bed1/pih-msg_q-0.13.tar.gz
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-answ-auto]: executing diffoscope
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-answ-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-answ_auto-0.22.tar.gz tmp/pih-answ_auto-0.23.tar.gz --markdown 20240513/p/pih-answ-auto/0.22-0.23/README.md --exclude *.pyd
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20240513/p/pystools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-msg-q]: executing diffoscope
+[2024-05-13 03:55:10] INFO root fetch - processPackages [pih-msg-q]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-msg_q-0.12.tar.gz tmp/pih-msg_q-0.13.tar.gz --markdown 20240513/p/pih-msg-q/0.12-0.13/README.md --exclude *.pyd
+[2024-05-13 03:55:10] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/47/c7/8021e5056582269acbe20357de6e104bac0db55ca86e586264fa6345826f/psrdb-3.0.6.tar.gz
+[2024-05-13 03:55:11] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.8.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - processPackages [homeharvest]: Remove: archive file [/home/abi/fetcher/tmp/homeharvest-0.3.9.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - main [MainThread]: End processing [homeharvest]: success
+[2024-05-13 03:55:11] INFO root fetch - processPackages [pih-msg-q]: Remove: archive file [/home/abi/fetcher/tmp/pih-msg_q-0.12.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - processPackages [pih-msg-q]: Remove: archive file [/home/abi/fetcher/tmp/pih-msg_q-0.13.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - main [MainThread]: End processing [pih-msg-q]: success
+[2024-05-13 03:55:11] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.22.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.23.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - main [MainThread]: End processing [pih-answ-auto]: success
+[2024-05-13 03:55:11] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2024-05-13 03:55:11] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2024-05-13 03:55:11] INFO root fetch - processPackages [psrdb]: executing diffoscope
+[2024-05-13 03:55:11] INFO root fetch - processPackages [psrdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrdb-3.0.5.tar.gz tmp/psrdb-3.0.6.tar.gz --markdown 20240513/p/psrdb/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-05-13 03:55:12] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.5.tar.gz]
+[2024-05-13 03:55:12] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.6.tar.gz]
+[2024-05-13 03:55:12] INFO root fetch - main [MainThread]: End processing [psrdb]: success
+[2024-05-13 03:55:12] INFO root fetch - main [MainThread]: Store serial: [23175684]
