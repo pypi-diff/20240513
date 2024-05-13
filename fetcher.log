@@ -10782,3 +10782,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:37:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-13 09:37:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-13 09:37:51] INFO root fetch - main [MainThread]: Store serial: [23179400]
+[2024-05-13 09:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179400]
+[2024-05-13 09:40:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 09:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-stack-dingding
+[2024-05-13 09:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscloud
+[2024-05-13 09:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarers.aws-secure-flow-log-bucket
+[2024-05-13 09:40:00] INFO root fetch - processPackages [hscloud]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-13 09:40:00] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-13 09:40:00] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/33/ce/7f3e3e9a1459c306d459b8d193b224a0c47dddfe802bff03c950c186f4a0/hscloud-0.0.0.8.tar.gz
+[2024-05-13 09:40:00] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 09:40:00] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-13 09:40:00] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/0e/01/feab4e33db59f8b3d45e596a1d0fbfcdacf711cfb228bd8e6f721fb198fe/gammarers.aws-secure-flow-log-bucket-1.4.1.tar.gz
+[2024-05-13 09:40:00] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/43/ac/19ebdf8d99c13587a5ec03b067c0467d2f2f1ec040fe70d4adeb3814df1f/hscloud-0.0.0.9.tar.gz
+[2024-05-13 09:40:00] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-13 09:40:01] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 09:40:01] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 09:40:01] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-13 09:40:01] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.8.tar.gz tmp/hscloud-0.0.0.9.tar.gz --markdown 20240513/h/hscloud/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-13 09:40:01] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/0f/f0/32e6ece8ec13420da45b625690f830bfd992df21e5d300414c5566fbee54/gammarers.aws-secure-flow-log-bucket-1.4.2.tar.gz
+[2024-05-13 09:40:01] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: executing diffoscope
+[2024-05-13 09:40:01] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-flow-log-bucket-1.4.1.tar.gz tmp/gammarers.aws-secure-flow-log-bucket-1.4.2.tar.gz --markdown 20240513/g/gammarers.aws-secure-flow-log-bucket/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-13 09:40:01] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.8.tar.gz]
+[2024-05-13 09:40:01] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.9.tar.gz]
+[2024-05-13 09:40:01] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-13 09:40:01] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-13 09:40:01] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-13 09:40:01] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 09:40:02] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-flow-log-bucket-1.4.1.tar.gz]
+[2024-05-13 09:40:02] INFO root fetch - processPackages [gammarers.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-flow-log-bucket-1.4.2.tar.gz]
+[2024-05-13 09:40:02] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-flow-log-bucket]: success
+[2024-05-13 09:40:02] INFO root fetch - main [MainThread]: Store serial: [23179423]
