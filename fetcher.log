@@ -18673,3 +18673,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:27:24] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.7.tar.gz]
 [2024-05-13 14:27:24] INFO root fetch - main [MainThread]: End processing [musical_games]: success
 [2024-05-13 14:27:24] INFO root fetch - main [MainThread]: Store serial: [23182851]
+[2024-05-13 14:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182851]
+[2024-05-13 14:29:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adb-tool-py
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyprocessors-pseudonimizer
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-outlook-email-backend
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scenebuilder
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steinbokz
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text-fabric
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: litellm-types
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aopp-deconv-tool
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TSCC
+[2024-05-13 14:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hombre-tools
+[2024-05-13 14:29:34] INFO root fetch - processPackages [scenebuilder]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [hombre-tools]: New version: [0.1.24] Old Version: [0.1.22]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-05-13 14:29:34] WARNING root fetch - processPackages [adb-tool-py]: Skipping, unable to determine old version
+[2024-05-13 14:29:34] INFO root fetch - processPackages [adb-tool-py]: Start processing: nanomotif
+[2024-05-13 14:29:34] INFO root fetch - main [MainThread]: End processing [adb-tool-py] error
+[2024-05-13 14:29:34] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [django-outlook-email-backend]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [nanomotif]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-13 14:29:34] WARNING root fetch - processPackages [steinbokz]: Skipping, unable to determine old version
+[2024-05-13 14:29:34] INFO root fetch - processPackages [litellm-types]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [steinbokz]: Start processing: cycode
+[2024-05-13 14:29:34] INFO root fetch - main [MainThread]: End processing [steinbokz] error
+[2024-05-13 14:29:34] INFO root fetch - processPackages [TSCC]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Downloading https://files.pythonhosted.org/packages/57/02/3076afc68812021af268f3ada8a74e51cf8ecf553d11205ca3d2736ac859/pyprocessors-pseudonimizer-0.5.7.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [scenebuilder]: Downloading https://files.pythonhosted.org/packages/71/21/6895f0a2113240b8a041c56970fc697935844b38a4ffa6e7f0ad410fc06b/scenebuilder-0.1.5.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/06/5e/a3447bd71141d2e160899445fc9fca0f776343870b12a838588b38a1d6f7/hombre_tools-0.1.22-py3-none-any.whl
+[2024-05-13 14:29:34] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/df/a8/4e182eeea8d3a468cbe06c4d9cfd213408273315ea5fe4b5d45601faf194/nanomotif-0.4.0.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [litellm-types]: Downloading https://files.pythonhosted.org/packages/be/3c/9b4af8be84ab45603749f2f89f68e738c7343a20ea1c473764ddf56a14b9/litellm_types-0.0.3.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/7b/c1/5de9f321b3c6c4e9f97fd2d7832fa0f4aad2322a8d758676f30493c0b8a9/django_outlook_email_backend-1.0.1.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2024-05-13 14:29:34] INFO root fetch - processPackages [cycode]: New version: [1.9.5.dev3] Old Version: [1.9.5.dev2]
+[2024-05-13 14:29:34] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [TSCC]: Downloading https://files.pythonhosted.org/packages/df/27/6a6f40512275224c7f795b5ca7cd61104d56663c4399c57a2023a12eaa3c/TSCC-0.0.2.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [scenebuilder]: Downloading https://files.pythonhosted.org/packages/a9/d5/ac6b55c28dff50739c764013f91560fb173d61df2a89f08f874f8c6f9e68/scenebuilder-0.2.0.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Downloading https://files.pythonhosted.org/packages/20/66/36651888d7a67dd5784f05fdf46e8c8573a66adf85021ecf6470e2a5405f/pyprocessors-pseudonimizer-0.5.9.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 14:29:34] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:29:34] INFO root fetch - processPackages [litellm-types]: Downloading https://files.pythonhosted.org/packages/3d/86/8aeeaaf879324e09a0cdddf84adf74a7ed0163502da8cbfe05e8a33c285a/litellm_types-0.0.4.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [scenebuilder]: executing diffoscope
+[2024-05-13 14:29:34] INFO root fetch - processPackages [scenebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenebuilder-0.1.5.tar.gz tmp/scenebuilder-0.2.0.tar.gz --markdown 20240513/s/scenebuilder/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-13 14:29:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: executing diffoscope
+[2024-05-13 14:29:34] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-pseudonimizer-0.5.7.tar.gz tmp/pyprocessors-pseudonimizer-0.5.9.tar.gz --markdown 20240513/p/pyprocessors-pseudonimizer/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-05-13 14:29:34] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/2c/cd/a7b8b82b1bfe194afbeddfa077aaf7a988e937a21cec85e0009b61f58300/cycode-1.9.5.dev2.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/6f/9a/164121c999876938cb1b04afaeabfc7ab9c766897e774a8b0bdbda76fff6/django_outlook_email_backend-1.1.1.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [litellm-types]: executing diffoscope
+[2024-05-13 14:29:34] INFO root fetch - processPackages [litellm-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm_types-0.0.3.tar.gz tmp/litellm_types-0.0.4.tar.gz --markdown 20240513/l/litellm-types/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 14:29:34] INFO root fetch - processPackages [TSCC]: Downloading https://files.pythonhosted.org/packages/e9/48/fdc0dc99ce447453d927a5853f1c45f1cfa2045cc4abca1874d8ffac1a49/tscc-0.0.3.tar.gz
+[2024-05-13 14:29:34] INFO root fetch - processPackages [django-outlook-email-backend]: executing diffoscope
+[2024-05-13 14:29:34] INFO root fetch - processPackages [django-outlook-email-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_outlook_email_backend-1.0.1.tar.gz tmp/django_outlook_email_backend-1.1.1.tar.gz --markdown 20240513/d/django-outlook-email-backend/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-13 14:29:34] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/77/56/6344b375454d1b0a70b5b30f59e834675509e2f62ded300e32689f42cbe9/nanomotif-0.4.1.tar.gz
+[2024-05-13 14:29:35] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/18/3c/e1e99384dd46d01aecc4c3764373b6992da75757bab06dedf19aeb947e5d/hombre_tools-0.1.24.tar.gz
+[2024-05-13 14:29:35] INFO root fetch - processPackages [TSCC]: executing diffoscope
+[2024-05-13 14:29:35] INFO root fetch - processPackages [TSCC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSCC-0.0.2.tar.gz tmp/tscc-0.0.3.tar.gz --markdown 20240513/T/TSCC/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 14:29:35] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/3b/ae/ae3fec4445adda85984c5d9b3c0745c7d2ce37cc3f51c903f3fadef49566/cycode-1.9.5.dev3.tar.gz
+[2024-05-13 14:29:35] INFO root fetch - processPackages [hombre-tools]: executing diffoscope
+[2024-05-13 14:29:35] INFO root fetch - processPackages [hombre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hombre_tools-0.1.22-py3-none-any.whl.zip tmp/hombre_tools-0.1.24.tar.gz --markdown 20240513/h/hombre-tools/0.1.22-0.1.24/README.md --exclude *.pyd
+[2024-05-13 14:29:35] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-13 14:29:35] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.4.0.tar.gz tmp/nanomotif-0.4.1.tar.gz --markdown 20240513/n/nanomotif/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-13 14:29:35] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-13 14:29:35] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.5.dev2.tar.gz tmp/cycode-1.9.5.dev3.tar.gz --markdown 20240513/c/cycode/1.9.5.dev2-1.9.5.dev3/README.md --exclude *.pyd
+[2024-05-13 14:29:35] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2024-05-13 14:29:36] INFO root fetch - processPackages [scenebuilder]: Remove: archive file [/home/abi/fetcher/tmp/scenebuilder-0.1.5.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [scenebuilder]: Remove: archive file [/home/abi/fetcher/tmp/scenebuilder-0.2.0.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [scenebuilder]: success
+[2024-05-13 14:29:36] INFO root fetch - processPackages [litellm-types]: Remove: archive file [/home/abi/fetcher/tmp/litellm_types-0.0.3.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [litellm-types]: Remove: archive file [/home/abi/fetcher/tmp/litellm_types-0.0.4.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [litellm-types]: success
+[2024-05-13 14:29:36] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 14:29:36] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.0.1.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.1.1.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [django-outlook-email-backend]: success
+[2024-05-13 14:29:36] INFO root fetch - processPackages [TSCC]: Remove: archive file [/home/abi/fetcher/tmp/TSCC-0.0.2.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [TSCC]: Remove: archive file [/home/abi/fetcher/tmp/tscc-0.0.3.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [TSCC]: success
+[2024-05-13 14:29:36] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-pseudonimizer-0.5.7.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-pseudonimizer-0.5.9.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [pyprocessors-pseudonimizer]: success
+[2024-05-13 14:29:36] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2024-05-13 14:29:36] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20240513/t/text-fabric/9.4.4-9.5.2/README.md --exclude *.pyd
+[2024-05-13 14:29:36] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev2.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev3.tar.gz]
+[2024-05-13 14:29:36] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-13 14:29:38] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.0.tar.gz]
+[2024-05-13 14:29:38] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.1.tar.gz]
+[2024-05-13 14:29:38] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-13 14:29:38] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2024-05-13 14:29:38] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2024-05-13 14:29:38] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2024-05-13 14:29:41] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.22-py3-none-any.whl.zip]
+[2024-05-13 14:29:41] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.24.tar.gz]
+[2024-05-13 14:29:41] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
+[2024-05-13 14:29:41] INFO root fetch - main [MainThread]: Store serial: [23182888]
