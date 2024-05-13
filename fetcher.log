@@ -3868,3 +3868,128 @@
 [2024-05-13 04:59:15] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 36456567>=10485760
 [2024-05-13 04:59:15] INFO root fetch - main [MainThread]: End processing [spu] error
 [2024-05-13 04:59:15] INFO root fetch - main [MainThread]: Store serial: [23176155]
+[2024-05-13 05:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176155]
+[2024-05-13 05:01:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 05:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stringlikez
+[2024-05-13 05:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodps
+[2024-05-13 05:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uncleavez
+[2024-05-13 05:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GCS-bucket-files-or-filenames
+[2024-05-13 05:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GCS-bucket-files-or-filenames
+[2024-05-13 05:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandisplay
+[2024-05-13 05:01:23] WARNING root fetch - processPackages [pandisplay]: Skipping, unable to determine old version
+[2024-05-13 05:01:23] INFO root fetch - main [MainThread]: End processing [pandisplay] error
+[2024-05-13 05:01:23] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: New version: [0.6] Old Version: [0.4]
+[2024-05-13 05:01:23] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: New version: [0.6] Old Version: [0.4]
+[2024-05-13 05:01:23] WARNING root fetch - processPackages [stringlikez]: Skipping, unable to determine old version
+[2024-05-13 05:01:23] INFO root fetch - main [MainThread]: End processing [stringlikez] error
+[2024-05-13 05:01:23] WARNING root fetch - processPackages [uncleavez]: Skipping, unable to determine old version
+[2024-05-13 05:01:23] INFO root fetch - main [MainThread]: End processing [uncleavez] error
+[2024-05-13 05:01:23] INFO root fetch - processPackages [pyodps]: New version: [0.9.5] Old Version: [0.9.3.2]
+[2024-05-13 05:01:23] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: Downloading https://files.pythonhosted.org/packages/f1/a4/dacf3043a8eed66cd81fa1ec498e9cb2268c2bf9b2bdfff5a46b66279bbd/GCS_bucket_files_or_filenames-0.4.tar.gz
+[2024-05-13 05:01:23] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: Downloading https://files.pythonhosted.org/packages/f1/a4/dacf3043a8eed66cd81fa1ec498e9cb2268c2bf9b2bdfff5a46b66279bbd/GCS_bucket_files_or_filenames-0.4.tar.gz
+[2024-05-13 05:01:23] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/96/f8/51d5d1bfca5572462b6c5fcfa59e3e25c338f7822e5fbc5ab8b5b137cf8a/pyodps-0.9.3.2.tar.gz
+[2024-05-13 05:01:24] INFO root fetch - processPackages [pyodps]: Downloading https://files.pythonhosted.org/packages/23/0b/9df9955a5f80cae59a3727e2047c18f5d22f015f258c30564eb666bdcc9f/pyodps-0.9.5.tar.gz
+[2024-05-13 05:01:24] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: Downloading https://files.pythonhosted.org/packages/40/d8/f74a6def74f12f58503f3aed1ce0f99a7e9a84b6fc1276af36b7bd69b558/GCS_bucket_files_or_filenames-0.6.tar.gz
+[2024-05-13 05:01:24] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: Downloading https://files.pythonhosted.org/packages/40/d8/f74a6def74f12f58503f3aed1ce0f99a7e9a84b6fc1276af36b7bd69b558/GCS_bucket_files_or_filenames-0.6.tar.gz
+[2024-05-13 05:01:24] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: executing diffoscope
+[2024-05-13 05:01:24] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: executing diffoscope
+[2024-05-13 05:01:24] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GCS_bucket_files_or_filenames-0.4.tar.gz tmp/GCS_bucket_files_or_filenames-0.6.tar.gz --markdown 20240513/G/GCS-bucket-files-or-filenames/0.4-0.6/README.md --exclude *.pyd
+[2024-05-13 05:01:24] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GCS_bucket_files_or_filenames-0.4.tar.gz tmp/GCS_bucket_files_or_filenames-0.6.tar.gz --markdown 20240513/G/GCS-bucket-files-or-filenames/0.4-0.6/README.md --exclude *.pyd
+[2024-05-13 05:01:24] INFO root fetch - processPackages [pyodps]: executing diffoscope
+[2024-05-13 05:01:24] INFO root fetch - processPackages [pyodps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodps-0.9.3.2.tar.gz tmp/pyodps-0.9.5.tar.gz --markdown 20240513/p/pyodps/0.9.3.2-0.9.5/README.md --exclude *.pyd
+[2024-05-13 05:01:25] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: Remove: archive file [/home/abi/fetcher/tmp/GCS_bucket_files_or_filenames-0.4.tar.gz]
+[2024-05-13 05:01:25] INFO root fetch - processPackages [GCS-bucket-files-or-filenames]: Remove: archive file [/home/abi/fetcher/tmp/GCS_bucket_files_or_filenames-0.6.tar.gz]
+[2024-05-13 05:01:25] INFO root fetch - main [MainThread]: End processing [GCS-bucket-files-or-filenames]: success
+[2024-05-13 05:01:25] ERROR root fetch - processPackages [GCS-bucket-files-or-filenames]: Diffoscope failed: time="2024-05-13T05:01:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+gzip: tmp/GCS_bucket_files_or_filenames-0.4.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 130, in comparisons
+    my_members = OrderedDict(self.get_adjusted_members_sizes())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/GCS_bucket_files_or_filenames-0.4.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 553, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 412, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2024-05-13 05:01:25] INFO root fetch - main [MainThread]: End processing [GCS-bucket-files-or-filenames] error
+[2024-05-13 05:01:26] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.3.2.tar.gz]
+[2024-05-13 05:01:26] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
+[2024-05-13 05:01:26] INFO root fetch - main [MainThread]: End processing [pyodps]: success
+[2024-05-13 05:01:26] INFO root fetch - main [MainThread]: Store serial: [23176185]
