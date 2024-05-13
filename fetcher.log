@@ -2837,3 +2837,33 @@
 [2024-05-13 03:55:12] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.6.tar.gz]
 [2024-05-13 03:55:12] INFO root fetch - main [MainThread]: End processing [psrdb]: success
 [2024-05-13 03:55:12] INFO root fetch - main [MainThread]: Store serial: [23175684]
+[2024-05-13 03:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175684]
+[2024-05-13 03:57:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 03:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psrdb
+[2024-05-13 03:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdbt
+[2024-05-13 03:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argo-workflows
+[2024-05-13 03:57:20] INFO root fetch - processPackages [cdbt]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-13 03:57:20] INFO root fetch - processPackages [psrdb]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-05-13 03:57:20] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/53/93/1025eedd9bbd602bc7895734d4ba3df0e069868a0a35e58981bff4e71531/cdbt-0.1.3.tar.gz
+[2024-05-13 03:57:20] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/70/44/b54a006d879dfe384bd97da2bbb063c446fbeeec0c581516f87ee6012495/psrdb-3.0.5.tar.gz
+[2024-05-13 03:57:20] INFO root fetch - processPackages [argo-workflows]: New version: [6.5.6] Old Version: [6.5.5]
+[2024-05-13 03:57:21] INFO root fetch - processPackages [argo-workflows]: Downloading https://files.pythonhosted.org/packages/e9/cf/ec8aee74b0dcb6fa3b521a7d21dd1669bc6ba29a069b2482e09fb8d95394/argo-workflows-6.5.5.tar.gz
+[2024-05-13 03:57:21] INFO root fetch - processPackages [psrdb]: Downloading https://files.pythonhosted.org/packages/47/c7/8021e5056582269acbe20357de6e104bac0db55ca86e586264fa6345826f/psrdb-3.0.6.tar.gz
+[2024-05-13 03:57:21] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/1c/b3/545326197ac816a03059d5e4851517c7e9dea01a0ca5b577399c59b21f8f/cdbt-0.1.5.tar.gz
+[2024-05-13 03:57:21] INFO root fetch - processPackages [psrdb]: executing diffoscope
+[2024-05-13 03:57:21] INFO root fetch - processPackages [psrdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psrdb-3.0.5.tar.gz tmp/psrdb-3.0.6.tar.gz --markdown 20240513/p/psrdb/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-05-13 03:57:21] INFO root fetch - processPackages [argo-workflows]: Downloading https://files.pythonhosted.org/packages/12/82/d0a34ad7b10f97e413a62f50d235f0366ab58c175893f9ba85985e641232/argo_workflows-6.5.6.tar.gz
+[2024-05-13 03:57:21] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-13 03:57:21] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.1.3.tar.gz tmp/cdbt-0.1.5.tar.gz --markdown 20240513/c/cdbt/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-13 03:57:21] INFO root fetch - processPackages [argo-workflows]: executing diffoscope
+[2024-05-13 03:57:21] INFO root fetch - processPackages [argo-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo-workflows-6.5.5.tar.gz tmp/argo_workflows-6.5.6.tar.gz --markdown 20240513/a/argo-workflows/6.5.5-6.5.6/README.md --exclude *.pyd
+[2024-05-13 03:57:21] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.1.3.tar.gz]
+[2024-05-13 03:57:21] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.1.5.tar.gz]
+[2024-05-13 03:57:21] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-13 03:57:22] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.5.tar.gz]
+[2024-05-13 03:57:22] INFO root fetch - processPackages [psrdb]: Remove: archive file [/home/abi/fetcher/tmp/psrdb-3.0.6.tar.gz]
+[2024-05-13 03:57:22] INFO root fetch - main [MainThread]: End processing [psrdb]: success
+[2024-05-13 03:57:23] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflows-6.5.5.tar.gz]
+[2024-05-13 03:57:23] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo_workflows-6.5.6.tar.gz]
+[2024-05-13 03:57:23] INFO root fetch - main [MainThread]: End processing [argo-workflows]: success
+[2024-05-13 03:57:23] INFO root fetch - main [MainThread]: Store serial: [23175693]
