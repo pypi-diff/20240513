@@ -3224,3 +3224,79 @@
 [2024-05-13 04:21:56] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.6.7-py3-none-any.whl.zip]
 [2024-05-13 04:21:56] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
 [2024-05-13 04:21:56] INFO root fetch - main [MainThread]: Store serial: [23175835]
+[2024-05-13 04:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175835]
+[2024-05-13 04:24:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fajrGPT
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-cells-gridjs-net-python
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bow-client
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypothesis
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-btripopen20220520
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-setuptools
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-six
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-docker
+[2024-05-13 04:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TheSilent
+[2024-05-13 04:24:04] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.982]
+[2024-05-13 04:24:04] INFO root fetch - processPackages [fajrGPT]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-13 04:24:04] INFO root fetch - processPackages [types-setuptools]: New version: [69.5.0.20240423] Old Version: [69.5.0.20240415]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [hypothesis]: New version: [6.99.9] Old Version: [6.99.8]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/17/74/1a2ec8136d666486897a08ea14ed8363b9d45e78c4b1ffe31a3480ab8301/thesilent-0.0.982.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240513] Old Version: [7.0.0.20240511]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/ef/f9/945be2dbe931020ad084d0c65b0a5ff6a91aaa789de923df9ae64e2f17f1/fajrGPT-1.6.6.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [aspose-cells-gridjs-net-python]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-six]: New version: [1.16.9] Old Version: [1.16.8]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [3.0.0] Old Version: [2.8.1]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/d0/49/c41dfc6bca0eb0af93b2ecef16e99aa41f9a25e4bed45bfc37cb97018f93/hypothesis-6.99.8.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [bow-client]: New version: [4.0.2.2142] Old Version: [4.0.2.2140]
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/ad/4b/3d7d115b964978a0baf8358b6e091f27f855d45bc51ba96416091cb73502/types-setuptools-69.5.0.20240415.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/0c/ac/a3969dcd58a1210c95edf36a6893611808b5b63eb518e906bee7bacc2cc3/alibabacloud_btripopen20220520-2.8.1.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/ab/8b/b2c5573a02ca648d1ba0a11921a04d55eaecdb0e21b030d678ef4b4bef4d/types-six-1.16.8.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [bow-client]: Downloading https://files.pythonhosted.org/packages/94/a5/f586ffc803fad7720745ee95d9767ef2f2ddb49b4f94ce6297ef7889f907/bow_client-4.0.2.2140-cp39-none-win_amd64.whl
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/49/8d/1a73bf72c5b6131527e93e72c0f52cc004270af54e14afea60f9a82e34da/types-docker-7.0.0.20240511.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [aspose-cells-gridjs-net-python]: Downloading https://files.pythonhosted.org/packages/b9/e5/dc798a0b56fc36064a6799906441699230341c545fecde25b5dd48238965/aspose_cells_gridjs_net_python-24.4.0-py3-none-win_amd64.whl
+[2024-05-13 04:24:05] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 04:24:05] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.982.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.982-0.0.99/README.md --exclude *.pyd
+[2024-05-13 04:24:05] INFO root fetch - processPackages [hypothesis]: Downloading https://files.pythonhosted.org/packages/ac/92/326716e57f625acc4f38608fd73f88985561fd58ee6df19d44230d70bba0/hypothesis-6.99.9.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/12/c7/10593c47ad543413eaf25bba1979a3c5a4bf3f42e505dd28869c618a764c/types-setuptools-69.5.0.20240423.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/02/9c/bad3d741bb507cc91d751c2f6134155faaedc9111ae5faae5fe66cd28ad4/fajrGPT-1.6.7-py3-none-any.whl
+[2024-05-13 04:24:05] WARNING root fetch - processPackages [bow-client]: Skipping package: exceeds size limit 16138297>=10485760
+[2024-05-13 04:24:05] INFO root fetch - main [MainThread]: End processing [bow-client] error
+[2024-05-13 04:24:05] WARNING root fetch - processPackages [aspose-cells-gridjs-net-python]: Skipping package: exceeds size limit 39377377>=10485760
+[2024-05-13 04:24:05] INFO root fetch - main [MainThread]: End processing [aspose-cells-gridjs-net-python] error
+[2024-05-13 04:24:05] INFO root fetch - processPackages [hypothesis]: executing diffoscope
+[2024-05-13 04:24:05] INFO root fetch - processPackages [hypothesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-6.99.8.tar.gz tmp/hypothesis-6.99.9.tar.gz --markdown 20240513/h/hypothesis/6.99.8-6.99.9/README.md --exclude *.pyd
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-69.5.0.20240415.tar.gz tmp/types-setuptools-69.5.0.20240423.tar.gz --markdown 20240513/t/types-setuptools/69.5.0.20240415-69.5.0.20240423/README.md --exclude *.pyd
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/20/13/305014da9ba38f13dfbb38ad954832d6029463d1cf97eab00873f778d682/types-docker-7.0.0.20240513.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/6b/8b/38036efe91de8f4d7cc1db0fe9351e085c85295d04aba1b08914b47a4779/alibabacloud_btripopen20220520-3.0.0.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/91/fb/5e27e5be75b26805676d55111e9bb23409bae2660943712c7ff2ecfa1286/types-six-1.16.9.tar.gz
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-13 04:24:05] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240511.tar.gz tmp/types-docker-7.0.0.20240513.tar.gz --markdown 20240513/t/types-docker/7.0.0.20240511-7.0.0.20240513/README.md --exclude *.pyd
+[2024-05-13 04:24:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2024-05-13 04:24:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-2.8.1.tar.gz tmp/alibabacloud_btripopen20220520-3.0.0.tar.gz --markdown 20240513/a/alibabacloud-btripopen20220520/2.8.1-3.0.0/README.md --exclude *.pyd
+[2024-05-13 04:24:05] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2024-05-13 04:24:05] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.6.6.tar.gz tmp/fajrGPT-1.6.7-py3-none-any.whl.zip --markdown 20240513/f/fajrGPT/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-13 04:24:06] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.982.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-six]: executing diffoscope
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-six]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-six-1.16.8.tar.gz tmp/types-six-1.16.9.tar.gz --markdown 20240513/t/types-six/1.16.8-1.16.9/README.md --exclude *.pyd
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.5.0.20240415.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.5.0.20240423.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240511.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240513.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.8.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.9.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - main [MainThread]: End processing [types-six]: success
+[2024-05-13 04:24:06] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.6.6.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.6.7-py3-none-any.whl.zip]
+[2024-05-13 04:24:06] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2024-05-13 04:24:06] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.8.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - processPackages [hypothesis]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-6.99.9.tar.gz]
+[2024-05-13 04:24:06] INFO root fetch - main [MainThread]: End processing [hypothesis]: success
+[2024-05-13 04:24:08] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-2.8.1.tar.gz]
+[2024-05-13 04:24:08] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-3.0.0.tar.gz]
+[2024-05-13 04:24:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2024-05-13 04:24:08] INFO root fetch - main [MainThread]: Store serial: [23175882]
