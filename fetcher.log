@@ -2204,3 +2204,24 @@
 [2024-05-13 03:04:59] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.1.0.tar.gz]
 [2024-05-13 03:04:59] INFO root fetch - main [MainThread]: End processing [iaptoolkit]: success
 [2024-05-13 03:04:59] INFO root fetch - main [MainThread]: Store serial: [23175395]
+[2024-05-13 03:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175395]
+[2024-05-13 03:07:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 03:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qctrl-release-noter
+[2024-05-13 03:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: difai
+[2024-05-13 03:07:08] INFO root fetch - processPackages [qctrl-release-noter]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 03:07:08] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 03:07:08] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/8d/b0/33aa5498292afed6db201c1982ffa4c4417d05a6224f9d8ba7a9f09d45ac/qctrl_release_noter-0.8.0.tar.gz
+[2024-05-13 03:07:08] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2024-05-13 03:07:08] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2024-05-13 03:07:09] INFO root fetch - processPackages [difai]: executing diffoscope
+[2024-05-13 03:07:09] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20240513/d/difai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 03:07:09] INFO root fetch - processPackages [qctrl-release-noter]: Downloading https://files.pythonhosted.org/packages/af/eb/5647b92e5f16900f4f3e6e02009600972ca6c82cd63a42c8808d28402b55/qctrl_release_noter-0.9.0.tar.gz
+[2024-05-13 03:07:09] INFO root fetch - processPackages [qctrl-release-noter]: executing diffoscope
+[2024-05-13 03:07:09] INFO root fetch - processPackages [qctrl-release-noter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_release_noter-0.8.0.tar.gz tmp/qctrl_release_noter-0.9.0.tar.gz --markdown 20240513/q/qctrl-release-noter/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 03:07:09] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2024-05-13 03:07:09] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2024-05-13 03:07:09] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2024-05-13 03:07:09] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.8.0.tar.gz]
+[2024-05-13 03:07:09] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.9.0.tar.gz]
+[2024-05-13 03:07:09] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
+[2024-05-13 03:07:09] INFO root fetch - main [MainThread]: Store serial: [23175402]
