@@ -20939,3 +20939,54 @@ EOFError: EOF read where object expected
 [2024-05-13 15:33:49] INFO root fetch - processPackages [indy-plenum]: Remove: archive file [/home/abi/fetcher/tmp/indy-plenum-1.9.2rc1.tar.gz]
 [2024-05-13 15:33:49] INFO root fetch - main [MainThread]: End processing [indy-plenum]: success
 [2024-05-13 15:33:49] INFO root fetch - main [MainThread]: Store serial: [23183827]
+[2024-05-13 15:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183827]
+[2024-05-13 15:35:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 15:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystratum-backend
+[2024-05-13 15:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-energiepartagee
+[2024-05-13 15:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoimmunizationz
+[2024-05-13 15:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latentscope
+[2024-05-13 15:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crawlee
+[2024-05-13 15:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: guan
+[2024-05-13 15:35:58] INFO root fetch - processPackages [pystratum-backend]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-13 15:35:58] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b9] Old Version: [0.0.3b8]
+[2024-05-13 15:35:58] INFO root fetch - processPackages [pystratum-backend]: Downloading https://files.pythonhosted.org/packages/4c/84/630af2ed586964fe6cb7a57f1ed3653c790f2b1e41100b15040905606692/pystratum_backend-2.0.2.tar.gz
+[2024-05-13 15:35:58] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/9f/72/688eb2e27a31cb96a74e93e99a90d6fe1cf7353cce9f00adbde3974adb74/crawlee-0.0.3b8.tar.gz
+[2024-05-13 15:35:58] WARNING root fetch - processPackages [autoimmunizationz]: Skipping, unable to determine old version
+[2024-05-13 15:35:58] INFO root fetch - main [MainThread]: End processing [autoimmunizationz] error
+[2024-05-13 15:35:58] INFO root fetch - processPackages [latentscope]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 15:35:58] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-13 15:35:58] INFO root fetch - processPackages [guan]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-13 15:35:58] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/84/03/9368bf77c453e6b5e03fac8250e51113b079ed2408053fc99d1e551fe02f/crawlee-0.0.3b9.tar.gz
+[2024-05-13 15:35:58] INFO root fetch - processPackages [latentscope]: Downloading https://files.pythonhosted.org/packages/35/ed/06d78507ab4d4ab434f38e85f0e07f726b02aad2592fd2ff2e4dd931c94f/latentscope-0.2.1.tar.gz
+[2024-05-13 15:35:58] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-13 15:35:59] INFO root fetch - processPackages [pystratum-backend]: Downloading https://files.pythonhosted.org/packages/b7/86/242b39cc3696d67a0feddca6fc1f598b1fe17df6ebd83f7909a48adc8b00/pystratum_backend-2.0.3.tar.gz
+[2024-05-13 15:35:59] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-13 15:35:59] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b8.tar.gz tmp/crawlee-0.0.3b9.tar.gz --markdown 20240513/c/crawlee/0.0.3b8-0.0.3b9/README.md --exclude *.pyd
+[2024-05-13 15:35:59] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/83/e1/6b686ecb9b6d4816a6835f0fe2c00899526ca31fe7fe9fb3a31f123331f3/guan-0.1.98.tar.gz
+[2024-05-13 15:35:59] INFO root fetch - processPackages [pystratum-backend]: executing diffoscope
+[2024-05-13 15:35:59] INFO root fetch - processPackages [pystratum-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystratum_backend-2.0.2.tar.gz tmp/pystratum_backend-2.0.3.tar.gz --markdown 20240513/p/pystratum-backend/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-13 15:35:59] INFO root fetch - processPackages [latentscope]: Downloading https://files.pythonhosted.org/packages/c1/b3/1794394831541b55e372add82364970d4b0892e80a914f038679b6b22698/latentscope-0.2.2.tar.gz
+[2024-05-13 15:35:59] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-13 15:35:59] INFO root fetch - processPackages [latentscope]: executing diffoscope
+[2024-05-13 15:35:59] INFO root fetch - processPackages [latentscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latentscope-0.2.1.tar.gz tmp/latentscope-0.2.2.tar.gz --markdown 20240513/l/latentscope/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 15:35:59] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/23/9b/7e086c2a15515ecf196da0393766200ec49ac8a52033424da629a3b9055e/guan-0.1.99.tar.gz
+[2024-05-13 15:35:59] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-13 15:35:59] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240513/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-13 15:35:59] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-05-13 15:35:59] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.98.tar.gz tmp/guan-0.1.99.tar.gz --markdown 20240513/g/guan/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-13 15:36:00] INFO root fetch - processPackages [pystratum-backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.2.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - processPackages [pystratum-backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.3.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - main [MainThread]: End processing [pystratum-backend]: success
+[2024-05-13 15:36:00] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b8.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-13 15:36:00] INFO root fetch - processPackages [latentscope]: Remove: archive file [/home/abi/fetcher/tmp/latentscope-0.2.1.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - processPackages [latentscope]: Remove: archive file [/home/abi/fetcher/tmp/latentscope-0.2.2.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - main [MainThread]: End processing [latentscope]: success
+[2024-05-13 15:36:00] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.98.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.99.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-05-13 15:36:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-13 15:36:00] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-13 15:36:00] INFO root fetch - main [MainThread]: Store serial: [23183845]
