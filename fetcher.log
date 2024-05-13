@@ -11373,3 +11373,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:59:55] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-1.0.3rc0.tar.gz]
 [2024-05-13 09:59:55] INFO root fetch - main [MainThread]: End processing [tensorflow-gnn]: success
 [2024-05-13 09:59:55] INFO root fetch - main [MainThread]: Store serial: [23179654]
+[2024-05-13 10:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179654]
+[2024-05-13 10:02:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 10:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-13 10:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: classiq
+[2024-05-13 10:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: local-determinacy
+[2024-05-13 10:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunketz
+[2024-05-13 10:02:04] WARNING root fetch - processPackages [local-determinacy]: Skipping, unable to determine old version
+[2024-05-13 10:02:04] INFO root fetch - main [MainThread]: End processing [local-determinacy] error
+[2024-05-13 10:02:04] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 10:02:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-13 10:02:04] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-13 10:02:04] WARNING root fetch - processPackages [sunketz]: Skipping, unable to determine old version
+[2024-05-13 10:02:04] INFO root fetch - main [MainThread]: End processing [sunketz] error
+[2024-05-13 10:02:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-13 10:02:04] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2024-05-13 10:02:04] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-13 10:02:04] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240513/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 10:02:05] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2024-05-13 10:02:05] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2024-05-13 10:02:05] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20240513/c/classiq/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-13 10:02:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-13 10:02:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-13 10:02:05] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-13 10:02:06] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.1-py3-none-any.whl.zip]
+[2024-05-13 10:02:06] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
+[2024-05-13 10:02:06] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2024-05-13 10:02:06] INFO root fetch - main [MainThread]: Store serial: [23179671]
