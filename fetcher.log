@@ -1958,3 +1958,48 @@
 [2024-05-13 02:45:13] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405120044.tar.gz]
 [2024-05-13 02:45:13] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-13 02:45:13] INFO root fetch - main [MainThread]: Store serial: [23175296]
+[2024-05-13 02:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175296]
+[2024-05-13 02:47:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hostdb
+[2024-05-13 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metasequoia-sql
+[2024-05-13 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afeng-py-tools
+[2024-05-13 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartrandom
+[2024-05-13 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: magnetifyz
+[2024-05-13 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collieriesz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [metasequoia-sql]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-13 02:47:22] INFO root fetch - processPackages [hostdb]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-13 02:47:22] WARNING root fetch - processPackages [magnetifyz]: Skipping, unable to determine old version
+[2024-05-13 02:47:22] INFO root fetch - main [MainThread]: End processing [magnetifyz] error
+[2024-05-13 02:47:22] INFO root fetch - processPackages [smartrandom]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 02:47:22] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 02:47:22] WARNING root fetch - processPackages [collieriesz]: Skipping, unable to determine old version
+[2024-05-13 02:47:22] INFO root fetch - main [MainThread]: End processing [collieriesz] error
+[2024-05-13 02:47:22] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/6e/08/fd7ea4a947d03a0b59de266671b284e007b7cc2ff38f5b9b3ce84860d1e8/metasequoia-sql-0.4.0.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [hostdb]: Downloading https://files.pythonhosted.org/packages/58/b0/2ef7ccd28d8a4735b2ad99705114bdbb1e2481d5e5f8ebdc84fc3cefc797/hostdb-2.0.0.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [smartrandom]: Downloading https://files.pythonhosted.org/packages/e3/ca/c3d591dfd08fa14e816dadd68302d0cf67656db4503fb0b9ee155b73873f/smartrandom-0.0.2.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [hostdb]: Downloading https://files.pythonhosted.org/packages/53/52/e00666f9509e5a8dd2dc650889f7630cbeccd7ff4a82a5aa8da1d263cea5/hostdb-2.1.0.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/4b/23/f3ee822f20dd0d55bbd79deeb5de638e2f37b6f8c3459fcde9b3bcbc3c87/metasequoia-sql-0.5.0.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [smartrandom]: Downloading https://files.pythonhosted.org/packages/e4/25/57846153ee75160f996d484ec2c5d8cf3145da8dcf5839c9103aeceb2e84/smartrandom-0.0.3.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-13 02:47:22] INFO root fetch - processPackages [hostdb]: executing diffoscope
+[2024-05-13 02:47:22] INFO root fetch - processPackages [hostdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostdb-2.0.0.tar.gz tmp/hostdb-2.1.0.tar.gz --markdown 20240513/h/hostdb/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-13 02:47:22] INFO root fetch - processPackages [smartrandom]: executing diffoscope
+[2024-05-13 02:47:22] INFO root fetch - processPackages [smartrandom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartrandom-0.0.2.tar.gz tmp/smartrandom-0.0.3.tar.gz --markdown 20240513/s/smartrandom/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 02:47:22] INFO root fetch - processPackages [metasequoia-sql]: executing diffoscope
+[2024-05-13 02:47:22] INFO root fetch - processPackages [metasequoia-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasequoia-sql-0.4.0.tar.gz tmp/metasequoia-sql-0.5.0.tar.gz --markdown 20240513/m/metasequoia-sql/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 02:47:23] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-13 02:47:23] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240513/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 02:47:23] INFO root fetch - processPackages [hostdb]: Remove: archive file [/home/abi/fetcher/tmp/hostdb-2.0.0.tar.gz]
+[2024-05-13 02:47:23] INFO root fetch - processPackages [hostdb]: Remove: archive file [/home/abi/fetcher/tmp/hostdb-2.1.0.tar.gz]
+[2024-05-13 02:47:23] INFO root fetch - main [MainThread]: End processing [hostdb]: success
+[2024-05-13 02:47:23] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.4.0.tar.gz]
+[2024-05-13 02:47:23] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.5.0.tar.gz]
+[2024-05-13 02:47:23] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
+[2024-05-13 02:47:23] INFO root fetch - processPackages [smartrandom]: Remove: archive file [/home/abi/fetcher/tmp/smartrandom-0.0.2.tar.gz]
+[2024-05-13 02:47:23] INFO root fetch - processPackages [smartrandom]: Remove: archive file [/home/abi/fetcher/tmp/smartrandom-0.0.3.tar.gz]
+[2024-05-13 02:47:23] INFO root fetch - main [MainThread]: End processing [smartrandom]: success
+[2024-05-13 02:47:24] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-13 02:47:24] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-13 02:47:24] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-13 02:47:24] INFO root fetch - main [MainThread]: Store serial: [23175315]
