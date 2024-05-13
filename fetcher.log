@@ -17231,3 +17231,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:42:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-13 13:42:20] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-13 13:42:20] INFO root fetch - main [MainThread]: Store serial: [23182298]
+[2024-05-13 13:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182298]
+[2024-05-13 13:44:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internet-domain-local
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-scaleway
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stilettolikez
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytech-zp
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-newrelic
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shape-warrior-t.algezip
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-integrity
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alphaz-next
+[2024-05-13 13:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hstream
+[2024-05-13 13:44:56] INFO root fetch - processPackages [qiskit-scaleway]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:44:56] INFO root fetch - processPackages [hstream]: New version: [0.1.42] Old Version: [0.1.41]
+[2024-05-13 13:44:56] INFO root fetch - processPackages [django-integrity]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-13 13:44:56] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/b5/cf/871e8c6fa6a0446b3210ba51e6120b199375794667096113176e64e8d6d4/qiskit_scaleway-0.1.8.tar.gz
+[2024-05-13 13:44:56] WARNING root fetch - processPackages [pytech-zp]: Skipping, unable to determine old version
+[2024-05-13 13:44:56] INFO root fetch - main [MainThread]: End processing [pytech-zp] error
+[2024-05-13 13:44:56] WARNING root fetch - processPackages [stilettolikez]: Skipping, unable to determine old version
+[2024-05-13 13:44:56] INFO root fetch - main [MainThread]: End processing [stilettolikez] error
+[2024-05-13 13:44:56] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 13:44:56] WARNING root fetch - processPackages [shape-warrior-t.algezip]: Skipping, unable to determine old version
+[2024-05-13 13:44:56] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/09/5c/3df409baf121693574da2a39e7c155b5494202bfe32db96e689a94ec966c/hstream-0.1.41.tar.gz
+[2024-05-13 13:44:56] INFO root fetch - main [MainThread]: End processing [shape-warrior-t.algezip] error
+[2024-05-13 13:44:56] INFO root fetch - processPackages [alphaz-next]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-13 13:44:56] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-13 13:44:56] INFO root fetch - processPackages [django-integrity]: Downloading https://files.pythonhosted.org/packages/8c/2a/54a09eb8128a285b98bb539d3ac3085b8c614188765673dba3f6ca4b83c5/django_integrity-0.1.1.tar.gz
+[2024-05-13 13:44:56] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-13 13:44:56] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/af/89/0f416e1ba80fb5c5d2067b862d0fb22564804d63c56005f72fb0ec524b08/qiskit_scaleway-0.1.9.tar.gz
+[2024-05-13 13:44:56] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-13 13:44:56] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/8b/ec/da89f52c088be8e569fbcff565bb43654b93385a17239469ec7055e9e52a/hstream-0.1.42.tar.gz
+[2024-05-13 13:44:56] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/52/44/52d3283e3354c3b7dd760c77bda468bda739b3b81ff0f22ec5f06422bc33/alphaz-next-0.6.4.tar.gz
+[2024-05-13 13:44:57] INFO root fetch - processPackages [qiskit-scaleway]: executing diffoscope
+[2024-05-13 13:44:57] INFO root fetch - processPackages [qiskit-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_scaleway-0.1.8.tar.gz tmp/qiskit_scaleway-0.1.9.tar.gz --markdown 20240513/q/qiskit-scaleway/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:44:57] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 13:44:57] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.41.tar.gz tmp/hstream-0.1.42.tar.gz --markdown 20240513/h/hstream/0.1.41-0.1.42/README.md --exclude *.pyd
+[2024-05-13 13:44:57] INFO root fetch - processPackages [django-integrity]: Downloading https://files.pythonhosted.org/packages/15/42/51158206450c032f5b6fbd00fe5d798b683062815c7de69df5261438b3c8/django_integrity-0.2.0.tar.gz
+[2024-05-13 13:44:57] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-13 13:44:57] INFO root fetch - processPackages [django-integrity]: executing diffoscope
+[2024-05-13 13:44:57] INFO root fetch - processPackages [django-integrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_integrity-0.1.1.tar.gz tmp/django_integrity-0.2.0.tar.gz --markdown 20240513/d/django-integrity/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 13:44:57] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-13 13:44:57] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/52/d4/375f55fc2867e4afdc0f61cc256a5dd0aed4497bfd53256e5258af151b7d/alphaz-next-0.6.5.tar.gz
+[2024-05-13 13:44:57] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-13 13:44:57] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240513/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 13:44:57] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-13 13:44:57] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240513/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-13 13:44:57] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-13 13:44:57] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.6.4.tar.gz tmp/alphaz-next-0.6.5.tar.gz --markdown 20240513/a/alphaz-next/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-13 13:44:57] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.41.tar.gz]
+[2024-05-13 13:44:57] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.42.tar.gz]
+[2024-05-13 13:44:57] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 13:44:58] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.8.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.9.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
+[2024-05-13 13:44:58] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-13 13:44:58] INFO root fetch - processPackages [django-integrity]: Remove: archive file [/home/abi/fetcher/tmp/django_integrity-0.1.1.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - processPackages [django-integrity]: Remove: archive file [/home/abi/fetcher/tmp/django_integrity-0.2.0.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - main [MainThread]: End processing [django-integrity]: success
+[2024-05-13 13:44:58] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.4.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.5.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-13 13:44:58] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-13 13:44:58] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-13 13:44:58] INFO root fetch - main [MainThread]: Store serial: [23182338]
