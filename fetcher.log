@@ -3146,3 +3146,36 @@
 [2024-05-13 04:17:26] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.8.tar.gz]
 [2024-05-13 04:17:26] INFO root fetch - main [MainThread]: End processing [skelescope]: success
 [2024-05-13 04:17:26] INFO root fetch - main [MainThread]: Store serial: [23175803]
+[2024-05-13 04:19:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175803]
+[2024-05-13 04:19:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PwnModules
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLConn
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ivpm
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monocarpicz
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ivpm]: New version: [1.1.1.9052324018] Old Version: [1.1.1.8952360870]
+[2024-05-13 04:19:40] INFO root fetch - processPackages [SQLConn]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 04:19:40] WARNING root fetch - processPackages [monocarpicz]: Skipping, unable to determine old version
+[2024-05-13 04:19:40] INFO root fetch - main [MainThread]: End processing [monocarpicz] error
+[2024-05-13 04:19:40] INFO root fetch - processPackages [PwnModules]: New version: [1.7] Old Version: [1.6]
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ivpm]: Downloading https://files.pythonhosted.org/packages/a3/1e/ecb168d1c7b0387e8a9460b79668d60815cb9b98aa5efed96ee33d0fce88/ivpm-1.1.1.8952360870-py2.py3-none-any.whl
+[2024-05-13 04:19:40] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/d0/1f/877f7cca7d7173cfa5b636709543b52b8ada1f4538f1967dde00dfe85a66/SQLConn-0.0.7.tar.gz
+[2024-05-13 04:19:40] INFO root fetch - processPackages [PwnModules]: Downloading https://files.pythonhosted.org/packages/f2/0d/c7ea93961dbab33cccecd5d0cb93ad76a297d8b9629379febb4a22a402a1/PwnModules-1.6.tar.gz
+[2024-05-13 04:19:40] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/87/8c/681230a743c60daa7a6b59cb9dac1dfe1866bb26dffc5783f1a1f35b40c9/SQLConn-0.0.8.tar.gz
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ivpm]: Downloading https://files.pythonhosted.org/packages/f2/92/4e0f9e848f80c04ef5660530919d272d8ccbcf730b669941acaa56576a34/ivpm-1.1.1.9052324018-py2.py3-none-any.whl
+[2024-05-13 04:19:40] INFO root fetch - processPackages [SQLConn]: executing diffoscope
+[2024-05-13 04:19:40] INFO root fetch - processPackages [SQLConn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLConn-0.0.7.tar.gz tmp/SQLConn-0.0.8.tar.gz --markdown 20240513/S/SQLConn/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ivpm]: executing diffoscope
+[2024-05-13 04:19:40] INFO root fetch - processPackages [ivpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivpm-1.1.1.8952360870-py2.py3-none-any.whl.zip tmp/ivpm-1.1.1.9052324018-py2.py3-none-any.whl.zip --markdown 20240513/i/ivpm/1.1.1.8952360870-1.1.1.9052324018/README.md --exclude *.pyd
+[2024-05-13 04:19:40] INFO root fetch - processPackages [PwnModules]: Downloading https://files.pythonhosted.org/packages/b5/50/afbf3311375386078ba1efb3b5b250145f2fdd1355ca71524a3b118206d9/PwnModules-1.7.tar.gz
+[2024-05-13 04:19:40] INFO root fetch - processPackages [PwnModules]: executing diffoscope
+[2024-05-13 04:19:40] INFO root fetch - processPackages [PwnModules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PwnModules-1.6.tar.gz tmp/PwnModules-1.7.tar.gz --markdown 20240513/P/PwnModules/1.6-1.7/README.md --exclude *.pyd
+[2024-05-13 04:19:41] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.7.tar.gz]
+[2024-05-13 04:19:41] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.8.tar.gz]
+[2024-05-13 04:19:41] INFO root fetch - main [MainThread]: End processing [SQLConn]: success
+[2024-05-13 04:19:41] INFO root fetch - processPackages [ivpm]: Remove: archive file [/home/abi/fetcher/tmp/ivpm-1.1.1.8952360870-py2.py3-none-any.whl.zip]
+[2024-05-13 04:19:41] INFO root fetch - processPackages [ivpm]: Remove: archive file [/home/abi/fetcher/tmp/ivpm-1.1.1.9052324018-py2.py3-none-any.whl.zip]
+[2024-05-13 04:19:41] INFO root fetch - main [MainThread]: End processing [ivpm]: success
+[2024-05-13 04:19:41] INFO root fetch - processPackages [PwnModules]: Remove: archive file [/home/abi/fetcher/tmp/PwnModules-1.6.tar.gz]
+[2024-05-13 04:19:41] INFO root fetch - processPackages [PwnModules]: Remove: archive file [/home/abi/fetcher/tmp/PwnModules-1.7.tar.gz]
+[2024-05-13 04:19:41] INFO root fetch - main [MainThread]: End processing [PwnModules]: success
+[2024-05-13 04:19:41] INFO root fetch - main [MainThread]: Store serial: [23175815]
