@@ -18860,3 +18860,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:32:09] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-13 14:32:09] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-13 14:32:09] INFO root fetch - main [MainThread]: Store serial: [23182935]
+[2024-05-13 14:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182935]
+[2024-05-13 14:34:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod390
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dime-sampler
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lakers-python
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: undiagrammaticallyz
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rsam-ew
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonstreamdb-v3
+[2024-05-13 14:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinned-import-linter
+[2024-05-13 14:34:18] WARNING root fetch - processPackages [dime-sampler]: Skipping, unable to determine old version
+[2024-05-13 14:34:18] INFO root fetch - main [MainThread]: End processing [dime-sampler] error
+[2024-05-13 14:34:18] WARNING root fetch - processPackages [pinned-import-linter]: Skipping, unable to determine old version
+[2024-05-13 14:34:18] INFO root fetch - main [MainThread]: End processing [pinned-import-linter] error
+[2024-05-13 14:34:18] INFO root fetch - processPackages [lakers-python]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-13 14:34:18] INFO root fetch - processPackages [moonstreamdb-v3]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 14:34:18] WARNING root fetch - processPackages [undiagrammaticallyz]: Skipping, unable to determine old version
+[2024-05-13 14:34:18] INFO root fetch - main [MainThread]: End processing [undiagrammaticallyz] error
+[2024-05-13 14:34:18] WARNING root fetch - processPackages [rsam-ew]: Skipping, unable to determine old version
+[2024-05-13 14:34:18] INFO root fetch - main [MainThread]: End processing [rsam-ew] error
+[2024-05-13 14:34:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-13 14:34:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: New version: [16.0.2.5.0] Old Version: [16.0.2.4.0]
+[2024-05-13 14:34:18] INFO root fetch - processPackages [lakers-python]: Downloading https://files.pythonhosted.org/packages/fa/df/30c74368b8594fa85a7d2685a9755ae2e38203b3f3295a90ca6c3aac90f8/lakers_python-0.2.1.tar.gz
+[2024-05-13 14:34:18] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/6e/17/40b1f5f2c6fe81a8f81ee6d051bdb271e431d76a742e63bd0ee8bfa0ea5a/moonstreamdb-v3-0.0.3.tar.gz
+[2024-05-13 14:34:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/03/93/6ac1deba43993671bb9840f6add3cced41f0ca8e590c4cc1ee6c1654d03e/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 14:34:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/67/63/749f18c99b780dd49f3889f4bbaf89c4f5bbc7ff8e8dcd2b1897ff4e8ec3/odoo_addon_l10n_es_aeat_mod390-16.0.2.4.0-py3-none-any.whl
+[2024-05-13 14:34:19] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/d8/83/73a914048db222232645a4f8573377e8771b9d89747ab233208ada9e1925/moonstreamdb-v3-0.0.4.tar.gz
+[2024-05-13 14:34:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/6e/41/1c7734cbfdffa0266497cabf9a23a08663831c84d617ccdd7071352edc3a/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-13 14:34:19] INFO root fetch - processPackages [moonstreamdb-v3]: executing diffoscope
+[2024-05-13 14:34:19] INFO root fetch - processPackages [moonstreamdb-v3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-v3-0.0.3.tar.gz tmp/moonstreamdb-v3-0.0.4.tar.gz --markdown 20240513/m/moonstreamdb-v3/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 14:34:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2024-05-13 14:34:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-l10n-es-aeat-mod123/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-13 14:34:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Downloading https://files.pythonhosted.org/packages/d8/c7/03aed0ba828a6aff09fdfee8c2c3f7ae8e001b65cd2d906d6e826c03c18a/odoo_addon_l10n_es_aeat_mod390-16.0.2.5.0-py3-none-any.whl
+[2024-05-13 14:34:19] INFO root fetch - processPackages [lakers-python]: Downloading https://files.pythonhosted.org/packages/29/93/5d70b035f987a48dd854c1afc21025fb8446aae4d43c685b68691175623c/lakers_python-0.3.0.tar.gz
+[2024-05-13 14:34:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: executing diffoscope
+[2024-05-13 14:34:19] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.5.0-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-l10n-es-aeat-mod390/16.0.2.4.0-16.0.2.5.0/README.md --exclude *.pyd
+[2024-05-13 14:34:19] INFO root fetch - processPackages [lakers-python]: executing diffoscope
+[2024-05-13 14:34:19] INFO root fetch - processPackages [lakers-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakers_python-0.2.1.tar.gz tmp/lakers_python-0.3.0.tar.gz --markdown 20240513/l/lakers-python/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-13 14:34:19] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.3.tar.gz]
+[2024-05-13 14:34:19] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.4.tar.gz]
+[2024-05-13 14:34:19] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3]: success
+[2024-05-13 14:34:20] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 14:34:20] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-13 14:34:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2024-05-13 14:34:20] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.4.0-py3-none-any.whl.zip]
+[2024-05-13 14:34:20] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod390-16.0.2.5.0-py3-none-any.whl.zip]
+[2024-05-13 14:34:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod390]: success
+[2024-05-13 14:34:21] INFO root fetch - processPackages [lakers-python]: Remove: archive file [/home/abi/fetcher/tmp/lakers_python-0.2.1.tar.gz]
+[2024-05-13 14:34:21] INFO root fetch - processPackages [lakers-python]: Remove: archive file [/home/abi/fetcher/tmp/lakers_python-0.3.0.tar.gz]
+[2024-05-13 14:34:21] INFO root fetch - main [MainThread]: End processing [lakers-python]: success
+[2024-05-13 14:34:21] INFO root fetch - main [MainThread]: Store serial: [23182959]
