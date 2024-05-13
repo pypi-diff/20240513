@@ -23905,3 +23905,78 @@ EOFError: EOF read where object expected
 [2024-05-13 17:02:51] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip]
 [2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
 [2024-05-13 17:02:51] INFO root fetch - main [MainThread]: Store serial: [23185409]
+[2024-05-13 17:04:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185409]
+[2024-05-13 17:05:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchflow
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: takion-api
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superblocks-types
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moneyonchain-prices-source
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sibila
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: laboneq
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cc-py-commons
+[2024-05-13 17:05:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exponentation
+[2024-05-13 17:05:00] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [exponentation]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [laboneq]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [takion-api]: New version: [0.1.41] Old Version: [0.1.32]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [cc-py-commons]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [moneyonchain-prices-source]: New version: [0.7.0b3] Old Version: [0.7.0b2]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [sibila]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-13 17:05:00] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/5e/00/07c2f3706a065643ed8b6690a4e5341769b698034b525cd99844094e255e/superblocks-types-0.0.4.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [exponentation]: Downloading https://files.pythonhosted.org/packages/7c/ec/b3c7125042a4e6b89a06b0f2773419718630bda9fea217c2921ce6916016/exponentation-0.0.6.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [takion-api]: Downloading https://files.pythonhosted.org/packages/4e/07/b392e8b886a219e8842c7015142593127e3af670a59bd8be0313f49ef19d/takion_api-0.1.32.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/8c/66/9cbe789d55155adc9d577d42d38f36e55fb8aa8c0800768033c4bbb069be/laboneq-2.8.0-py3-none-any.whl
+[2024-05-13 17:05:00] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/29/c7/f56a3f60fc1ee362a5af51340d765200f9a5cdd4b3d7f31aeb9c346275f6/cc_py_commons-0.4.1.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [sibila]: Downloading https://files.pythonhosted.org/packages/fa/02/26f632e75403cfe3fd104e891905867b6247008dae6e71107343e90ce2a4/sibila-0.4.2.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [moneyonchain-prices-source]: Downloading https://files.pythonhosted.org/packages/f0/ba/4308bd4ac652a478e3567bbdb612358980cffa2567c9d6bacdc3c5ef6e66/moneyonchain_prices_source-0.7.0b2.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/3d/7c/ba030bd433528bf948c4e15e9da02f73374bdc9057c33d077c636d448b54/superblocks-types-0.0.5.tar.gz
+[2024-05-13 17:05:00] INFO root fetch - processPackages [exponentation]: Downloading https://files.pythonhosted.org/packages/b8/6c/98d9be7e5ff905351a0abaeab76898a3d91d60094c0c52ec5cea59cb605a/exponentation-0.0.7.tar.gz
+[2024-05-13 17:05:01] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.4.tar.gz tmp/superblocks-types-0.0.5.tar.gz --markdown 20240513/s/superblocks-types/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [exponentation]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [exponentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exponentation-0.0.6.tar.gz tmp/exponentation-0.0.7.tar.gz --markdown 20240513/e/exponentation/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [takion-api]: Downloading https://files.pythonhosted.org/packages/7e/a7/f3ecbd52e1b78010f6b84210b653f5cc5868b38afb2be6890ecc3feef15d/takion_api-0.1.41.tar.gz
+[2024-05-13 17:05:01] INFO root fetch - processPackages [moneyonchain-prices-source]: Downloading https://files.pythonhosted.org/packages/13/e6/c92c4ae9032461d90dc498b6d38b3a978ae9192ba7a04d0392727d5d114c/moneyonchain_prices_source-0.7.0b3.tar.gz
+[2024-05-13 17:05:01] INFO root fetch - processPackages [sibila]: Downloading https://files.pythonhosted.org/packages/19/92/77c8de116f9708d9377ab1d2ee148c91abc22501c0b5cce87b8fa314bcbd/sibila-0.4.3.tar.gz
+[2024-05-13 17:05:01] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/e9/3a/df50913fe2b6092d5d18a77f1b196fd2a1e9c8f14216c724d0def1b973e8/cc_py_commons-0.4.2.tar.gz
+[2024-05-13 17:05:01] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-05-13 17:05:01] INFO root fetch - processPackages [takion-api]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [takion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/takion_api-0.1.32.tar.gz tmp/takion_api-0.1.41.tar.gz --markdown 20240513/t/takion-api/0.1.32-0.1.41/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [moneyonchain-prices-source]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [moneyonchain-prices-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneyonchain_prices_source-0.7.0b2.tar.gz tmp/moneyonchain_prices_source-0.7.0b3.tar.gz --markdown 20240513/m/moneyonchain-prices-source/0.7.0b2-0.7.0b3/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/3a/a1/716f6b29a1371e0e662d6a06e60a314276283acae5e30b79bec567dbae0a/laboneq-2.9.0-py3-none-any.whl
+[2024-05-13 17:05:01] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.4.1.tar.gz tmp/cc_py_commons-0.4.2.tar.gz --markdown 20240513/c/cc-py-commons/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [sibila]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [sibila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sibila-0.4.2.tar.gz tmp/sibila-0.4.3.tar.gz --markdown 20240513/s/sibila/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240513/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2024-05-13 17:05:01] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.8.0-py3-none-any.whl.zip tmp/laboneq-2.9.0-py3-none-any.whl.zip --markdown 20240513/l/laboneq/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-13 17:05:01] INFO root fetch - processPackages [exponentation]: Remove: archive file [/home/abi/fetcher/tmp/exponentation-0.0.6.tar.gz]
+[2024-05-13 17:05:01] INFO root fetch - processPackages [exponentation]: Remove: archive file [/home/abi/fetcher/tmp/exponentation-0.0.7.tar.gz]
+[2024-05-13 17:05:01] INFO root fetch - main [MainThread]: End processing [exponentation]: success
+[2024-05-13 17:05:02] INFO root fetch - processPackages [takion-api]: Remove: archive file [/home/abi/fetcher/tmp/takion_api-0.1.32.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - processPackages [takion-api]: Remove: archive file [/home/abi/fetcher/tmp/takion_api-0.1.41.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - main [MainThread]: End processing [takion-api]: success
+[2024-05-13 17:05:02] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.4.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.5.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-13 17:05:02] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.4.1.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.4.2.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2024-05-13 17:05:02] INFO root fetch - processPackages [moneyonchain-prices-source]: Remove: archive file [/home/abi/fetcher/tmp/moneyonchain_prices_source-0.7.0b2.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - processPackages [moneyonchain-prices-source]: Remove: archive file [/home/abi/fetcher/tmp/moneyonchain_prices_source-0.7.0b3.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - main [MainThread]: End processing [moneyonchain-prices-source]: success
+[2024-05-13 17:05:02] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-05-13 17:05:02] INFO root fetch - processPackages [sibila]: Remove: archive file [/home/abi/fetcher/tmp/sibila-0.4.2.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - processPackages [sibila]: Remove: archive file [/home/abi/fetcher/tmp/sibila-0.4.3.tar.gz]
+[2024-05-13 17:05:02] INFO root fetch - main [MainThread]: End processing [sibila]: success
+[2024-05-13 17:05:04] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.8.0-py3-none-any.whl.zip]
+[2024-05-13 17:05:04] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
+[2024-05-13 17:05:04] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2024-05-13 17:05:04] INFO root fetch - main [MainThread]: Store serial: [23185430]
