@@ -24223,3 +24223,78 @@ EOFError: EOF read where object expected
 [2024-05-13 17:12:11] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.938.tar.gz]
 [2024-05-13 17:12:11] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
 [2024-05-13 17:12:11] INFO root fetch - main [MainThread]: Store serial: [23185518]
+[2024-05-13 17:14:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185518]
+[2024-05-13 17:14:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thermaesthesiaz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pioreactor
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lastmile-eval
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lions
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygameextra
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-api
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vbimagetotext
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mujoco_robot_environments
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glean-parser
+[2024-05-13 17:14:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datasalad
+[2024-05-13 17:14:21] WARNING root fetch - processPackages [thermaesthesiaz]: Skipping, unable to determine old version
+[2024-05-13 17:14:21] INFO root fetch - main [MainThread]: End processing [thermaesthesiaz] error
+[2024-05-13 17:14:21] INFO root fetch - processPackages [lions]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 17:14:21] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 17:14:21] INFO root fetch - processPackages [pioreactor]: New version: [24.5.1rc0] Old Version: [24.5.13rc0]
+[2024-05-13 17:14:21] INFO root fetch - processPackages [pygameextra]: New version: [2.0.0rc1] Old Version: [2.0.0b9]
+[2024-05-13 17:14:21] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-13 17:14:21] WARNING root fetch - processPackages [mujoco_robot_environments]: Skipping, unable to determine old version
+[2024-05-13 17:14:21] INFO root fetch - main [MainThread]: End processing [mujoco_robot_environments] error
+[2024-05-13 17:14:21] WARNING root fetch - processPackages [datasalad]: Skipping, unable to determine old version
+[2024-05-13 17:14:21] INFO root fetch - main [MainThread]: End processing [datasalad] error
+[2024-05-13 17:14:21] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 17:14:21] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/e0/19/43be398cba6fd8009c8c38f553d551eabc682bdd438cfbdcdf030b23f4b1/lions-1.0.8.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [glean-parser]: New version: [9.0.0] Old Version: [8.1.1]
+[2024-05-13 17:14:21] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/d9/91/08f2fb9299be803fdac9e14ca6c1bb588047c9d8d20f8321b52e09577194/pioreactor-24.5.13rc0-py3-none-any.whl
+[2024-05-13 17:14:21] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/15/cb/24a5d9be0275983b579bf12118e5e33ef9078ad6bbf622a6335e2f1afdb4/pygameextra-2.0.0b9.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/12/73/a66d7396f529d8ea49b0d17a92608eec6469401227a7b64df6dbd1cedb9d/glean_parser-8.1.1.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/4c/02/62d33ffd523fa7bca46eff8b72f37baf11ed72607d9ffee25160189f92d3/lions-1.0.9.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/2b/a7/fac6c4d7d9b52934a787a48365b843d0cd5354fdf2af0bc5e0c5d843bb55/pygameextra-2.0.0rc1.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/c9/2b/8342138ccc27aead088b08bb5f7071f8b243d21fd8b1360506474c73ee1f/pioreactor-24.5.1rc0-py3-none-any.whl
+[2024-05-13 17:14:21] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-13 17:14:21] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-13 17:14:21] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240513/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.8.tar.gz tmp/lions-1.0.9.tar.gz --markdown 20240513/l/lions/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [pygameextra]: executing diffoscope
+[2024-05-13 17:14:22] INFO root fetch - processPackages [pygameextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameextra-2.0.0b9.tar.gz tmp/pygameextra-2.0.0rc1.tar.gz --markdown 20240513/p/pygameextra/2.0.0b9-2.0.0rc1/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [pioreactor]: executing diffoscope
+[2024-05-13 17:14:22] INFO root fetch - processPackages [pioreactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor-24.5.13rc0-py3-none-any.whl.zip tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip --markdown 20240513/p/pioreactor/24.5.13rc0-24.5.1rc0/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-13 17:14:22] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240513/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-13 17:14:22] INFO root fetch - processPackages [glean-parser]: Downloading https://files.pythonhosted.org/packages/95/14/cc81d8f4d7bed3cbcaa2ed659b61be842f1a4f85762ce187e6281026007f/glean_parser-9.0.0.tar.gz
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240513/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [glean-parser]: executing diffoscope
+[2024-05-13 17:14:22] INFO root fetch - processPackages [glean-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean_parser-8.1.1.tar.gz tmp/glean_parser-9.0.0.tar.gz --markdown 20240513/g/glean-parser/8.1.1-9.0.0/README.md --exclude *.pyd
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.8.tar.gz]
+[2024-05-13 17:14:22] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.9.tar.gz]
+[2024-05-13 17:14:22] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 17:14:22] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-13 17:14:22] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-13 17:14:22] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-13 17:14:23] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b9.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0rc1.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
+[2024-05-13 17:14:23] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-13 17:14:23] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.13rc0-py3-none-any.whl.zip]
+[2024-05-13 17:14:23] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip]
+[2024-05-13 17:14:23] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
+[2024-05-13 17:14:23] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-13 17:14:23] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-8.1.1.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-9.0.0.tar.gz]
+[2024-05-13 17:14:23] INFO root fetch - main [MainThread]: End processing [glean-parser]: success
+[2024-05-13 17:14:23] INFO root fetch - main [MainThread]: Store serial: [23185548]
