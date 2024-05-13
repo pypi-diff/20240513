@@ -18772,3 +18772,91 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:29:41] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.24.tar.gz]
 [2024-05-13 14:29:41] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
 [2024-05-13 14:29:41] INFO root fetch - main [MainThread]: Store serial: [23182888]
+[2024-05-13 14:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182888]
+[2024-05-13 14:32:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inveniordm-py
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-imagemask
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ert
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: musical_games
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sd-prompt-reader
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aopp-deconv-tool
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FlowVisor
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-openeo
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geneea-nlp-client
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aopp-deconv-tool
+[2024-05-13 14:32:02] INFO root fetch - processPackages [FlowVisor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [musical_games]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:32:02] WARNING root fetch - processPackages [gradio-imagemask]: Skipping, unable to determine old version
+[2024-05-13 14:32:02] INFO root fetch - processPackages [gradio-imagemask]: Start processing: django-outlook-email-backend
+[2024-05-13 14:32:02] INFO root fetch - main [MainThread]: End processing [gradio-imagemask] error
+[2024-05-13 14:32:02] INFO root fetch - processPackages [sd-prompt-reader]: New version: [1.3.5b2] Old Version: [1.3.5b1.dev1]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-13 14:32:02] WARNING root fetch - processPackages [inveniordm-py]: Skipping, unable to determine old version
+[2024-05-13 14:32:02] INFO root fetch - main [MainThread]: End processing [inveniordm-py] error
+[2024-05-13 14:32:02] INFO root fetch - processPackages [geneea-nlp-client]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [django-outlook-email-backend]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/23/f0/c6c09664e3d90b049a3da1d69de19b44e4cfc74922af83b039c086e7791a/FlowVisor-0.1.8.tar.gz
+[2024-05-13 14:32:02] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-13 14:32:02] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/cc/68/e05606d95dcbda89b955b5918e4f656c47aa648de0c8bf25eba2e8eaa91d/musical_games-0.8.6.tar.gz
+[2024-05-13 14:32:02] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 14:32:02] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 14:32:02] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/7b/c1/5de9f321b3c6c4e9f97fd2d7832fa0f4aad2322a8d758676f30493c0b8a9/django_outlook_email_backend-1.0.1.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [sd-prompt-reader]: Downloading https://files.pythonhosted.org/packages/0f/e4/46842659f804d7f651a6568b3e6568486fb347e993c8228856506e8ff4cd/sd_prompt_reader-1.3.5b1.dev1.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bc/b3/92d676dd412cc812afbe0edc4e4cf46fe3baf4fa9f672f24004cd8043f61/eodc_faas_openeo-2024.5.6.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [geneea-nlp-client]: Downloading https://files.pythonhosted.org/packages/ca/e0/d7b1c36db1ec1fbb4e0e1d29a79accdb4ead941338a2f13d8705d6aeb203/geneea-nlp-client-1.5.0.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 14:32:03] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/95/1e/550112240ed35286fbfdc7393941a0f045c27ac22feeab94edcd21c6bc6c/musical_games-0.8.7.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/e8/64/f49611e4ddb2a96e942eaa5fc67a26416c7d2686825a7011027b90ed2495/FlowVisor-0.1.9.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [django-outlook-email-backend]: Downloading https://files.pythonhosted.org/packages/6f/9a/164121c999876938cb1b04afaeabfc7ab9c766897e774a8b0bdbda76fff6/django_outlook_email_backend-1.1.1.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [musical_games]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [musical_games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musical_games-0.8.6.tar.gz tmp/musical_games-0.8.7.tar.gz --markdown 20240513/m/musical_games/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.1.8.tar.gz tmp/FlowVisor-0.1.9.tar.gz --markdown 20240513/F/FlowVisor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [django-outlook-email-backend]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [django-outlook-email-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_outlook_email_backend-1.0.1.tar.gz tmp/django_outlook_email_backend-1.1.1.tar.gz --markdown 20240513/d/django-outlook-email-backend/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/3c/42/2ec0b807e93ae5c89dc6206737535b34e664da8fa03e50b67da3be49b52b/eodc_faas_openeo-2024.5.7.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [geneea-nlp-client]: Downloading https://files.pythonhosted.org/packages/0f/3c/6a4f9ee6d2a80618d5fab1396266def26dbba0a55ee9845ac5fc8dcc5771/geneea-nlp-client-1.5.1.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [sd-prompt-reader]: Downloading https://files.pythonhosted.org/packages/bc/cb/99dbf0de3a8c83e8c3318a5a671566363a450a638bc114aa71ca0fd25298/sd_prompt_reader-1.3.5b2.tar.gz
+[2024-05-13 14:32:03] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.6.tar.gz tmp/eodc_faas_openeo-2024.5.7.tar.gz --markdown 20240513/e/eodc-faas-openeo/2024.5.6-2024.5.7/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [geneea-nlp-client]: executing diffoscope
+[2024-05-13 14:32:03] INFO root fetch - processPackages [geneea-nlp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneea-nlp-client-1.5.0.tar.gz tmp/geneea-nlp-client-1.5.1.tar.gz --markdown 20240513/g/geneea-nlp-client/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-13 14:32:03] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 14:32:04] INFO root fetch - processPackages [sd-prompt-reader]: executing diffoscope
+[2024-05-13 14:32:04] INFO root fetch - processPackages [sd-prompt-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd_prompt_reader-1.3.5b1.dev1.tar.gz tmp/sd_prompt_reader-1.3.5b2.tar.gz --markdown 20240513/s/sd-prompt-reader/1.3.5b1.dev1-1.3.5b2/README.md --exclude *.pyd
+[2024-05-13 14:32:04] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-13 14:32:04] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-13 14:32:04] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.0.1.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - processPackages [django-outlook-email-backend]: Remove: archive file [/home/abi/fetcher/tmp/django_outlook_email_backend-1.1.1.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [django-outlook-email-backend]: success
+[2024-05-13 14:32:04] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.6.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.7.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-13 14:32:04] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.8.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.9.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-05-13 14:32:04] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 14:32:04] INFO root fetch - processPackages [geneea-nlp-client]: Remove: archive file [/home/abi/fetcher/tmp/geneea-nlp-client-1.5.0.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - processPackages [geneea-nlp-client]: Remove: archive file [/home/abi/fetcher/tmp/geneea-nlp-client-1.5.1.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [geneea-nlp-client]: success
+[2024-05-13 14:32:04] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.6.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.7.tar.gz]
+[2024-05-13 14:32:04] INFO root fetch - main [MainThread]: End processing [musical_games]: success
+[2024-05-13 14:32:05] INFO root fetch - processPackages [sd-prompt-reader]: Remove: archive file [/home/abi/fetcher/tmp/sd_prompt_reader-1.3.5b1.dev1.tar.gz]
+[2024-05-13 14:32:05] INFO root fetch - processPackages [sd-prompt-reader]: Remove: archive file [/home/abi/fetcher/tmp/sd_prompt_reader-1.3.5b2.tar.gz]
+[2024-05-13 14:32:05] INFO root fetch - main [MainThread]: End processing [sd-prompt-reader]: success
+[2024-05-13 14:32:09] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 14:32:09] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 14:32:09] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-13 14:32:09] INFO root fetch - main [MainThread]: Store serial: [23182935]
