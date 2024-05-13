@@ -19148,3 +19148,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:41:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2024-05-13 14:41:12] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2024-05-13 14:41:12] INFO root fetch - main [MainThread]: Store serial: [23183080]
+[2024-05-13 14:43:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183080]
+[2024-05-13 14:43:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-portfolio-index
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-aws-iot-thing-certificate-policy
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotmodels
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WangLab
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rustfrecord
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mm-sdk
+[2024-05-13 14:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nashypy
+[2024-05-13 14:43:21] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240512] Old Version: [2.5.0b20240511]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.379] Old Version: [0.1.378]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/84/9d/10dd451d01a2be5c47c3386402ef446fef152baeccc59ef40a75c30fd411/bigdl_llm-2.5.0b20240511-py3-none-win_amd64.whl
+[2024-05-13 14:43:21] INFO root fetch - processPackages [robotmodels]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [nashypy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [WangLab]: New version: [1.0.0b0] Old Version: [0.1.1]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [rustfrecord]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/87/4b/470bcf9cb4658dfe199540ec9df2fdfd9368027fbcab10c8b12d00f00fde/mm_sdk-0.1.378.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 14:43:21] INFO root fetch - processPackages [robotmodels]: Downloading https://files.pythonhosted.org/packages/d1/8f/686137aaf78e63ddb345440babdd6f1216d968803b1dd94c462240b60df2/robotmodels-0.1.6.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [rustfrecord]: Downloading https://files.pythonhosted.org/packages/41/54/cb6c2cecfa623af3dfd18ecc7dbdd08c37b7d3c1c24f238df53beb1dd9df/rustfrecord-0.1.5.tar.gz
+[2024-05-13 14:43:21] WARNING root fetch - processPackages [robotmodels]: Skipping package: exceeds size limit 45868495>=10485760
+[2024-05-13 14:43:21] INFO root fetch - main [MainThread]: End processing [robotmodels] error
+[2024-05-13 14:43:21] INFO root fetch - processPackages [WangLab]: Downloading https://files.pythonhosted.org/packages/05/62/a4266f6cdef6e012bea314c5aefa19e4a29118b872040bf4bba7959e7b99/WangLab-0.1.1.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: Downloading https://files.pythonhosted.org/packages/85/59/5794e8aa38ca2bc759e75e998cde55a4abf7a9db83ec7e6f7be7444ada56/cdklabs.cdk-aws-iot-thing-certificate-policy-0.0.1.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [nashypy]: Downloading https://files.pythonhosted.org/packages/4a/0a/128f6f372461258d3c1d791fe4a65ad1035785d5a6984c62c4a61cfddb2e/nashypy-0.0.1.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/fd/b6/c783021e823808cfcc36125da1d2d2d81cceedab241a499b7a8a43a21d92/mm_sdk-0.1.379.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2024-05-13 14:43:21] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.378.tar.gz tmp/mm_sdk-0.1.379.tar.gz --markdown 20240513/m/mm-sdk/0.1.378-0.1.379/README.md --exclude *.pyd
+[2024-05-13 14:43:21] INFO root fetch - processPackages [WangLab]: Downloading https://files.pythonhosted.org/packages/bc/92/d2790ac1164154f9ac597d946ab1dc4c6a1f6ddd34883fe8048105fe5c62/WangLab-1.0.0b0.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [nashypy]: Downloading https://files.pythonhosted.org/packages/34/2c/64e9ce88eee61b762d1090735238b383ee7fd3aa876390af1f6b4956243b/nashypy-0.0.2.tar.gz
+[2024-05-13 14:43:21] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/99/61/b47dd1fed23cf99953a9e6641a4d77e91924566da9aa2fffa9dd2c5c239b/bigdl_llm-2.5.0b20240512-py3-none-win_amd64.whl
+[2024-05-13 14:43:21] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/35/d9/e930790cd08eb7aba472719eb95421a6b5ed634f852f1eb262a0430147f6/py-portfolio-index-0.0.9.tar.gz
+[2024-05-13 14:43:22] INFO root fetch - processPackages [rustfrecord]: Downloading https://files.pythonhosted.org/packages/64/dc/d1eb37cff911709b9d57da592a9631b3ef29fa32bcefe78ab5729d66179a/rustfrecord-0.1.7.tar.gz
+[2024-05-13 14:43:22] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: Downloading https://files.pythonhosted.org/packages/7d/e8/1ca3fa60d6f484f7d74e9777416434bf7b84663ad5a2fd7ed001788d0d38/cdklabs.cdk-aws-iot-thing-certificate-policy-0.0.2.tar.gz
+[2024-05-13 14:43:22] INFO root fetch - processPackages [WangLab]: executing diffoscope
+[2024-05-13 14:43:22] INFO root fetch - processPackages [WangLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WangLab-0.1.1.tar.gz tmp/WangLab-1.0.0b0.tar.gz --markdown 20240513/W/WangLab/0.1.1-1.0.0b0/README.md --exclude *.pyd
+[2024-05-13 14:43:22] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2024-05-13 14:43:22] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.8.tar.gz tmp/py-portfolio-index-0.0.9.tar.gz --markdown 20240513/p/py-portfolio-index/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 14:43:22] INFO root fetch - processPackages [nashypy]: executing diffoscope
+[2024-05-13 14:43:22] INFO root fetch - processPackages [nashypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashypy-0.0.1.tar.gz tmp/nashypy-0.0.2.tar.gz --markdown 20240513/n/nashypy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 14:43:22] INFO root fetch - processPackages [rustfrecord]: executing diffoscope
+[2024-05-13 14:43:22] INFO root fetch - processPackages [rustfrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustfrecord-0.1.5.tar.gz tmp/rustfrecord-0.1.7.tar.gz --markdown 20240513/r/rustfrecord/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-13 14:43:22] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: executing diffoscope
+[2024-05-13 14:43:22] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-aws-iot-thing-certificate-policy-0.0.1.tar.gz tmp/cdklabs.cdk-aws-iot-thing-certificate-policy-0.0.2.tar.gz --markdown 20240513/c/cdklabs.cdk-aws-iot-thing-certificate-policy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 14:43:22] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-13 14:43:22] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240511-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240512-py3-none-win_amd64.whl.zip --markdown 20240513/b/bigdl-llm/2.5.0b20240511-2.5.0b20240512/README.md --exclude *.pyd
+[2024-05-13 14:43:22] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.378.tar.gz]
+[2024-05-13 14:43:22] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.379.tar.gz]
+[2024-05-13 14:43:22] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2024-05-13 14:43:22] INFO root fetch - processPackages [nashypy]: Remove: archive file [/home/abi/fetcher/tmp/nashypy-0.0.1.tar.gz]
+[2024-05-13 14:43:22] INFO root fetch - processPackages [nashypy]: Remove: archive file [/home/abi/fetcher/tmp/nashypy-0.0.2.tar.gz]
+[2024-05-13 14:43:22] INFO root fetch - main [MainThread]: End processing [nashypy]: success
+[2024-05-13 14:43:23] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.5.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.7.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - main [MainThread]: End processing [rustfrecord]: success
+[2024-05-13 14:43:23] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2024-05-13 14:43:23] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-aws-iot-thing-certificate-policy-0.0.1.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - processPackages [cdklabs.cdk-aws-iot-thing-certificate-policy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-aws-iot-thing-certificate-policy-0.0.2.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-aws-iot-thing-certificate-policy]: success
+[2024-05-13 14:43:23] INFO root fetch - processPackages [WangLab]: Remove: archive file [/home/abi/fetcher/tmp/WangLab-0.1.1.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - processPackages [WangLab]: Remove: archive file [/home/abi/fetcher/tmp/WangLab-1.0.0b0.tar.gz]
+[2024-05-13 14:43:23] INFO root fetch - main [MainThread]: End processing [WangLab]: success
+[2024-05-13 14:43:23] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240511-py3-none-win_amd64.whl.zip]
+[2024-05-13 14:43:23] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240512-py3-none-win_amd64.whl.zip]
+[2024-05-13 14:43:23] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-13 14:43:23] INFO root fetch - main [MainThread]: Store serial: [23183104]
