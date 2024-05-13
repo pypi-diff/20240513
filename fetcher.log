@@ -3818,3 +3818,45 @@
 [2024-05-13 04:54:54] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-95.tar.gz]
 [2024-05-13 04:54:54] INFO root fetch - main [MainThread]: End processing [sbn]: success
 [2024-05-13 04:54:54] INFO root fetch - main [MainThread]: Store serial: [23176132]
+[2024-05-13 04:56:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176132]
+[2024-05-13 04:57:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 04:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cellarlessz
+[2024-05-13 04:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardex
+[2024-05-13 04:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-restit
+[2024-05-13 04:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-portal-account-personal-data-only
+[2024-05-13 04:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-partner-invoicing-mode-monthly
+[2024-05-13 04:57:03] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-13 04:57:03] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.80]
+[2024-05-13 04:57:03] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-13 04:57:03] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-13 04:57:03] WARNING root fetch - processPackages [cellarlessz]: Skipping, unable to determine old version
+[2024-05-13 04:57:03] INFO root fetch - main [MainThread]: End processing [cellarlessz] error
+[2024-05-13 04:57:03] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: New version: [16.0.2.0.0.3] Old Version: [16.0.2.0.0.2]
+[2024-05-13 04:57:03] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/ba/20/08db431576ff1c6f994a905457c02c5688439a4416ca8c34eb2eea43fd65/django_restit-4.2.80.tar.gz
+[2024-05-13 04:57:03] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: Downloading https://files.pythonhosted.org/packages/c7/c8/e12771a75c52ca449084944843ad8fb78874cc6fb75420dd4964850e5541/odoo_addon_portal_account_personal_data_only-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 04:57:03] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-13 04:57:03] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Downloading https://files.pythonhosted.org/packages/06/b3/e6db30f7958b2fe7ab20c45c75a41d6d5ebcbecc9e8ebec520e07df52468/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0.2-py3-none-any.whl
+[2024-05-13 04:57:03] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-13 04:57:03] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240513/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-13 04:57:03] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Downloading https://files.pythonhosted.org/packages/bc/51/8677b19c48f80213b12fc9376e7696d66e75eb40b48d5b630c803597c6de/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0.3-py3-none-any.whl
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: Downloading https://files.pythonhosted.org/packages/ab/1e/616e9f80409071962422c9592ed0a6de4d7715fccdae42a92944bf5866f4/odoo_addon_portal_account_personal_data_only-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-13 04:57:04] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-13 04:57:04] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.80.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240513/d/django-restit/4.2.80-4.2.9/README.md --exclude *.pyd
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: executing diffoscope
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-partner-invoicing-mode-monthly/16.0.2.0.0.2-16.0.2.0.0.3/README.md --exclude *.pyd
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: executing diffoscope
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_portal_account_personal_data_only-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_portal_account_personal_data_only-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-portal-account-personal-data-only/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-13 04:57:04] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-13 04:57:04] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-13 04:57:04] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_portal_account_personal_data_only-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-portal-account-personal-data-only]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_portal_account_personal_data_only-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-13 04:57:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-portal-account-personal-data-only]: success
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 04:57:04] INFO root fetch - processPackages [odoo-addon-partner-invoicing-mode-monthly]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_invoicing_mode_monthly-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2024-05-13 04:57:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-invoicing-mode-monthly]: success
+[2024-05-13 04:57:06] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.80.tar.gz]
+[2024-05-13 04:57:06] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-13 04:57:06] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-13 04:57:06] INFO root fetch - main [MainThread]: Store serial: [23176147]
