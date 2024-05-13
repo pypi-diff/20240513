@@ -5877,3 +5877,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:34:42] INFO root fetch - processPackages [tencentcloud-sdk-python-cdn]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdn-3.0.999.tar.gz]
 [2024-05-13 06:34:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdn]: success
 [2024-05-13 06:34:42] INFO root fetch - main [MainThread]: Store serial: [23177044]
+[2024-05-13 06:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23177044]
+[2024-05-13 06:36:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: patcherex2-decompiler-plugins
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profile-reaction-local
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unscholarlyz
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-cdwdoris
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-ait
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qdetective
+[2024-05-13 06:36:50] WARNING root fetch - processPackages [patcherex2-decompiler-plugins]: Skipping, unable to determine old version
+[2024-05-13 06:36:50] INFO root fetch - main [MainThread]: End processing [patcherex2-decompiler-plugins] error
+[2024-05-13 06:36:50] INFO root fetch - processPackages [ms-ait]: New version: [7.0.0rc2] Old Version: [7.0.0b430]
+[2024-05-13 06:36:50] INFO root fetch - processPackages [profile-reaction-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 06:36:50] WARNING root fetch - processPackages [unscholarlyz]: Skipping, unable to determine old version
+[2024-05-13 06:36:50] INFO root fetch - main [MainThread]: End processing [unscholarlyz] error
+[2024-05-13 06:36:50] INFO root fetch - processPackages [qdetective]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 06:36:50] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: New version: [3.0.1144] Old Version: [3.0.1143]
+[2024-05-13 06:36:51] INFO root fetch - processPackages [ms-ait]: Downloading https://files.pythonhosted.org/packages/e2/bd/bf467512e8cad1d25feb1606c3f87df63b7d4cc72779afa52113f558fc08/ms-ait-7.0.0b430.zip
+[2024-05-13 06:36:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Downloading https://files.pythonhosted.org/packages/72/d1/1f6a2e3a82094a2c325ee906b953b30005a3de71e469e1494faba9fe274f/tencentcloud-sdk-python-cdwdoris-3.0.1143.tar.gz
+[2024-05-13 06:36:51] INFO root fetch - processPackages [qdetective]: Downloading https://files.pythonhosted.org/packages/91/45/2ce543510f75a7b2aa8df4a31d721b1ed77ed4f79d00538a4514714fb6f6/qdetective-0.1.2.tar.gz
+[2024-05-13 06:36:51] INFO root fetch - processPackages [profile-reaction-local]: Downloading https://files.pythonhosted.org/packages/e7/03/e873145a0dd032cb116ba8e1bb51338942a46340367d018ee2f194742dae/profile-reaction-local-0.0.8.tar.gz
+[2024-05-13 06:36:51] INFO root fetch - processPackages [qdetective]: Downloading https://files.pythonhosted.org/packages/45/cc/1c70560540951903ed84f422f5fddd1d576339f0ce86b2317ede9139a476/qdetective-0.1.3.tar.gz
+[2024-05-13 06:36:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Downloading https://files.pythonhosted.org/packages/a3/94/8576cb7eba412771e9bf097052148d31cddd0a06e00f25f4f8b7a8cf7662/tencentcloud-sdk-python-cdwdoris-3.0.1144.tar.gz
+[2024-05-13 06:36:51] INFO root fetch - processPackages [ms-ait]: Downloading https://files.pythonhosted.org/packages/21/b8/c2c8f28f032f74581208cb0d5f2376829f405a5dffa602a63bd9d1c8427a/ms-ait-7.0.0rc2.zip
+[2024-05-13 06:36:51] INFO root fetch - processPackages [profile-reaction-local]: Downloading https://files.pythonhosted.org/packages/83/d2/fefa1caae8b1b1d352d7e8731ec030193d6037c915fd35a613dae61bce3f/profile-reaction-local-0.0.9.tar.gz
+[2024-05-13 06:36:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: executing diffoscope
+[2024-05-13 06:36:51] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cdwdoris-3.0.1143.tar.gz tmp/tencentcloud-sdk-python-cdwdoris-3.0.1144.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-cdwdoris/3.0.1143-3.0.1144/README.md --exclude *.pyd
+[2024-05-13 06:36:51] INFO root fetch - processPackages [qdetective]: executing diffoscope
+[2024-05-13 06:36:51] INFO root fetch - processPackages [qdetective]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdetective-0.1.2.tar.gz tmp/qdetective-0.1.3.tar.gz --markdown 20240513/q/qdetective/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 06:36:51] INFO root fetch - processPackages [ms-ait]: executing diffoscope
+[2024-05-13 06:36:51] INFO root fetch - processPackages [ms-ait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-ait-7.0.0b430.zip tmp/ms-ait-7.0.0rc2.zip --markdown 20240513/m/ms-ait/7.0.0b430-7.0.0rc2/README.md --exclude *.pyd
+[2024-05-13 06:36:51] INFO root fetch - processPackages [profile-reaction-local]: executing diffoscope
+[2024-05-13 06:36:51] INFO root fetch - processPackages [profile-reaction-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-reaction-local-0.0.8.tar.gz tmp/profile-reaction-local-0.0.9.tar.gz --markdown 20240513/p/profile-reaction-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 06:36:52] INFO root fetch - processPackages [qdetective]: Remove: archive file [/home/abi/fetcher/tmp/qdetective-0.1.2.tar.gz]
+[2024-05-13 06:36:52] INFO root fetch - processPackages [qdetective]: Remove: archive file [/home/abi/fetcher/tmp/qdetective-0.1.3.tar.gz]
+[2024-05-13 06:36:52] INFO root fetch - main [MainThread]: End processing [qdetective]: success
+[2024-05-13 06:36:52] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdwdoris-3.0.1143.tar.gz]
+[2024-05-13 06:36:52] INFO root fetch - processPackages [tencentcloud-sdk-python-cdwdoris]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cdwdoris-3.0.1144.tar.gz]
+[2024-05-13 06:36:52] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cdwdoris]: success
+[2024-05-13 06:36:52] INFO root fetch - processPackages [profile-reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-reaction-local-0.0.8.tar.gz]
+[2024-05-13 06:36:52] INFO root fetch - processPackages [profile-reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-reaction-local-0.0.9.tar.gz]
+[2024-05-13 06:36:52] INFO root fetch - main [MainThread]: End processing [profile-reaction-local]: success
+[2024-05-13 06:36:53] INFO root fetch - processPackages [ms-ait]: Remove: archive file [/home/abi/fetcher/tmp/ms-ait-7.0.0b430.zip]
+[2024-05-13 06:36:53] INFO root fetch - processPackages [ms-ait]: Remove: archive file [/home/abi/fetcher/tmp/ms-ait-7.0.0rc2.zip]
+[2024-05-13 06:36:53] INFO root fetch - main [MainThread]: End processing [ms-ait]: success
+[2024-05-13 06:36:53] INFO root fetch - main [MainThread]: Store serial: [23177064]
