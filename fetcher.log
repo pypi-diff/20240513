@@ -15692,3 +15692,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:45:59] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.3.tar.gz]
 [2024-05-13 12:45:59] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-05-13 12:45:59] INFO root fetch - main [MainThread]: Store serial: [23181674]
+[2024-05-13 12:48:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181674]
+[2024-05-13 12:48:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantumvista
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ufo2ft
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loongtutwo
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edcpy
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smadi
+[2024-05-13 12:48:08] WARNING root fetch - processPackages [quantumvista]: Skipping, unable to determine old version
+[2024-05-13 12:48:08] INFO root fetch - main [MainThread]: End processing [quantumvista] error
+[2024-05-13 12:48:08] WARNING root fetch - processPackages [loongtutwo]: Skipping, unable to determine old version
+[2024-05-13 12:48:08] INFO root fetch - main [MainThread]: End processing [loongtutwo] error
+[2024-05-13 12:48:08] INFO root fetch - processPackages [smadi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 12:48:08] INFO root fetch - processPackages [edcpy]: New version: [0.4.0a0] Old Version: [0.3.0a0]
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ufo2ft]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-05-13 12:48:08] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/20/1a/19ed5958c2268cdd1f0700354c94f37d5d7db239929c0794e4ab7ca88f49/edcpy-0.3.0a0.tar.gz
+[2024-05-13 12:48:08] INFO root fetch - processPackages [ufo2ft]: Downloading https://files.pythonhosted.org/packages/00/4d/94f4925bc9a783ff5f16be6152162312c7ac4475748bb2aa3564ea368e01/ufo2ft-3.2.1.tar.gz
+[2024-05-13 12:48:08] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/f8/fd/8ff4b9e3a222506140cb3f11f392bae3541f9c797f82fa3aec691b6e7a21/smadi-1.0.0.tar.gz
+[2024-05-13 12:48:09] INFO root fetch - processPackages [edcpy]: Downloading https://files.pythonhosted.org/packages/55/f4/78e97749a62bd6966e35b95a34454d25716c1f13cd0e020d9763e7bc7069/edcpy-0.4.0a0.tar.gz
+[2024-05-13 12:48:09] INFO root fetch - processPackages [ufo2ft]: Downloading https://files.pythonhosted.org/packages/65/0d/bebbd570af115b3c6ece66eac2db833b5cf50f05e0fe55b104961d23fcb9/ufo2ft-3.2.2.tar.gz
+[2024-05-13 12:48:09] INFO root fetch - processPackages [edcpy]: executing diffoscope
+[2024-05-13 12:48:09] INFO root fetch - processPackages [edcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edcpy-0.3.0a0.tar.gz tmp/edcpy-0.4.0a0.tar.gz --markdown 20240513/e/edcpy/0.3.0a0-0.4.0a0/README.md --exclude *.pyd
+[2024-05-13 12:48:09] INFO root fetch - processPackages [ufo2ft]: executing diffoscope
+[2024-05-13 12:48:09] INFO root fetch - processPackages [ufo2ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufo2ft-3.2.1.tar.gz tmp/ufo2ft-3.2.2.tar.gz --markdown 20240513/u/ufo2ft/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-05-13 12:48:09] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/57/89/3fe49fc49a2a15d69268f9eaf7ead72c17770499bb69f99f8e8c12994c5d/smadi-1.0.1.tar.gz
+[2024-05-13 12:48:09] INFO root fetch - processPackages [smadi]: executing diffoscope
+[2024-05-13 12:48:09] INFO root fetch - processPackages [smadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smadi-1.0.0.tar.gz tmp/smadi-1.0.1.tar.gz --markdown 20240513/s/smadi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 12:48:09] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.3.0a0.tar.gz]
+[2024-05-13 12:48:09] INFO root fetch - processPackages [edcpy]: Remove: archive file [/home/abi/fetcher/tmp/edcpy-0.4.0a0.tar.gz]
+[2024-05-13 12:48:09] INFO root fetch - main [MainThread]: End processing [edcpy]: success
+[2024-05-13 12:48:10] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-1.0.0.tar.gz]
+[2024-05-13 12:48:10] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-1.0.1.tar.gz]
+[2024-05-13 12:48:10] INFO root fetch - main [MainThread]: End processing [smadi]: success
+[2024-05-13 12:48:13] INFO root fetch - processPackages [ufo2ft]: Remove: archive file [/home/abi/fetcher/tmp/ufo2ft-3.2.1.tar.gz]
+[2024-05-13 12:48:13] INFO root fetch - processPackages [ufo2ft]: Remove: archive file [/home/abi/fetcher/tmp/ufo2ft-3.2.2.tar.gz]
+[2024-05-13 12:48:13] INFO root fetch - main [MainThread]: End processing [ufo2ft]: success
+[2024-05-13 12:48:13] INFO root fetch - main [MainThread]: Store serial: [23181693]
