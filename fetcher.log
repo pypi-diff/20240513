@@ -12165,3 +12165,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:37:22] INFO root fetch - processPackages [vastdb]: Remove: archive file [/home/abi/fetcher/tmp/vastdb-0.1.4.tar.gz]
 [2024-05-13 10:37:22] INFO root fetch - main [MainThread]: End processing [vastdb]: success
 [2024-05-13 10:37:23] INFO root fetch - main [MainThread]: Store serial: [23180077]
+[2024-05-13 10:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180077]
+[2024-05-13 10:39:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaide
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qmatchatea
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molcompview
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phytolaccaz
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jeedomdaemon
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelmerge
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlrun-pipelines-kfp-common-experiment
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlrun-pipelines-kfp-v1-8-experiment
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlrun-pipelines-kfp-v2-experiment
+[2024-05-13 10:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyopentts
+[2024-05-13 10:39:32] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [zaide]: New version: [4.2] Old Version: [4.1]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [modelmerge]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [qmatchatea]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [molcompview]: New version: [0.1.5] Old Version: [0.1.1]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-13 10:39:32] WARNING root fetch - processPackages [phytolaccaz]: Skipping, unable to determine old version
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [phytolaccaz]: Start processing: rid-kit
+[2024-05-13 10:39:32] INFO root fetch - main [MainThread]: End processing [phytolaccaz] error
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [zaide]: Downloading https://files.pythonhosted.org/packages/47/18/6e0a5c005d2cc2e1337b01e445e60bee1463b0a11f21f62aecd4961e74a7/zaide-4.1.tar.gz
+[2024-05-13 10:39:32] WARNING root fetch - processPackages [pyopentts]: Skipping, unable to determine old version
+[2024-05-13 10:39:32] INFO root fetch - main [MainThread]: End processing [pyopentts] error
+[2024-05-13 10:39:32] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/9c/2e/48000fb7dde833f3997985c1069c809eb573f07c6197bbc68dfe5b725679/jeedomdaemon-0.8.8.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/ad/1e/75697a75a2357f5bd8c676f9b3f4969e94cd7c6164216645ad9823fcd2d3/modelmerge-0.3.2.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [molcompview]: Downloading https://files.pythonhosted.org/packages/44/e5/2d994d8649ad835fec2f16a1bd25109ae7d3bea02899c5e85c4e759b1dc9/molcompview-0.1.1.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [qmatchatea]: Downloading https://files.pythonhosted.org/packages/17/7a/0f82f5f863a600ced93ee9f480ed73f361919f48706ff3cf5a52fc657b2e/qmatchatea-1.1.0.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Downloading https://files.pythonhosted.org/packages/7b/92/0c39a9789d12582c229704b1029216bb08f402ff31f368e7e40aa2f3919b/mlrun_pipelines_kfp_v1_8_experiment-0.1.3-py3-none-any.whl
+[2024-05-13 10:39:32] INFO root fetch - processPackages [rid-kit]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Downloading https://files.pythonhosted.org/packages/b0/bf/8130d20da14659d24e230562d9807c3266492c27e74d0e6db2457fc33c4f/mlrun_pipelines_kfp_v2_experiment-0.1.2-py3-none-any.whl
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Downloading https://files.pythonhosted.org/packages/73/1e/9ecdabffd42b547095dd6329b358f5c88d7c5e9cc5c463861bf9591b880a/mlrun_pipelines_kfp_common_experiment-0.1.3-py3-none-any.whl
+[2024-05-13 10:39:32] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/60/cd/c3bc2ad7e24b09a0f71459a9fef1359ad007564f42b5bd30d0f8972a1f2d/jeedomdaemon-0.8.9.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [zaide]: Downloading https://files.pythonhosted.org/packages/ff/15/18d7c91a6637edd04ae3150ca2577923bbcec04423965c667fe2dfe4a17d/zaide-4.2.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/15/34/4ed83ce09801c4dd4b3005d63fef1459e1502e8d3b0c23a730d1d2b6a084/modelmerge-0.3.3.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/79/61/b9b4acfda248d7df7ecf9f9206a9b536546080939575425ff0fdf4ec4c39/rid-kit-0.6.2.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-05-13 10:39:32] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.8.8.tar.gz tmp/jeedomdaemon-0.8.9.tar.gz --markdown 20240513/j/jeedomdaemon/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-13 10:39:32] INFO root fetch - processPackages [molcompview]: Downloading https://files.pythonhosted.org/packages/9b/24/d362f736731427233c258c598fc0b5a90cc7174392275b964fae0831c1ba/molcompview-0.1.5.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [zaide]: executing diffoscope
+[2024-05-13 10:39:32] INFO root fetch - processPackages [zaide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaide-4.1.tar.gz tmp/zaide-4.2.tar.gz --markdown 20240513/z/zaide/4.1-4.2/README.md --exclude *.pyd
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Downloading https://files.pythonhosted.org/packages/27/2c/e37ab3774ba3965900b99dd103f008be471fd8bff2eca4af3081760879e4/mlrun-pipelines-kfp-v1-8-experiment-0.2.0.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-13 10:39:32] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.2.tar.gz tmp/modelmerge-0.3.3.tar.gz --markdown 20240513/m/modelmerge/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-13 10:39:32] INFO root fetch - processPackages [qmatchatea]: Downloading https://files.pythonhosted.org/packages/60/48/62f0fb4906d97a027bac7c22c09ae3d33e1f525bf2c1af5233f5ec76d0ac/qmatchatea-1.1.1.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Downloading https://files.pythonhosted.org/packages/d3/8e/9e4a65975d5cce94e57b4aa1ded76eef950d933fb6890d0124c330499014/mlrun-pipelines-kfp-common-experiment-0.2.0.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Downloading https://files.pythonhosted.org/packages/f8/7d/79ad6f4bc2dfd73bbfb1b24ea1118fff5555f2830a95d59d4e03791f7420/mlrun-pipelines-kfp-v2-experiment-0.2.0.tar.gz
+[2024-05-13 10:39:32] INFO root fetch - processPackages [molcompview]: executing diffoscope
+[2024-05-13 10:39:32] INFO root fetch - processPackages [molcompview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molcompview-0.1.1.tar.gz tmp/molcompview-0.1.5.tar.gz --markdown 20240513/m/molcompview/0.1.1-0.1.5/README.md --exclude *.pyd
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: executing diffoscope
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun_pipelines_kfp_v1_8_experiment-0.1.3-py3-none-any.whl.zip tmp/mlrun-pipelines-kfp-v1-8-experiment-0.2.0.tar.gz --markdown 20240513/m/mlrun-pipelines-kfp-v1-8-experiment/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: executing diffoscope
+[2024-05-13 10:39:32] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun_pipelines_kfp_common_experiment-0.1.3-py3-none-any.whl.zip tmp/mlrun-pipelines-kfp-common-experiment-0.2.0.tar.gz --markdown 20240513/m/mlrun-pipelines-kfp-common-experiment/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:39:33] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: executing diffoscope
+[2024-05-13 10:39:33] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun_pipelines_kfp_v2_experiment-0.1.2-py3-none-any.whl.zip tmp/mlrun-pipelines-kfp-v2-experiment-0.2.0.tar.gz --markdown 20240513/m/mlrun-pipelines-kfp-v2-experiment/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:39:33] INFO root fetch - processPackages [qmatchatea]: executing diffoscope
+[2024-05-13 10:39:33] INFO root fetch - processPackages [qmatchatea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmatchatea-1.1.0.tar.gz tmp/qmatchatea-1.1.1.tar.gz --markdown 20240513/q/qmatchatea/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 10:39:33] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/8d/50/9525de5ad9dbe082e76ff4f11c2649a150bb59fefc8b3842c84a806b9152/rid-kit-0.6.3.tar.gz
+[2024-05-13 10:39:34] INFO root fetch - processPackages [zaide]: Remove: archive file [/home/abi/fetcher/tmp/zaide-4.1.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [zaide]: Remove: archive file [/home/abi/fetcher/tmp/zaide-4.2.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [zaide]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.8.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.8.9.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2024-05-13 10:39:34] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.6.2.tar.gz tmp/rid-kit-0.6.3.tar.gz --markdown 20240513/r/rid-kit/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-13 10:39:34] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v1_8_experiment-0.1.3-py3-none-any.whl.zip]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-pipelines-kfp-v1-8-experiment-0.2.0.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v1-8-experiment]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_common_experiment-0.1.3-py3-none-any.whl.zip]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [mlrun-pipelines-kfp-common-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-pipelines-kfp-common-experiment-0.2.0.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-common-experiment]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.2.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.3.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [molcompview]: Remove: archive file [/home/abi/fetcher/tmp/molcompview-0.1.1.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [molcompview]: Remove: archive file [/home/abi/fetcher/tmp/molcompview-0.1.5.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [molcompview]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v2_experiment-0.1.2-py3-none-any.whl.zip]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-pipelines-kfp-v2-experiment-0.2.0.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v2-experiment]: success
+[2024-05-13 10:39:34] INFO root fetch - processPackages [qmatchatea]: Remove: archive file [/home/abi/fetcher/tmp/qmatchatea-1.1.0.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - processPackages [qmatchatea]: Remove: archive file [/home/abi/fetcher/tmp/qmatchatea-1.1.1.tar.gz]
+[2024-05-13 10:39:34] INFO root fetch - main [MainThread]: End processing [qmatchatea]: success
+[2024-05-13 10:39:36] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.2.tar.gz]
+[2024-05-13 10:39:36] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.3.tar.gz]
+[2024-05-13 10:39:36] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2024-05-13 10:39:36] INFO root fetch - main [MainThread]: Store serial: [23180118]
