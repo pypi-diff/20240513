@@ -4206,3 +4206,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:12:19] INFO root fetch - processPackages [naja-atra]: Remove: archive file [/home/abi/fetcher/tmp/naja_atra-1.1.1.tar.gz]
 [2024-05-13 05:12:19] INFO root fetch - main [MainThread]: End processing [naja-atra]: success
 [2024-05-13 05:12:19] INFO root fetch - main [MainThread]: Store serial: [23176281]
+[2024-05-13 05:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176281]
+[2024-05-13 05:14:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featuring-data
+[2024-05-13 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-business-requirement-crm
+[2024-05-13 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentrons-shared-data
+[2024-05-13 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: furrow1k
+[2024-05-13 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-resource-booking
+[2024-05-13 05:14:28] INFO root fetch - processPackages [odoo-addon-resource-booking]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-13 05:14:28] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2024-05-13 05:14:28] INFO root fetch - processPackages [featuring-data]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-13 05:14:28] INFO root fetch - processPackages [furrow1k]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-05-13 05:14:28] INFO root fetch - processPackages [opentrons-shared-data]: New version: [7.3.0a1] Old Version: [7.3.0a0]
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Downloading https://files.pythonhosted.org/packages/e1/b8/a233b8bf611705a63595cd3dcc96e5b7a8f225628922230b2ef53ddf84b0/odoo_addon_business_requirement_crm-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-13 05:14:29] INFO root fetch - processPackages [featuring-data]: Downloading https://files.pythonhosted.org/packages/f3/c0/06596b5413a451da1cbe8bb7f7d17580e28fe1a38cd52060dcb54906fbca/featuring_data-0.2.5.tar.gz
+[2024-05-13 05:14:29] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/2c/72/c433ce5b0c141ecb4ecf4fdaddf9a314ac1a1ebcc77b5342d13c4e8fc423/furrow1k-0.1.9.tar.gz
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/61/41/88beb08d40d9411c6f4c32b55a708946c7b443cef2a9304029d14551dca4/odoo_addon_resource_booking-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-13 05:14:29] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/47/c1/5e20740a13192160a6114486cec839c8ee388f0ee577bc7450fd6232f4a9/opentrons_shared_data-7.3.0a0.tar.gz
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Downloading https://files.pythonhosted.org/packages/95/6e/daba4daaa9b88229bfb2697c9207208beb8cfa6568ad89b0dcbacec07beb/odoo_addon_business_requirement_crm-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-13 05:14:29] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/02/f9/5661edf3d06bfdc0bc0377779eef937da31cce3d89850b6c4b0b900855f4/furrow1k-1.0.0.tar.gz
+[2024-05-13 05:14:29] INFO root fetch - processPackages [featuring-data]: Downloading https://files.pythonhosted.org/packages/c7/31/62bc5d84f61672dd25050ce3cbb4f2ab9bfb79d66d5ccb54e587fc05b122/featuring_data-0.2.6.tar.gz
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-resource-booking]: Downloading https://files.pythonhosted.org/packages/7d/96/9eddad90ad28dc64ecdc3b2e68f13e6f5c3f3797d0ec4462190e9a99b1d3/odoo_addon_resource_booking-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-13 05:14:29] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/1b/85/464158581ba22268ff738bf896bffb255456e4ff0c9c00d857c2bc2fd9b6/opentrons_shared_data-7.3.0a1.tar.gz
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: executing diffoscope
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement_crm-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_business_requirement_crm-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-business-requirement-crm/16.0.1.0.1.2-16.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-13 05:14:29] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-13 05:14:29] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.9.tar.gz tmp/furrow1k-1.0.0.tar.gz --markdown 20240513/f/furrow1k/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-05-13 05:14:29] INFO root fetch - processPackages [featuring-data]: executing diffoscope
+[2024-05-13 05:14:29] INFO root fetch - processPackages [featuring-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featuring_data-0.2.5.tar.gz tmp/featuring_data-0.2.6.tar.gz --markdown 20240513/f/featuring-data/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-resource-booking]: executing diffoscope
+[2024-05-13 05:14:29] INFO root fetch - processPackages [odoo-addon-resource-booking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_resource_booking-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_resource_booking-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-resource-booking/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-13 05:14:29] INFO root fetch - processPackages [opentrons-shared-data]: executing diffoscope
+[2024-05-13 05:14:29] INFO root fetch - processPackages [opentrons-shared-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons_shared_data-7.3.0a0.tar.gz tmp/opentrons_shared_data-7.3.0a1.tar.gz --markdown 20240513/o/opentrons-shared-data/7.3.0a0-7.3.0a1/README.md --exclude *.pyd
+[2024-05-13 05:14:30] INFO root fetch - processPackages [featuring-data]: Remove: archive file [/home/abi/fetcher/tmp/featuring_data-0.2.5.tar.gz]
+[2024-05-13 05:14:30] INFO root fetch - processPackages [featuring-data]: Remove: archive file [/home/abi/fetcher/tmp/featuring_data-0.2.6.tar.gz]
+[2024-05-13 05:14:30] INFO root fetch - main [MainThread]: End processing [featuring-data]: success
+[2024-05-13 05:14:30] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.9.tar.gz]
+[2024-05-13 05:14:30] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.0.tar.gz]
+[2024-05-13 05:14:30] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-13 05:14:30] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-13 05:14:30] INFO root fetch - processPackages [odoo-addon-resource-booking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_resource_booking-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-13 05:14:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-resource-booking]: success
+[2024-05-13 05:14:30] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement_crm-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-13 05:14:30] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement_crm-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-13 05:14:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement-crm]: success
+[2024-05-13 05:14:31] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0a0.tar.gz]
+[2024-05-13 05:14:31] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0a1.tar.gz]
+[2024-05-13 05:14:31] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
+[2024-05-13 05:14:31] INFO root fetch - main [MainThread]: Store serial: [23176294]
