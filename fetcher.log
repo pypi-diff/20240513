@@ -16117,3 +16117,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 13:07:57] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.52-py3-none-any.whl.zip]
 [2024-05-13 13:07:57] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-13 13:07:57] INFO root fetch - main [MainThread]: Store serial: [23181851]
+[2024-05-13 13:10:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181851]
+[2024-05-13 13:10:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfemtet
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phonexia-enhanced-speech-to-text-built-on-whisper-client
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ZAmino.fix
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mergefast1
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dashscope
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-text-alignment
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ql
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-ads-api-report-fetcher
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: directus-sdk-py
+[2024-05-13 13:10:06] WARNING root fetch - processPackages [directus-sdk-py]: Skipping, unable to determine old version
+[2024-05-13 13:10:06] INFO root fetch - main [MainThread]: End processing [directus-sdk-py] error
+[2024-05-13 13:10:06] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.983]
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ZAmino.fix]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-13 13:10:06] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-13 13:10:06] INFO root fetch - processPackages [pyfemtet]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-13 13:10:06] WARNING root fetch - processPackages [wagtail-text-alignment]: Skipping, unable to determine old version
+[2024-05-13 13:10:06] INFO root fetch - main [MainThread]: End processing [wagtail-text-alignment] error
+[2024-05-13 13:10:06] INFO root fetch - processPackages [dashscope]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-13 13:10:06] WARNING root fetch - processPackages [mergefast1]: Skipping, unable to determine old version
+[2024-05-13 13:10:06] INFO root fetch - main [MainThread]: End processing [mergefast1] error
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ql]: New version: [2.4.6] Old Version: [2.4.5]
+[2024-05-13 13:10:06] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-13 13:10:06] INFO root fetch - processPackages [pyfemtet]: Downloading https://files.pythonhosted.org/packages/ba/78/3da504aa1fb922fa8c9ac21b1b950f286188a51096159ec0583f16344b9d/pyfemtet-0.4.1.tar.gz
+[2024-05-13 13:10:06] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Downloading https://files.pythonhosted.org/packages/a2/b5/df51a4500ce0c22087ed8d305f30acfa19fdad4e4f3482dc1fae2f865cec/phonexia_enhanced_speech_to_text_built_on_whisper_client-1.2.2.tar.gz
+[2024-05-13 13:10:06] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/bf/4d/22b7c8a77c688fb6a8c4e04934f07f15e5eb01e2e6f395396efb466cdb77/thesilent-0.0.983.tar.gz
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ZAmino.fix]: Downloading https://files.pythonhosted.org/packages/c2/28/0612b47d95229e765246c39ba6f1a3bb77bf9c1e36a4181db5adfc991257/zamino_fix-1.1.4.tar.gz
+[2024-05-13 13:10:06] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/df/bf/2fefadaa9f3629197c4d63a4814a28a316fa7789ce1e5e576b1bf5c07794/dashscope-1.9.0-py3-none-any.whl
+[2024-05-13 13:10:06] INFO root fetch - processPackages [ql]: Downloading https://files.pythonhosted.org/packages/42/4c/97827c97391e40ec5ba78cae0d812c591fde8215e82c5a6955f6eeb3da10/ql-2.4.5.tar.gz
+[2024-05-13 13:10:06] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-13 13:10:07] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 13:10:07] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Downloading https://files.pythonhosted.org/packages/b2/77/492782dd476834f21d753227db2d9a8612d0df3a2ff1767efd6853acf5cf/phonexia_enhanced_speech_to_text_built_on_whisper_client-1.2.3.tar.gz
+[2024-05-13 13:10:07] INFO root fetch - processPackages [pyfemtet]: Downloading https://files.pythonhosted.org/packages/c7/7c/5c1eee381824490e3ee691b2ad3aaa76b976eea7bc61e7c21789740d9a29/pyfemtet-0.4.2.tar.gz
+[2024-05-13 13:10:07] INFO root fetch - processPackages [ZAmino.fix]: Downloading https://files.pythonhosted.org/packages/56/df/3cfb62dcb3633218d2ecb8911b126ffccb305e9f6e7ee75ffb750a2e322b/zamino_fix-1.1.5.tar.gz
+[2024-05-13 13:10:07] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 13:10:07] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.983.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.983-0.0.99/README.md --exclude *.pyd
+[2024-05-13 13:10:07] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: executing diffoscope
+[2024-05-13 13:10:07] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonexia_enhanced_speech_to_text_built_on_whisper_client-1.2.2.tar.gz tmp/phonexia_enhanced_speech_to_text_built_on_whisper_client-1.2.3.tar.gz --markdown 20240513/p/phonexia-enhanced-speech-to-text-built-on-whisper-client/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-13 13:10:07] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/5b/f6/9ba6c964f2ce73e6de9988848b2dcde7c1b66b9badb52886f66728c9c3f1/dashscope-1.9.1-py3-none-any.whl
+[2024-05-13 13:10:07] INFO root fetch - processPackages [ql]: Downloading https://files.pythonhosted.org/packages/b3/71/a020bf92a6c2dade453068ce0345c354ac2865d00a1b8f27f5ab6969d7a5/ql-2.4.6.tar.gz
+[2024-05-13 13:10:07] INFO root fetch - processPackages [ZAmino.fix]: executing diffoscope
+[2024-05-13 13:10:07] INFO root fetch - processPackages [ZAmino.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zamino_fix-1.1.4.tar.gz tmp/zamino_fix-1.1.5.tar.gz --markdown 20240513/Z/ZAmino.fix/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-13 13:10:07] INFO root fetch - processPackages [pyfemtet]: executing diffoscope
+[2024-05-13 13:10:07] INFO root fetch - processPackages [pyfemtet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfemtet-0.4.1.tar.gz tmp/pyfemtet-0.4.2.tar.gz --markdown 20240513/p/pyfemtet/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-13 13:10:07] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2024-05-13 13:10:07] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.9.0-py3-none-any.whl.zip tmp/dashscope-1.9.1-py3-none-any.whl.zip --markdown 20240513/d/dashscope/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-13 13:10:07] INFO root fetch - processPackages [ql]: executing diffoscope
+[2024-05-13 13:10:07] INFO root fetch - processPackages [ql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ql-2.4.5.tar.gz tmp/ql-2.4.6.tar.gz --markdown 20240513/q/ql/2.4.5-2.4.6/README.md --exclude *.pyd
+[2024-05-13 13:10:08] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.983.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 13:10:08] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_enhanced_speech_to_text_built_on_whisper_client-1.2.2.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_enhanced_speech_to_text_built_on_whisper_client-1.2.3.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - main [MainThread]: End processing [phonexia-enhanced-speech-to-text-built-on-whisper-client]: success
+[2024-05-13 13:10:08] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-13 13:10:08] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-13 13:10:08] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240513/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 13:10:08] INFO root fetch - processPackages [ZAmino.fix]: Remove: archive file [/home/abi/fetcher/tmp/zamino_fix-1.1.4.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - processPackages [ZAmino.fix]: Remove: archive file [/home/abi/fetcher/tmp/zamino_fix-1.1.5.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - main [MainThread]: End processing [ZAmino.fix]: success
+[2024-05-13 13:10:08] INFO root fetch - processPackages [ql]: Remove: archive file [/home/abi/fetcher/tmp/ql-2.4.5.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - processPackages [ql]: Remove: archive file [/home/abi/fetcher/tmp/ql-2.4.6.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - main [MainThread]: End processing [ql]: success
+[2024-05-13 13:10:08] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.4.1.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.4.2.tar.gz]
+[2024-05-13 13:10:08] INFO root fetch - main [MainThread]: End processing [pyfemtet]: success
+[2024-05-13 13:10:08] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.0-py3-none-any.whl.zip]
+[2024-05-13 13:10:08] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.1-py3-none-any.whl.zip]
+[2024-05-13 13:10:08] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2024-05-13 13:10:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-13 13:10:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-13 13:10:09] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-13 13:10:09] INFO root fetch - main [MainThread]: Store serial: [23181880]
