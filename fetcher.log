@@ -20168,3 +20168,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 15:12:57] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
 [2024-05-13 15:12:57] INFO root fetch - main [MainThread]: End processing [flatpack]: success
 [2024-05-13 15:12:57] INFO root fetch - main [MainThread]: Store serial: [23183461]
+[2024-05-13 15:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183461]
+[2024-05-13 15:15:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana-foundation-sdk
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wheelz-idp-validations
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 42-taskmaster
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkscreener
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: janus-core
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yoretimez
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solarlog-cli
+[2024-05-13 15:15:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edfio
+[2024-05-13 15:15:07] INFO root fetch - processPackages [solarlog-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 15:15:07] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240512.363] Old Version: [0.44.20240512.362]
+[2024-05-13 15:15:07] INFO root fetch - processPackages [42-taskmaster]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 15:15:07] INFO root fetch - processPackages [wheelz-idp-validations]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-13 15:15:07] INFO root fetch - processPackages [janus-core]: New version: [0.4.0b0] Old Version: [0.3.0b1]
+[2024-05-13 15:15:07] WARNING root fetch - processPackages [yoretimez]: Skipping, unable to determine old version
+[2024-05-13 15:15:07] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1715605824!10.1.0] Old Version: [1715089318!10.1.0]
+[2024-05-13 15:15:07] INFO root fetch - main [MainThread]: End processing [yoretimez] error
+[2024-05-13 15:15:07] INFO root fetch - processPackages [edfio]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-13 15:15:07] INFO root fetch - processPackages [solarlog-cli]: Downloading https://files.pythonhosted.org/packages/3a/5f/a329bcecac155983703322715df15df3d22f085aeb9dc9df0b50dcef1ed8/solarlog_cli-0.1.2.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/90/1b/ffba6f7d38d2e1627e51171b5c04b0abf81c81afef44e88edb201f359080/pkscreener-0.44.20240512.362.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [42-taskmaster]: Downloading https://files.pythonhosted.org/packages/1f/f1/58c3dc6d45c2c5186c8e38efbed0a4a8faac0d38555630bb655d7760355f/42-taskmaster-1.0.1.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/8b/5f/e5f117f0aa04620f8986a3f51269a0f095a2ed4ccb60cfa40f9f09f8fb1d/wheelz_idp_validations-2.2.3.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/2b/33/b86250e60f4214a8bcc626da5f964de3811385d94ff27a346aac3a8c931a/janus_core-0.3.0b1.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/31/28/fe4836a4d01964f96a14a38fe336c44bca62d945ae1e979bb1dfba52fdb8/grafana_foundation_sdk-1715089318!10.1.0.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [solarlog-cli]: Downloading https://files.pythonhosted.org/packages/55/1f/6472dedf57f1d408e4cb115ffcc7e21627120cdaadd16645b6a619416257/solarlog_cli-0.1.3.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [edfio]: Downloading https://files.pythonhosted.org/packages/8d/60/f79b0fa3dfeca3e14302db3cc78e964ef328018174809efb3c49bc7afbd5/edfio-0.4.1.tar.gz
+[2024-05-13 15:15:07] INFO root fetch - processPackages [solarlog-cli]: executing diffoscope
+[2024-05-13 15:15:07] INFO root fetch - processPackages [solarlog-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarlog_cli-0.1.2.tar.gz tmp/solarlog_cli-0.1.3.tar.gz --markdown 20240513/s/solarlog-cli/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 15:15:07] INFO root fetch - processPackages [42-taskmaster]: Downloading https://files.pythonhosted.org/packages/44/5c/fd28537af3fcb6379d232ec9ddf89380c3c623742e205d1315c2b5c1aa3d/42_taskmaster-1.0.2.tar.gz
+[2024-05-13 15:15:08] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/5f/6a/e57a8df1530456f2a332d119e7aa2bc77bd8094c5991a2b13dc06d78b2d9/wheelz_idp_validations-2.2.4.tar.gz
+[2024-05-13 15:15:08] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/93/a2/de18c1ad42719340e05b6a2b0f3b897968696bb3fc1f10bbbdda08f983ff/pkscreener-0.44.20240512.363.tar.gz
+[2024-05-13 15:15:08] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/bb/49/4248fa560f148b38b53ae2d982b6b31e7558c885dffc62d9da81c3480f6b/grafana_foundation_sdk-1715605824!10.1.0.tar.gz
+[2024-05-13 15:15:08] INFO root fetch - processPackages [edfio]: Downloading https://files.pythonhosted.org/packages/87/52/9907fee15ef6574c3fbf83af3a704169b0ee18a164fc23b5e763fcec09fd/edfio-0.4.2.tar.gz
+[2024-05-13 15:15:08] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/27/44/0836248efa3cc9138bc3c8f8076f3e3c656cc43ed1d90a1cfab1f4acbdac/janus_core-0.4.0b0.tar.gz
+[2024-05-13 15:15:08] INFO root fetch - processPackages [42-taskmaster]: executing diffoscope
+[2024-05-13 15:15:08] INFO root fetch - processPackages [42-taskmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/42-taskmaster-1.0.1.tar.gz tmp/42_taskmaster-1.0.2.tar.gz --markdown 20240513/4/42-taskmaster/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 15:15:08] INFO root fetch - processPackages [wheelz-idp-validations]: executing diffoscope
+[2024-05-13 15:15:08] INFO root fetch - processPackages [wheelz-idp-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheelz_idp_validations-2.2.3.tar.gz tmp/wheelz_idp_validations-2.2.4.tar.gz --markdown 20240513/w/wheelz-idp-validations/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-13 15:15:08] INFO root fetch - processPackages [edfio]: executing diffoscope
+[2024-05-13 15:15:08] INFO root fetch - processPackages [edfio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edfio-0.4.1.tar.gz tmp/edfio-0.4.2.tar.gz --markdown 20240513/e/edfio/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-13 15:15:08] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-13 15:15:08] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1715089318!10.1.0.tar.gz tmp/grafana_foundation_sdk-1715605824!10.1.0.tar.gz --markdown 20240513/g/grafana-foundation-sdk/1715089318!10.1.0-1715605824!10.1.0/README.md --exclude *.pyd
+[2024-05-13 15:15:08] INFO root fetch - processPackages [janus-core]: executing diffoscope
+[2024-05-13 15:15:08] INFO root fetch - processPackages [janus-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_core-0.3.0b1.tar.gz tmp/janus_core-0.4.0b0.tar.gz --markdown 20240513/j/janus-core/0.3.0b1-0.4.0b0/README.md --exclude *.pyd
+[2024-05-13 15:15:08] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-13 15:15:08] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240512.362.tar.gz tmp/pkscreener-0.44.20240512.363.tar.gz --markdown 20240513/p/pkscreener/0.44.20240512.362-0.44.20240512.363/README.md --exclude *.pyd
+[2024-05-13 15:15:08] INFO root fetch - processPackages [solarlog-cli]: Remove: archive file [/home/abi/fetcher/tmp/solarlog_cli-0.1.2.tar.gz]
+[2024-05-13 15:15:08] INFO root fetch - processPackages [solarlog-cli]: Remove: archive file [/home/abi/fetcher/tmp/solarlog_cli-0.1.3.tar.gz]
+[2024-05-13 15:15:08] INFO root fetch - main [MainThread]: End processing [solarlog-cli]: success
+[2024-05-13 15:15:09] INFO root fetch - processPackages [42-taskmaster]: Remove: archive file [/home/abi/fetcher/tmp/42-taskmaster-1.0.1.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - processPackages [42-taskmaster]: Remove: archive file [/home/abi/fetcher/tmp/42_taskmaster-1.0.2.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: End processing [42-taskmaster]: success
+[2024-05-13 15:15:09] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.2.3.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.2.4.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
+[2024-05-13 15:15:09] INFO root fetch - processPackages [edfio]: Remove: archive file [/home/abi/fetcher/tmp/edfio-0.4.1.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - processPackages [edfio]: Remove: archive file [/home/abi/fetcher/tmp/edfio-0.4.2.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: End processing [edfio]: success
+[2024-05-13 15:15:09] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.3.0b1.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.4.0b0.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: End processing [janus-core]: success
+[2024-05-13 15:15:09] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240512.362.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240512.363.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-13 15:15:09] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1715089318!10.1.0.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1715605824!10.1.0.tar.gz]
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-13 15:15:09] INFO root fetch - main [MainThread]: Store serial: [23183489]
