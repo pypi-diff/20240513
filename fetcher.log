@@ -22253,3 +22253,72 @@ EOFError: EOF read where object expected
 [2024-05-13 16:15:58] INFO root fetch - processPackages [pyclesperanto]: Remove: archive file [/home/abi/fetcher/tmp/pyclesperanto-0.9.1.tar.gz]
 [2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [pyclesperanto]: success
 [2024-05-13 16:15:58] INFO root fetch - main [MainThread]: Store serial: [23184437]
+[2024-05-13 16:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184437]
+[2024-05-13 16:18:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SoccerNet
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-auth-st
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-server-client
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dalpha
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MASSiveChem
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pkilint
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testplans
+[2024-05-13 16:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlcbase
+[2024-05-13 16:18:08] INFO root fetch - processPackages [dalpha]: New version: [0.5.0rc3] Old Version: [0.5.0rc2]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [google-auth-st]: New version: [0.3] Old Version: [0.2]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [MASSiveChem]: New version: [2.4] Old Version: [2.3]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [google-auth-st]: Downloading https://files.pythonhosted.org/packages/83/b2/e4f9562b3f0af2cb59420ce3ea561d7774a91887217deae6b9ae984e970a/google-auth-st-0.2.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [SoccerNet]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [pkilint]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/c7/d3/eb2c973f21c2d7ce6563fc9b547937447a68a3afdb7d5628df976ec57ee9/dalpha-0.5.0rc2.tar.gz
+[2024-05-13 16:18:08] WARNING root fetch - processPackages [jupyter-server-client]: Skipping, unable to determine old version
+[2024-05-13 16:18:08] INFO root fetch - main [MainThread]: End processing [jupyter-server-client] error
+[2024-05-13 16:18:08] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [mlcbase]: New version: [1.2.0a1] Old Version: [1.1.0rc1]
+[2024-05-13 16:18:08] INFO root fetch - processPackages [MASSiveChem]: Downloading https://files.pythonhosted.org/packages/a3/94/9dcccd35be0697d907ea3b66f7442dd3b1ebff3730493fd627a9a9c16ef9/massivechem-2.3.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [pkilint]: Downloading https://files.pythonhosted.org/packages/95/35/d0b6f795bf8ffe2d4def51b860f1b4123af7f37218737bb1e6cab9136670/pkilint-0.9.8.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [SoccerNet]: Downloading https://files.pythonhosted.org/packages/04/da/cd4f5f04680eb54054e0812c6f40dc4eb99180ab175ecde103bc946d747c/SoccerNet-0.1.8.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/ee/9d08a7684a8b05da70eb7201106e005d8406696ffe6fc59bec47dfb15c9f/dalpha-0.5.0rc3.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [google-auth-st]: Downloading https://files.pythonhosted.org/packages/1a/35/6370d503eaf57c23642d8170fc5d676d0b5c528c7fac1126f18900a9f0b3/google-auth-st-0.3.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [mlcbase]: Downloading https://files.pythonhosted.org/packages/ce/1d/2f70fed6cca81316ef74ca21adaac5a2e073ec2a2c50206b4f741adc537c/mlcbase-1.1.0rc1.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [google-auth-st]: executing diffoscope
+[2024-05-13 16:18:08] INFO root fetch - processPackages [google-auth-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-auth-st-0.2.tar.gz tmp/google-auth-st-0.3.tar.gz --markdown 20240513/g/google-auth-st/0.2-0.3/README.md --exclude *.pyd
+[2024-05-13 16:18:08] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-13 16:18:08] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.0rc2.tar.gz tmp/dalpha-0.5.0rc3.tar.gz --markdown 20240513/d/dalpha/0.5.0rc2-0.5.0rc3/README.md --exclude *.pyd
+[2024-05-13 16:18:08] INFO root fetch - processPackages [MASSiveChem]: Downloading https://files.pythonhosted.org/packages/3f/b8/6fb144858c7104d6abcd5bbfa202335d9779c18172d56e3c7e17dacc550f/massivechem-2.4.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [pkilint]: Downloading https://files.pythonhosted.org/packages/e5/8c/5a0eae8fa441d89024745500c547c616c6e56b76efae377ae6f13309e256/pkilint-0.9.9.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [SoccerNet]: Downloading https://files.pythonhosted.org/packages/9d/92/72c8d3ee24e644311d9496e6725f9fe9ffd8f9f02dc9b5949b48031da40e/SoccerNet-0.1.9.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [MASSiveChem]: executing diffoscope
+[2024-05-13 16:18:08] INFO root fetch - processPackages [MASSiveChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-2.3.tar.gz tmp/massivechem-2.4.tar.gz --markdown 20240513/M/MASSiveChem/2.3-2.4/README.md --exclude *.pyd
+[2024-05-13 16:18:08] INFO root fetch - processPackages [mlcbase]: Downloading https://files.pythonhosted.org/packages/43/31/1de1356ac5c6d2acb4921ce5acfd5e726d574323d35cc56696444e8a9c88/mlcbase-1.2.0a1.tar.gz
+[2024-05-13 16:18:08] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-13 16:18:08] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240513/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 16:18:08] INFO root fetch - processPackages [SoccerNet]: executing diffoscope
+[2024-05-13 16:18:08] INFO root fetch - processPackages [SoccerNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoccerNet-0.1.8.tar.gz tmp/SoccerNet-0.1.9.tar.gz --markdown 20240513/S/SoccerNet/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 16:18:09] INFO root fetch - processPackages [pkilint]: executing diffoscope
+[2024-05-13 16:18:09] INFO root fetch - processPackages [pkilint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkilint-0.9.8.tar.gz tmp/pkilint-0.9.9.tar.gz --markdown 20240513/p/pkilint/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 16:18:09] INFO root fetch - processPackages [mlcbase]: executing diffoscope
+[2024-05-13 16:18:09] INFO root fetch - processPackages [mlcbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcbase-1.1.0rc1.tar.gz tmp/mlcbase-1.2.0a1.tar.gz --markdown 20240513/m/mlcbase/1.1.0rc1-1.2.0a1/README.md --exclude *.pyd
+[2024-05-13 16:18:09] INFO root fetch - processPackages [google-auth-st]: Remove: archive file [/home/abi/fetcher/tmp/google-auth-st-0.2.tar.gz]
+[2024-05-13 16:18:09] INFO root fetch - processPackages [google-auth-st]: Remove: archive file [/home/abi/fetcher/tmp/google-auth-st-0.3.tar.gz]
+[2024-05-13 16:18:09] INFO root fetch - main [MainThread]: End processing [google-auth-st]: success
+[2024-05-13 16:18:09] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc2.tar.gz]
+[2024-05-13 16:18:09] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc3.tar.gz]
+[2024-05-13 16:18:09] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-13 16:18:09] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-13 16:18:09] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-13 16:18:09] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-13 16:18:10] INFO root fetch - processPackages [SoccerNet]: Remove: archive file [/home/abi/fetcher/tmp/SoccerNet-0.1.8.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - processPackages [SoccerNet]: Remove: archive file [/home/abi/fetcher/tmp/SoccerNet-0.1.9.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - main [MainThread]: End processing [SoccerNet]: success
+[2024-05-13 16:18:10] INFO root fetch - processPackages [MASSiveChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-2.3.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - processPackages [MASSiveChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-2.4.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - main [MainThread]: End processing [MASSiveChem]: success
+[2024-05-13 16:18:10] INFO root fetch - processPackages [mlcbase]: Remove: archive file [/home/abi/fetcher/tmp/mlcbase-1.1.0rc1.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - processPackages [mlcbase]: Remove: archive file [/home/abi/fetcher/tmp/mlcbase-1.2.0a1.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - main [MainThread]: End processing [mlcbase]: success
+[2024-05-13 16:18:10] INFO root fetch - processPackages [pkilint]: Remove: archive file [/home/abi/fetcher/tmp/pkilint-0.9.8.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - processPackages [pkilint]: Remove: archive file [/home/abi/fetcher/tmp/pkilint-0.9.9.tar.gz]
+[2024-05-13 16:18:10] INFO root fetch - main [MainThread]: End processing [pkilint]: success
+[2024-05-13 16:18:10] INFO root fetch - main [MainThread]: Store serial: [23184464]
