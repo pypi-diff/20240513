@@ -19705,3 +19705,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:59:35] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
 [2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
 [2024-05-13 14:59:35] INFO root fetch - main [MainThread]: Store serial: [23183294]
+[2024-05-13 15:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183294]
+[2024-05-13 15:01:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copernicusmarine
+[2024-05-13 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-05-13 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaqueduct
+[2024-05-13 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrsegmentator
+[2024-05-13 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prefab
+[2024-05-13 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conf-root
+[2024-05-13 15:01:44] INFO root fetch - processPackages [mrsegmentator]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-13 15:01:44] INFO root fetch - processPackages [prefab]: New version: [1.0.0] Old Version: [0.5.2]
+[2024-05-13 15:01:44] INFO root fetch - processPackages [mrsegmentator]: Downloading https://files.pythonhosted.org/packages/f1/84/1f059f5250119bbd91a9a1ad3a2495ff52af6639b0fdf7328b7727517129/mrsegmentator-1.0.3.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [pyaqueduct]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 15:01:44] INFO root fetch - processPackages [conf-root]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-13 15:01:44] INFO root fetch - processPackages [GSG]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-13 15:01:44] INFO root fetch - processPackages [copernicusmarine]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-13 15:01:44] INFO root fetch - processPackages [prefab]: Downloading https://files.pythonhosted.org/packages/68/e5/ced145883bca967f3d2ff5f83479b10ed07f589361542b128cc886abb823/prefab-0.5.2.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [pyaqueduct]: Downloading https://files.pythonhosted.org/packages/b7/1f/87ae04309b72b3afec91e1260c339c782e9da8b92dc85ae131ea8548f2bb/pyaqueduct-0.0.7.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/4a/c6/e9c1fdbe1f546bbf465c3b898acff9031919894bf13ca7453b0ffa5c43d8/GSG-0.5.5.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/25/27/a66387599918c0cb0b01fb6b4d489eecb666fca31b8a4ef772767339d25c/copernicusmarine-1.2.0.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [conf-root]: Downloading https://files.pythonhosted.org/packages/b2/68/4532ff1cac96a5f9b48a401d06da1dc4387d009470f4fd6744f8ef838460/conf_root-0.2.1.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [mrsegmentator]: Downloading https://files.pythonhosted.org/packages/83/4e/70ffd01f36b9e4d03d6e2dfd16976defffeec00982f3a9c6f67cb1fb5836/mrsegmentator-1.0.4.tar.gz
+[2024-05-13 15:01:44] INFO root fetch - processPackages [prefab]: Downloading https://files.pythonhosted.org/packages/4b/da/de8c8146fbf97fc9a2572d9048cb7e748cf9610396c1e06bb4c9b21ce1c1/prefab-1.0.0-py3-none-any.whl
+[2024-05-13 15:01:45] INFO root fetch - processPackages [mrsegmentator]: executing diffoscope
+[2024-05-13 15:01:45] INFO root fetch - processPackages [mrsegmentator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrsegmentator-1.0.3.tar.gz tmp/mrsegmentator-1.0.4.tar.gz --markdown 20240513/m/mrsegmentator/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-13 15:01:45] INFO root fetch - processPackages [pyaqueduct]: Downloading https://files.pythonhosted.org/packages/aa/80/7a330641b346b2dc66bd25829c2320b790e85f542f1b38a543c04653eab9/pyaqueduct-0.0.8.tar.gz
+[2024-05-13 15:01:45] INFO root fetch - processPackages [prefab]: executing diffoscope
+[2024-05-13 15:01:45] INFO root fetch - processPackages [prefab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefab-0.5.2.tar.gz tmp/prefab-1.0.0-py3-none-any.whl.zip --markdown 20240513/p/prefab/0.5.2-1.0.0/README.md --exclude *.pyd
+[2024-05-13 15:01:45] INFO root fetch - processPackages [copernicusmarine]: Downloading https://files.pythonhosted.org/packages/ef/2c/462790a1cf907a0eeadf794ddc9810b8e4b939f6478efffdf964735d2479/copernicusmarine-1.2.1.tar.gz
+[2024-05-13 15:01:45] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/63/7d/2d8ac2de8a643f4de26a5d0869ef008147514712b0b117a513c10851911a/GSG-0.5.6.tar.gz
+[2024-05-13 15:01:45] INFO root fetch - processPackages [conf-root]: Downloading https://files.pythonhosted.org/packages/b1/8f/cb143dfffed99832621e3ce9da8cec815732e4ed1c5dcb142d63473b8e14/conf_root-0.3.0.tar.gz
+[2024-05-13 15:01:45] INFO root fetch - processPackages [pyaqueduct]: executing diffoscope
+[2024-05-13 15:01:45] INFO root fetch - processPackages [pyaqueduct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaqueduct-0.0.7.tar.gz tmp/pyaqueduct-0.0.8.tar.gz --markdown 20240513/p/pyaqueduct/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 15:01:45] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-05-13 15:01:45] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.5.tar.gz tmp/GSG-0.5.6.tar.gz --markdown 20240513/G/GSG/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-13 15:01:45] INFO root fetch - processPackages [conf-root]: executing diffoscope
+[2024-05-13 15:01:45] INFO root fetch - processPackages [conf-root]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf_root-0.2.1.tar.gz tmp/conf_root-0.3.0.tar.gz --markdown 20240513/c/conf-root/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-13 15:01:45] INFO root fetch - processPackages [copernicusmarine]: executing diffoscope
+[2024-05-13 15:01:45] INFO root fetch - processPackages [copernicusmarine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicusmarine-1.2.0.tar.gz tmp/copernicusmarine-1.2.1.tar.gz --markdown 20240513/c/copernicusmarine/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-13 15:01:45] INFO root fetch - processPackages [prefab]: Remove: archive file [/home/abi/fetcher/tmp/prefab-0.5.2.tar.gz]
+[2024-05-13 15:01:45] INFO root fetch - processPackages [prefab]: Remove: archive file [/home/abi/fetcher/tmp/prefab-1.0.0-py3-none-any.whl.zip]
+[2024-05-13 15:01:45] INFO root fetch - main [MainThread]: End processing [prefab]: success
+[2024-05-13 15:01:45] INFO root fetch - processPackages [mrsegmentator]: Remove: archive file [/home/abi/fetcher/tmp/mrsegmentator-1.0.3.tar.gz]
+[2024-05-13 15:01:45] INFO root fetch - processPackages [mrsegmentator]: Remove: archive file [/home/abi/fetcher/tmp/mrsegmentator-1.0.4.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - main [MainThread]: End processing [mrsegmentator]: success
+[2024-05-13 15:01:46] INFO root fetch - processPackages [pyaqueduct]: Remove: archive file [/home/abi/fetcher/tmp/pyaqueduct-0.0.7.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - processPackages [pyaqueduct]: Remove: archive file [/home/abi/fetcher/tmp/pyaqueduct-0.0.8.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - main [MainThread]: End processing [pyaqueduct]: success
+[2024-05-13 15:01:46] INFO root fetch - processPackages [conf-root]: Remove: archive file [/home/abi/fetcher/tmp/conf_root-0.2.1.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - processPackages [conf-root]: Remove: archive file [/home/abi/fetcher/tmp/conf_root-0.3.0.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - main [MainThread]: End processing [conf-root]: success
+[2024-05-13 15:01:46] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.5.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.6.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-05-13 15:01:46] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.0.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - processPackages [copernicusmarine]: Remove: archive file [/home/abi/fetcher/tmp/copernicusmarine-1.2.1.tar.gz]
+[2024-05-13 15:01:46] INFO root fetch - main [MainThread]: End processing [copernicusmarine]: success
+[2024-05-13 15:01:46] INFO root fetch - main [MainThread]: Store serial: [23183314]
