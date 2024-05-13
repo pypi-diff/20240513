@@ -2309,3 +2309,45 @@
 [2024-05-13 03:15:53] WARNING root fetch - processPackages [teeheesmart]: Skipping, unable to determine old version
 [2024-05-13 03:15:53] INFO root fetch - main [MainThread]: End processing [teeheesmart] error
 [2024-05-13 03:15:53] INFO root fetch - main [MainThread]: Store serial: [23175452]
+[2024-05-13 03:17:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175452]
+[2024-05-13 03:18:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 03:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scottbrian-utils
+[2024-05-13 03:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-restit
+[2024-05-13 03:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lora-pytorch
+[2024-05-13 03:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai2-kit
+[2024-05-13 03:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imaginativenessz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-05-13 03:18:02] INFO root fetch - processPackages [lora-pytorch]: New version: [0.2.0] Old Version: [0.1.0rc1]
+[2024-05-13 03:18:02] INFO root fetch - processPackages [scottbrian-utils]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-05-13 03:18:02] WARNING root fetch - processPackages [imaginativenessz]: Skipping, unable to determine old version
+[2024-05-13 03:18:02] INFO root fetch - main [MainThread]: End processing [imaginativenessz] error
+[2024-05-13 03:18:02] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/c2/a7/9a624d19b03f5a2774d34ae27fa11ab51ecdc59b679adabd04219cc8b435/django_restit-4.2.8.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 03:18:02] INFO root fetch - processPackages [lora-pytorch]: Downloading https://files.pythonhosted.org/packages/02/c5/0ff53df2c27dd9546a56e4c8dc3c397b1f9fdc9b3670cf17105f197e5ea5/lora-pytorch-0.1.0rc1.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [scottbrian-utils]: Downloading https://files.pythonhosted.org/packages/35/66/48c51bfbb65f364a2c63c85f91ff13299832ab4edd54d72f9b270e1f0937/scottbrian_utils-3.0.0.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [lora-pytorch]: Downloading https://files.pythonhosted.org/packages/ce/8b/39068c1710ace1982685d9e710d70ef8bdc4df34be74dfa647e5d5ca4ae9/lora_pytorch-0.2.0.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [scottbrian-utils]: Downloading https://files.pythonhosted.org/packages/e3/a8/c4b174fb696fff15f0ae80591568edd7f6ed4ec9d3362a6f880872e8b110/scottbrian_utils-4.0.0.tar.gz
+[2024-05-13 03:18:02] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-13 03:18:02] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.8.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240513/d/django-restit/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-05-13 03:18:02] INFO root fetch - processPackages [lora-pytorch]: executing diffoscope
+[2024-05-13 03:18:02] INFO root fetch - processPackages [lora-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lora-pytorch-0.1.0rc1.tar.gz tmp/lora_pytorch-0.2.0.tar.gz --markdown 20240513/l/lora-pytorch/0.1.0rc1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 03:18:02] INFO root fetch - processPackages [scottbrian-utils]: executing diffoscope
+[2024-05-13 03:18:02] INFO root fetch - processPackages [scottbrian-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scottbrian_utils-3.0.0.tar.gz tmp/scottbrian_utils-4.0.0.tar.gz --markdown 20240513/s/scottbrian-utils/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-05-13 03:18:02] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-13 03:18:03] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-13 03:18:03] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240513/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 03:18:03] INFO root fetch - processPackages [lora-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/lora-pytorch-0.1.0rc1.tar.gz]
+[2024-05-13 03:18:03] INFO root fetch - processPackages [lora-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/lora_pytorch-0.2.0.tar.gz]
+[2024-05-13 03:18:03] INFO root fetch - main [MainThread]: End processing [lora-pytorch]: success
+[2024-05-13 03:18:03] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-13 03:18:03] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-13 03:18:03] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-13 03:18:03] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-3.0.0.tar.gz]
+[2024-05-13 03:18:03] INFO root fetch - processPackages [scottbrian-utils]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_utils-4.0.0.tar.gz]
+[2024-05-13 03:18:03] INFO root fetch - main [MainThread]: End processing [scottbrian-utils]: success
+[2024-05-13 03:18:04] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.8.tar.gz]
+[2024-05-13 03:18:04] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-13 03:18:04] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-13 03:18:04] INFO root fetch - main [MainThread]: Store serial: [23175468]
