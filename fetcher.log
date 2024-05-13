@@ -17501,3 +17501,150 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:53:52] INFO root fetch - processPackages [contentstack-management]: Remove: archive file [/home/abi/fetcher/tmp/contentstack_management-1.1.0.tar.gz]
 [2024-05-13 13:53:52] INFO root fetch - main [MainThread]: End processing [contentstack-management]: success
 [2024-05-13 13:53:52] INFO root fetch - main [MainThread]: Store serial: [23182420]
+[2024-05-13 13:55:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182420]
+[2024-05-13 13:56:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: financial-datasets
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-dataset
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nkululeko
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lavague
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-models
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-protos
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bk-plugin-runtime
+[2024-05-13 13:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/80/69/d980d746d996006332112a52b6b4aa9ce389b40d5e5128b4898e599eb1ea/nucliadb_sdk-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:01] INFO root fetch - processPackages [lavague]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [bk-plugin-runtime]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-13 13:56:01] INFO root fetch - processPackages [nkululeko]: New version: [0.84.1] Old Version: [0.84.0]
+[2024-05-13 13:56:02] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d6/e8/7dc708f9b824224f3bc6ab130ac9b91fdc13a9d9d8ea2bf6e6829b4fcd2c/nucliadb-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/d7/62/47f1c7d3f339715171fbe7f266d6a85060f52a54d361a56263c5620c3dc9/nucliadb_protos-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/e9/ba/8ff85331e51b7857cf95634ec0ceaeeeea05b47180be92c78ea3bda71c64/nucliadb_models-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/72/0d/629a85416caec6fa7b78aff6479291fa26d853afc45732a138cfaed8c41e/nucliadb_dataset-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/36/94/255abe9cb6d903e14abd37e03da6cf223d9808470f9dd5d79169b683cc32/financial_datasets-0.1.8.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f6/b3/bfa48762966eba0d8af87b1ec519802d6f52cfc9bb7118d7a4f7cac46861/nucliadb_sdk-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [bk-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/f0/b7/47395f015e4a9670c6b700723c3cb581efff3bc2bf3a8753553cd1212a0d/bk-plugin-runtime-2.0.5.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/de/6a/1ea9627d35d9f5c0cca67592ecc65e5c241d5e241371649d574554cecf86/nucliadb_protos-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/cf/60/198884cd0fe74c430c6268d8ccca722c907a8638bde2e7aee647052e2a79/nkululeko-0.84.0.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3c/78/3dccc7477454e54f0e627565b8ebcef7fd4d61f33eb3915856b7a3116c4d/nucliadb_models-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-sdk/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/44/a3/dbab20688a552de24718bf2d2a5f3005d8da5c8381a1ef6fcf8b549e2326/nucliadb-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d3/cd/686785042bf8e025c28545d273953aa24efd01d4796f73d58f78b8bc600d/nucliadb_dataset-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-protos/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-models/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/87/a1/22bd6c400ec0e79b048a16568be6b9aef6c214655800975327559d6f37fa/financial_datasets-0.1.9.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-dataset/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.8.tar.gz tmp/financial_datasets-0.1.9.tar.gz --markdown 20240513/f/financial-datasets/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:56:02] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/60/cb/7b6033d655fe04e7fccb06f4409ba468218cb80c59d82064105a3e64f973/lavague-1.0.9.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/ec/c3/1e9fee7979025c1b168ad44ab2fc620c9993822695948cd73a34ace7fb80/nkululeko-0.84.1.tar.gz
+[2024-05-13 13:56:02] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-05-13 13:56:02] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.8.tar.gz tmp/lavague-1.0.9.tar.gz --markdown 20240513/l/lavague/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 13:56:03] INFO root fetch - processPackages [bk-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/02/a2/dee73f0b6689d5426ac728733b0c9cf5a1fec42f86def9fed75dd3769d2b/bk-plugin-runtime-2.0.6.tar.gz
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.84.0.tar.gz tmp/nkululeko-0.84.1.tar.gz --markdown 20240513/n/nkululeko/0.84.0-0.84.1/README.md --exclude *.pyd
+[2024-05-13 13:56:03] INFO root fetch - processPackages [bk-plugin-runtime]: executing diffoscope
+[2024-05-13 13:56:03] INFO root fetch - processPackages [bk-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-plugin-runtime-2.0.5.tar.gz tmp/bk-plugin-runtime-2.0.6.tar.gz --markdown 20240513/b/bk-plugin-runtime/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: hotsos
+[2024-05-13 13:56:03] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-13 13:56:03] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-models]: Start processing: Geode-Common
+[2024-05-13 13:56:03] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-telemetry
+[2024-05-13 13:56:03] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-13 13:56:03] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-13 13:56:03] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.8.tar.gz]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.9.tar.gz]
+[2024-05-13 13:56:03] INFO root fetch - processPackages [financial-datasets]: Start processing: nucliadb-utils
+[2024-05-13 13:56:03] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-protos]: Start processing: dblcsgen
+[2024-05-13 13:56:04] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [Geode-Common]: New version: [31.1.0rc2] Old Version: [31.1.0rc1]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/c1/e5/18727bcddd0d8f13ba7f98519c714437546de95fe427c2282053f625433c/nucliadb_telemetry-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:04] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.9.tar.gz]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [lavague]: Start processing: anaouder
+[2024-05-13 13:56:04] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-05-13 13:56:04] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/2f/16/0fda8e5d2009d51d08f057d2fbd3b187ead92b9f63005b5b82270ac0d512/nucliadb_utils-3.1.0.post493-py3-none-any.whl
+[2024-05-13 13:56:04] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/b6/c3/56768cb67208e6be535d9f8f9ab09f4ba2c64d21eb5ff086995cb97ae2d3/Geode_Common-31.1.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-13 13:56:04] INFO root fetch - processPackages [anaouder]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/dd/0f/aa1eec5b27e0bb33faefa820e3c6e85efeb89034bf7dccda2911c00b0137/dblcsgen-0.2.6.tar.gz
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/2c/ed/4b2f8b5f405a464a107e0250998d1d200f728075ad87cdb55fd64be85d91/nucliadb_telemetry-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:04] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-13 13:56:04] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240513/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-13 13:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-13 13:56:04] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d9/29/65373b8ad9564ee581898942ffe3d3706e840de75a85ce3eca0f7e8bae51/nucliadb_utils-3.1.0.post494-py3-none-any.whl
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-telemetry/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:04] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/c6/ca/3a5e93cc249497ae41dcef05583ec99631ff27df192f9ce164b0be324b60/anaouder-0.9.0.tar.gz
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-utils/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 13:56:04] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/71/36/6ea21287fa4199a11f89a8fc33ccb20ba942387630ee49f28048a0456a7e/dblcsgen-0.2.7.tar.gz
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.84.0.tar.gz]
+[2024-05-13 13:56:04] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.84.1.tar.gz]
+[2024-05-13 13:56:04] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-05-13 13:56:04] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-05-13 13:56:04] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.6.tar.gz tmp/dblcsgen-0.2.7.tar.gz --markdown 20240513/d/dblcsgen/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-13 13:56:05] INFO root fetch - processPackages [anaouder]: Downloading https://files.pythonhosted.org/packages/fa/52/54c8866a257c8b0c5e2785375e9233fdd1f8e0a8043313ffc4d3ffc36b89/anaouder-0.9.1.tar.gz
+[2024-05-13 13:56:05] INFO root fetch - processPackages [anaouder]: executing diffoscope
+[2024-05-13 13:56:05] INFO root fetch - processPackages [anaouder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaouder-0.9.0.tar.gz tmp/anaouder-0.9.1.tar.gz --markdown 20240513/a/anaouder/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 13:56:05] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/4a/3b/812afb740d8e5df21fdf7138c90d1e899e7f0609086b9ca259e724558015/Geode_Common-31.1.0rc2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-13 13:56:05] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:05] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:05] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-13 13:56:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:05] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-13 13:56:06] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 13:56:06] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 13:56:06] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-13 13:56:06] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-05-13 13:56:06] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.1.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.1.0rc2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240513/G/Geode-Common/31.1.0rc1-31.1.0rc2/README.md --exclude *.pyd
+[2024-05-13 13:56:06] INFO root fetch - processPackages [anaouder]: Remove: archive file [/home/abi/fetcher/tmp/anaouder-0.9.0.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - processPackages [anaouder]: Remove: archive file [/home/abi/fetcher/tmp/anaouder-0.9.1.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - main [MainThread]: End processing [anaouder]: success
+[2024-05-13 13:56:06] INFO root fetch - processPackages [bk-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-runtime-2.0.5.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - processPackages [bk-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-runtime-2.0.6.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - main [MainThread]: End processing [bk-plugin-runtime]: success
+[2024-05-13 13:56:06] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.6.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.7.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-05-13 13:56:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-13 13:56:06] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-13 13:56:07] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 13:56:07] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:56:07] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-05-13 13:56:07] INFO root fetch - main [MainThread]: Store serial: [23182464]
