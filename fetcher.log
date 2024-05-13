@@ -24298,3 +24298,75 @@ EOFError: EOF read where object expected
 [2024-05-13 17:14:23] INFO root fetch - processPackages [glean-parser]: Remove: archive file [/home/abi/fetcher/tmp/glean_parser-9.0.0.tar.gz]
 [2024-05-13 17:14:23] INFO root fetch - main [MainThread]: End processing [glean-parser]: success
 [2024-05-13 17:14:23] INFO root fetch - main [MainThread]: Store serial: [23185548]
+[2024-05-13 17:16:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185548]
+[2024-05-13 17:16:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sovai
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autoblocksai
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Fast-PyNUTS
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gameyamlspiderandgenerator
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SimpleSchemaGenerator
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vbimagetotext
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afeng-py-tools
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: facexformer-pipeline
+[2024-05-13 17:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: music-kraken
+[2024-05-13 17:16:33] INFO root fetch - processPackages [SimpleSchemaGenerator]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-13 17:16:33] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 17:16:33] INFO root fetch - processPackages [sovai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 17:16:33] WARNING root fetch - processPackages [facexformer-pipeline]: Skipping, unable to determine old version
+[2024-05-13 17:16:33] INFO root fetch - main [MainThread]: End processing [facexformer-pipeline] error
+[2024-05-13 17:16:33] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 17:16:33] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [SimpleSchemaGenerator]: Downloading https://files.pythonhosted.org/packages/36/6b/995f5c31e1078d63c2dec8cbb55d4ece9e78afeece58a95af606c07be146/SimpleSchemaGenerator-0.6.0-py3-none-any.whl
+[2024-05-13 17:16:33] INFO root fetch - processPackages [gameyamlspiderandgenerator]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-13 17:16:33] WARNING root fetch - processPackages [Fast-PyNUTS]: Skipping, unable to determine old version
+[2024-05-13 17:16:33] INFO root fetch - main [MainThread]: End processing [Fast-PyNUTS] error
+[2024-05-13 17:16:33] INFO root fetch - processPackages [sovai]: Downloading https://files.pythonhosted.org/packages/62/80/0e0dbddc5b44cb1cc0000a0ccba3981c8bca4a60299d65ea0739ed1ef529/sovai-0.1.0.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [autoblocksai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 17:16:33] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-13 17:16:33] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/4e/8e/c20f23673529d1a51b37d53883127970f2640aaef85efc927447a1f95cfb/gameyamlspiderandgenerator-1.7.6.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/00/4f/f1230e4c9c1f29b9d6430f8fdba2f61eb407bdf2b64d53c82007af2c9afe/autoblocksai-0.0.8.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [sovai]: Downloading https://files.pythonhosted.org/packages/f0/e7/041cc33431080b2a0a698738d7ce1516b185b84ce7999d60d61397e63eab/sovai-0.1.1.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-13 17:16:33] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240513/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 17:16:33] INFO root fetch - processPackages [SimpleSchemaGenerator]: Downloading https://files.pythonhosted.org/packages/51/8b/474de22c9227aeab0f5540bafa7ede7c9b2b6977d094d67bec6b90e1bee4/SimpleSchemaGenerator-0.7.0-py3-none-any.whl
+[2024-05-13 17:16:33] INFO root fetch - processPackages [sovai]: executing diffoscope
+[2024-05-13 17:16:33] INFO root fetch - processPackages [sovai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovai-0.1.0.tar.gz tmp/sovai-0.1.1.tar.gz --markdown 20240513/s/sovai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 17:16:33] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-13 17:16:33] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240513/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 17:16:33] INFO root fetch - processPackages [SimpleSchemaGenerator]: executing diffoscope
+[2024-05-13 17:16:33] INFO root fetch - processPackages [SimpleSchemaGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleSchemaGenerator-0.6.0-py3-none-any.whl.zip tmp/SimpleSchemaGenerator-0.7.0-py3-none-any.whl.zip --markdown 20240513/S/SimpleSchemaGenerator/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-13 17:16:33] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Downloading https://files.pythonhosted.org/packages/96/cc/64484ec212c2e4e9f7814eacc9f5db6e65c52967779adbd28592c721593d/gameyamlspiderandgenerator-1.7.7.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/7d/3f/bb0c01ca25bdf029927519d4da6f040d581a9ac7b177f0834322a4334d17/autoblocksai-0.0.9.tar.gz
+[2024-05-13 17:16:33] INFO root fetch - processPackages [autoblocksai]: executing diffoscope
+[2024-05-13 17:16:33] INFO root fetch - processPackages [autoblocksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoblocksai-0.0.8.tar.gz tmp/autoblocksai-0.0.9.tar.gz --markdown 20240513/a/autoblocksai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 17:16:33] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-13 17:16:34] INFO root fetch - processPackages [gameyamlspiderandgenerator]: executing diffoscope
+[2024-05-13 17:16:34] INFO root fetch - processPackages [gameyamlspiderandgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameyamlspiderandgenerator-1.7.6.tar.gz tmp/gameyamlspiderandgenerator-1.7.7.tar.gz --markdown 20240513/g/gameyamlspiderandgenerator/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-13 17:16:34] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-13 17:16:34] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240513/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 17:16:34] INFO root fetch - processPackages [sovai]: Remove: archive file [/home/abi/fetcher/tmp/sovai-0.1.0.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - processPackages [sovai]: Remove: archive file [/home/abi/fetcher/tmp/sovai-0.1.1.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - main [MainThread]: End processing [sovai]: success
+[2024-05-13 17:16:34] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-13 17:16:34] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.8.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.9.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - main [MainThread]: End processing [autoblocksai]: success
+[2024-05-13 17:16:34] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-13 17:16:34] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-13 17:16:34] INFO root fetch - processPackages [SimpleSchemaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSchemaGenerator-0.6.0-py3-none-any.whl.zip]
+[2024-05-13 17:16:34] INFO root fetch - processPackages [SimpleSchemaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSchemaGenerator-0.7.0-py3-none-any.whl.zip]
+[2024-05-13 17:16:34] INFO root fetch - main [MainThread]: End processing [SimpleSchemaGenerator]: success
+[2024-05-13 17:16:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.7.6.tar.gz]
+[2024-05-13 17:16:35] INFO root fetch - processPackages [gameyamlspiderandgenerator]: Remove: archive file [/home/abi/fetcher/tmp/gameyamlspiderandgenerator-1.7.7.tar.gz]
+[2024-05-13 17:16:35] INFO root fetch - main [MainThread]: End processing [gameyamlspiderandgenerator]: success
+[2024-05-13 17:16:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-13 17:16:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-13 17:16:35] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-13 17:16:35] INFO root fetch - main [MainThread]: Store serial: [23185572]
