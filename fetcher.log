@@ -22837,3 +22837,114 @@ EOFError: EOF read where object expected
 [2024-05-13 16:35:48] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.1.0.tar.gz]
 [2024-05-13 16:35:48] INFO root fetch - main [MainThread]: End processing [pylint]: success
 [2024-05-13 16:35:48] INFO root fetch - main [MainThread]: Store serial: [23184949]
+[2024-05-13 16:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184949]
+[2024-05-13 16:37:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowkit-jwt-generator
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowclient
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caddiedz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowmachine
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowetl
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smart-parallelize
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lions
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: holobench
+[2024-05-13 16:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oasees-sdk
+[2024-05-13 16:37:57] INFO root fetch - processPackages [smart-parallelize]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240513.364] Old Version: [0.44.20240512.363]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [lions]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [holobench]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-13 16:37:57] WARNING root fetch - processPackages [caddiedz]: Skipping, unable to determine old version
+[2024-05-13 16:37:57] INFO root fetch - processPackages [caddiedz]: Start processing: selenium-utils-xmlangel
+[2024-05-13 16:37:57] INFO root fetch - processPackages [oasees-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 16:37:57] INFO root fetch - main [MainThread]: End processing [caddiedz] error
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/93/a2/de18c1ad42719340e05b6a2b0f3b897968696bb3fc1f10bbbdda08f983ff/pkscreener-0.44.20240512.363.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [smart-parallelize]: Downloading https://files.pythonhosted.org/packages/6a/fe/8ebbcab94845b3b9dc55872bfdc4aca22762d128d40bbf63a34bd61fac01/smart_parallelize-2.0.8.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/2a/0d/7d567b6f65dd6003d9dc29c5701b65f215d9ab9963280f8df0e01bad8e1c/lions-1.0.7.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/62/c0/2975948bb8b1c809a023db3bd1c8de949c9d56bf34dd96f5015259b9e77b/holobench-1.8.0.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-13 16:37:57] WARNING root fetch - processPackages [selenium-utils-xmlangel]: Skipping, unable to determine old version
+[2024-05-13 16:37:57] INFO root fetch - processPackages [selenium-utils-xmlangel]: Start processing: dalgorithms
+[2024-05-13 16:37:57] INFO root fetch - main [MainThread]: End processing [selenium-utils-xmlangel] error
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-13 16:37:57] WARNING root fetch - processPackages [dalgorithms]: Skipping, unable to determine old version
+[2024-05-13 16:37:57] INFO root fetch - processPackages [dalgorithms]: Start processing: declearn
+[2024-05-13 16:37:57] INFO root fetch - main [MainThread]: End processing [dalgorithms] error
+[2024-05-13 16:37:57] INFO root fetch - processPackages [oasees-sdk]: Downloading https://files.pythonhosted.org/packages/b0/2f/04d34d5b86d5d40cb81701bea4a1a33897d9e75f04281d188eee77d61b27/oasees_sdk-0.2.1.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-13 16:37:57] INFO root fetch - processPackages [declearn]: New version: [2.4.0] Old Version: [2.3.2]
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-13 16:37:57] INFO root fetch - processPackages [smart-parallelize]: Downloading https://files.pythonhosted.org/packages/0f/6f/48731f1909b1b681d6a4a859ba23d0b9133c578aaf5ca409036f55dbe11e/smart_parallelize-2.0.9.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-13 16:37:57] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/e0/19/43be398cba6fd8009c8c38f553d551eabc682bdd438cfbdcdf030b23f4b1/lions-1.0.8.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/93/4f/5ab3d9f60dc2580f0c2f054540ed82c34393cc7b4e115f96d3a5b81e1b16/holobench-1.9.0.tar.gz
+[2024-05-13 16:37:57] INFO root fetch - processPackages [smart-parallelize]: executing diffoscope
+[2024-05-13 16:37:57] INFO root fetch - processPackages [smart-parallelize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_parallelize-2.0.8.tar.gz tmp/smart_parallelize-2.0.9.tar.gz --markdown 20240513/s/smart-parallelize/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-13 16:37:57] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 16:37:57] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.7.tar.gz tmp/lions-1.0.8.tar.gz --markdown 20240513/l/lions/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 16:37:57] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2024-05-13 16:37:57] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-1.8.0.tar.gz tmp/holobench-1.9.0.tar.gz --markdown 20240513/h/holobench/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 16:37:57] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/37/10/5b6c538185132dbee31ae89be4bb49b78a6c422f48583329c950c738741a/pkscreener-0.44.20240513.364.tar.gz
+[2024-05-13 16:37:58] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/73/b6/b06f1b835c2014c631ac0956105a767b68a668117713a571493c2edc3f48/declearn-2.3.2.tar.gz
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-13 16:37:58] INFO root fetch - processPackages [oasees-sdk]: Downloading https://files.pythonhosted.org/packages/70/15/8be92dc3eec858d59466b78441437174bbcd3ffaeb7d92fc1516ae93ab8b/oasees_sdk-0.2.2.tar.gz
+[2024-05-13 16:37:58] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240512.363.tar.gz tmp/pkscreener-0.44.20240513.364.tar.gz --markdown 20240513/p/pkscreener/0.44.20240512.363-0.44.20240513.364/README.md --exclude *.pyd
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240513/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240513/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-13 16:37:58] INFO root fetch - processPackages [oasees-sdk]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [oasees-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasees_sdk-0.2.1.tar.gz tmp/oasees_sdk-0.2.2.tar.gz --markdown 20240513/o/oasees-sdk/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240513/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-13 16:37:58] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/1a/d8/49fefbb7f771654b0fd1eab4abc1759ba6d611744a21d31824bdf766589e/declearn-2.4.0.tar.gz
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240513/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-13 16:37:58] INFO root fetch - processPackages [declearn]: executing diffoscope
+[2024-05-13 16:37:58] INFO root fetch - processPackages [declearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/declearn-2.3.2.tar.gz tmp/declearn-2.4.0.tar.gz --markdown 20240513/d/declearn/2.3.2-2.4.0/README.md --exclude *.pyd
+[2024-05-13 16:37:59] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.7.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.8.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [lions]: Start processing: nef-pipelines
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [smart-parallelize]: Remove: archive file [/home/abi/fetcher/tmp/smart_parallelize-2.0.8.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [smart-parallelize]: Remove: archive file [/home/abi/fetcher/tmp/smart_parallelize-2.0.9.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [smart-parallelize]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.68] Old Version: [0.1.66]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/3b/b8/f7ff5568d4051276db5e61f54169804108815bf8a45ddca9cf6dc62cbfa3/nef_pipelines-0.1.66.tar.gz
+[2024-05-13 16:37:59] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.8.0.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.9.0.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [oasees-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oasees_sdk-0.2.1.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [oasees-sdk]: Remove: archive file [/home/abi/fetcher/tmp/oasees_sdk-0.2.2.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [oasees-sdk]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240512.363.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240513.364.tar.gz]
+[2024-05-13 16:37:59] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-13 16:37:59] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/6b/9f/e1e12f852a2ead735ac6da66a2f0c4d88caae70dfff798711939a1654c28/nef_pipelines-0.1.68.tar.gz
+[2024-05-13 16:38:00] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-05-13 16:38:00] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.66.tar.gz tmp/nef_pipelines-0.1.68.tar.gz --markdown 20240513/n/nef-pipelines/0.1.66-0.1.68/README.md --exclude *.pyd
+[2024-05-13 16:38:00] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-13 16:38:00] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-13 16:38:00] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-13 16:38:01] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.3.2.tar.gz]
+[2024-05-13 16:38:01] INFO root fetch - processPackages [declearn]: Remove: archive file [/home/abi/fetcher/tmp/declearn-2.4.0.tar.gz]
+[2024-05-13 16:38:01] INFO root fetch - main [MainThread]: End processing [declearn]: success
+[2024-05-13 16:38:02] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.66.tar.gz]
+[2024-05-13 16:38:02] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.68.tar.gz]
+[2024-05-13 16:38:02] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-05-13 16:38:02] INFO root fetch - main [MainThread]: Store serial: [23184991]
