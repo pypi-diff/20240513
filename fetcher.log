@@ -9576,3 +9576,100 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:38:34] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-05-13 08:38:34] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-05-13 08:38:34] INFO root fetch - main [MainThread]: Store serial: [23178833]
+[2024-05-13 08:40:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178833]
+[2024-05-13 08:40:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: port-pulumi
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybandit
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cytimes
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: userinput-vrb
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: userinput-vrb
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binpolar
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aparat-crawler
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sentry-stack-dingding
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkp-statistic-ml-test
+[2024-05-13 08:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: astrosez
+[2024-05-13 08:40:58] INFO root fetch - processPackages [cytimes]: New version: [0.1.12.7] Old Version: [0.1.12.6]
+[2024-05-13 08:40:58] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.7] Old Version: [0.9.1.6]
+[2024-05-13 08:40:58] INFO root fetch - processPackages [binpolar]: New version: [0.3] Old Version: [0.1]
+[2024-05-13 08:40:58] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 08:40:58] WARNING root fetch - processPackages [pybandit]: Skipping, unable to determine old version
+[2024-05-13 08:40:58] INFO root fetch - processPackages [pybandit]: Start processing: DLMS-SPODES
+[2024-05-13 08:40:58] INFO root fetch - main [MainThread]: End processing [pybandit] error
+[2024-05-13 08:40:58] INFO root fetch - processPackages [userinput-vrb]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-13 08:40:58] INFO root fetch - processPackages [userinput-vrb]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-13 08:40:58] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/22/6b/a782dbcf618187381bc5b060a29e6b72b158a56e91717d5237b3c6f01ca4/aparat_crawler-0.9.1.6.tar.gz
+[2024-05-13 08:40:58] WARNING root fetch - processPackages [mkp-statistic-ml-test]: Skipping, unable to determine old version
+[2024-05-13 08:40:58] INFO root fetch - processPackages [mkp-statistic-ml-test]: Start processing: phrasifyz
+[2024-05-13 08:40:58] INFO root fetch - main [MainThread]: End processing [mkp-statistic-ml-test] error
+[2024-05-13 08:40:58] INFO root fetch - processPackages [port-pulumi]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-13 08:40:58] WARNING root fetch - processPackages [astrosez]: Skipping, unable to determine old version
+[2024-05-13 08:40:58] INFO root fetch - processPackages [astrosez]: Start processing: hscloud
+[2024-05-13 08:40:58] INFO root fetch - main [MainThread]: End processing [astrosez] error
+[2024-05-13 08:40:58] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/06/11/0064ec4e60149a69c231f7b44eff4f5295ad9dee5a75c2b7f180b4fc3d2c/sentry-stack-dingding-1.0.6.tar.gz
+[2024-05-13 08:40:58] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-13 08:40:58] INFO root fetch - processPackages [hscloud]: New version: [0.0.0.7] Old Version: [0.0.0.6]
+[2024-05-13 08:40:58] WARNING root fetch - processPackages [phrasifyz]: Skipping, unable to determine old version
+[2024-05-13 08:40:58] INFO root fetch - processPackages [phrasifyz]: Start processing: storybuilder
+[2024-05-13 08:40:58] INFO root fetch - main [MainThread]: End processing [phrasifyz] error
+[2024-05-13 08:40:58] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-13 08:40:58] INFO root fetch - processPackages [cytimes]: Downloading https://files.pythonhosted.org/packages/25/fb/d056f06e1f66eb777d1acf12a9cc6bd41f1da4335c490629bc05848908c2/cytimes-0.1.12.6.tar.gz
+[2024-05-13 08:40:58] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/0b/ff/26d5a9ac304db7126f0a62d926ee9ffcc9a8dfbb7ff47c66b509af628711/binpolar-0.1.tar.gz
+[2024-05-13 08:40:58] INFO root fetch - processPackages [userinput-vrb]: Downloading https://files.pythonhosted.org/packages/a8/cf/3c5ff60de077e51044df6b3f4bd267bf1f42007bb3ce8b1cbf324a114c8f/userinput_vrb-0.9.0.tar.gz
+[2024-05-13 08:40:58] INFO root fetch - processPackages [userinput-vrb]: Downloading https://files.pythonhosted.org/packages/a8/cf/3c5ff60de077e51044df6b3f4bd267bf1f42007bb3ce8b1cbf324a114c8f/userinput_vrb-0.9.0.tar.gz
+[2024-05-13 08:40:58] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/9f/f2/f37bfd4cac52c71f72d645e0ab882fbfd0efcbf2e68b8ef721e6227b2400/hscloud-0.0.0.6.tar.gz
+[2024-05-13 08:40:58] WARNING root fetch - processPackages [storybuilder]: Skipping, unable to determine old version
+[2024-05-13 08:40:58] INFO root fetch - main [MainThread]: End processing [storybuilder] error
+[2024-05-13 08:40:59] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/94/68/0757345bfbe8b3a38e22fa6de25f07fa1f1154ea25d9575f049b7785a0f7/port_pulumi-2.0.0.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/c3/8f/3f632cdd21b2047cec330e22f5f4ffb062ef8fb283309dc94265f882a776/sentry-stack-dingding-1.0.7.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/4d/58/f1d5b8269f30ea57434e2bd904e12a254b88fb0702a3349d3fd47315d63d/aparat_crawler-0.9.1.7.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.6.tar.gz tmp/sentry-stack-dingding-1.0.7.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.6.tar.gz tmp/aparat_crawler-0.9.1.7.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.6-0.9.1.7/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [userinput-vrb]: Downloading https://files.pythonhosted.org/packages/99/90/3e0e9cef5b3e9a9ab18a7baf07bd73f59a6e85a9118c00076650dc40a4b0/userinput_vrb-1.0.0.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [userinput-vrb]: Downloading https://files.pythonhosted.org/packages/99/90/3e0e9cef5b3e9a9ab18a7baf07bd73f59a6e85a9118c00076650dc40a4b0/userinput_vrb-1.0.0.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/d5/c4/63b65a1c1f85fcf4526ee740c5aa68e8d22f2142219b7289ed6cd5321716/binpolar-0.3.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/62/18d957bbb3a26818eeab6c1c066ce4d5731f79153487d5a0af1ee2cdfa6e/hscloud-0.0.0.7.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/df/61/b4180c72304f61636ba7055575fe1736c04d0bceeed1f96c1c5a8a8f4442/port_pulumi-2.0.1.tar.gz
+[2024-05-13 08:40:59] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240513/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [userinput-vrb]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [userinput-vrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userinput_vrb-0.9.0.tar.gz tmp/userinput_vrb-1.0.0.tar.gz --markdown 20240513/u/userinput-vrb/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [userinput-vrb]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [userinput-vrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userinput_vrb-0.9.0.tar.gz tmp/userinput_vrb-1.0.0.tar.gz --markdown 20240513/u/userinput-vrb/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [binpolar]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [binpolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpolar-0.1.tar.gz tmp/binpolar-0.3.tar.gz --markdown 20240513/b/binpolar/0.1-0.3/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.6.tar.gz tmp/hscloud-0.0.0.7.tar.gz --markdown 20240513/h/hscloud/0.0.0.6-0.0.0.7/README.md --exclude *.pyd
+[2024-05-13 08:40:59] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2024-05-13 08:40:59] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-2.0.0.tar.gz tmp/port_pulumi-2.0.1.tar.gz --markdown 20240513/p/port-pulumi/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-13 08:41:00] INFO root fetch - processPackages [cytimes]: Downloading https://files.pythonhosted.org/packages/d1/94/230f87173068c92c169c97f4ac50f86598aa22882a77ff4507896591224a/cytimes-0.1.12.7.tar.gz
+[2024-05-13 08:41:00] INFO root fetch - processPackages [cytimes]: executing diffoscope
+[2024-05-13 08:41:00] INFO root fetch - processPackages [cytimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytimes-0.1.12.6.tar.gz tmp/cytimes-0.1.12.7.tar.gz --markdown 20240513/c/cytimes/0.1.12.6-0.1.12.7/README.md --exclude *.pyd
+[2024-05-13 08:41:00] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.6.tar.gz]
+[2024-05-13 08:41:00] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.7.tar.gz]
+[2024-05-13 08:41:00] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 08:41:00] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.6.tar.gz]
+[2024-05-13 08:41:00] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.7.tar.gz]
+[2024-05-13 08:41:00] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 08:41:00] INFO root fetch - processPackages [userinput-vrb]: Remove: archive file [/home/abi/fetcher/tmp/userinput_vrb-0.9.0.tar.gz]
+[2024-05-13 08:41:00] INFO root fetch - processPackages [userinput-vrb]: Remove: archive file [/home/abi/fetcher/tmp/userinput_vrb-1.0.0.tar.gz]
+[2024-05-13 08:41:00] INFO root fetch - main [MainThread]: End processing [userinput-vrb]: success
+[2024-05-13 08:41:01] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.1.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.3.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - main [MainThread]: End processing [binpolar]: success
+[2024-05-13 08:41:01] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.6.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.7.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-13 08:41:01] INFO root fetch - main [MainThread]: End processing [userinput-vrb]: success
+[2024-05-13 08:41:01] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-2.0.0.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-2.0.1.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2024-05-13 08:41:01] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-13 08:41:01] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-13 08:41:04] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-0.1.12.6.tar.gz]
+[2024-05-13 08:41:04] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-0.1.12.7.tar.gz]
+[2024-05-13 08:41:04] INFO root fetch - main [MainThread]: End processing [cytimes]: success
+[2024-05-13 08:41:04] INFO root fetch - main [MainThread]: Store serial: [23178895]
