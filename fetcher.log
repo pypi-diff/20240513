@@ -9822,3 +9822,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:51:57] WARNING root fetch - processPackages [osmographz]: Skipping, unable to determine old version
 [2024-05-13 08:51:57] INFO root fetch - main [MainThread]: End processing [osmographz] error
 [2024-05-13 08:51:57] INFO root fetch - main [MainThread]: Store serial: [23178966]
+[2024-05-13 08:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178966]
+[2024-05-13 08:54:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 08:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophecy-build-tool
+[2024-05-13 08:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectbox
+[2024-05-13 08:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bazel-runfiles
+[2024-05-13 08:54:06] INFO root fetch - processPackages [objectbox]: New version: [0.7.0a9] Old Version: [0.7.0a8]
+[2024-05-13 08:54:06] INFO root fetch - processPackages [bazel-runfiles]: New version: [0.32.0] Old Version: [0.31.0]
+[2024-05-13 08:54:07] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-13 08:54:07] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/cc/ba/44e8ce980ec0a88c80e70492fdf005fe438e7ad5d861fa6a1b4a6875fd8a/objectbox-0.7.0a8-py3-none-any.whl
+[2024-05-13 08:54:07] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/98/82/d8e4c0c34521b5a72a2a6568999e43d8ae3e6b5bfd00c29e6bb4cfe491e2/bazel_runfiles-0.31.0-py3-none-any.whl
+[2024-05-13 08:54:07] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/c8/6b/8028b689d0491b9a1df5176a2fa2d0b8c069d9fa4833b9aa3dc97b9ff24e/bazel_runfiles-0.32.0-py3-none-any.whl
+[2024-05-13 08:54:07] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-13 08:54:07] INFO root fetch - processPackages [bazel-runfiles]: executing diffoscope
+[2024-05-13 08:54:07] INFO root fetch - processPackages [bazel-runfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazel_runfiles-0.31.0-py3-none-any.whl.zip tmp/bazel_runfiles-0.32.0-py3-none-any.whl.zip --markdown 20240513/b/bazel-runfiles/0.31.0-0.32.0/README.md --exclude *.pyd
+[2024-05-13 08:54:07] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/c3/61/0aa9d0116287743c7d3ed3dcd0cecddd576b2c27bc58cd72ac9e9513a8be/objectbox-0.7.0a9-py3-none-any.whl
+[2024-05-13 08:54:07] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-13 08:54:07] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-13 08:54:07] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-0.7.0a8-py3-none-any.whl.zip tmp/objectbox-0.7.0a9-py3-none-any.whl.zip --markdown 20240513/o/objectbox/0.7.0a8-0.7.0a9/README.md --exclude *.pyd
+[2024-05-13 08:54:07] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-13 08:54:07] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240513/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-13 08:54:08] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.31.0-py3-none-any.whl.zip]
+[2024-05-13 08:54:08] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.32.0-py3-none-any.whl.zip]
+[2024-05-13 08:54:08] INFO root fetch - main [MainThread]: End processing [bazel-runfiles]: success
+[2024-05-13 08:54:08] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-13 08:54:08] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-13 08:54:08] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-13 08:54:53] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a8-py3-none-any.whl.zip]
+[2024-05-13 08:54:53] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a9-py3-none-any.whl.zip]
+[2024-05-13 08:54:53] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-13 08:54:53] INFO root fetch - main [MainThread]: Store serial: [23178979]
