@@ -9161,3 +9161,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:14:14] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
 [2024-05-13 08:14:14] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
 [2024-05-13 08:14:14] INFO root fetch - main [MainThread]: Store serial: [23178615]
+[2024-05-13 08:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178615]
+[2024-05-13 08:16:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unshelteringz
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vsmetaEncoder
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubeinfra
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ce-ui
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aparat-crawler
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uiautomator2
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ce-ui]: New version: [1.8.0] Old Version: [1.7.2]
+[2024-05-13 08:16:22] INFO root fetch - processPackages [kubeinfra]: New version: [0.1.1a1] Old Version: [0.0.1a1]
+[2024-05-13 08:16:22] WARNING root fetch - processPackages [unshelteringz]: Skipping, unable to determine old version
+[2024-05-13 08:16:22] INFO root fetch - main [MainThread]: End processing [unshelteringz] error
+[2024-05-13 08:16:22] INFO root fetch - processPackages [ce-ui]: Downloading https://files.pythonhosted.org/packages/1d/fb/497d2da786e3b5e4a37ab17c413354ea585c0e8f8e47beed832c35e35756/ce_ui-1.7.2.tar.gz
+[2024-05-13 08:16:22] INFO root fetch - processPackages [vsmetaEncoder]: New version: [1.1.1] Old Version: [0.9]
+[2024-05-13 08:16:22] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.6] Old Version: [0.9.1.5]
+[2024-05-13 08:16:22] INFO root fetch - processPackages [uiautomator2]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-13 08:16:22] INFO root fetch - processPackages [kubeinfra]: Downloading https://files.pythonhosted.org/packages/32/e0/f05fab953e4c26d8de08307717ef788d4ae661e8d1c87bbeb245f37bc278/kubeinfra-0.0.1a1.tar.gz
+[2024-05-13 08:16:23] INFO root fetch - processPackages [vsmetaEncoder]: Downloading https://files.pythonhosted.org/packages/de/f7/6e2ef5f2639d35048a8075d60f89eb257f09eee0f6df6a9217a3156cbe8f/vsmetaEncoder-0.9.tar.gz
+[2024-05-13 08:16:23] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/82/97/0063104213953935e81b0853dab1a04fc4bfb2e695a772f3d800ad16b554/aparat_crawler-0.9.1.5.tar.gz
+[2024-05-13 08:16:23] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/42/54/adb8c6f4d5981c3a567cc1019010a45e1432f363bd027a2be23dad7c32eb/uiautomator2-3.0.8.tar.gz
+[2024-05-13 08:16:23] INFO root fetch - processPackages [ce-ui]: Downloading https://files.pythonhosted.org/packages/9c/44/46bfd2b222c6f3684e305fb5f1de6909d8406d22dc0cf6e033b2e55dfd55/ce_ui-1.8.0.tar.gz
+[2024-05-13 08:16:23] ERROR root fetch - processPackages [kubeinfra]: Unable to fetch info: No such project/version 'kubeinfra' 0.1.1a1
+[2024-05-13 08:16:23] INFO root fetch - main [MainThread]: End processing [kubeinfra] error
+[2024-05-13 08:16:23] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/22/6b/a782dbcf618187381bc5b060a29e6b72b158a56e91717d5237b3c6f01ca4/aparat_crawler-0.9.1.6.tar.gz
+[2024-05-13 08:16:23] INFO root fetch - processPackages [vsmetaEncoder]: Downloading https://files.pythonhosted.org/packages/2a/20/050b53dfd41003ae63cea591936dfa1942a3dc3038d74dee56e3a542ca0c/vsmetaencoder-1.1.1.tar.gz
+[2024-05-13 08:16:23] INFO root fetch - processPackages [ce-ui]: executing diffoscope
+[2024-05-13 08:16:23] INFO root fetch - processPackages [ce-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_ui-1.7.2.tar.gz tmp/ce_ui-1.8.0.tar.gz --markdown 20240513/c/ce-ui/1.7.2-1.8.0/README.md --exclude *.pyd
+[2024-05-13 08:16:23] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 08:16:23] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.5.tar.gz tmp/aparat_crawler-0.9.1.6.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.5-0.9.1.6/README.md --exclude *.pyd
+[2024-05-13 08:16:23] INFO root fetch - processPackages [vsmetaEncoder]: executing diffoscope
+[2024-05-13 08:16:23] INFO root fetch - processPackages [vsmetaEncoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsmetaEncoder-0.9.tar.gz tmp/vsmetaencoder-1.1.1.tar.gz --markdown 20240513/v/vsmetaEncoder/0.9-1.1.1/README.md --exclude *.pyd
+[2024-05-13 08:16:23] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/45/e9/352ceaa7f871f2ff3b9c8cf661414f73c6857dffc42977c57b9a621b837c/uiautomator2-3.0.9.tar.gz
+[2024-05-13 08:16:24] INFO root fetch - processPackages [uiautomator2]: executing diffoscope
+[2024-05-13 08:16:24] INFO root fetch - processPackages [uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautomator2-3.0.8.tar.gz tmp/uiautomator2-3.0.9.tar.gz --markdown 20240513/u/uiautomator2/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-13 08:16:24] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.5.tar.gz]
+[2024-05-13 08:16:24] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.6.tar.gz]
+[2024-05-13 08:16:24] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 08:16:24] INFO root fetch - processPackages [vsmetaEncoder]: Remove: archive file [/home/abi/fetcher/tmp/vsmetaEncoder-0.9.tar.gz]
+[2024-05-13 08:16:24] INFO root fetch - processPackages [vsmetaEncoder]: Remove: archive file [/home/abi/fetcher/tmp/vsmetaencoder-1.1.1.tar.gz]
+[2024-05-13 08:16:24] INFO root fetch - main [MainThread]: End processing [vsmetaEncoder]: success
+[2024-05-13 08:16:24] INFO root fetch - processPackages [ce-ui]: Remove: archive file [/home/abi/fetcher/tmp/ce_ui-1.7.2.tar.gz]
+[2024-05-13 08:16:24] INFO root fetch - processPackages [ce-ui]: Remove: archive file [/home/abi/fetcher/tmp/ce_ui-1.8.0.tar.gz]
+[2024-05-13 08:16:24] INFO root fetch - main [MainThread]: End processing [ce-ui]: success
+[2024-05-13 08:16:25] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.8.tar.gz]
+[2024-05-13 08:16:25] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.9.tar.gz]
+[2024-05-13 08:16:25] INFO root fetch - main [MainThread]: End processing [uiautomator2]: success
+[2024-05-13 08:16:25] INFO root fetch - main [MainThread]: Store serial: [23178634]
