@@ -19987,3 +19987,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 15:06:16] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2024-05-13 15:06:16] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2024-05-13 15:06:16] INFO root fetch - main [MainThread]: Store serial: [23183387]
+[2024-05-13 15:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183387]
+[2024-05-13 15:08:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fontc
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypothesis-crosshair
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langtest
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CRUDFastAPI
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manage-requirements-files
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-oidc-backend
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tenvplate
+[2024-05-13 15:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pbx-code-owners
+[2024-05-13 15:08:25] WARNING root fetch - processPackages [fastapi-oidc-backend]: Skipping, unable to determine old version
+[2024-05-13 15:08:25] INFO root fetch - main [MainThread]: End processing [fastapi-oidc-backend] error
+[2024-05-13 15:08:25] INFO root fetch - processPackages [fontc]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2024-05-13 15:08:25] INFO root fetch - processPackages [manage-requirements-files]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 15:08:25] WARNING root fetch - processPackages [tenvplate]: Skipping, unable to determine old version
+[2024-05-13 15:08:25] INFO root fetch - main [MainThread]: End processing [tenvplate] error
+[2024-05-13 15:08:25] INFO root fetch - processPackages [langtest]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2024-05-13 15:08:25] WARNING root fetch - processPackages [CRUDFastAPI]: Skipping, unable to determine old version
+[2024-05-13 15:08:25] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI] error
+[2024-05-13 15:08:25] INFO root fetch - processPackages [hypothesis-crosshair]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-13 15:08:25] INFO root fetch - processPackages [pbx-code-owners]: New version: [1.1.0a0] Old Version: [1.0.0a6]
+[2024-05-13 15:08:25] INFO root fetch - processPackages [fontc]: Downloading https://files.pythonhosted.org/packages/cc/05/98b1dd0e8ddd63d21abe14ce05e34816123896aafbd854c62860534f957b/fontc-0.0.2a2.tar.gz
+[2024-05-13 15:08:25] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/72/96/71a7b5b0139db7fd2cc70956f496f514461cba17b9419f24926fc8033c93/langtest-2.2.0rc1.tar.gz
+[2024-05-13 15:08:25] INFO root fetch - processPackages [hypothesis-crosshair]: Downloading https://files.pythonhosted.org/packages/a4/47/02dfeca80bdada816fff238ab968e568aa99e8b6aae760cc15235a80fe45/hypothesis-crosshair-0.0.2.tar.gz
+[2024-05-13 15:08:25] INFO root fetch - processPackages [manage-requirements-files]: Downloading https://files.pythonhosted.org/packages/82/8c/499d2dce3d0c5cf36ed26361b42a6477fc919ccbaad168ecc8d82cf927b9/manage_requirements_files-0.1.2.tar.gz
+[2024-05-13 15:08:25] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 19423950>=10485760
+[2024-05-13 15:08:25] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/7d/3f/0e98ac9be62f8d76ea303901088d197a48effdf5e832a29fcecbbdfc993b/pbx_code_owners-1.0.0a6.tar.gz
+[2024-05-13 15:08:25] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2024-05-13 15:08:26] INFO root fetch - processPackages [hypothesis-crosshair]: Downloading https://files.pythonhosted.org/packages/8a/bd/13876bd235ee01e5c06b62cca3f554cab5eec9663f72cf091711e36b365d/hypothesis_crosshair-0.0.4.tar.gz
+[2024-05-13 15:08:26] INFO root fetch - processPackages [manage-requirements-files]: Downloading https://files.pythonhosted.org/packages/8d/25/e20e89b40276acb7d1cac0ed045d5f0aedcd7aaeeccbe20a18df8a12fa78/manage_requirements_files-0.1.3.tar.gz
+[2024-05-13 15:08:26] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/be/39/0d05b850091ea71b4550d92f820096a72a811b795c69d526af2161293d1c/pbx_code_owners-1.1.0a0-py3-none-any.whl
+[2024-05-13 15:08:26] INFO root fetch - processPackages [manage-requirements-files]: executing diffoscope
+[2024-05-13 15:08:26] INFO root fetch - processPackages [manage-requirements-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manage_requirements_files-0.1.2.tar.gz tmp/manage_requirements_files-0.1.3.tar.gz --markdown 20240513/m/manage-requirements-files/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 15:08:26] INFO root fetch - processPackages [hypothesis-crosshair]: executing diffoscope
+[2024-05-13 15:08:26] INFO root fetch - processPackages [hypothesis-crosshair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis-crosshair-0.0.2.tar.gz tmp/hypothesis_crosshair-0.0.4.tar.gz --markdown 20240513/h/hypothesis-crosshair/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-13 15:08:26] INFO root fetch - processPackages [fontc]: executing diffoscope
+[2024-05-13 15:08:26] INFO root fetch - processPackages [fontc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fontc-0.0.2a1.tar.gz tmp/fontc-0.0.2a2.tar.gz --markdown 20240513/f/fontc/0.0.2a1-0.0.2a2/README.md --exclude *.pyd
+[2024-05-13 15:08:26] INFO root fetch - processPackages [pbx-code-owners]: executing diffoscope
+[2024-05-13 15:08:26] INFO root fetch - processPackages [pbx-code-owners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_code_owners-1.0.0a6.tar.gz tmp/pbx_code_owners-1.1.0a0-py3-none-any.whl.zip --markdown 20240513/p/pbx-code-owners/1.0.0a6-1.1.0a0/README.md --exclude *.pyd
+[2024-05-13 15:08:26] INFO root fetch - processPackages [hypothesis-crosshair]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis-crosshair-0.0.2.tar.gz]
+[2024-05-13 15:08:26] INFO root fetch - processPackages [hypothesis-crosshair]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_crosshair-0.0.4.tar.gz]
+[2024-05-13 15:08:26] INFO root fetch - main [MainThread]: End processing [hypothesis-crosshair]: success
+[2024-05-13 15:08:27] INFO root fetch - processPackages [manage-requirements-files]: Remove: archive file [/home/abi/fetcher/tmp/manage_requirements_files-0.1.2.tar.gz]
+[2024-05-13 15:08:27] INFO root fetch - processPackages [manage-requirements-files]: Remove: archive file [/home/abi/fetcher/tmp/manage_requirements_files-0.1.3.tar.gz]
+[2024-05-13 15:08:27] INFO root fetch - main [MainThread]: End processing [manage-requirements-files]: success
+[2024-05-13 15:08:27] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.0.0a6.tar.gz]
+[2024-05-13 15:08:27] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.1.0a0-py3-none-any.whl.zip]
+[2024-05-13 15:08:27] INFO root fetch - main [MainThread]: End processing [pbx-code-owners]: success
+[2024-05-13 15:08:34] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a1.tar.gz]
+[2024-05-13 15:08:34] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a2.tar.gz]
+[2024-05-13 15:08:34] INFO root fetch - main [MainThread]: End processing [fontc]: success
+[2024-05-13 15:08:34] INFO root fetch - main [MainThread]: Store serial: [23183419]
