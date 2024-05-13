@@ -21848,3 +21848,50 @@ EOFError: EOF read where object expected
 [2024-05-13 16:00:32] INFO root fetch - processPackages [kicost]: Remove: archive file [/home/abi/fetcher/tmp/kicost-1.1.8.tar.gz]
 [2024-05-13 16:00:32] INFO root fetch - main [MainThread]: End processing [kicost]: success
 [2024-05-13 16:00:32] INFO root fetch - main [MainThread]: Store serial: [23184196]
+[2024-05-13 16:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184196]
+[2024-05-13 16:02:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 16:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superblocks-types
+[2024-05-13 16:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oking
+[2024-05-13 16:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snapstream
+[2024-05-13 16:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cdk
+[2024-05-13 16:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lions
+[2024-05-13 16:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TRIALPY5
+[2024-05-13 16:02:41] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 16:02:41] INFO root fetch - processPackages [lions]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 16:02:41] INFO root fetch - processPackages [snapstream]: New version: [1.0.1b0] Old Version: [1.0.0b0]
+[2024-05-13 16:02:41] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/78/fa/1113bab36ddae9527c218ca24e51744210e3fca643855160bc85e71dde20/superblocks-types-0.0.2.tar.gz
+[2024-05-13 16:02:41] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/8b/8f/91c6035bc07116c87e81e86937f285e53f4c8c00c118463139bc9d71947d/lions-1.0.4.tar.gz
+[2024-05-13 16:02:41] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.9] Old Version: [0.17.7]
+[2024-05-13 16:02:41] INFO root fetch - processPackages [oking]: New version: [4.2.90] Old Version: [4.2.9]
+[2024-05-13 16:02:41] WARNING root fetch - processPackages [TRIALPY5]: Skipping, unable to determine old version
+[2024-05-13 16:02:41] INFO root fetch - main [MainThread]: End processing [TRIALPY5] error
+[2024-05-13 16:02:41] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/4c/e6/dd904eb3ff8ff11cc9e94a34cd9f82ab57b23447354b88b46c27c0565346/snapstream-1.0.0b0.tar.gz
+[2024-05-13 16:02:41] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/80/89/b3d0f647bf1674cb15a8732e2749bdb9019be669484a7fa2187d5b42959a/superblocks-types-0.0.3.tar.gz
+[2024-05-13 16:02:41] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/f3/81/f30f9f528ee749955097b3b30e9e4a3bda7150fe0f441e292388e5b3538f/tinybird_cdk-0.17.7.tar.gz
+[2024-05-13 16:02:41] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/f8/47/8fc28a5fecf3d0cd0244b5944ce3232b8abdf5f6ed0c9079242daafa5289/oking-4.2.9.tar.gz
+[2024-05-13 16:02:41] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-13 16:02:41] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.2.tar.gz tmp/superblocks-types-0.0.3.tar.gz --markdown 20240513/s/superblocks-types/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 16:02:41] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/50/f7/24358aaa650c9affe51e3989589f1cda263d10bfb76caba8a3d01c048e59/lions-1.0.5.tar.gz
+[2024-05-13 16:02:41] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82503995>=10485760
+[2024-05-13 16:02:41] INFO root fetch - main [MainThread]: End processing [oking] error
+[2024-05-13 16:02:41] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 16:02:41] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.4.tar.gz tmp/lions-1.0.5.tar.gz --markdown 20240513/l/lions/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 16:02:42] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/20/85/f49ae06acca0765c681d33bf93ce395fb17067a114750fc799f793f7854c/snapstream-1.0.1b0.tar.gz
+[2024-05-13 16:02:42] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/c0/52/ca33789ac475a5f5a554bfa9bed5120e1b89730afac4d6adf74847cf8839/tinybird_cdk-0.17.9.tar.gz
+[2024-05-13 16:02:42] INFO root fetch - processPackages [snapstream]: executing diffoscope
+[2024-05-13 16:02:42] INFO root fetch - processPackages [snapstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapstream-1.0.0b0.tar.gz tmp/snapstream-1.0.1b0.tar.gz --markdown 20240513/s/snapstream/1.0.0b0-1.0.1b0/README.md --exclude *.pyd
+[2024-05-13 16:02:42] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-05-13 16:02:42] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird_cdk-0.17.7.tar.gz tmp/tinybird_cdk-0.17.9.tar.gz --markdown 20240513/t/tinybird-cdk/0.17.7-0.17.9/README.md --exclude *.pyd
+[2024-05-13 16:02:42] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.2.tar.gz]
+[2024-05-13 16:02:42] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.3.tar.gz]
+[2024-05-13 16:02:42] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-13 16:02:42] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.4.tar.gz]
+[2024-05-13 16:02:42] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.5.tar.gz]
+[2024-05-13 16:02:42] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 16:02:42] INFO root fetch - processPackages [snapstream]: Remove: archive file [/home/abi/fetcher/tmp/snapstream-1.0.0b0.tar.gz]
+[2024-05-13 16:02:42] INFO root fetch - processPackages [snapstream]: Remove: archive file [/home/abi/fetcher/tmp/snapstream-1.0.1b0.tar.gz]
+[2024-05-13 16:02:42] INFO root fetch - main [MainThread]: End processing [snapstream]: success
+[2024-05-13 16:02:43] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.7.tar.gz]
+[2024-05-13 16:02:43] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.9.tar.gz]
+[2024-05-13 16:02:43] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-05-13 16:02:43] INFO root fetch - main [MainThread]: Store serial: [23184214]
