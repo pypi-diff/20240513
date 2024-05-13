@@ -12653,3 +12653,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:51:36] INFO root fetch - processPackages [ciceroscm]: Remove: archive file [/home/abi/fetcher/tmp/ciceroscm-1.1.2.tar.gz]
 [2024-05-13 10:51:36] INFO root fetch - main [MainThread]: End processing [ciceroscm]: success
 [2024-05-13 10:51:36] INFO root fetch - main [MainThread]: Store serial: [23180346]
+[2024-05-13 10:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180346]
+[2024-05-13 10:53:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-core-package
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt-idax
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: euporie
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-tsugu
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lxs-SimpleTools
+[2024-05-13 10:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fiercenessz
+[2024-05-13 10:53:46] INFO root fetch - processPackages [lxs-SimpleTools]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 10:53:46] INFO root fetch - processPackages [test-core-package]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 10:53:46] WARNING root fetch - processPackages [ccxt-idax]: Skipping, unable to determine old version
+[2024-05-13 10:53:46] INFO root fetch - main [MainThread]: End processing [ccxt-idax] error
+[2024-05-13 10:53:46] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-13 10:53:46] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/57/1b/52a9abcd4e385393d9e4e00b38063cf28459014fa5ec5cd1be2b9a48f83c/test_core_package-0.0.5.tar.gz
+[2024-05-13 10:53:46] WARNING root fetch - processPackages [fiercenessz]: Skipping, unable to determine old version
+[2024-05-13 10:53:46] WARNING root fetch - processPackages [nonebot-tsugu]: Skipping, unable to determine old version
+[2024-05-13 10:53:46] INFO root fetch - main [MainThread]: End processing [fiercenessz] error
+[2024-05-13 10:53:46] INFO root fetch - main [MainThread]: End processing [nonebot-tsugu] error
+[2024-05-13 10:53:46] INFO root fetch - processPackages [euporie]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-05-13 10:53:46] INFO root fetch - processPackages [lxs-SimpleTools]: Downloading https://files.pythonhosted.org/packages/8e/5c/edc20d2031e0f47e3375d50eb8548cbdbe05e458148afdbc0e774b0a1af8/lxs_simpletools-1.0.0.tar.gz
+[2024-05-13 10:53:46] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-13 10:53:46] INFO root fetch - processPackages [euporie]: Downloading https://files.pythonhosted.org/packages/70/95/e2f91ca56d9530bb88d987a344bec47fa1141a650eadf65cd62179b47870/euporie-2.8.1.tar.gz
+[2024-05-13 10:53:46] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/9f/0e/2d690d58e7cab934645b77a9076130a7a1363e81d5116935d86e973b9db3/test_core_package-0.0.6.tar.gz
+[2024-05-13 10:53:46] INFO root fetch - processPackages [lxs-SimpleTools]: Downloading https://files.pythonhosted.org/packages/09/54/aeab9128dd4004cd8654988512ba496d87650c5ec59658c2d9713970cf80/lxs_simpletools-1.0.1.tar.gz
+[2024-05-13 10:53:46] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-13 10:53:46] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.0.5.tar.gz tmp/test_core_package-0.0.6.tar.gz --markdown 20240513/t/test-core-package/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 10:53:46] INFO root fetch - processPackages [lxs-SimpleTools]: executing diffoscope
+[2024-05-13 10:53:46] INFO root fetch - processPackages [lxs-SimpleTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxs_simpletools-1.0.0.tar.gz tmp/lxs_simpletools-1.0.1.tar.gz --markdown 20240513/l/lxs-SimpleTools/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 10:53:46] INFO root fetch - processPackages [euporie]: Downloading https://files.pythonhosted.org/packages/8c/fd/d805efc6658c12d8e9217458ef2c0dff7c0ea12c4e7f073b7e26c6a0e1bd/euporie-2.8.2-py3-none-any.whl
+[2024-05-13 10:53:46] INFO root fetch - processPackages [euporie]: executing diffoscope
+[2024-05-13 10:53:46] INFO root fetch - processPackages [euporie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euporie-2.8.1.tar.gz tmp/euporie-2.8.2-py3-none-any.whl.zip --markdown 20240513/e/euporie/2.8.1-2.8.2/README.md --exclude *.pyd
+[2024-05-13 10:53:47] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-13 10:53:47] INFO root fetch - processPackages [lxs-SimpleTools]: Remove: archive file [/home/abi/fetcher/tmp/lxs_simpletools-1.0.0.tar.gz]
+[2024-05-13 10:53:47] INFO root fetch - processPackages [lxs-SimpleTools]: Remove: archive file [/home/abi/fetcher/tmp/lxs_simpletools-1.0.1.tar.gz]
+[2024-05-13 10:53:47] INFO root fetch - main [MainThread]: End processing [lxs-SimpleTools]: success
+[2024-05-13 10:53:47] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-13 10:53:47] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240513/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-13 10:53:47] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.5.tar.gz]
+[2024-05-13 10:53:47] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.6.tar.gz]
+[2024-05-13 10:53:47] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-13 10:53:47] INFO root fetch - processPackages [euporie]: Remove: archive file [/home/abi/fetcher/tmp/euporie-2.8.1.tar.gz]
+[2024-05-13 10:53:47] INFO root fetch - processPackages [euporie]: Remove: archive file [/home/abi/fetcher/tmp/euporie-2.8.2-py3-none-any.whl.zip]
+[2024-05-13 10:53:47] INFO root fetch - main [MainThread]: End processing [euporie]: success
+[2024-05-13 10:54:05] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-13 10:54:05] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-13 10:54:05] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-13 10:54:05] INFO root fetch - main [MainThread]: Store serial: [23180371]
