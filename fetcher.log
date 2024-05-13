@@ -5017,3 +5017,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:58:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.6.2.tar.gz]
 [2024-05-13 05:58:14] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-13 05:58:14] INFO root fetch - main [MainThread]: Store serial: [23176692]
+[2024-05-13 06:00:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176692]
+[2024-05-13 06:00:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 06:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pisahkan-ktp
+[2024-05-13 06:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-spiff-workflow
+[2024-05-13 06:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SelfCalibratedConformal
+[2024-05-13 06:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanoCEM
+[2024-05-13 06:00:23] WARNING root fetch - processPackages [django-spiff-workflow]: Skipping, unable to determine old version
+[2024-05-13 06:00:23] INFO root fetch - main [MainThread]: End processing [django-spiff-workflow] error
+[2024-05-13 06:00:23] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-13 06:00:23] INFO root fetch - processPackages [SelfCalibratedConformal]: New version: [0.433] Old Version: [0.432]
+[2024-05-13 06:00:23] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/ef/4e/f35e2dbd4d680487298926b8ead74ae531c15f4c8deee025bd7ceddf3f23/pisahkan_ktp-0.1.6.tar.gz
+[2024-05-13 06:00:23] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.5.9] Old Version: [0.0.5.8]
+[2024-05-13 06:00:23] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/92/b5/1e0cb7e27b674d68f150a864ddaca7e066e483df4f9cc07c901f27946a8e/SelfCalibratedConformal-0.432.tar.gz
+[2024-05-13 06:00:23] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/26/11/d38da91362a03891b67f079fa632936f5424cc8fa8aca4ef7a330370ff39/nanoCEM-0.0.5.8.tar.gz
+[2024-05-13 06:00:23] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/ed/b5/142b0e6b87095aa00361d6d9ded272b6ecca5268911601f3c1b47ce86e05/pisahkan_ktp-0.1.7.tar.gz
+[2024-05-13 06:00:23] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/06/ab/16aee6246206e5e3cf271c1328658df5f61a6d5dc5aa91ecd9cacc42d4dd/SelfCalibratedConformal-0.433.tar.gz
+[2024-05-13 06:00:23] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-13 06:00:23] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.1.6.tar.gz tmp/pisahkan_ktp-0.1.7.tar.gz --markdown 20240513/p/pisahkan-ktp/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-13 06:00:23] INFO root fetch - processPackages [SelfCalibratedConformal]: executing diffoscope
+[2024-05-13 06:00:23] INFO root fetch - processPackages [SelfCalibratedConformal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SelfCalibratedConformal-0.432.tar.gz tmp/SelfCalibratedConformal-0.433.tar.gz --markdown 20240513/S/SelfCalibratedConformal/0.432-0.433/README.md --exclude *.pyd
+[2024-05-13 06:00:23] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/3f/ce/bf51a91b9dd2407d720d06a01caf44f9a90303dd8d4c4c51e6dc27c6e93a/nanoCEM-0.0.5.9.tar.gz
+[2024-05-13 06:00:23] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-05-13 06:00:23] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.5.8.tar.gz tmp/nanoCEM-0.0.5.9.tar.gz --markdown 20240513/n/nanoCEM/0.0.5.8-0.0.5.9/README.md --exclude *.pyd
+[2024-05-13 06:00:24] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.432.tar.gz]
+[2024-05-13 06:00:24] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.433.tar.gz]
+[2024-05-13 06:00:24] INFO root fetch - main [MainThread]: End processing [SelfCalibratedConformal]: success
+[2024-05-13 06:00:24] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.1.6.tar.gz]
+[2024-05-13 06:00:24] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.1.7.tar.gz]
+[2024-05-13 06:00:24] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-13 06:00:24] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.8.tar.gz]
+[2024-05-13 06:00:24] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.9.tar.gz]
+[2024-05-13 06:00:24] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-05-13 06:00:24] INFO root fetch - main [MainThread]: Store serial: [23176703]
