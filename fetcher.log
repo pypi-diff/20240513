@@ -21200,3 +21200,69 @@ EOFError: EOF read where object expected
 [2024-05-13 15:40:27] INFO root fetch - processPackages [odoo-addon-event-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_mail-16.0.1.1.0-py3-none-any.whl.zip]
 [2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-mail]: success
 [2024-05-13 15:40:27] INFO root fetch - main [MainThread]: Store serial: [23183927]
+[2024-05-13 15:42:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183927]
+[2024-05-13 15:42:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superlinked
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deeporigin
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjtool
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Hakware-py
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dreamhack
+[2024-05-13 15:42:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorkrowch
+[2024-05-13 15:42:36] INFO root fetch - processPackages [dreamhack]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [deeporigin]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [Hakware-py]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [cjtool]: New version: [0.29.8] Old Version: [0.29.7]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [tensorkrowch]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 15:42:36] INFO root fetch - processPackages [dreamhack]: Downloading https://files.pythonhosted.org/packages/02/4c/4862cfb37cb2136cb9c4b836df8fa58f2620c2e6aab1a19d7439efdacd73/dreamhack-1.0.8.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [deeporigin]: Downloading https://files.pythonhosted.org/packages/2d/b8/feac0c30f391fc82a396dad3f859bd32390f27a22e2455298bd0fe01cc57/deeporigin-0.0.6.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [Hakware-py]: Downloading https://files.pythonhosted.org/packages/01/c0/f814297dacbccd780273ff1e2c051d50bd1ff80cde3d6d9ed33d29a41d28/Hakware-py-0.5.0.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [cjtool]: Downloading https://files.pythonhosted.org/packages/b6/4b/563f156ef0f95ce39a6a118f2c6e916eb6f2e001d7bc53296f0673734ae0/cjtool-0.29.7-py2.py3-none-any.whl
+[2024-05-13 15:42:36] INFO root fetch - processPackages [tensorkrowch]: Downloading https://files.pythonhosted.org/packages/61/8e/8e7f26194ec4f713d744ce2430d4629aee8677d2d162ea16dae55078cff4/tensorkrowch-1.1.2.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Downloading https://files.pythonhosted.org/packages/30/7d/d76185e459d32cf23db260a7ba0ba3095e646b4b15d3349f496ebb2a9a9a/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.3.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [dreamhack]: Downloading https://files.pythonhosted.org/packages/a6/e6/304857693df2b3409f21aa071f282b1c7696af7cd15b9ca79ba37582fb5a/dreamhack-1.0.9.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-13 15:42:36] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240513/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-13 15:42:36] INFO root fetch - processPackages [Hakware-py]: Downloading https://files.pythonhosted.org/packages/f1/57/ac182f03144f5830b5dd0d472b2463ec0b8ea154422917f0158354cfe59d/Hakware-py-0.6.0.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [deeporigin]: Downloading https://files.pythonhosted.org/packages/f9/aa/870d6c5db80dcb32e8fa79338d2a956accdeba251ebcf8d7de52f5765104/deeporigin-0.0.7.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [dreamhack]: executing diffoscope
+[2024-05-13 15:42:36] INFO root fetch - processPackages [dreamhack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamhack-1.0.8.tar.gz tmp/dreamhack-1.0.9.tar.gz --markdown 20240513/d/dreamhack/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 15:42:36] INFO root fetch - processPackages [cjtool]: Downloading https://files.pythonhosted.org/packages/f7/c5/e9f46f0c3bac7c1910489612af1a8ce75904341bea7a63660f07431cd229/cjtool-0.29.8-py2.py3-none-any.whl
+[2024-05-13 15:42:36] INFO root fetch - processPackages [Hakware-py]: executing diffoscope
+[2024-05-13 15:42:36] INFO root fetch - processPackages [Hakware-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hakware-py-0.5.0.tar.gz tmp/Hakware-py-0.6.0.tar.gz --markdown 20240513/H/Hakware-py/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-13 15:42:36] INFO root fetch - processPackages [deeporigin]: executing diffoscope
+[2024-05-13 15:42:36] INFO root fetch - processPackages [deeporigin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeporigin-0.0.6.tar.gz tmp/deeporigin-0.0.7.tar.gz --markdown 20240513/d/deeporigin/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 15:42:36] INFO root fetch - processPackages [tensorkrowch]: Downloading https://files.pythonhosted.org/packages/20/94/b80db1b6608635820ae070cf817f755fcd34b77ea52ab9f759008ef4b9f2/tensorkrowch-1.1.3.tar.gz
+[2024-05-13 15:42:36] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Downloading https://files.pythonhosted.org/packages/25/a9/f59f59e9e53a9ec24fbc016fdee82285f67ae9c8a061389852a9567f406c/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.4.tar.gz
+[2024-05-13 15:42:37] INFO root fetch - processPackages [cjtool]: executing diffoscope
+[2024-05-13 15:42:37] INFO root fetch - processPackages [cjtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjtool-0.29.7-py2.py3-none-any.whl.zip tmp/cjtool-0.29.8-py2.py3-none-any.whl.zip --markdown 20240513/c/cjtool/0.29.7-0.29.8/README.md --exclude *.pyd
+[2024-05-13 15:42:37] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: executing diffoscope
+[2024-05-13 15:42:37] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.3.tar.gz tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.4.tar.gz --markdown 20240513/t/tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 15:42:37] INFO root fetch - processPackages [tensorkrowch]: executing diffoscope
+[2024-05-13 15:42:37] INFO root fetch - processPackages [tensorkrowch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorkrowch-1.1.2.tar.gz tmp/tensorkrowch-1.1.3.tar.gz --markdown 20240513/t/tensorkrowch/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-13 15:42:37] INFO root fetch - processPackages [dreamhack]: Remove: archive file [/home/abi/fetcher/tmp/dreamhack-1.0.8.tar.gz]
+[2024-05-13 15:42:37] INFO root fetch - processPackages [dreamhack]: Remove: archive file [/home/abi/fetcher/tmp/dreamhack-1.0.9.tar.gz]
+[2024-05-13 15:42:37] INFO root fetch - main [MainThread]: End processing [dreamhack]: success
+[2024-05-13 15:42:37] INFO root fetch - processPackages [Hakware-py]: Remove: archive file [/home/abi/fetcher/tmp/Hakware-py-0.5.0.tar.gz]
+[2024-05-13 15:42:37] INFO root fetch - processPackages [Hakware-py]: Remove: archive file [/home/abi/fetcher/tmp/Hakware-py-0.6.0.tar.gz]
+[2024-05-13 15:42:37] INFO root fetch - main [MainThread]: End processing [Hakware-py]: success
+[2024-05-13 15:42:37] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-0.0.6.tar.gz]
+[2024-05-13 15:42:37] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-0.0.7.tar.gz]
+[2024-05-13 15:42:37] INFO root fetch - main [MainThread]: End processing [deeporigin]: success
+[2024-05-13 15:42:38] INFO root fetch - processPackages [cjtool]: Remove: archive file [/home/abi/fetcher/tmp/cjtool-0.29.7-py2.py3-none-any.whl.zip]
+[2024-05-13 15:42:38] INFO root fetch - processPackages [cjtool]: Remove: archive file [/home/abi/fetcher/tmp/cjtool-0.29.8-py2.py3-none-any.whl.zip]
+[2024-05-13 15:42:38] INFO root fetch - main [MainThread]: End processing [cjtool]: success
+[2024-05-13 15:42:38] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Remove: archive file [/home/abi/fetcher/tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.3.tar.gz]
+[2024-05-13 15:42:38] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Remove: archive file [/home/abi/fetcher/tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.4.tar.gz]
+[2024-05-13 15:42:38] INFO root fetch - main [MainThread]: End processing [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: success
+[2024-05-13 15:42:38] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-05-13 15:42:38] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-13 15:42:38] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-13 15:42:38] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.2.tar.gz]
+[2024-05-13 15:42:38] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.3.tar.gz]
+[2024-05-13 15:42:38] INFO root fetch - main [MainThread]: End processing [tensorkrowch]: success
+[2024-05-13 15:42:38] INFO root fetch - main [MainThread]: Store serial: [23183946]
