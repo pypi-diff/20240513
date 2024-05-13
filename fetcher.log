@@ -1919,3 +1919,21 @@
 [2024-05-13 02:40:45] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
 [2024-05-13 02:40:45] INFO root fetch - main [MainThread]: End processing [fmbench]: success
 [2024-05-13 02:40:45] INFO root fetch - main [MainThread]: Store serial: [23175279]
+[2024-05-13 02:42:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175279]
+[2024-05-13 02:42:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 02:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notion-duplicates
+[2024-05-13 02:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tamoyoz
+[2024-05-13 02:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ornamentalityz
+[2024-05-13 02:42:53] INFO root fetch - processPackages [notion-duplicates]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: Downloading https://files.pythonhosted.org/packages/e7/fb/f65f682be6fb202ff4318149ec195e6fe7dce71000931d6e93519df50b02/notion_duplicates-0.4.0.tar.gz
+[2024-05-13 02:42:54] WARNING root fetch - processPackages [ornamentalityz]: Skipping, unable to determine old version
+[2024-05-13 02:42:54] INFO root fetch - main [MainThread]: End processing [ornamentalityz] error
+[2024-05-13 02:42:54] WARNING root fetch - processPackages [tamoyoz]: Skipping, unable to determine old version
+[2024-05-13 02:42:54] INFO root fetch - main [MainThread]: End processing [tamoyoz] error
+[2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: Downloading https://files.pythonhosted.org/packages/1c/a7/62626d22fb8030ec15e8d55e12594c06b25418988b8715349d297ef5cc32/notion_duplicates-0.5.0.tar.gz
+[2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: executing diffoscope
+[2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion_duplicates-0.4.0.tar.gz tmp/notion_duplicates-0.5.0.tar.gz --markdown 20240513/n/notion-duplicates/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/notion_duplicates-0.4.0.tar.gz]
+[2024-05-13 02:42:54] INFO root fetch - processPackages [notion-duplicates]: Remove: archive file [/home/abi/fetcher/tmp/notion_duplicates-0.5.0.tar.gz]
+[2024-05-13 02:42:54] INFO root fetch - main [MainThread]: End processing [notion-duplicates]: success
+[2024-05-13 02:42:54] INFO root fetch - main [MainThread]: Store serial: [23175290]
