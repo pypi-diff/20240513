@@ -13887,3 +13887,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:38:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-13 11:38:13] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-13 11:38:13] INFO root fetch - main [MainThread]: Store serial: [23180960]
+[2024-05-13 11:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180960]
+[2024-05-13 11:40:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 11:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-taxi
+[2024-05-13 11:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esd-services-api-client
+[2024-05-13 11:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moquelumnanz
+[2024-05-13 11:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnfjson
+[2024-05-13 11:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hombre-tools
+[2024-05-13 11:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalpha
+[2024-05-13 11:40:23] INFO root fetch - processPackages [dalpha]: New version: [0.5.0rc2] Old Version: [0.5.0rc1]
+[2024-05-13 11:40:23] INFO root fetch - processPackages [dnfjson]: New version: [0.3.0] Old Version: [0.2.0rc1]
+[2024-05-13 11:40:23] INFO root fetch - processPackages [llm-taxi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 11:40:23] INFO root fetch - processPackages [hombre-tools]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-05-13 11:40:23] INFO root fetch - processPackages [esd-services-api-client]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-13 11:40:23] WARNING root fetch - processPackages [moquelumnanz]: Skipping, unable to determine old version
+[2024-05-13 11:40:23] INFO root fetch - main [MainThread]: End processing [moquelumnanz] error
+[2024-05-13 11:40:23] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/99/21ce93e1da5d239f8eaaa5fbf7f5627d13a923b2d46973e82c4daf2a2861/dalpha-0.5.0rc1.tar.gz
+[2024-05-13 11:40:23] INFO root fetch - processPackages [dnfjson]: Downloading https://files.pythonhosted.org/packages/f3/cb/32c0189bd9e7796b448aa1b0431d8b7aa864ad0b6bd654fdfbc08a6cebfb/dnfjson-0.2.0rc1.tar.gz
+[2024-05-13 11:40:23] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/6c/8d/c9af75bbd839666b152436b7ed7e19404a6479f2af0284655cab1d16b2db/llm_taxi-0.1.0.tar.gz
+[2024-05-13 11:40:24] INFO root fetch - processPackages [esd-services-api-client]: Downloading https://files.pythonhosted.org/packages/71/f4/44e164eb9518f32604391acfb2c97ca11df5de678dece17557dd36566d73/esd_services_api_client-2.2.1.tar.gz
+[2024-05-13 11:40:24] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/de/c2/c7656232cc83e75f1391ecf03a88fde2f861c9e7b357cb932fb242042a8e/hombre_tools-0.1.19-py3-none-any.whl
+[2024-05-13 11:40:24] INFO root fetch - processPackages [dnfjson]: Downloading https://files.pythonhosted.org/packages/17/ef/e60fd78b502a2b71e70daf7791710d23cb6f201fdddcba5123c97c882f5d/dnfjson-0.3.0-py3-none-any.whl
+[2024-05-13 11:40:24] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/c7/d3/eb2c973f21c2d7ce6563fc9b547937447a68a3afdb7d5628df976ec57ee9/dalpha-0.5.0rc2.tar.gz
+[2024-05-13 11:40:24] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/71/a1/64969263d536c7981987f00ac154553cfadcadcecdfed4dc3aa076fd42c6/llm_taxi-0.1.1.tar.gz
+[2024-05-13 11:40:24] INFO root fetch - processPackages [dnfjson]: executing diffoscope
+[2024-05-13 11:40:24] INFO root fetch - processPackages [dnfjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnfjson-0.2.0rc1.tar.gz tmp/dnfjson-0.3.0-py3-none-any.whl.zip --markdown 20240513/d/dnfjson/0.2.0rc1-0.3.0/README.md --exclude *.pyd
+[2024-05-13 11:40:24] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-13 11:40:24] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.5.0rc1.tar.gz tmp/dalpha-0.5.0rc2.tar.gz --markdown 20240513/d/dalpha/0.5.0rc1-0.5.0rc2/README.md --exclude *.pyd
+[2024-05-13 11:40:24] INFO root fetch - processPackages [llm-taxi]: executing diffoscope
+[2024-05-13 11:40:24] INFO root fetch - processPackages [llm-taxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_taxi-0.1.0.tar.gz tmp/llm_taxi-0.1.1.tar.gz --markdown 20240513/l/llm-taxi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 11:40:24] INFO root fetch - processPackages [esd-services-api-client]: Downloading https://files.pythonhosted.org/packages/73/9d/b04e63879108b34e5778fcf8e6ba620b9d599f7825c79d59b9b6a39b61f2/esd_services_api_client-2.2.2.tar.gz
+[2024-05-13 11:40:24] INFO root fetch - processPackages [esd-services-api-client]: executing diffoscope
+[2024-05-13 11:40:24] INFO root fetch - processPackages [esd-services-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esd_services_api_client-2.2.1.tar.gz tmp/esd_services_api_client-2.2.2.tar.gz --markdown 20240513/e/esd-services-api-client/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-13 11:40:24] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/fe/64/92eec77d31754007239131f78934b9221880d077cc64e997e747566f4a88/hombre_tools-0.1.20-py3-none-any.whl
+[2024-05-13 11:40:25] INFO root fetch - processPackages [dnfjson]: Remove: archive file [/home/abi/fetcher/tmp/dnfjson-0.2.0rc1.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - processPackages [dnfjson]: Remove: archive file [/home/abi/fetcher/tmp/dnfjson-0.3.0-py3-none-any.whl.zip]
+[2024-05-13 11:40:25] INFO root fetch - main [MainThread]: End processing [dnfjson]: success
+[2024-05-13 11:40:25] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.1.0.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.1.1.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - main [MainThread]: End processing [llm-taxi]: success
+[2024-05-13 11:40:25] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc1.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.5.0rc2.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-13 11:40:25] INFO root fetch - processPackages [esd-services-api-client]: Remove: archive file [/home/abi/fetcher/tmp/esd_services_api_client-2.2.1.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - processPackages [esd-services-api-client]: Remove: archive file [/home/abi/fetcher/tmp/esd_services_api_client-2.2.2.tar.gz]
+[2024-05-13 11:40:25] INFO root fetch - main [MainThread]: End processing [esd-services-api-client]: success
+[2024-05-13 11:40:25] INFO root fetch - processPackages [hombre-tools]: executing diffoscope
+[2024-05-13 11:40:25] INFO root fetch - processPackages [hombre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hombre_tools-0.1.19-py3-none-any.whl.zip tmp/hombre_tools-0.1.20-py3-none-any.whl.zip --markdown 20240513/h/hombre-tools/0.1.19-0.1.20/README.md --exclude *.pyd
+[2024-05-13 11:40:28] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.19-py3-none-any.whl.zip]
+[2024-05-13 11:40:28] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.20-py3-none-any.whl.zip]
+[2024-05-13 11:40:28] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
+[2024-05-13 11:40:28] INFO root fetch - main [MainThread]: Store serial: [23180977]
