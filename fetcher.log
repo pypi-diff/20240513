@@ -3776,3 +3776,45 @@
 [2024-05-13 04:52:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-05-13 04:52:43] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-05-13 04:52:43] INFO root fetch - main [MainThread]: Store serial: [23176115]
+[2024-05-13 04:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176115]
+[2024-05-13 04:54:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 04:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu-api-python
+[2024-05-13 04:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbn
+[2024-05-13 04:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-05-13 04:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bestdori-api
+[2024-05-13 04:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: holohyalinez
+[2024-05-13 04:54:52] INFO root fetch - processPackages [tsugu-api-python]: New version: [1.0.0] Old Version: [0.2.2]
+[2024-05-13 04:54:52] INFO root fetch - processPackages [sbn]: New version: [95] Old Version: [94]
+[2024-05-13 04:54:52] INFO root fetch - processPackages [fnschool]: New version: [20240513.614.21] Old Version: [20240513.546.54]
+[2024-05-13 04:54:52] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/92/64/8e25ba86686cb4bf06c67c26667ecfd2803efd2f350ee0f9bc7f162032ae/tsugu-api-python-0.2.2.tar.gz
+[2024-05-13 04:54:52] INFO root fetch - processPackages [bestdori-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 04:54:52] WARNING root fetch - processPackages [holohyalinez]: Skipping, unable to determine old version
+[2024-05-13 04:54:52] INFO root fetch - main [MainThread]: End processing [holohyalinez] error
+[2024-05-13 04:54:52] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/79/ae/4fcc7b7d2b78c3786619f48912f8bfad6f3b87d329f9e28f14e8f643ed6f/fnschool-20240513.546.54.tar.gz
+[2024-05-13 04:54:52] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/b4/00/34859e773da7c6865dd524d01fa94b51c3bb9129a3b60b513814baeb8da7/sbn-94.tar.gz
+[2024-05-13 04:54:52] INFO root fetch - processPackages [bestdori-api]: Downloading https://files.pythonhosted.org/packages/cf/c7/15dfec7ae4a4b135475f156bfcd3c2ee87344fb2ce701422938791378ed5/bestdori-api-1.1.0.tar.gz
+[2024-05-13 04:54:52] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/7c/4e/60793751fcc05bd3dcd375f44addebfb70964cb2edf4f8aed573496418e9/fnschool-20240513.614.21.tar.gz
+[2024-05-13 04:54:53] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/c7/1c/cc1331cba5459327b911765f5181b01884eaf9dbcb65f4ac49fc5aef667d/tsugu-api-python-1.0.0.tar.gz
+[2024-05-13 04:54:53] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-13 04:54:53] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240513.546.54.tar.gz tmp/fnschool-20240513.614.21.tar.gz --markdown 20240513/f/fnschool/20240513.546.54-20240513.614.21/README.md --exclude *.pyd
+[2024-05-13 04:54:53] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-13 04:54:53] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-0.2.2.tar.gz tmp/tsugu-api-python-1.0.0.tar.gz --markdown 20240513/t/tsugu-api-python/0.2.2-1.0.0/README.md --exclude *.pyd
+[2024-05-13 04:54:53] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/17/ef/af825578ef2450b415ac488748e6cbc2b6ec844cb2696f0702ccaacba789/sbn-95.tar.gz
+[2024-05-13 04:54:53] INFO root fetch - processPackages [bestdori-api]: Downloading https://files.pythonhosted.org/packages/d6/f5/1ccc9f6d0bbc37d689a4862c6e4847b0124b1f00fc928e6769a489c9e86a/bestdori-api-1.1.1.tar.gz
+[2024-05-13 04:54:53] INFO root fetch - processPackages [bestdori-api]: executing diffoscope
+[2024-05-13 04:54:53] INFO root fetch - processPackages [bestdori-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestdori-api-1.1.0.tar.gz tmp/bestdori-api-1.1.1.tar.gz --markdown 20240513/b/bestdori-api/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 04:54:53] INFO root fetch - processPackages [sbn]: executing diffoscope
+[2024-05-13 04:54:53] INFO root fetch - processPackages [sbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbn-94.tar.gz tmp/sbn-95.tar.gz --markdown 20240513/s/sbn/94-95/README.md --exclude *.pyd
+[2024-05-13 04:54:53] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-0.2.2.tar.gz]
+[2024-05-13 04:54:53] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.0.0.tar.gz]
+[2024-05-13 04:54:53] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-13 04:54:53] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.546.54.tar.gz]
+[2024-05-13 04:54:53] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.614.21.tar.gz]
+[2024-05-13 04:54:53] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-13 04:54:54] INFO root fetch - processPackages [bestdori-api]: Remove: archive file [/home/abi/fetcher/tmp/bestdori-api-1.1.0.tar.gz]
+[2024-05-13 04:54:54] INFO root fetch - processPackages [bestdori-api]: Remove: archive file [/home/abi/fetcher/tmp/bestdori-api-1.1.1.tar.gz]
+[2024-05-13 04:54:54] INFO root fetch - main [MainThread]: End processing [bestdori-api]: success
+[2024-05-13 04:54:54] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-94.tar.gz]
+[2024-05-13 04:54:54] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-95.tar.gz]
+[2024-05-13 04:54:54] INFO root fetch - main [MainThread]: End processing [sbn]: success
+[2024-05-13 04:54:54] INFO root fetch - main [MainThread]: Store serial: [23176132]
