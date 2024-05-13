@@ -10174,3 +10174,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:10:26] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-mail-client-sdk-test-0.1.9.tar.gz]
 [2024-05-13 09:10:26] INFO root fetch - main [MainThread]: End processing [mobio-mail-client-sdk-test]: success
 [2024-05-13 09:10:26] INFO root fetch - main [MainThread]: Store serial: [23179141]
+[2024-05-13 09:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179141]
+[2024-05-13 09:12:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tetricousz
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlmarlbot-plugin
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: i2cylib
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartboiler
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CheeseAPI-Websocket
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: with-ai-agents
+[2024-05-13 09:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartboiler
+[2024-05-13 09:12:36] WARNING root fetch - processPackages [with-ai-agents]: Skipping, unable to determine old version
+[2024-05-13 09:12:36] INFO root fetch - main [MainThread]: End processing [with-ai-agents] error
+[2024-05-13 09:12:36] INFO root fetch - processPackages [rlmarlbot-plugin]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 09:12:36] WARNING root fetch - processPackages [tetricousz]: Skipping, unable to determine old version
+[2024-05-13 09:12:36] INFO root fetch - main [MainThread]: End processing [tetricousz] error
+[2024-05-13 09:12:36] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-13 09:12:36] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-13 09:12:36] INFO root fetch - processPackages [CheeseAPI-Websocket]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 09:12:36] INFO root fetch - processPackages [i2cylib]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-13 09:12:36] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/dc/58/54854b0c876eaa979049088b6025d87a6c721274f70792454ec4afeea5b3/rlmarlbot_plugin-0.1.4.tar.gz
+[2024-05-13 09:12:36] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-13 09:12:36] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-13 09:12:36] INFO root fetch - processPackages [CheeseAPI-Websocket]: Downloading https://files.pythonhosted.org/packages/6d/e3/98b3e67f32377a78103a3510a74ef1e26cb0cc31c8245a002497af01aa5d/cheeseapi_websocket-1.0.1.tar.gz
+[2024-05-13 09:12:36] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/2c/bb/6cc12ceeb9a54372b2ba5e8bb183dfef520d25a0971d6a6526f02c487766/i2cylib-1.9.4.tar.gz
+[2024-05-13 09:12:37] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/a3/04/972aaf0bcde189287bbb98633481bff7b741d235e2762a14fe22fb38a233/rlmarlbot_plugin-0.1.5.tar.gz
+[2024-05-13 09:12:37] INFO root fetch - processPackages [CheeseAPI-Websocket]: Downloading https://files.pythonhosted.org/packages/dd/cf/d544d7d922f297f338922c3803b71b5a1ecd93d98b103667513585b07535/cheeseapi_websocket-1.0.2.tar.gz
+[2024-05-13 09:12:37] INFO root fetch - processPackages [rlmarlbot-plugin]: executing diffoscope
+[2024-05-13 09:12:37] INFO root fetch - processPackages [rlmarlbot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlmarlbot_plugin-0.1.4.tar.gz tmp/rlmarlbot_plugin-0.1.5.tar.gz --markdown 20240513/r/rlmarlbot-plugin/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 09:12:37] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-13 09:12:37] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-13 09:12:37] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/07/db/4b9467cd012615b924c7bb3413be74a3993af003e56ff8eb772df32fbb35/i2cylib-1.9.5.tar.gz
+[2024-05-13 09:12:37] INFO root fetch - processPackages [CheeseAPI-Websocket]: executing diffoscope
+[2024-05-13 09:12:37] INFO root fetch - processPackages [CheeseAPI-Websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeseapi_websocket-1.0.1.tar.gz tmp/cheeseapi_websocket-1.0.2.tar.gz --markdown 20240513/C/CheeseAPI-Websocket/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 09:12:37] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-13 09:12:37] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240513/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-13 09:12:37] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-13 09:12:37] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240513/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-13 09:12:37] INFO root fetch - processPackages [i2cylib]: executing diffoscope
+[2024-05-13 09:12:37] INFO root fetch - processPackages [i2cylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cylib-1.9.4.tar.gz tmp/i2cylib-1.9.5.tar.gz --markdown 20240513/i/i2cylib/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-13 09:12:37] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.4.tar.gz]
+[2024-05-13 09:12:37] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.5.tar.gz]
+[2024-05-13 09:12:37] INFO root fetch - main [MainThread]: End processing [rlmarlbot-plugin]: success
+[2024-05-13 09:12:38] INFO root fetch - processPackages [CheeseAPI-Websocket]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi_websocket-1.0.1.tar.gz]
+[2024-05-13 09:12:38] INFO root fetch - processPackages [CheeseAPI-Websocket]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi_websocket-1.0.2.tar.gz]
+[2024-05-13 09:12:38] INFO root fetch - main [MainThread]: End processing [CheeseAPI-Websocket]: success
+[2024-05-13 09:12:38] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-13 09:12:38] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-13 09:12:38] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-13 09:12:38] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-13 09:12:38] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.4.tar.gz]
+[2024-05-13 09:12:38] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.5.tar.gz]
+[2024-05-13 09:12:38] INFO root fetch - main [MainThread]: End processing [i2cylib]: success
+[2024-05-13 09:12:38] INFO root fetch - main [MainThread]: Store serial: [23179163]
