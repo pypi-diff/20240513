@@ -20879,3 +20879,63 @@ EOFError: EOF read where object expected
 [2024-05-13 15:31:32] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240513132102.tar.gz]
 [2024-05-13 15:31:32] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
 [2024-05-13 15:31:32] INFO root fetch - main [MainThread]: Store serial: [23183783]
+[2024-05-13 15:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183783]
+[2024-05-13 15:33:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: histomicstk
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-df-auth
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idzhiblavi-pydvim
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-df-import-export
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eea.api.dataconnector
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indy-plenum
+[2024-05-13 15:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyngoST
+[2024-05-13 15:33:42] INFO root fetch - processPackages [idzhiblavi-pydvim]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 15:33:42] WARNING root fetch - processPackages [django-df-import-export]: Skipping, unable to determine old version
+[2024-05-13 15:33:42] INFO root fetch - main [MainThread]: End processing [django-df-import-export] error
+[2024-05-13 15:33:42] INFO root fetch - processPackages [django-df-auth]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 15:33:42] INFO root fetch - processPackages [idzhiblavi-pydvim]: Downloading https://files.pythonhosted.org/packages/90/cc/f63cb8bfd18d37e224d9a5c1be351b6dfcfaef867dfea2dea558b32940b2/idzhiblavi_pydvim-0.2.0.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [eea.api.dataconnector]: New version: [9.0] Old Version: [8.5]
+[2024-05-13 15:33:42] INFO root fetch - processPackages [pyngoST]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-13 15:33:42] INFO root fetch - processPackages [indy-plenum]: New version: [1.9.2rc1] Old Version: [1.9.2.dev879]
+[2024-05-13 15:33:42] INFO root fetch - processPackages [histomicstk]: New version: [1.3.8.dev2] Old Version: [1.3.8.dev1]
+[2024-05-13 15:33:42] INFO root fetch - processPackages [django-df-auth]: Downloading https://files.pythonhosted.org/packages/3f/aa/191f38166af71b3361489d7693b9228f4779faf1cd5fc0a82edcbd2a03ac/django-df-auth-1.0.8.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [eea.api.dataconnector]: Downloading https://files.pythonhosted.org/packages/f5/ba/708367a95bffb9aaa493b7a5e1bfea697c76c65a23efa7e4ec9714f0d679/eea.api.dataconnector-8.5.zip
+[2024-05-13 15:33:42] INFO root fetch - processPackages [pyngoST]: Downloading https://files.pythonhosted.org/packages/a3/8e/a97f41f4940309db653d8154d86f93f8676a4985d3be596bba9a18edba7f/pyngoST-1.1.1.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [indy-plenum]: Downloading https://files.pythonhosted.org/packages/e1/7e/f4f7c715a57a3d05f8efa5b19e536e486805b54735c7dcbdd1394b4d0973/indy-plenum-1.9.2.dev879.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/87/f4/6d7bc44914dbefc36e3e2d730fdeb6c5c9eefe28af83ed7adc2dc93c2985/histomicstk-1.3.8.dev1.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [idzhiblavi-pydvim]: Downloading https://files.pythonhosted.org/packages/cd/1b/237eefe5738991550833697d54bf1a248892c087559057fa2fab2eea6bff/idzhiblavi_pydvim-0.2.1.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [django-df-auth]: Downloading https://files.pythonhosted.org/packages/57/48/4b73ac94de43b1fc64e54ea34aaf3588d243cfc63fd1b00b042bcfc0c03d/django-df-auth-1.0.9.tar.gz
+[2024-05-13 15:33:42] INFO root fetch - processPackages [idzhiblavi-pydvim]: executing diffoscope
+[2024-05-13 15:33:42] INFO root fetch - processPackages [idzhiblavi-pydvim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idzhiblavi_pydvim-0.2.0.tar.gz tmp/idzhiblavi_pydvim-0.2.1.tar.gz --markdown 20240513/i/idzhiblavi-pydvim/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 15:33:43] INFO root fetch - processPackages [django-df-auth]: executing diffoscope
+[2024-05-13 15:33:43] INFO root fetch - processPackages [django-df-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-df-auth-1.0.8.tar.gz tmp/django-df-auth-1.0.9.tar.gz --markdown 20240513/d/django-df-auth/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 15:33:43] INFO root fetch - processPackages [pyngoST]: Downloading https://files.pythonhosted.org/packages/c2/74/16f7d47e4980524db7bc71d8e9ab961b80d6774281e184d6b0881126a584/pyngoST-1.1.2.tar.gz
+[2024-05-13 15:33:43] INFO root fetch - processPackages [eea.api.dataconnector]: Downloading https://files.pythonhosted.org/packages/13/4c/1a8bf8fd6f92d0798fcd6df8943cd9d93ff2c2c195a3e02fa3703ca2c489/eea.api.dataconnector-9.0.zip
+[2024-05-13 15:33:43] INFO root fetch - processPackages [indy-plenum]: Downloading https://files.pythonhosted.org/packages/36/07/670ba8b376acb6d69f5fd1fc8f48e6181b365acef3e0f952b4cc47896450/indy-plenum-1.9.2rc1.tar.gz
+[2024-05-13 15:33:43] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/f4/dc/a01f51c8a3850328eb73bc933329cc9200c8a159933a78c647a4e85a5030/histomicstk-1.3.8.dev2.tar.gz
+[2024-05-13 15:33:43] INFO root fetch - processPackages [eea.api.dataconnector]: executing diffoscope
+[2024-05-13 15:33:43] INFO root fetch - processPackages [eea.api.dataconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.api.dataconnector-8.5.zip tmp/eea.api.dataconnector-9.0.zip --markdown 20240513/e/eea.api.dataconnector/8.5-9.0/README.md --exclude *.pyd
+[2024-05-13 15:33:43] INFO root fetch - processPackages [pyngoST]: executing diffoscope
+[2024-05-13 15:33:43] INFO root fetch - processPackages [pyngoST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyngoST-1.1.1.tar.gz tmp/pyngoST-1.1.2.tar.gz --markdown 20240513/p/pyngoST/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-13 15:33:43] INFO root fetch - processPackages [indy-plenum]: executing diffoscope
+[2024-05-13 15:33:43] INFO root fetch - processPackages [indy-plenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indy-plenum-1.9.2.dev879.tar.gz tmp/indy-plenum-1.9.2rc1.tar.gz --markdown 20240513/i/indy-plenum/1.9.2.dev879-1.9.2rc1/README.md --exclude *.pyd
+[2024-05-13 15:33:43] INFO root fetch - processPackages [histomicstk]: executing diffoscope
+[2024-05-13 15:33:43] INFO root fetch - processPackages [histomicstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicstk-1.3.8.dev1.tar.gz tmp/histomicstk-1.3.8.dev2.tar.gz --markdown 20240513/h/histomicstk/1.3.8.dev1-1.3.8.dev2/README.md --exclude *.pyd
+[2024-05-13 15:33:43] INFO root fetch - processPackages [idzhiblavi-pydvim]: Remove: archive file [/home/abi/fetcher/tmp/idzhiblavi_pydvim-0.2.0.tar.gz]
+[2024-05-13 15:33:43] INFO root fetch - processPackages [idzhiblavi-pydvim]: Remove: archive file [/home/abi/fetcher/tmp/idzhiblavi_pydvim-0.2.1.tar.gz]
+[2024-05-13 15:33:43] INFO root fetch - main [MainThread]: End processing [idzhiblavi-pydvim]: success
+[2024-05-13 15:33:43] INFO root fetch - processPackages [django-df-auth]: Remove: archive file [/home/abi/fetcher/tmp/django-df-auth-1.0.8.tar.gz]
+[2024-05-13 15:33:43] INFO root fetch - processPackages [django-df-auth]: Remove: archive file [/home/abi/fetcher/tmp/django-df-auth-1.0.9.tar.gz]
+[2024-05-13 15:33:43] INFO root fetch - main [MainThread]: End processing [django-df-auth]: success
+[2024-05-13 15:33:44] INFO root fetch - processPackages [pyngoST]: Remove: archive file [/home/abi/fetcher/tmp/pyngoST-1.1.1.tar.gz]
+[2024-05-13 15:33:44] INFO root fetch - processPackages [pyngoST]: Remove: archive file [/home/abi/fetcher/tmp/pyngoST-1.1.2.tar.gz]
+[2024-05-13 15:33:44] INFO root fetch - main [MainThread]: End processing [pyngoST]: success
+[2024-05-13 15:33:44] INFO root fetch - processPackages [eea.api.dataconnector]: Remove: archive file [/home/abi/fetcher/tmp/eea.api.dataconnector-8.5.zip]
+[2024-05-13 15:33:44] INFO root fetch - processPackages [eea.api.dataconnector]: Remove: archive file [/home/abi/fetcher/tmp/eea.api.dataconnector-9.0.zip]
+[2024-05-13 15:33:44] INFO root fetch - main [MainThread]: End processing [eea.api.dataconnector]: success
+[2024-05-13 15:33:44] INFO root fetch - processPackages [histomicstk]: Remove: archive file [/home/abi/fetcher/tmp/histomicstk-1.3.8.dev1.tar.gz]
+[2024-05-13 15:33:44] INFO root fetch - processPackages [histomicstk]: Remove: archive file [/home/abi/fetcher/tmp/histomicstk-1.3.8.dev2.tar.gz]
+[2024-05-13 15:33:44] INFO root fetch - main [MainThread]: End processing [histomicstk]: success
+[2024-05-13 15:33:49] INFO root fetch - processPackages [indy-plenum]: Remove: archive file [/home/abi/fetcher/tmp/indy-plenum-1.9.2.dev879.tar.gz]
+[2024-05-13 15:33:49] INFO root fetch - processPackages [indy-plenum]: Remove: archive file [/home/abi/fetcher/tmp/indy-plenum-1.9.2rc1.tar.gz]
+[2024-05-13 15:33:49] INFO root fetch - main [MainThread]: End processing [indy-plenum]: success
+[2024-05-13 15:33:49] INFO root fetch - main [MainThread]: Store serial: [23183827]
