@@ -18625,3 +18625,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:25:14] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
 [2024-05-13 14:25:14] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
 [2024-05-13 14:25:14] INFO root fetch - main [MainThread]: Store serial: [23182836]
+[2024-05-13 14:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182836]
+[2024-05-13 14:27:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musical_games
+[2024-05-13 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aopp-deconv-tool
+[2024-05-13 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upsonic-legacy
+[2024-05-13 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tpsimilarity
+[2024-05-13 14:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cads-api-client
+[2024-05-13 14:27:22] INFO root fetch - processPackages [upsonic-legacy]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-13 14:27:22] INFO root fetch - processPackages [tpsimilarity]: New version: [0.3] Old Version: [0.2]
+[2024-05-13 14:27:22] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:27:22] INFO root fetch - processPackages [musical_games]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-13 14:27:22] INFO root fetch - processPackages [upsonic-legacy]: Downloading https://files.pythonhosted.org/packages/50/d1/7b3ce6cb8e23ae27dc664a5c80005cda6a3fdc65a5938ec3e7b5e487478f/upsonic_legacy-0.23.7.tar.gz
+[2024-05-13 14:27:22] INFO root fetch - processPackages [cads-api-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 14:27:22] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [tpsimilarity]: Downloading https://files.pythonhosted.org/packages/07/98/9aed347b5c85164dab22286c1887edba2515e9d1082f64fa31042f53748e/tpsimilarity-0.2.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/cc/68/e05606d95dcbda89b955b5918e4f656c47aa648de0c8bf25eba2e8eaa91d/musical_games-0.8.6.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [upsonic-legacy]: Downloading https://files.pythonhosted.org/packages/81/a4/9deba232701364881051c417cb708b077718c62207e677f73598c09710b2/upsonic_legacy-0.23.8.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/74/c6/1b3c2d6adc3b77803fa723521960b668dc262491c0f9284c474248eec277/cads_api_client-1.0.1.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [upsonic-legacy]: executing diffoscope
+[2024-05-13 14:27:23] INFO root fetch - processPackages [upsonic-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic_legacy-0.23.7.tar.gz tmp/upsonic_legacy-0.23.8.tar.gz --markdown 20240513/u/upsonic-legacy/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-13 14:27:23] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 14:27:23] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:27:23] INFO root fetch - processPackages [tpsimilarity]: Downloading https://files.pythonhosted.org/packages/0f/1c/74c55e63f43d11473a8100da157a6e93f1e672bbd1510b9098e4e22372ce/tpsimilarity-0.3.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/95/1e/550112240ed35286fbfdc7393941a0f045c27ac22feeab94edcd21c6bc6c/musical_games-0.8.7.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/18/18/912c9a31555cbedbe96cc68423071078a8dcc4c97ca31a749d6ec7250974/cads_api_client-1.0.2.tar.gz
+[2024-05-13 14:27:23] INFO root fetch - processPackages [tpsimilarity]: executing diffoscope
+[2024-05-13 14:27:23] INFO root fetch - processPackages [tpsimilarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpsimilarity-0.2.tar.gz tmp/tpsimilarity-0.3.tar.gz --markdown 20240513/t/tpsimilarity/0.2-0.3/README.md --exclude *.pyd
+[2024-05-13 14:27:23] INFO root fetch - processPackages [musical_games]: executing diffoscope
+[2024-05-13 14:27:23] INFO root fetch - processPackages [musical_games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musical_games-0.8.6.tar.gz tmp/musical_games-0.8.7.tar.gz --markdown 20240513/m/musical_games/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-13 14:27:23] INFO root fetch - processPackages [cads-api-client]: executing diffoscope
+[2024-05-13 14:27:23] INFO root fetch - processPackages [cads-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_api_client-1.0.1.tar.gz tmp/cads_api_client-1.0.2.tar.gz --markdown 20240513/c/cads-api-client/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 14:27:24] INFO root fetch - processPackages [upsonic-legacy]: Remove: archive file [/home/abi/fetcher/tmp/upsonic_legacy-0.23.7.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - processPackages [upsonic-legacy]: Remove: archive file [/home/abi/fetcher/tmp/upsonic_legacy-0.23.8.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - main [MainThread]: End processing [upsonic-legacy]: success
+[2024-05-13 14:27:24] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 14:27:24] INFO root fetch - processPackages [tpsimilarity]: Remove: archive file [/home/abi/fetcher/tmp/tpsimilarity-0.2.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - processPackages [tpsimilarity]: Remove: archive file [/home/abi/fetcher/tmp/tpsimilarity-0.3.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - main [MainThread]: End processing [tpsimilarity]: success
+[2024-05-13 14:27:24] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.1.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.2.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - main [MainThread]: End processing [cads-api-client]: success
+[2024-05-13 14:27:24] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.6.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.8.7.tar.gz]
+[2024-05-13 14:27:24] INFO root fetch - main [MainThread]: End processing [musical_games]: success
+[2024-05-13 14:27:24] INFO root fetch - main [MainThread]: Store serial: [23182851]
