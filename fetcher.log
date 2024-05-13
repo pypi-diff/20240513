@@ -1361,3 +1361,29 @@
 [2024-05-13 02:07:47] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
 [2024-05-13 02:07:47] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
 [2024-05-13 02:07:47] INFO root fetch - main [MainThread]: Store serial: [23174980]
+[2024-05-13 02:09:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174980]
+[2024-05-13 02:09:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-13 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-amazon-chime-resources
+[2024-05-13 02:09:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywlroots
+[2024-05-13 02:09:56] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-13 02:09:56] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-13 02:09:56] INFO root fetch - processPackages [pywlroots]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 02:09:56] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-13 02:09:56] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/53/8e/af4ea53f622275d6ec0f84caa323cfc63e80989bde3151c2291175f43f4c/cdk-amazon-chime-resources-3.2.8.tar.gz
+[2024-05-13 02:09:56] INFO root fetch - processPackages [pywlroots]: Downloading https://files.pythonhosted.org/packages/04/2c/2b8e1598804aa4ec0236ed5f3d40015f6ec0a85212d8b0bd36ae7728b017/pywlroots-0.2.8.tar.gz
+[2024-05-13 02:09:56] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-13 02:09:56] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15472143>=10485760
+[2024-05-13 02:09:56] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-05-13 02:09:56] INFO root fetch - processPackages [pywlroots]: Downloading https://files.pythonhosted.org/packages/ed/3b/374aff31c2aaf618ea34e82553e535a849c409d10bc7b6a61a595cad01f6/pywlroots-0.2.9.tar.gz
+[2024-05-13 02:09:57] INFO root fetch - processPackages [pywlroots]: executing diffoscope
+[2024-05-13 02:09:57] INFO root fetch - processPackages [pywlroots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywlroots-0.2.8.tar.gz tmp/pywlroots-0.2.9.tar.gz --markdown 20240513/p/pywlroots/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 02:09:57] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-13 02:09:57] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240513/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-13 02:09:57] INFO root fetch - processPackages [pywlroots]: Remove: archive file [/home/abi/fetcher/tmp/pywlroots-0.2.8.tar.gz]
+[2024-05-13 02:09:57] INFO root fetch - processPackages [pywlroots]: Remove: archive file [/home/abi/fetcher/tmp/pywlroots-0.2.9.tar.gz]
+[2024-05-13 02:09:57] INFO root fetch - main [MainThread]: End processing [pywlroots]: success
+[2024-05-13 02:09:57] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-13 02:09:57] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-13 02:09:57] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-13 02:09:57] INFO root fetch - main [MainThread]: Store serial: [23175000]
