@@ -5259,3 +5259,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:19:06] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-05-13 06:19:06] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-05-13 06:19:06] INFO root fetch - main [MainThread]: Store serial: [23176804]
+[2024-05-13 06:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176804]
+[2024-05-13 06:21:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 06:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finter
+[2024-05-13 06:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asilidaez
+[2024-05-13 06:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expr-codegen
+[2024-05-13 06:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherlock-project
+[2024-05-13 06:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lammps
+[2024-05-13 06:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RoboticConsole
+[2024-05-13 06:21:15] INFO root fetch - processPackages [expr-codegen]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-13 06:21:15] ERROR root fetch - processPackages [sherlock-project]: Unable to get metadata: No such project 'sherlock-project'
+[2024-05-13 06:21:15] INFO root fetch - main [MainThread]: End processing [sherlock-project] error
+[2024-05-13 06:21:15] INFO root fetch - processPackages [expr-codegen]: Downloading https://files.pythonhosted.org/packages/e4/2f/920ff731f4b95ab4aa8b0657c34f0c0c3228b94bd902a7ee459f3ec0f92e/expr_codegen-0.6.4.tar.gz
+[2024-05-13 06:21:15] WARNING root fetch - processPackages [RoboticConsole]: Skipping, unable to determine old version
+[2024-05-13 06:21:15] INFO root fetch - main [MainThread]: End processing [RoboticConsole] error
+[2024-05-13 06:21:15] WARNING root fetch - processPackages [asilidaez]: Skipping, unable to determine old version
+[2024-05-13 06:21:15] INFO root fetch - main [MainThread]: End processing [asilidaez] error
+[2024-05-13 06:21:15] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 06:21:15] INFO root fetch - processPackages [lammps]: New version: [2023.8.2.3.1] Old Version: [2023.8.2.3.0]
+[2024-05-13 06:21:16] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-13 06:21:16] INFO root fetch - processPackages [expr-codegen]: Downloading https://files.pythonhosted.org/packages/21/47/739d3f1d197ce7174ab68e18a8e09809850dc6a274b8aa1e1776afa87b1f/expr_codegen-0.6.5.tar.gz
+[2024-05-13 06:21:16] INFO root fetch - processPackages [lammps]: Downloading https://files.pythonhosted.org/packages/f1/6e/a5bcfac330b79568cd8b8e135d45a23eb8ba670fac51b25885e90863521c/lammps-2023.8.2.3.0.tar.gz
+[2024-05-13 06:21:16] INFO root fetch - processPackages [expr-codegen]: executing diffoscope
+[2024-05-13 06:21:16] INFO root fetch - processPackages [expr-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expr_codegen-0.6.4.tar.gz tmp/expr_codegen-0.6.5.tar.gz --markdown 20240513/e/expr-codegen/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-13 06:21:16] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-13 06:21:16] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-13 06:21:16] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240513/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 06:21:16] INFO root fetch - processPackages [lammps]: Downloading https://files.pythonhosted.org/packages/0d/f6/afebd4afec70eaedb8f9dc3cb3c32a1e189b034e3d48ddfc2c2671a71438/lammps-2023.8.2.3.1-py2.py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-05-13 06:21:16] INFO root fetch - processPackages [expr-codegen]: Remove: archive file [/home/abi/fetcher/tmp/expr_codegen-0.6.4.tar.gz]
+[2024-05-13 06:21:16] INFO root fetch - processPackages [expr-codegen]: Remove: archive file [/home/abi/fetcher/tmp/expr_codegen-0.6.5.tar.gz]
+[2024-05-13 06:21:16] INFO root fetch - main [MainThread]: End processing [expr-codegen]: success
+[2024-05-13 06:21:17] WARNING root fetch - processPackages [lammps]: Skipping package: exceeds size limit 83539542>=10485760
+[2024-05-13 06:21:17] INFO root fetch - main [MainThread]: End processing [lammps] error
+[2024-05-13 06:21:17] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-13 06:21:17] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-13 06:21:17] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-13 06:21:17] INFO root fetch - main [MainThread]: Store serial: [23176836]
