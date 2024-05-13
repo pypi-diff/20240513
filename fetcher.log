@@ -14864,3 +14864,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:11:40] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.2.1.tar.gz]
 [2024-05-13 12:11:40] INFO root fetch - main [MainThread]: End processing [mongo-objects]: success
 [2024-05-13 12:11:40] INFO root fetch - main [MainThread]: Store serial: [23181335]
+[2024-05-13 12:13:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181335]
+[2024-05-13 12:13:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-13 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: symbolica
+[2024-05-13 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: REMLA-Test-Lib-version
+[2024-05-13 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-nhsd-apim
+[2024-05-13 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitbuilding
+[2024-05-13 12:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steam-sdk
+[2024-05-13 12:13:48] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 12:13:48] INFO root fetch - processPackages [steam-sdk]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-13 12:13:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-13 12:13:48] INFO root fetch - processPackages [REMLA-Test-Lib-version]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-13 12:13:48] INFO root fetch - processPackages [pytest-nhsd-apim]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-13 12:13:48] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/5d/02/d9c71baf1393f7e1fed92d62be7ad76d2d954368badcb806fac4afb5d257/gitbuilding-0.9.0.tar.gz
+[2024-05-13 12:13:48] INFO root fetch - processPackages [symbolica]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-13 12:13:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-13 12:13:48] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/ef/a3/5273d96af5f3445ced5ebbd318da18a2f94bec15d595ebe50edfde566236/steam-sdk-2024.5.0.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/aa/16/fdb29a4253442cce361a9587117065831ac9f70649bcdad472aaf61bdb86/pytest-nhsd-apim-3.3.8.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/16/4b/48f87fd1a2e1c38511a6754a60469cd1733c9e4e82b198079a4b554ea9ae/REMLA-Test-Lib-version-0.0.1.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [symbolica]: Downloading https://files.pythonhosted.org/packages/34/ca/e2b134d11c3dc7abbf4c6de9cedb6b7a3e5dc646f680e9de188890888742/symbolica-0.4.0.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/15/ed/67289495ef2328366701013c075dc09429e3101a0d66d3f73ca280175e13/gitbuilding-0.9.1.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-13 12:13:49] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/d3/e3/32ab37ead8c5f270bc12882df0d032d75b2aedd0cd96c60b325b66f91739/steam-sdk-2024.5.1.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/bf/07/11cc23683e70e41d18ea2bd7260815d9009c337b16fad2276e35b51d2f26/pytest-nhsd-apim-3.3.9.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/78/f8/b7823e680c9a0949cc49f5e0446b4804c30a36aab1090bcc09da36a923f2/REMLA-Test-Lib-version-0.1.0.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2024-05-13 12:13:49] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20240513/g/gitbuilding/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 12:13:49] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2024-05-13 12:13:49] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2024.5.0.tar.gz tmp/steam-sdk-2024.5.1.tar.gz --markdown 20240513/s/steam-sdk/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-13 12:13:49] INFO root fetch - processPackages [pytest-nhsd-apim]: executing diffoscope
+[2024-05-13 12:13:49] INFO root fetch - processPackages [pytest-nhsd-apim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-nhsd-apim-3.3.8.tar.gz tmp/pytest-nhsd-apim-3.3.9.tar.gz --markdown 20240513/p/pytest-nhsd-apim/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-13 12:13:49] INFO root fetch - processPackages [REMLA-Test-Lib-version]: executing diffoscope
+[2024-05-13 12:13:49] INFO root fetch - processPackages [symbolica]: Downloading https://files.pythonhosted.org/packages/c7/35/f19e8ee1ea7072fdba6e331f7324912dfa59392274bb8263e7f569692539/symbolica-0.5.0.tar.gz
+[2024-05-13 12:13:49] INFO root fetch - processPackages [REMLA-Test-Lib-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REMLA-Test-Lib-version-0.0.1.tar.gz tmp/REMLA-Test-Lib-version-0.1.0.tar.gz --markdown 20240513/R/REMLA-Test-Lib-version/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-13 12:13:49] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-13 12:13:49] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240513/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-13 12:13:49] INFO root fetch - processPackages [symbolica]: executing diffoscope
+[2024-05-13 12:13:49] INFO root fetch - processPackages [symbolica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolica-0.4.0.tar.gz tmp/symbolica-0.5.0.tar.gz --markdown 20240513/s/symbolica/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 12:13:50] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.0.1.tar.gz]
+[2024-05-13 12:13:50] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.1.0.tar.gz]
+[2024-05-13 12:13:50] INFO root fetch - main [MainThread]: End processing [REMLA-Test-Lib-version]: success
+[2024-05-13 12:13:50] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.8.tar.gz]
+[2024-05-13 12:13:50] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.9.tar.gz]
+[2024-05-13 12:13:50] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
+[2024-05-13 12:13:51] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.0.tar.gz]
+[2024-05-13 12:13:51] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.1.tar.gz]
+[2024-05-13 12:13:51] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2024-05-13 12:13:51] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.0.tar.gz]
+[2024-05-13 12:13:51] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
+[2024-05-13 12:13:51] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2024-05-13 12:13:51] INFO root fetch - processPackages [symbolica]: Remove: archive file [/home/abi/fetcher/tmp/symbolica-0.4.0.tar.gz]
+[2024-05-13 12:13:51] INFO root fetch - processPackages [symbolica]: Remove: archive file [/home/abi/fetcher/tmp/symbolica-0.5.0.tar.gz]
+[2024-05-13 12:13:51] INFO root fetch - main [MainThread]: End processing [symbolica]: success
+[2024-05-13 12:13:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-13 12:13:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-13 12:13:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-13 12:13:51] INFO root fetch - main [MainThread]: Store serial: [23181352]
