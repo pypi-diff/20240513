@@ -7038,3 +7038,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:59:39] INFO root fetch - processPackages [lxml]: Remove: archive file [/home/abi/fetcher/tmp/lxml-5.2.2-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2024-05-13 06:59:39] INFO root fetch - main [MainThread]: End processing [lxml]: success
 [2024-05-13 06:59:39] INFO root fetch - main [MainThread]: Store serial: [23177500]
+[2024-05-13 07:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23177500]
+[2024-05-13 07:01:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-lke
+[2024-05-13 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-lowcode
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: New version: [3.0.1144] Old Version: [3.0.1143]
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Downloading https://files.pythonhosted.org/packages/e1/f1/f1cf2331fddcd47816751ad6af7f4c9d37f3a4b7ffba423cff28f9549a4d/tencentcloud-sdk-python-lke-3.0.1143.tar.gz
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Downloading https://files.pythonhosted.org/packages/86/45/f1c90c99035d8eb4d1b88a7bd584bca7f2d16bb12f218317763b1a511277/tencentcloud-sdk-python-lke-3.0.1144.tar.gz
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Downloading https://files.pythonhosted.org/packages/e4/26/f031555e9e86b1b30f0f1330c1f330b95c2cb83d249a695ead0a05ae75cf/tencentcloud-sdk-python-lowcode-3.0.998.tar.gz
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: executing diffoscope
+[2024-05-13 07:01:48] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lke-3.0.1143.tar.gz tmp/tencentcloud-sdk-python-lke-3.0.1144.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-lke/3.0.1143-3.0.1144/README.md --exclude *.pyd
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Downloading https://files.pythonhosted.org/packages/23/65/b335540552be64dcbfa4d948258cfca1a8cc873f5f940fde2debda1f1ef6/tencentcloud-sdk-python-lowcode-3.0.999.tar.gz
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: executing diffoscope
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-lowcode-3.0.998.tar.gz tmp/tencentcloud-sdk-python-lowcode-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-lowcode/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lke-3.0.1143.tar.gz]
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lke-3.0.1144.tar.gz]
+[2024-05-13 07:01:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lke]: success
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lowcode-3.0.998.tar.gz]
+[2024-05-13 07:01:49] INFO root fetch - processPackages [tencentcloud-sdk-python-lowcode]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-lowcode-3.0.999.tar.gz]
+[2024-05-13 07:01:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lowcode]: success
+[2024-05-13 07:01:49] INFO root fetch - main [MainThread]: Store serial: [23177510]
