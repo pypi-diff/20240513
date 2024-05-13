@@ -17164,3 +17164,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:38:55] INFO root fetch - processPackages [invenio-app-ils]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-ils-3.0.0rc1.tar.gz]
 [2024-05-13 13:38:55] INFO root fetch - main [MainThread]: End processing [invenio-app-ils]: success
 [2024-05-13 13:38:55] INFO root fetch - main [MainThread]: Store serial: [23182230]
+[2024-05-13 13:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182230]
+[2024-05-13 13:41:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbimagetotext
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-api-dev
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-train-dev
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-dev
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-core-dev
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-cli-dev
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hikyuu
+[2024-05-13 13:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nicotool
+[2024-05-13 13:41:04] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [nicotool]: New version: [1.4.8.4] Old Version: [1.4.8.1]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-13 13:41:04] INFO root fetch - processPackages [nicotool]: Downloading https://files.pythonhosted.org/packages/6c/8c/283ab4c2a91a4a6a61c16940afec6afd8d8b73022e048cfc48d8d0a38dce/nicotool-1.4.8.1.tar.gz
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev78]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev78] Old Version: [0.8.0.dev77]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev78]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev78]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev78]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [hikyuu]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/06/71/ebd9ed3d6924f9f693ca00fc17b6c0fef3c340a93d073be959e365ed29f0/composabl_api_dev-0.8.0.dev77-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/77/8e/859ea076c8184a4a92e5b0c619d6032649a8bbc1fcb3f4cb373ae9c2f91f/composabl_cli_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:04] INFO root fetch - processPackages [nicotool]: Downloading https://files.pythonhosted.org/packages/ba/41/0573963da5c65046f031d03d8eecd69a62d1ed425e438df6f7e9ac6c293f/nicotool-1.4.8.4.tar.gz
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/31/a5/9deee1c8b0f444b9adfbf7f4a739859beadbcc6f51c9ffa1ed14adbf3b6c/composabl_dev-0.8.0.dev78-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:04] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/f7/ec/98c5f9371ea560cb1d2735db32e0cda0e69bee41e414720d1681f6e6f79b/composabl_core_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:04] INFO root fetch - processPackages [hikyuu]: Downloading https://files.pythonhosted.org/packages/1f/e5/dbe9a107986401ada84dce74a3e899823d3778de231fd0d943109986f563/hikyuu-2.0.5-cp39-none-win_amd64.whl
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/13/da/63f8dd001f736ae4e1051dece1f22f83a71ce1067ea41215158eadafc6e5/composabl_train_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:04] WARNING root fetch - processPackages [hikyuu]: Skipping package: exceeds size limit 15655435>=10485760
+[2024-05-13 13:41:04] INFO root fetch - main [MainThread]: End processing [hikyuu] error
+[2024-05-13 13:41:04] INFO root fetch - processPackages [nicotool]: executing diffoscope
+[2024-05-13 13:41:04] INFO root fetch - processPackages [nicotool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicotool-1.4.8.1.tar.gz tmp/nicotool-1.4.8.4.tar.gz --markdown 20240513/n/nicotool/1.4.8.1-1.4.8.4/README.md --exclude *.pyd
+[2024-05-13 13:41:04] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-13 13:41:04] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240513/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:41:04] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 25353238>=10485760
+[2024-05-13 13:41:04] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/f0/92/017b2fba51fcf25b75662d9349a20f698162e2b575af51c592c07e30f89f/composabl_api_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:04] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev78-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/c/composabl-dev/0.8.0.dev78-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev77-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/c/composabl-api-dev/0.8.0.dev77-0.8.0.dev78/README.md --exclude *.pyd
+[2024-05-13 13:41:05] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-13 13:41:05] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-13 13:41:05] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev78-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:41:05] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-13 13:41:05] INFO root fetch - processPackages [nicotool]: Remove: archive file [/home/abi/fetcher/tmp/nicotool-1.4.8.1.tar.gz]
+[2024-05-13 13:41:05] INFO root fetch - processPackages [nicotool]: Remove: archive file [/home/abi/fetcher/tmp/nicotool-1.4.8.4.tar.gz]
+[2024-05-13 13:41:05] INFO root fetch - main [MainThread]: End processing [nicotool]: success
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-13 13:41:05] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/c/composabl-cli-dev/0.8.0.dev78-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-13 13:41:06] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 13:41:06] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev77-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:41:06] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:41:06] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-13 13:41:07] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-13 13:41:07] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/c/composabl-train-dev/0.8.0.dev78-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-13 13:41:34] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:41:34] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:41:34] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-13 13:42:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev78-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:42:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 13:42:20] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-13 13:42:20] INFO root fetch - main [MainThread]: Store serial: [23182298]
