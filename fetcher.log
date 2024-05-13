@@ -2300,3 +2300,12 @@
 [2024-05-13 03:13:45] WARNING root fetch - processPackages [jecoralz]: Skipping, unable to determine old version
 [2024-05-13 03:13:45] INFO root fetch - main [MainThread]: End processing [jecoralz] error
 [2024-05-13 03:13:45] INFO root fetch - main [MainThread]: Store serial: [23175440]
+[2024-05-13 03:15:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175440]
+[2024-05-13 03:15:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 03:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teeheesmart
+[2024-05-13 03:15:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spoilablez
+[2024-05-13 03:15:53] WARNING root fetch - processPackages [spoilablez]: Skipping, unable to determine old version
+[2024-05-13 03:15:53] INFO root fetch - main [MainThread]: End processing [spoilablez] error
+[2024-05-13 03:15:53] WARNING root fetch - processPackages [teeheesmart]: Skipping, unable to determine old version
+[2024-05-13 03:15:53] INFO root fetch - main [MainThread]: End processing [teeheesmart] error
+[2024-05-13 03:15:53] INFO root fetch - main [MainThread]: Store serial: [23175452]
