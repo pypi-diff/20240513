@@ -5098,3 +5098,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:04:45] INFO root fetch - processPackages [graphemy]: Remove: archive file [/home/abi/fetcher/tmp/graphemy-1.0.0rc5.tar.gz]
 [2024-05-13 06:04:45] INFO root fetch - main [MainThread]: End processing [graphemy]: success
 [2024-05-13 06:04:45] INFO root fetch - main [MainThread]: Store serial: [23176733]
+[2024-05-13 06:06:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176733]
+[2024-05-13 06:06:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 06:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: label-message-local
+[2024-05-13 06:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titli
+[2024-05-13 06:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-05-13 06:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postprocessorz
+[2024-05-13 06:06:54] WARNING root fetch - processPackages [postprocessorz]: Skipping, unable to determine old version
+[2024-05-13 06:06:54] INFO root fetch - main [MainThread]: End processing [postprocessorz] error
+[2024-05-13 06:06:54] INFO root fetch - processPackages [label-message-local]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 06:06:54] INFO root fetch - processPackages [titli]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 06:06:54] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-13 06:06:54] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-13 06:06:54] INFO root fetch - processPackages [label-message-local]: Downloading https://files.pythonhosted.org/packages/4a/ea/4c45aea7e8bc349903c003bde6494b9a1bd8e59703b815d530a690026b6b/label_message_local-0.0.5.tar.gz
+[2024-05-13 06:06:54] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/52/33/ecac6093827a44077aa443b0721c1d32b88d5ec4f88315232dc711fb4e5d/titli-0.0.2.tar.gz
+[2024-05-13 06:06:54] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-13 06:06:54] INFO root fetch - processPackages [label-message-local]: Downloading https://files.pythonhosted.org/packages/5e/9a/5a4d33739b959c0f1fe48517fdb2a08bab5ebb68dd94dab851b986d7d28f/label_message_local-0.0.6.tar.gz
+[2024-05-13 06:06:54] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-13 06:06:54] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240513/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-13 06:06:54] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/bd/38/cda518e8d62fe1b594cb3c6241eb149c8a1c5984bfb2a55add0d02349564/titli-0.0.3.tar.gz
+[2024-05-13 06:06:54] INFO root fetch - processPackages [label-message-local]: executing diffoscope
+[2024-05-13 06:06:54] INFO root fetch - processPackages [label-message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_message_local-0.0.5.tar.gz tmp/label_message_local-0.0.6.tar.gz --markdown 20240513/l/label-message-local/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 06:06:54] INFO root fetch - processPackages [titli]: executing diffoscope
+[2024-05-13 06:06:54] INFO root fetch - processPackages [titli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titli-0.0.2.tar.gz tmp/titli-0.0.3.tar.gz --markdown 20240513/t/titli/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 06:06:55] INFO root fetch - processPackages [label-message-local]: Remove: archive file [/home/abi/fetcher/tmp/label_message_local-0.0.5.tar.gz]
+[2024-05-13 06:06:55] INFO root fetch - processPackages [label-message-local]: Remove: archive file [/home/abi/fetcher/tmp/label_message_local-0.0.6.tar.gz]
+[2024-05-13 06:06:55] INFO root fetch - main [MainThread]: End processing [label-message-local]: success
+[2024-05-13 06:06:55] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-13 06:06:55] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-13 06:06:55] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-13 06:06:55] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.2.tar.gz]
+[2024-05-13 06:06:55] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.3.tar.gz]
+[2024-05-13 06:06:55] INFO root fetch - main [MainThread]: End processing [titli]: success
+[2024-05-13 06:06:55] INFO root fetch - main [MainThread]: Store serial: [23176745]
