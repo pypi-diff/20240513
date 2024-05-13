@@ -23308,3 +23308,42 @@ EOFError: EOF read where object expected
 [2024-05-13 16:47:11] INFO root fetch - processPackages [dash-lumino-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_lumino_components-0.0.8.tar.gz]
 [2024-05-13 16:47:11] INFO root fetch - main [MainThread]: End processing [dash-lumino-components]: success
 [2024-05-13 16:47:11] INFO root fetch - main [MainThread]: Store serial: [23185191]
+[2024-05-13 16:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185191]
+[2024-05-13 16:49:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 16:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartlink-local
+[2024-05-13 16:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimpleSchemaGenerator
+[2024-05-13 16:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telicent-ies-tool
+[2024-05-13 16:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064
+[2024-05-13 16:49:21] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:49:21] INFO root fetch - processPackages [SimpleSchemaGenerator]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-13 16:49:21] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 16:49:21] INFO root fetch - processPackages [SimpleSchemaGenerator]: Downloading https://files.pythonhosted.org/packages/1a/bd/3e5a0eaf4494b651cf6054f09bfd5cf93b7662b8266c6d8f558e1a2472f4/SimpleSchemaGenerator-0.5.0-py3-none-any.whl
+[2024-05-13 16:49:21] INFO root fetch - processPackages [telicent-ies-tool]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 16:49:21] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-13 16:49:21] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Downloading https://files.pythonhosted.org/packages/30/7d/d76185e459d32cf23db260a7ba0ba3095e646b4b15d3349f496ebb2a9a9a/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.3.tar.gz
+[2024-05-13 16:49:21] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-13 16:49:21] INFO root fetch - processPackages [telicent-ies-tool]: Downloading https://files.pythonhosted.org/packages/63/73/6038e469bd389b60148d6dea51819746d56fae6d72adccda96e7bfa46e23/telicent-ies-tool-1.0.1.tar.gz
+[2024-05-13 16:49:21] INFO root fetch - processPackages [SimpleSchemaGenerator]: Downloading https://files.pythonhosted.org/packages/36/6b/995f5c31e1078d63c2dec8cbb55d4ece9e78afeece58a95af606c07be146/SimpleSchemaGenerator-0.6.0-py3-none-any.whl
+[2024-05-13 16:49:21] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Downloading https://files.pythonhosted.org/packages/25/a9/f59f59e9e53a9ec24fbc016fdee82285f67ae9c8a061389852a9567f406c/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.4.tar.gz
+[2024-05-13 16:49:21] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-13 16:49:21] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240513/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:49:21] INFO root fetch - processPackages [SimpleSchemaGenerator]: executing diffoscope
+[2024-05-13 16:49:21] INFO root fetch - processPackages [SimpleSchemaGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleSchemaGenerator-0.5.0-py3-none-any.whl.zip tmp/SimpleSchemaGenerator-0.6.0-py3-none-any.whl.zip --markdown 20240513/S/SimpleSchemaGenerator/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-13 16:49:21] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: executing diffoscope
+[2024-05-13 16:49:21] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.3.tar.gz tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.4.tar.gz --markdown 20240513/t/tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 16:49:21] INFO root fetch - processPackages [telicent-ies-tool]: Downloading https://files.pythonhosted.org/packages/53/18/73d4c25ff20d994875272803a4773f033706efdbb40f5b3e5db25afa191b/telicent_ies_tool-1.0.2.tar.gz
+[2024-05-13 16:49:21] INFO root fetch - processPackages [telicent-ies-tool]: executing diffoscope
+[2024-05-13 16:49:21] INFO root fetch - processPackages [telicent-ies-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telicent-ies-tool-1.0.1.tar.gz tmp/telicent_ies_tool-1.0.2.tar.gz --markdown 20240513/t/telicent-ies-tool/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 16:49:22] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Remove: archive file [/home/abi/fetcher/tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.3.tar.gz]
+[2024-05-13 16:49:22] INFO root fetch - processPackages [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: Remove: archive file [/home/abi/fetcher/tmp/tp_sql_09c77c38_19e1_42d9_886a_42a530ba9064-0.0.4.tar.gz]
+[2024-05-13 16:49:22] INFO root fetch - main [MainThread]: End processing [tp-sql-09c77c38-19e1-42d9-886a-42a530ba9064]: success
+[2024-05-13 16:49:22] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-13 16:49:22] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-13 16:49:22] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-13 16:49:22] INFO root fetch - processPackages [SimpleSchemaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSchemaGenerator-0.5.0-py3-none-any.whl.zip]
+[2024-05-13 16:49:22] INFO root fetch - processPackages [SimpleSchemaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSchemaGenerator-0.6.0-py3-none-any.whl.zip]
+[2024-05-13 16:49:22] INFO root fetch - main [MainThread]: End processing [SimpleSchemaGenerator]: success
+[2024-05-13 16:49:22] INFO root fetch - processPackages [telicent-ies-tool]: Remove: archive file [/home/abi/fetcher/tmp/telicent-ies-tool-1.0.1.tar.gz]
+[2024-05-13 16:49:22] INFO root fetch - processPackages [telicent-ies-tool]: Remove: archive file [/home/abi/fetcher/tmp/telicent_ies_tool-1.0.2.tar.gz]
+[2024-05-13 16:49:22] INFO root fetch - main [MainThread]: End processing [telicent-ies-tool]: success
+[2024-05-13 16:49:22] INFO root fetch - main [MainThread]: Store serial: [23185202]
