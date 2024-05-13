@@ -3741,3 +3741,38 @@
 [2024-05-13 04:50:34] INFO root fetch - processPackages [base-tools]: Remove: archive file [/home/abi/fetcher/tmp/base_tools-0.0.9.tar.gz]
 [2024-05-13 04:50:34] INFO root fetch - main [MainThread]: End processing [base-tools]: success
 [2024-05-13 04:50:34] INFO root fetch - main [MainThread]: Store serial: [23176094]
+[2024-05-13 04:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176094]
+[2024-05-13 04:52:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 04:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signatureanalyzer
+[2024-05-13 04:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-helpers
+[2024-05-13 04:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-05-13 04:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sourcery-nightly
+[2024-05-13 04:52:42] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 04:52:42] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-13 04:52:42] INFO root fetch - processPackages [signatureanalyzer]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 04:52:42] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-13 04:52:42] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-13 04:52:42] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-13 04:52:42] INFO root fetch - processPackages [signatureanalyzer]: Downloading https://files.pythonhosted.org/packages/52/86/e1a6e065c19276deea3894e65b3a50c79d95aa4841ee9a67cc3970deb116/signatureanalyzer-0.0.7.tar.gz
+[2024-05-13 04:52:42] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-13 04:52:42] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-13 04:52:42] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-13 04:52:42] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-13 04:52:42] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-13 04:52:42] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240513/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 04:52:43] INFO root fetch - processPackages [signatureanalyzer]: Downloading https://files.pythonhosted.org/packages/61/66/ca2ba430a5b5a22bd17ca2e9343bdee16933bd3007ec955d728b223fa091/signatureanalyzer-0.0.8.tar.gz
+[2024-05-13 04:52:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-13 04:52:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-13 04:52:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240513/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-13 04:52:43] INFO root fetch - processPackages [signatureanalyzer]: executing diffoscope
+[2024-05-13 04:52:43] INFO root fetch - processPackages [signatureanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signatureanalyzer-0.0.7.tar.gz tmp/signatureanalyzer-0.0.8.tar.gz --markdown 20240513/s/signatureanalyzer/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:52:43] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-13 04:52:43] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-13 04:52:43] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-13 04:52:43] INFO root fetch - processPackages [signatureanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/signatureanalyzer-0.0.7.tar.gz]
+[2024-05-13 04:52:43] INFO root fetch - processPackages [signatureanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/signatureanalyzer-0.0.8.tar.gz]
+[2024-05-13 04:52:43] INFO root fetch - main [MainThread]: End processing [signatureanalyzer]: success
+[2024-05-13 04:52:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-13 04:52:43] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-13 04:52:43] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-13 04:52:43] INFO root fetch - main [MainThread]: Store serial: [23176115]
