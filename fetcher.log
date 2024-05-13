@@ -13099,3 +13099,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:07:16] INFO root fetch - processPackages [vot-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/vot-toolkit-0.7.1.tar.gz]
 [2024-05-13 11:07:16] INFO root fetch - main [MainThread]: End processing [vot-toolkit]: success
 [2024-05-13 11:07:16] INFO root fetch - main [MainThread]: Store serial: [23180505]
+[2024-05-13 11:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180505]
+[2024-05-13 11:09:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BCEmbedding
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ioxplugin
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: misc-python-utils
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IvmInstruments
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RupineLib
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qmatchatea
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: requitingz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: async-httpd-data-collector
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyconcept
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MASSiveChem
+[2024-05-13 11:09:26] INFO root fetch - processPackages [qmatchatea]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 11:09:26] INFO root fetch - processPackages [RupineLib]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ioxplugin]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-13 11:09:26] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 11:09:26] INFO root fetch - processPackages [BCEmbedding]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:09:26] WARNING root fetch - processPackages [requitingz]: Skipping, unable to determine old version
+[2024-05-13 11:09:26] INFO root fetch - processPackages [requitingz]: Start processing: nelsie
+[2024-05-13 11:09:26] INFO root fetch - main [MainThread]: End processing [requitingz] error
+[2024-05-13 11:09:26] WARNING root fetch - processPackages [IvmInstruments]: Skipping, unable to determine old version
+[2024-05-13 11:09:26] INFO root fetch - main [MainThread]: End processing [IvmInstruments] error
+[2024-05-13 11:09:26] INFO root fetch - processPackages [qmatchatea]: Downloading https://files.pythonhosted.org/packages/17/7a/0f82f5f863a600ced93ee9f480ed73f361919f48706ff3cf5a52fc657b2e/qmatchatea-1.1.0.tar.gz
+[2024-05-13 11:09:26] WARNING root fetch - processPackages [MASSiveChem]: Skipping, unable to determine old version
+[2024-05-13 11:09:26] INFO root fetch - main [MainThread]: End processing [MASSiveChem] error
+[2024-05-13 11:09:26] INFO root fetch - processPackages [pyconcept]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 11:09:26] WARNING root fetch - processPackages [async-httpd-data-collector]: Skipping, unable to determine old version
+[2024-05-13 11:09:26] INFO root fetch - main [MainThread]: End processing [async-httpd-data-collector] error
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/65/66/a2f034065d3380dc02d1780005e70287668548a740aef8cc68353c274f2a/ioxplugin-1.0.5.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/99/c8/34e53acee6bf8ee668c71a7d44c58ca79bfd0860e03473bce74b24e1c5f1/RupineLib-0.0.7.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [BCEmbedding]: Downloading https://files.pythonhosted.org/packages/83/4c/d47147ad7da902b768909f611cf2700e29811c9a840fb18e773ffcee7b7a/BCEmbedding-0.1.4-py3-none-any.whl
+[2024-05-13 11:09:26] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/4b/bd/ea88605154e7091f2a3191908b2ffddeda0817e17ffc29758cfc7731ceaf/misc_python_utils-0.1.8.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [nelsie]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-13 11:09:26] INFO root fetch - processPackages [qmatchatea]: Downloading https://files.pythonhosted.org/packages/60/48/62f0fb4906d97a027bac7c22c09ae3d33e1f525bf2c1af5233f5ec76d0ac/qmatchatea-1.1.1.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [pyconcept]: Downloading https://files.pythonhosted.org/packages/c8/5a/ea1774bda13d1069bb66224f81e17f55faf8d7f50cb57ca1180f7fd9dc7d/pyconcept-0.1.4.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/f9/72/3b73ff6151315af81c153953526d6713ae1645544027f74660b02e8de133/ioxplugin-1.0.6.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/f3/09/8b85c064c04441b46ac1093109370cbf0881f810ce0075916157ba264cad/RupineLib-0.0.8.tar.gz
+[2024-05-13 11:09:26] INFO root fetch - processPackages [qmatchatea]: executing diffoscope
+[2024-05-13 11:09:26] INFO root fetch - processPackages [qmatchatea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qmatchatea-1.1.0.tar.gz tmp/qmatchatea-1.1.1.tar.gz --markdown 20240513/q/qmatchatea/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ioxplugin]: executing diffoscope
+[2024-05-13 11:09:26] INFO root fetch - processPackages [ioxplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioxplugin-1.0.5.tar.gz tmp/ioxplugin-1.0.6.tar.gz --markdown 20240513/i/ioxplugin/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-13 11:09:27] INFO root fetch - processPackages [RupineLib]: executing diffoscope
+[2024-05-13 11:09:27] INFO root fetch - processPackages [RupineLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RupineLib-0.0.7.tar.gz tmp/RupineLib-0.0.8.tar.gz --markdown 20240513/R/RupineLib/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 11:09:27] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/57/f1/4625809fcb39f4081b4224a6763539efee7a380db502a5dede93b1c12c2e/misc_python_utils-0.1.9.tar.gz
+[2024-05-13 11:09:27] INFO root fetch - processPackages [BCEmbedding]: Downloading https://files.pythonhosted.org/packages/52/85/126569029a643837c1e369dc050334d0dff81fc0a9c2a63ce00b466fb9e6/BCEmbedding-0.1.5-py3-none-any.whl
+[2024-05-13 11:09:27] INFO root fetch - processPackages [nelsie]: Downloading https://files.pythonhosted.org/packages/da/bc/4347ea5edca58b5cc12614914c75d852ba840b4f33211f0919a26e35cff9/nelsie-0.7.0.tar.gz
+[2024-05-13 11:09:27] INFO root fetch - processPackages [BCEmbedding]: executing diffoscope
+[2024-05-13 11:09:27] INFO root fetch - processPackages [BCEmbedding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BCEmbedding-0.1.4-py3-none-any.whl.zip tmp/BCEmbedding-0.1.5-py3-none-any.whl.zip --markdown 20240513/B/BCEmbedding/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:09:27] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-05-13 11:09:27] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.8.tar.gz tmp/misc_python_utils-0.1.9.tar.gz --markdown 20240513/m/misc-python-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 11:09:27] INFO root fetch - processPackages [pyconcept]: Downloading https://files.pythonhosted.org/packages/30/19/3a3a374a0040136eebe74181579ab1a750beb7b9b8bb2a2f77085912f84a/pyconcept-0.1.5.tar.gz
+[2024-05-13 11:09:27] INFO root fetch - processPackages [pyconcept]: executing diffoscope
+[2024-05-13 11:09:27] INFO root fetch - processPackages [pyconcept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconcept-0.1.4.tar.gz tmp/pyconcept-0.1.5.tar.gz --markdown 20240513/p/pyconcept/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 11:09:27] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.7.tar.gz]
+[2024-05-13 11:09:27] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.8.tar.gz]
+[2024-05-13 11:09:27] INFO root fetch - main [MainThread]: End processing [RupineLib]: success
+[2024-05-13 11:09:27] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.5.tar.gz]
+[2024-05-13 11:09:27] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.6.tar.gz]
+[2024-05-13 11:09:27] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
+[2024-05-13 11:09:27] INFO root fetch - processPackages [qmatchatea]: Remove: archive file [/home/abi/fetcher/tmp/qmatchatea-1.1.0.tar.gz]
+[2024-05-13 11:09:27] INFO root fetch - processPackages [qmatchatea]: Remove: archive file [/home/abi/fetcher/tmp/qmatchatea-1.1.1.tar.gz]
+[2024-05-13 11:09:27] INFO root fetch - main [MainThread]: End processing [qmatchatea]: success
+[2024-05-13 11:09:28] INFO root fetch - processPackages [BCEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/BCEmbedding-0.1.4-py3-none-any.whl.zip]
+[2024-05-13 11:09:28] INFO root fetch - processPackages [BCEmbedding]: Remove: archive file [/home/abi/fetcher/tmp/BCEmbedding-0.1.5-py3-none-any.whl.zip]
+[2024-05-13 11:09:28] INFO root fetch - main [MainThread]: End processing [BCEmbedding]: success
+[2024-05-13 11:09:28] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.8.tar.gz]
+[2024-05-13 11:09:28] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
+[2024-05-13 11:09:28] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-05-13 11:09:28] INFO root fetch - processPackages [nelsie]: Downloading https://files.pythonhosted.org/packages/ec/21/88b10d39da1633f7c3282e6def7ed4e028f6dac8d31324e6cdf94f65162b/nelsie-0.8.0-cp39-abi3-manylinux_2_12_i686.manylinux2010_i686.whl
+[2024-05-13 11:09:29] INFO root fetch - processPackages [pyconcept]: Remove: archive file [/home/abi/fetcher/tmp/pyconcept-0.1.4.tar.gz]
+[2024-05-13 11:09:29] INFO root fetch - processPackages [pyconcept]: Remove: archive file [/home/abi/fetcher/tmp/pyconcept-0.1.5.tar.gz]
+[2024-05-13 11:09:29] INFO root fetch - main [MainThread]: End processing [pyconcept]: success
+[2024-05-13 11:09:30] INFO root fetch - processPackages [nelsie]: executing diffoscope
+[2024-05-13 11:09:30] INFO root fetch - processPackages [nelsie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nelsie-0.7.0.tar.gz tmp/nelsie-0.8.0-cp39-abi3-manylinux_2_12_i686.manylinux2010_i686.whl.zip --markdown 20240513/n/nelsie/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-13 11:09:31] INFO root fetch - processPackages [nelsie]: Remove: archive file [/home/abi/fetcher/tmp/nelsie-0.7.0.tar.gz]
+[2024-05-13 11:09:31] INFO root fetch - processPackages [nelsie]: Remove: archive file [/home/abi/fetcher/tmp/nelsie-0.8.0-cp39-abi3-manylinux_2_12_i686.manylinux2010_i686.whl.zip]
+[2024-05-13 11:09:31] INFO root fetch - main [MainThread]: End processing [nelsie]: success
+[2024-05-13 11:09:31] INFO root fetch - main [MainThread]: Store serial: [23180604]
