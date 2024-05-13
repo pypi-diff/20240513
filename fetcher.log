@@ -24049,3 +24049,87 @@ EOFError: EOF read where object expected
 [2024-05-13 17:07:20] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.92.tar.gz]
 [2024-05-13 17:07:20] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
 [2024-05-13 17:07:20] INFO root fetch - main [MainThread]: Store serial: [23185452]
+[2024-05-13 17:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185452]
+[2024-05-13 17:09:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stack-graphs-python-bindings
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdnmon
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vonage
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-notifications-sdk
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notifications-sdk-preview
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OMTF
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kio
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conva-ai
+[2024-05-13 17:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ipex-llm
+[2024-05-13 17:09:30] INFO root fetch - processPackages [OMTF]: New version: [1.0.3] Old Version: [1.0.2b0]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [kio]: New version: [0.1.0] Old Version: [0.0.0a3]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [stack-graphs-python-bindings]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240512] Old Version: [2.1.0b20240511]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [cdnmon]: New version: [0.3.1] Old Version: [0.2.6]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [lusid-notifications-sdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [conva-ai]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [vonage]: New version: [3.99.0a9] Old Version: [3.99.0a8]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.938] Old Version: [0.1.936]
+[2024-05-13 17:09:30] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/ee/63/e2050bed02454284d66de8ba57b2a537221c469b18a142ca3b5409624485/omtf-1.0.2b0.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/11/77/522177dca232776977669bc2e606f0639fa2d8c0bf83f481fb6f0d0fde6a/ipex_llm-2.1.0b20240511-py3-none-win_amd64.whl
+[2024-05-13 17:09:30] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/41/bb/1b18fe677de280c04892c9d6b495bf647dff1030429c240a9e95a3926a86/stack_graphs_python_bindings-0.0.6.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [kio]: Downloading https://files.pythonhosted.org/packages/0c/98/b5934810c9b45af14130fdbfe68e15d545cd7b2bb980fa9ecdb12c389f22/kio-0.0.0a3.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/e3/4b/4f0e7c6538f5b67eb786df8b8803eafebc043029d8f3c6442dcaefad7c77/cdnmon-0.2.6.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/34/1b/5a9b3f7d5e1414980274b82421e588188962879fe859a5ba31fafebe79b9/lusid_notifications_sdk-2.1.5.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/72/83/0b1fb80b66e0eb80cbab70275bef09dceb530d1bef54237f41ebff06b32e/vonage-3.99.0a8.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/c0/46/b7a621ea69d5a90c04835d1a3160211a7b014d2a027d2dc7c69ccff94c70/conva_ai-0.0.8.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/1c/4c/78537a87bee296d324e3adb495abbac603f6136e47981a399629049ad66d/lusid-notifications-sdk-preview-0.1.936.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/85/61/ed1d94033f2d1a69a1ce19c39f390700603ef5f6ee1ce70ec9bed1d2426d/stack_graphs_python_bindings-0.0.7.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/29/40/edcd7a6332b4e09d45b4ab831954991197aaf17d273c75f6c675efa5095a/omtf-1.0.3.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/22/1c/f21768d030b6ac78adb20ba11e9ae2e19f8b35d0c212513f88ae2c9284cd/cdnmon-0.3.1.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/33/55/218e53c724e573a4a3f2c741f16c3fbdc8c240e76fd4c51fcb9e5505269a/lusid_notifications_sdk-2.1.6.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [stack-graphs-python-bindings]: executing diffoscope
+[2024-05-13 17:09:30] INFO root fetch - processPackages [stack-graphs-python-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stack_graphs_python_bindings-0.0.6.tar.gz tmp/stack_graphs_python_bindings-0.0.7.tar.gz --markdown 20240513/s/stack-graphs-python-bindings/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 17:09:30] INFO root fetch - processPackages [kio]: Downloading https://files.pythonhosted.org/packages/2e/27/dac87252c9c112afa647fe28e39677cddaf4a34f118a1e0876e66d0b464e/kio-0.1.0.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/61/53/a9acd35d19616d5305207cbdf261c1baa17b6069837defc93e4d11aea25c/conva_ai-0.1.0.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/4c/a5/8767d0465caed193c65f9b88dc57fa32a9d7d3fcee331aa071b3040fc21a/vonage-3.99.0a9.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/9a/6a/bc80801849328f20c456c5cd766da994f7761257f5921b168ef4fbac856f/lusid-notifications-sdk-preview-0.1.938.tar.gz
+[2024-05-13 17:09:30] INFO root fetch - processPackages [OMTF]: executing diffoscope
+[2024-05-13 17:09:30] INFO root fetch - processPackages [OMTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omtf-1.0.2b0.tar.gz tmp/omtf-1.0.3.tar.gz --markdown 20240513/O/OMTF/1.0.2b0-1.0.3/README.md --exclude *.pyd
+[2024-05-13 17:09:30] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2024-05-13 17:09:30] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.2.6.tar.gz tmp/cdnmon-0.3.1.tar.gz --markdown 20240513/c/cdnmon/0.2.6-0.3.1/README.md --exclude *.pyd
+[2024-05-13 17:09:30] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/9f/e9/caceb0c76f7b004f2cea05414ea0b8eabe6674cb2990f502b60197336102/ipex_llm-2.1.0b20240512-py3-none-win_amd64.whl
+[2024-05-13 17:09:31] INFO root fetch - processPackages [lusid-notifications-sdk]: executing diffoscope
+[2024-05-13 17:09:31] INFO root fetch - processPackages [lusid-notifications-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_notifications_sdk-2.1.5.tar.gz tmp/lusid_notifications_sdk-2.1.6.tar.gz --markdown 20240513/l/lusid-notifications-sdk/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-05-13 17:09:31] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2024-05-13 17:09:31] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.99.0a8.tar.gz tmp/vonage-3.99.0a9.tar.gz --markdown 20240513/v/vonage/3.99.0a8-3.99.0a9/README.md --exclude *.pyd
+[2024-05-13 17:09:31] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-05-13 17:09:31] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.0.8.tar.gz tmp/conva_ai-0.1.0.tar.gz --markdown 20240513/c/conva-ai/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-13 17:09:31] INFO root fetch - processPackages [kio]: executing diffoscope
+[2024-05-13 17:09:31] INFO root fetch - processPackages [kio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kio-0.0.0a3.tar.gz tmp/kio-0.1.0.tar.gz --markdown 20240513/k/kio/0.0.0a3-0.1.0/README.md --exclude *.pyd
+[2024-05-13 17:09:31] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2024-05-13 17:09:31] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.936.tar.gz tmp/lusid-notifications-sdk-preview-0.1.938.tar.gz --markdown 20240513/l/lusid-notifications-sdk-preview/0.1.936-0.1.938/README.md --exclude *.pyd
+[2024-05-13 17:09:31] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-13 17:09:31] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240511-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240512-py3-none-win_amd64.whl.zip --markdown 20240513/i/ipex-llm/2.1.0b20240511-2.1.0b20240512/README.md --exclude *.pyd
+[2024-05-13 17:09:32] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a8.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a9.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2024-05-13 17:09:32] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.6.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.3.1.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2024-05-13 17:09:32] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.6.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.7.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings]: success
+[2024-05-13 17:09:32] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.8.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.1.0.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-05-13 17:09:32] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.5.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.1.6.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk]: success
+[2024-05-13 17:09:32] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.936.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.938.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2024-05-13 17:09:32] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.2b0.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.3.tar.gz]
+[2024-05-13 17:09:32] INFO root fetch - main [MainThread]: End processing [OMTF]: success
+[2024-05-13 17:09:34] INFO root fetch - processPackages [kio]: Remove: archive file [/home/abi/fetcher/tmp/kio-0.0.0a3.tar.gz]
+[2024-05-13 17:09:34] INFO root fetch - processPackages [kio]: Remove: archive file [/home/abi/fetcher/tmp/kio-0.1.0.tar.gz]
+[2024-05-13 17:09:34] INFO root fetch - main [MainThread]: End processing [kio]: success
+[2024-05-13 17:10:00] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240511-py3-none-win_amd64.whl.zip]
+[2024-05-13 17:10:00] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240512-py3-none-win_amd64.whl.zip]
+[2024-05-13 17:10:00] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-13 17:10:00] INFO root fetch - main [MainThread]: Store serial: [23185490]
