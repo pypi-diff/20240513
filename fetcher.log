@@ -22454,3 +22454,72 @@ EOFError: EOF read where object expected
 [2024-05-13 16:24:42] INFO root fetch - processPackages [aiida-shell]: Remove: archive file [/home/abi/fetcher/tmp/aiida_shell-0.7.1.tar.gz]
 [2024-05-13 16:24:42] INFO root fetch - main [MainThread]: End processing [aiida-shell]: success
 [2024-05-13 16:24:42] INFO root fetch - main [MainThread]: Store serial: [23184726]
+[2024-05-13 16:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184726]
+[2024-05-13 16:26:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exponentation
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swiss-army-man
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nchuchain
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainlit
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proportionedz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: carbon-black-cloud-threat-intelligence-connector
+[2024-05-13 16:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LanusStats
+[2024-05-13 16:26:51] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.985]
+[2024-05-13 16:26:51] INFO root fetch - processPackages [exponentation]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 16:26:51] INFO root fetch - processPackages [nchuchain]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 16:26:51] INFO root fetch - processPackages [LanusStats]: New version: [1.5.0] Old Version: [1.3.1]
+[2024-05-13 16:26:51] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-13 16:26:51] WARNING root fetch - processPackages [proportionedz]: Skipping, unable to determine old version
+[2024-05-13 16:26:51] INFO root fetch - main [MainThread]: End processing [proportionedz] error
+[2024-05-13 16:26:51] INFO root fetch - processPackages [exponentation]: Downloading https://files.pythonhosted.org/packages/6d/0f/c688ff636178a2fe2146451674e9d8817a85aac427c71c5b28c2dabea7ce/exponentation-0.0.4.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/7a/bb/3f31b0e193d7169628d0f50040a83454348ce504295187b68187cf60cbf1/nchuchain-1.0.6.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: New version: [1.8] Old Version: [1.7]
+[2024-05-13 16:26:51] INFO root fetch - processPackages [chainlit]: New version: [1.1.0rc1] Old Version: [1.1.0rc0]
+[2024-05-13 16:26:51] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [LanusStats]: Downloading https://files.pythonhosted.org/packages/b9/b8/ea31637e1315d353d78d4519a28fe48ff5cc240a3b2b2ba584439a961ef3/LanusStats-1.3.1.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ea/6e/82cb3418a692a6426cab91b2a2cb8d657259bbcd9672b065562ad369e537/thesilent-0.0.985.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/84/77/371113b1c4788071816a784c0ad48522e14a73690f5dbd7bc3cc4c445205/nchuchain-1.0.7.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: Downloading https://files.pythonhosted.org/packages/f1/0d/acd00720f9a76f4884cdd95138889d36a47693210a4d75cb187d90ef4956/carbon_black_cloud_threat_intelligence_connector-1.7.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/cd/2b/9dd0a73f89ed70fc5f50193526aec273dfd9bef4778c913340b70213c1de/chainlit-1.1.0rc0.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [LanusStats]: Downloading https://files.pythonhosted.org/packages/34/6f/ab763f519073752ec9801f758c9d41b9a42d5973e3a8c851a2a20e1ca322/LanusStats-1.5.0.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 16:26:51] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.6.tar.gz tmp/nchuchain-1.0.7.tar.gz --markdown 20240513/n/nchuchain/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 16:26:51] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 16:26:51] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-05-13 16:26:51] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240513/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-13 16:26:52] INFO root fetch - processPackages [exponentation]: Downloading https://files.pythonhosted.org/packages/c4/4c/d28ede336e144e0b115770ddc79a1f13d92b75f5a65c08d236e812711bbf/exponentation-0.0.5.tar.gz
+[2024-05-13 16:26:52] INFO root fetch - processPackages [LanusStats]: executing diffoscope
+[2024-05-13 16:26:52] INFO root fetch - processPackages [LanusStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LanusStats-1.3.1.tar.gz tmp/LanusStats-1.5.0.tar.gz --markdown 20240513/L/LanusStats/1.3.1-1.5.0/README.md --exclude *.pyd
+[2024-05-13 16:26:52] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: Downloading https://files.pythonhosted.org/packages/ce/e2/95296f7f6b97014a10d8ced27f45822d7bbc3383860b17004c05fe99328b/carbon_black_cloud_threat_intelligence_connector-1.8.tar.gz
+[2024-05-13 16:26:52] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 16:26:52] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.985.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.985-0.0.99/README.md --exclude *.pyd
+[2024-05-13 16:26:52] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: executing diffoscope
+[2024-05-13 16:26:52] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_black_cloud_threat_intelligence_connector-1.7.tar.gz tmp/carbon_black_cloud_threat_intelligence_connector-1.8.tar.gz --markdown 20240513/c/carbon-black-cloud-threat-intelligence-connector/1.7-1.8/README.md --exclude *.pyd
+[2024-05-13 16:26:52] INFO root fetch - processPackages [exponentation]: executing diffoscope
+[2024-05-13 16:26:52] INFO root fetch - processPackages [exponentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exponentation-0.0.4.tar.gz tmp/exponentation-0.0.5.tar.gz --markdown 20240513/e/exponentation/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 16:26:52] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/d6/9e/1936ec9292029d63689c958ad7a446e9aa3a0afe15d96456f00e7f1aaec2/chainlit-1.1.0rc1.tar.gz
+[2024-05-13 16:26:52] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.6.tar.gz]
+[2024-05-13 16:26:52] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.7.tar.gz]
+[2024-05-13 16:26:52] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 16:26:53] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.985.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 16:26:53] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-05-13 16:26:53] INFO root fetch - processPackages [LanusStats]: Remove: archive file [/home/abi/fetcher/tmp/LanusStats-1.3.1.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - processPackages [LanusStats]: Remove: archive file [/home/abi/fetcher/tmp/LanusStats-1.5.0.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - main [MainThread]: End processing [LanusStats]: success
+[2024-05-13 16:26:53] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-13 16:26:53] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.1.0rc0.tar.gz tmp/chainlit-1.1.0rc1.tar.gz --markdown 20240513/c/chainlit/1.1.0rc0-1.1.0rc1/README.md --exclude *.pyd
+[2024-05-13 16:26:53] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: Remove: archive file [/home/abi/fetcher/tmp/carbon_black_cloud_threat_intelligence_connector-1.7.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - processPackages [carbon-black-cloud-threat-intelligence-connector]: Remove: archive file [/home/abi/fetcher/tmp/carbon_black_cloud_threat_intelligence_connector-1.8.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - main [MainThread]: End processing [carbon-black-cloud-threat-intelligence-connector]: success
+[2024-05-13 16:26:53] INFO root fetch - processPackages [exponentation]: Remove: archive file [/home/abi/fetcher/tmp/exponentation-0.0.4.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - processPackages [exponentation]: Remove: archive file [/home/abi/fetcher/tmp/exponentation-0.0.5.tar.gz]
+[2024-05-13 16:26:53] INFO root fetch - main [MainThread]: End processing [exponentation]: success
+[2024-05-13 16:26:54] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc0.tar.gz]
+[2024-05-13 16:26:54] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc1.tar.gz]
+[2024-05-13 16:26:54] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-13 16:26:54] INFO root fetch - main [MainThread]: Store serial: [23184823]
