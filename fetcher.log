@@ -1859,3 +1859,30 @@
 [2024-05-13 02:36:24] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.7.tar.gz]
 [2024-05-13 02:36:24] INFO root fetch - main [MainThread]: End processing [poseutil]: success
 [2024-05-13 02:36:24] INFO root fetch - main [MainThread]: Store serial: [23175246]
+[2024-05-13 02:38:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175246]
+[2024-05-13 02:38:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 02:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protorez
+[2024-05-13 02:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mufflesz
+[2024-05-13 02:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webflask
+[2024-05-13 02:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcal-sync
+[2024-05-13 02:38:33] INFO root fetch - processPackages [webflask]: New version: [0.4.5] Old Version: [0.4]
+[2024-05-13 02:38:33] INFO root fetch - processPackages [webflask]: Downloading https://files.pythonhosted.org/packages/da/19/a2198151b0e2cd6680f196a9d32814045564353998aeede66ca455df53ed/webflask-0.4.tar.gz
+[2024-05-13 02:38:33] WARNING root fetch - processPackages [protorez]: Skipping, unable to determine old version
+[2024-05-13 02:38:33] INFO root fetch - main [MainThread]: End processing [protorez] error
+[2024-05-13 02:38:33] WARNING root fetch - processPackages [mufflesz]: Skipping, unable to determine old version
+[2024-05-13 02:38:33] INFO root fetch - main [MainThread]: End processing [mufflesz] error
+[2024-05-13 02:38:33] INFO root fetch - processPackages [gcal-sync]: New version: [6.1.0] Old Version: [6.0.4]
+[2024-05-13 02:38:33] INFO root fetch - processPackages [gcal-sync]: Downloading https://files.pythonhosted.org/packages/76/29/95f501d4db1cab0bfc5b39442ef147740c7ab5917ad0d130b89a47f9b11b/gcal-sync-6.0.4.tar.gz
+[2024-05-13 02:38:33] INFO root fetch - processPackages [gcal-sync]: Downloading https://files.pythonhosted.org/packages/ad/15/662c8faf49408fb11966e0ee6d5b8a0441dcd50c6e765f33786d0714a9b7/gcal_sync-6.1.0.tar.gz
+[2024-05-13 02:38:34] INFO root fetch - processPackages [webflask]: Downloading https://files.pythonhosted.org/packages/47/fd/f2d3e78b93480c044a75939bdbb8b32021f260b49a3f4ed33b150be296df/webflask-0.4.5.tar.gz
+[2024-05-13 02:38:34] INFO root fetch - processPackages [gcal-sync]: executing diffoscope
+[2024-05-13 02:38:34] INFO root fetch - processPackages [gcal-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcal-sync-6.0.4.tar.gz tmp/gcal_sync-6.1.0.tar.gz --markdown 20240513/g/gcal-sync/6.0.4-6.1.0/README.md --exclude *.pyd
+[2024-05-13 02:38:34] INFO root fetch - processPackages [webflask]: executing diffoscope
+[2024-05-13 02:38:34] INFO root fetch - processPackages [webflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webflask-0.4.tar.gz tmp/webflask-0.4.5.tar.gz --markdown 20240513/w/webflask/0.4-0.4.5/README.md --exclude *.pyd
+[2024-05-13 02:38:34] INFO root fetch - processPackages [gcal-sync]: Remove: archive file [/home/abi/fetcher/tmp/gcal-sync-6.0.4.tar.gz]
+[2024-05-13 02:38:34] INFO root fetch - processPackages [gcal-sync]: Remove: archive file [/home/abi/fetcher/tmp/gcal_sync-6.1.0.tar.gz]
+[2024-05-13 02:38:34] INFO root fetch - main [MainThread]: End processing [gcal-sync]: success
+[2024-05-13 02:38:35] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.4.tar.gz]
+[2024-05-13 02:38:35] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.4.5.tar.gz]
+[2024-05-13 02:38:35] INFO root fetch - main [MainThread]: End processing [webflask]: success
+[2024-05-13 02:38:35] INFO root fetch - main [MainThread]: Store serial: [23175261]
