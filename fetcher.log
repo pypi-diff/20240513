@@ -11400,3 +11400,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:02:06] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
 [2024-05-13 10:02:06] INFO root fetch - main [MainThread]: End processing [classiq]: success
 [2024-05-13 10:02:06] INFO root fetch - main [MainThread]: Store serial: [23179671]
+[2024-05-13 10:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179671]
+[2024-05-13 10:04:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-flask
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gref4hsi
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: b2
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: normino
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-magnet-segmentation-toolkit
+[2024-05-13 10:04:15] INFO root fetch - processPackages [gref4hsi]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 10:04:15] WARNING root fetch - processPackages [normino]: Skipping, unable to determine old version
+[2024-05-13 10:04:15] INFO root fetch - main [MainThread]: End processing [normino] error
+[2024-05-13 10:04:15] INFO root fetch - processPackages [abstract-flask]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-13 10:04:15] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/d4/48/b8039995a1f3c92123a9a2f336c523924cc59ac3550514fccf1c235bab58/gref4hsi-0.2.1.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: New version: [0.4.1] Old Version: [0.3.3]
+[2024-05-13 10:04:15] INFO root fetch - processPackages [b2]: New version: [4.0.0] Old Version: [3.9.0]
+[2024-05-13 10:04:15] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/dd/b5/07ede9be0ef79356a261e6cea03862229d0aa640f9c0019ce4db7ff2f020/abstract_flask-0.0.0.8.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Downloading https://files.pythonhosted.org/packages/eb/ac/ddb001c87c5584b26e143a3693889dd1eca9715cfc4706e79532d2c624f4/ansys_magnet_segmentation_toolkit-0.3.3.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [b2]: Downloading https://files.pythonhosted.org/packages/35/74/0fab7c98aa690cac877a87efa3245b32ffcaf9e9a8311deffd3d3c07e560/b2-3.9.0.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/14/0a/7a6dbf4d6fbc3159c74d1d7255e81df3a0040341f7ab94857fa7d229e2db/gref4hsi-0.2.2.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [gref4hsi]: executing diffoscope
+[2024-05-13 10:04:15] INFO root fetch - processPackages [gref4hsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gref4hsi-0.2.1.tar.gz tmp/gref4hsi-0.2.2.tar.gz --markdown 20240513/g/gref4hsi/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 10:04:15] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/da/9d/0f2ad7f593e9da2e089c35b62aecf3a0f42a18142ce9baca902c137548ef/abstract_flask-0.0.0.9.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Downloading https://files.pythonhosted.org/packages/43/bd/b164f12ff836574a2dd0ef77bf9592bee5f1e0f7adfe7fbd49814ca53816/ansys_magnet_segmentation_toolkit-0.4.1.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [b2]: Downloading https://files.pythonhosted.org/packages/32/35/61b3e8b56bca090476edfd4044d068289f2750b8943e0c65fde7808cdd89/b2-4.0.0.tar.gz
+[2024-05-13 10:04:15] INFO root fetch - processPackages [abstract-flask]: executing diffoscope
+[2024-05-13 10:04:15] INFO root fetch - processPackages [abstract-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_flask-0.0.0.8.tar.gz tmp/abstract_flask-0.0.0.9.tar.gz --markdown 20240513/a/abstract-flask/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-13 10:04:16] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: executing diffoscope
+[2024-05-13 10:04:16] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_magnet_segmentation_toolkit-0.3.3.tar.gz tmp/ansys_magnet_segmentation_toolkit-0.4.1.tar.gz --markdown 20240513/a/ansys-magnet-segmentation-toolkit/0.3.3-0.4.1/README.md --exclude *.pyd
+[2024-05-13 10:04:16] INFO root fetch - processPackages [b2]: executing diffoscope
+[2024-05-13 10:04:16] INFO root fetch - processPackages [b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2-3.9.0.tar.gz tmp/b2-4.0.0.tar.gz --markdown 20240513/b/b2/3.9.0-4.0.0/README.md --exclude *.pyd
+[2024-05-13 10:04:16] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.8.tar.gz]
+[2024-05-13 10:04:16] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.9.tar.gz]
+[2024-05-13 10:04:16] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
+[2024-05-13 10:04:16] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ansys_magnet_segmentation_toolkit-0.3.3.tar.gz]
+[2024-05-13 10:04:16] INFO root fetch - processPackages [ansys-magnet-segmentation-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ansys_magnet_segmentation_toolkit-0.4.1.tar.gz]
+[2024-05-13 10:04:16] INFO root fetch - main [MainThread]: End processing [ansys-magnet-segmentation-toolkit]: success
+[2024-05-13 10:04:16] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.2.1.tar.gz]
+[2024-05-13 10:04:16] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.2.2.tar.gz]
+[2024-05-13 10:04:16] INFO root fetch - main [MainThread]: End processing [gref4hsi]: success
+[2024-05-13 10:04:17] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-3.9.0.tar.gz]
+[2024-05-13 10:04:17] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-4.0.0.tar.gz]
+[2024-05-13 10:04:17] INFO root fetch - main [MainThread]: End processing [b2]: success
+[2024-05-13 10:04:17] INFO root fetch - main [MainThread]: Store serial: [23179687]
