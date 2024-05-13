@@ -2585,3 +2585,36 @@
 [2024-05-13 03:37:50] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.5.5.tar.gz]
 [2024-05-13 03:37:50] INFO root fetch - main [MainThread]: End processing [webflask]: success
 [2024-05-13 03:37:50] INFO root fetch - main [MainThread]: Store serial: [23175565]
+[2024-05-13 03:39:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175565]
+[2024-05-13 03:39:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 03:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tautulli
+[2024-05-13 03:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reestablishz
+[2024-05-13 03:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyAgrum-nightly
+[2024-05-13 03:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dot2bgraph
+[2024-05-13 03:39:59] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-13 03:39:59] WARNING root fetch - processPackages [reestablishz]: Skipping, unable to determine old version
+[2024-05-13 03:39:59] INFO root fetch - main [MainThread]: End processing [reestablishz] error
+[2024-05-13 03:39:59] INFO root fetch - processPackages [tautulli]: New version: [4.2.1.2140b0] Old Version: [4.2.0.2140b0]
+[2024-05-13 03:39:59] INFO root fetch - processPackages [dot2bgraph]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 03:39:59] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-13 03:39:59] INFO root fetch - processPackages [tautulli]: Downloading https://files.pythonhosted.org/packages/ac/a4/df19cda5cdcdad8ef360418b10ea39f47c39cc657976114eb138d8f0b753/tautulli-4.2.0.2140b0.tar.gz
+[2024-05-13 03:39:59] INFO root fetch - processPackages [dot2bgraph]: Downloading https://files.pythonhosted.org/packages/a2/6e/421953e0bf3f88d16897eff8ad3324dbe60ebc4e7869d0e9b88e3da69238/dot2bgraph-0.1.1.tar.gz
+[2024-05-13 03:39:59] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-13 03:39:59] INFO root fetch - processPackages [tautulli]: Downloading https://files.pythonhosted.org/packages/ab/3e/3a2595a0476db29c39d44457b38dcf5d6b043d3f30ec66d4208a70176bf8/tautulli-4.2.1.2140b0.tar.gz
+[2024-05-13 03:39:59] INFO root fetch - processPackages [tautulli]: executing diffoscope
+[2024-05-13 03:39:59] INFO root fetch - processPackages [tautulli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tautulli-4.2.0.2140b0.tar.gz tmp/tautulli-4.2.1.2140b0.tar.gz --markdown 20240513/t/tautulli/4.2.0.2140b0-4.2.1.2140b0/README.md --exclude *.pyd
+[2024-05-13 03:39:59] INFO root fetch - processPackages [dot2bgraph]: Downloading https://files.pythonhosted.org/packages/02/2d/b638ab13ff4de6d6503f1d0c1aac86948b582bf93794dead56e7d919234a/dot2bgraph-0.1.2.tar.gz
+[2024-05-13 03:39:59] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-13 03:39:59] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240513/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-13 03:39:59] INFO root fetch - processPackages [dot2bgraph]: executing diffoscope
+[2024-05-13 03:39:59] INFO root fetch - processPackages [dot2bgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dot2bgraph-0.1.1.tar.gz tmp/dot2bgraph-0.1.2.tar.gz --markdown 20240513/d/dot2bgraph/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 03:40:00] INFO root fetch - processPackages [tautulli]: Remove: archive file [/home/abi/fetcher/tmp/tautulli-4.2.0.2140b0.tar.gz]
+[2024-05-13 03:40:00] INFO root fetch - processPackages [tautulli]: Remove: archive file [/home/abi/fetcher/tmp/tautulli-4.2.1.2140b0.tar.gz]
+[2024-05-13 03:40:00] INFO root fetch - main [MainThread]: End processing [tautulli]: success
+[2024-05-13 03:40:00] INFO root fetch - processPackages [dot2bgraph]: Remove: archive file [/home/abi/fetcher/tmp/dot2bgraph-0.1.1.tar.gz]
+[2024-05-13 03:40:00] INFO root fetch - processPackages [dot2bgraph]: Remove: archive file [/home/abi/fetcher/tmp/dot2bgraph-0.1.2.tar.gz]
+[2024-05-13 03:40:00] INFO root fetch - main [MainThread]: End processing [dot2bgraph]: success
+[2024-05-13 03:40:00] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 03:40:00] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 03:40:00] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-13 03:40:00] INFO root fetch - main [MainThread]: Store serial: [23175592]
