@@ -5131,3 +5131,35 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:06:55] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.3.tar.gz]
 [2024-05-13 06:06:55] INFO root fetch - main [MainThread]: End processing [titli]: success
 [2024-05-13 06:06:55] INFO root fetch - main [MainThread]: Store serial: [23176745]
+[2024-05-13 06:08:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176745]
+[2024-05-13 06:09:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glglue
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopkg-wrapper
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-core
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anematosisz
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezkl-gpu
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-13 06:09:03] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-05-13 06:09:04] WARNING root fetch - processPackages [anematosisz]: Skipping, unable to determine old version
+[2024-05-13 06:09:04] INFO root fetch - main [MainThread]: End processing [anematosisz] error
+[2024-05-13 06:09:04] WARNING root fetch - processPackages [docmesh-core]: Skipping, unable to determine old version
+[2024-05-13 06:09:04] INFO root fetch - main [MainThread]: End processing [docmesh-core] error
+[2024-05-13 06:09:04] INFO root fetch - processPackages [autopkg-wrapper]: New version: [2024.5.1] Old Version: [2024.3.1]
+[2024-05-13 06:09:04] INFO root fetch - processPackages [glglue]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-13 06:09:04] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-05-13 06:09:04] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-05-13 06:09:04] INFO root fetch - processPackages [autopkg-wrapper]: Downloading https://files.pythonhosted.org/packages/fd/41/8005c978f1383931c860f9968987ff9efa4f9fc3124d6e8960474309f3f2/autopkg_wrapper-2024.3.1.tar.gz
+[2024-05-13 06:09:04] INFO root fetch - processPackages [glglue]: Downloading https://files.pythonhosted.org/packages/e2/16/7608b4fcccb0aadacb55dfab00673a3373efb7379d8a8581e0fbe2a6538d/glglue-2.3.0.tar.gz
+[2024-05-13 06:09:04] INFO root fetch - processPackages [autopkg-wrapper]: Downloading https://files.pythonhosted.org/packages/f7/2b/886d3ff8f98e6defab79c4078758b4aa91eecdf088c0d47e9ae5f6fb2444/autopkg_wrapper-2024.5.1.tar.gz
+[2024-05-13 06:09:04] INFO root fetch - processPackages [glglue]: Downloading https://files.pythonhosted.org/packages/4b/5d/c1d7738f173fa65c854d7a825f4700ad123ff0b2ab2a4e14610c208d20b9/glglue-2.4.0.tar.gz
+[2024-05-13 06:09:04] INFO root fetch - processPackages [autopkg-wrapper]: executing diffoscope
+[2024-05-13 06:09:04] INFO root fetch - processPackages [autopkg-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopkg_wrapper-2024.3.1.tar.gz tmp/autopkg_wrapper-2024.5.1.tar.gz --markdown 20240513/a/autopkg-wrapper/2024.3.1-2024.5.1/README.md --exclude *.pyd
+[2024-05-13 06:09:04] INFO root fetch - processPackages [glglue]: executing diffoscope
+[2024-05-13 06:09:04] INFO root fetch - processPackages [glglue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glglue-2.3.0.tar.gz tmp/glglue-2.4.0.tar.gz --markdown 20240513/g/glglue/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-13 06:09:05] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.3.1.tar.gz]
+[2024-05-13 06:09:05] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.5.1.tar.gz]
+[2024-05-13 06:09:05] INFO root fetch - main [MainThread]: End processing [autopkg-wrapper]: success
+[2024-05-13 06:09:05] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.3.0.tar.gz]
+[2024-05-13 06:09:05] INFO root fetch - processPackages [glglue]: Remove: archive file [/home/abi/fetcher/tmp/glglue-2.4.0.tar.gz]
+[2024-05-13 06:09:05] INFO root fetch - main [MainThread]: End processing [glglue]: success
+[2024-05-13 06:09:05] INFO root fetch - main [MainThread]: Store serial: [23176761]
