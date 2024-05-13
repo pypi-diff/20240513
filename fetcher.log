@@ -8991,3 +8991,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:05:30] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2394.0.tar.gz]
 [2024-05-13 08:05:30] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-05-13 08:05:30] INFO root fetch - main [MainThread]: Store serial: [23178491]
+[2024-05-13 08:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178491]
+[2024-05-13 08:07:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezside
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apimatic-core-interfaces
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-core
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unbeseemz
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: package-dev-tools
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 08:07:40] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-05-13 08:07:40] INFO root fetch - processPackages [apimatic-core-interfaces]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 08:07:40] WARNING root fetch - processPackages [test-core]: Skipping, unable to determine old version
+[2024-05-13 08:07:40] INFO root fetch - main [MainThread]: End processing [test-core] error
+[2024-05-13 08:07:40] WARNING root fetch - processPackages [unbeseemz]: Skipping, unable to determine old version
+[2024-05-13 08:07:40] INFO root fetch - main [MainThread]: End processing [unbeseemz] error
+[2024-05-13 08:07:40] INFO root fetch - processPackages [package-dev-tools]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-13 08:07:41] INFO root fetch - processPackages [apimatic-core-interfaces]: Downloading https://files.pythonhosted.org/packages/ab/cd/9d8c6647667327778578738f33b122ea0ca9832d8d9b608c232487d28063/apimatic-core-interfaces-0.1.4.tar.gz
+[2024-05-13 08:07:41] INFO root fetch - processPackages [package-dev-tools]: Downloading https://files.pythonhosted.org/packages/65/03/55d7ad6c090ee16d4cb5f1ee244717c7d6df3b589e8e52fb3553f8f3d832/package-dev-tools-0.5.9.tar.gz
+[2024-05-13 08:07:41] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-05-13 08:07:41] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-05-13 08:07:41] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240513/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 08:07:41] INFO root fetch - processPackages [apimatic-core-interfaces]: Downloading https://files.pythonhosted.org/packages/a7/76/c87af838cd9b47c391e706cdc1a34b9367d92e9e104ca96382aacfe4d955/apimatic_core_interfaces-0.1.5.tar.gz
+[2024-05-13 08:07:41] INFO root fetch - processPackages [package-dev-tools]: Downloading https://files.pythonhosted.org/packages/a0/c6/de3acf9b5add78fc39e0733b138eca71339d8db6561de7388829c86c002d/package_dev_tools-0.6.0.tar.gz
+[2024-05-13 08:07:41] INFO root fetch - processPackages [apimatic-core-interfaces]: executing diffoscope
+[2024-05-13 08:07:41] INFO root fetch - processPackages [apimatic-core-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-interfaces-0.1.4.tar.gz tmp/apimatic_core_interfaces-0.1.5.tar.gz --markdown 20240513/a/apimatic-core-interfaces/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 08:07:41] INFO root fetch - processPackages [package-dev-tools]: executing diffoscope
+[2024-05-13 08:07:41] INFO root fetch - processPackages [package-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package-dev-tools-0.5.9.tar.gz tmp/package_dev_tools-0.6.0.tar.gz --markdown 20240513/p/package-dev-tools/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-13 08:07:42] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-05-13 08:07:42] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-05-13 08:07:42] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-05-13 08:07:42] INFO root fetch - processPackages [apimatic-core-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-interfaces-0.1.4.tar.gz]
+[2024-05-13 08:07:42] INFO root fetch - processPackages [apimatic-core-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/apimatic_core_interfaces-0.1.5.tar.gz]
+[2024-05-13 08:07:42] INFO root fetch - main [MainThread]: End processing [apimatic-core-interfaces]: success
+[2024-05-13 08:07:42] INFO root fetch - processPackages [package-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/package-dev-tools-0.5.9.tar.gz]
+[2024-05-13 08:07:42] INFO root fetch - processPackages [package-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/package_dev_tools-0.6.0.tar.gz]
+[2024-05-13 08:07:42] INFO root fetch - main [MainThread]: End processing [package-dev-tools]: success
+[2024-05-13 08:07:42] INFO root fetch - main [MainThread]: Store serial: [23178513]
