@@ -15447,3 +15447,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:34:57] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.20-py3-none-any.whl.zip]
 [2024-05-13 12:34:57] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
 [2024-05-13 12:34:57] INFO root fetch - main [MainThread]: Store serial: [23181582]
+[2024-05-13 12:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181582]
+[2024-05-13 12:37:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hombre-tools
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: submititnow
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forritz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqladmin
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipez
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tanu
+[2024-05-13 12:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: argus-toolbelt
+[2024-05-13 12:37:06] INFO root fetch - processPackages [hombre-tools]: New version: [0.1.21] Old Version: [0.1.20]
+[2024-05-13 12:37:06] INFO root fetch - processPackages [pipez]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 12:37:06] INFO root fetch - processPackages [tanu]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 12:37:06] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/c8/62/5b717f40c0fa19b721b0c32e9704e07e3efc6ef66d9e9235e125637ee655/pipez-0.0.98.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/fe/64/92eec77d31754007239131f78934b9221880d077cc64e997e747566f4a88/hombre_tools-0.1.20-py3-none-any.whl
+[2024-05-13 12:37:06] INFO root fetch - processPackages [submititnow]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-13 12:37:06] WARNING root fetch - processPackages [forritz]: Skipping, unable to determine old version
+[2024-05-13 12:37:06] INFO root fetch - main [MainThread]: End processing [forritz] error
+[2024-05-13 12:37:06] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 12:37:06] INFO root fetch - processPackages [argus-toolbelt]: New version: [6.9.3] Old Version: [6.9.2]
+[2024-05-13 12:37:06] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/2a/9e/ebda345adb75f610db9af8439755e9da952b79dbbf612bf0ef859cc62b7f/tanu-0.1.3.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/e2/c2/00caa80a451af253bf6bb3f74679b92dd24ec416dd0ce047e586256e86bb/sqladmin-0.8.0.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [submititnow]: Downloading https://files.pythonhosted.org/packages/9c/da/81833d025099fca51b3644423659b7ffb5797fba7aea49d318264f4631c6/submititnow-0.9.5.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/5a/9b/9ffe0dedbbba053489bd0128af23ba436e9b4b4e790dc4523bd1c9150589/argus_toolbelt-6.9.2-py3-none-any.whl
+[2024-05-13 12:37:06] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/e6/6e/340bc500f971bf2861a377a6dd615982ddeeb6ee3175f01910d829d31484/pipez-0.0.99.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/73/b2/cb282ba669f19b563fc7e5725eddecde173ab617b48db24805fdd9183273/tanu-0.1.4.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/2c/f4/e04e3265f4266ca05e88631f0d1a1388229fc4d892bfa25cde7ef4211dc1/hombre_tools-0.1.21-py3-none-any.whl
+[2024-05-13 12:37:06] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-13 12:37:06] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.3.tar.gz tmp/tanu-0.1.4.tar.gz --markdown 20240513/t/tanu/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 12:37:06] INFO root fetch - processPackages [submititnow]: Downloading https://files.pythonhosted.org/packages/9d/32/2f492958b2bf10579f3bc4de7956f8e9cb4969e19a4d9105dc4057b2a176/submititnow-0.9.6.tar.gz
+[2024-05-13 12:37:06] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-05-13 12:37:06] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.98.tar.gz tmp/pipez-0.0.99.tar.gz --markdown 20240513/p/pipez/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 12:37:06] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/a3/b2/0b1777b71ed99e68b69056422de29864ce6be6992d094d56075ab2cbce9d/sqladmin-0.9.0.tar.gz
+[2024-05-13 12:37:07] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/b7/a1/72c8c4de737e233775d5d75822ec3082214447ad8159fa2f5cdbda5a25ae/argus_toolbelt-6.9.3-py3-none-any.whl
+[2024-05-13 12:37:07] INFO root fetch - processPackages [submititnow]: executing diffoscope
+[2024-05-13 12:37:07] INFO root fetch - processPackages [submititnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/submititnow-0.9.5.tar.gz tmp/submititnow-0.9.6.tar.gz --markdown 20240513/s/submititnow/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-13 12:37:07] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2024-05-13 12:37:07] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20240513/s/sqladmin/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 12:37:07] INFO root fetch - processPackages [argus-toolbelt]: executing diffoscope
+[2024-05-13 12:37:07] INFO root fetch - processPackages [argus-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_toolbelt-6.9.2-py3-none-any.whl.zip tmp/argus_toolbelt-6.9.3-py3-none-any.whl.zip --markdown 20240513/a/argus-toolbelt/6.9.2-6.9.3/README.md --exclude *.pyd
+[2024-05-13 12:37:07] INFO root fetch - processPackages [hombre-tools]: executing diffoscope
+[2024-05-13 12:37:07] INFO root fetch - processPackages [hombre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hombre_tools-0.1.20-py3-none-any.whl.zip tmp/hombre_tools-0.1.21-py3-none-any.whl.zip --markdown 20240513/h/hombre-tools/0.1.20-0.1.21/README.md --exclude *.pyd
+[2024-05-13 12:37:08] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.3.tar.gz]
+[2024-05-13 12:37:08] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.tar.gz]
+[2024-05-13 12:37:08] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-13 12:37:08] INFO root fetch - processPackages [argus-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/argus_toolbelt-6.9.2-py3-none-any.whl.zip]
+[2024-05-13 12:37:08] INFO root fetch - processPackages [argus-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/argus_toolbelt-6.9.3-py3-none-any.whl.zip]
+[2024-05-13 12:37:08] INFO root fetch - main [MainThread]: End processing [argus-toolbelt]: success
+[2024-05-13 12:37:08] INFO root fetch - processPackages [submititnow]: Remove: archive file [/home/abi/fetcher/tmp/submititnow-0.9.5.tar.gz]
+[2024-05-13 12:37:08] INFO root fetch - processPackages [submititnow]: Remove: archive file [/home/abi/fetcher/tmp/submititnow-0.9.6.tar.gz]
+[2024-05-13 12:37:08] INFO root fetch - main [MainThread]: End processing [submititnow]: success
+[2024-05-13 12:37:08] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.8.0.tar.gz]
+[2024-05-13 12:37:08] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.9.0.tar.gz]
+[2024-05-13 12:37:08] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2024-05-13 12:37:09] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.98.tar.gz]
+[2024-05-13 12:37:09] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
+[2024-05-13 12:37:09] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-05-13 12:37:10] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.20-py3-none-any.whl.zip]
+[2024-05-13 12:37:10] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.21-py3-none-any.whl.zip]
+[2024-05-13 12:37:10] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
+[2024-05-13 12:37:10] INFO root fetch - main [MainThread]: Store serial: [23181602]
