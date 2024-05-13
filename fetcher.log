@@ -19061,3 +19061,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:39:00] INFO root fetch - processPackages [tap-mambu]: Remove: archive file [/home/abi/fetcher/tmp/tap-mambu-4.2.0.tar.gz]
 [2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [tap-mambu]: success
 [2024-05-13 14:39:00] INFO root fetch - main [MainThread]: Store serial: [23183040]
+[2024-05-13 14:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183040]
+[2024-05-13 14:41:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataprep-ml
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samtesred-skorozvon
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarc2
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btex
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aopp-deconv-tool
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorcircuit-nightly
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: collectiontools-vrb
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: incawrapper
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: soundtools
+[2024-05-13 14:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: algokit-client-generator
+[2024-05-13 14:41:10] INFO root fetch - processPackages [dataprep-ml]: New version: [24.5.1.0] Old Version: [0.0.9]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-13 14:41:10] WARNING root fetch - processPackages [samtesred-skorozvon]: Skipping, unable to determine old version
+[2024-05-13 14:41:10] INFO root fetch - main [MainThread]: End processing [samtesred-skorozvon] error
+[2024-05-13 14:41:10] INFO root fetch - processPackages [incawrapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [soundtools]: New version: [0.2.2.2] Old Version: [0.2.2.1]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [btex]: New version: [0.3] Old Version: [0.2.5]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [collectiontools-vrb]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [pyarc2]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [algokit-client-generator]: New version: [1.1.4b3] Old Version: [1.1.4b2]
+[2024-05-13 14:41:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [btex]: Downloading https://files.pythonhosted.org/packages/72/af/167874698b96c435e446bcdf2a2ad792e2313d5e5592b0c09fc9a96533ba/btex-0.2.5.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/cb/63/a03f9b319db7e7eb17c2af2f43f3b03cd5b75dd400f7ca67a4baffad30ed/soundtools-0.2.2.1.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [pyarc2]: Downloading https://files.pythonhosted.org/packages/d8/9c/a120a91077ec6b5a2b372a1c5335870f4b29b35ae101316b935d2de61348/pyarc2-0.4.0.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [incawrapper]: Downloading https://files.pythonhosted.org/packages/4b/fa/11d17fb6462884f740bfed8f43dbbcdb4e1faa454267174fcdc103308bc3/incawrapper-1.1.0.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [collectiontools-vrb]: Downloading https://files.pythonhosted.org/packages/9f/9a/9a1f1272ab9230ac017b66d42458f110904b7adacb2ef294a195c8ffbb0e/collectiontools_vrb-0.9.0.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/74/dc/5d83711482ebe22bf9e9d3e192f2a58ffa4db0c51b48e7faf2986f795db6/algokit_client_generator-1.1.4b2-py3-none-any.whl
+[2024-05-13 14:41:10] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/17/fd/9ec8ad490183fe18eb291ad8b0ab65d5cf92ad64f0d68084c3a18abe722b/dataprep_ml-24.5.1.0.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 14:41:10] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:41:10] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2024-05-13 14:41:10] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.9.tar.gz tmp/dataprep_ml-24.5.1.0.tar.gz --markdown 20240513/d/dataprep-ml/0.0.9-24.5.1.0/README.md --exclude *.pyd
+[2024-05-13 14:41:10] INFO root fetch - processPackages [btex]: Downloading https://files.pythonhosted.org/packages/46/45/44ccafdd8c193196fc7e04e7f0303bd5fdfda98395ef54985f681da4128a/btex-0.3.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-13 14:41:10] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240513/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-13 14:41:10] INFO root fetch - processPackages [pyarc2]: Downloading https://files.pythonhosted.org/packages/46/53/1679b3c597ba8663ffcd499c3d475f7212b8df0a5609dce22e2d00cbc387/pyarc2-0.5.0.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/40/04/082ba0b0b78eeaffc2d8de702ff119f32f49fd37989e799c4bda5c4c9c32/soundtools-0.2.2.2.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [collectiontools-vrb]: Downloading https://files.pythonhosted.org/packages/cc/b0/761c89d976aff46fd151b8981e4eaa2fd1bbc54c67b666a333320b7b37ba/collectiontools_vrb-0.9.1.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [incawrapper]: Downloading https://files.pythonhosted.org/packages/3e/ba/94905a571fffae15cbcabe46641a16673e5ba8bd0f67fb23039e07fff444/incawrapper-1.1.1.tar.gz
+[2024-05-13 14:41:10] INFO root fetch - processPackages [btex]: executing diffoscope
+[2024-05-13 14:41:10] INFO root fetch - processPackages [btex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btex-0.2.5.tar.gz tmp/btex-0.3.tar.gz --markdown 20240513/b/btex/0.2.5-0.3/README.md --exclude *.pyd
+[2024-05-13 14:41:11] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/1d/9c/c131a9956222698902cde5ccce6110d1bc50ccf5d4aac9c2a24e316550c0/algokit_client_generator-1.1.4b3-py3-none-any.whl
+[2024-05-13 14:41:11] INFO root fetch - processPackages [pyarc2]: executing diffoscope
+[2024-05-13 14:41:11] INFO root fetch - processPackages [pyarc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarc2-0.4.0.tar.gz tmp/pyarc2-0.5.0.tar.gz --markdown 20240513/p/pyarc2/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 14:41:11] INFO root fetch - processPackages [collectiontools-vrb]: executing diffoscope
+[2024-05-13 14:41:11] INFO root fetch - processPackages [collectiontools-vrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectiontools_vrb-0.9.0.tar.gz tmp/collectiontools_vrb-0.9.1.tar.gz --markdown 20240513/c/collectiontools-vrb/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 14:41:11] INFO root fetch - processPackages [soundtools]: executing diffoscope
+[2024-05-13 14:41:11] INFO root fetch - processPackages [soundtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundtools-0.2.2.1.tar.gz tmp/soundtools-0.2.2.2.tar.gz --markdown 20240513/s/soundtools/0.2.2.1-0.2.2.2/README.md --exclude *.pyd
+[2024-05-13 14:41:11] INFO root fetch - processPackages [incawrapper]: executing diffoscope
+[2024-05-13 14:41:11] INFO root fetch - processPackages [incawrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incawrapper-1.1.0.tar.gz tmp/incawrapper-1.1.1.tar.gz --markdown 20240513/i/incawrapper/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 14:41:11] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2024-05-13 14:41:11] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-1.1.4b2-py3-none-any.whl.zip tmp/algokit_client_generator-1.1.4b3-py3-none-any.whl.zip --markdown 20240513/a/algokit-client-generator/1.1.4b2-1.1.4b3/README.md --exclude *.pyd
+[2024-05-13 14:41:11] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-24.5.1.0.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2024-05-13 14:41:11] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 14:41:11] INFO root fetch - processPackages [btex]: Remove: archive file [/home/abi/fetcher/tmp/btex-0.2.5.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - processPackages [btex]: Remove: archive file [/home/abi/fetcher/tmp/btex-0.3.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - main [MainThread]: End processing [btex]: success
+[2024-05-13 14:41:11] INFO root fetch - processPackages [collectiontools-vrb]: Remove: archive file [/home/abi/fetcher/tmp/collectiontools_vrb-0.9.0.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - processPackages [collectiontools-vrb]: Remove: archive file [/home/abi/fetcher/tmp/collectiontools_vrb-0.9.1.tar.gz]
+[2024-05-13 14:41:11] INFO root fetch - main [MainThread]: End processing [collectiontools-vrb]: success
+[2024-05-13 14:41:12] INFO root fetch - processPackages [pyarc2]: Remove: archive file [/home/abi/fetcher/tmp/pyarc2-0.4.0.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - processPackages [pyarc2]: Remove: archive file [/home/abi/fetcher/tmp/pyarc2-0.5.0.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - main [MainThread]: End processing [pyarc2]: success
+[2024-05-13 14:41:12] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.2.1.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.2.2.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - main [MainThread]: End processing [soundtools]: success
+[2024-05-13 14:41:12] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-1.1.4b2-py3-none-any.whl.zip]
+[2024-05-13 14:41:12] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-1.1.4b3-py3-none-any.whl.zip]
+[2024-05-13 14:41:12] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2024-05-13 14:41:12] INFO root fetch - processPackages [incawrapper]: Remove: archive file [/home/abi/fetcher/tmp/incawrapper-1.1.0.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - processPackages [incawrapper]: Remove: archive file [/home/abi/fetcher/tmp/incawrapper-1.1.1.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - main [MainThread]: End processing [incawrapper]: success
+[2024-05-13 14:41:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-13 14:41:12] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-13 14:41:12] INFO root fetch - main [MainThread]: Store serial: [23183080]
