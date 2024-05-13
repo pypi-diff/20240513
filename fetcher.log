@@ -10723,3 +10723,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:35:38] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.9-py3-none-any.whl.zip]
 [2024-05-13 09:35:38] INFO root fetch - main [MainThread]: End processing [Abava-SDK]: success
 [2024-05-13 09:35:38] INFO root fetch - main [MainThread]: Store serial: [23179369]
+[2024-05-13 09:37:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179369]
+[2024-05-13 09:37:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intermediaryz
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Common
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-core-package
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lalsuite
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binpolar
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webscout
+[2024-05-13 09:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-picking-batch-validate-confirm
+[2024-05-13 09:37:48] INFO root fetch - processPackages [test-core-package]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 09:37:48] INFO root fetch - processPackages [binpolar]: New version: [0.6] Old Version: [0.5]
+[2024-05-13 09:37:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-13 09:37:48] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/6d/3e/89c754a4516a088075e69afea42b47cd6f0629eef8e05fc983b0516f889d/binpolar-0.5.tar.gz
+[2024-05-13 09:37:48] INFO root fetch - processPackages [webscout]: New version: [2.2b0] Old Version: [2.2]
+[2024-05-13 09:37:48] WARNING root fetch - processPackages [intermediaryz]: Skipping, unable to determine old version
+[2024-05-13 09:37:48] INFO root fetch - main [MainThread]: End processing [intermediaryz] error
+[2024-05-13 09:37:48] INFO root fetch - processPackages [Geode-Common]: New version: [31.1.0rc1] Old Version: [31.0.8rc1]
+[2024-05-13 09:37:48] WARNING root fetch - processPackages [odoo-addon-stock-picking-batch-validate-confirm]: Skipping, unable to determine old version
+[2024-05-13 09:37:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-validate-confirm] error
+[2024-05-13 09:37:48] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-13 09:37:48] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/19/ec/d24a8cebf44c9ade7b732475d5ebaa976d363ffdde5832dcc9d7103a1614/test_core_package-0.0.4.tar.gz
+[2024-05-13 09:37:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-13 09:37:48] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/1d/cb/332316b4ab83ab9b691b0e18aab102a7f1b453e5d9b887dc9b97f68aab04/Geode_Common-31.0.8rc1-cp39-cp39-win_amd64.whl
+[2024-05-13 09:37:48] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/5f/24/012cb870fef134893affbd5afa5d7ecd3a3cc83375db874786663ef9e834/binpolar-0.6.tar.gz
+[2024-05-13 09:37:48] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 09:37:48] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-13 09:37:48] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-13 09:37:48] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/02/2a/c3d408c4204a3c1610ee462ef53d0e72e1b03f0db1f038a7cf60d6a7251a/webscout-2.2.tar.gz
+[2024-05-13 09:37:48] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/57/1b/52a9abcd4e385393d9e4e00b38063cf28459014fa5ec5cd1be2b9a48f83c/test_core_package-0.0.5.tar.gz
+[2024-05-13 09:37:49] INFO root fetch - processPackages [binpolar]: executing diffoscope
+[2024-05-13 09:37:49] INFO root fetch - processPackages [binpolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpolar-0.5.tar.gz tmp/binpolar-0.6.tar.gz --markdown 20240513/b/binpolar/0.5-0.6/README.md --exclude *.pyd
+[2024-05-13 09:37:49] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-13 09:37:49] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.0.4.tar.gz tmp/test_core_package-0.0.5.tar.gz --markdown 20240513/t/test-core-package/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 09:37:49] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-13 09:37:49] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/5a/0b/61be46602641261053446a64bb9cd4343bf034f0d00f38db5e13b6ae3884/Geode_Common-31.1.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-13 09:37:49] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/a8/74/1c685f1680a7479ac1065f6833476e77e8be8dfd8099d8615341a74cfde8/webscout-2.2b0.tar.gz
+[2024-05-13 09:37:49] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-13 09:37:49] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240513/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-13 09:37:49] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-13 09:37:49] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-2.2.tar.gz tmp/webscout-2.2b0.tar.gz --markdown 20240513/w/webscout/2.2-2.2b0/README.md --exclude *.pyd
+[2024-05-13 09:37:49] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.5.tar.gz]
+[2024-05-13 09:37:49] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.6.tar.gz]
+[2024-05-13 09:37:49] INFO root fetch - main [MainThread]: End processing [binpolar]: success
+[2024-05-13 09:37:49] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-05-13 09:37:49] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.0.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.1.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240513/G/Geode-Common/31.0.8rc1-31.1.0rc1/README.md --exclude *.pyd
+[2024-05-13 09:37:50] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.4.tar.gz]
+[2024-05-13 09:37:50] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.5.tar.gz]
+[2024-05-13 09:37:50] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-13 09:37:50] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.2.tar.gz]
+[2024-05-13 09:37:50] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.2b0.tar.gz]
+[2024-05-13 09:37:50] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-13 09:37:51] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.0.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 09:37:51] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-13 09:37:51] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-05-13 09:37:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-13 09:37:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-13 09:37:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-13 09:37:51] INFO root fetch - main [MainThread]: Store serial: [23179400]
