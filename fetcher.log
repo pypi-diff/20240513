@@ -18998,3 +18998,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:36:49] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-13 14:36:49] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-13 14:36:49] INFO root fetch - main [MainThread]: Store serial: [23182995]
+[2024-05-13 14:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182995]
+[2024-05-13 14:38:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inoopa_utils
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyStratum-Backend
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midas-store
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-digitalocean
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luggnaggz
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rsam-ew
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tap-mambu
+[2024-05-13 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataprep-ml
+[2024-05-13 14:38:58] WARNING root fetch - processPackages [rsam-ew]: Skipping, unable to determine old version
+[2024-05-13 14:38:58] INFO root fetch - main [MainThread]: End processing [rsam-ew] error
+[2024-05-13 14:38:58] INFO root fetch - processPackages [PyStratum-Backend]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-13 14:38:58] INFO root fetch - processPackages [dataprep-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 14:38:59] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-13 14:38:59] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-13 14:38:59] INFO root fetch - processPackages [midas-store]: New version: [1.0.1] Old Version: [1.0.0rc6]
+[2024-05-13 14:38:59] WARNING root fetch - processPackages [luggnaggz]: Skipping, unable to determine old version
+[2024-05-13 14:38:59] INFO root fetch - main [MainThread]: End processing [luggnaggz] error
+[2024-05-13 14:38:59] INFO root fetch - processPackages [tap-mambu]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-13 14:38:59] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/13/ae/a14f97872596671cf3079f9d61281ea380699a2a75092e3f0f348533ce2e/pystratum_backend-2.0.1.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/a2/c0/9e3160e3044b275aefde1635dc0b8240777b2905f18f5b576dfc36f6552d/dataprep_ml-0.0.8.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [midas-store]: Downloading https://files.pythonhosted.org/packages/21/78/1d6a583af537a72dc03d3b40ec41e9851bdd494ee52cf8e6f48629a9a592/midas-store-1.0.0rc6.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [tap-mambu]: Downloading https://files.pythonhosted.org/packages/83/cf/5795ad6756982c556467738bf93035b989806ad3bc5a12853d6e192ecfd2/tap-mambu-4.1.0.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/4c/84/630af2ed586964fe6cb7a57f1ed3653c790f2b1e41100b15040905606692/pystratum_backend-2.0.2.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-13 14:38:59] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240513/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-13 14:38:59] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-13 14:38:59] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240513/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-13 14:38:59] INFO root fetch - processPackages [PyStratum-Backend]: executing diffoscope
+[2024-05-13 14:38:59] INFO root fetch - processPackages [PyStratum-Backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystratum_backend-2.0.1.tar.gz tmp/pystratum_backend-2.0.2.tar.gz --markdown 20240513/P/PyStratum-Backend/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-13 14:38:59] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [tap-mambu]: Downloading https://files.pythonhosted.org/packages/21/b6/54bab5ed0c79653487200b735a3fbf27f483d4af816f4a4dbb49bc2bd01b/tap-mambu-4.2.0.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [midas-store]: Downloading https://files.pythonhosted.org/packages/ae/2f/d27edf401917114f68ddc6e0619e5b096bb13eab48d74674253589e1d590/midas-store-1.0.1.tar.gz
+[2024-05-13 14:38:59] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2024-05-13 14:38:59] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.8.tar.gz tmp/dataprep_ml-0.0.9.tar.gz --markdown 20240513/d/dataprep-ml/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 14:38:59] INFO root fetch - processPackages [tap-mambu]: executing diffoscope
+[2024-05-13 14:38:59] INFO root fetch - processPackages [midas-store]: executing diffoscope
+[2024-05-13 14:38:59] INFO root fetch - processPackages [tap-mambu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-mambu-4.1.0.tar.gz tmp/tap-mambu-4.2.0.tar.gz --markdown 20240513/t/tap-mambu/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-13 14:38:59] INFO root fetch - processPackages [midas-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-store-1.0.0rc6.tar.gz tmp/midas-store-1.0.1.tar.gz --markdown 20240513/m/midas-store/1.0.0rc6-1.0.1/README.md --exclude *.pyd
+[2024-05-13 14:39:00] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.1.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.2.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [PyStratum-Backend]: success
+[2024-05-13 14:39:00] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-13 14:39:00] INFO root fetch - processPackages [midas-store]: Remove: archive file [/home/abi/fetcher/tmp/midas-store-1.0.0rc6.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - processPackages [midas-store]: Remove: archive file [/home/abi/fetcher/tmp/midas-store-1.0.1.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [midas-store]: success
+[2024-05-13 14:39:00] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.8.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2024-05-13 14:39:00] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-13 14:39:00] INFO root fetch - processPackages [tap-mambu]: Remove: archive file [/home/abi/fetcher/tmp/tap-mambu-4.1.0.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - processPackages [tap-mambu]: Remove: archive file [/home/abi/fetcher/tmp/tap-mambu-4.2.0.tar.gz]
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: End processing [tap-mambu]: success
+[2024-05-13 14:39:00] INFO root fetch - main [MainThread]: Store serial: [23183040]
