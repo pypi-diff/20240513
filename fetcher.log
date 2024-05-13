@@ -5050,3 +5050,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:00:24] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.9.tar.gz]
 [2024-05-13 06:00:24] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
 [2024-05-13 06:00:24] INFO root fetch - main [MainThread]: Store serial: [23176703]
+[2024-05-13 06:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176703]
+[2024-05-13 06:02:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 06:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prerefusez
+[2024-05-13 06:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bce-python-sdk
+[2024-05-13 06:02:33] WARNING root fetch - processPackages [prerefusez]: Skipping, unable to determine old version
+[2024-05-13 06:02:33] INFO root fetch - main [MainThread]: End processing [prerefusez] error
+[2024-05-13 06:02:33] INFO root fetch - processPackages [bce-python-sdk]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-13 06:02:33] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/61/a7/d38439b7e6c7abf2ad281060a124122158b26c7d6d40a5194fc8822be8b1/bce_python_sdk-0.9.7.tar.gz
+[2024-05-13 06:02:33] INFO root fetch - processPackages [bce-python-sdk]: Downloading https://files.pythonhosted.org/packages/6d/21/20d61d3ada0f60e10c0eabdd861f0261b895b99d784b6cf4a49980f065d7/bce_python_sdk-0.9.9.tar.gz
+[2024-05-13 06:02:34] INFO root fetch - processPackages [bce-python-sdk]: executing diffoscope
+[2024-05-13 06:02:34] INFO root fetch - processPackages [bce-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bce_python_sdk-0.9.7.tar.gz tmp/bce_python_sdk-0.9.9.tar.gz --markdown 20240513/b/bce-python-sdk/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-13 06:02:35] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce_python_sdk-0.9.7.tar.gz]
+[2024-05-13 06:02:35] INFO root fetch - processPackages [bce-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bce_python_sdk-0.9.9.tar.gz]
+[2024-05-13 06:02:35] INFO root fetch - main [MainThread]: End processing [bce-python-sdk]: success
+[2024-05-13 06:02:35] INFO root fetch - main [MainThread]: Store serial: [23176720]
