@@ -16693,3 +16693,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:25:35] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-13 13:25:35] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-13 13:25:35] INFO root fetch - main [MainThread]: Store serial: [23182047]
+[2024-05-13 13:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182047]
+[2024-05-13 13:27:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltachat-rpc-server
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchx-nightly
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jinkedz
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: process-time-azure-devops
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pineboo
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vipas
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afeng-py-tools
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IvmInstruments
+[2024-05-13 13:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecjtu
+[2024-05-13 13:27:44] INFO root fetch - processPackages [vipas]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 13:27:44] WARNING root fetch - processPackages [IvmInstruments]: Skipping, unable to determine old version
+[2024-05-13 13:27:44] INFO root fetch - main [MainThread]: End processing [IvmInstruments] error
+[2024-05-13 13:27:44] WARNING root fetch - processPackages [process-time-azure-devops]: Skipping, unable to determine old version
+[2024-05-13 13:27:44] INFO root fetch - main [MainThread]: End processing [process-time-azure-devops] error
+[2024-05-13 13:27:44] INFO root fetch - processPackages [pineboo]: New version: [0.99.84.5] Old Version: [0.99.84.4]
+[2024-05-13 13:27:44] INFO root fetch - processPackages [deltachat-rpc-server]: New version: [1.137.4] Old Version: [1.137.1]
+[2024-05-13 13:27:44] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 13:27:44] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-13 13:27:44] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/b3/33/6022c6a360b9987f12e65b4f550287196a08e7617d1a93f5047e971f7a20/vipas-0.0.4.tar.gz
+[2024-05-13 13:27:44] WARNING root fetch - processPackages [jinkedz]: Skipping, unable to determine old version
+[2024-05-13 13:27:44] INFO root fetch - main [MainThread]: End processing [jinkedz] error
+[2024-05-13 13:27:44] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-13 13:27:45] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/68/c3/ce3d680eafde3fab2400cdb07336e8c70aed3f4ea9cd81a3a6af8c296f93/pineboo-0.99.84.4.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [ecjtu]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-13 13:27:45] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/27/b5/d520c8a234e5eebfce218af64fd3b3bb1d2d70aad52982a499ace4c285ed/deltachat-rpc-server-1.137.1.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-13 13:27:45] INFO root fetch - processPackages [ecjtu]: Downloading https://files.pythonhosted.org/packages/c6/46/55b7f52a7f30713ac254639137678bf5366d446e261f14705367735b5d8b/ecjtu-0.1.2.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/bb/4e/92363b24452973ed183c109d597ce1af93c4bc4b701e969e796697b7bafe/vipas-0.0.5.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-13 13:27:45] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-13 13:27:45] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240513/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 13:27:45] INFO root fetch - processPackages [deltachat-rpc-server]: Downloading https://files.pythonhosted.org/packages/da/f7/3ec26c9561cae4ab7969f93c7d79adb6e3a48e2f11b3c93f82e602456d9b/deltachat-rpc-server-1.137.4.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-13 13:27:45] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.0.4.tar.gz tmp/vipas-0.0.5.tar.gz --markdown 20240513/v/vipas/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240513/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-13 13:27:45] INFO root fetch - processPackages [deltachat-rpc-server]: executing diffoscope
+[2024-05-13 13:27:45] INFO root fetch - processPackages [deltachat-rpc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat-rpc-server-1.137.1.tar.gz tmp/deltachat-rpc-server-1.137.4.tar.gz --markdown 20240513/d/deltachat-rpc-server/1.137.1-1.137.4/README.md --exclude *.pyd
+[2024-05-13 13:27:45] INFO root fetch - processPackages [ecjtu]: Downloading https://files.pythonhosted.org/packages/a4/3e/eb9a9172b7f9a74948e58d9a7a0a67c3e5b353e7bb3dec502d5655bf49ff/ecjtu-0.2.0.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-13 13:27:45] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/89/c0/89514eac4ed196377d0588f154bfd77ed98c10806797f4b99f49f65aa7d1/pineboo-0.99.84.5.tar.gz
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-13 13:27:45] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240513/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-13 13:27:45] INFO root fetch - processPackages [ecjtu]: executing diffoscope
+[2024-05-13 13:27:45] INFO root fetch - processPackages [ecjtu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecjtu-0.1.2.tar.gz tmp/ecjtu-0.2.0.tar.gz --markdown 20240513/e/ecjtu/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-13 13:27:46] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 13:27:46] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.84.4.tar.gz tmp/pineboo-0.99.84.5.tar.gz --markdown 20240513/p/pineboo/0.99.84.4-0.99.84.5/README.md --exclude *.pyd
+[2024-05-13 13:27:46] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.4.tar.gz]
+[2024-05-13 13:27:46] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.5.tar.gz]
+[2024-05-13 13:27:46] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-13 13:27:46] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.137.1.tar.gz]
+[2024-05-13 13:27:46] INFO root fetch - processPackages [deltachat-rpc-server]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-rpc-server-1.137.4.tar.gz]
+[2024-05-13 13:27:46] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-server]: success
+[2024-05-13 13:27:46] INFO root fetch - processPackages [ecjtu]: Remove: archive file [/home/abi/fetcher/tmp/ecjtu-0.1.2.tar.gz]
+[2024-05-13 13:27:46] INFO root fetch - processPackages [ecjtu]: Remove: archive file [/home/abi/fetcher/tmp/ecjtu-0.2.0.tar.gz]
+[2024-05-13 13:27:46] INFO root fetch - main [MainThread]: End processing [ecjtu]: success
+[2024-05-13 13:27:47] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-13 13:27:47] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-13 13:27:47] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-13 13:27:47] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-13 13:27:47] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-13 13:27:47] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-13 13:27:47] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 13:27:47] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 13:27:47] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-13 13:27:50] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.4.tar.gz]
+[2024-05-13 13:27:50] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.5.tar.gz]
+[2024-05-13 13:27:50] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 13:27:50] INFO root fetch - main [MainThread]: Store serial: [23182091]

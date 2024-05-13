@@ -1,0 +1,810 @@
+# Comparing `tmp/ecjtu-0.1.2.tar.gz` & `tmp/ecjtu-0.2.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "ecjtu-0.1.2.tar", max compression
++gzip compressed data, was "ecjtu-0.2.0.tar", max compression
+```
+
+## Comparing `ecjtu-0.1.2.tar` & `ecjtu-0.2.0.tar`
+
+### file list
+
+```diff
+@@ -1,14 +1,20 @@
+--rw-r--r--   0        0        0     1070 2024-04-19 21:20:53.691410 ecjtu-0.1.2/LICENSE
+--rw-r--r--   0        0        0    16992 2024-04-19 21:20:53.691410 ecjtu-0.1.2/README.md
+--rw-r--r--   0        0        0      611 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/__init__.py
+--rw-r--r--   0        0        0      179 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/__main__.py
+--rw-r--r--   0        0        0    11897 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/client.py
+--rw-r--r--   0        0        0     1060 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/constants.py
+--rw-r--r--   0        0        0    13901 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/crud.py
+--rw-r--r--   0        0        0     2148 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/models.py
+--rw-r--r--   0        0        0        0 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/server.py
+--rw-r--r--   0        0        0     1640 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/utils/__init__.py
+--rw-r--r--   0        0        0     2156 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/utils/logger.py
+--rw-r--r--   0        0        0     1311 2024-04-19 21:20:53.695411 ecjtu-0.1.2/ecjtu/utils/singleton.py
+--rw-r--r--   0        0        0     2870 2024-04-19 21:20:53.695411 ecjtu-0.1.2/pyproject.toml
+--rw-r--r--   0        0        0    18021 1970-01-01 00:00:00.000000 ecjtu-0.1.2/PKG-INFO
++-rw-r--r--   0        0        0     1070 2024-05-13 11:27:20.358879 ecjtu-0.2.0/LICENSE
++-rw-r--r--   0        0        0    21277 2024-05-13 11:27:20.358879 ecjtu-0.2.0/README.md
++-rw-r--r--   0        0        0      611 2024-05-13 11:27:20.358879 ecjtu-0.2.0/ecjtu/__init__.py
++-rw-r--r--   0        0        0      503 2024-05-13 11:27:20.358879 ecjtu-0.2.0/ecjtu/__main__.py
++-rw-r--r--   0        0        0    11853 2024-05-13 11:27:20.358879 ecjtu-0.2.0/ecjtu/client.py
++-rw-r--r--   0        0        0     1060 2024-05-13 11:27:20.358879 ecjtu-0.2.0/ecjtu/constants.py
++-rw-r--r--   0        0        0    13505 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/crud.py
++-rw-r--r--   0        0        0     2148 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/models.py
++-rw-r--r--   0        0        0       78 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/server/__init__.py
++-rw-r--r--   0        0        0     8354 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/server/api.py
++-rw-r--r--   0        0        0     4080 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/server/auth.py
++-rw-r--r--   0        0        0     1214 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/server/middle.py
++-rw-r--r--   0        0        0     1264 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/server/respose_result.py
++-rw-r--r--   0        0        0      606 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/server/schema.py
++-rw-r--r--   0        0        0     1640 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/utils/__init__.py
++-rw-r--r--   0        0        0      567 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/utils/cookie.py
++-rw-r--r--   0        0        0     2264 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/utils/logger.py
++-rw-r--r--   0        0        0     1311 2024-05-13 11:27:20.362879 ecjtu-0.2.0/ecjtu/utils/singleton.py
++-rw-r--r--   0        0        0     2985 2024-05-13 11:27:20.362879 ecjtu-0.2.0/pyproject.toml
++-rw-r--r--   0        0        0    22484 1970-01-01 00:00:00.000000 ecjtu-0.2.0/PKG-INFO
+```
+
+### Comparing `ecjtu-0.1.2/LICENSE` & `ecjtu-0.2.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `ecjtu-0.1.2/README.md` & `ecjtu-0.2.0/README.md`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -14,32 +14,37 @@
+ 
+ All your need is ECJTU API SDK service
+ 
+ </div>
+ 
+ ## 📚 Introduction
+ 
+-ecjtu 是一个用 Pythonic 的 ECJTU API SDK，旨在为开发者提供一个简洁、高效的方式来访问和管理其学籍资料、成绩、课表等信息，构建自己的应用程序 🌟。
++ecjtu 是一个 Pythonic 的 ECJTU API SDK，旨在为开发者提供一个简洁、高效的方式来访问和管理其学籍、成绩、课表等信息，构建自己的应用程序 🌟。
+ 
+ 欢迎校友加入 EFC（ECJTU For Code），我们致力于构建一个充满活力的平台，集结校园内外对技术充满热情的开发者、技术爱好者。在这里，您可以自由地分享您的编程知识，展示您的创新项目，以及与志同道合的人一起推动开源文化的发展，make sth happen
+ 
+ 
+ <div style="width: 250px;margin: 0 auto;">
+     <img src="https://zeeland-bucket.oss-cn-beijing.aliyuncs.com/ecjtu_group.png"/>
+ </div>
+ 
+-
++> 🌟 This project is generated by [3PG](https://github.com/Undertone0809/3PG), 3PG is a Python Packages Project Generator-Your next Python package needs a bleeding-edge project structure.
+ 
+ ## 💡 Features
+ 
+ - 获取课程表信息
+ - 获取成绩信息
+ - 获取绩点信息
+ - 获取选修课程信息
+ - 提供对应的异步版本
++- Web 服务器提供 API 服务
++
++⛔ 不做偏应用层的开发，专注于提供核心的数据服务。
++
++![img.png](assets/images/docs.png)
+ 
+ ## 📗 Usage
+ 
+ 打开终端命令行，输入以下命令：
+ 
+ ```shell
+ pip install ecjtu
+@@ -212,14 +217,36 @@
+ semester='2023.2' class_name='数据库系统原理(20232-2)【小1班】' class_type='必修课' class_assessment_method='考试' class_info='第1-16周 星期二 第1,2节(单)[31-505]|第1-16周 星期五 第5,6节[31-505]' class_number='12' credit=3.0 teacher='魏永丰'
+ semester='2023.2' class_name='Java程序设计(B)(20232-2)【小1班】' class_type='限选课' class_assessment_method='考查' class_info='第1-16周 星期四 第7,8节(单)[31-311E]|第1-16周 星期五 第3,4节[31-311D]' class_number='7' credit=3.0 teacher='王珏'
+ semester='2023.2' class_name='综合课程设计Ⅱ(20232-10)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='' class_number='7' credit=2.0 teacher='王珏'
+ semester='2023.2' class_name='日语(2022-1)【小3班】' class_type='必修课' class_assessment_method='考试' class_info='第1-16周 星期四 第9,10节[25-121]' class_number='21' credit=2.0 teacher='谢幸荣(1-16)'
+ semester='2023.2' class_name='定向越野Ⅳ(20232-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='第1-16周 星期三 第7,8节[北区田径场3]' class_number='14' credit=1.0 teacher='余振东'
+ ```
+ 
++**根据学期查询选修的课程**
++
++```python
++courses = client.elective_courses.filter(semester="2022.1")
++
++for course in courses:
++    print(course)
++```
++
++```text
++semester='2022.1' class_name='Linux应用与编程(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='第1-16周 星期一 第3,4节[25-424]' class_number='2' credit=2.0 teacher='李光辉'
++semester='2022.1' class_name='Java语言程序设计(20221-1)【小1班】' class_type='限选课' class_assessment_method='考查' class_info='第1-16周 星期二 第3,4节[25-201]' class_number='2' credit=2.0 teacher='丁振凡'
++semester='2022.1' class_name='单片机原理及接口技术(20221-1)【小1班】' class_type='必修课' class_assessment_method='考试' class_info='第1-14周 星期三 第3,4节[25-201]|第1-14周 星期一 第5,6节[14-103]' class_number='3' credit=3.5 teacher='陈梅'
++semester='2022.1' class_name='物联网控制技术(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='第1-16周 星期三 第1,2节[25-404]' class_number='2' credit=2.0 teacher='谭林丰'
++semester='2022.1' class_name='单片机原理及接口技术课程设计(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='' class_number='2' credit=1.0 teacher='周洁'
++semester='2022.1' class_name='物联网系统实习(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='' class_number='2' credit=2.0 teacher='柳凌峰'
++semester='2022.1' class_name='毛泽东思想和中国特色社会主义理论体系概论(20221-2)【小3班】' class_type='必修课' class_assessment_method='考试' class_info='第1-16周 星期二 第1,2节(双)[14-212]|第1-16周 星期三 第5,6节[14-408]|第1-16周 星期四 第5,6节[10-113]' class_number='11' credit=5.0 teacher='刘佳'
++semester='2022.1' class_name='操作系统(20221-1)【小1班】' class_type='学科任选课' class_assessment_method='考查' class_info='第1-16周 星期五 第3,4节[14-109]' class_number='2' credit=2.0 teacher='舒文豪'
++semester='2022.1' class_name='算法设计与分析(20221-1)【小1班】' class_type='专业任选课' class_assessment_method='考查' class_info='第1-16周 星期五 第1,2节[25-202]' class_number='2' credit=2.0 teacher='李广丽'
++semester='2022.1' class_name='动态网站开发(20221-1)【小1班】' class_type='专业任选课' class_assessment_method='考查' class_info='第1-16周 星期二 第5,6节[25-406]' class_number='3' credit=2.0 teacher='曾辉'
++```
++
+ ### 异步版本
+ 
+ 异步版本与同步版本的使用方式基本一致，可以使用相同的规范调用，下面是一个简单的示例。
+ 
+ ```python
+ import asyncio
+ 
+@@ -232,14 +259,82 @@
+     courses = await client.scheduled_courses.today()
+     print(courses)
+ 
+ 
+ asyncio.run(main())
+ ```
+ 
++## 提供 web 服务器，提供 API 服务
++
++### 启动方法
++
++1. 通过python代码启动
++
++```python
++from ecjtu.server import start_api_server
++
++def main():
++    start_api_server(port=8080)
++
++if __name__ == "__main__":
++    main()
++```
++    
++2. 通过命令行启动
++
++```shell
++ecjtu --port 8080
++```
++
++### 使用方法
++
++1. 启动之后，命令行会显示如下内容
++
++```shell
++INFO:     Started server process [2545]
++INFO:     Waiting for application startup.
++INFO:     Application startup complete.
++INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
++```
++
++2. 此时通过浏览器访问 http://127.0.0.1:8080 可以看到api在线调试文档
++
++### 本项目提供的api接口
++
++详细信息可以参考源代码当中examples/ecjtu-api.md当中
++
++1. 登录
++    * post /login 
++    通过学号和密码进行登录，获取access_token和refresh_token,access_token用于之后的所有请求,refresh_token用于刷新access_token
++
++    * post /refresh_token
++    当access_token过期时，可以使用refresh_token刷新access_token。
++2. gpa
++
++    * get /gpa
++    获取当前gpa情况
++3. 课表
++    * get /schedule
++        获取今日课表
++    * get /schedule/{date}
++        获取指定日期课表 date格式为2024-05-01
++    * get /schedule/week
++        获取本周课表
++4. 成绩
++    * get /score
++        获取目前成绩
++    * /score/{semester}
++        获取指定学期成绩 semester格式为2023.1
++5. 选课情况
++    * get /elective_courses
++        获取当前选课信息
++    * get /elective_courses/{semester}
++        获取指定学期选课信息 semester格式为2023.1
++
++
+ ## 🧰 本地开发
+ 
+ 欢迎贡献代码与二次开发，你可以通过以下方式安装依赖，推荐使用 Conda 作为环境管理工具，首先创建一个新的环境并激活：
+ 
+ ```bash
+ conda create -n ecjtu python==3.10
+ conda activate ecjtu
+@@ -252,17 +347,20 @@
+ poetry install
+ ```
+ 
+ ## 🏴󠁧󠁢󠁷󠁬󠁳󠁿 TODO
+ 
+ 下面列举了一些未来可能添加的功能，欢迎贡献代码，提出建议。
+ 
+-- [ ] 添加 web 服务器，提供 API 服务
++- [ ] 提供 vercel 一键部署
++- [ ] 提供 zeabur 一键部署
+ - [ ] 提供 docker 快速服务部署
+ - [ ] 增加考试查询
++- [ ] 增加实验查询
++- [ ] 增加衍生项目: promptulate + ecjtu + bot
+ 
+ ## 📖 Makefile usage
+ 
+ [`Makefile`](https://github.com/Undertone0809/ecjtu/blob/main/Makefile) contains a lot of functions for faster development.
+ 
+ <details>
+ <summary>Install all dependencies and pre-commit hooks</summary>
+@@ -379,50 +477,14 @@
+ ```
+ 
+ More information [about docker](https://github.com/Undertone0809/python-package-template/tree/main/%7B%7B%20cookiecutter.project_name%20%7D%7D/docker).
+ 
+ </p>
+ </details>
+ 
+-<details>
+-<summary>Cleanup</summary>
+-<p>
+-Delete pycache files
+-
+-```bash
+-make pycache-remove
+-```
+-
+-Remove package build
+-
+-```bash
+-make build-remove
+-```
+-
+-Delete .DS_STORE files
+-
+-```bash
+-make dsstore-remove
+-```
+-
+-Remove .mypycache
+-
+-```bash
+-make mypycache-remove
+-```
+-
+-Or to remove all above run:
+-
+-```bash
+-make cleanup
+-```
+-
+-</p>
+-</details>
+-
+ ## 📝 Log system
+ 
+ When you run ECJTU, all the logs are stored in a log folder. Promptulate divides the logs by date, which means that each day will have a separate log file.
+ 
+ You can find the logs in the following path:
+ 
+ - windows: `/Users/username/.ecjtu/logs`
+```
+
+### Comparing `ecjtu-0.1.2/ecjtu/__init__.py` & `ecjtu-0.2.0/ecjtu/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ecjtu-0.1.2/ecjtu/client.py` & `ecjtu-0.2.0/ecjtu/client.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -59,27 +59,34 @@
+     @property
+     def has_login(self) -> bool:
+         return "CASTGC" in self.cookies
+ 
+ 
+ class ECJTU(BaseClient[httpx.Client], httpx.Client):
+     def __init__(
+-        self, stud_id: Optional[str] = None, password: Optional[str] = None, **kwargs
++        self,
++        stud_id: Optional[str] = None,
++        password: Optional[str] = None,
++        cookie: Optional[CookieTypes] = None,
++        **kwargs,
+     ) -> None:
+         """Initialize ECJTU client.
+ 
+         Args:
+             stud_id(str): Student ID
+             password(str): Password
+         """
+         super().__init__(verify=False, **kwargs)
+ 
+-        self.stud_id: str = stud_id or os.environ.get("ECJTU_STUDENT_ID")
+-        self.password: str = password or os.environ.get("ECJTU_PASSWORD")
+-        self.enc_password: str = _get_enc_password(self.password)
++        if cookie:
++            self.cookies = cookie
++        else:
++            self.stud_id: str = stud_id or os.environ.get("ECJTU_STUDENT_ID")
++            self.password: str = password or os.environ.get("ECJTU_PASSWORD")
++            self.enc_password: str = _get_enc_password(self.password)
+ 
+         self.scheduled_courses = crud.ScheduledCourseCRUD(self)
+         self.scores = crud.ScoreCRUD(self)
+         self.gpa = crud.GPACRUD(self)
+         self.elective_courses = crud.ElectiveCourseCRUD(self)
+ 
+     def post(
+@@ -213,18 +220,14 @@
+         if result.status_code != 200:
+             raise ValueError(
+                 f"Error in JWXT system, login failed: {result.status_code}"
+             )
+ 
+         logger.info("Login successful")
+ 
+-    def start_api_server(self, port: int = 8000):
+-        # TODO: Start a FastAPI server
+-        pass
+-
+ 
+ class AsyncECJTU(BaseClient[httpx.AsyncClient], httpx.AsyncClient):
+     def __init__(self, stud_id: str, password: str, **kwargs) -> None:
+         """Initialize ECJTU client.
+ 
+         Args:
+             stud_id(str): Student ID
+@@ -373,11 +376,7 @@
+ 
+         if result.status_code != 200:
+             raise ValueError(
+                 f"Error in JWXT system, login failed: {result.status_code}"
+             )
+ 
+         logger.info("Login successful")
+-
+-    async def start_api_server(self):
+-        # TODO: Start a FastAPI server
+-        pass
+```
+
+### Comparing `ecjtu-0.1.2/ecjtu/constants.py` & `ecjtu-0.2.0/ecjtu/constants.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ecjtu-0.1.2/ecjtu/crud.py` & `ecjtu-0.2.0/ecjtu/crud.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -65,25 +65,18 @@
+ 
+         Args:
+             date(str): The date to fetch, eg: 2023-01-01
+ 
+         Returns:
+             List[ScheduledCourse]: List of courses
+         """
+-        classes: List[ScheduledCourse] = []
+-
+         resp = self.client.post(GET_CLASSES_URL, data={"date": date})
+-        for k, v in resp.json().items():
+-            if k == "weekcalendarpojoList":
+-                for item in v:
+-                    cls = ScheduledCourse.model_validate(item)
+-                    logger.info(cls)
+-                    classes.append(cls)
+ 
+-        return classes
++        _ = resp.json().get("weekcalendarpojoList", [])
++        return list(ScheduledCourse.model_validate(cls) for cls in _)
+ 
+     def filter(self, *, date: str) -> List[ScheduledCourse]:
+         """Filter courses by date
+ 
+         Args:
+             date(str): The date to filter, eg: 2023-01-01
+ 
+@@ -123,25 +116,18 @@
+ 
+         Args:
+             date(str): The date to fetch, eg: 2023-01-01
+ 
+         Returns:
+             List[ScheduledCourse]: List of courses
+         """
+-        classes: List[ScheduledCourse] = []
+-
+         resp = await self.client.post(GET_CLASSES_URL, data={"date": date})
+-        for k, v in resp.json().items():
+-            if k == "weekcalendarpojoList":
+-                for item in v:
+-                    cls = ScheduledCourse.model_validate(item)
+-                    logger.info(cls)
+-                    classes.append(cls)
+ 
+-        return classes
++        _ = resp.json().get("weekcalendarpojoList", [])
++        return list(ScheduledCourse.model_validate(cls) for cls in _)
+ 
+     async def filter(self, *, date: str) -> List[ScheduledCourse]:
+         """Filter courses by date
+ 
+         Args:
+             date(str): The date to filter, eg: 2023-01-01
+```
+
+### Comparing `ecjtu-0.1.2/ecjtu/models.py` & `ecjtu-0.2.0/ecjtu/models.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ecjtu-0.1.2/ecjtu/utils/__init__.py` & `ecjtu-0.2.0/ecjtu/utils/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ecjtu-0.1.2/ecjtu/utils/logger.py` & `ecjtu-0.2.0/ecjtu/utils/logger.py`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -10,14 +10,19 @@
+ 
+ def get_log_path() -> str:
+     log_directory = get_default_storage_path("logs")
+     current_time = datetime.datetime.now().strftime("%Y%m%d")
+     return f"{log_directory}/{current_time}.log"
+ 
+ 
++def get_path() -> str:
++    log_directory = get_default_storage_path("logs")
++    return f"{log_directory}"
++
++
+ class LogManager(metaclass=Singleton):
+     def __init__(self) -> None:
+         self.logger = logging.getLogger("ecjtu")
+         self.logger.setLevel(logging.DEBUG)
+ 
+         file_handler = TimedRotatingFileHandler(
+             filename=get_log_path(), when="midnight", interval=1, encoding="utf-8"
+```
+
+### Comparing `ecjtu-0.1.2/ecjtu/utils/singleton.py` & `ecjtu-0.2.0/ecjtu/utils/singleton.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ecjtu-0.1.2/pyproject.toml` & `ecjtu-0.2.0/pyproject.toml`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+ # Poetry pyproject.toml: https://python-poetry.org/docs/pyproject/
+ [build-system]
+-requires = ["poetry_core>=1.0.0"]
++requires = ["poetry-core"]
+ build-backend = "poetry.core.masonry.api"
+ 
+ [tool.poetry]
+ name = "ecjtu"
+-version = "0.1.2"
++version = "0.2.0"
+ description = "ECJTU API SDK service"
+ readme = "README.md"
+ authors = ["ecjtu <zeeland4work@gmail.com>"]
+ license = "MIT"
+ repository = "https://github.com/Undertone0809/ecjtu"
+ homepage = "https://github.com/Undertone0809/ecjtu"
+ keywords = []
+@@ -30,24 +30,29 @@
+ 
+ [tool.poetry.dependencies]
+ python = ">=3.8"
+ urllib3 = "1.26.18"
+ pyopenssl = "24.1.0"
+ beautifulsoup4 = "4.12.3"
+ pydantic = ">=2.0.0"
++fastapi = "^0.111.0"
++uvicorn = "^0.29.0"
+ 
+ [tool.poetry.dev-dependencies]
+ pytest = "^7.4.3"
+ pytest-html = "^3.1.1"
+ pytest-cov = "^3.0.0"
+ ruff = "^0.1.6"
+ pre-commit = "^2.21.0"
+ coverage = "^6.1.2"
+ coverage-badge = "^1.1.0"
+ 
++[tool.poetry.dependencies.cushy-storage]
++version = "1.3.8"
++python = "<4.0,>=3.8"
+ 
+ [tool.ruff]
+ # https://beta.ruff.rs/docs/settings/
+ # https://docs.astral.sh/ruff/configuration/
+ line-length = 88
+ 
+ # https://beta.ruff.rs/docs/rules/
+```
+
+### Comparing `ecjtu-0.1.2/PKG-INFO` & `ecjtu-0.2.0/PKG-INFO`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: ecjtu
+-Version: 0.1.2
++Version: 0.2.0
+ Summary: ECJTU API SDK service
+ Home-page: https://github.com/Undertone0809/ecjtu
+ License: MIT
+ Author: ecjtu
+ Author-email: zeeland4work@gmail.com
+ Requires-Python: >=3.8
+ Classifier: Development Status :: 3 - Alpha
+@@ -15,17 +15,20 @@
+ Classifier: Programming Language :: Python :: 3.8
+ Classifier: Programming Language :: Python :: 3.9
+ Classifier: Programming Language :: Python :: 3.10
+ Classifier: Programming Language :: Python :: 3.11
+ Classifier: Programming Language :: Python :: 3.12
+ Classifier: Topic :: Software Development :: Libraries :: Python Modules
+ Requires-Dist: beautifulsoup4 (==4.12.3)
++Requires-Dist: cushy-storage (==1.3.8) ; python_version >= "3.8" and python_version < "4.0"
++Requires-Dist: fastapi (>=0.111.0,<0.112.0)
+ Requires-Dist: pydantic (>=2.0.0)
+ Requires-Dist: pyopenssl (==24.1.0)
+ Requires-Dist: urllib3 (==1.26.18)
++Requires-Dist: uvicorn (>=0.29.0,<0.30.0)
+ Project-URL: Repository, https://github.com/Undertone0809/ecjtu
+ Description-Content-Type: text/markdown
+ 
+ # ecjtu
+ 
+ <div align="center">
+ 
+@@ -41,32 +44,37 @@
+ 
+ All your need is ECJTU API SDK service
+ 
+ </div>
+ 
+ ## 📚 Introduction
+ 
+-ecjtu 是一个用 Pythonic 的 ECJTU API SDK，旨在为开发者提供一个简洁、高效的方式来访问和管理其学籍资料、成绩、课表等信息，构建自己的应用程序 🌟。
++ecjtu 是一个 Pythonic 的 ECJTU API SDK，旨在为开发者提供一个简洁、高效的方式来访问和管理其学籍、成绩、课表等信息，构建自己的应用程序 🌟。
+ 
+ 欢迎校友加入 EFC（ECJTU For Code），我们致力于构建一个充满活力的平台，集结校园内外对技术充满热情的开发者、技术爱好者。在这里，您可以自由地分享您的编程知识，展示您的创新项目，以及与志同道合的人一起推动开源文化的发展，make sth happen
+ 
+ 
+ <div style="width: 250px;margin: 0 auto;">
+     <img src="https://zeeland-bucket.oss-cn-beijing.aliyuncs.com/ecjtu_group.png"/>
+ </div>
+ 
+-
++> 🌟 This project is generated by [3PG](https://github.com/Undertone0809/3PG), 3PG is a Python Packages Project Generator-Your next Python package needs a bleeding-edge project structure.
+ 
+ ## 💡 Features
+ 
+ - 获取课程表信息
+ - 获取成绩信息
+ - 获取绩点信息
+ - 获取选修课程信息
+ - 提供对应的异步版本
++- Web 服务器提供 API 服务
++
++⛔ 不做偏应用层的开发，专注于提供核心的数据服务。
++
++![img.png](assets/images/docs.png)
+ 
+ ## 📗 Usage
+ 
+ 打开终端命令行，输入以下命令：
+ 
+ ```shell
+ pip install ecjtu
+@@ -239,14 +247,36 @@
+ semester='2023.2' class_name='数据库系统原理(20232-2)【小1班】' class_type='必修课' class_assessment_method='考试' class_info='第1-16周 星期二 第1,2节(单)[31-505]|第1-16周 星期五 第5,6节[31-505]' class_number='12' credit=3.0 teacher='魏永丰'
+ semester='2023.2' class_name='Java程序设计(B)(20232-2)【小1班】' class_type='限选课' class_assessment_method='考查' class_info='第1-16周 星期四 第7,8节(单)[31-311E]|第1-16周 星期五 第3,4节[31-311D]' class_number='7' credit=3.0 teacher='王珏'
+ semester='2023.2' class_name='综合课程设计Ⅱ(20232-10)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='' class_number='7' credit=2.0 teacher='王珏'
+ semester='2023.2' class_name='日语(2022-1)【小3班】' class_type='必修课' class_assessment_method='考试' class_info='第1-16周 星期四 第9,10节[25-121]' class_number='21' credit=2.0 teacher='谢幸荣(1-16)'
+ semester='2023.2' class_name='定向越野Ⅳ(20232-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='第1-16周 星期三 第7,8节[北区田径场3]' class_number='14' credit=1.0 teacher='余振东'
+ ```
+ 
++**根据学期查询选修的课程**
++
++```python
++courses = client.elective_courses.filter(semester="2022.1")
++
++for course in courses:
++    print(course)
++```
++
++```text
++semester='2022.1' class_name='Linux应用与编程(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='第1-16周 星期一 第3,4节[25-424]' class_number='2' credit=2.0 teacher='李光辉'
++semester='2022.1' class_name='Java语言程序设计(20221-1)【小1班】' class_type='限选课' class_assessment_method='考查' class_info='第1-16周 星期二 第3,4节[25-201]' class_number='2' credit=2.0 teacher='丁振凡'
++semester='2022.1' class_name='单片机原理及接口技术(20221-1)【小1班】' class_type='必修课' class_assessment_method='考试' class_info='第1-14周 星期三 第3,4节[25-201]|第1-14周 星期一 第5,6节[14-103]' class_number='3' credit=3.5 teacher='陈梅'
++semester='2022.1' class_name='物联网控制技术(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='第1-16周 星期三 第1,2节[25-404]' class_number='2' credit=2.0 teacher='谭林丰'
++semester='2022.1' class_name='单片机原理及接口技术课程设计(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='' class_number='2' credit=1.0 teacher='周洁'
++semester='2022.1' class_name='物联网系统实习(20221-1)【小1班】' class_type='必修课' class_assessment_method='考查' class_info='' class_number='2' credit=2.0 teacher='柳凌峰'
++semester='2022.1' class_name='毛泽东思想和中国特色社会主义理论体系概论(20221-2)【小3班】' class_type='必修课' class_assessment_method='考试' class_info='第1-16周 星期二 第1,2节(双)[14-212]|第1-16周 星期三 第5,6节[14-408]|第1-16周 星期四 第5,6节[10-113]' class_number='11' credit=5.0 teacher='刘佳'
++semester='2022.1' class_name='操作系统(20221-1)【小1班】' class_type='学科任选课' class_assessment_method='考查' class_info='第1-16周 星期五 第3,4节[14-109]' class_number='2' credit=2.0 teacher='舒文豪'
++semester='2022.1' class_name='算法设计与分析(20221-1)【小1班】' class_type='专业任选课' class_assessment_method='考查' class_info='第1-16周 星期五 第1,2节[25-202]' class_number='2' credit=2.0 teacher='李广丽'
++semester='2022.1' class_name='动态网站开发(20221-1)【小1班】' class_type='专业任选课' class_assessment_method='考查' class_info='第1-16周 星期二 第5,6节[25-406]' class_number='3' credit=2.0 teacher='曾辉'
++```
++
+ ### 异步版本
+ 
+ 异步版本与同步版本的使用方式基本一致，可以使用相同的规范调用，下面是一个简单的示例。
+ 
+ ```python
+ import asyncio
+ 
+@@ -259,14 +289,82 @@
+     courses = await client.scheduled_courses.today()
+     print(courses)
+ 
+ 
+ asyncio.run(main())
+ ```
+ 
++## 提供 web 服务器，提供 API 服务
++
++### 启动方法
++
++1. 通过python代码启动
++
++```python
++from ecjtu.server import start_api_server
++
++def main():
++    start_api_server(port=8080)
++
++if __name__ == "__main__":
++    main()
++```
++    
++2. 通过命令行启动
++
++```shell
++ecjtu --port 8080
++```
++
++### 使用方法
++
++1. 启动之后，命令行会显示如下内容
++
++```shell
++INFO:     Started server process [2545]
++INFO:     Waiting for application startup.
++INFO:     Application startup complete.
++INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
++```
++
++2. 此时通过浏览器访问 http://127.0.0.1:8080 可以看到api在线调试文档
++
++### 本项目提供的api接口
++
++详细信息可以参考源代码当中examples/ecjtu-api.md当中
++
++1. 登录
++    * post /login 
++    通过学号和密码进行登录，获取access_token和refresh_token,access_token用于之后的所有请求,refresh_token用于刷新access_token
++
++    * post /refresh_token
++    当access_token过期时，可以使用refresh_token刷新access_token。
++2. gpa
++
++    * get /gpa
++    获取当前gpa情况
++3. 课表
++    * get /schedule
++        获取今日课表
++    * get /schedule/{date}
++        获取指定日期课表 date格式为2024-05-01
++    * get /schedule/week
++        获取本周课表
++4. 成绩
++    * get /score
++        获取目前成绩
++    * /score/{semester}
++        获取指定学期成绩 semester格式为2023.1
++5. 选课情况
++    * get /elective_courses
++        获取当前选课信息
++    * get /elective_courses/{semester}
++        获取指定学期选课信息 semester格式为2023.1
++
++
+ ## 🧰 本地开发
+ 
+ 欢迎贡献代码与二次开发，你可以通过以下方式安装依赖，推荐使用 Conda 作为环境管理工具，首先创建一个新的环境并激活：
+ 
+ ```bash
+ conda create -n ecjtu python==3.10
+ conda activate ecjtu
+@@ -279,17 +377,20 @@
+ poetry install
+ ```
+ 
+ ## 🏴󠁧󠁢󠁷󠁬󠁳󠁿 TODO
+ 
+ 下面列举了一些未来可能添加的功能，欢迎贡献代码，提出建议。
+ 
+-- [ ] 添加 web 服务器，提供 API 服务
++- [ ] 提供 vercel 一键部署
++- [ ] 提供 zeabur 一键部署
+ - [ ] 提供 docker 快速服务部署
+ - [ ] 增加考试查询
++- [ ] 增加实验查询
++- [ ] 增加衍生项目: promptulate + ecjtu + bot
+ 
+ ## 📖 Makefile usage
+ 
+ [`Makefile`](https://github.com/Undertone0809/ecjtu/blob/main/Makefile) contains a lot of functions for faster development.
+ 
+ <details>
+ <summary>Install all dependencies and pre-commit hooks</summary>
+@@ -406,50 +507,14 @@
+ ```
+ 
+ More information [about docker](https://github.com/Undertone0809/python-package-template/tree/main/%7B%7B%20cookiecutter.project_name%20%7D%7D/docker).
+ 
+ </p>
+ </details>
+ 
+-<details>
+-<summary>Cleanup</summary>
+-<p>
+-Delete pycache files
+-
+-```bash
+-make pycache-remove
+-```
+-
+-Remove package build
+-
+-```bash
+-make build-remove
+-```
+-
+-Delete .DS_STORE files
+-
+-```bash
+-make dsstore-remove
+-```
+-
+-Remove .mypycache
+-
+-```bash
+-make mypycache-remove
+-```
+-
+-Or to remove all above run:
+-
+-```bash
+-make cleanup
+-```
+-
+-</p>
+-</details>
+-
+ ## 📝 Log system
+ 
+ When you run ECJTU, all the logs are stored in a log folder. Promptulate divides the logs by date, which means that each day will have a separate log file.
+ 
+ You can find the logs in the following path:
+ 
+ - windows: `/Users/username/.ecjtu/logs`
+```
+
