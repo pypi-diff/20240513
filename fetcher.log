@@ -16192,3 +16192,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 13:10:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
 [2024-05-13 13:10:09] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
 [2024-05-13 13:10:09] INFO root fetch - main [MainThread]: Store serial: [23181880]
+[2024-05-13 13:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181880]
+[2024-05-13 13:12:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: directus-sdk-py
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mnelab
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XEdu-python
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gasconsumption
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: behemothz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytonlq-party-address-location
+[2024-05-13 13:12:18] INFO root fetch - processPackages [gasconsumption]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 13:12:18] INFO root fetch - processPackages [XEdu-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 13:12:18] INFO root fetch - processPackages [directus-sdk-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 13:12:18] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-13 13:12:18] INFO root fetch - processPackages [mnelab]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 13:12:18] WARNING root fetch - processPackages [behemothz]: Skipping, unable to determine old version
+[2024-05-13 13:12:18] INFO root fetch - main [MainThread]: End processing [behemothz] error
+[2024-05-13 13:12:18] INFO root fetch - processPackages [trytonlq-party-address-location]: New version: [6.8.0] Old Version: [6.6.0]
+[2024-05-13 13:12:18] INFO root fetch - processPackages [XEdu-python]: Downloading https://files.pythonhosted.org/packages/49/d0/97d5088da3306c32059b519be5129d674685c3152f3f06ef90185a3abf06/XEdu-python-0.1.4.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [gasconsumption]: Downloading https://files.pythonhosted.org/packages/e6/8c/bfc5f96eea2b56c181188512a9daf7a486a4ba89c1de9b29782b298c7b4b/gasconsumption-0.0.6.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [directus-sdk-py]: Downloading https://files.pythonhosted.org/packages/e0/46/67b8896926d6cf8d86dfe897c98056e86f94b6084a7b09f6674ae7628b15/directus-sdk-py-1.0.0.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [mnelab]: Downloading https://files.pythonhosted.org/packages/23/63/a9d0d94d541c501cbd611738f55f3aa8fa2dfc0d3ad87cbdc260b86cc897/mnelab-0.9.0.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [trytonlq-party-address-location]: Downloading https://files.pythonhosted.org/packages/1f/b2/a76fe88c5c15755ba6b495ca5189a9d9a98a421c6aec7d79cc4b973257f0/trytonlq_party_address_location-6.6.0.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [gasconsumption]: Downloading https://files.pythonhosted.org/packages/90/0f/04ad75372d132b4dc2923c94592bbb643bedb162bf6a8c680701c69415a1/gasconsumption-0.0.7.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-13 13:12:18] INFO root fetch - processPackages [gasconsumption]: executing diffoscope
+[2024-05-13 13:12:18] INFO root fetch - processPackages [gasconsumption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gasconsumption-0.0.6.tar.gz tmp/gasconsumption-0.0.7.tar.gz --markdown 20240513/g/gasconsumption/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 13:12:19] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-13 13:12:19] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240513/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-13 13:12:19] INFO root fetch - processPackages [directus-sdk-py]: Downloading https://files.pythonhosted.org/packages/81/79/d147166ecaa5ab84a4fc881f2ac293f626f701641764eae3c68dccf0013f/directus-sdk-py-1.0.1.tar.gz
+[2024-05-13 13:12:19] INFO root fetch - processPackages [XEdu-python]: Downloading https://files.pythonhosted.org/packages/11/10/188de34e1eefbfd14c1d1db5fcfae359e6e33ec2dcf0336fbc6139de8a77/XEdu-python-0.1.5.tar.gz
+[2024-05-13 13:12:19] INFO root fetch - processPackages [directus-sdk-py]: executing diffoscope
+[2024-05-13 13:12:19] INFO root fetch - processPackages [directus-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directus-sdk-py-1.0.0.tar.gz tmp/directus-sdk-py-1.0.1.tar.gz --markdown 20240513/d/directus-sdk-py/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 13:12:19] INFO root fetch - processPackages [mnelab]: Downloading https://files.pythonhosted.org/packages/b6/a9/e7d730587a8c594e3961c5031ecb20df2ef06fe50a86236720d699dc4bee/mnelab-0.9.1.tar.gz
+[2024-05-13 13:12:19] INFO root fetch - processPackages [trytonlq-party-address-location]: Downloading https://files.pythonhosted.org/packages/35/92/882c2a436171e0ca8d281b82361db887a2798e433a757e61c677296902c3/trytonlq_party_address_location-6.8.0.tar.gz
+[2024-05-13 13:12:19] INFO root fetch - processPackages [XEdu-python]: executing diffoscope
+[2024-05-13 13:12:19] INFO root fetch - processPackages [XEdu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XEdu-python-0.1.4.tar.gz tmp/XEdu-python-0.1.5.tar.gz --markdown 20240513/X/XEdu-python/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 13:12:19] INFO root fetch - processPackages [trytonlq-party-address-location]: executing diffoscope
+[2024-05-13 13:12:19] INFO root fetch - processPackages [trytonlq-party-address-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytonlq_party_address_location-6.6.0.tar.gz tmp/trytonlq_party_address_location-6.8.0.tar.gz --markdown 20240513/t/trytonlq-party-address-location/6.6.0-6.8.0/README.md --exclude *.pyd
+[2024-05-13 13:12:19] INFO root fetch - processPackages [mnelab]: executing diffoscope
+[2024-05-13 13:12:19] INFO root fetch - processPackages [mnelab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnelab-0.9.0.tar.gz tmp/mnelab-0.9.1.tar.gz --markdown 20240513/m/mnelab/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 13:12:19] INFO root fetch - processPackages [gasconsumption]: Remove: archive file [/home/abi/fetcher/tmp/gasconsumption-0.0.6.tar.gz]
+[2024-05-13 13:12:19] INFO root fetch - processPackages [gasconsumption]: Remove: archive file [/home/abi/fetcher/tmp/gasconsumption-0.0.7.tar.gz]
+[2024-05-13 13:12:19] INFO root fetch - main [MainThread]: End processing [gasconsumption]: success
+[2024-05-13 13:12:20] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-13 13:12:20] INFO root fetch - processPackages [directus-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/directus-sdk-py-1.0.0.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - processPackages [directus-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/directus-sdk-py-1.0.1.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - main [MainThread]: End processing [directus-sdk-py]: success
+[2024-05-13 13:12:20] INFO root fetch - processPackages [trytonlq-party-address-location]: Remove: archive file [/home/abi/fetcher/tmp/trytonlq_party_address_location-6.6.0.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - processPackages [trytonlq-party-address-location]: Remove: archive file [/home/abi/fetcher/tmp/trytonlq_party_address_location-6.8.0.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - main [MainThread]: End processing [trytonlq-party-address-location]: success
+[2024-05-13 13:12:20] INFO root fetch - processPackages [XEdu-python]: Remove: archive file [/home/abi/fetcher/tmp/XEdu-python-0.1.4.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - processPackages [XEdu-python]: Remove: archive file [/home/abi/fetcher/tmp/XEdu-python-0.1.5.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - main [MainThread]: End processing [XEdu-python]: success
+[2024-05-13 13:12:20] INFO root fetch - processPackages [mnelab]: Remove: archive file [/home/abi/fetcher/tmp/mnelab-0.9.0.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - processPackages [mnelab]: Remove: archive file [/home/abi/fetcher/tmp/mnelab-0.9.1.tar.gz]
+[2024-05-13 13:12:20] INFO root fetch - main [MainThread]: End processing [mnelab]: success
+[2024-05-13 13:12:20] INFO root fetch - main [MainThread]: Store serial: [23181902]
