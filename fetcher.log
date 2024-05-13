@@ -15785,3 +15785,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:50:23] INFO root fetch - processPackages [dbt-athena-community]: Remove: archive file [/home/abi/fetcher/tmp/dbt_athena_community-1.8.1.tar.gz]
 [2024-05-13 12:50:23] INFO root fetch - main [MainThread]: End processing [dbt-athena-community]: success
 [2024-05-13 12:50:23] INFO root fetch - main [MainThread]: Store serial: [23181711]
+[2024-05-13 12:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181711]
+[2024-05-13 12:52:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xenosauroidz
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-voucher-advance-settlement
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: padmy
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-voucher-refund-settlement
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-voucher-invoice-settlement
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaiah-toolkit
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pineboo
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: riogisoffline
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-project-cli
+[2024-05-13 12:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gcp-pal
+[2024-05-13 12:52:32] WARNING root fetch - processPackages [gaiah-toolkit]: Skipping, unable to determine old version
+[2024-05-13 12:52:32] INFO root fetch - main [MainThread]: End processing [gaiah-toolkit] error
+[2024-05-13 12:52:33] INFO root fetch - processPackages [pineboo]: New version: [0.99.84.4] Old Version: [0.99.84.3]
+[2024-05-13 12:52:33] WARNING root fetch - processPackages [riogisoffline]: Skipping, unable to determine old version
+[2024-05-13 12:52:33] INFO root fetch - main [MainThread]: End processing [riogisoffline] error
+[2024-05-13 12:52:33] WARNING root fetch - processPackages [python-project-cli]: Skipping, unable to determine old version
+[2024-05-13 12:52:33] INFO root fetch - main [MainThread]: End processing [python-project-cli] error
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: New version: [14.0.2.4.0] Old Version: [14.0.2.3.0]
+[2024-05-13 12:52:33] INFO root fetch - processPackages [padmy]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.2.dev1]
+[2024-05-13 12:52:33] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9e/b0/12b1c46a8c7dc5e99925243724b9c4e9e61834d949669ba8112fe972e9fc/pineboo-0.99.84.3.tar.gz
+[2024-05-13 12:52:33] WARNING root fetch - processPackages [xenosauroidz]: Skipping, unable to determine old version
+[2024-05-13 12:52:33] INFO root fetch - main [MainThread]: End processing [xenosauroidz] error
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.2.dev1]
+[2024-05-13 12:52:33] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: Downloading https://files.pythonhosted.org/packages/5e/2f/9e4fbbb61d93955af8592b9637e41a2b26940db6882fdc614a0f45f386e8/odoo14_addon_ssi_voucher_invoice_settlement-14.0.2.3.0-py3-none-any.whl
+[2024-05-13 12:52:33] INFO root fetch - processPackages [padmy]: Downloading https://files.pythonhosted.org/packages/e5/46/c241ef643ace4272ba852e73a4c3b1e0713de0163c39f03ef0993b066aba/padmy-0.8.2.tar.gz
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: Downloading https://files.pythonhosted.org/packages/d6/d3/98ccfec317989e135714bd572fc3461e8fc64f65ebfc5905fd86f2166027/odoo14_addon_ssi_voucher_refund_settlement-14.0.2.2.2.dev1-py3-none-any.whl
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: Downloading https://files.pythonhosted.org/packages/03/3c/d318c963babacf3f4d6d0155adf40139dc793d4d9ea04587c6d14f0798a2/odoo14_addon_ssi_voucher_advance_settlement-14.0.2.2.2.dev1-py3-none-any.whl
+[2024-05-13 12:52:33] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/b9/53/0499b1bdad8e79c84118cbf501ebb26b70c8b5b60bce463c4a8d0618fe81/gcp_pal-1.0.8.tar.gz
+[2024-05-13 12:52:33] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/68/c3/ce3d680eafde3fab2400cdb07336e8c70aed3f4ea9cd81a3a6af8c296f93/pineboo-0.99.84.4.tar.gz
+[2024-05-13 12:52:33] INFO root fetch - processPackages [padmy]: Downloading https://files.pythonhosted.org/packages/d8/be/e6040863caa59282e6c5767d32162197f4e4d1e407a1e42e7a93643aec6a/padmy-0.9.0.tar.gz
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: Downloading https://files.pythonhosted.org/packages/fe/e7/f7c04b907dc479e7a061662593eb71d760daea63b38077eaa42d19e29c7d/odoo14_addon_ssi_voucher_invoice_settlement-14.0.2.4.0-py3-none-any.whl
+[2024-05-13 12:52:33] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/8c/b8/2efa9600008859fa691d602891fa9c6bb228fd92cd7f0036d55241b68620/gcp_pal-1.0.9.tar.gz
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: Downloading https://files.pythonhosted.org/packages/f0/3e/a75ce55b18ebc012c9440a2eee83fc10e8bd4c3fc1860f15b5b5562e43c4/odoo14_addon_ssi_voucher_refund_settlement-14.0.2.3.0-py3-none-any.whl
+[2024-05-13 12:52:33] INFO root fetch - processPackages [padmy]: executing diffoscope
+[2024-05-13 12:52:33] INFO root fetch - processPackages [padmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/padmy-0.8.2.tar.gz tmp/padmy-0.9.0.tar.gz --markdown 20240513/p/padmy/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: Downloading https://files.pythonhosted.org/packages/77/fe/388f8aaebfcb1cf88e03207e600bd5f35d0b7eb7ca4e913606047c013835/odoo14_addon_ssi_voucher_advance_settlement-14.0.2.3.0-py3-none-any.whl
+[2024-05-13 12:52:33] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-05-13 12:52:33] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.8.tar.gz tmp/gcp_pal-1.0.9.tar.gz --markdown 20240513/g/gcp-pal/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: executing diffoscope
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_invoice_settlement-14.0.2.3.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_invoice_settlement-14.0.2.4.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-invoice-settlement/14.0.2.3.0-14.0.2.4.0/README.md --exclude *.pyd
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: executing diffoscope
+[2024-05-13 12:52:33] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_refund_settlement-14.0.2.2.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_refund_settlement-14.0.2.3.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-refund-settlement/14.0.2.2.2.dev1-14.0.2.3.0/README.md --exclude *.pyd
+[2024-05-13 12:52:34] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 12:52:34] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.84.3.tar.gz tmp/pineboo-0.99.84.4.tar.gz --markdown 20240513/p/pineboo/0.99.84.3-0.99.84.4/README.md --exclude *.pyd
+[2024-05-13 12:52:34] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: executing diffoscope
+[2024-05-13 12:52:34] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_advance_settlement-14.0.2.2.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_advance_settlement-14.0.2.3.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-advance-settlement/14.0.2.2.2.dev1-14.0.2.3.0/README.md --exclude *.pyd
+[2024-05-13 12:52:35] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_refund_settlement-14.0.2.2.2.dev1-py3-none-any.whl.zip]
+[2024-05-13 12:52:35] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-refund-settlement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_refund_settlement-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-13 12:52:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-refund-settlement]: success
+[2024-05-13 12:52:35] INFO root fetch - processPackages [padmy]: Remove: archive file [/home/abi/fetcher/tmp/padmy-0.8.2.tar.gz]
+[2024-05-13 12:52:35] INFO root fetch - processPackages [padmy]: Remove: archive file [/home/abi/fetcher/tmp/padmy-0.9.0.tar.gz]
+[2024-05-13 12:52:35] INFO root fetch - main [MainThread]: End processing [padmy]: success
+[2024-05-13 12:52:35] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.8.tar.gz]
+[2024-05-13 12:52:35] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.9.tar.gz]
+[2024-05-13 12:52:35] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-05-13 12:52:35] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_advance_settlement-14.0.2.2.2.dev1-py3-none-any.whl.zip]
+[2024-05-13 12:52:35] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-advance-settlement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_advance_settlement-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-13 12:52:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-advance-settlement]: success
+[2024-05-13 12:52:35] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_invoice_settlement-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-13 12:52:35] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-invoice-settlement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_invoice_settlement-14.0.2.4.0-py3-none-any.whl.zip]
+[2024-05-13 12:52:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-invoice-settlement]: success
+[2024-05-13 12:52:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.3.tar.gz]
+[2024-05-13 12:52:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.4.tar.gz]
+[2024-05-13 12:52:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 12:52:37] INFO root fetch - main [MainThread]: Store serial: [23181743]
