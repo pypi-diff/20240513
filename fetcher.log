@@ -11564,3 +11564,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:08:40] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.0.tar.gz]
 [2024-05-13 10:08:40] INFO root fetch - main [MainThread]: End processing [pycti]: success
 [2024-05-13 10:08:40] INFO root fetch - main [MainThread]: Store serial: [23179729]
+[2024-05-13 10:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179729]
+[2024-05-13 10:10:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ayeaye-fossa
+[2024-05-13 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lgjsfinance
+[2024-05-13 10:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lxs-SimpleTools
+[2024-05-13 10:10:49] INFO root fetch - processPackages [lgjsfinance]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 10:10:49] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/c8/d6/04cb4b96700062363d24be2a50f21377ca68860f83986b40092790767da7/lgjsfinance-0.0.3.tar.gz
+[2024-05-13 10:10:49] WARNING root fetch - processPackages [lxs-SimpleTools]: Skipping, unable to determine old version
+[2024-05-13 10:10:49] INFO root fetch - main [MainThread]: End processing [lxs-SimpleTools] error
+[2024-05-13 10:10:49] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 10:10:50] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-05-13 10:10:50] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/81/2b/0513058ff0aec03421550c698828dc3f50256064fdcdb2094355d9965d2a/lgjsfinance-0.0.4.tar.gz
+[2024-05-13 10:10:50] INFO root fetch - processPackages [lgjsfinance]: executing diffoscope
+[2024-05-13 10:10:50] INFO root fetch - processPackages [lgjsfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lgjsfinance-0.0.3.tar.gz tmp/lgjsfinance-0.0.4.tar.gz --markdown 20240513/l/lgjsfinance/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 10:10:50] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-05-13 10:10:50] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-05-13 10:10:50] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240513/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 10:10:50] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.3.tar.gz]
+[2024-05-13 10:10:50] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.4.tar.gz]
+[2024-05-13 10:10:50] INFO root fetch - main [MainThread]: End processing [lgjsfinance]: success
+[2024-05-13 10:10:51] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-05-13 10:10:51] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-05-13 10:10:51] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-05-13 10:10:51] INFO root fetch - main [MainThread]: Store serial: [23179739]
