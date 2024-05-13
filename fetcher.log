@@ -10465,3 +10465,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:24:28] INFO root fetch - processPackages [go-task-bin]: Remove: archive file [/home/abi/fetcher/tmp/go_task_bin-3.37.1.tar.gz]
 [2024-05-13 09:24:28] INFO root fetch - main [MainThread]: End processing [go-task-bin]: success
 [2024-05-13 09:24:28] INFO root fetch - main [MainThread]: Store serial: [23179277]
+[2024-05-13 09:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179277]
+[2024-05-13 09:26:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 09:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-core-package
+[2024-05-13 09:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-05-13 09:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-linkedmall20230930
+[2024-05-13 09:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelmerge
+[2024-05-13 09:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stumblesz
+[2024-05-13 09:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openspg-knext
+[2024-05-13 09:26:37] INFO root fetch - processPackages [modelmerge]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-13 09:26:37] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-13 09:26:37] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/0b/79/23e7a487ae0d01cafa71a821e3c420056428c45b288a402ab7fd067b5d70/modelmerge-0.3.1.tar.gz
+[2024-05-13 09:26:37] WARNING root fetch - processPackages [test-core-package]: Skipping, unable to determine old version
+[2024-05-13 09:26:37] INFO root fetch - main [MainThread]: End processing [test-core-package] error
+[2024-05-13 09:26:38] INFO root fetch - processPackages [openspg-knext]: New version: [0.0.3b3] Old Version: [0.0.3b2]
+[2024-05-13 09:26:38] WARNING root fetch - processPackages [stumblesz]: Skipping, unable to determine old version
+[2024-05-13 09:26:38] INFO root fetch - main [MainThread]: End processing [stumblesz] error
+[2024-05-13 09:26:38] INFO root fetch - processPackages [cg]: New version: [60.7.6] Old Version: [60.7.5]
+[2024-05-13 09:26:38] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Downloading https://files.pythonhosted.org/packages/65/d2/a5ad15cd93a4833510c66533d81db9110e6cb17a0755f31e7d7848498393/alibabacloud_linkedmall20230930-2.2.1.tar.gz
+[2024-05-13 09:26:38] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/ad/1e/75697a75a2357f5bd8c676f9b3f4969e94cd7c6164216645ad9823fcd2d3/modelmerge-0.3.2.tar.gz
+[2024-05-13 09:26:38] INFO root fetch - processPackages [openspg-knext]: Downloading https://files.pythonhosted.org/packages/75/c6/5a9a25d502b897e6668c7ed521d069b65da0f1d5c310d414bc6ce56d2c1b/openspg-knext-0.0.3b2.tar.gz
+[2024-05-13 09:26:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c3/af/9718a017f69c937171bcc9d82985ace9b5178dfedfb9448126007e1b3a12/cg-60.7.5.tar.gz
+[2024-05-13 09:26:38] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-13 09:26:38] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.1.tar.gz tmp/modelmerge-0.3.2.tar.gz --markdown 20240513/m/modelmerge/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-13 09:26:38] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Downloading https://files.pythonhosted.org/packages/51/88/487bb17cf544a25222660949f33de849f4cc0dea621d228f34952c257fbc/alibabacloud_linkedmall20230930-2.2.2.tar.gz
+[2024-05-13 09:26:38] INFO root fetch - processPackages [openspg-knext]: Downloading https://files.pythonhosted.org/packages/bb/06/522177219870cfa17127a3278c467445700b923f811bc81eea9a96bbedeb/openspg-knext-0.0.3b3.tar.gz
+[2024-05-13 09:26:38] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: executing diffoscope
+[2024-05-13 09:26:38] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkedmall20230930-2.2.1.tar.gz tmp/alibabacloud_linkedmall20230930-2.2.2.tar.gz --markdown 20240513/a/alibabacloud-linkedmall20230930/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-13 09:26:38] INFO root fetch - processPackages [openspg-knext]: executing diffoscope
+[2024-05-13 09:26:38] INFO root fetch - processPackages [openspg-knext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openspg-knext-0.0.3b2.tar.gz tmp/openspg-knext-0.0.3b3.tar.gz --markdown 20240513/o/openspg-knext/0.0.3b2-0.0.3b3/README.md --exclude *.pyd
+[2024-05-13 09:26:38] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/55/1b/4e7caa889fbe966b27b423f6170e474fa7bb115e61027fdf78c525cedfe1/cg-60.7.6.tar.gz
+[2024-05-13 09:26:39] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-13 09:26:39] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.5.tar.gz tmp/cg-60.7.6.tar.gz --markdown 20240513/c/cg/60.7.5-60.7.6/README.md --exclude *.pyd
+[2024-05-13 09:26:39] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.1.tar.gz]
+[2024-05-13 09:26:39] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.2.tar.gz]
+[2024-05-13 09:26:39] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-13 09:26:39] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.1.tar.gz]
+[2024-05-13 09:26:39] INFO root fetch - processPackages [alibabacloud-linkedmall20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_linkedmall20230930-2.2.2.tar.gz]
+[2024-05-13 09:26:39] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkedmall20230930]: success
+[2024-05-13 09:26:42] INFO root fetch - processPackages [openspg-knext]: Remove: archive file [/home/abi/fetcher/tmp/openspg-knext-0.0.3b2.tar.gz]
+[2024-05-13 09:26:42] INFO root fetch - processPackages [openspg-knext]: Remove: archive file [/home/abi/fetcher/tmp/openspg-knext-0.0.3b3.tar.gz]
+[2024-05-13 09:26:42] INFO root fetch - main [MainThread]: End processing [openspg-knext]: success
+[2024-05-13 09:26:44] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.5.tar.gz]
+[2024-05-13 09:26:44] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.6.tar.gz]
+[2024-05-13 09:26:44] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-13 09:26:44] INFO root fetch - main [MainThread]: Store serial: [23179297]
