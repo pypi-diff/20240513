@@ -15366,3 +15366,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:30:31] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-05-13 12:30:31] INFO root fetch - main [MainThread]: Store serial: [23181557]
+[2024-05-13 12:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181557]
+[2024-05-13 12:32:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 12:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: browserbase-haystack
+[2024-05-13 12:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-kurogames
+[2024-05-13 12:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openghg-calscales
+[2024-05-13 12:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exetest
+[2024-05-13 12:32:42] INFO root fetch - processPackages [exetest]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-13 12:32:42] INFO root fetch - processPackages [nonebot-plugin-kurogames]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-13 12:32:42] INFO root fetch - processPackages [browserbase-haystack]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 12:32:42] INFO root fetch - processPackages [exetest]: Downloading https://files.pythonhosted.org/packages/b7/89/afc87c81f4a8cff7ab454a64f657c8d58df2e986d83435858e374d9fe13e/exetest-0.9.1.tar.gz
+[2024-05-13 12:32:42] WARNING root fetch - processPackages [openghg-calscales]: Skipping, unable to determine old version
+[2024-05-13 12:32:42] INFO root fetch - main [MainThread]: End processing [openghg-calscales] error
+[2024-05-13 12:32:42] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Downloading https://files.pythonhosted.org/packages/2d/08/cd193daceb7934a9b0d8ece90db7bb06bbd3fe4db197a805ab3c23125011/nonebot_plugin_kurogames-0.1.6.tar.gz
+[2024-05-13 12:32:42] INFO root fetch - processPackages [browserbase-haystack]: Downloading https://files.pythonhosted.org/packages/f3/74/5447b306bcbe2b4a9f63121d1517886be9a29fb02d9a4f2ad0dfb0176967/browserbase_haystack-0.0.2.tar.gz
+[2024-05-13 12:32:42] INFO root fetch - processPackages [exetest]: Downloading https://files.pythonhosted.org/packages/dd/5f/a0a2ee6bca580fcb2d521247c4f9ac1fec862223e4aa37f22110261b02a2/exetest-0.9.2.tar.gz
+[2024-05-13 12:32:42] INFO root fetch - processPackages [exetest]: executing diffoscope
+[2024-05-13 12:32:42] INFO root fetch - processPackages [exetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exetest-0.9.1.tar.gz tmp/exetest-0.9.2.tar.gz --markdown 20240513/e/exetest/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-13 12:32:42] INFO root fetch - processPackages [browserbase-haystack]: Downloading https://files.pythonhosted.org/packages/6f/45/c7c25eb66046158dcbc7636119dc444f05e0b18cbf947ce9e3f0ac178cef/browserbase_haystack-0.0.3.tar.gz
+[2024-05-13 12:32:42] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Downloading https://files.pythonhosted.org/packages/fa/e2/375238e8b37f79dff225598410d1cc5d0039d8bd3907df1c475f645552b1/nonebot_plugin_kurogames-0.1.7.tar.gz
+[2024-05-13 12:32:42] INFO root fetch - processPackages [browserbase-haystack]: executing diffoscope
+[2024-05-13 12:32:42] INFO root fetch - processPackages [browserbase-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserbase_haystack-0.0.2.tar.gz tmp/browserbase_haystack-0.0.3.tar.gz --markdown 20240513/b/browserbase-haystack/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 12:32:43] INFO root fetch - processPackages [nonebot-plugin-kurogames]: executing diffoscope
+[2024-05-13 12:32:43] INFO root fetch - processPackages [nonebot-plugin-kurogames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kurogames-0.1.6.tar.gz tmp/nonebot_plugin_kurogames-0.1.7.tar.gz --markdown 20240513/n/nonebot-plugin-kurogames/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-13 12:32:43] INFO root fetch - processPackages [exetest]: Remove: archive file [/home/abi/fetcher/tmp/exetest-0.9.1.tar.gz]
+[2024-05-13 12:32:43] INFO root fetch - processPackages [exetest]: Remove: archive file [/home/abi/fetcher/tmp/exetest-0.9.2.tar.gz]
+[2024-05-13 12:32:43] INFO root fetch - main [MainThread]: End processing [exetest]: success
+[2024-05-13 12:32:43] INFO root fetch - processPackages [browserbase-haystack]: Remove: archive file [/home/abi/fetcher/tmp/browserbase_haystack-0.0.2.tar.gz]
+[2024-05-13 12:32:43] INFO root fetch - processPackages [browserbase-haystack]: Remove: archive file [/home/abi/fetcher/tmp/browserbase_haystack-0.0.3.tar.gz]
+[2024-05-13 12:32:43] INFO root fetch - main [MainThread]: End processing [browserbase-haystack]: success
+[2024-05-13 12:32:44] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.6.tar.gz]
+[2024-05-13 12:32:44] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.7.tar.gz]
+[2024-05-13 12:32:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kurogames]: success
+[2024-05-13 12:32:44] INFO root fetch - main [MainThread]: Store serial: [23181570]
