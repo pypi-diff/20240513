@@ -20824,3 +20824,58 @@ EOFError: EOF read where object expected
 [2024-05-13 15:29:20] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-4.0.0.tar.gz]
 [2024-05-13 15:29:20] INFO root fetch - main [MainThread]: End processing [nxstools]: success
 [2024-05-13 15:29:20] INFO root fetch - main [MainThread]: Store serial: [23183758]
+[2024-05-13 15:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183758]
+[2024-05-13 15:31:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beacon2-import
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genettaz
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: midas-goa
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-vizier-dev
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icare-nlp
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-df-notifications
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paradi
+[2024-05-13 15:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SigProfilerTopography
+[2024-05-13 15:31:29] INFO root fetch - processPackages [google-vizier-dev]: New version: [0.1.16.dev20240513132102] Old Version: [0.1.16.dev20240509205053]
+[2024-05-13 15:31:29] WARNING root fetch - processPackages [paradi]: Skipping, unable to determine old version
+[2024-05-13 15:31:29] INFO root fetch - main [MainThread]: End processing [paradi] error
+[2024-05-13 15:31:29] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 15:31:29] INFO root fetch - processPackages [django-df-notifications]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-13 15:31:30] WARNING root fetch - processPackages [genettaz]: Skipping, unable to determine old version
+[2024-05-13 15:31:30] INFO root fetch - main [MainThread]: End processing [genettaz] error
+[2024-05-13 15:31:30] INFO root fetch - processPackages [beacon2-import]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 15:31:30] INFO root fetch - processPackages [midas-goa]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2024-05-13 15:31:30] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/41/bc/0a89f9b0ad2376303e5d25b3d626b8ac053c1c03ed6d1f4c94e50a6e0b78/google-vizier-dev-0.1.16.dev20240509205053.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [SigProfilerTopography]: New version: [1.0.9] Old Version: [1.0.88]
+[2024-05-13 15:31:30] INFO root fetch - processPackages [django-df-notifications]: Downloading https://files.pythonhosted.org/packages/dd/fc/6b64740d22a01112c80e7d78a1487824661bc2e1a46b02e1036a24140c29/django-df-notifications-1.2.8.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [beacon2-import]: Downloading https://files.pythonhosted.org/packages/e7/2c/8ceac41063393a844415e0a20b23bd8a2cd1ca541ae47ac9531027a28ec0/beacon2-import-1.0.7.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/a8/3f/a0f4df8358ac8ac58e744adb5e6f8271c54ccae580c4d535cacaf60582cd/icare_nlp-0.0.6.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [midas-goa]: Downloading https://files.pythonhosted.org/packages/b6/0f/154a15ac1f3f7dcc6a12aa14b0a2d56c85ab33d9af69816fa0e661cf3f55/midas-goa-1.0.0rc5.tar.gz
+[2024-05-13 15:31:30] WARNING root fetch - processPackages [icare-nlp]: Skipping package: exceeds size limit 92217867>=10485760
+[2024-05-13 15:31:30] INFO root fetch - main [MainThread]: End processing [icare-nlp] error
+[2024-05-13 15:31:30] INFO root fetch - processPackages [SigProfilerTopography]: Downloading https://files.pythonhosted.org/packages/34/02/679657b972acd8cff41144a6437a6e9c5cf3df0d6d219e357886e05fef87/SigProfilerTopography-1.0.88.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/42/b6/4ae0d1309cf1774c82e2f8ba1cf0e42fd40e7e7e8a4c4ab5100fd2c3f810/google-vizier-dev-0.1.16.dev20240513132102.tar.gz
+[2024-05-13 15:31:30] WARNING root fetch - processPackages [SigProfilerTopography]: Skipping package: exceeds size limit 39605971>=10485760
+[2024-05-13 15:31:30] INFO root fetch - main [MainThread]: End processing [SigProfilerTopography] error
+[2024-05-13 15:31:30] INFO root fetch - processPackages [beacon2-import]: Downloading https://files.pythonhosted.org/packages/23/63/f197f1342bc838aff903d87ea2898940dae2c97146762aced0bc32f6a2e7/beacon2-import-1.0.8.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [django-df-notifications]: Downloading https://files.pythonhosted.org/packages/40/d0/af94d1dd427260c60cf5fd14eb4cd681ea716e219317a378ebc5cb52d8ba/django-df-notifications-1.2.9.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [google-vizier-dev]: executing diffoscope
+[2024-05-13 15:31:30] INFO root fetch - processPackages [google-vizier-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-vizier-dev-0.1.16.dev20240509205053.tar.gz tmp/google-vizier-dev-0.1.16.dev20240513132102.tar.gz --markdown 20240513/g/google-vizier-dev/0.1.16.dev20240509205053-0.1.16.dev20240513132102/README.md --exclude *.pyd
+[2024-05-13 15:31:30] INFO root fetch - processPackages [beacon2-import]: executing diffoscope
+[2024-05-13 15:31:30] INFO root fetch - processPackages [midas-goa]: Downloading https://files.pythonhosted.org/packages/f7/26/e490017afb269690ee8f7e04e9d38e8cde0fd783e920eca0a47eea05bfd2/midas-goa-1.0.0rc6.tar.gz
+[2024-05-13 15:31:30] INFO root fetch - processPackages [beacon2-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beacon2-import-1.0.7.tar.gz tmp/beacon2-import-1.0.8.tar.gz --markdown 20240513/b/beacon2-import/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 15:31:30] INFO root fetch - processPackages [django-df-notifications]: executing diffoscope
+[2024-05-13 15:31:30] INFO root fetch - processPackages [django-df-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-df-notifications-1.2.8.tar.gz tmp/django-df-notifications-1.2.9.tar.gz --markdown 20240513/d/django-df-notifications/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-13 15:31:30] INFO root fetch - processPackages [midas-goa]: executing diffoscope
+[2024-05-13 15:31:30] INFO root fetch - processPackages [midas-goa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-goa-1.0.0rc5.tar.gz tmp/midas-goa-1.0.0rc6.tar.gz --markdown 20240513/m/midas-goa/1.0.0rc5-1.0.0rc6/README.md --exclude *.pyd
+[2024-05-13 15:31:31] INFO root fetch - processPackages [beacon2-import]: Remove: archive file [/home/abi/fetcher/tmp/beacon2-import-1.0.7.tar.gz]
+[2024-05-13 15:31:31] INFO root fetch - processPackages [beacon2-import]: Remove: archive file [/home/abi/fetcher/tmp/beacon2-import-1.0.8.tar.gz]
+[2024-05-13 15:31:31] INFO root fetch - main [MainThread]: End processing [beacon2-import]: success
+[2024-05-13 15:31:31] INFO root fetch - processPackages [django-df-notifications]: Remove: archive file [/home/abi/fetcher/tmp/django-df-notifications-1.2.8.tar.gz]
+[2024-05-13 15:31:31] INFO root fetch - processPackages [django-df-notifications]: Remove: archive file [/home/abi/fetcher/tmp/django-df-notifications-1.2.9.tar.gz]
+[2024-05-13 15:31:31] INFO root fetch - main [MainThread]: End processing [django-df-notifications]: success
+[2024-05-13 15:31:31] INFO root fetch - processPackages [midas-goa]: Remove: archive file [/home/abi/fetcher/tmp/midas-goa-1.0.0rc5.tar.gz]
+[2024-05-13 15:31:31] INFO root fetch - processPackages [midas-goa]: Remove: archive file [/home/abi/fetcher/tmp/midas-goa-1.0.0rc6.tar.gz]
+[2024-05-13 15:31:31] INFO root fetch - main [MainThread]: End processing [midas-goa]: success
+[2024-05-13 15:31:32] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240509205053.tar.gz]
+[2024-05-13 15:31:32] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240513132102.tar.gz]
+[2024-05-13 15:31:32] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
+[2024-05-13 15:31:32] INFO root fetch - main [MainThread]: Store serial: [23183783]
