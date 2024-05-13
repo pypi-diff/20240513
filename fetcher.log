@@ -13033,3 +13033,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:05:04] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240512.tar.gz]
 [2024-05-13 11:05:04] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2024-05-13 11:05:04] INFO root fetch - main [MainThread]: Store serial: [23180484]
+[2024-05-13 11:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180484]
+[2024-05-13 11:07:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.multimodal
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.timeseries
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vot-toolkit
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avrotize
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: article-parser
+[2024-05-13 11:07:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyland
+[2024-05-13 11:07:13] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240512] Old Version: [1.1.1b20240511]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [article-parser]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240512] Old Version: [1.1.1b20240511]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240512] Old Version: [1.1.1b20240511]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [vot-toolkit]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [easyland]: New version: [0.7.4] Old Version: [0.7.2]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [article-parser]: Downloading https://files.pythonhosted.org/packages/d1/92/5ee6108793d4eb4c5eb085295c36c902fac53235c57a0e48ecd6c7c77bae/article-parser-1.7.0.tar.gz
+[2024-05-13 11:07:13] INFO root fetch - processPackages [avrotize]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-13 11:07:13] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/ba/c5/e4d5d8322cd563bd2561329932e73ae549b87391363e21765cfb1a0d6a7a/autogluon-1.1.1b20240511.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/7e/ff/11109ccb1de2f3dfa2ecb3944bbd42a911175075813f9e0197f887d7513c/autogluon.multimodal-1.1.1b20240511.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c1/25/9f15849ce6adde2381233e5b5b61abe5622dc7b865046173a3af64e37da9/autogluon.timeseries-1.1.1b20240511.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [vot-toolkit]: Downloading https://files.pythonhosted.org/packages/75/a3/2183b7f623ef02d43ec95a84a204e5869a6ff1d8cfa2c8f843d40dee5dcc/vot-toolkit-0.7.0.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [article-parser]: Downloading https://files.pythonhosted.org/packages/67/a1/eeebb88a0ec9c7ff7656dde8a37ea012befe734511d7f001f7b4e93a5bdf/article-parser-1.7.1.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/51/09/3f9dc395b24072fec50151867a353411255ac39ee69774b77bc9f513b062/easyland-0.7.2.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/c4/63/13e608b483f95b1e0acfee52aac00f9295b1ad8867c7913498023e2a05c4/avrotize-1.4.1.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [article-parser]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [article-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/article-parser-1.7.0.tar.gz tmp/article-parser-1.7.1.tar.gz --markdown 20240513/a/article-parser/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/89/c4/f761c8186fa783595c565740a04070185e89b96b81dd268f69ec6308945d/autogluon-1.1.1b20240512.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240511.tar.gz tmp/autogluon-1.1.1b20240512.tar.gz --markdown 20240513/a/autogluon/1.1.1b20240511-1.1.1b20240512/README.md --exclude *.pyd
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/0a/b4/633a0fb2f88e7ca321e3222a299d2a4cabded0eea3515dbeff4ae906df1a/autogluon.timeseries-1.1.1b20240512.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ca/6f/4165908957ccdf521a9785440876c4654c0a2d96cfded972a566b2d68096/autogluon.multimodal-1.1.1b20240512.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [easyland]: Downloading https://files.pythonhosted.org/packages/ab/e7/a8dac3e11f6605888a2cad7fc0851f723d4e2939b002d276c8f58535c1de/easyland-0.7.4.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [vot-toolkit]: Downloading https://files.pythonhosted.org/packages/52/88/91495acd8e9f007e50c8c439c0ee0cb630e7e3a6611cbc2e4453a05eb469/vot-toolkit-0.7.1.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [avrotize]: Downloading https://files.pythonhosted.org/packages/28/e9/185a1970a9cfb8efba335343e53217a4aff489a404ca82a8719700e00c33/avrotize-1.5.0.tar.gz
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240511.tar.gz tmp/autogluon.timeseries-1.1.1b20240512.tar.gz --markdown 20240513/a/autogluon.timeseries/1.1.1b20240511-1.1.1b20240512/README.md --exclude *.pyd
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240511.tar.gz tmp/autogluon.multimodal-1.1.1b20240512.tar.gz --markdown 20240513/a/autogluon.multimodal/1.1.1b20240511-1.1.1b20240512/README.md --exclude *.pyd
+[2024-05-13 11:07:14] INFO root fetch - processPackages [easyland]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [easyland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyland-0.7.2.tar.gz tmp/easyland-0.7.4.tar.gz --markdown 20240513/e/easyland/0.7.2-0.7.4/README.md --exclude *.pyd
+[2024-05-13 11:07:14] INFO root fetch - processPackages [vot-toolkit]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [vot-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vot-toolkit-0.7.0.tar.gz tmp/vot-toolkit-0.7.1.tar.gz --markdown 20240513/v/vot-toolkit/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-13 11:07:14] INFO root fetch - processPackages [avrotize]: executing diffoscope
+[2024-05-13 11:07:14] INFO root fetch - processPackages [avrotize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avrotize-1.4.1.tar.gz tmp/avrotize-1.5.0.tar.gz --markdown 20240513/a/avrotize/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-13 11:07:15] INFO root fetch - processPackages [article-parser]: Remove: archive file [/home/abi/fetcher/tmp/article-parser-1.7.0.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - processPackages [article-parser]: Remove: archive file [/home/abi/fetcher/tmp/article-parser-1.7.1.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - main [MainThread]: End processing [article-parser]: success
+[2024-05-13 11:07:15] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240511.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240512.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-13 11:07:15] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240511.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240512.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-13 11:07:15] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.2.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - processPackages [easyland]: Remove: archive file [/home/abi/fetcher/tmp/easyland-0.7.4.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - main [MainThread]: End processing [easyland]: success
+[2024-05-13 11:07:15] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.4.1.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - processPackages [avrotize]: Remove: archive file [/home/abi/fetcher/tmp/avrotize-1.5.0.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - main [MainThread]: End processing [avrotize]: success
+[2024-05-13 11:07:15] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240511.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240512.tar.gz]
+[2024-05-13 11:07:15] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-13 11:07:16] INFO root fetch - processPackages [vot-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/vot-toolkit-0.7.0.tar.gz]
+[2024-05-13 11:07:16] INFO root fetch - processPackages [vot-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/vot-toolkit-0.7.1.tar.gz]
+[2024-05-13 11:07:16] INFO root fetch - main [MainThread]: End processing [vot-toolkit]: success
+[2024-05-13 11:07:16] INFO root fetch - main [MainThread]: Store serial: [23180505]
