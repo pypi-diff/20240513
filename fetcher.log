@@ -12255,3 +12255,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:39:36] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.3.tar.gz]
 [2024-05-13 10:39:36] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
 [2024-05-13 10:39:36] INFO root fetch - main [MainThread]: Store serial: [23180118]
+[2024-05-13 10:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180118]
+[2024-05-13 10:41:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pennylane-kq
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: power-grid-model
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-signedUrl-uploader
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpgPy
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlabelImg
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cgeoportal-commons
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cgeoportal-geoportal
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2cgeoportal-admin
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trajan
+[2024-05-13 10:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: beangrep
+[2024-05-13 10:41:45] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 10:41:45] INFO root fetch - processPackages [rpgPy]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 10:41:45] INFO root fetch - processPackages [c2cgeoportal-commons]: New version: [2.8.1.89] Old Version: [2.8.1.87]
+[2024-05-13 10:41:45] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-13 10:41:45] INFO root fetch - processPackages [mlabelImg]: New version: [1.8.8] Old Version: [1.8.7]
+[2024-05-13 10:41:45] WARNING root fetch - processPackages [beangrep]: Skipping, unable to determine old version
+[2024-05-13 10:41:45] INFO root fetch - processPackages [beangrep]: Start processing: coolbg
+[2024-05-13 10:41:45] INFO root fetch - main [MainThread]: End processing [beangrep] error
+[2024-05-13 10:41:45] WARNING root fetch - processPackages [st-signedUrl-uploader]: Skipping, unable to determine old version
+[2024-05-13 10:41:45] INFO root fetch - processPackages [st-signedUrl-uploader]: Start processing: dummynet
+[2024-05-13 10:41:45] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader] error
+[2024-05-13 10:41:45] INFO root fetch - processPackages [trajan]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-13 10:41:45] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/f9/9c/9a2ee848c97171d8dca5de669b819fc5470c4195e13d05b476eb407172bb/rpgPy-0.8.0.tar.gz
+[2024-05-13 10:41:45] INFO root fetch - processPackages [c2cgeoportal-geoportal]: New version: [2.8.1.89] Old Version: [2.8.1.87]
+[2024-05-13 10:41:45] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-13 10:41:45] INFO root fetch - processPackages [c2cgeoportal-admin]: New version: [2.8.1.89] Old Version: [2.8.1.87]
+[2024-05-13 10:41:46] INFO root fetch - processPackages [mlabelImg]: Downloading https://files.pythonhosted.org/packages/94/40/fcbfc572cbceca423322ef4f4ad0ea3fafb461a7c9eac43a1db70618eb83/mlabelimg-1.8.7.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [dummynet]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-13 10:41:46] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-13 10:41:46] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/79/c5/a647923c00fb17d1de51b91a6b3330a485896f682cd53ce5715fc69fc808/c2cgeoportal_commons-2.8.1.87-py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/f6/d7/3e6c35ccd1ee0cdbdae2974dd07b555e11eb787edda57803bb12bd389154/c2cgeoportal_geoportal-2.8.1.87-py2.py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [trajan]: Downloading https://files.pythonhosted.org/packages/74/89/4bdd2111d85d82ac623891df6c70f0b9ddbe9e4ba1c4b4943d07df1cfd71/trajan-0.6.0.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/b2/22/e0eb7eff64dda45a71367bb57fdf30cc1c9e86f2a6a06f881465aa8210a3/c2cgeoportal_admin-2.8.1.87-py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [rpgPy]: Downloading https://files.pythonhosted.org/packages/95/be/a78072a656626a68d3b17c7dbe27f3b2c55b5bb2692fd18e338eda986c0c/rpgPy-0.9.0.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240513/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [dummynet]: Downloading https://files.pythonhosted.org/packages/89/d6/378e4405551387f5ba54e5a22b01d3f1d0693d9a4571318a053ef5de42b9/dummynet-2.5.0-py2.py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [rpgPy]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [rpgPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpgPy-0.8.0.tar.gz tmp/rpgPy-0.9.0.tar.gz --markdown 20240513/r/rpgPy/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [mlabelImg]: Downloading https://files.pythonhosted.org/packages/92/e2/a9c94a5d0b428b20692b67fb2a3b307883021634f8740fa924da1d837525/mlabelimg-1.8.8.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/fb/b1/f25e4b20a6024d006de5098dcaaa5816fe5d80a7cd631e4c88c69a29b5ce/c2cgeoportal_commons-2.8.1.89-py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/34/83/75b9b51bfb69ebe11a5a832d888e18884f5c224833f7966d8c4972a42929/c2cgeoportal_admin-2.8.1.89-py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [trajan]: Downloading https://files.pythonhosted.org/packages/3f/cd/f3c44bbc5839b3a1286d3477cc3bdffe7b1652ecc71d39d8082ae02dfd6b/trajan-0.6.1.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [mlabelImg]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [mlabelImg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlabelimg-1.8.7.tar.gz tmp/mlabelimg-1.8.8.tar.gz --markdown 20240513/m/mlabelImg/1.8.7-1.8.8/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-commons]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_commons-2.8.1.87-py3-none-any.whl.zip tmp/c2cgeoportal_commons-2.8.1.89-py3-none-any.whl.zip --markdown 20240513/c/c2cgeoportal-commons/2.8.1.87-2.8.1.89/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-admin]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_admin-2.8.1.87-py3-none-any.whl.zip tmp/c2cgeoportal_admin-2.8.1.89-py3-none-any.whl.zip --markdown 20240513/c/c2cgeoportal-admin/2.8.1.87-2.8.1.89/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [dummynet]: Downloading https://files.pythonhosted.org/packages/23/48/80f58e9eb9a7786394d0eb8977f4f6216a0859bf1b2530db7a6338946184/dummynet-2.6.0-py2.py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [trajan]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [trajan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajan-0.6.0.tar.gz tmp/trajan-0.6.1.tar.gz --markdown 20240513/t/trajan/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240513/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-13 10:41:46] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/8d/6e/7c55b598c1d1cff716364697407e29d57a9947c1587ac121e8561f22e437/c2cgeoportal_geoportal-2.8.1.89-py2.py3-none-any.whl
+[2024-05-13 10:41:46] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-13 10:41:46] INFO root fetch - processPackages [dummynet]: executing diffoscope
+[2024-05-13 10:41:46] INFO root fetch - processPackages [dummynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummynet-2.5.0-py2.py3-none-any.whl.zip tmp/dummynet-2.6.0-py2.py3-none-any.whl.zip --markdown 20240513/d/dummynet/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-05-13 10:41:47] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-13 10:41:47] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240513/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-13 10:41:47] INFO root fetch - processPackages [c2cgeoportal-geoportal]: executing diffoscope
+[2024-05-13 10:41:47] INFO root fetch - processPackages [c2cgeoportal-geoportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_geoportal-2.8.1.87-py2.py3-none-any.whl.zip tmp/c2cgeoportal_geoportal-2.8.1.89-py2.py3-none-any.whl.zip --markdown 20240513/c/c2cgeoportal-geoportal/2.8.1.87-2.8.1.89/README.md --exclude *.pyd
+[2024-05-13 10:41:47] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-13 10:41:47] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
+[2024-05-13 10:41:47] INFO root fetch - processPackages [pennylane-kq]: Start processing: zhlyr
+[2024-05-13 10:41:47] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-13 10:41:47] INFO root fetch - processPackages [zhlyr]: New version: [3.8] Old Version: [3.7]
+[2024-05-13 10:41:47] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/9f/dd/0ad90ff6a9d0218567cbdaad701d1a0b7614b1b8042877b49be909fb5e86/zhlyr-3.7.tar.gz
+[2024-05-13 10:41:48] INFO root fetch - processPackages [rpgPy]: Remove: archive file [/home/abi/fetcher/tmp/rpgPy-0.8.0.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [rpgPy]: Remove: archive file [/home/abi/fetcher/tmp/rpgPy-0.9.0.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [rpgPy]: Start processing: srxraylib
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [rpgPy]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/d8/e5/d1bf181028da069b781d1b4174d910b4b0700460b5da06cb44029d949c6e/zhlyr-3.8.tar.gz
+[2024-05-13 10:41:48] INFO root fetch - processPackages [trajan]: Remove: archive file [/home/abi/fetcher/tmp/trajan-0.6.0.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [trajan]: Remove: archive file [/home/abi/fetcher/tmp/trajan-0.6.1.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [trajan]: Start processing: pybandit
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [trajan]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [srxraylib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [pybandit]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [dummynet]: Remove: archive file [/home/abi/fetcher/tmp/dummynet-2.5.0-py2.py3-none-any.whl.zip]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [dummynet]: Remove: archive file [/home/abi/fetcher/tmp/dummynet-2.6.0-py2.py3-none-any.whl.zip]
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [dummynet]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [mlabelImg]: Remove: archive file [/home/abi/fetcher/tmp/mlabelimg-1.8.7.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [mlabelImg]: Remove: archive file [/home/abi/fetcher/tmp/mlabelimg-1.8.8.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [mlabelImg]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [zhlyr]: executing diffoscope
+[2024-05-13 10:41:48] INFO root fetch - processPackages [zhlyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhlyr-3.7.tar.gz tmp/zhlyr-3.8.tar.gz --markdown 20240513/z/zhlyr/3.7-3.8/README.md --exclude *.pyd
+[2024-05-13 10:41:48] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.87-py3-none-any.whl.zip]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.89-py3-none-any.whl.zip]
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-commons]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [srxraylib]: Downloading https://files.pythonhosted.org/packages/bd/3b/62846e4f44e8ea32f36b28ca395ceea65da9d416deea42c54a98930ad6c1/srxraylib-1.0.8.tar.gz
+[2024-05-13 10:41:48] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [pybandit]: Downloading https://files.pythonhosted.org/packages/df/da/ac83fbe0a431de21e1d08466103aa2c7cec0dc6b76d5b1c328376a4048ef/pybandit-0.0.0.1-py3-none-any.whl
+[2024-05-13 10:41:48] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.87-py3-none-any.whl.zip]
+[2024-05-13 10:41:48] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.89-py3-none-any.whl.zip]
+[2024-05-13 10:41:48] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-admin]: success
+[2024-05-13 10:41:48] INFO root fetch - processPackages [pybandit]: Downloading https://files.pythonhosted.org/packages/16/ae/800bd745df50c061dbe79bbe78dc8ab51562370db94d1d9ae41056393acf/pybandit-0.0.0.2.tar.gz
+[2024-05-13 10:41:49] INFO root fetch - processPackages [srxraylib]: Downloading https://files.pythonhosted.org/packages/ca/b0/4954ea595d4b42f4f93aa9929bcca5ccdd90e68312d0469da175b640b5ca/srxraylib-1.0.9.tar.gz
+[2024-05-13 10:41:49] INFO root fetch - processPackages [pybandit]: executing diffoscope
+[2024-05-13 10:41:49] INFO root fetch - processPackages [pybandit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybandit-0.0.0.1-py3-none-any.whl.zip tmp/pybandit-0.0.0.2.tar.gz --markdown 20240513/p/pybandit/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-05-13 10:41:49] INFO root fetch - processPackages [srxraylib]: executing diffoscope
+[2024-05-13 10:41:49] INFO root fetch - processPackages [srxraylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srxraylib-1.0.8.tar.gz tmp/srxraylib-1.0.9.tar.gz --markdown 20240513/s/srxraylib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 10:41:49] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.87-py2.py3-none-any.whl.zip]
+[2024-05-13 10:41:49] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.89-py2.py3-none-any.whl.zip]
+[2024-05-13 10:41:49] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-geoportal]: success
+[2024-05-13 10:41:49] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.7.tar.gz]
+[2024-05-13 10:41:49] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.8.tar.gz]
+[2024-05-13 10:41:49] INFO root fetch - main [MainThread]: End processing [zhlyr]: success
+[2024-05-13 10:41:49] INFO root fetch - processPackages [pybandit]: Remove: archive file [/home/abi/fetcher/tmp/pybandit-0.0.0.1-py3-none-any.whl.zip]
+[2024-05-13 10:41:49] INFO root fetch - processPackages [pybandit]: Remove: archive file [/home/abi/fetcher/tmp/pybandit-0.0.0.2.tar.gz]
+[2024-05-13 10:41:49] INFO root fetch - main [MainThread]: End processing [pybandit]: success
+[2024-05-13 10:41:50] INFO root fetch - processPackages [srxraylib]: Remove: archive file [/home/abi/fetcher/tmp/srxraylib-1.0.8.tar.gz]
+[2024-05-13 10:41:50] INFO root fetch - processPackages [srxraylib]: Remove: archive file [/home/abi/fetcher/tmp/srxraylib-1.0.9.tar.gz]
+[2024-05-13 10:41:50] INFO root fetch - main [MainThread]: End processing [srxraylib]: success
+[2024-05-13 10:41:50] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-13 10:41:50] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-13 10:41:50] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-13 10:41:50] INFO root fetch - main [MainThread]: Store serial: [23180196]
