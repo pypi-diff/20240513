@@ -21696,3 +21696,51 @@ EOFError: EOF read where object expected
 [2024-05-13 15:56:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-13 15:56:07] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-13 15:56:07] INFO root fetch - main [MainThread]: Store serial: [23184143]
+[2024-05-13 15:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184143]
+[2024-05-13 15:58:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 15:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: borneo-client-python
+[2024-05-13 15:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaiah-toolkit
+[2024-05-13 15:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: variable-local
+[2024-05-13 15:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gable
+[2024-05-13 15:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fluidprop
+[2024-05-13 15:58:16] INFO root fetch - processPackages [borneo-client-python]: New version: [3.10.2] Old Version: [3.10.1]
+[2024-05-13 15:58:16] INFO root fetch - processPackages [fluidprop]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-13 15:58:16] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-13 15:58:16] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 15:58:16] INFO root fetch - processPackages [gaiah-toolkit]: New version: [0.3.13] Old Version: [0.3.10]
+[2024-05-13 15:58:16] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/a0/70/35e5141ed45ab968ff2753f737e6eb8f705567b5d0c5b356739acca84238/borneo_client_python-3.10.1.tar.gz
+[2024-05-13 15:58:16] INFO root fetch - processPackages [gaiah-toolkit]: Downloading https://files.pythonhosted.org/packages/55/d4/33aa4bb2aaa2f00c6d1884bd1c29574937ad17052567b762841499a126a6/gaiah_toolkit-0.3.10.tar.gz
+[2024-05-13 15:58:16] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-13 15:58:16] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-13 15:58:16] INFO root fetch - processPackages [fluidprop]: Downloading https://files.pythonhosted.org/packages/24/96/51c11ea5cf64da473e7fc76cdcc6632b695e63e730f8b054f78ca5add14a/fluidprop-1.1.0.tar.gz
+[2024-05-13 15:58:17] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/fe/37/b373f66813d1c260107d11827af02e8ce439d143627a51b585aecb639b9b/borneo_client_python-3.10.2.tar.gz
+[2024-05-13 15:58:17] INFO root fetch - processPackages [gaiah-toolkit]: Downloading https://files.pythonhosted.org/packages/cd/61/1ee4fef58d0939f2352d3dd96b558c24cc89962db348226333953901f4e7/gaiah_toolkit-0.3.13.tar.gz
+[2024-05-13 15:58:17] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-13 15:58:17] INFO root fetch - processPackages [fluidprop]: Downloading https://files.pythonhosted.org/packages/20/0b/0e90b57c3a7528a55fec73a1da13d3287dd641ac6c9c4fcbb3d877809a74/fluidprop-1.2.0.tar.gz
+[2024-05-13 15:58:17] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-13 15:58:17] INFO root fetch - processPackages [borneo-client-python]: executing diffoscope
+[2024-05-13 15:58:17] INFO root fetch - processPackages [borneo-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_client_python-3.10.1.tar.gz tmp/borneo_client_python-3.10.2.tar.gz --markdown 20240513/b/borneo-client-python/3.10.1-3.10.2/README.md --exclude *.pyd
+[2024-05-13 15:58:17] INFO root fetch - processPackages [gaiah-toolkit]: executing diffoscope
+[2024-05-13 15:58:17] INFO root fetch - processPackages [gaiah-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiah_toolkit-0.3.10.tar.gz tmp/gaiah_toolkit-0.3.13.tar.gz --markdown 20240513/g/gaiah-toolkit/0.3.10-0.3.13/README.md --exclude *.pyd
+[2024-05-13 15:58:17] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-13 15:58:17] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240513/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 15:58:17] INFO root fetch - processPackages [fluidprop]: executing diffoscope
+[2024-05-13 15:58:17] INFO root fetch - processPackages [fluidprop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidprop-1.1.0.tar.gz tmp/fluidprop-1.2.0.tar.gz --markdown 20240513/f/fluidprop/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-13 15:58:17] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-13 15:58:17] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240513/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-13 15:58:18] INFO root fetch - processPackages [fluidprop]: Remove: archive file [/home/abi/fetcher/tmp/fluidprop-1.1.0.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - processPackages [fluidprop]: Remove: archive file [/home/abi/fetcher/tmp/fluidprop-1.2.0.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - main [MainThread]: End processing [fluidprop]: success
+[2024-05-13 15:58:18] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-13 15:58:18] INFO root fetch - processPackages [gaiah-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gaiah_toolkit-0.3.10.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - processPackages [gaiah-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gaiah_toolkit-0.3.13.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - main [MainThread]: End processing [gaiah-toolkit]: success
+[2024-05-13 15:58:18] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-13 15:58:18] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.1.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.2.tar.gz]
+[2024-05-13 15:58:18] INFO root fetch - main [MainThread]: End processing [borneo-client-python]: success
+[2024-05-13 15:58:18] INFO root fetch - main [MainThread]: Store serial: [23184158]
