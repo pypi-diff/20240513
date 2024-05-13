@@ -3618,3 +3618,57 @@
 [2024-05-13 04:46:12] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.2.tar.gz]
 [2024-05-13 04:46:12] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
 [2024-05-13 04:46:12] INFO root fetch - main [MainThread]: Store serial: [23176050]
+[2024-05-13 04:48:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176050]
+[2024-05-13 04:48:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex-antd
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smart-redis-storage
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-move-print
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fun-things
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitpy
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: preadmittedz
+[2024-05-13 04:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sc-diff-analysis
+[2024-05-13 04:48:21] WARNING root fetch - processPackages [smart-redis-storage]: Skipping, unable to determine old version
+[2024-05-13 04:48:21] INFO root fetch - main [MainThread]: End processing [smart-redis-storage] error
+[2024-05-13 04:48:21] INFO root fetch - processPackages [fun-things]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-13 04:48:21] WARNING root fetch - processPackages [preadmittedz]: Skipping, unable to determine old version
+[2024-05-13 04:48:21] INFO root fetch - main [MainThread]: End processing [preadmittedz] error
+[2024-05-13 04:48:21] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/0e/ae/5af23b8ec3c191dabcf4793eba7526ad965517d015eb8b06d5306796f2e4/fun_things-0.2.0.tar.gz
+[2024-05-13 04:48:21] INFO root fetch - processPackages [unitpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 04:48:21] INFO root fetch - processPackages [odoo-addon-account-move-print]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-13 04:48:21] INFO root fetch - processPackages [reflex-antd]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 04:48:21] INFO root fetch - processPackages [sc-diff-analysis]: New version: [0.0.9] Old Version: [0.0.29]
+[2024-05-13 04:48:21] INFO root fetch - processPackages [odoo-addon-account-move-print]: Downloading https://files.pythonhosted.org/packages/fa/5b/68a0e329631d26ce838b3d3cf643e080e92d72e3443b45a2f3493d4e152b/odoo_addon_account_move_print-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-13 04:48:21] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/31/c0/c3e86f3e5f25d76625c837d8f4920c236270bb1787e6a906f55ef3977a7a/reflex_antd-0.0.7.tar.gz
+[2024-05-13 04:48:21] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/76/03/7bdc49a2d5de4bdfc6de6442f4c415001a168c5715fe9bcdeff5e15bc835/fun_things-0.3.0.tar.gz
+[2024-05-13 04:48:21] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/c1/41/b5cd237c0080cffe5be3704d6e956f16cd93533437ea903ca10efc78d7d4/unitpy-0.0.8.tar.gz
+[2024-05-13 04:48:21] INFO root fetch - processPackages [sc-diff-analysis]: Downloading https://files.pythonhosted.org/packages/32/7e/9e015fda3cc84541e203415a52e3aa1590b8a4a5ca8b56f3828e33b09bc7/sc_diff_analysis-0.0.29-py3-none-any.whl
+[2024-05-13 04:48:21] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-05-13 04:48:21] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.2.0.tar.gz tmp/fun_things-0.3.0.tar.gz --markdown 20240513/f/fun-things/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-13 04:48:21] INFO root fetch - processPackages [odoo-addon-account-move-print]: Downloading https://files.pythonhosted.org/packages/66/24/55236445421a89cfd664a968c1605d492c18925ddd32941c1ee2d37213f6/odoo_addon_account_move_print-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-13 04:48:21] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/39/b1/8602f2c195fa9861580d5f2f11ce959db6b0aebbaefd727e338206c1e946/reflex_antd-0.0.8.tar.gz
+[2024-05-13 04:48:21] INFO root fetch - processPackages [odoo-addon-account-move-print]: executing diffoscope
+[2024-05-13 04:48:21] INFO root fetch - processPackages [odoo-addon-account-move-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_print-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_move_print-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-account-move-print/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-13 04:48:21] INFO root fetch - processPackages [reflex-antd]: executing diffoscope
+[2024-05-13 04:48:21] INFO root fetch - processPackages [reflex-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_antd-0.0.7.tar.gz tmp/reflex_antd-0.0.8.tar.gz --markdown 20240513/r/reflex-antd/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:48:22] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/f1/3f/028980f75e6cebe9d632f7d19e7d1f5f9b36561cbd8607c75f7d30bcbd3e/unitpy-0.0.9.tar.gz
+[2024-05-13 04:48:22] INFO root fetch - processPackages [sc-diff-analysis]: Downloading https://files.pythonhosted.org/packages/28/de/d0b38194149ddddc3e1d977107ed62e758897367cdb1fa784aa9be83277d/sc_diff_analysis-0.0.9-py3-none-any.whl
+[2024-05-13 04:48:22] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.2.0.tar.gz]
+[2024-05-13 04:48:22] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.3.0.tar.gz]
+[2024-05-13 04:48:22] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-05-13 04:48:22] INFO root fetch - processPackages [unitpy]: executing diffoscope
+[2024-05-13 04:48:22] INFO root fetch - processPackages [unitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitpy-0.0.8.tar.gz tmp/unitpy-0.0.9.tar.gz --markdown 20240513/u/unitpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 04:48:22] INFO root fetch - processPackages [sc-diff-analysis]: executing diffoscope
+[2024-05-13 04:48:22] INFO root fetch - processPackages [sc-diff-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_diff_analysis-0.0.29-py3-none-any.whl.zip tmp/sc_diff_analysis-0.0.9-py3-none-any.whl.zip --markdown 20240513/s/sc-diff-analysis/0.0.29-0.0.9/README.md --exclude *.pyd
+[2024-05-13 04:48:22] INFO root fetch - processPackages [odoo-addon-account-move-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_print-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-13 04:48:22] INFO root fetch - processPackages [odoo-addon-account-move-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_print-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-13 04:48:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-print]: success
+[2024-05-13 04:48:22] INFO root fetch - processPackages [unitpy]: Remove: archive file [/home/abi/fetcher/tmp/unitpy-0.0.8.tar.gz]
+[2024-05-13 04:48:22] INFO root fetch - processPackages [unitpy]: Remove: archive file [/home/abi/fetcher/tmp/unitpy-0.0.9.tar.gz]
+[2024-05-13 04:48:22] INFO root fetch - main [MainThread]: End processing [unitpy]: success
+[2024-05-13 04:48:22] INFO root fetch - processPackages [sc-diff-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sc_diff_analysis-0.0.29-py3-none-any.whl.zip]
+[2024-05-13 04:48:22] INFO root fetch - processPackages [sc-diff-analysis]: Remove: archive file [/home/abi/fetcher/tmp/sc_diff_analysis-0.0.9-py3-none-any.whl.zip]
+[2024-05-13 04:48:22] INFO root fetch - main [MainThread]: End processing [sc-diff-analysis]: success
+[2024-05-13 04:48:23] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.7.tar.gz]
+[2024-05-13 04:48:23] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.8.tar.gz]
+[2024-05-13 04:48:23] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
+[2024-05-13 04:48:23] INFO root fetch - main [MainThread]: Store serial: [23176070]
