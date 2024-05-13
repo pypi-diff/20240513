@@ -15931,3 +15931,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:57:02] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.3.tar.gz]
 [2024-05-13 12:57:02] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2024-05-13 12:57:02] INFO root fetch - main [MainThread]: Store serial: [23181772]
+[2024-05-13 12:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181772]
+[2024-05-13 12:59:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 12:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneo4j-ogm
+[2024-05-13 12:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hstream
+[2024-05-13 12:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leafdb
+[2024-05-13 12:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viswa-friend
+[2024-05-13 12:59:11] WARNING root fetch - processPackages [viswa-friend]: Skipping, unable to determine old version
+[2024-05-13 12:59:11] INFO root fetch - main [MainThread]: End processing [viswa-friend] error
+[2024-05-13 12:59:11] INFO root fetch - processPackages [pyneo4j-ogm]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-13 12:59:11] INFO root fetch - processPackages [leafdb]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-13 12:59:11] INFO root fetch - processPackages [hstream]: New version: [0.1.41] Old Version: [0.1.4]
+[2024-05-13 12:59:11] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/a9/2d/dfd785689adee0950a48d614661bf5e6c92f132e0324f57a68a70e955936/hstream-0.1.4.tar.gz
+[2024-05-13 12:59:12] INFO root fetch - processPackages [leafdb]: Downloading https://files.pythonhosted.org/packages/5d/20/53514e2da4d0f2ca0902afa268bb8194e22103e39a45d5434b7c9b8c5ca8/leafdb-1.0.2.tar.gz
+[2024-05-13 12:59:12] INFO root fetch - processPackages [pyneo4j-ogm]: Downloading https://files.pythonhosted.org/packages/02/40/cb4e205cd6857ada4ba621339a84b95fd8a82284b8974292399588bcc6cd/pyneo4j_ogm-0.5.2.tar.gz
+[2024-05-13 12:59:12] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/09/5c/3df409baf121693574da2a39e7c155b5494202bfe32db96e689a94ec966c/hstream-0.1.41.tar.gz
+[2024-05-13 12:59:12] INFO root fetch - processPackages [leafdb]: Downloading https://files.pythonhosted.org/packages/08/d4/e820c016fada4374bc0867a9cfe6fb08fe268b76fc48acfd689a6d28e07c/leafdb-1.0.3.tar.gz
+[2024-05-13 12:59:12] INFO root fetch - processPackages [pyneo4j-ogm]: Downloading https://files.pythonhosted.org/packages/4d/86/de5ee9a481d06598fc0ea9d9a7968f20929bbef4b3a9fcec822a483e3c4c/pyneo4j_ogm-0.5.3.tar.gz
+[2024-05-13 12:59:12] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 12:59:12] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.4.tar.gz tmp/hstream-0.1.41.tar.gz --markdown 20240513/h/hstream/0.1.4-0.1.41/README.md --exclude *.pyd
+[2024-05-13 12:59:12] INFO root fetch - processPackages [pyneo4j-ogm]: executing diffoscope
+[2024-05-13 12:59:12] INFO root fetch - processPackages [pyneo4j-ogm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneo4j_ogm-0.5.2.tar.gz tmp/pyneo4j_ogm-0.5.3.tar.gz --markdown 20240513/p/pyneo4j-ogm/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-13 12:59:12] INFO root fetch - processPackages [leafdb]: executing diffoscope
+[2024-05-13 12:59:12] INFO root fetch - processPackages [leafdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafdb-1.0.2.tar.gz tmp/leafdb-1.0.3.tar.gz --markdown 20240513/l/leafdb/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-13 12:59:13] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.4.tar.gz]
+[2024-05-13 12:59:13] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.41.tar.gz]
+[2024-05-13 12:59:13] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 12:59:13] INFO root fetch - processPackages [pyneo4j-ogm]: Remove: archive file [/home/abi/fetcher/tmp/pyneo4j_ogm-0.5.2.tar.gz]
+[2024-05-13 12:59:13] INFO root fetch - processPackages [pyneo4j-ogm]: Remove: archive file [/home/abi/fetcher/tmp/pyneo4j_ogm-0.5.3.tar.gz]
+[2024-05-13 12:59:13] INFO root fetch - main [MainThread]: End processing [pyneo4j-ogm]: success
+[2024-05-13 12:59:13] INFO root fetch - processPackages [leafdb]: Remove: archive file [/home/abi/fetcher/tmp/leafdb-1.0.2.tar.gz]
+[2024-05-13 12:59:13] INFO root fetch - processPackages [leafdb]: Remove: archive file [/home/abi/fetcher/tmp/leafdb-1.0.3.tar.gz]
+[2024-05-13 12:59:13] INFO root fetch - main [MainThread]: End processing [leafdb]: success
+[2024-05-13 12:59:13] INFO root fetch - main [MainThread]: Store serial: [23181787]
