@@ -12036,3 +12036,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:32:55] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.2.0.tar.gz]
 [2024-05-13 10:32:55] INFO root fetch - main [MainThread]: End processing [frformat]: success
 [2024-05-13 10:32:55] INFO root fetch - main [MainThread]: Store serial: [23180021]
+[2024-05-13 10:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180021]
+[2024-05-13 10:35:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lunes-cms
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradescope-tool
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-sqlalchemy-utils
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tikzplotly
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zerocap-api-new-test
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lgjsfinance
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pami
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-hologres
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenTTSClient
+[2024-05-13 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: soma-integ
+[2024-05-13 10:35:04] INFO root fetch - processPackages [lgjsfinance]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 10:35:04] INFO root fetch - processPackages [soma-integ]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 10:35:04] INFO root fetch - processPackages [tikzplotly]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 10:35:04] INFO root fetch - processPackages [gradescope-tool]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 10:35:05] INFO root fetch - processPackages [dbt-hologres]: New version: [1.7.8b0] Old Version: [1.7.8a0]
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lunes-cms]: New version: [2024.5.0] Old Version: [2023.7.0]
+[2024-05-13 10:35:05] INFO root fetch - processPackages [types-sqlalchemy-utils]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-13 10:35:05] INFO root fetch - processPackages [zerocap-api-new-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 10:35:05] WARNING root fetch - processPackages [OpenTTSClient]: Skipping, unable to determine old version
+[2024-05-13 10:35:05] INFO root fetch - main [MainThread]: End processing [OpenTTSClient] error
+[2024-05-13 10:35:05] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.1.2]
+[2024-05-13 10:35:05] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/3d/e9/861f91bfe24565f05be4632075cfd3340bf87f787396f5ce7b98d05f6649/soma_integ-0.1.3.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/81/2b/0513058ff0aec03421550c698828dc3f50256064fdcdb2094355d9965d2a/lgjsfinance-0.0.4.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [tikzplotly]: Downloading https://files.pythonhosted.org/packages/c8/48/1fbdb0812a0747624ff7e65fe03e1ed295dd4933350516841fe564edd304/tikzplotly-0.1.3.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [gradescope-tool]: Downloading https://files.pythonhosted.org/packages/21/be/dd1c49f10258e0002bebc8dbee011a1a20efc3d9ecad786cdafea3dd4791/gradescope-tool-0.1.0.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lunes-cms]: Downloading https://files.pythonhosted.org/packages/b3/4a/6cd09038c52ee061468601e4cf5b12d12949f53332a3896f642e40140e3a/lunes-cms-2023.7.0.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/96/d6/7afe8c52159016d3aa99bacccfc51660bdde06e85e250098505e50d5d76e/dbt_hologres-1.7.8a0.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/77/f6/1bf1b4861bd641de66e82b3f805f3ccfe9514ca2f9f36d5e9726182000c0/pami-2024.5.1.2.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [types-sqlalchemy-utils]: Downloading https://files.pythonhosted.org/packages/d6/f5/956e347d5f055db5b397d554ae2b7e19bc8d08f7abf0f98c0a9cb9a523fc/types-sqlalchemy-utils-1.0.1.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/a7/33/231fd11ba253ee7e03b4b98a584e94d60872f4ee0f148a4c0ed55f444dcd/zerocap_api_new_test-0.1.8.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [gradescope-tool]: Downloading https://files.pythonhosted.org/packages/ac/ec/97d0807ec220f4a0afbcc8f9bf9e4dfc9638a0ebfed810491e8d545ae763/gradescope_tool-0.1.1.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [tikzplotly]: Downloading https://files.pythonhosted.org/packages/fc/cf/eaf5adb800f53e3ab0be345592523ad30a6db1c2d3c773cc19b574c9d478/tikzplotly-0.1.4.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/cb/c3/1d9f51ea3ac3e94712607cb05259a2b349033a8ae1d2d85c7de6f00b6cd7/lgjsfinance-0.0.5.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/e1/d1/aa03fa962f9fca3814191de0d8d014c6d4109299beb9581e11aeddd22d0e/soma_integ-0.1.4.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [gradescope-tool]: executing diffoscope
+[2024-05-13 10:35:05] INFO root fetch - processPackages [gradescope-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradescope-tool-0.1.0.tar.gz tmp/gradescope_tool-0.1.1.tar.gz --markdown 20240513/g/gradescope-tool/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 10:35:05] INFO root fetch - processPackages [tikzplotly]: executing diffoscope
+[2024-05-13 10:35:05] INFO root fetch - processPackages [tikzplotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tikzplotly-0.1.3.tar.gz tmp/tikzplotly-0.1.4.tar.gz --markdown 20240513/t/tikzplotly/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lgjsfinance]: executing diffoscope
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lgjsfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lgjsfinance-0.0.4.tar.gz tmp/lgjsfinance-0.0.5.tar.gz --markdown 20240513/l/lgjsfinance/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 10:35:05] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/a3/75/644ae80e3ed0ca8ba7912d166cb29283c329ea161fc7dc88831a66f46f0e/dbt_hologres-1.7.8b0.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [types-sqlalchemy-utils]: Downloading https://files.pythonhosted.org/packages/a5/5d/747310a5b105facc74c5b466e3e234f187df6bd5168dba6e28884f9be4d8/types_sqlalchemy_utils-1.1.0.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [lunes-cms]: Downloading https://files.pythonhosted.org/packages/29/c1/877ab09a525a15307088260a0b12807d445aa11b6947a3ad2c7af06df196/lunes-cms-2024.5.0.tar.gz
+[2024-05-13 10:35:05] INFO root fetch - processPackages [soma-integ]: executing diffoscope
+[2024-05-13 10:35:05] INFO root fetch - processPackages [soma-integ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soma_integ-0.1.3.tar.gz tmp/soma_integ-0.1.4.tar.gz --markdown 20240513/s/soma-integ/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 10:35:05] INFO root fetch - processPackages [dbt-hologres]: executing diffoscope
+[2024-05-13 10:35:05] INFO root fetch - processPackages [dbt-hologres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_hologres-1.7.8a0.tar.gz tmp/dbt_hologres-1.7.8b0.tar.gz --markdown 20240513/d/dbt-hologres/1.7.8a0-1.7.8b0/README.md --exclude *.pyd
+[2024-05-13 10:35:06] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-13 10:35:06] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/0d/fc/17c84240b8c03a48a6d44dc85f14394ede09ff4fa6650c014c0df9493178/zerocap_api_new_test-0.1.9.tar.gz
+[2024-05-13 10:35:06] INFO root fetch - processPackages [types-sqlalchemy-utils]: executing diffoscope
+[2024-05-13 10:35:06] INFO root fetch - processPackages [types-sqlalchemy-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-sqlalchemy-utils-1.0.1.tar.gz tmp/types_sqlalchemy_utils-1.1.0.tar.gz --markdown 20240513/t/types-sqlalchemy-utils/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-13 10:35:06] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-13 10:35:06] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.1.2.tar.gz tmp/pami-2024.5.7.1.tar.gz --markdown 20240513/p/pami/2024.5.1.2-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-13 10:35:06] INFO root fetch - processPackages [zerocap-api-new-test]: executing diffoscope
+[2024-05-13 10:35:06] INFO root fetch - processPackages [zerocap-api-new-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_new_test-0.1.8.tar.gz tmp/zerocap_api_new_test-0.1.9.tar.gz --markdown 20240513/z/zerocap-api-new-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 10:35:06] INFO root fetch - processPackages [lunes-cms]: executing diffoscope
+[2024-05-13 10:35:06] INFO root fetch - processPackages [lunes-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunes-cms-2023.7.0.tar.gz tmp/lunes-cms-2024.5.0.tar.gz --markdown 20240513/l/lunes-cms/2023.7.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-13 10:35:08] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.4.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.5.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [lgjsfinance]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [tikzplotly]: Remove: archive file [/home/abi/fetcher/tmp/tikzplotly-0.1.3.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [tikzplotly]: Remove: archive file [/home/abi/fetcher/tmp/tikzplotly-0.1.4.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [tikzplotly]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.1.3.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.1.4.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [soma-integ]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.8a0.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.8b0.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [dbt-hologres]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [gradescope-tool]: Remove: archive file [/home/abi/fetcher/tmp/gradescope-tool-0.1.0.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [gradescope-tool]: Remove: archive file [/home/abi/fetcher/tmp/gradescope_tool-0.1.1.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [gradescope-tool]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [types-sqlalchemy-utils]: Remove: archive file [/home/abi/fetcher/tmp/types-sqlalchemy-utils-1.0.1.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [types-sqlalchemy-utils]: Remove: archive file [/home/abi/fetcher/tmp/types_sqlalchemy_utils-1.1.0.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [types-sqlalchemy-utils]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.8.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.9.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [zerocap-api-new-test]: success
+[2024-05-13 10:35:08] INFO root fetch - processPackages [lunes-cms]: Remove: archive file [/home/abi/fetcher/tmp/lunes-cms-2023.7.0.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - processPackages [lunes-cms]: Remove: archive file [/home/abi/fetcher/tmp/lunes-cms-2024.5.0.tar.gz]
+[2024-05-13 10:35:08] INFO root fetch - main [MainThread]: End processing [lunes-cms]: success
+[2024-05-13 10:35:09] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.1.2.tar.gz]
+[2024-05-13 10:35:09] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-13 10:35:09] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-13 10:35:09] INFO root fetch - main [MainThread]: Store serial: [23180060]
