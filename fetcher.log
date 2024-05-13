@@ -16554,3 +16554,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:21:09] INFO root fetch - processPackages [myjive]: Remove: archive file [/home/abi/fetcher/tmp/myjive-0.1.8.tar.gz]
 [2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [myjive]: success
 [2024-05-13 13:21:09] INFO root fetch - main [MainThread]: Store serial: [23181985]
+[2024-05-13 13:23:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181985]
+[2024-05-13 13:23:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megatheriumz
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cluster_tools
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webknossos
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Data-Checkmate
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-21
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solara
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solara-enterprise
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solara-assets
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: solara-ui
+[2024-05-13 13:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solara-server
+[2024-05-13 13:23:18] INFO root fetch - processPackages [Data-Checkmate]: New version: [1.4] Old Version: [1.3]
+[2024-05-13 13:23:18] WARNING root fetch - processPackages [megatheriumz]: Skipping, unable to determine old version
+[2024-05-13 13:23:18] INFO root fetch - main [MainThread]: End processing [megatheriumz] error
+[2024-05-13 13:23:18] INFO root fetch - processPackages [Data-Checkmate]: Downloading https://files.pythonhosted.org/packages/d1/b0/e3676d1bd065875acae12f58e02aa5fd9e85519118a326f9a4f9c286382e/Data-Checkmate-1.3.tar.gz
+[2024-05-13 13:23:18] INFO root fetch - processPackages [solara-server]: New version: [1.32.2] Old Version: [1.32.1]
+[2024-05-13 13:23:18] INFO root fetch - processPackages [solara]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-13 13:23:18] INFO root fetch - processPackages [solara-enterprise]: New version: [1.32.2] Old Version: [1.32.1]
+[2024-05-13 13:23:18] INFO root fetch - processPackages [solara-ui]: New version: [1.32.2] Old Version: [1.32.1]
+[2024-05-13 13:23:19] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 13:23:19] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240513] Old Version: [2.5.0b20240512]
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-assets]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-13 13:23:19] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-server]: Downloading https://files.pythonhosted.org/packages/50/24/0ce1a9aba7fbafc3fc73d560375df300e6c92ea1f1132eef87cd0b165d90/solara_server-1.32.1.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [Data-Checkmate]: Downloading https://files.pythonhosted.org/packages/1a/a6/e230fd1e0a7085efd1ede9408e1d97e151347b5d062f15ab74d37b241ba4/Data-Checkmate-1.4.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/0f/d5/8c179a51a9a0a60f569f9740c8bb93fdfbc24fd7c47c8e722b5b0f55b341/solara-1.8.2.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/b0/ca/088b35e7608fe9eb6a579326f96b63cae9297ca6cd387c561adfb8c316e0/solara_enterprise-1.32.1.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-ui]: Downloading https://files.pythonhosted.org/packages/a7/93/5166f7a5ba361b429c930e89e975339d243f377b23e849bf10f250803075/solara_ui-1.32.1.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-assets]: Downloading https://files.pythonhosted.org/packages/32/88/9e435f44c84a3837462449476bdf0c80f355c752ae05b8b5f3cd293219f1/solara_assets-1.8.2.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/31/08/8cfa7c8b0f85cb3195b2600e9423164cef6b9bcd82b7928d5b5b6c9a7c12/bigdl_core_xe_21-2.5.0b20240512-cp39-cp39-win_amd64.whl
+[2024-05-13 13:23:19] WARNING root fetch - processPackages [solara-assets]: Skipping package: exceeds size limit 31423360>=10485760
+[2024-05-13 13:23:19] INFO root fetch - main [MainThread]: End processing [solara-assets] error
+[2024-05-13 13:23:19] INFO root fetch - processPackages [Data-Checkmate]: executing diffoscope
+[2024-05-13 13:23:19] INFO root fetch - processPackages [Data-Checkmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Data-Checkmate-1.3.tar.gz tmp/Data-Checkmate-1.4.tar.gz --markdown 20240513/D/Data-Checkmate/1.3-1.4/README.md --exclude *.pyd
+[2024-05-13 13:23:19] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 29781881>=10485760
+[2024-05-13 13:23:19] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-server]: Downloading https://files.pythonhosted.org/packages/d2/3a/758cf01252dbf328c4faf3e30bcbc8c3202c92d3cda7e02ddaa4ccf5fee1/solara_server-1.32.2.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-enterprise]: Downloading https://files.pythonhosted.org/packages/1a/b1/9af632bdfcecdd11ed5329696bc7aee54b9cd55f3c6d235b6e8b69c89d17/solara_enterprise-1.32.2.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-ui]: Downloading https://files.pythonhosted.org/packages/d1/82/844121cb9cab53e7e6f3bf8b3afffcf90ca5b614a6201909c11c12a60797/solara_ui-1.32.2.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara]: Downloading https://files.pythonhosted.org/packages/e8/90/f26cbae23327466263cf6a05ac43ed3ec38356f23af8c896fb9d38cbc597/solara-1.9.0.tar.gz
+[2024-05-13 13:23:19] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-05-13 13:23:19] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240513/c/cluster_tools/1.60-1.61/README.md --exclude *.pyd
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-server]: executing diffoscope
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_server-1.32.1.tar.gz tmp/solara_server-1.32.2.tar.gz --markdown 20240513/s/solara-server/1.32.1-1.32.2/README.md --exclude *.pyd
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-enterprise]: executing diffoscope
+[2024-05-13 13:23:19] INFO root fetch - processPackages [solara-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_enterprise-1.32.1.tar.gz tmp/solara_enterprise-1.32.2.tar.gz --markdown 20240513/s/solara-enterprise/1.32.1-1.32.2/README.md --exclude *.pyd
+[2024-05-13 13:23:19] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-05-13 13:23:19] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240513/w/webknossos/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara]: executing diffoscope
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara-1.8.2.tar.gz tmp/solara-1.9.0.tar.gz --markdown 20240513/s/solara/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara-ui]: executing diffoscope
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solara_ui-1.32.1.tar.gz tmp/solara_ui-1.32.2.tar.gz --markdown 20240513/s/solara-ui/1.32.1-1.32.2/README.md --exclude *.pyd
+[2024-05-13 13:23:20] INFO root fetch - processPackages [Data-Checkmate]: Remove: archive file [/home/abi/fetcher/tmp/Data-Checkmate-1.3.tar.gz]
+[2024-05-13 13:23:20] INFO root fetch - processPackages [Data-Checkmate]: Remove: archive file [/home/abi/fetcher/tmp/Data-Checkmate-1.4.tar.gz]
+[2024-05-13 13:23:20] INFO root fetch - main [MainThread]: End processing [Data-Checkmate]: success
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/solara_enterprise-1.32.1.tar.gz]
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/solara_enterprise-1.32.2.tar.gz]
+[2024-05-13 13:23:20] INFO root fetch - main [MainThread]: End processing [solara-enterprise]: success
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara-server]: Remove: archive file [/home/abi/fetcher/tmp/solara_server-1.32.1.tar.gz]
+[2024-05-13 13:23:20] INFO root fetch - processPackages [solara-server]: Remove: archive file [/home/abi/fetcher/tmp/solara_server-1.32.2.tar.gz]
+[2024-05-13 13:23:20] INFO root fetch - main [MainThread]: End processing [solara-server]: success
+[2024-05-13 13:23:21] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-05-13 13:23:21] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-05-13 13:23:21] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-05-13 13:23:21] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-05-13 13:23:21] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-05-13 13:23:21] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-05-13 13:23:22] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.8.2.tar.gz]
+[2024-05-13 13:23:22] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.9.0.tar.gz]
+[2024-05-13 13:23:22] INFO root fetch - main [MainThread]: End processing [solara]: success
+[2024-05-13 13:23:22] INFO root fetch - processPackages [solara-ui]: Remove: archive file [/home/abi/fetcher/tmp/solara_ui-1.32.1.tar.gz]
+[2024-05-13 13:23:22] INFO root fetch - processPackages [solara-ui]: Remove: archive file [/home/abi/fetcher/tmp/solara_ui-1.32.2.tar.gz]
+[2024-05-13 13:23:22] INFO root fetch - main [MainThread]: End processing [solara-ui]: success
+[2024-05-13 13:23:22] INFO root fetch - main [MainThread]: Store serial: [23182016]
