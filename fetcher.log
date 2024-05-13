@@ -4440,3 +4440,35 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:25:27] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.2.tar.gz]
 [2024-05-13 05:25:27] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
 [2024-05-13 05:25:27] INFO root fetch - main [MainThread]: Store serial: [23176366]
+[2024-05-13 05:27:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176366]
+[2024-05-13 05:27:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 05:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rhineodontidaez
+[2024-05-13 05:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-tsugu
+[2024-05-13 05:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PypiInstruments
+[2024-05-13 05:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PypiInstruments
+[2024-05-13 05:27:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PypiInstruments
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 05:27:36] WARNING root fetch - processPackages [rhineodontidaez]: Skipping, unable to determine old version
+[2024-05-13 05:27:36] INFO root fetch - main [MainThread]: End processing [rhineodontidaez] error
+[2024-05-13 05:27:36] WARNING root fetch - processPackages [nonebot-tsugu]: Skipping, unable to determine old version
+[2024-05-13 05:27:36] INFO root fetch - main [MainThread]: End processing [nonebot-tsugu] error
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/82/5e/3a48bb350f6226ed47004bd91f8808a4b5fa7371e09cb6f14e70dc73f90e/PypiInstruments-1.0.6.tar.gz
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/82/5e/3a48bb350f6226ed47004bd91f8808a4b5fa7371e09cb6f14e70dc73f90e/PypiInstruments-1.0.6.tar.gz
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/82/5e/3a48bb350f6226ed47004bd91f8808a4b5fa7371e09cb6f14e70dc73f90e/PypiInstruments-1.0.6.tar.gz
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.6.tar.gz tmp/PypiInstruments-1.0.7.tar.gz --markdown 20240513/P/PypiInstruments/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.6.tar.gz tmp/PypiInstruments-1.0.7.tar.gz --markdown 20240513/P/PypiInstruments/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-13 05:27:36] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.6.tar.gz tmp/PypiInstruments-1.0.7.tar.gz --markdown 20240513/P/PypiInstruments/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 05:27:37] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.6.tar.gz]
+[2024-05-13 05:27:37] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.7.tar.gz]
+[2024-05-13 05:27:37] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-13 05:27:37] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-13 05:27:37] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-13 05:27:37] INFO root fetch - main [MainThread]: Store serial: [23176383]
