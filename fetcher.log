@@ -1266,3 +1266,23 @@
 [2024-05-13 02:01:16] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
 [2024-05-13 02:01:16] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
 [2024-05-13 02:01:16] INFO root fetch - main [MainThread]: Store serial: [23174942]
+[2024-05-13 02:03:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23174942]
+[2024-05-13 02:03:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 02:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fanhousez
+[2024-05-13 02:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2024-05-13 02:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metagene
+[2024-05-13 02:03:24] WARNING root fetch - processPackages [fanhousez]: Skipping, unable to determine old version
+[2024-05-13 02:03:24] INFO root fetch - main [MainThread]: End processing [fanhousez] error
+[2024-05-13 02:03:24] INFO root fetch - processPackages [metagene]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev50]
+[2024-05-13 02:03:24] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-13 02:03:25] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-13 02:03:25] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/61/dc/c3e4ba9b19f51b78f38414c5223aad141d261744856e31d0939e4733f2c1/metagene-0.0.0.dev50.tar.gz
+[2024-05-13 02:03:25] WARNING root fetch - processPackages [metagene]: Skipping package: exceeds size limit 17509978>=10485760
+[2024-05-13 02:03:25] INFO root fetch - main [MainThread]: End processing [metagene] error
+[2024-05-13 02:03:25] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-13 02:03:25] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-13 02:03:25] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240513/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-13 02:03:25] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-13 02:03:25] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-13 02:03:25] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-13 02:03:25] INFO root fetch - main [MainThread]: Store serial: [23174952]
