@@ -2561,3 +2561,27 @@
 [2024-05-13 03:35:39] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.5.tar.gz]
 [2024-05-13 03:35:39] INFO root fetch - main [MainThread]: End processing [parse-llm-code]: success
 [2024-05-13 03:35:39] INFO root fetch - main [MainThread]: Store serial: [23175555]
+[2024-05-13 03:37:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175555]
+[2024-05-13 03:37:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 03:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hurriednessz
+[2024-05-13 03:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webflask
+[2024-05-13 03:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: movoid-function
+[2024-05-13 03:37:48] INFO root fetch - processPackages [webflask]: New version: [0.5.5] Old Version: [0.5]
+[2024-05-13 03:37:48] INFO root fetch - processPackages [webflask]: Downloading https://files.pythonhosted.org/packages/8b/90/4bba665ee700fcccaa19d571e16144cb2526c54cfdae753bfa569a242c01/webflask-0.5.tar.gz
+[2024-05-13 03:37:48] INFO root fetch - processPackages [movoid-function]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-13 03:37:48] WARNING root fetch - processPackages [hurriednessz]: Skipping, unable to determine old version
+[2024-05-13 03:37:48] INFO root fetch - main [MainThread]: End processing [hurriednessz] error
+[2024-05-13 03:37:48] INFO root fetch - processPackages [movoid-function]: Downloading https://files.pythonhosted.org/packages/1f/92/de256c43582fb2520ac9aeacb110ae2593fde673236bbe19685c1e78e237/movoid_function-1.5.4.tar.gz
+[2024-05-13 03:37:49] INFO root fetch - processPackages [movoid-function]: Downloading https://files.pythonhosted.org/packages/ca/14/90d920bc020dbbc72be0c2408520aae8d45a7bc457e87009e2aff792aa28/movoid_function-1.5.5.tar.gz
+[2024-05-13 03:37:49] INFO root fetch - processPackages [webflask]: Downloading https://files.pythonhosted.org/packages/38/72/b868fba8766b8fdb7f90d3bb51c1492b34b5bf3183f02c1df783b4d209d4/webflask-0.5.5.tar.gz
+[2024-05-13 03:37:49] INFO root fetch - processPackages [movoid-function]: executing diffoscope
+[2024-05-13 03:37:49] INFO root fetch - processPackages [movoid-function]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movoid_function-1.5.4.tar.gz tmp/movoid_function-1.5.5.tar.gz --markdown 20240513/m/movoid-function/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-13 03:37:49] INFO root fetch - processPackages [webflask]: executing diffoscope
+[2024-05-13 03:37:49] INFO root fetch - processPackages [webflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webflask-0.5.tar.gz tmp/webflask-0.5.5.tar.gz --markdown 20240513/w/webflask/0.5-0.5.5/README.md --exclude *.pyd
+[2024-05-13 03:37:49] INFO root fetch - processPackages [movoid-function]: Remove: archive file [/home/abi/fetcher/tmp/movoid_function-1.5.4.tar.gz]
+[2024-05-13 03:37:49] INFO root fetch - processPackages [movoid-function]: Remove: archive file [/home/abi/fetcher/tmp/movoid_function-1.5.5.tar.gz]
+[2024-05-13 03:37:49] INFO root fetch - main [MainThread]: End processing [movoid-function]: success
+[2024-05-13 03:37:50] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.5.tar.gz]
+[2024-05-13 03:37:50] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.5.5.tar.gz]
+[2024-05-13 03:37:50] INFO root fetch - main [MainThread]: End processing [webflask]: success
+[2024-05-13 03:37:50] INFO root fetch - main [MainThread]: Store serial: [23175565]
