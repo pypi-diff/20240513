@@ -24559,3 +24559,125 @@ EOFError: EOF read where object expected
 [2024-05-13 17:21:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
 [2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
 [2024-05-13 17:21:15] INFO root fetch - main [MainThread]: Store serial: [23185647]
+[2024-05-13 17:23:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185647]
+[2024-05-13 17:23:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elody
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lions
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyVimeo
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backpack-exchange-sdk
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygameextra
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartlink-local
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polybranchz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unstract-adapters
+[2024-05-13 17:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb
+[2024-05-13 17:23:24] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [pygameextra]: New version: [2.0.0rc1] Old Version: [2.0.0b9]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [lions]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post497] Old Version: [3.1.0.post496]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [PyVimeo]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-13 17:23:24] WARNING root fetch - processPackages [polybranchz]: Skipping, unable to determine old version
+[2024-05-13 17:23:24] INFO root fetch - processPackages [polybranchz]: Start processing: nucliadb-dataset
+[2024-05-13 17:23:24] INFO root fetch - main [MainThread]: End processing [polybranchz] error
+[2024-05-13 17:23:24] INFO root fetch - processPackages [backpack-exchange-sdk]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/15/cb/24a5d9be0275983b579bf12118e5e33ef9078ad6bbf622a6335e2f1afdb4/pygameextra-2.0.0b9.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/95/ea/d7c2bd30fce5b3ebe15c683f2d2091e784d4cc1004bb9b4c5bf2e9ae2d05/lions-1.1.0.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/3c/7d/aaa70c253b73186dcdf5fec469c6bb1b78951a78923fe853e4be1937af73/nucliadb-3.1.0.post496-py3-none-any.whl
+[2024-05-13 17:23:24] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post497] Old Version: [3.1.0.post496]
+[2024-05-13 17:23:24] INFO root fetch - processPackages [PyVimeo]: Downloading https://files.pythonhosted.org/packages/7a/6f/ba14edae35818a1a5edec216e48a7506f88343118af0a5ccb26265723c0c/PyVimeo-1.1.0.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [backpack-exchange-sdk]: Downloading https://files.pythonhosted.org/packages/aa/12/e538312750db01a60e36ebc9454eb85aab75af0be9afa9d436c19261cf3c/backpack_exchange_sdk-0.3.1.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/12/81/dca8eed43377f54212c11441628717addb5d0981efeab857f76f63eb0ee7/nucliadb_dataset-3.1.0.post496-py3-none-any.whl
+[2024-05-13 17:23:24] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/2b/a7/fac6c4d7d9b52934a787a48365b843d0cd5354fdf2af0bc5e0c5d843bb55/pygameextra-2.0.0rc1.tar.gz
+[2024-05-13 17:23:24] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-13 17:23:24] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240513/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-13 17:23:25] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/05/5f/058501ea830d998774c2850c97bac42261a4155ad3591c73682d15537fd0/lions-1.1.1.tar.gz
+[2024-05-13 17:23:25] INFO root fetch - processPackages [backpack-exchange-sdk]: Downloading https://files.pythonhosted.org/packages/19/67/0809f00bef0cc0b269f5c75cb513145231a0aa4ffca13209db71dedba51b/backpack_exchange_sdk-0.3.2.tar.gz
+[2024-05-13 17:23:25] INFO root fetch - processPackages [PyVimeo]: Downloading https://files.pythonhosted.org/packages/a3/05/9cff2a4c213b261ee10b2ce7c1e0b8525b3a71b34477dc81172c8d31cf1d/pyvimeo-1.1.1.tar.gz
+[2024-05-13 17:23:25] INFO root fetch - processPackages [pygameextra]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [pygameextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameextra-2.0.0b9.tar.gz tmp/pygameextra-2.0.0rc1.tar.gz --markdown 20240513/p/pygameextra/2.0.0b9-2.0.0rc1/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e3/7c/0b30ff3b4380d5109da186295f4fce58183c1153949805496e7555b79cd4/nucliadb-3.1.0.post497-py3-none-any.whl
+[2024-05-13 17:23:25] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.1.0.tar.gz tmp/lions-1.1.1.tar.gz --markdown 20240513/l/lions/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-13 17:23:25] INFO root fetch - processPackages [backpack-exchange-sdk]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [backpack-exchange-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backpack_exchange_sdk-0.3.1.tar.gz tmp/backpack_exchange_sdk-0.3.2.tar.gz --markdown 20240513/b/backpack-exchange-sdk/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ca/0f/704726051524ea0851b09d61df3fa67d4b8799db9d088743d9b631b57211/nucliadb_dataset-3.1.0.post497-py3-none-any.whl
+[2024-05-13 17:23:25] INFO root fetch - processPackages [PyVimeo]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [PyVimeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyVimeo-1.1.0.tar.gz tmp/pyvimeo-1.1.1.tar.gz --markdown 20240513/P/PyVimeo/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240513/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-05-13 17:23:25] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post496-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post497-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-dataset/3.1.0.post496-3.1.0.post497/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post496-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post497-py3-none-any.whl.zip --markdown 20240513/n/nucliadb/3.1.0.post496-3.1.0.post497/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-05-13 17:23:25] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240513/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 17:23:25] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-13 17:23:25] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-13 17:23:25] INFO root fetch - processPackages [smartlink-local]: Start processing: tonpy-dev
+[2024-05-13 17:23:25] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.2rc1] Old Version: [0.0.0.4.2b1]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [backpack-exchange-sdk]: Remove: archive file [/home/abi/fetcher/tmp/backpack_exchange_sdk-0.3.1.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [backpack-exchange-sdk]: Remove: archive file [/home/abi/fetcher/tmp/backpack_exchange_sdk-0.3.2.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [backpack-exchange-sdk]: Start processing: nucliadb-models
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [backpack-exchange-sdk]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post497] Old Version: [3.1.0.post496]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/2e/93/4687d0046b21113c314c8eed842ed49703052b515237f2d4897197a549c6/tonpy_dev-0.0.0.4.2b1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-13 17:23:26] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.1.0.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.1.1.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [lions]: Start processing: crutil
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Start processing: nucliadb-protos
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-13 17:23:26] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 10973651>=10485760
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-13 17:23:26] WARNING root fetch - processPackages [crutil]: Skipping, unable to determine old version
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [crutil] error
+[2024-05-13 17:23:26] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b9.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0rc1.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post497] Old Version: [3.1.0.post496]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [PyVimeo]: Remove: archive file [/home/abi/fetcher/tmp/PyVimeo-1.1.0.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [PyVimeo]: Remove: archive file [/home/abi/fetcher/tmp/pyvimeo-1.1.1.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [PyVimeo]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/2c/94/4bca61f9a13452e7422c1ed9372632bfdde17ffbe53461dfd296ef556d8e/nucliadb_protos-3.1.0.post496-py3-none-any.whl
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/f3/2b/69e68c48f2d6701404e16ecee88e2071ff1074ab98f30ac1bf9fb16b08a4/nucliadb_models-3.1.0.post496-py3-none-any.whl
+[2024-05-13 17:23:26] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-05-13 17:23:26] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/d0/73/80121be4e36ef846aae700df7c526a418a8826a7453ee89cf79f66fec706/nucliadb_protos-3.1.0.post497-py3-none-any.whl
+[2024-05-13 17:23:26] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9f/67/9be4e9aff3bdb267f1be71a3a14f6de42f706d7887c8ed396eb6d89a52de/nucliadb_models-3.1.0.post497-py3-none-any.whl
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post496-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post497-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-models/3.1.0.post496-3.1.0.post497/README.md --exclude *.pyd
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post496-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post497-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-protos/3.1.0.post496-3.1.0.post497/README.md --exclude *.pyd
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-13 17:23:27] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-13 17:23:27] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 17:23:27] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-13 17:23:27] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-13 17:23:27] INFO root fetch - main [MainThread]: Store serial: [23185686]
