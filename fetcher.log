@@ -2453,3 +2453,18 @@
 [2024-05-13 03:28:54] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405120129.tar.gz]
 [2024-05-13 03:28:54] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-05-13 03:28:54] INFO root fetch - main [MainThread]: Store serial: [23175514]
+[2024-05-13 03:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175514]
+[2024-05-13 03:31:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediffx
+[2024-05-13 03:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hurleyhousez
+[2024-05-13 03:31:03] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405120129] Old Version: [1.0.0.dev202405110126]
+[2024-05-13 03:31:03] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/d3/85/c2c9cd26d937999f9b31cd85faaa7980a1bd71ed7820c51228dd865f44e3/onediffx-1.0.0.dev202405110126.tar.gz
+[2024-05-13 03:31:03] WARNING root fetch - processPackages [hurleyhousez]: Skipping, unable to determine old version
+[2024-05-13 03:31:03] INFO root fetch - main [MainThread]: End processing [hurleyhousez] error
+[2024-05-13 03:31:03] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/09/b6/c01c929315adc66bd072dd594605a4cd2105542d306bea1e36a7fcd84945/onediffx-1.0.0.dev202405120129.tar.gz
+[2024-05-13 03:31:03] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-13 03:31:03] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405110126.tar.gz tmp/onediffx-1.0.0.dev202405120129.tar.gz --markdown 20240513/o/onediffx/1.0.0.dev202405110126-1.0.0.dev202405120129/README.md --exclude *.pyd
+[2024-05-13 03:31:04] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405110126.tar.gz]
+[2024-05-13 03:31:04] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405120129.tar.gz]
+[2024-05-13 03:31:04] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-13 03:31:04] INFO root fetch - main [MainThread]: Store serial: [23175521]
