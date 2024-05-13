@@ -3104,3 +3104,45 @@
 [2024-05-13 04:14:44] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
 [2024-05-13 04:14:44] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
 [2024-05-13 04:14:44] INFO root fetch - main [MainThread]: Store serial: [23175789]
+[2024-05-13 04:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175789]
+[2024-05-13 04:16:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 04:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SQLConn
+[2024-05-13 04:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aportoisez
+[2024-05-13 04:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bazel-runfiles
+[2024-05-13 04:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skelescope
+[2024-05-13 04:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-tea-util
+[2024-05-13 04:16:53] WARNING root fetch - processPackages [aportoisez]: Skipping, unable to determine old version
+[2024-05-13 04:16:53] INFO root fetch - main [MainThread]: End processing [aportoisez] error
+[2024-05-13 04:16:53] INFO root fetch - processPackages [alibabacloud-tea-util]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 04:16:53] INFO root fetch - processPackages [bazel-runfiles]: New version: [0.32.0] Old Version: [0.31.0]
+[2024-05-13 04:16:53] INFO root fetch - processPackages [skelescope]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 04:16:53] INFO root fetch - processPackages [SQLConn]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 04:16:53] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/98/82/d8e4c0c34521b5a72a2a6568999e43d8ae3e6b5bfd00c29e6bb4cfe491e2/bazel_runfiles-0.31.0-py3-none-any.whl
+[2024-05-13 04:16:53] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/d0/1f/877f7cca7d7173cfa5b636709543b52b8ada1f4538f1967dde00dfe85a66/SQLConn-0.0.7.tar.gz
+[2024-05-13 04:16:53] INFO root fetch - processPackages [alibabacloud-tea-util]: Downloading https://files.pythonhosted.org/packages/e6/9b/d711a92ad72e5a260a8b911e0475c4afab063cfcc76e12e15d597d683f38/alibabacloud_tea_util-0.3.8.tar.gz
+[2024-05-13 04:16:53] INFO root fetch - processPackages [skelescope]: Downloading https://files.pythonhosted.org/packages/53/6f/0a7aafb1e70d1f2a8aff7319310723a6013e089f3fb8594af52b1f082cf8/skelescope-0.0.7.tar.gz
+[2024-05-13 04:16:53] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/87/8c/681230a743c60daa7a6b59cb9dac1dfe1866bb26dffc5783f1a1f35b40c9/SQLConn-0.0.8.tar.gz
+[2024-05-13 04:16:53] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/c8/6b/8028b689d0491b9a1df5176a2fa2d0b8c069d9fa4833b9aa3dc97b9ff24e/bazel_runfiles-0.32.0-py3-none-any.whl
+[2024-05-13 04:16:53] INFO root fetch - processPackages [alibabacloud-tea-util]: Downloading https://files.pythonhosted.org/packages/15/77/da9e7d132fcefd54b64cc03984428191062758e5b3b8d98ababc016b2109/alibabacloud_tea_util-0.3.9.tar.gz
+[2024-05-13 04:16:53] INFO root fetch - processPackages [SQLConn]: executing diffoscope
+[2024-05-13 04:16:53] INFO root fetch - processPackages [SQLConn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLConn-0.0.7.tar.gz tmp/SQLConn-0.0.8.tar.gz --markdown 20240513/S/SQLConn/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:16:53] INFO root fetch - processPackages [bazel-runfiles]: executing diffoscope
+[2024-05-13 04:16:53] INFO root fetch - processPackages [bazel-runfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazel_runfiles-0.31.0-py3-none-any.whl.zip tmp/bazel_runfiles-0.32.0-py3-none-any.whl.zip --markdown 20240513/b/bazel-runfiles/0.31.0-0.32.0/README.md --exclude *.pyd
+[2024-05-13 04:16:53] INFO root fetch - processPackages [alibabacloud-tea-util]: executing diffoscope
+[2024-05-13 04:16:53] INFO root fetch - processPackages [alibabacloud-tea-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tea_util-0.3.8.tar.gz tmp/alibabacloud_tea_util-0.3.9.tar.gz --markdown 20240513/a/alibabacloud-tea-util/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 04:16:54] INFO root fetch - processPackages [skelescope]: Downloading https://files.pythonhosted.org/packages/c0/b7/1f5c75b62c887019aecfe740c211a43b40e2576ceb8d1ee0358c99c3c020/skelescope-0.0.8.tar.gz
+[2024-05-13 04:16:54] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.31.0-py3-none-any.whl.zip]
+[2024-05-13 04:16:54] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.32.0-py3-none-any.whl.zip]
+[2024-05-13 04:16:54] INFO root fetch - main [MainThread]: End processing [bazel-runfiles]: success
+[2024-05-13 04:16:54] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.7.tar.gz]
+[2024-05-13 04:16:54] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.8.tar.gz]
+[2024-05-13 04:16:54] INFO root fetch - main [MainThread]: End processing [SQLConn]: success
+[2024-05-13 04:16:54] INFO root fetch - processPackages [alibabacloud-tea-util]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util-0.3.8.tar.gz]
+[2024-05-13 04:16:54] INFO root fetch - processPackages [alibabacloud-tea-util]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_util-0.3.9.tar.gz]
+[2024-05-13 04:16:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-tea-util]: success
+[2024-05-13 04:16:55] INFO root fetch - processPackages [skelescope]: executing diffoscope
+[2024-05-13 04:16:55] INFO root fetch - processPackages [skelescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelescope-0.0.7.tar.gz tmp/skelescope-0.0.8.tar.gz --markdown 20240513/s/skelescope/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 04:17:26] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.7.tar.gz]
+[2024-05-13 04:17:26] INFO root fetch - processPackages [skelescope]: Remove: archive file [/home/abi/fetcher/tmp/skelescope-0.0.8.tar.gz]
+[2024-05-13 04:17:26] INFO root fetch - main [MainThread]: End processing [skelescope]: success
+[2024-05-13 04:17:26] INFO root fetch - main [MainThread]: Store serial: [23175803]
