@@ -19349,3 +19349,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:48:20] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-13 14:48:20] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-13 14:48:20] INFO root fetch - main [MainThread]: Store serial: [23183152]
+[2024-05-13 14:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183152]
+[2024-05-13 14:50:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rHDPE-Data-Analysis
+[2024-05-13 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eomaps
+[2024-05-13 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: log21
+[2024-05-13 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: porchesz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-vector-stores-milvus
+[2024-05-13 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigfunctions
+[2024-05-13 14:50:30] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 14:50:30] INFO root fetch - processPackages [eomaps]: New version: [8.2] Old Version: [8.1.1]
+[2024-05-13 14:50:30] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/64/2f/e4ca007e5b9053d0c58a5668b4f6e8aca77929093696eeda71392758bac8/rHDPE_Data_Analysis-1.0.8.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:50:30] WARNING root fetch - processPackages [porchesz]: Skipping, unable to determine old version
+[2024-05-13 14:50:30] INFO root fetch - main [MainThread]: End processing [porchesz] error
+[2024-05-13 14:50:30] INFO root fetch - processPackages [log21]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-13 14:50:30] INFO root fetch - processPackages [bigfunctions]: New version: [0.5] Old Version: [0.4]
+[2024-05-13 14:50:30] INFO root fetch - processPackages [eomaps]: Downloading https://files.pythonhosted.org/packages/38/29/49b4900c3958273a3c9dc4c7a24c2c958758b4d81a8af53aaa475cf55b7d/eomaps-8.1.1.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/31/91/538faca933fa45324cbe838dc83f4ea9dfdc220260235ccc4ca946f97e15/log21-2.9.1.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/6b/55/8ca49f99f4d5d68cb92bdb8f75216a49db6840e9e848dbbd20ab2e86edfd/rHDPE_Data_Analysis-1.0.9.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: Downloading https://files.pythonhosted.org/packages/17/57/17d1207c9d817ba42b2332bd614267ca2c3e53f0b61c3f1d08b8f25c5164/llama_index_vector_stores_milvus-0.1.8.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/13/c0/17ac0612dd827b2413b53f1292fcd12c62cfd9ac3be4456f74dfd43a31e4/bigfunctions-0.4.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-13 14:50:30] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.8.tar.gz tmp/rHDPE_Data_Analysis-1.0.9.tar.gz --markdown 20240513/r/rHDPE-Data-Analysis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 14:50:30] INFO root fetch - processPackages [eomaps]: Downloading https://files.pythonhosted.org/packages/6e/c4/6b0404f629be378ab91604e364017c76020de645fb4aa483a12e29e45918/eomaps-8.2.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/cc/b4/cba9781abc9bddb78db24cd326404891f5859d8b40b358824ca7f4f25257/log21-2.9.2.tar.gz
+[2024-05-13 14:50:30] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: Downloading https://files.pythonhosted.org/packages/9f/89/d4d6e5ef04fe18cb37c5fb6bbe65ecb2d36bcc96afc9d35f05f5e0522bd8/llama_index_vector_stores_milvus-0.1.9.tar.gz
+[2024-05-13 14:50:31] INFO root fetch - processPackages [eomaps]: executing diffoscope
+[2024-05-13 14:50:31] INFO root fetch - processPackages [eomaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eomaps-8.1.1.tar.gz tmp/eomaps-8.2.tar.gz --markdown 20240513/e/eomaps/8.1.1-8.2/README.md --exclude *.pyd
+[2024-05-13 14:50:31] INFO root fetch - processPackages [bigfunctions]: Downloading https://files.pythonhosted.org/packages/5e/73/fc502c00fe35c1a4183a74e6c9b3875cb0313d47f3174fa5d8685a18a340/bigfunctions-0.5.tar.gz
+[2024-05-13 14:50:31] INFO root fetch - processPackages [log21]: executing diffoscope
+[2024-05-13 14:50:31] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.9.1.tar.gz tmp/log21-2.9.2.tar.gz --markdown 20240513/l/log21/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-13 14:50:31] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: executing diffoscope
+[2024-05-13 14:50:31] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_milvus-0.1.8.tar.gz tmp/llama_index_vector_stores_milvus-0.1.9.tar.gz --markdown 20240513/l/llama-index-vector-stores-milvus/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:50:31] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.8.tar.gz]
+[2024-05-13 14:50:31] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.9.tar.gz]
+[2024-05-13 14:50:31] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-13 14:50:31] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_milvus-0.1.8.tar.gz]
+[2024-05-13 14:50:31] INFO root fetch - processPackages [llama-index-vector-stores-milvus]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_milvus-0.1.9.tar.gz]
+[2024-05-13 14:50:31] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-milvus]: success
+[2024-05-13 14:50:31] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.9.1.tar.gz]
+[2024-05-13 14:50:31] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.9.2.tar.gz]
+[2024-05-13 14:50:31] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2024-05-13 14:50:32] INFO root fetch - processPackages [bigfunctions]: executing diffoscope
+[2024-05-13 14:50:32] INFO root fetch - processPackages [bigfunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigfunctions-0.4.tar.gz tmp/bigfunctions-0.5.tar.gz --markdown 20240513/b/bigfunctions/0.4-0.5/README.md --exclude *.pyd
+[2024-05-13 14:50:32] INFO root fetch - processPackages [eomaps]: Remove: archive file [/home/abi/fetcher/tmp/eomaps-8.1.1.tar.gz]
+[2024-05-13 14:50:32] INFO root fetch - processPackages [eomaps]: Remove: archive file [/home/abi/fetcher/tmp/eomaps-8.2.tar.gz]
+[2024-05-13 14:50:32] INFO root fetch - main [MainThread]: End processing [eomaps]: success
+[2024-05-13 14:50:32] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.4.tar.gz]
+[2024-05-13 14:50:32] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.5.tar.gz]
+[2024-05-13 14:50:32] INFO root fetch - main [MainThread]: End processing [bigfunctions]: success
+[2024-05-13 14:50:32] INFO root fetch - main [MainThread]: Store serial: [23183170]
