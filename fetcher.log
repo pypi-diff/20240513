@@ -6012,3 +6012,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:39:04] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz]
 [2024-05-13 06:39:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cis]: success
 [2024-05-13 06:39:04] INFO root fetch - main [MainThread]: Store serial: [23177097]
+[2024-05-13 06:41:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23177097]
+[2024-05-13 06:41:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 06:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cis
+[2024-05-13 06:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-file-router
+[2024-05-13 06:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-ckafka
+[2024-05-13 06:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profile-reaction-local
+[2024-05-13 06:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sogdianesez
+[2024-05-13 06:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bacpypes3
+[2024-05-13 06:41:13] INFO root fetch - processPackages [fastapi-file-router]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 06:41:13] INFO root fetch - processPackages [profile-reaction-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 06:41:13] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 06:41:13] INFO root fetch - processPackages [bacpypes3]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-05-13 06:41:13] WARNING root fetch - processPackages [sogdianesez]: Skipping, unable to determine old version
+[2024-05-13 06:41:13] INFO root fetch - main [MainThread]: End processing [sogdianesez] error
+[2024-05-13 06:41:13] INFO root fetch - processPackages [profile-reaction-local]: Downloading https://files.pythonhosted.org/packages/e7/03/e873145a0dd032cb116ba8e1bb51338942a46340367d018ee2f194742dae/profile-reaction-local-0.0.8.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/7f/38/401f3647b64b746fc71cb98ef74e1f8d8d7f6ac2da8abf4780a8eaa5031f/tencentcloud-sdk-python-cis-3.0.998.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 06:41:13] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/82/ba/cbf0b437f61ff24f29c7625722f4d1f283c5829b6588c40d6908a476e845/fastapi_file_router-0.1.0.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/64/00/cd20db2b3076bdb7dc5439a17fbd42703b969ae8bb465c1eccbe1eb9da43/bacpypes3-0.0.93.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [profile-reaction-local]: Downloading https://files.pythonhosted.org/packages/83/d2/fefa1caae8b1b1d352d7e8731ec030193d6037c915fd35a613dae61bce3f/profile-reaction-local-0.0.9.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/5c/a8/c9e431108bceb4b256fb62fab1e9e73096b8cfd37a5a4c8c2f642281d45a/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Downloading https://files.pythonhosted.org/packages/64/6c/a3525dfbcca82e86a0008715e2f0200fefe08e26d739222040b98717a28f/tencentcloud-sdk-python-cis-3.0.999.tar.gz
+[2024-05-13 06:41:13] INFO root fetch - processPackages [profile-reaction-local]: executing diffoscope
+[2024-05-13 06:41:13] INFO root fetch - processPackages [profile-reaction-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-reaction-local-0.0.8.tar.gz tmp/profile-reaction-local-0.0.9.tar.gz --markdown 20240513/p/profile-reaction-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: executing diffoscope
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cis-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-cis/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 06:41:14] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/29/68/b4fffeac7e3bdcc4e27ca190859e31d6bf4cb4a32a735f19da208e5e9711/fastapi_file_router-0.1.1.tar.gz
+[2024-05-13 06:41:14] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/2b/a4/da48b067d02b7fcb1c461a9d54bd12e9f0999fca52a2332cdc11f179704a/bacpypes3-0.0.94.tar.gz
+[2024-05-13 06:41:14] INFO root fetch - processPackages [fastapi-file-router]: executing diffoscope
+[2024-05-13 06:41:14] INFO root fetch - processPackages [fastapi-file-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_file_router-0.1.0.tar.gz tmp/fastapi_file_router-0.1.1.tar.gz --markdown 20240513/f/fastapi-file-router/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Downloading https://files.pythonhosted.org/packages/0e/31/976d1eb34715453dbfffb20889e590f1b80473d05f80d1683580df34b090/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: executing diffoscope
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-ckafka/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 06:41:14] INFO root fetch - processPackages [bacpypes3]: executing diffoscope
+[2024-05-13 06:41:14] INFO root fetch - processPackages [bacpypes3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacpypes3-0.0.93.tar.gz tmp/bacpypes3-0.0.94.tar.gz --markdown 20240513/b/bacpypes3/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-05-13 06:41:14] INFO root fetch - processPackages [profile-reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-reaction-local-0.0.8.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - processPackages [profile-reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-reaction-local-0.0.9.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - main [MainThread]: End processing [profile-reaction-local]: success
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.998.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cis]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cis-3.0.999.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cis]: success
+[2024-05-13 06:41:14] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.0.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.1.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - main [MainThread]: End processing [fastapi-file-router]: success
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ckafka-3.0.998.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - processPackages [tencentcloud-sdk-python-ckafka]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ckafka-3.0.999.tar.gz]
+[2024-05-13 06:41:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ckafka]: success
+[2024-05-13 06:41:15] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.93.tar.gz]
+[2024-05-13 06:41:15] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.94.tar.gz]
+[2024-05-13 06:41:15] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
+[2024-05-13 06:41:15] INFO root fetch - main [MainThread]: Store serial: [23177116]
