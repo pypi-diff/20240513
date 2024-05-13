@@ -11939,3 +11939,40 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:28:30] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc3.tar.gz]
 [2024-05-13 10:28:30] INFO root fetch - main [MainThread]: End processing [gpuhunt]: success
 [2024-05-13 10:28:30] INFO root fetch - main [MainThread]: Store serial: [23179942]
+[2024-05-13 10:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179942]
+[2024-05-13 10:30:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 10:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpuhunt
+[2024-05-13 10:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-taxi
+[2024-05-13 10:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pennylane-kq
+[2024-05-13 10:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pennylane-kq
+[2024-05-13 10:30:39] INFO root fetch - processPackages [llm-taxi]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-13 10:30:39] INFO root fetch - processPackages [gpuhunt]: New version: [0.0.9rc3] Old Version: [0.0.9rc2]
+[2024-05-13 10:30:39] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 10:30:39] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 10:30:39] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/34/16/55e82735631251920ca0a3d4bd3ea7f498433980fe10d7f36631170fde18/gpuhunt-0.0.9rc2.tar.gz
+[2024-05-13 10:30:39] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/e8/81/08b894061ff7177d31fc53c3417760a4c288bb311f02f43b23eb74371b58/llm_taxi-0.0.0.tar.gz
+[2024-05-13 10:30:39] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-13 10:30:39] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-13 10:30:40] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/2b/d7/8b344c81c8e253c8fe9370f1d34be369887e5d43dcb069efa917e3c73239/gpuhunt-0.0.9rc3.tar.gz
+[2024-05-13 10:30:40] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/6c/8d/c9af75bbd839666b152436b7ed7e19404a6479f2af0284655cab1d16b2db/llm_taxi-0.1.0.tar.gz
+[2024-05-13 10:30:40] INFO root fetch - processPackages [gpuhunt]: executing diffoscope
+[2024-05-13 10:30:40] INFO root fetch - processPackages [gpuhunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpuhunt-0.0.9rc2.tar.gz tmp/gpuhunt-0.0.9rc3.tar.gz --markdown 20240513/g/gpuhunt/0.0.9rc2-0.0.9rc3/README.md --exclude *.pyd
+[2024-05-13 10:30:40] INFO root fetch - processPackages [llm-taxi]: executing diffoscope
+[2024-05-13 10:30:40] INFO root fetch - processPackages [llm-taxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_taxi-0.0.0.tar.gz tmp/llm_taxi-0.1.0.tar.gz --markdown 20240513/l/llm-taxi/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-13 10:30:40] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-13 10:30:40] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-13 10:30:40] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-13 10:30:40] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240513/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 10:30:40] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-13 10:30:40] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240513/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 10:30:42] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.0.0.tar.gz]
+[2024-05-13 10:30:42] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.1.0.tar.gz]
+[2024-05-13 10:30:42] INFO root fetch - main [MainThread]: End processing [llm-taxi]: success
+[2024-05-13 10:30:42] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-13 10:30:42] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
+[2024-05-13 10:30:42] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-13 10:30:42] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-13 10:30:42] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc2.tar.gz]
+[2024-05-13 10:30:42] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc3.tar.gz]
+[2024-05-13 10:30:42] INFO root fetch - main [MainThread]: End processing [gpuhunt]: success
+[2024-05-13 10:30:42] INFO root fetch - main [MainThread]: Store serial: [23179954]
