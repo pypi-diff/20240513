@@ -21381,3 +21381,69 @@ EOFError: EOF read where object expected
 [2024-05-13 15:47:01] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.9.tar.gz]
 [2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kurogames]: success
 [2024-05-13 15:47:01] INFO root fetch - main [MainThread]: Store serial: [23183992]
+[2024-05-13 15:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183992]
+[2024-05-13 15:49:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Hakware-py
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib_version_group3
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwb4fp
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrippleapi
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cell-data-loader
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vulp
+[2024-05-13 15:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyBlindRL
+[2024-05-13 15:49:10] INFO root fetch - processPackages [Hakware-py]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.8] Old Version: [0.6.2.7]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [lib_version_group3]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [Hakware-py]: Downloading https://files.pythonhosted.org/packages/f1/57/ac182f03144f5830b5dd0d472b2463ec0b8ea154422917f0158354cfe59d/Hakware-py-0.6.0.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [pyrippleapi]: New version: [2024.5.1] Old Version: [2024.2.2]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/9c/52/0e3c04cb0b8563644ba0b95ef968e7362fab5ec050324d1836794e3cdb60/nwb4fp-0.6.2.7.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [lib_version_group3]: Downloading https://files.pythonhosted.org/packages/cd/d1/43d2b41c351f9c6eb1e1c92c09f3cc4f94f945c59df84b89bef05393ece1/lib_version_group3-0.1.2.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [cell-data-loader]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [vulp]: New version: [2.3.0] Old Version: [2.2.2]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.2rc97.post1] Old Version: [0.1.2rc96.post1]
+[2024-05-13 15:49:10] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/48/db/4db5c5c5e10b5ae5647da0b02ce7744e0a308b6ba1ebf47258b1d024de71/pyrippleapi-2024.2.2.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/93/83/a0ecec181f5894d9c61802c1543ce950288819c0806962520161214626a6/vulp-2.2.2.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [cell-data-loader]: Downloading https://files.pythonhosted.org/packages/63/c7/4369da70acdbfb9b42c290def9f24189365d0d592064b1c63e0bab5c782f/cell_data_loader-0.0.4.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/84/1d/0dbe22444712f9b1459a5249de9008f4d9283821ce488470798930e93661/pyblindrl-0.1.2rc96.post1.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/4c/f2/fc860961aa7a0548a822f2843b1e718441d135ef7256808112ca5f620741/nwb4fp-0.6.2.8.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [Hakware-py]: Downloading https://files.pythonhosted.org/packages/52/62/5d36da8dc6b91c3955221419269962c9523f8facbe99037928dcfb176ce9/Hakware-py-0.6.1.tar.gz
+[2024-05-13 15:49:10] INFO root fetch - processPackages [lib_version_group3]: Downloading https://files.pythonhosted.org/packages/3f/a9/40927fdd6280122dfbf90b47c72ddd67ef550d141346195a6721d9cff2ab/lib_version_group3-0.1.3.tar.gz
+[2024-05-13 15:49:11] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.7.tar.gz tmp/nwb4fp-0.6.2.8.tar.gz --markdown 20240513/n/nwb4fp/0.6.2.7-0.6.2.8/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [Hakware-py]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [Hakware-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hakware-py-0.6.0.tar.gz tmp/Hakware-py-0.6.1.tar.gz --markdown 20240513/H/Hakware-py/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/c7/66/811ce30caa258c995af6e8a47830fc8b96d79dfd458ff0459b7e96aded68/pyrippleapi-2024.5.1.tar.gz
+[2024-05-13 15:49:11] INFO root fetch - processPackages [lib_version_group3]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [lib_version_group3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_group3-0.1.2.tar.gz tmp/lib_version_group3-0.1.3.tar.gz --markdown 20240513/l/lib_version_group3/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [cell-data-loader]: Downloading https://files.pythonhosted.org/packages/c4/20/84f8eca29c31d1bd2be480661fadce8db3b17158a8b0fa9b093b7cdde95e/cell_data_loader-0.0.5.tar.gz
+[2024-05-13 15:49:11] INFO root fetch - processPackages [pyrippleapi]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [pyrippleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrippleapi-2024.2.2.tar.gz tmp/pyrippleapi-2024.5.1.tar.gz --markdown 20240513/p/pyrippleapi/2024.2.2-2024.5.1/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [vulp]: Downloading https://files.pythonhosted.org/packages/d1/05/6ce57553c9782a02c83078495884f33db87ce78cdaa87a74de3a762e13c1/vulp-2.3.0.tar.gz
+[2024-05-13 15:49:11] INFO root fetch - processPackages [cell-data-loader]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [cell-data-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cell_data_loader-0.0.4.tar.gz tmp/cell_data_loader-0.0.5.tar.gz --markdown 20240513/c/cell-data-loader/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/1a/9b/ce4fdea372da39ecd0e3fccf50d9f62d92a542171275c749ce2a33383a8c/pyblindrl-0.1.2rc97.post1.tar.gz
+[2024-05-13 15:49:11] INFO root fetch - processPackages [vulp]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [vulp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulp-2.2.2.tar.gz tmp/vulp-2.3.0.tar.gz --markdown 20240513/v/vulp/2.2.2-2.3.0/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-05-13 15:49:11] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.1.2rc96.post1.tar.gz tmp/pyblindrl-0.1.2rc97.post1.tar.gz --markdown 20240513/p/pyBlindRL/0.1.2rc96.post1-0.1.2rc97.post1/README.md --exclude *.pyd
+[2024-05-13 15:49:11] INFO root fetch - processPackages [Hakware-py]: Remove: archive file [/home/abi/fetcher/tmp/Hakware-py-0.6.0.tar.gz]
+[2024-05-13 15:49:11] INFO root fetch - processPackages [Hakware-py]: Remove: archive file [/home/abi/fetcher/tmp/Hakware-py-0.6.1.tar.gz]
+[2024-05-13 15:49:11] INFO root fetch - main [MainThread]: End processing [Hakware-py]: success
+[2024-05-13 15:49:12] INFO root fetch - processPackages [lib_version_group3]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_group3-0.1.2.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - processPackages [lib_version_group3]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_group3-0.1.3.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [lib_version_group3]: success
+[2024-05-13 15:49:12] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.7.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.8.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-13 15:49:12] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2024.2.2.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2024.5.1.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [pyrippleapi]: success
+[2024-05-13 15:49:12] INFO root fetch - processPackages [cell-data-loader]: Remove: archive file [/home/abi/fetcher/tmp/cell_data_loader-0.0.4.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - processPackages [cell-data-loader]: Remove: archive file [/home/abi/fetcher/tmp/cell_data_loader-0.0.5.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [cell-data-loader]: success
+[2024-05-13 15:49:12] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-2.2.2.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - processPackages [vulp]: Remove: archive file [/home/abi/fetcher/tmp/vulp-2.3.0.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [vulp]: success
+[2024-05-13 15:49:12] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc96.post1.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc97.post1.tar.gz]
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-05-13 15:49:12] INFO root fetch - main [MainThread]: Store serial: [23184012]
