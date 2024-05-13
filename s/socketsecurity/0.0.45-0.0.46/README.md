@@ -1,0 +1,124 @@
+# Comparing `tmp/socketsecurity-0.0.45.tar.gz` & `tmp/socketsecurity-0.0.46.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "socketsecurity-0.0.45.tar", last modified: Mon May 13 20:44:48 2024, max compression
++gzip compressed data, was "socketsecurity-0.0.46.tar", last modified: Mon May 13 20:46:11 2024, max compression
+```
+
+## Comparing `socketsecurity-0.0.45.tar` & `socketsecurity-0.0.46.tar`
+
+### file list
+
+```diff
+@@ -1,23 +1,23 @@
+-drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:44:48.381750 socketsecurity-0.0.45/
+--rw-r--r--   0 douglascoburn   (501) staff       (20)      157 2024-05-13 20:44:48.381532 socketsecurity-0.0.45/PKG-INFO
+--rw-r--r--   0 douglascoburn   (501) staff       (20)       38 2024-05-13 20:44:48.381790 socketsecurity-0.0.45/setup.cfg
+--rw-r--r--   0 douglascoburn   (501) staff       (20)      331 2024-05-13 20:44:37.000000 socketsecurity-0.0.45/setup.py
+-drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:44:48.362072 socketsecurity-0.0.45/socketsecurity/
+--rw-r--r--   0 douglascoburn   (501) staff       (20)       48 2024-05-13 20:30:22.000000 socketsecurity-0.0.45/socketsecurity/__init__.py
+-drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:44:48.381057 socketsecurity-0.0.45/socketsecurity/core/
+--rw-r--r--   0 douglascoburn   (501) staff       (20)    25969 2024-05-13 20:44:40.000000 socketsecurity-0.0.45/socketsecurity/core/__init__.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)     8665 2024-05-07 20:28:21.000000 socketsecurity-0.0.45/socketsecurity/core/classes.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)      626 2024-04-29 13:52:20.000000 socketsecurity-0.0.45/socketsecurity/core/exceptions.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)    11251 2024-05-08 17:15:58.000000 socketsecurity-0.0.45/socketsecurity/core/github.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)    11208 2024-05-05 18:30:58.000000 socketsecurity-0.0.45/socketsecurity/core/glitlab.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)    67547 2024-05-05 17:36:53.000000 socketsecurity-0.0.45/socketsecurity/core/issues.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20) 17442610 2024-05-06 19:45:31.000000 socketsecurity-0.0.45/socketsecurity/core/licenses.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)    11834 2024-05-08 17:02:42.000000 socketsecurity-0.0.45/socketsecurity/core/messages.py
+--rw-r--r--   0 douglascoburn   (501) staff       (20)     5434 2024-05-07 20:55:48.000000 socketsecurity-0.0.45/socketsecurity/socketcli.py
+-drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:44:48.381327 socketsecurity-0.0.45/socketsecurity.egg-info/
+--rw-r--r--   0 douglascoburn   (501) staff       (20)      157 2024-05-13 20:44:48.000000 socketsecurity-0.0.45/socketsecurity.egg-info/PKG-INFO
+--rw-r--r--   0 douglascoburn   (501) staff       (20)      545 2024-05-13 20:44:48.000000 socketsecurity-0.0.45/socketsecurity.egg-info/SOURCES.txt
+--rw-r--r--   0 douglascoburn   (501) staff       (20)        1 2024-05-13 20:44:48.000000 socketsecurity-0.0.45/socketsecurity.egg-info/dependency_links.txt
+--rw-r--r--   0 douglascoburn   (501) staff       (20)       60 2024-05-13 20:44:48.000000 socketsecurity-0.0.45/socketsecurity.egg-info/entry_points.txt
+--rw-r--r--   0 douglascoburn   (501) staff       (20)       38 2024-05-13 20:44:48.000000 socketsecurity-0.0.45/socketsecurity.egg-info/requires.txt
+--rw-r--r--   0 douglascoburn   (501) staff       (20)       15 2024-05-13 20:44:48.000000 socketsecurity-0.0.45/socketsecurity.egg-info/top_level.txt
++drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:46:11.727465 socketsecurity-0.0.46/
++-rw-r--r--   0 douglascoburn   (501) staff       (20)      157 2024-05-13 20:46:11.727256 socketsecurity-0.0.46/PKG-INFO
++-rw-r--r--   0 douglascoburn   (501) staff       (20)       38 2024-05-13 20:46:11.727499 socketsecurity-0.0.46/setup.cfg
++-rw-r--r--   0 douglascoburn   (501) staff       (20)      326 2024-05-13 20:46:07.000000 socketsecurity-0.0.46/setup.py
++drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:46:11.705086 socketsecurity-0.0.46/socketsecurity/
++-rw-r--r--   0 douglascoburn   (501) staff       (20)       48 2024-05-13 20:30:22.000000 socketsecurity-0.0.46/socketsecurity/__init__.py
++drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:46:11.723183 socketsecurity-0.0.46/socketsecurity/core/
++-rw-r--r--   0 douglascoburn   (501) staff       (20)    25969 2024-05-13 20:46:04.000000 socketsecurity-0.0.46/socketsecurity/core/__init__.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)     8665 2024-05-07 20:28:21.000000 socketsecurity-0.0.46/socketsecurity/core/classes.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)      626 2024-04-29 13:52:20.000000 socketsecurity-0.0.46/socketsecurity/core/exceptions.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)    11251 2024-05-08 17:15:58.000000 socketsecurity-0.0.46/socketsecurity/core/github.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)    11208 2024-05-05 18:30:58.000000 socketsecurity-0.0.46/socketsecurity/core/glitlab.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)    67547 2024-05-05 17:36:53.000000 socketsecurity-0.0.46/socketsecurity/core/issues.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20) 17442610 2024-05-06 19:45:31.000000 socketsecurity-0.0.46/socketsecurity/core/licenses.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)    11834 2024-05-08 17:02:42.000000 socketsecurity-0.0.46/socketsecurity/core/messages.py
++-rw-r--r--   0 douglascoburn   (501) staff       (20)     5434 2024-05-07 20:55:48.000000 socketsecurity-0.0.46/socketsecurity/socketcli.py
++drwxr-xr-x   0 douglascoburn   (501) staff       (20)        0 2024-05-13 20:46:11.726959 socketsecurity-0.0.46/socketsecurity.egg-info/
++-rw-r--r--   0 douglascoburn   (501) staff       (20)      157 2024-05-13 20:46:11.000000 socketsecurity-0.0.46/socketsecurity.egg-info/PKG-INFO
++-rw-r--r--   0 douglascoburn   (501) staff       (20)      545 2024-05-13 20:46:11.000000 socketsecurity-0.0.46/socketsecurity.egg-info/SOURCES.txt
++-rw-r--r--   0 douglascoburn   (501) staff       (20)        1 2024-05-13 20:46:11.000000 socketsecurity-0.0.46/socketsecurity.egg-info/dependency_links.txt
++-rw-r--r--   0 douglascoburn   (501) staff       (20)       55 2024-05-13 20:46:11.000000 socketsecurity-0.0.46/socketsecurity.egg-info/entry_points.txt
++-rw-r--r--   0 douglascoburn   (501) staff       (20)       38 2024-05-13 20:46:11.000000 socketsecurity-0.0.46/socketsecurity.egg-info/requires.txt
++-rw-r--r--   0 douglascoburn   (501) staff       (20)       15 2024-05-13 20:46:11.000000 socketsecurity-0.0.46/socketsecurity.egg-info/top_level.txt
+```
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/__init__.py` & `socketsecurity-0.0.46/socketsecurity/core/__init__.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -19,15 +19,15 @@
+ )
+ import platform
+ from glob import glob
+ import time
+ 
+ 
+ __author__ = 'socket.dev'
+-__version__ = '0.0.45'
++__version__ = '0.0.46'
+ __all__ = [
+     "Core",
+     "log"
+ ]
+ 
+ 
+ global encoded_key
+```
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/classes.py` & `socketsecurity-0.0.46/socketsecurity/core/classes.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/exceptions.py` & `socketsecurity-0.0.46/socketsecurity/core/exceptions.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/github.py` & `socketsecurity-0.0.46/socketsecurity/core/github.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/glitlab.py` & `socketsecurity-0.0.46/socketsecurity/core/glitlab.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/issues.py` & `socketsecurity-0.0.46/socketsecurity/core/issues.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/licenses.py` & `socketsecurity-0.0.46/socketsecurity/core/licenses.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/core/messages.py` & `socketsecurity-0.0.46/socketsecurity/core/messages.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity/socketcli.py` & `socketsecurity-0.0.46/socketsecurity/socketcli.py`
+
+ * *Files identical despite different names*
+
+### Comparing `socketsecurity-0.0.45/socketsecurity.egg-info/SOURCES.txt` & `socketsecurity-0.0.46/socketsecurity.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
