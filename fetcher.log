@@ -10510,3 +10510,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:26:44] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.6.tar.gz]
 [2024-05-13 09:26:44] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-13 09:26:44] INFO root fetch - main [MainThread]: Store serial: [23179297]
+[2024-05-13 09:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179297]
+[2024-05-13 09:28:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myBWS
+[2024-05-13 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wlkata-mirobot-Virtual
+[2024-05-13 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-plugin-dotenv
+[2024-05-13 09:28:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-date-picker
+[2024-05-13 09:28:53] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-13 09:28:53] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/4a/b7/047a42df4cd7cb70162e24d412f08f938d4a5ed61fe35fc2590cd471b52c/wlkata_mirobot_Virtual-1.1.2.tar.gz
+[2024-05-13 09:28:53] INFO root fetch - processPackages [myBWS]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-05-13 09:28:53] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-05-13 09:28:53] INFO root fetch - processPackages [streamlit-date-picker]: New version: [0.0.3] Old Version: [0.0.2b6]
+[2024-05-13 09:28:53] INFO root fetch - processPackages [myBWS]: Downloading https://files.pythonhosted.org/packages/60/2c/de533179c548e1c05ac120e4532f439b862dc5ef9a798276ca85a4fb66c4/myBWS-0.0.1.tar.gz
+[2024-05-13 09:28:53] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/11/5d/270f2f6fb07155ddc2a89808a49cedeb08aed184751019f6660e3744fc1a/poetry_plugin_dotenv-2.1.5.tar.gz
+[2024-05-13 09:28:53] INFO root fetch - processPackages [streamlit-date-picker]: Downloading https://files.pythonhosted.org/packages/60/a9/e23fb6278cbd094fbb5659ac0873740d8a5295e7692872cc1e2d22adeb3d/streamlit-date-picker-0.0.2b6.tar.gz
+[2024-05-13 09:28:53] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/5b/66/30ba57fb5482e6c0d55c8ab3e1fee97e753dd2d122a5be0f11060493966c/wlkata_mirobot_Virtual-1.1.3.tar.gz
+[2024-05-13 09:28:53] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-13 09:28:53] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.1.2.tar.gz tmp/wlkata_mirobot_Virtual-1.1.3.tar.gz --markdown 20240513/w/wlkata-mirobot-Virtual/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-13 09:28:54] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/e1/a7/d438a14bb2172df9e8e9dc7983c916f4fd0590103e52f951d58be8213097/poetry_plugin_dotenv-2.1.6.tar.gz
+[2024-05-13 09:28:54] INFO root fetch - processPackages [myBWS]: Downloading https://files.pythonhosted.org/packages/57/7e/1cbc4bfecd83e8b7765e9bd851cec6bb4064f100589739ae57c5ba628bd2/myBWS-0.1.1.tar.gz
+[2024-05-13 09:28:54] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2024-05-13 09:28:54] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-2.1.5.tar.gz tmp/poetry_plugin_dotenv-2.1.6.tar.gz --markdown 20240513/p/poetry-plugin-dotenv/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-05-13 09:28:54] INFO root fetch - processPackages [myBWS]: executing diffoscope
+[2024-05-13 09:28:54] INFO root fetch - processPackages [myBWS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myBWS-0.0.1.tar.gz tmp/myBWS-0.1.1.tar.gz --markdown 20240513/m/myBWS/0.0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-13 09:28:54] INFO root fetch - processPackages [streamlit-date-picker]: Downloading https://files.pythonhosted.org/packages/78/97/1d90033495aaca02b8d9c19fe661f0b43c75647219b5a8640f256ee5848f/streamlit_date_picker-0.0.3-py3-none-any.whl
+[2024-05-13 09:28:54] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.2.tar.gz]
+[2024-05-13 09:28:54] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.3.tar.gz]
+[2024-05-13 09:28:54] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-13 09:28:54] INFO root fetch - processPackages [streamlit-date-picker]: executing diffoscope
+[2024-05-13 09:28:54] INFO root fetch - processPackages [streamlit-date-picker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-date-picker-0.0.2b6.tar.gz tmp/streamlit_date_picker-0.0.3-py3-none-any.whl.zip --markdown 20240513/s/streamlit-date-picker/0.0.2b6-0.0.3/README.md --exclude *.pyd
+[2024-05-13 09:28:54] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-2.1.5.tar.gz]
+[2024-05-13 09:28:54] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-2.1.6.tar.gz]
+[2024-05-13 09:28:54] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2024-05-13 09:28:54] INFO root fetch - processPackages [myBWS]: Remove: archive file [/home/abi/fetcher/tmp/myBWS-0.0.1.tar.gz]
+[2024-05-13 09:28:54] INFO root fetch - processPackages [myBWS]: Remove: archive file [/home/abi/fetcher/tmp/myBWS-0.1.1.tar.gz]
+[2024-05-13 09:28:54] INFO root fetch - main [MainThread]: End processing [myBWS]: success
+[2024-05-13 09:28:57] INFO root fetch - processPackages [streamlit-date-picker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-date-picker-0.0.2b6.tar.gz]
+[2024-05-13 09:28:57] INFO root fetch - processPackages [streamlit-date-picker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_date_picker-0.0.3-py3-none-any.whl.zip]
+[2024-05-13 09:28:57] INFO root fetch - main [MainThread]: End processing [streamlit-date-picker]: success
+[2024-05-13 09:28:57] INFO root fetch - main [MainThread]: Store serial: [23179305]
