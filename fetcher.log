@@ -11741,3 +11741,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:17:28] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.0.tar.gz]
 [2024-05-13 10:17:28] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-05-13 10:17:28] INFO root fetch - main [MainThread]: Store serial: [23179811]
+[2024-05-13 10:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179811]
+[2024-05-13 10:19:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hoagyz
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ioxplugin
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunholo
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open2fa
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ioxplugin]: New version: [1.0.5] Old Version: [1.0.0]
+[2024-05-13 10:19:37] WARNING root fetch - processPackages [hoagyz]: Skipping, unable to determine old version
+[2024-05-13 10:19:37] INFO root fetch - main [MainThread]: End processing [hoagyz] error
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/95/8e/1ba749162a509e0f36a73f74b8ed5b09487632b2ea4bc493593ae4439713/ioxplugin-1.0.0.tar.gz
+[2024-05-13 10:19:37] INFO root fetch - processPackages [open2fa]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-13 10:19:37] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/65/66/a2f034065d3380dc02d1780005e70287668548a740aef8cc68353c274f2a/ioxplugin-1.0.5.tar.gz
+[2024-05-13 10:19:37] INFO root fetch - processPackages [open2fa]: Downloading https://files.pythonhosted.org/packages/86/fd/8fa9346d4b2d3e67a764153ff905896a25ef28b2b081d7f42131a2d3ef2a/open2fa-1.4.1-py3-none-any.whl
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ioxplugin]: executing diffoscope
+[2024-05-13 10:19:37] INFO root fetch - processPackages [ioxplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioxplugin-1.0.0.tar.gz tmp/ioxplugin-1.0.5.tar.gz --markdown 20240513/i/ioxplugin/1.0.0-1.0.5/README.md --exclude *.pyd
+[2024-05-13 10:19:37] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-13 10:19:37] INFO root fetch - processPackages [open2fa]: Downloading https://files.pythonhosted.org/packages/69/ad/97ad74a5f5dfcf779dc58c4037f6c47db3573d6b5bac2ff677e60e5da637/open2fa-1.4.2-py3-none-any.whl
+[2024-05-13 10:19:37] INFO root fetch - processPackages [open2fa]: executing diffoscope
+[2024-05-13 10:19:37] INFO root fetch - processPackages [open2fa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open2fa-1.4.1-py3-none-any.whl.zip tmp/open2fa-1.4.2-py3-none-any.whl.zip --markdown 20240513/o/open2fa/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-13 10:19:38] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-13 10:19:38] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-13 10:19:38] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240513/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-13 10:19:38] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.0.tar.gz]
+[2024-05-13 10:19:38] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.5.tar.gz]
+[2024-05-13 10:19:38] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
+[2024-05-13 10:19:38] INFO root fetch - processPackages [open2fa]: Remove: archive file [/home/abi/fetcher/tmp/open2fa-1.4.1-py3-none-any.whl.zip]
+[2024-05-13 10:19:38] INFO root fetch - processPackages [open2fa]: Remove: archive file [/home/abi/fetcher/tmp/open2fa-1.4.2-py3-none-any.whl.zip]
+[2024-05-13 10:19:38] INFO root fetch - main [MainThread]: End processing [open2fa]: success
+[2024-05-13 10:19:39] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-13 10:19:39] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-13 10:19:39] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-13 10:19:39] INFO root fetch - main [MainThread]: Store serial: [23179823]
