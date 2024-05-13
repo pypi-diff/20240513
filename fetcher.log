@@ -4425,3 +4425,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:23:17] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.9.tar.gz]
 [2024-05-13 05:23:17] INFO root fetch - main [MainThread]: End processing [sdr]: success
 [2024-05-13 05:23:17] INFO root fetch - main [MainThread]: Store serial: [23176359]
+[2024-05-13 05:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176359]
+[2024-05-13 05:25:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 05:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-semantic-release
+[2024-05-13 05:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rudderstockz
+[2024-05-13 05:25:25] WARNING root fetch - processPackages [rudderstockz]: Skipping, unable to determine old version
+[2024-05-13 05:25:25] INFO root fetch - main [MainThread]: End processing [rudderstockz] error
+[2024-05-13 05:25:26] INFO root fetch - processPackages [python-semantic-release]: New version: [9.7.2] Old Version: [9.7.1]
+[2024-05-13 05:25:26] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/5a/87/8b19104254af21c2b392afb6d07f6a86d0aaaefa48dd2dd8e1789fc48fa9/python_semantic_release-9.7.1.tar.gz
+[2024-05-13 05:25:26] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/10/e1/6c36cf953e670eed958258e4b8065591a33c61f5692f8134647d550017b7/python_semantic_release-9.7.2.tar.gz
+[2024-05-13 05:25:26] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2024-05-13 05:25:26] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_semantic_release-9.7.1.tar.gz tmp/python_semantic_release-9.7.2.tar.gz --markdown 20240513/p/python-semantic-release/9.7.1-9.7.2/README.md --exclude *.pyd
+[2024-05-13 05:25:27] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.1.tar.gz]
+[2024-05-13 05:25:27] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.2.tar.gz]
+[2024-05-13 05:25:27] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2024-05-13 05:25:27] INFO root fetch - main [MainThread]: Store serial: [23176366]
