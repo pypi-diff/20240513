@@ -18074,3 +18074,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:07:19] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.0.tar.gz]
 [2024-05-13 14:07:19] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-05-13 14:07:19] INFO root fetch - main [MainThread]: Store serial: [23182622]
+[2024-05-13 14:09:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182622]
+[2024-05-13 14:09:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danielutils
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: air-benchmark
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maleatesz
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dex-adaptors
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hat-event
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esiaccel
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inoopa_utils
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlrun
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-geojson
+[2024-05-13 14:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-hcloud
+[2024-05-13 14:09:28] INFO root fetch - processPackages [danielutils]: New version: [0.9.83] Old Version: [0.9.82]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-13 14:09:28] WARNING root fetch - processPackages [air-benchmark]: Skipping, unable to determine old version
+[2024-05-13 14:09:28] INFO root fetch - processPackages [air-benchmark]: Start processing: torcheval-nightly
+[2024-05-13 14:09:28] INFO root fetch - main [MainThread]: End processing [air-benchmark] error
+[2024-05-13 14:09:28] WARNING root fetch - processPackages [dex-adaptors]: Skipping, unable to determine old version
+[2024-05-13 14:09:28] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [dex-adaptors]: Start processing: SimpleDomControl
+[2024-05-13 14:09:28] WARNING root fetch - processPackages [maleatesz]: Skipping, unable to determine old version
+[2024-05-13 14:09:28] INFO root fetch - main [MainThread]: End processing [dex-adaptors] error
+[2024-05-13 14:09:28] INFO root fetch - main [MainThread]: End processing [maleatesz] error
+[2024-05-13 14:09:28] INFO root fetch - processPackages [esiaccel]: New version: [0.0.2.dev98] Old Version: [0.0.2.dev60]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [django-geojson]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [hat-event]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-13 14:09:28] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/ff/9c/1d87ff2fc19d6dda7328d0a02818ce9d75709b36ceee51cb6ca074c3a4cc/danielutils-0.9.82.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/98/c1/96a1c122528ea0121ecc29466d1a6b26c68b8a6036aae6bdb121ddcfdbff/torcheval_nightly-2024.5.8.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [SimpleDomControl]: New version: [0.4.8] Old Version: [0.4.6]
+[2024-05-13 14:09:28] INFO root fetch - processPackages [django-geojson]: Downloading https://files.pythonhosted.org/packages/ee/3e/9f2392aa20f2b8de5215ffc32fd9054c314ce6a73717d18135a2761b8b9f/django-geojson-4.0.0.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/45/ed/6cdf93dc49cc962884490d1534138100ca47fa328fe7e07c343791fcbfb0/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 14:09:28] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/9d/19/b48731c32a4c0cf77346d5d7de403d840ed4558d57fa93328b11e519a4fc/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-05-13 14:09:28] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/9b/fb/c773437aa291f64220a512ecad538bb91b52eb0969d44a8964f44d0a024a/simpledomcontrol-0.4.6.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-13 14:09:28] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/60/c3/da56bee236b598ba0c7ed2929a00a2cf4f41f79676194a22cd34a85b00eb/torcheval_nightly-2024.5.9.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-13 14:09:28] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240513/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-13 14:09:28] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/e4/4d/ddfd3106ea52d45d728773e33d208e717413c958396165dadb7f70126433/danielutils-0.9.83.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [django-geojson]: Downloading https://files.pythonhosted.org/packages/b9/65/9a3df3ecbc78d5d3f5de240d87d689466012a17690f624febb95178d776e/django_geojson-4.1.0.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [hat-event]: Downloading https://files.pythonhosted.org/packages/a0/d7/79bac7df4ea40ce103e71c7327ef4aa16465b3befdcaca7f9362bd88f2d0/hat_event-0.9.2-cp310.cp311.cp312-abi3-win_amd64.whl
+[2024-05-13 14:09:28] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-13 14:09:28] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval_nightly-2024.5.8.tar.gz tmp/torcheval_nightly-2024.5.9.tar.gz --markdown 20240513/t/torcheval-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-13 14:09:28] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2024-05-13 14:09:28] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.9.82.tar.gz tmp/danielutils-0.9.83.tar.gz --markdown 20240513/d/danielutils/0.9.82-0.9.83/README.md --exclude *.pyd
+[2024-05-13 14:09:28] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-13 14:09:28] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240513/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-13 14:09:28] INFO root fetch - processPackages [django-geojson]: executing diffoscope
+[2024-05-13 14:09:28] INFO root fetch - processPackages [django-geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-geojson-4.0.0.tar.gz tmp/django_geojson-4.1.0.tar.gz --markdown 20240513/d/django-geojson/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-13 14:09:28] INFO root fetch - processPackages [hat-event]: executing diffoscope
+[2024-05-13 14:09:28] INFO root fetch - processPackages [hat-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl.zip tmp/hat_event-0.9.2-cp310.cp311.cp312-abi3-win_amd64.whl.zip --markdown 20240513/h/hat-event/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-13 14:09:28] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-13 14:09:28] INFO root fetch - processPackages [SimpleDomControl]: Downloading https://files.pythonhosted.org/packages/58/13/fa958e772a1a7985e7a806807c0fff6fc49ee67ec322e00043ccd53521a7/simpledomcontrol-0.4.8.tar.gz
+[2024-05-13 14:09:29] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-13 14:09:29] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240513/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-13 14:09:29] INFO root fetch - processPackages [SimpleDomControl]: executing diffoscope
+[2024-05-13 14:09:29] INFO root fetch - processPackages [SimpleDomControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpledomcontrol-0.4.6.tar.gz tmp/simpledomcontrol-0.4.8.tar.gz --markdown 20240513/S/SimpleDomControl/0.4.6-0.4.8/README.md --exclude *.pyd
+[2024-05-13 14:09:29] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/93/f4/9beed7381169f21f10e10f09e5d57c93ea7dededbb225c62da2f27907b7d/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 14:09:29] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-13 14:09:29] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-13 14:09:29] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-13 14:09:29] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-05-13 14:09:29] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/e/esiaccel/0.0.2.dev60-0.0.2.dev98/README.md --exclude *.pyd
+[2024-05-13 14:09:29] INFO root fetch - processPackages [django-geojson]: Remove: archive file [/home/abi/fetcher/tmp/django-geojson-4.0.0.tar.gz]
+[2024-05-13 14:09:29] INFO root fetch - processPackages [django-geojson]: Remove: archive file [/home/abi/fetcher/tmp/django_geojson-4.1.0.tar.gz]
+[2024-05-13 14:09:29] INFO root fetch - main [MainThread]: End processing [django-geojson]: success
+[2024-05-13 14:09:30] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.1-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-05-13 14:09:30] INFO root fetch - processPackages [hat-event]: Remove: archive file [/home/abi/fetcher/tmp/hat_event-0.9.2-cp310.cp311.cp312-abi3-win_amd64.whl.zip]
+[2024-05-13 14:09:30] INFO root fetch - main [MainThread]: End processing [hat-event]: success
+[2024-05-13 14:09:30] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.8.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.9.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-13 14:09:30] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.82.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.83.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2024-05-13 14:09:30] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.4.6.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - processPackages [SimpleDomControl]: Remove: archive file [/home/abi/fetcher/tmp/simpledomcontrol-0.4.8.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - main [MainThread]: End processing [SimpleDomControl]: success
+[2024-05-13 14:09:30] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-13 14:09:30] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-13 14:09:31] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-13 14:09:31] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-13 14:09:31] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-13 14:09:35] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 14:09:35] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 14:09:35] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-05-13 14:09:35] INFO root fetch - main [MainThread]: Store serial: [23182666]
