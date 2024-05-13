@@ -15854,3 +15854,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:52:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.4.tar.gz]
 [2024-05-13 12:52:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-05-13 12:52:37] INFO root fetch - main [MainThread]: Store serial: [23181743]
+[2024-05-13 12:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181743]
+[2024-05-13 12:54:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 12:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdemtools
+[2024-05-13 12:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwb4fp
+[2024-05-13 12:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartboiler
+[2024-05-13 12:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf
+[2024-05-13 12:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deltachat-rpc-client
+[2024-05-13 12:54:46] INFO root fetch - processPackages [deltachat-rpc-client]: New version: [1.137.4] Old Version: [1.137.3]
+[2024-05-13 12:54:46] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.6] Old Version: [0.6.2.5]
+[2024-05-13 12:54:46] INFO root fetch - processPackages [smartboiler]: New version: [0.1.2] Old Version: [0.0.3.0.0.7.4]
+[2024-05-13 12:54:46] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-13 12:54:46] INFO root fetch - processPackages [pdemtools]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-13 12:54:46] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/ea/15/2c76219d3ba794aa24846ae64d1b07d4a6dd3c3c65e3b984d5d0a23a1eec/nwb4fp-0.6.2.5.tar.gz
+[2024-05-13 12:54:46] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-13 12:54:46] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-05-13 12:54:46] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/66/df/600caca6a6e17e0f879962b34ffe2b8db6e95ab438e1c9359dd18b4dc8d3/deltachat_rpc_client-1.137.3.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [pdemtools]: Downloading https://files.pythonhosted.org/packages/d1/0c/21ef53a48927397f89d85588a6486226a1e7c5b3262c640c5517738a4dcd/pdemtools-0.7.0.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/bd/72/59d4679112bf49b1a5ebf80acfe22a278d776c7b67736f60b079b07594a6/nwb4fp-0.6.2.6.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-13 12:54:47] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.5.tar.gz tmp/nwb4fp-0.6.2.6.tar.gz --markdown 20240513/n/nwb4fp/0.6.2.5-0.6.2.6/README.md --exclude *.pyd
+[2024-05-13 12:54:47] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/ea/ca1766bd130beda29ed061e428cc2c6912e8bd97c22e2ee7ecf14d816da6/smartboiler-0.1.2.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-13 12:54:47] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.4.tar.gz tmp/smartboiler-0.1.2.tar.gz --markdown 20240513/s/smartboiler/0.0.3.0.0.7.4-0.1.2/README.md --exclude *.pyd
+[2024-05-13 12:54:47] INFO root fetch - processPackages [deltachat-rpc-client]: Downloading https://files.pythonhosted.org/packages/f0/60/4fe5869e17b2999b01c4a8bcd22299d8e05e196d15d2f7c81453049250b7/deltachat_rpc_client-1.137.4.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-05-13 12:54:47] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240513/c/cdktf/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-13 12:54:47] INFO root fetch - processPackages [deltachat-rpc-client]: executing diffoscope
+[2024-05-13 12:54:47] INFO root fetch - processPackages [deltachat-rpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat_rpc_client-1.137.3.tar.gz tmp/deltachat_rpc_client-1.137.4.tar.gz --markdown 20240513/d/deltachat-rpc-client/1.137.3-1.137.4/README.md --exclude *.pyd
+[2024-05-13 12:54:47] INFO root fetch - processPackages [pdemtools]: Downloading https://files.pythonhosted.org/packages/f1/75/1ae5231b80ac235a1a82fd4ed2ec8829b216685612beae7eaf147f9a0137/pdemtools-0.8.0.tar.gz
+[2024-05-13 12:54:47] INFO root fetch - processPackages [pdemtools]: executing diffoscope
+[2024-05-13 12:54:47] INFO root fetch - processPackages [pdemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdemtools-0.7.0.tar.gz tmp/pdemtools-0.8.0.tar.gz --markdown 20240513/p/pdemtools/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-13 12:54:48] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.5.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.6.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-13 12:54:48] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.2.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-13 12:54:48] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-05-13 12:54:48] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.137.3.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - processPackages [deltachat-rpc-client]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_rpc_client-1.137.4.tar.gz]
+[2024-05-13 12:54:48] INFO root fetch - main [MainThread]: End processing [deltachat-rpc-client]: success
+[2024-05-13 12:54:50] INFO root fetch - processPackages [pdemtools]: Remove: archive file [/home/abi/fetcher/tmp/pdemtools-0.7.0.tar.gz]
+[2024-05-13 12:54:50] INFO root fetch - processPackages [pdemtools]: Remove: archive file [/home/abi/fetcher/tmp/pdemtools-0.8.0.tar.gz]
+[2024-05-13 12:54:50] INFO root fetch - main [MainThread]: End processing [pdemtools]: success
+[2024-05-13 12:54:50] INFO root fetch - main [MainThread]: Store serial: [23181759]
