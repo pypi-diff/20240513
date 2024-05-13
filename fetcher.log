@@ -9673,3 +9673,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:41:04] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-0.1.12.7.tar.gz]
 [2024-05-13 08:41:04] INFO root fetch - main [MainThread]: End processing [cytimes]: success
 [2024-05-13 08:41:04] INFO root fetch - main [MainThread]: Store serial: [23178895]
+[2024-05-13 08:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178895]
+[2024-05-13 08:43:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepgpu
+[2024-05-13 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: userinput-vrb
+[2024-05-13 08:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybandit
+[2024-05-13 08:43:13] INFO root fetch - processPackages [userinput-vrb]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-13 08:43:13] WARNING root fetch - processPackages [pybandit]: Skipping, unable to determine old version
+[2024-05-13 08:43:13] INFO root fetch - main [MainThread]: End processing [pybandit] error
+[2024-05-13 08:43:14] INFO root fetch - processPackages [userinput-vrb]: Downloading https://files.pythonhosted.org/packages/a8/cf/3c5ff60de077e51044df6b3f4bd267bf1f42007bb3ce8b1cbf324a114c8f/userinput_vrb-0.9.0.tar.gz
+[2024-05-13 08:43:14] INFO root fetch - processPackages [deepgpu]: New version: [2.1.0rc3.post6] Old Version: [2.1.0rc3.post5]
+[2024-05-13 08:43:14] INFO root fetch - processPackages [userinput-vrb]: Downloading https://files.pythonhosted.org/packages/99/90/3e0e9cef5b3e9a9ab18a7baf07bd73f59a6e85a9118c00076650dc40a4b0/userinput_vrb-1.0.0.tar.gz
+[2024-05-13 08:43:14] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/59/38/ef16f5ef50a574d037ffb8cb25239a1aa8eceecaafabea17dcc9d000108a/deepgpu-2.1.0rc3.post5.tar.gz
+[2024-05-13 08:43:14] INFO root fetch - processPackages [userinput-vrb]: executing diffoscope
+[2024-05-13 08:43:14] INFO root fetch - processPackages [userinput-vrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/userinput_vrb-0.9.0.tar.gz tmp/userinput_vrb-1.0.0.tar.gz --markdown 20240513/u/userinput-vrb/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-13 08:43:14] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/fe/97/89368d28f6b4d3dfd1f1135a0489f582b5a32233e9385fcbb1d3c314c40b/deepgpu-2.1.0rc3.post6.tar.gz
+[2024-05-13 08:43:14] INFO root fetch - processPackages [deepgpu]: executing diffoscope
+[2024-05-13 08:43:14] INFO root fetch - processPackages [deepgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgpu-2.1.0rc3.post5.tar.gz tmp/deepgpu-2.1.0rc3.post6.tar.gz --markdown 20240513/d/deepgpu/2.1.0rc3.post5-2.1.0rc3.post6/README.md --exclude *.pyd
+[2024-05-13 08:43:15] INFO root fetch - processPackages [userinput-vrb]: Remove: archive file [/home/abi/fetcher/tmp/userinput_vrb-0.9.0.tar.gz]
+[2024-05-13 08:43:15] INFO root fetch - processPackages [userinput-vrb]: Remove: archive file [/home/abi/fetcher/tmp/userinput_vrb-1.0.0.tar.gz]
+[2024-05-13 08:43:15] INFO root fetch - main [MainThread]: End processing [userinput-vrb]: success
+[2024-05-13 08:43:15] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.post5.tar.gz]
+[2024-05-13 08:43:15] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.post6.tar.gz]
+[2024-05-13 08:43:15] INFO root fetch - main [MainThread]: End processing [deepgpu]: success
+[2024-05-13 08:43:15] INFO root fetch - main [MainThread]: Store serial: [23178903]
