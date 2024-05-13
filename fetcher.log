@@ -15399,3 +15399,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:32:44] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.7.tar.gz]
 [2024-05-13 12:32:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kurogames]: success
 [2024-05-13 12:32:44] INFO root fetch - main [MainThread]: Store serial: [23181570]
+[2024-05-13 12:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181570]
+[2024-05-13 12:34:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 12:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2024-05-13 12:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sed-processor
+[2024-05-13 12:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FlowVisor
+[2024-05-13 12:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensafely
+[2024-05-13 12:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hombre-tools
+[2024-05-13 12:34:53] INFO root fetch - processPackages [FlowVisor]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-13 12:34:53] INFO root fetch - processPackages [hombre-tools]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-05-13 12:34:53] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/8b/27/8c138cb037698f50530759e2ffaf7e797003538c6535845afe412a0f67a3/FlowVisor-0.1.7.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [opensafely]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-13 12:34:53] INFO root fetch - processPackages [sed-processor]: New version: [0.1.9a7] Old Version: [0.1.9a6]
+[2024-05-13 12:34:53] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/de/c2/c7656232cc83e75f1391ecf03a88fde2f861c9e7b357cb932fb242042a8e/hombre_tools-0.1.19-py3-none-any.whl
+[2024-05-13 12:34:53] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-13 12:34:53] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/41/40/8404743bac96e403c4e3cdaa6569f9e35faa80b3fa32b600bcc81fc6aa42/opensafely-1.9.1.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/48/ab/390618dd544367ca15f23aa52fc87456b0ca2b90d81b4805252039010b14/sed_processor-0.1.9a6.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/23/f0/c6c09664e3d90b049a3da1d69de19b44e4cfc74922af83b039c086e7791a/FlowVisor-0.1.8.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-05-13 12:34:53] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.1.7.tar.gz tmp/FlowVisor-0.1.8.tar.gz --markdown 20240513/F/FlowVisor/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-13 12:34:53] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/fe/64/92eec77d31754007239131f78934b9221880d077cc64e997e747566f4a88/hombre_tools-0.1.20-py3-none-any.whl
+[2024-05-13 12:34:53] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/87/3d/46f05a827162ec042dcd0c89c2248c3ce48cb5f21a3dfa818abd146f2b85/sed_processor-0.1.9a7.tar.gz
+[2024-05-13 12:34:53] INFO root fetch - processPackages [opensafely]: Downloading https://files.pythonhosted.org/packages/64/67/da5b006e72fe5cc72d10eaf72c3aeb470703a1b5be1f749c06a3c315dc3e/opensafely-1.9.2.tar.gz
+[2024-05-13 12:34:54] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-13 12:34:54] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240513/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-13 12:34:54] INFO root fetch - processPackages [sed-processor]: executing diffoscope
+[2024-05-13 12:34:54] INFO root fetch - processPackages [sed-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sed_processor-0.1.9a6.tar.gz tmp/sed_processor-0.1.9a7.tar.gz --markdown 20240513/s/sed-processor/0.1.9a6-0.1.9a7/README.md --exclude *.pyd
+[2024-05-13 12:34:54] INFO root fetch - processPackages [opensafely]: executing diffoscope
+[2024-05-13 12:34:54] INFO root fetch - processPackages [opensafely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensafely-1.9.1.tar.gz tmp/opensafely-1.9.2.tar.gz --markdown 20240513/o/opensafely/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-13 12:34:54] INFO root fetch - processPackages [hombre-tools]: executing diffoscope
+[2024-05-13 12:34:54] INFO root fetch - processPackages [hombre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hombre_tools-0.1.19-py3-none-any.whl.zip tmp/hombre_tools-0.1.20-py3-none-any.whl.zip --markdown 20240513/h/hombre-tools/0.1.19-0.1.20/README.md --exclude *.pyd
+[2024-05-13 12:34:54] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.7.tar.gz]
+[2024-05-13 12:34:54] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.8.tar.gz]
+[2024-05-13 12:34:54] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-05-13 12:34:55] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-13 12:34:55] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-13 12:34:55] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-13 12:34:55] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a6.tar.gz]
+[2024-05-13 12:34:55] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a7.tar.gz]
+[2024-05-13 12:34:55] INFO root fetch - main [MainThread]: End processing [sed-processor]: success
+[2024-05-13 12:34:56] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.1.tar.gz]
+[2024-05-13 12:34:56] INFO root fetch - processPackages [opensafely]: Remove: archive file [/home/abi/fetcher/tmp/opensafely-1.9.2.tar.gz]
+[2024-05-13 12:34:56] INFO root fetch - main [MainThread]: End processing [opensafely]: success
+[2024-05-13 12:34:57] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.19-py3-none-any.whl.zip]
+[2024-05-13 12:34:57] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.20-py3-none-any.whl.zip]
+[2024-05-13 12:34:57] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
+[2024-05-13 12:34:57] INFO root fetch - main [MainThread]: Store serial: [23181582]
