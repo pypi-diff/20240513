@@ -24499,3 +24499,63 @@ EOFError: EOF read where object expected
 [2024-05-13 17:19:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-13 17:19:04] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-13 17:19:04] INFO root fetch - main [MainThread]: Store serial: [23185621]
+[2024-05-13 17:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185621]
+[2024-05-13 17:21:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linien-gui
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arched-emailer
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sovai
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-identity-sdk
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygameextra
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drite
+[2024-05-13 17:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PythonProjectBootstrapper
+[2024-05-13 17:21:13] INFO root fetch - processPackages [sovai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 17:21:13] INFO root fetch - processPackages [linien-gui]: New version: [2.0.1] Old Version: [2.0.0rc3]
+[2024-05-13 17:21:13] INFO root fetch - processPackages [pygameextra]: New version: [2.0.0rc1] Old Version: [2.0.0b9]
+[2024-05-13 17:21:13] INFO root fetch - processPackages [PythonProjectBootstrapper]: New version: [0.2.5] Old Version: [0.2.32]
+[2024-05-13 17:21:13] WARNING root fetch - processPackages [drite]: Skipping, unable to determine old version
+[2024-05-13 17:21:13] INFO root fetch - main [MainThread]: End processing [drite] error
+[2024-05-13 17:21:13] INFO root fetch - processPackages [sovai]: Downloading https://files.pythonhosted.org/packages/f0/e7/041cc33431080b2a0a698738d7ce1516b185b84ce7999d60d61397e63eab/sovai-0.1.1.tar.gz
+[2024-05-13 17:21:13] INFO root fetch - processPackages [arched-emailer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 17:21:13] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/15/cb/24a5d9be0275983b579bf12118e5e33ef9078ad6bbf622a6335e2f1afdb4/pygameextra-2.0.0b9.tar.gz
+[2024-05-13 17:21:13] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 17:21:13] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/0b/03/8a69e49e0953878f9542912e33e05aa90f37db1f2f773af276bb9c89afca/linien-gui-2.0.0rc3.tar.gz
+[2024-05-13 17:21:13] INFO root fetch - processPackages [PythonProjectBootstrapper]: Downloading https://files.pythonhosted.org/packages/a9/09/d162b1211d92ec4e1b79265256254bc10c036157bc3de9b7a8453d294306/PythonProjectBootstrapper-0.2.32-py3-none-any.whl
+[2024-05-13 17:21:14] INFO root fetch - processPackages [arched-emailer]: Downloading https://files.pythonhosted.org/packages/7d/fe/5ae701f92d849fc90a56add98ff658f1dd1f598a6e90497326e1f15e49c8/arched_emailer-0.2.8-py3-none-any.whl
+[2024-05-13 17:21:14] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-13 17:21:14] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/2b/a7/fac6c4d7d9b52934a787a48365b843d0cd5354fdf2af0bc5e0c5d843bb55/pygameextra-2.0.0rc1.tar.gz
+[2024-05-13 17:21:14] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/08/63/5e58b7e080d2a0905b31150b584d70a046a561e41eddc9332d2dcbb8e03c/linien_gui-2.0.1.tar.gz
+[2024-05-13 17:21:14] INFO root fetch - processPackages [sovai]: Downloading https://files.pythonhosted.org/packages/48/f2/28fc3029482a2a7cef045b9092857e804883e38dda514cbbee41303b6ec5/sovai-0.1.2.tar.gz
+[2024-05-13 17:21:14] INFO root fetch - processPackages [pygameextra]: executing diffoscope
+[2024-05-13 17:21:14] INFO root fetch - processPackages [pygameextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameextra-2.0.0b9.tar.gz tmp/pygameextra-2.0.0rc1.tar.gz --markdown 20240513/p/pygameextra/2.0.0b9-2.0.0rc1/README.md --exclude *.pyd
+[2024-05-13 17:21:14] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-13 17:21:14] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-2.0.0rc3.tar.gz tmp/linien_gui-2.0.1.tar.gz --markdown 20240513/l/linien-gui/2.0.0rc3-2.0.1/README.md --exclude *.pyd
+[2024-05-13 17:21:14] INFO root fetch - processPackages [sovai]: executing diffoscope
+[2024-05-13 17:21:14] INFO root fetch - processPackages [sovai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovai-0.1.1.tar.gz tmp/sovai-0.1.2.tar.gz --markdown 20240513/s/sovai/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 17:21:14] INFO root fetch - processPackages [PythonProjectBootstrapper]: Downloading https://files.pythonhosted.org/packages/da/76/aa84862e4442522d6d4961f0f61f18f8f0b84fceeb1497fb86419734853c/PythonProjectBootstrapper-0.2.5-py3-none-any.whl
+[2024-05-13 17:21:14] INFO root fetch - processPackages [arched-emailer]: Downloading https://files.pythonhosted.org/packages/9a/79/402e3c65dee3487bcdae55e09b52826e1cd2dc797d4fba7dc467946672e0/arched_emailer-0.2.9-py3-none-any.whl
+[2024-05-13 17:21:14] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-13 17:21:14] INFO root fetch - processPackages [PythonProjectBootstrapper]: executing diffoscope
+[2024-05-13 17:21:14] INFO root fetch - processPackages [PythonProjectBootstrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonProjectBootstrapper-0.2.32-py3-none-any.whl.zip tmp/PythonProjectBootstrapper-0.2.5-py3-none-any.whl.zip --markdown 20240513/P/PythonProjectBootstrapper/0.2.32-0.2.5/README.md --exclude *.pyd
+[2024-05-13 17:21:14] INFO root fetch - processPackages [arched-emailer]: executing diffoscope
+[2024-05-13 17:21:14] INFO root fetch - processPackages [arched-emailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arched_emailer-0.2.8-py3-none-any.whl.zip tmp/arched_emailer-0.2.9-py3-none-any.whl.zip --markdown 20240513/a/arched-emailer/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 17:21:14] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-13 17:21:14] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 17:21:15] INFO root fetch - processPackages [sovai]: Remove: archive file [/home/abi/fetcher/tmp/sovai-0.1.1.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - processPackages [sovai]: Remove: archive file [/home/abi/fetcher/tmp/sovai-0.1.2.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [sovai]: success
+[2024-05-13 17:21:15] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b9.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0rc1.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
+[2024-05-13 17:21:15] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-2.0.0rc3.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.1.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-13 17:21:15] INFO root fetch - processPackages [arched-emailer]: Remove: archive file [/home/abi/fetcher/tmp/arched_emailer-0.2.8-py3-none-any.whl.zip]
+[2024-05-13 17:21:15] INFO root fetch - processPackages [arched-emailer]: Remove: archive file [/home/abi/fetcher/tmp/arched_emailer-0.2.9-py3-none-any.whl.zip]
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [arched-emailer]: success
+[2024-05-13 17:21:15] INFO root fetch - processPackages [PythonProjectBootstrapper]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapper-0.2.32-py3-none-any.whl.zip]
+[2024-05-13 17:21:15] INFO root fetch - processPackages [PythonProjectBootstrapper]: Remove: archive file [/home/abi/fetcher/tmp/PythonProjectBootstrapper-0.2.5-py3-none-any.whl.zip]
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [PythonProjectBootstrapper]: success
+[2024-05-13 17:21:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-13 17:21:15] INFO root fetch - main [MainThread]: Store serial: [23185647]
