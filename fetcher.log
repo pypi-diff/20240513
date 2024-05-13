@@ -3042,3 +3042,33 @@
 [2024-05-13 04:10:21] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
 [2024-05-13 04:10:21] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
 [2024-05-13 04:10:21] INFO root fetch - main [MainThread]: Store serial: [23175765]
+[2024-05-13 04:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175765]
+[2024-05-13 04:12:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 04:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parse-llm-code
+[2024-05-13 04:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hakowan
+[2024-05-13 04:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iRe.py
+[2024-05-13 04:12:29] INFO root fetch - processPackages [parse-llm-code]: New version: [0.1.5] Old Version: [0.1.25]
+[2024-05-13 04:12:29] INFO root fetch - processPackages [iRe.py]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-13 04:12:29] INFO root fetch - processPackages [iRe.py]: Downloading https://files.pythonhosted.org/packages/66/54/15878db1fae5633e17132dca01f9dbd5826e311447d66becc497465851d4/iRe.py-0.0.1.tar.gz
+[2024-05-13 04:12:29] INFO root fetch - processPackages [hakowan]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-13 04:12:29] INFO root fetch - processPackages [parse-llm-code]: Downloading https://files.pythonhosted.org/packages/96/cb/5db6dc36e04727fdd32a6a9fa4c6b4757b0bf078cf7a5468d8fe416b10c7/parse_llm_code-0.1.25.tar.gz
+[2024-05-13 04:12:30] INFO root fetch - processPackages [hakowan]: Downloading https://files.pythonhosted.org/packages/96/09/1de905908948c4fd0b537b8a880623c9f3db778ff7d1ea16cf3e88a17a6c/hakowan-0.3.4-py3-none-any.whl
+[2024-05-13 04:12:30] INFO root fetch - processPackages [iRe.py]: Downloading https://files.pythonhosted.org/packages/98/1a/dec13d4e6946463f562c42f0d3bc345854f468fb69445dd5a349ce2fb915/iRe.py-0.1.0.tar.gz
+[2024-05-13 04:12:30] INFO root fetch - processPackages [parse-llm-code]: Downloading https://files.pythonhosted.org/packages/46/1f/88c3f6ca2ad61f0ec88608aba44764240db7f46e606fa92df7517d1e204b/parse_llm_code-0.1.5.tar.gz
+[2024-05-13 04:12:30] INFO root fetch - processPackages [iRe.py]: executing diffoscope
+[2024-05-13 04:12:30] INFO root fetch - processPackages [iRe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iRe.py-0.0.1.tar.gz tmp/iRe.py-0.1.0.tar.gz --markdown 20240513/i/iRe.py/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-13 04:12:30] INFO root fetch - processPackages [parse-llm-code]: executing diffoscope
+[2024-05-13 04:12:30] INFO root fetch - processPackages [parse-llm-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_llm_code-0.1.25.tar.gz tmp/parse_llm_code-0.1.5.tar.gz --markdown 20240513/p/parse-llm-code/0.1.25-0.1.5/README.md --exclude *.pyd
+[2024-05-13 04:12:30] INFO root fetch - processPackages [hakowan]: Downloading https://files.pythonhosted.org/packages/d2/b4/2f547df10dfdf0794d1ff8314865eceb6b72165ce19dfe5da599003c9cf3/hakowan-0.3.5-py3-none-any.whl
+[2024-05-13 04:12:30] INFO root fetch - processPackages [hakowan]: executing diffoscope
+[2024-05-13 04:12:30] INFO root fetch - processPackages [hakowan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakowan-0.3.4-py3-none-any.whl.zip tmp/hakowan-0.3.5-py3-none-any.whl.zip --markdown 20240513/h/hakowan/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-13 04:12:30] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.25.tar.gz]
+[2024-05-13 04:12:30] INFO root fetch - processPackages [iRe.py]: Remove: archive file [/home/abi/fetcher/tmp/iRe.py-0.0.1.tar.gz]
+[2024-05-13 04:12:30] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.5.tar.gz]
+[2024-05-13 04:12:30] INFO root fetch - processPackages [iRe.py]: Remove: archive file [/home/abi/fetcher/tmp/iRe.py-0.1.0.tar.gz]
+[2024-05-13 04:12:30] INFO root fetch - main [MainThread]: End processing [parse-llm-code]: success
+[2024-05-13 04:12:30] INFO root fetch - main [MainThread]: End processing [iRe.py]: success
+[2024-05-13 04:12:31] INFO root fetch - processPackages [hakowan]: Remove: archive file [/home/abi/fetcher/tmp/hakowan-0.3.4-py3-none-any.whl.zip]
+[2024-05-13 04:12:31] INFO root fetch - processPackages [hakowan]: Remove: archive file [/home/abi/fetcher/tmp/hakowan-0.3.5-py3-none-any.whl.zip]
+[2024-05-13 04:12:31] INFO root fetch - main [MainThread]: End processing [hakowan]: success
+[2024-05-13 04:12:31] INFO root fetch - main [MainThread]: Store serial: [23175773]
