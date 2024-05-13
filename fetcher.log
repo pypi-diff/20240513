@@ -10012,3 +10012,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:01:44] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
 [2024-05-13 09:01:44] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
 [2024-05-13 09:01:44] INFO root fetch - main [MainThread]: Store serial: [23179069]
+[2024-05-13 09:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179069]
+[2024-05-13 09:03:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 09:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paludrinz
+[2024-05-13 09:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Trapezoidal-Fuzzy-Number
+[2024-05-13 09:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2024-05-13 09:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poligrain
+[2024-05-13 09:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ownotp
+[2024-05-13 09:03:53] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-13 09:03:53] INFO root fetch - processPackages [poligrain]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 09:03:53] INFO root fetch - processPackages [ownotp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 09:03:53] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: New version: [1.2] Old Version: [1.1]
+[2024-05-13 09:03:53] WARNING root fetch - processPackages [paludrinz]: Skipping, unable to determine old version
+[2024-05-13 09:03:53] INFO root fetch - main [MainThread]: End processing [paludrinz] error
+[2024-05-13 09:03:53] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [poligrain]: Downloading https://files.pythonhosted.org/packages/0b/22/6daba2898c05d4c405b504c3a7312da45a7b31bd9f7964a69e33f0a991b1/poligrain-0.0.3.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [ownotp]: Downloading https://files.pythonhosted.org/packages/f9/45/e92ae110031e421b6b366379389567bed2b470513af3d8e97538d7941387/ownotp-0.1.0.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: Downloading https://files.pythonhosted.org/packages/54/43/c532a8bf0788fef68446cd522af3cd91cc81023aaba76928140cb51bbe82/trapezoidal_fuzzy_number-1.1.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-13 09:03:53] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240513/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-13 09:03:53] INFO root fetch - processPackages [ownotp]: Downloading https://files.pythonhosted.org/packages/0f/c1/e03f740bc2e1da4279523c61f7d557c62a01fc5459122209e029546af43b/ownotp-0.1.1.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [poligrain]: Downloading https://files.pythonhosted.org/packages/dc/9e/e87d00e6eb9899fe79a1979053761144531a2b63db8920e15ad90b86da09/poligrain-0.0.4.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: Downloading https://files.pythonhosted.org/packages/5c/c6/f5836731f3f9e71fa248e7000fe3a236252b4847603d8ed7438d581f86cc/trapezoidal_fuzzy_number-1.2.tar.gz
+[2024-05-13 09:03:53] INFO root fetch - processPackages [poligrain]: executing diffoscope
+[2024-05-13 09:03:53] INFO root fetch - processPackages [poligrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poligrain-0.0.3.tar.gz tmp/poligrain-0.0.4.tar.gz --markdown 20240513/p/poligrain/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 09:03:53] INFO root fetch - processPackages [ownotp]: executing diffoscope
+[2024-05-13 09:03:53] INFO root fetch - processPackages [ownotp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ownotp-0.1.0.tar.gz tmp/ownotp-0.1.1.tar.gz --markdown 20240513/o/ownotp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 09:03:53] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: executing diffoscope
+[2024-05-13 09:03:53] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trapezoidal_fuzzy_number-1.1.tar.gz tmp/trapezoidal_fuzzy_number-1.2.tar.gz --markdown 20240513/T/Trapezoidal-Fuzzy-Number/1.1-1.2/README.md --exclude *.pyd
+[2024-05-13 09:03:54] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: Remove: archive file [/home/abi/fetcher/tmp/trapezoidal_fuzzy_number-1.1.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - processPackages [Trapezoidal-Fuzzy-Number]: Remove: archive file [/home/abi/fetcher/tmp/trapezoidal_fuzzy_number-1.2.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - main [MainThread]: End processing [Trapezoidal-Fuzzy-Number]: success
+[2024-05-13 09:03:54] INFO root fetch - processPackages [poligrain]: Remove: archive file [/home/abi/fetcher/tmp/poligrain-0.0.3.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - processPackages [poligrain]: Remove: archive file [/home/abi/fetcher/tmp/poligrain-0.0.4.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - main [MainThread]: End processing [poligrain]: success
+[2024-05-13 09:03:54] INFO root fetch - processPackages [ownotp]: Remove: archive file [/home/abi/fetcher/tmp/ownotp-0.1.0.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - processPackages [ownotp]: Remove: archive file [/home/abi/fetcher/tmp/ownotp-0.1.1.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - main [MainThread]: End processing [ownotp]: success
+[2024-05-13 09:03:54] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-13 09:03:54] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-13 09:03:54] INFO root fetch - main [MainThread]: Store serial: [23179095]
