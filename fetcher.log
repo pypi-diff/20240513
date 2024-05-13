@@ -21321,3 +21321,63 @@ EOFError: EOF read where object expected
 [2024-05-13 15:44:49] INFO root fetch - processPackages [catalyst-sdwan-lab]: Remove: archive file [/home/abi/fetcher/tmp/catalyst_sdwan_lab-2.0.9.tar.gz]
 [2024-05-13 15:44:49] INFO root fetch - main [MainThread]: End processing [catalyst-sdwan-lab]: success
 [2024-05-13 15:44:49] INFO root fetch - main [MainThread]: Store serial: [23183968]
+[2024-05-13 15:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183968]
+[2024-05-13 15:46:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocoderz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessim
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartlink-local
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-kurogames
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kqcircuits
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpcflow-new2
+[2024-05-13 15:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gguf-connector
+[2024-05-13 15:46:59] INFO root fetch - processPackages [nonebot-plugin-kurogames]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 15:46:59] WARNING root fetch - processPackages [autocoderz]: Skipping, unable to determine old version
+[2024-05-13 15:46:59] INFO root fetch - main [MainThread]: End processing [autocoderz] error
+[2024-05-13 15:46:59] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a99] Old Version: [0.2.0a98]
+[2024-05-13 15:46:59] INFO root fetch - processPackages [vessim]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-13 15:46:59] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 15:46:59] INFO root fetch - processPackages [kqcircuits]: New version: [4.7.9] Old Version: [4.7.7]
+[2024-05-13 15:46:59] INFO root fetch - processPackages [gguf-connector]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-13 15:46:59] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/82/5b/6984c1054c9e9e23755579aaa22700cc853a60706fbcc5669dd44c836893/hpcflow_new2-0.2.0a98.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Downloading https://files.pythonhosted.org/packages/22/a6/a157e12db09b4ebb5281564fed0c11f28639b4ceac1e8a7da7cef02354a1/nonebot_plugin_kurogames-0.1.8.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/a1/ed/839fb6b85a7a5671adff0e932c12b36a57e9489f8e44ca854bde27727f93/kqcircuits-4.7.7.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [vessim]: Downloading https://files.pythonhosted.org/packages/75/e7/76b0068f486aa61504915db94bc082614a5be6bb5c625171f7c3883c1d31/vessim-0.5.1.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/4e/c2/08f2cd0b156a16296c2279074113989e3762b7ef1ae47820fc4326010569/gguf_connector-0.7.8.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/36/d0/5890c665787639f299c68be7a83fe303258a785667204f30810f0c319058/hpcflow_new2-0.2.0a99.tar.gz
+[2024-05-13 15:46:59] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/0f/66/e738dc55ec6ab57487e99a84596a44bea1df97654810360b0bca99c00feb/kqcircuits-4.7.9.tar.gz
+[2024-05-13 15:47:00] INFO root fetch - processPackages [vessim]: Downloading https://files.pythonhosted.org/packages/6a/38/6f33b5c698fe5e1ce80ecc3cd0cf0118a1b07b93e666bcdbc361fda5def1/vessim-0.6.0.tar.gz
+[2024-05-13 15:47:00] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/c5/93/ebcc584e4eb599309af430b8b5eaa29ee085f7ae6cfb7134ca4789e27778/gguf_connector-0.7.9.tar.gz
+[2024-05-13 15:47:00] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-13 15:47:00] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240513/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 15:47:00] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2024-05-13 15:47:00] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.7.7.tar.gz tmp/kqcircuits-4.7.9.tar.gz --markdown 20240513/k/kqcircuits/4.7.7-4.7.9/README.md --exclude *.pyd
+[2024-05-13 15:47:00] INFO root fetch - processPackages [vessim]: executing diffoscope
+[2024-05-13 15:47:00] INFO root fetch - processPackages [vessim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessim-0.5.1.tar.gz tmp/vessim-0.6.0.tar.gz --markdown 20240513/v/vessim/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-13 15:47:00] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Downloading https://files.pythonhosted.org/packages/ba/52/24b51a6eef98c2b8efa2d68e2a298e9f4b457dffc407e4b3b2f5c0fee77a/nonebot_plugin_kurogames-0.1.9.tar.gz
+[2024-05-13 15:47:00] INFO root fetch - processPackages [gguf-connector]: executing diffoscope
+[2024-05-13 15:47:00] INFO root fetch - processPackages [gguf-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gguf_connector-0.7.8.tar.gz tmp/gguf_connector-0.7.9.tar.gz --markdown 20240513/g/gguf-connector/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-13 15:47:00] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2024-05-13 15:47:00] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a98.tar.gz tmp/hpcflow_new2-0.2.0a99.tar.gz --markdown 20240513/h/hpcflow-new2/0.2.0a98-0.2.0a99/README.md --exclude *.pyd
+[2024-05-13 15:47:00] INFO root fetch - processPackages [nonebot-plugin-kurogames]: executing diffoscope
+[2024-05-13 15:47:00] INFO root fetch - processPackages [nonebot-plugin-kurogames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kurogames-0.1.8.tar.gz tmp/nonebot_plugin_kurogames-0.1.9.tar.gz --markdown 20240513/n/nonebot-plugin-kurogames/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 15:47:01] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.5.1.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - processPackages [vessim]: Remove: archive file [/home/abi/fetcher/tmp/vessim-0.6.0.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [vessim]: success
+[2024-05-13 15:47:01] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.8.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.9.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [gguf-connector]: success
+[2024-05-13 15:47:01] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-13 15:47:01] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a98.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a99.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2024-05-13 15:47:01] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.7.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - processPackages [kqcircuits]: Remove: archive file [/home/abi/fetcher/tmp/kqcircuits-4.7.9.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2024-05-13 15:47:01] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.8.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - processPackages [nonebot-plugin-kurogames]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kurogames-0.1.9.tar.gz]
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kurogames]: success
+[2024-05-13 15:47:01] INFO root fetch - main [MainThread]: Store serial: [23183992]
