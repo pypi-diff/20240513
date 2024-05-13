@@ -8269,3 +8269,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:34:38] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-13 07:34:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-type]: success
 [2024-05-13 07:34:38] INFO root fetch - main [MainThread]: Store serial: [23178069]
+[2024-05-13 07:36:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178069]
+[2024-05-13 07:36:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 07:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-type
+[2024-05-13 07:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-project-type
+[2024-05-13 07:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2024-05-13 07:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anemone-daisy-maker
+[2024-05-13 07:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crewai
+[2024-05-13 07:36:47] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.55.7] Old Version: [1.55.6]
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-13 07:36:47] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/3d/4e/f3844877f86ad7b28bf08cb570e665ac2524031afae03e82f75e455e71aa/anemone_daisy_maker-1.55.6.tar.gz
+[2024-05-13 07:36:47] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/f0/65/ff1214eba3331c19d40135c4e2a9307711b02a30403f2a817a8b89b6dce1/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/f0/65/ff1214eba3331c19d40135c4e2a9307711b02a30403f2a817a8b89b6dce1/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 07:36:47] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/a6/28/5fc03b3acf7258c5fbd045277e6233d557438185c9fef2e6290be892fe51/anemone_daisy_maker-1.55.7.tar.gz
+[2024-05-13 07:36:47] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/81/1a/62997214c6b2f24c2fdd5cf1d395c176e0129cf4a2128af9d51b27565e92/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-13 07:36:47] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240512] Old Version: [2.17.0.dev20240505]
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/81/1a/62997214c6b2f24c2fdd5cf1d395c176e0129cf4a2128af9d51b27565e92/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-13 07:36:47] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-13 07:36:47] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.55.6.tar.gz tmp/anemone_daisy_maker-1.55.7.tar.gz --markdown 20240513/a/anemone-daisy-maker/1.55.6-1.55.7/README.md --exclude *.pyd
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: executing diffoscope
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-project-type/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: executing diffoscope
+[2024-05-13 07:36:47] INFO root fetch - processPackages [odoo-addon-project-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-project-type/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-13 07:36:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/43/b6/c0cc82b6259a3402e74337d3aa8e623b2e2c60e2437d7aacb212ecc4d5e4/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-13 07:36:47] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-13 07:36:47] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-13 07:36:47] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240513/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-13 07:36:48] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/35/66/ae97b5e6d14edb36b071175de69669f3dd9b0f249275fb3cc9188fbf2073/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-13 07:36:48] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.55.6.tar.gz]
+[2024-05-13 07:36:48] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.55.7.tar.gz]
+[2024-05-13 07:36:48] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-13 07:36:48] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 07:36:48] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-13 07:36:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-type]: success
+[2024-05-13 07:36:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-type]: success
+[2024-05-13 07:36:48] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-13 07:36:48] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-13 07:36:48] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-13 07:36:48] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-13 07:36:48] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240513/t/tflite-runtime-nightly/2.17.0.dev20240505-2.17.0.dev20240512/README.md --exclude *.pyd
+[2024-05-13 07:37:10] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-13 07:37:10] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-13 07:37:10] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-13 07:37:10] INFO root fetch - main [MainThread]: Store serial: [23178093]
