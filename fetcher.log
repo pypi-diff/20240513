@@ -3993,3 +3993,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:01:26] INFO root fetch - processPackages [pyodps]: Remove: archive file [/home/abi/fetcher/tmp/pyodps-0.9.5.tar.gz]
 [2024-05-13 05:01:26] INFO root fetch - main [MainThread]: End processing [pyodps]: success
 [2024-05-13 05:01:26] INFO root fetch - main [MainThread]: Store serial: [23176185]
+[2024-05-13 05:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176185]
+[2024-05-13 05:03:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 05:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-reconcile-oca
+[2024-05-13 05:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ImputeHiFI
+[2024-05-13 05:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-05-13 05:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signatureanalyzer
+[2024-05-13 05:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manteia-qa-pylinac
+[2024-05-13 05:03:35] INFO root fetch - processPackages [manteia-qa-pylinac]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-13 05:03:35] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-13 05:03:35] WARNING root fetch - processPackages [ImputeHiFI]: Skipping, unable to determine old version
+[2024-05-13 05:03:35] INFO root fetch - main [MainThread]: End processing [ImputeHiFI] error
+[2024-05-13 05:03:35] INFO root fetch - processPackages [signatureanalyzer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 05:03:35] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-05-13 05:03:35] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/d6/85/5b51904e4f7e3740920c2b3dc997e185be3233520a7eed5d35951d45bf99/manteia_qa_pylinac-1.2.1.tar.gz
+[2024-05-13 05:03:35] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-13 05:03:35] INFO root fetch - processPackages [signatureanalyzer]: Downloading https://files.pythonhosted.org/packages/61/66/ca2ba430a5b5a22bd17ca2e9343bdee16933bd3007ec955d728b223fa091/signatureanalyzer-0.0.8.tar.gz
+[2024-05-13 05:03:35] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/22/63/013e0fe2e6d3b20e771dc9b1d4387cde117d7359733e7f4ed88ef2f4afea/odoo_addon_account_reconcile_oca-17.0.1.0.1-py3-none-any.whl
+[2024-05-13 05:03:35] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/5d/79/eac3eb6bd9ffe731ee342f4a9c3acfbf64121bb9dfb86471937ed2939d05/manteia_qa_pylinac-1.2.2.tar.gz
+[2024-05-13 05:03:35] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-13 05:03:35] INFO root fetch - processPackages [manteia-qa-pylinac]: executing diffoscope
+[2024-05-13 05:03:35] INFO root fetch - processPackages [manteia-qa-pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manteia_qa_pylinac-1.2.1.tar.gz tmp/manteia_qa_pylinac-1.2.2.tar.gz --markdown 20240513/m/manteia-qa-pylinac/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-13 05:03:35] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-13 05:03:35] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240513/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-13 05:03:35] INFO root fetch - processPackages [signatureanalyzer]: Downloading https://files.pythonhosted.org/packages/44/77/285bbc1fa3e34d9e685f58f60122888e6582965c1c837772cbd0e7b0828e/signatureanalyzer-0.0.9.tar.gz
+[2024-05-13 05:03:35] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/ec/a7/75561acb27a5ebc8d7a450fc0740ad19188001a2549c0ca8fa76246f9c81/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-13 05:03:35] INFO root fetch - processPackages [signatureanalyzer]: executing diffoscope
+[2024-05-13 05:03:35] INFO root fetch - processPackages [signatureanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signatureanalyzer-0.0.8.tar.gz tmp/signatureanalyzer-0.0.9.tar.gz --markdown 20240513/s/signatureanalyzer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 05:03:35] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-05-13 05:03:35] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-account-reconcile-oca/17.0.1.0.1-17.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-13 05:03:36] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.1.tar.gz]
+[2024-05-13 05:03:36] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.2.tar.gz]
+[2024-05-13 05:03:36] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac]: success
+[2024-05-13 05:03:36] INFO root fetch - processPackages [signatureanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/signatureanalyzer-0.0.8.tar.gz]
+[2024-05-13 05:03:36] INFO root fetch - processPackages [signatureanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/signatureanalyzer-0.0.9.tar.gz]
+[2024-05-13 05:03:36] INFO root fetch - main [MainThread]: End processing [signatureanalyzer]: success
+[2024-05-13 05:03:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-13 05:03:36] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-13 05:03:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-05-13 05:03:38] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-13 05:03:38] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-13 05:03:38] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-13 05:03:38] INFO root fetch - main [MainThread]: Store serial: [23176196]
