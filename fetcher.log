@@ -13441,3 +13441,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:20:38] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.9.0.tar.gz]
 [2024-05-13 11:20:38] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
 [2024-05-13 11:20:38] INFO root fetch - main [MainThread]: Store serial: [23180771]
+[2024-05-13 11:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180771]
+[2024-05-13 11:22:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 11:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vdk-trino
+[2024-05-13 11:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mobio-mail-client-sdk
+[2024-05-13 11:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aparat-crawler
+[2024-05-13 11:22:47] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.9.2] Old Version: [0.9.1.9.1]
+[2024-05-13 11:22:47] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/c5/39/223c9502385a2a9d17b54ad0ea469de4c8876be20ac55d196638a0fcc14d/aparat_crawler-0.9.1.9.1.tar.gz
+[2024-05-13 11:22:47] INFO root fetch - processPackages [mobio-mail-client-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-13 11:22:47] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2024-05-13 11:22:47] INFO root fetch - processPackages [mobio-mail-client-sdk]: Downloading https://files.pythonhosted.org/packages/96/82/b6c5c6a3f4367bbda29f8cd08db3c54e73bb3b7d0297a678e500be50569d/mobio-mail-client-sdk-0.1.6.tar.gz
+[2024-05-13 11:22:47] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2024-05-13 11:22:47] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/0f/e4/763ca6f8678e2176794a4341726d606302c384f443247e778f46ad07d0ec/aparat_crawler-0.9.1.9.2.tar.gz
+[2024-05-13 11:22:47] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 11:22:47] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.9.1.tar.gz tmp/aparat_crawler-0.9.1.9.2.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.9.1-0.9.1.9.2/README.md --exclude *.pyd
+[2024-05-13 11:22:47] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2024-05-13 11:22:47] INFO root fetch - processPackages [mobio-mail-client-sdk]: Downloading https://files.pythonhosted.org/packages/54/1d/c1730069f9ac3a09980f7ab1a8bda3d891beb4da0ecc92f1e2a5c5559066/mobio_mail_client_sdk-0.1.7.tar.gz
+[2024-05-13 11:22:47] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2024-05-13 11:22:47] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20240513/v/vdk-trino/0.4.944393829-0.4.948436673/README.md --exclude *.pyd
+[2024-05-13 11:22:47] INFO root fetch - processPackages [mobio-mail-client-sdk]: executing diffoscope
+[2024-05-13 11:22:47] INFO root fetch - processPackages [mobio-mail-client-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-mail-client-sdk-0.1.6.tar.gz tmp/mobio_mail_client_sdk-0.1.7.tar.gz --markdown 20240513/m/mobio-mail-client-sdk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-13 11:22:48] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.9.1.tar.gz]
+[2024-05-13 11:22:48] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.9.2.tar.gz]
+[2024-05-13 11:22:48] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 11:22:48] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2024-05-13 11:22:48] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2024-05-13 11:22:48] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2024-05-13 11:22:48] INFO root fetch - processPackages [mobio-mail-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-mail-client-sdk-0.1.6.tar.gz]
+[2024-05-13 11:22:48] INFO root fetch - processPackages [mobio-mail-client-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio_mail_client_sdk-0.1.7.tar.gz]
+[2024-05-13 11:22:48] INFO root fetch - main [MainThread]: End processing [mobio-mail-client-sdk]: success
+[2024-05-13 11:22:48] INFO root fetch - main [MainThread]: Store serial: [23180780]
