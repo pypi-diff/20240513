@@ -20750,3 +20750,77 @@ EOFError: EOF read where object expected
 [2024-05-13 15:27:09] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a3.tar.gz]
 [2024-05-13 15:27:09] INFO root fetch - main [MainThread]: End processing [fontc]: success
 [2024-05-13 15:27:09] INFO root fetch - main [MainThread]: Store serial: [23183725]
+[2024-05-13 15:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183725]
+[2024-05-13 15:29:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waifuvault
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpxj
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lions
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dghs-imgutils
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodc
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nxstools
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up42-py
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: borneo-client-python
+[2024-05-13 15:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astronomer-cosmos
+[2024-05-13 15:29:18] WARNING root fetch - processPackages [borneo-client-python]: Skipping, unable to determine old version
+[2024-05-13 15:29:18] INFO root fetch - main [MainThread]: End processing [borneo-client-python] error
+[2024-05-13 15:29:18] INFO root fetch - processPackages [lions]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [astronomer-cosmos]: New version: [1.4.0rc1] Old Version: [1.4.0a4]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [nxstools]: New version: [4.0.0] Old Version: [3.9.0]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [up42-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [waifuvault]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [eodc]: New version: [2024.5.0] Old Version: [2024.4.6]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/85/cb/dca038d7a307e5e66ddda16bf5cd8809cc49d775ad7c677bd1a187ea1c2b/lions-1.0.1.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [mpxj]: New version: [9.8.3] Old Version: [9.8.2]
+[2024-05-13 15:29:18] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/07/02/9c4773f7d22547c1f62765ea915c410a90195e7a3b6a1d4ea0947c516c39/nxstools-3.9.0.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/e4/09/3727b727737fa2d68c3991ff4a9cce9e564363fdcc13ce403ce3b5e33301/astronomer_cosmos-1.4.0a4.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/cf/65/b8b9811e19e21f20ebfb6e93c9ac7cb219cc3f96456e36880144f8671472/dghs_imgutils-0.4.4.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/66/42/0c41846da8dd41e705522270cd0012194f393ab525f0d6ae50c5000b4c35/eodc-2024.4.6.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/c8/e5/bd386ba846c6b162af66c716f5b3a9580a4bce8b8e8876d8b084104369eb/up42_py-1.0.0.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [waifuvault]: Downloading https://files.pythonhosted.org/packages/c9/ea/77e01200471d261c790efa3845fed9b2be01f42f6d604a3dc4bd60ee1442/waifuvault-1.4.0.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [mpxj]: Downloading https://files.pythonhosted.org/packages/39/d0/4e44b7920417d0090990177f4d89ad7335ca83c0adef231d736a31b223c5/mpxj-9.8.2.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/7a/c2/ca643478c0c7f7bbfbb8f2d8f49ac76961c77730b146fc62a2dbd0881a4b/nxstools-4.0.0.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/06/ca/741fb2358d48140c42d8da1aab377bbb005b276e55aa5d5ad94ce5965cf9/astronomer_cosmos-1.4.0rc1.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/87/40/52e25ac20dd77be38f2cdc6ad862782b439cc0bd3ae1b07a66e1726690f0/lions-1.0.2.tar.gz
+[2024-05-13 15:29:18] WARNING root fetch - processPackages [mpxj]: Skipping package: exceeds size limit 16838188>=10485760
+[2024-05-13 15:29:18] INFO root fetch - main [MainThread]: End processing [mpxj] error
+[2024-05-13 15:29:18] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 15:29:18] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.1.tar.gz tmp/lions-1.0.2.tar.gz --markdown 20240513/l/lions/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 15:29:18] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2024-05-13 15:29:18] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-1.4.0a4.tar.gz tmp/astronomer_cosmos-1.4.0rc1.tar.gz --markdown 20240513/a/astronomer-cosmos/1.4.0a4-1.4.0rc1/README.md --exclude *.pyd
+[2024-05-13 15:29:18] INFO root fetch - processPackages [waifuvault]: Downloading https://files.pythonhosted.org/packages/67/a4/5e111403e787e51bd24152482517b64347e58dcc2a95fb0844d72ccbf600/waifuvault-1.4.1.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/11/5b/5ec7d3ebf6dd927385fc8787642fe7ff486efeed29aa2c51e59272162529/eodc-2024.5.0.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [nxstools]: executing diffoscope
+[2024-05-13 15:29:18] INFO root fetch - processPackages [nxstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxstools-3.9.0.tar.gz tmp/nxstools-4.0.0.tar.gz --markdown 20240513/n/nxstools/3.9.0-4.0.0/README.md --exclude *.pyd
+[2024-05-13 15:29:18] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/8c/3f/e6a9b975621da720d6e94c8e7f54372422ef700d3455aa9ba8c80aab2920/dghs_imgutils-0.4.5.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [waifuvault]: executing diffoscope
+[2024-05-13 15:29:18] INFO root fetch - processPackages [waifuvault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waifuvault-1.4.0.tar.gz tmp/waifuvault-1.4.1.tar.gz --markdown 20240513/w/waifuvault/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-13 15:29:18] INFO root fetch - processPackages [up42-py]: Downloading https://files.pythonhosted.org/packages/9c/24/cd9f8f9b17095826caaf72f927f2a58e6bdbceba821e5892fd7c3de2b133/up42_py-1.0.1.tar.gz
+[2024-05-13 15:29:18] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2024-05-13 15:29:18] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2024.4.6.tar.gz tmp/eodc-2024.5.0.tar.gz --markdown 20240513/e/eodc/2024.4.6-2024.5.0/README.md --exclude *.pyd
+[2024-05-13 15:29:19] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2024-05-13 15:29:19] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs_imgutils-0.4.4.tar.gz tmp/dghs_imgutils-0.4.5.tar.gz --markdown 20240513/d/dghs-imgutils/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-13 15:29:19] INFO root fetch - processPackages [up42-py]: executing diffoscope
+[2024-05-13 15:29:19] INFO root fetch - processPackages [up42-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up42_py-1.0.0.tar.gz tmp/up42_py-1.0.1.tar.gz --markdown 20240513/u/up42-py/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 15:29:19] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.1.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.2.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 15:29:19] INFO root fetch - processPackages [waifuvault]: Remove: archive file [/home/abi/fetcher/tmp/waifuvault-1.4.0.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - processPackages [waifuvault]: Remove: archive file [/home/abi/fetcher/tmp/waifuvault-1.4.1.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - main [MainThread]: End processing [waifuvault]: success
+[2024-05-13 15:29:19] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.4.0a4.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.4.0rc1.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2024-05-13 15:29:19] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42_py-1.0.0.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - processPackages [up42-py]: Remove: archive file [/home/abi/fetcher/tmp/up42_py-1.0.1.tar.gz]
+[2024-05-13 15:29:19] INFO root fetch - main [MainThread]: End processing [up42-py]: success
+[2024-05-13 15:29:20] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.4.6.tar.gz]
+[2024-05-13 15:29:20] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.5.0.tar.gz]
+[2024-05-13 15:29:20] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2024-05-13 15:29:20] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.4.tar.gz]
+[2024-05-13 15:29:20] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.5.tar.gz]
+[2024-05-13 15:29:20] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2024-05-13 15:29:20] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.9.0.tar.gz]
+[2024-05-13 15:29:20] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-4.0.0.tar.gz]
+[2024-05-13 15:29:20] INFO root fetch - main [MainThread]: End processing [nxstools]: success
+[2024-05-13 15:29:20] INFO root fetch - main [MainThread]: Store serial: [23183758]
