@@ -7170,3 +7170,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:04:00] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.9.tar.gz]
 [2024-05-13 07:04:00] INFO root fetch - main [MainThread]: End processing [fastapi-file-router]: success
 [2024-05-13 07:04:00] INFO root fetch - main [MainThread]: Store serial: [23177607]
+[2024-05-13 07:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23177607]
+[2024-05-13 07:06:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 07:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alliance-platform-codegen
+[2024-05-13 07:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alliance-platform-frontend
+[2024-05-13 07:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-mongodb
+[2024-05-13 07:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-monitor
+[2024-05-13 07:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-stack-dingding
+[2024-05-13 07:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-mps
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-codegen]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-frontend]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 07:06:09] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/1b/2d/4eac7c5be43e823d717b1046a0f5ebb071fb17f0ff6b50f021cb80adb262/alliance_platform_frontend-0.0.4.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/c0/3f/eb3835553203e3a903554dba0620a2b44aad41ed48209e1227a62cace852/alliance_platform_codegen-0.0.3.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 07:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 07:06:09] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/36/08/fb217b8c7a3b7d79f34e2aa69d8138159332796e3e46c0b16db4b45640e1/sentry-stack-dingding-1.0.3.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-codegen]: Downloading https://files.pythonhosted.org/packages/b5/57/38188b4533dadd8aa515a9c4771c624fb6e1a333ce5c6697f8380707ce22/alliance_platform_codegen-0.0.4.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-frontend]: Downloading https://files.pythonhosted.org/packages/9d/1c/1f972fdf66e2962c6e2c62df9a092385076d5c35373b7e0d616c8ac361ee/alliance_platform_frontend-0.0.5.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Downloading https://files.pythonhosted.org/packages/a6/83/58665ae178847abfc53e436f9ab1d2de75d9631b7422301feda3dca7f989/tencentcloud-sdk-python-monitor-3.0.998.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Downloading https://files.pythonhosted.org/packages/17/f1/436979fbdd2dea336a7ee8794f2688876b3b4fb2fdf7357598183b80b133/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-codegen]: executing diffoscope
+[2024-05-13 07:06:09] INFO root fetch - processPackages [alliance-platform-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_codegen-0.0.3.tar.gz tmp/alliance_platform_codegen-0.0.4.tar.gz --markdown 20240513/a/alliance-platform-codegen/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 07:06:09] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/96/19/07b5d80d5f0b7cb20ff635d968292ac437e35c1f435bb11dadb568243578/sentry-stack-dingding-1.0.4.tar.gz
+[2024-05-13 07:06:09] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 07:06:09] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.3.tar.gz tmp/sentry-stack-dingding-1.0.4.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-13 07:06:09] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Downloading https://files.pythonhosted.org/packages/64/a1/cd09e726dd2636742c056da6982096c33a6f299d8d44a35519224b52ed43/tencentcloud-sdk-python-mps-3.0.998.tar.gz
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Downloading https://files.pythonhosted.org/packages/65/2e/0011651653eefe63fc3b7a738f6a9eacb86d8497718f1ebe5b73d04e11dd/tencentcloud-sdk-python-monitor-3.0.999.tar.gz
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Downloading https://files.pythonhosted.org/packages/b1/07/18762c8943abc4b4259d50c87261a6f8f14bff54d6f3a52568c800c7e2ce/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz
+[2024-05-13 07:06:10] INFO root fetch - processPackages [alliance-platform-frontend]: executing diffoscope
+[2024-05-13 07:06:10] INFO root fetch - processPackages [alliance-platform-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alliance_platform_frontend-0.0.4.tar.gz tmp/alliance_platform_frontend-0.0.5.tar.gz --markdown 20240513/a/alliance-platform-frontend/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: executing diffoscope
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-monitor-3.0.998.tar.gz tmp/tencentcloud-sdk-python-monitor-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-monitor/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: executing diffoscope
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-mongodb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Downloading https://files.pythonhosted.org/packages/de/bc/2588a7a442bb535b0019fc9daf9e8ee42136536cb50fd800f26a58b81b2b/tencentcloud-sdk-python-mps-3.0.999.tar.gz
+[2024-05-13 07:06:10] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.3.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - processPackages [alliance-platform-codegen]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_codegen-0.0.4.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - main [MainThread]: End processing [alliance-platform-codegen]: success
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: executing diffoscope
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-mps-3.0.998.tar.gz tmp/tencentcloud-sdk-python-mps-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-mps/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 07:06:10] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.3.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.4.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mongodb-3.0.998.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mongodb-3.0.999.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mongodb]: success
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-monitor-3.0.998.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - processPackages [tencentcloud-sdk-python-monitor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-monitor-3.0.999.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-monitor]: success
+[2024-05-13 07:06:10] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.4.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - processPackages [alliance-platform-frontend]: Remove: archive file [/home/abi/fetcher/tmp/alliance_platform_frontend-0.0.5.tar.gz]
+[2024-05-13 07:06:10] INFO root fetch - main [MainThread]: End processing [alliance-platform-frontend]: success
+[2024-05-13 07:06:11] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mps-3.0.998.tar.gz]
+[2024-05-13 07:06:11] INFO root fetch - processPackages [tencentcloud-sdk-python-mps]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-mps-3.0.999.tar.gz]
+[2024-05-13 07:06:11] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-mps]: success
+[2024-05-13 07:06:11] INFO root fetch - main [MainThread]: Store serial: [23177631]
