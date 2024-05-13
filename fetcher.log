@@ -13629,3 +13629,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:27:15] INFO root fetch - processPackages [sotoki]: Remove: archive file [/home/abi/fetcher/tmp/sotoki-2.1.2.tar.gz]
 [2024-05-13 11:27:15] INFO root fetch - main [MainThread]: End processing [sotoki]: success
 [2024-05-13 11:27:15] INFO root fetch - main [MainThread]: Store serial: [23180847]
+[2024-05-13 11:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180847]
+[2024-05-13 11:29:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt-idax-adapter
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idf-analysis
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kebbie
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ehyd-tools
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: understrataz
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i2cylib
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st-signedUrl-uploader
+[2024-05-13 11:29:24] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-13 11:29:24] WARNING root fetch - processPackages [st-signedUrl-uploader]: Skipping, unable to determine old version
+[2024-05-13 11:29:24] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader] error
+[2024-05-13 11:29:24] INFO root fetch - processPackages [i2cylib]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-13 11:29:24] WARNING root fetch - processPackages [ccxt-idax-adapter]: Skipping, unable to determine old version
+[2024-05-13 11:29:24] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter] error
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ehyd-tools]: New version: [0.1.dev9] Old Version: [0.1.dev8]
+[2024-05-13 11:29:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-13 11:29:24] WARNING root fetch - processPackages [understrataz]: Skipping, unable to determine old version
+[2024-05-13 11:29:24] INFO root fetch - main [MainThread]: End processing [understrataz] error
+[2024-05-13 11:29:24] INFO root fetch - processPackages [kebbie]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-13 11:29:24] INFO root fetch - processPackages [idf-analysis]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-13 11:29:24] INFO root fetch - processPackages [idf-analysis]: Downloading https://files.pythonhosted.org/packages/af/4c/53a56c1f9add3bcd16c525060273476c60f8f2bf1f15cc9d218783856c9b/idf-analysis-0.2.4.tar.gz
+[2024-05-13 11:29:24] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/580d1412fd21c2c68b5f2b81676f545b885a111295d8c0659364eae393ff/ehyd_tools-0.1.dev8-py3-none-any.whl
+[2024-05-13 11:29:24] INFO root fetch - processPackages [kebbie]: Downloading https://files.pythonhosted.org/packages/b5/be/442d6731a067fba74ef69f08edc108b47c9a4976d6e818c27a1dd800a02e/kebbie-0.1.3.tar.gz
+[2024-05-13 11:29:24] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-13 11:29:24] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/2c/bb/6cc12ceeb9a54372b2ba5e8bb183dfef520d25a0971d6a6526f02c487766/i2cylib-1.9.4.tar.gz
+[2024-05-13 11:29:24] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-13 11:29:24] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240513/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-13 11:29:24] INFO root fetch - processPackages [idf-analysis]: Downloading https://files.pythonhosted.org/packages/41/cf/fdacf2bf9183964c625728fe082645b23ddbb63fe2e9274c138277aea5fd/idf_analysis-0.2.5.tar.gz
+[2024-05-13 11:29:24] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/07/db/4b9467cd012615b924c7bb3413be74a3993af003e56ff8eb772df32fbb35/i2cylib-1.9.5.tar.gz
+[2024-05-13 11:29:25] INFO root fetch - processPackages [idf-analysis]: executing diffoscope
+[2024-05-13 11:29:25] INFO root fetch - processPackages [idf-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf-analysis-0.2.4.tar.gz tmp/idf_analysis-0.2.5.tar.gz --markdown 20240513/i/idf-analysis/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-13 11:29:25] INFO root fetch - processPackages [ehyd-tools]: Downloading https://files.pythonhosted.org/packages/fa/71/890662a4c7175c02291d438aaae2a96065aa0ae111835cbc5f33db1c3e23/ehyd_tools-0.1.dev9-py3-none-any.whl
+[2024-05-13 11:29:25] INFO root fetch - processPackages [kebbie]: Downloading https://files.pythonhosted.org/packages/34/1f/eae37621650aaea4b259c4da48814dab2aa9162b7d2d850d4bdb4ed20ffb/kebbie-0.2.0.tar.gz
+[2024-05-13 11:29:25] INFO root fetch - processPackages [i2cylib]: executing diffoscope
+[2024-05-13 11:29:25] INFO root fetch - processPackages [i2cylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cylib-1.9.4.tar.gz tmp/i2cylib-1.9.5.tar.gz --markdown 20240513/i/i2cylib/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-13 11:29:25] INFO root fetch - processPackages [ehyd-tools]: executing diffoscope
+[2024-05-13 11:29:25] INFO root fetch - processPackages [ehyd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip --markdown 20240513/e/ehyd-tools/0.1.dev8-0.1.dev9/README.md --exclude *.pyd
+[2024-05-13 11:29:25] INFO root fetch - processPackages [kebbie]: executing diffoscope
+[2024-05-13 11:29:25] INFO root fetch - processPackages [kebbie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kebbie-0.1.3.tar.gz tmp/kebbie-0.2.0.tar.gz --markdown 20240513/k/kebbie/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-13 11:29:26] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.4.tar.gz]
+[2024-05-13 11:29:26] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.5.tar.gz]
+[2024-05-13 11:29:26] INFO root fetch - main [MainThread]: End processing [i2cylib]: success
+[2024-05-13 11:29:26] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf-analysis-0.2.4.tar.gz]
+[2024-05-13 11:29:26] INFO root fetch - processPackages [idf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/idf_analysis-0.2.5.tar.gz]
+[2024-05-13 11:29:26] INFO root fetch - main [MainThread]: End processing [idf-analysis]: success
+[2024-05-13 11:29:26] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev8-py3-none-any.whl.zip]
+[2024-05-13 11:29:26] INFO root fetch - processPackages [ehyd-tools]: Remove: archive file [/home/abi/fetcher/tmp/ehyd_tools-0.1.dev9-py3-none-any.whl.zip]
+[2024-05-13 11:29:26] INFO root fetch - main [MainThread]: End processing [ehyd-tools]: success
+[2024-05-13 11:29:26] INFO root fetch - processPackages [kebbie]: Remove: archive file [/home/abi/fetcher/tmp/kebbie-0.1.3.tar.gz]
+[2024-05-13 11:29:26] INFO root fetch - processPackages [kebbie]: Remove: archive file [/home/abi/fetcher/tmp/kebbie-0.2.0.tar.gz]
+[2024-05-13 11:29:26] INFO root fetch - main [MainThread]: End processing [kebbie]: success
+[2024-05-13 11:29:27] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-13 11:29:27] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-13 11:29:27] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-13 11:29:27] INFO root fetch - main [MainThread]: Store serial: [23180870]
