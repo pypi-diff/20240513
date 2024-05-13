@@ -1847,3 +1847,15 @@
 [2024-05-13 02:34:14] INFO root fetch - processPackages [unusualwhales-python-client]: Remove: archive file [/home/abi/fetcher/tmp/unusualwhales_python_client-4.1.1.tar.gz]
 [2024-05-13 02:34:14] INFO root fetch - main [MainThread]: End processing [unusualwhales-python-client]: success
 [2024-05-13 02:34:14] INFO root fetch - main [MainThread]: Store serial: [23175243]
+[2024-05-13 02:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175243]
+[2024-05-13 02:36:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 02:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poseutil
+[2024-05-13 02:36:23] INFO root fetch - processPackages [poseutil]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-13 02:36:23] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/ab/c8/7e39a51cca11ca3689a693638f698a3161ff3ccf78a3be6c9e298592ccf9/poseutil-0.5.6.tar.gz
+[2024-05-13 02:36:24] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/59/1c/f0e1d21d47b3534e2ebc3320f76a7053309246054121c848d5b7fe6a1f68/poseutil-0.5.7.tar.gz
+[2024-05-13 02:36:24] INFO root fetch - processPackages [poseutil]: executing diffoscope
+[2024-05-13 02:36:24] INFO root fetch - processPackages [poseutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseutil-0.5.6.tar.gz tmp/poseutil-0.5.7.tar.gz --markdown 20240513/p/poseutil/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-13 02:36:24] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.6.tar.gz]
+[2024-05-13 02:36:24] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.7.tar.gz]
+[2024-05-13 02:36:24] INFO root fetch - main [MainThread]: End processing [poseutil]: success
+[2024-05-13 02:36:24] INFO root fetch - main [MainThread]: Store serial: [23175246]
