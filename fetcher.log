@@ -8772,3 +8772,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:52:29] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.2.0.1.tar.gz]
 [2024-05-13 07:52:29] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
 [2024-05-13 07:52:29] INFO root fetch - main [MainThread]: Store serial: [23178313]
+[2024-05-13 07:54:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178313]
+[2024-05-13 07:54:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 07:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ryutils
+[2024-05-13 07:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cancer-simulation
+[2024-05-13 07:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbs
+[2024-05-13 07:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pauperisingz
+[2024-05-13 07:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icad-tone-detection
+[2024-05-13 07:54:37] INFO root fetch - processPackages [cancer-simulation]: New version: [0.7] Old Version: [0.6]
+[2024-05-13 07:54:37] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/a7/f2/0e404856cdbf51709cdb10623210f52ea9aeb9e77dd1c2c60b4ff0a3ad9a/cancer_simulation-0.6.tar.gz
+[2024-05-13 07:54:37] INFO root fetch - processPackages [fbs]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-13 07:54:37] INFO root fetch - processPackages [ryutils]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-05-13 07:54:37] WARNING root fetch - processPackages [pauperisingz]: Skipping, unable to determine old version
+[2024-05-13 07:54:37] INFO root fetch - processPackages [icad-tone-detection]: New version: [0.9] Old Version: [0.8]
+[2024-05-13 07:54:37] INFO root fetch - main [MainThread]: End processing [pauperisingz] error
+[2024-05-13 07:54:38] INFO root fetch - processPackages [ryutils]: Downloading https://files.pythonhosted.org/packages/5f/cf/ad3fc222c7bcc27830a54549affb767890a8206aaa1cdee09c4982106a1d/ryutils-4.2.0.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [fbs]: Downloading https://files.pythonhosted.org/packages/83/07/e110e829bb547ead4cfd86de0f3e6e053f20ddac8d57f5ab106caa427518/fbs-1.2.1.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [icad-tone-detection]: Downloading https://files.pythonhosted.org/packages/a8/d5/17b0e52c861092f362c4981e19a987ec6f25f0b96a009b470f0f8a500216/icad_tone_detection-0.8.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/91/ff/8253ecb42d5648a4915abe16c263b8cdb1086f3e35785d0b801d9b922b4d/cancer_simulation-0.7.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [cancer-simulation]: executing diffoscope
+[2024-05-13 07:54:38] INFO root fetch - processPackages [cancer-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancer_simulation-0.6.tar.gz tmp/cancer_simulation-0.7.tar.gz --markdown 20240513/c/cancer-simulation/0.6-0.7/README.md --exclude *.pyd
+[2024-05-13 07:54:38] INFO root fetch - processPackages [fbs]: Downloading https://files.pythonhosted.org/packages/9a/f0/adee653d54ea46a260747bfefa79036c1974e3b133c6c340f5e1fc57c906/fbs-1.2.2.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [ryutils]: Downloading https://files.pythonhosted.org/packages/8e/14/50173fe5e289c296db01eb81fd7df98efa54a655f69c214e3d0686202697/ryutils-5.0.0.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [icad-tone-detection]: Downloading https://files.pythonhosted.org/packages/e6/f8/736add7692e0aea9c79081737acf68e9a00f158a6771113f5410c13ab4ad/icad_tone_detection-0.9.tar.gz
+[2024-05-13 07:54:38] INFO root fetch - processPackages [ryutils]: executing diffoscope
+[2024-05-13 07:54:38] INFO root fetch - processPackages [ryutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryutils-4.2.0.tar.gz tmp/ryutils-5.0.0.tar.gz --markdown 20240513/r/ryutils/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-05-13 07:54:38] INFO root fetch - processPackages [fbs]: executing diffoscope
+[2024-05-13 07:54:38] INFO root fetch - processPackages [fbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbs-1.2.1.tar.gz tmp/fbs-1.2.2.tar.gz --markdown 20240513/f/fbs/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-13 07:54:38] INFO root fetch - processPackages [icad-tone-detection]: executing diffoscope
+[2024-05-13 07:54:38] INFO root fetch - processPackages [icad-tone-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icad_tone_detection-0.8.tar.gz tmp/icad_tone_detection-0.9.tar.gz --markdown 20240513/i/icad-tone-detection/0.8-0.9/README.md --exclude *.pyd
+[2024-05-13 07:54:39] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.6.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - main [MainThread]: End processing [cancer-simulation]: success
+[2024-05-13 07:54:39] INFO root fetch - processPackages [ryutils]: Remove: archive file [/home/abi/fetcher/tmp/ryutils-4.2.0.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - processPackages [ryutils]: Remove: archive file [/home/abi/fetcher/tmp/ryutils-5.0.0.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - main [MainThread]: End processing [ryutils]: success
+[2024-05-13 07:54:39] INFO root fetch - processPackages [fbs]: Remove: archive file [/home/abi/fetcher/tmp/fbs-1.2.1.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - processPackages [fbs]: Remove: archive file [/home/abi/fetcher/tmp/fbs-1.2.2.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - main [MainThread]: End processing [fbs]: success
+[2024-05-13 07:54:39] INFO root fetch - processPackages [icad-tone-detection]: Remove: archive file [/home/abi/fetcher/tmp/icad_tone_detection-0.8.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - processPackages [icad-tone-detection]: Remove: archive file [/home/abi/fetcher/tmp/icad_tone_detection-0.9.tar.gz]
+[2024-05-13 07:54:39] INFO root fetch - main [MainThread]: End processing [icad-tone-detection]: success
+[2024-05-13 07:54:39] INFO root fetch - main [MainThread]: Store serial: [23178335]
