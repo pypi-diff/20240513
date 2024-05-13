@@ -22052,3 +22052,69 @@ EOFError: EOF read where object expected
 [2024-05-13 16:09:19] INFO root fetch - processPackages [lightning-thunder]: Remove: archive file [/home/abi/fetcher/tmp/lightning_thunder-0.2.0.dev20240513.tar.gz]
 [2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [lightning-thunder]: success
 [2024-05-13 16:09:19] INFO root fetch - main [MainThread]: Store serial: [23184315]
+[2024-05-13 16:11:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184315]
+[2024-05-13 16:11:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbopenapi
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whylabs-toolkit
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medicafe
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superblocks-types
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vocalisedz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synrbl
+[2024-05-13 16:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simple-threaded-tcp
+[2024-05-13 16:11:30] INFO root fetch - processPackages [medicafe]: New version: [0.240513.0] Old Version: [0.240512.9]
+[2024-05-13 16:11:30] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 16:11:30] WARNING root fetch - processPackages [dbopenapi]: Skipping, unable to determine old version
+[2024-05-13 16:11:30] INFO root fetch - main [MainThread]: End processing [dbopenapi] error
+[2024-05-13 16:11:30] INFO root fetch - processPackages [whylabs-toolkit]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-13 16:11:30] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-13 16:11:30] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/78/fa/1113bab36ddae9527c218ca24e51744210e3fca643855160bc85e71dde20/superblocks-types-0.0.2.tar.gz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-05-13 16:11:30] WARNING root fetch - processPackages [vocalisedz]: Skipping, unable to determine old version
+[2024-05-13 16:11:30] INFO root fetch - main [MainThread]: End processing [vocalisedz] error
+[2024-05-13 16:11:30] INFO root fetch - processPackages [synrbl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:11:30] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/a9/1c/be4798568487aa908368c5e6010068ed34c35d4a9197409ad202ae9471c1/medicafe-0.240512.9.tar.gz
+[2024-05-13 16:11:30] WARNING root fetch - processPackages [simple-threaded-tcp]: Skipping, unable to determine old version
+[2024-05-13 16:11:30] INFO root fetch - main [MainThread]: End processing [simple-threaded-tcp] error
+[2024-05-13 16:11:30] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-13 16:11:30] INFO root fetch - processPackages [whylabs-toolkit]: Downloading https://files.pythonhosted.org/packages/c4/40/5934bff6743e171e5bd6250b6dbe427524d0564954b26db519506f8332db/whylabs_toolkit-0.0.9.tar.gz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/40/1a/d636b21100f68befaa91e3dd0d846e5abf0684098e10dbc217b3ffaa8390/PyQtUIkit-2.9.3.tar.gz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/80/89/b3d0f647bf1674cb15a8732e2749bdb9019be669484a7fa2187d5b42959a/superblocks-types-0.0.3.tar.gz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/28/86/082dee5389753c8bd486879e55d26d3f2185a225fadf2f1fe4bb9beb9d85/synrbl-0.0.8.tar.gz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/20/7c/c0bfe83118a5137b808fef6b08ddcd2516031b8a45d0b9c3a12ccb128173/medicafe-0.240513.0.tar.gz
+[2024-05-13 16:11:30] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-13 16:11:30] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-13 16:11:30] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.2.tar.gz tmp/superblocks-types-0.0.3.tar.gz --markdown 20240513/s/superblocks-types/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 16:11:30] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-13 16:11:30] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240512.9.tar.gz tmp/medicafe-0.240513.0.tar.gz --markdown 20240513/m/medicafe/0.240512.9-0.240513.0/README.md --exclude *.pyd
+[2024-05-13 16:11:31] INFO root fetch - processPackages [whylabs-toolkit]: Downloading https://files.pythonhosted.org/packages/5b/ba/1213d543975fb0de5b6b5308e7c4206af19d3ccc7d4fed04c63742f1f05e/whylabs_toolkit-0.1.0.tar.gz
+[2024-05-13 16:11:31] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-13 16:11:31] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240513/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-13 16:11:31] INFO root fetch - processPackages [whylabs-toolkit]: executing diffoscope
+[2024-05-13 16:11:31] INFO root fetch - processPackages [whylabs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs_toolkit-0.0.9.tar.gz tmp/whylabs_toolkit-0.1.0.tar.gz --markdown 20240513/w/whylabs-toolkit/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-13 16:11:31] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2e/47/9c7a845880448933cbadbbdb3aaa39eeee86fa65f22173af1bdc3833e09d/PyQtUIkit-2.9.4.tar.gz
+[2024-05-13 16:11:31] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.2.tar.gz]
+[2024-05-13 16:11:31] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.3.tar.gz]
+[2024-05-13 16:11:31] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-13 16:11:31] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/5c/22/f5f6d1874b599ff46d6155b4de52df7c7f58286b82037d3db18c4cb84902/synrbl-0.0.9.tar.gz
+[2024-05-13 16:11:31] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240512.9.tar.gz]
+[2024-05-13 16:11:31] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240513.0.tar.gz]
+[2024-05-13 16:11:31] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-13 16:11:32] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-13 16:11:32] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.9.3.tar.gz tmp/PyQtUIkit-2.9.4.tar.gz --markdown 20240513/P/PyQtUIkit/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-05-13 16:11:32] INFO root fetch - processPackages [whylabs-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/whylabs_toolkit-0.0.9.tar.gz]
+[2024-05-13 16:11:32] INFO root fetch - processPackages [whylabs-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/whylabs_toolkit-0.1.0.tar.gz]
+[2024-05-13 16:11:32] INFO root fetch - main [MainThread]: End processing [whylabs-toolkit]: success
+[2024-05-13 16:11:32] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-05-13 16:11:32] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.8.tar.gz tmp/synrbl-0.0.9.tar.gz --markdown 20240513/s/synrbl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:11:33] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.3.tar.gz]
+[2024-05-13 16:11:33] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.4.tar.gz]
+[2024-05-13 16:11:33] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-13 16:11:33] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-13 16:11:33] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-13 16:11:33] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-13 16:11:34] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.8.tar.gz]
+[2024-05-13 16:11:34] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
+[2024-05-13 16:11:34] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-05-13 16:11:34] INFO root fetch - main [MainThread]: Store serial: [23184346]
