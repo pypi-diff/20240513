@@ -18265,3 +18265,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:14:03] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-13 14:14:03] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-13 14:14:03] INFO root fetch - main [MainThread]: Store serial: [23182717]
+[2024-05-13 14:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182717]
+[2024-05-13 14:16:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudgrep
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-cdktf-resolver
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-pytestx
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grand-graph
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xmldiff
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chik-blockchain
+[2024-05-13 14:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-invoice-triple-discount
+[2024-05-13 14:16:12] INFO root fetch - processPackages [testsolar-pytestx]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 14:16:12] INFO root fetch - processPackages [chik-blockchain]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-13 14:16:12] INFO root fetch - processPackages [testsolar-pytestx]: Downloading https://files.pythonhosted.org/packages/a7/9d/1877cda29631c9cc679242b8b42925f835e2f3e49f627fc7208a4c664bca/testsolar-pytestx-0.1.4.tar.gz
+[2024-05-13 14:16:12] INFO root fetch - processPackages [grand-graph]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-13 14:16:12] WARNING root fetch - processPackages [cloudgrep]: Skipping, unable to determine old version
+[2024-05-13 14:16:12] INFO root fetch - main [MainThread]: End processing [cloudgrep] error
+[2024-05-13 14:16:12] INFO root fetch - processPackages [xmldiff]: New version: [2.7.0] Old Version: [2.6b1]
+[2024-05-13 14:16:12] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 14:16:12] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.1]
+[2024-05-13 14:16:12] INFO root fetch - processPackages [grand-graph]: Downloading https://files.pythonhosted.org/packages/c9/b4/197a8ad4f4cb0966c2f877279ec88b6597a868e41dfc6bb1f419e05be96f/grand-graph-0.5.0.tar.gz
+[2024-05-13 14:16:12] INFO root fetch - processPackages [testsolar-pytestx]: Downloading https://files.pythonhosted.org/packages/ef/e7/ec7afca41c4b43afc36948f5a1bc475877e3a1fdc672e42144e527720abd/testsolar-pytestx-0.1.5.tar.gz
+[2024-05-13 14:16:12] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/5b/79/e32790e4f670a32d1db3d9a405e816fe941fe2257a9e9b292294eb698bff/chik-blockchain-2.2.1.tar.gz
+[2024-05-13 14:16:12] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/d0/7b/6e241c141aee876e6231c607ad885acbb3d93f3e8d6215bf20ad4718a568/cdk8s-cdktf-resolver-0.0.8.tar.gz
+[2024-05-13 14:16:12] INFO root fetch - processPackages [xmldiff]: Downloading https://files.pythonhosted.org/packages/cf/61/0509325c64d6086443f14398582a46ff902ee16948608486a35ce871467c/xmldiff-2.6b1.tar.gz
+[2024-05-13 14:16:12] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: Downloading https://files.pythonhosted.org/packages/10/85/9a95e7fb021e4e4d218343aaf14dec4aa6ba708285ea63ce65551ad830e3/odoo_addon_account_invoice_triple_discount-16.0.1.0.2.1-py3-none-any.whl
+[2024-05-13 14:16:12] INFO root fetch - processPackages [testsolar-pytestx]: executing diffoscope
+[2024-05-13 14:16:12] INFO root fetch - processPackages [testsolar-pytestx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-pytestx-0.1.4.tar.gz tmp/testsolar-pytestx-0.1.5.tar.gz --markdown 20240513/t/testsolar-pytestx/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 14:16:13] INFO root fetch - processPackages [grand-graph]: Downloading https://files.pythonhosted.org/packages/d2/62/4ab3668ec4a0e2d8b3db6d493f7ad6dc2b734e02c340f073bc92303687c7/grand-graph-0.5.1.tar.gz
+[2024-05-13 14:16:13] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-05-13 14:16:13] INFO root fetch - processPackages [xmldiff]: Downloading https://files.pythonhosted.org/packages/55/d8/b31a4d75bc72d5c3a5adf5012405118169b56d163ebf407e4fc49a575e96/xmldiff-2.7.0.tar.gz
+[2024-05-13 14:16:13] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: Downloading https://files.pythonhosted.org/packages/0f/4c/31edee7465b85e3a68dbf4e481bfd95ab69c071a800eb85f6bbf08710343/odoo_addon_account_invoice_triple_discount-16.0.1.0.3-py3-none-any.whl
+[2024-05-13 14:16:13] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-05-13 14:16:13] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240513/c/cdk8s-cdktf-resolver/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 14:16:13] INFO root fetch - processPackages [grand-graph]: executing diffoscope
+[2024-05-13 14:16:13] INFO root fetch - processPackages [grand-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grand-graph-0.5.0.tar.gz tmp/grand-graph-0.5.1.tar.gz --markdown 20240513/g/grand-graph/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-13 14:16:13] INFO root fetch - processPackages [chik-blockchain]: Downloading https://files.pythonhosted.org/packages/42/12/d9e9759e0d7a1f09dd8ce4b71de36739e7739f954920b5470d56b7ef565a/chik_blockchain-2.3.0.tar.gz
+[2024-05-13 14:16:13] INFO root fetch - processPackages [xmldiff]: executing diffoscope
+[2024-05-13 14:16:13] INFO root fetch - processPackages [xmldiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmldiff-2.6b1.tar.gz tmp/xmldiff-2.7.0.tar.gz --markdown 20240513/x/xmldiff/2.6b1-2.7.0/README.md --exclude *.pyd
+[2024-05-13 14:16:13] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: executing diffoscope
+[2024-05-13 14:16:13] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_triple_discount-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_triple_discount-16.0.1.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-account-invoice-triple-discount/16.0.1.0.2.1-16.0.1.0.3/README.md --exclude *.pyd
+[2024-05-13 14:16:13] INFO root fetch - processPackages [testsolar-pytestx]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-pytestx-0.1.4.tar.gz]
+[2024-05-13 14:16:13] INFO root fetch - processPackages [testsolar-pytestx]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-pytestx-0.1.5.tar.gz]
+[2024-05-13 14:16:13] INFO root fetch - main [MainThread]: End processing [testsolar-pytestx]: success
+[2024-05-13 14:16:13] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz]
+[2024-05-13 14:16:13] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-05-13 14:16:13] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-05-13 14:16:14] INFO root fetch - processPackages [chik-blockchain]: executing diffoscope
+[2024-05-13 14:16:14] INFO root fetch - processPackages [chik-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik-blockchain-2.2.1.tar.gz tmp/chik_blockchain-2.3.0.tar.gz --markdown 20240513/c/chik-blockchain/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-13 14:16:14] INFO root fetch - processPackages [grand-graph]: Remove: archive file [/home/abi/fetcher/tmp/grand-graph-0.5.0.tar.gz]
+[2024-05-13 14:16:14] INFO root fetch - processPackages [grand-graph]: Remove: archive file [/home/abi/fetcher/tmp/grand-graph-0.5.1.tar.gz]
+[2024-05-13 14:16:14] INFO root fetch - main [MainThread]: End processing [grand-graph]: success
+[2024-05-13 14:16:14] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_triple_discount-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-05-13 14:16:14] INFO root fetch - processPackages [odoo-addon-account-invoice-triple-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_triple_discount-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-13 14:16:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-triple-discount]: success
+[2024-05-13 14:16:14] INFO root fetch - processPackages [xmldiff]: Remove: archive file [/home/abi/fetcher/tmp/xmldiff-2.6b1.tar.gz]
+[2024-05-13 14:16:14] INFO root fetch - processPackages [xmldiff]: Remove: archive file [/home/abi/fetcher/tmp/xmldiff-2.7.0.tar.gz]
+[2024-05-13 14:16:14] INFO root fetch - main [MainThread]: End processing [xmldiff]: success
+[2024-05-13 14:16:23] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik-blockchain-2.2.1.tar.gz]
+[2024-05-13 14:16:23] INFO root fetch - processPackages [chik-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chik_blockchain-2.3.0.tar.gz]
+[2024-05-13 14:16:23] INFO root fetch - main [MainThread]: End processing [chik-blockchain]: success
+[2024-05-13 14:16:23] INFO root fetch - main [MainThread]: Store serial: [23182742]
