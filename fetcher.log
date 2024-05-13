@@ -2975,3 +2975,9 @@
 [2024-05-13 04:06:02] INFO root fetch - processPackages [iRe.py]: Remove: archive file [/home/abi/fetcher/tmp/iRe.py-0.1.0.tar.gz]
 [2024-05-13 04:06:02] INFO root fetch - main [MainThread]: End processing [iRe.py]: success
 [2024-05-13 04:06:02] INFO root fetch - main [MainThread]: Store serial: [23175737]
+[2024-05-13 04:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175737]
+[2024-05-13 04:08:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 04:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VioleRCNG
+[2024-05-13 04:08:11] WARNING root fetch - processPackages [VioleRCNG]: Skipping, unable to determine old version
+[2024-05-13 04:08:11] INFO root fetch - main [MainThread]: End processing [VioleRCNG] error
+[2024-05-13 04:08:11] INFO root fetch - main [MainThread]: Store serial: [23175741]
