@@ -19891,3 +19891,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 15:03:59] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-47.0.0-py3-none-any.whl.zip]
 [2024-05-13 15:03:59] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
 [2024-05-13 15:03:59] INFO root fetch - main [MainThread]: Store serial: [23183357]
+[2024-05-13 15:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183357]
+[2024-05-13 15:06:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entity-recognition-lib
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ara-cli
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-plugin-lambda-build
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eurmlsdk
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ops-py-github-tools
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psl
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dreamhack
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resolwe-bio
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vitya
+[2024-05-13 15:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lions
+[2024-05-13 15:06:08] INFO root fetch - processPackages [entity-recognition-lib]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [dreamhack]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.80] Old Version: [0.0.79]
+[2024-05-13 15:06:09] WARNING root fetch - processPackages [lions]: Skipping, unable to determine old version
+[2024-05-13 15:06:09] INFO root fetch - processPackages [lions]: Start processing: literalai
+[2024-05-13 15:06:09] INFO root fetch - main [MainThread]: End processing [lions] error
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ara-cli]: New version: [0.1.4.37] Old Version: [0.1.4.35]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [poetry-plugin-lambda-build]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [entity-recognition-lib]: Downloading https://files.pythonhosted.org/packages/57/80/2adbbf9d174c8eb9034498852cbcf44e9eac578bf4088a1db4a86fa33f36/entity_recognition_lib-0.1.4.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ops-py-github-tools]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [vitya]: New version: [0.20.5] Old Version: [0.20.4]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [dreamhack]: Downloading https://files.pythonhosted.org/packages/d6/35/bb21176a3391f2202e64a224f4eca87ad93450df73df87bf7daf3c5528b8/dreamhack-1.0.6.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [psl]: New version: [2024.5.6] Old Version: [2024.5.13]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/1b/92/6e389047361fb75167d1defb337a7ce683164aa1b6f6fe2f328fe5f992e8/eurmlsdk-0.0.79.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [literalai]: New version: [0.0.601] Old Version: [0.0.600]
+[2024-05-13 15:06:09] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/08/16/5114607244dc68eda5eeb9ced70ee1c32c28479f0f45748873edc95f9825/vitya-0.20.4.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/54/e7/21d710df404ee2319785b8e12b38abcadb5b42e53c9a188f969e0b6255fe/poetry_plugin_lambda_build-0.5.0.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/95/cc/88df3f4e950022c6725512c4ebae49d028838830a3985ba4237220f1b064/ara_cli-0.1.4.35.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/aa/39/053365e5f4cb5d9d0ed14113d0e39486ec84e27e5c1cd2c5ccc64a342624/psl-2024.5.13.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [entity-recognition-lib]: Downloading https://files.pythonhosted.org/packages/7b/fd/df33e4406e0014c4b32de461451ccc3ed1c659ef194ee95bdb865f2ca460/entity_recognition_lib-0.1.5.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ops-py-github-tools]: Downloading https://files.pythonhosted.org/packages/42/d6/949b490596b1ecb21e4181aa8719697fe2c70ba1bbb90a92c027b3d19769/ops_py_github_tools-1.1.3.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/87/0f/5e562d745a9d654b0fc86b8f1b682a8b3e467410246deffe4fe41f42c2a9/literalai-0.0.600.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [dreamhack]: Downloading https://files.pythonhosted.org/packages/25/ad/59c0d9b76c72ae5aeab8cab2cd44dd7a8850116ecc363f2964c5b9827146/dreamhack-1.0.7.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/89/60/15b1e1925744da5be79f45269bf226cfb9ae875751ae7969cf19e91c9204/eurmlsdk-0.0.80.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [entity-recognition-lib]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [entity-recognition-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_lib-0.1.4.tar.gz tmp/entity_recognition_lib-0.1.5.tar.gz --markdown 20240513/e/entity-recognition-lib/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [dreamhack]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [dreamhack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamhack-1.0.6.tar.gz tmp/dreamhack-1.0.7.tar.gz --markdown 20240513/d/dreamhack/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/a8/7a/088f3c74711560dc9eacf0c2f16ac3144a40645aaf686a7b847f2d2b1b4e/poetry_plugin_lambda_build-0.5.1.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ara-cli]: Downloading https://files.pythonhosted.org/packages/f0/f5/a315a9d061767f711f28e103e674c6d16cb8ebb500a606ba780c487bf4f0/ara_cli-0.1.4.37.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.79.tar.gz tmp/eurmlsdk-0.0.80.tar.gz --markdown 20240513/e/eurmlsdk/0.0.79-0.0.80/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/18/a4/6c90dc232bf1436b9fd15aa3e0b2538e3b6a5f2b72eb8462659c198e67b2/psl-2024.5.6.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/13/c7/35bb538c7e639adc7afc4116bf9494b4e2ecb839da6ec2800fb56eb79b45/vitya-0.20.5.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ops-py-github-tools]: Downloading https://files.pythonhosted.org/packages/bd/14/2fdc9653273cad1f54a636fefa7b3dc66ab475317973f73c6f3be9257645/ops_py_github_tools-1.1.4.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/62/80/f004fc4677ae95f6f311455ce7d0fb19368b85d0bab6f80fb0bd610f2658/literalai-0.0.601.tar.gz
+[2024-05-13 15:06:09] INFO root fetch - processPackages [poetry-plugin-lambda-build]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [poetry-plugin-lambda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_lambda_build-0.5.0.tar.gz tmp/poetry_plugin_lambda_build-0.5.1.tar.gz --markdown 20240513/p/poetry-plugin-lambda-build/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ara-cli]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ara-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara_cli-0.1.4.35.tar.gz tmp/ara_cli-0.1.4.37.tar.gz --markdown 20240513/a/ara-cli/0.1.4.35-0.1.4.37/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [psl]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2024.5.13.tar.gz tmp/psl-2024.5.6.tar.gz --markdown 20240513/p/psl/2024.5.13-2024.5.6/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [vitya]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [vitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitya-0.20.4.tar.gz tmp/vitya-0.20.5.tar.gz --markdown 20240513/v/vitya/0.20.4-0.20.5/README.md --exclude *.pyd
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ops-py-github-tools]: executing diffoscope
+[2024-05-13 15:06:09] INFO root fetch - processPackages [ops-py-github-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_github_tools-1.1.3.tar.gz tmp/ops_py_github_tools-1.1.4.tar.gz --markdown 20240513/o/ops-py-github-tools/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-13 15:06:10] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-05-13 15:06:10] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.600.tar.gz tmp/literalai-0.0.601.tar.gz --markdown 20240513/l/literalai/0.0.600-0.0.601/README.md --exclude *.pyd
+[2024-05-13 15:06:10] INFO root fetch - processPackages [dreamhack]: Remove: archive file [/home/abi/fetcher/tmp/dreamhack-1.0.6.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - processPackages [dreamhack]: Remove: archive file [/home/abi/fetcher/tmp/dreamhack-1.0.7.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - main [MainThread]: End processing [dreamhack]: success
+[2024-05-13 15:06:10] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.79.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.80.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-13 15:06:10] INFO root fetch - processPackages [entity-recognition-lib]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_lib-0.1.4.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - processPackages [entity-recognition-lib]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_lib-0.1.5.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - main [MainThread]: End processing [entity-recognition-lib]: success
+[2024-05-13 15:06:10] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.0.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.1.tar.gz]
+[2024-05-13 15:06:10] INFO root fetch - main [MainThread]: End processing [poetry-plugin-lambda-build]: success
+[2024-05-13 15:06:11] INFO root fetch - processPackages [ops-py-github-tools]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_github_tools-1.1.3.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - processPackages [ops-py-github-tools]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_github_tools-1.1.4.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - main [MainThread]: End processing [ops-py-github-tools]: success
+[2024-05-13 15:06:11] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2024-05-13 15:06:11] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.600.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.601.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-05-13 15:06:11] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.4.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.5.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - main [MainThread]: End processing [vitya]: success
+[2024-05-13 15:06:11] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.35.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - processPackages [ara-cli]: Remove: archive file [/home/abi/fetcher/tmp/ara_cli-0.1.4.37.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - main [MainThread]: End processing [ara-cli]: success
+[2024-05-13 15:06:11] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.5.13.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.5.6.tar.gz]
+[2024-05-13 15:06:11] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2024-05-13 15:06:12] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2024-05-13 15:06:12] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20240513/r/resolwe-bio/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-05-13 15:06:16] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2024-05-13 15:06:16] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2024-05-13 15:06:16] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2024-05-13 15:06:16] INFO root fetch - main [MainThread]: Store serial: [23183387]
