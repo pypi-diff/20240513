@@ -22771,3 +22771,69 @@ EOFError: EOF read where object expected
 [2024-05-13 16:33:33] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-13 16:33:33] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-13 16:33:33] INFO root fetch - main [MainThread]: Store serial: [23184925]
+[2024-05-13 16:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184925]
+[2024-05-13 16:35:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: direnumerate
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ooui
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymc
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: harness-py-sdk
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylint
+[2024-05-13 16:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superblocks-types
+[2024-05-13 16:35:44] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [direnumerate]: New version: [3.2rc2] Old Version: [3.2rc1]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.988]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pymc]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pylint]: New version: [3.1.0] Old Version: [3.0.4]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [ooui]: New version: [0.5.0] Old Version: [0.2.0]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [harness-py-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:35:44] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/80/89/b3d0f647bf1674cb15a8732e2749bdb9019be669484a7fa2187d5b42959a/superblocks-types-0.0.3.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/3e/37/f0eaa5cc2e2e69314f15c1aa5ba0c84d834692ab11baeb538b0e3717c183/direnumerate-3.2rc1.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/7a/a9/0edfeed967a09781f7f15ab347a57467cc12341afdde3785474f0c6129bc/pylint-3.0.4.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/f6/39/da1f3fb8cc5631946d208a1d405dc804a0159cfa865a00540977eb03d675/thesilent-0.0.988.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/50/62/6477b9893f692652153b89cd210fdc1c1ac58104cebd187064b86476c7cf/pymc-5.9.1.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/31/e8/3ee53d4612c22865a4b0f11788f4784f2313f860ff10262c174b09ac179e/ooui-0.2.0.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [harness-py-sdk]: Downloading https://files.pythonhosted.org/packages/48/d9/fe3457e065eda42ed684147f254ea39c843b02248471403d6fb85ee49762/harness_py_sdk-0.0.8.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/5e/00/07c2f3706a065643ed8b6690a4e5341769b698034b525cd99844094e255e/superblocks-types-0.0.4.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/1d/fd/9b041cd9dcb1381a97555bd15f029a8638efb8be61bac57eb5fd011c1634/direnumerate-3.2rc2.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/35/1c/4a8135f77a4ec8c0a6dc1d4543dd6fee55b36bb8bf629e2bcce8a94763a9/pylint-3.1.0.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-13 16:35:44] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.3.tar.gz tmp/superblocks-types-0.0.4.tar.gz --markdown 20240513/s/superblocks-types/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 16:35:44] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 16:35:44] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.988.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.988-0.0.99/README.md --exclude *.pyd
+[2024-05-13 16:35:44] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/0c/bc/e8fd2c3c601a508714ca24af0b61f10a7f1ac50899bbc458052f2ce9cc1f/ooui-0.5.0.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/56/56/15707b013e219d938becadd281066352063998ee753f1e936d432ee974eb/pymc-5.9.2.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-05-13 16:35:44] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.2rc1.tar.gz tmp/direnumerate-3.2rc2.tar.gz --markdown 20240513/d/direnumerate/3.2rc1-3.2rc2/README.md --exclude *.pyd
+[2024-05-13 16:35:44] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-13 16:35:44] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.2.0.tar.gz tmp/ooui-0.5.0.tar.gz --markdown 20240513/o/ooui/0.2.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pylint]: executing diffoscope
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint-3.0.4.tar.gz tmp/pylint-3.1.0.tar.gz --markdown 20240513/p/pylint/3.0.4-3.1.0/README.md --exclude *.pyd
+[2024-05-13 16:35:44] INFO root fetch - processPackages [harness-py-sdk]: Downloading https://files.pythonhosted.org/packages/18/7d/875f4033b4af291d82163b75e8d0cf9e107f6663a0a2c4cb7f0e84cc5605/harness_py_sdk-0.0.9.tar.gz
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pymc]: executing diffoscope
+[2024-05-13 16:35:44] INFO root fetch - processPackages [pymc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-5.9.1.tar.gz tmp/pymc-5.9.2.tar.gz --markdown 20240513/p/pymc/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-05-13 16:35:45] INFO root fetch - processPackages [harness-py-sdk]: executing diffoscope
+[2024-05-13 16:35:45] INFO root fetch - processPackages [harness-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harness_py_sdk-0.0.8.tar.gz tmp/harness_py_sdk-0.0.9.tar.gz --markdown 20240513/h/harness-py-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:35:45] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.3.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.4.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-13 16:35:45] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.988.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 16:35:45] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.2.0.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.5.0.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-13 16:35:45] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.2rc1.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.2rc2.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-05-13 16:35:45] INFO root fetch - processPackages [harness-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harness_py_sdk-0.0.8.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - processPackages [harness-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harness_py_sdk-0.0.9.tar.gz]
+[2024-05-13 16:35:45] INFO root fetch - main [MainThread]: End processing [harness-py-sdk]: success
+[2024-05-13 16:35:46] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.9.1.tar.gz]
+[2024-05-13 16:35:46] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.9.2.tar.gz]
+[2024-05-13 16:35:46] INFO root fetch - main [MainThread]: End processing [pymc]: success
+[2024-05-13 16:35:48] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.0.4.tar.gz]
+[2024-05-13 16:35:48] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.1.0.tar.gz]
+[2024-05-13 16:35:48] INFO root fetch - main [MainThread]: End processing [pylint]: success
+[2024-05-13 16:35:48] INFO root fetch - main [MainThread]: Store serial: [23184949]
