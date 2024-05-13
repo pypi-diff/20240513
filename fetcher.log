@@ -10253,3 +10253,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:14:49] INFO root fetch - processPackages [youless-api]: Remove: archive file [/home/abi/fetcher/tmp/youless_api-1.1.1.tar.gz]
 [2024-05-13 09:14:49] INFO root fetch - main [MainThread]: End processing [youless-api]: success
 [2024-05-13 09:14:49] INFO root fetch - main [MainThread]: Store serial: [23179177]
+[2024-05-13 09:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179177]
+[2024-05-13 09:16:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 09:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: incitinglyz
+[2024-05-13 09:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: go-task-bin
+[2024-05-13 09:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod115
+[2024-05-13 09:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnfjson
+[2024-05-13 09:16:59] INFO root fetch - processPackages [dnfjson]: New version: [0.3.0] Old Version: [0.2.0rc1]
+[2024-05-13 09:16:59] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.4]
+[2024-05-13 09:16:59] WARNING root fetch - processPackages [incitinglyz]: Skipping, unable to determine old version
+[2024-05-13 09:16:59] INFO root fetch - processPackages [go-task-bin]: New version: [3.37.1] Old Version: [3.37.0]
+[2024-05-13 09:16:59] INFO root fetch - main [MainThread]: End processing [incitinglyz] error
+[2024-05-13 09:16:59] INFO root fetch - processPackages [dnfjson]: Downloading https://files.pythonhosted.org/packages/f3/cb/32c0189bd9e7796b448aa1b0431d8b7aa864ad0b6bd654fdfbc08a6cebfb/dnfjson-0.2.0rc1.tar.gz
+[2024-05-13 09:17:00] INFO root fetch - processPackages [go-task-bin]: Downloading https://files.pythonhosted.org/packages/69/8c/04bf6533e9ad21d3f1146d197c3bcfff7b25b98dff6f74f407270443cf7f/go_task_bin-3.37.0.tar.gz
+[2024-05-13 09:17:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/f6/23/05df7b58cd130cb9bf8cc154c9e8908ad16efea5c5d230ac1f5276db8e76/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-13 09:17:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/32/cd/f8c31f93641ec6df0f7cd23ba35ce21b7bb95a2c516b6cd31b06b7e3a67b/odoo_addon_l10n_es_aeat_mod115-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 09:17:00] INFO root fetch - processPackages [go-task-bin]: Downloading https://files.pythonhosted.org/packages/92/84/79614274b918dd33848debd7a759e4d8b32bc0b0d621463a3d000acc75a2/go_task_bin-3.37.1.tar.gz
+[2024-05-13 09:17:00] INFO root fetch - processPackages [dnfjson]: Downloading https://files.pythonhosted.org/packages/17/ef/e60fd78b502a2b71e70daf7791710d23cb6f201fdddcba5123c97c882f5d/dnfjson-0.3.0-py3-none-any.whl
+[2024-05-13 09:17:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: executing diffoscope
+[2024-05-13 09:17:00] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod115-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-l10n-es-aeat-mod115/16.0.1.0.1.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-13 09:17:00] INFO root fetch - processPackages [go-task-bin]: executing diffoscope
+[2024-05-13 09:17:00] INFO root fetch - processPackages [go-task-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_task_bin-3.37.0.tar.gz tmp/go_task_bin-3.37.1.tar.gz --markdown 20240513/g/go-task-bin/3.37.0-3.37.1/README.md --exclude *.pyd
+[2024-05-13 09:17:00] INFO root fetch - processPackages [dnfjson]: executing diffoscope
+[2024-05-13 09:17:00] INFO root fetch - processPackages [dnfjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnfjson-0.2.0rc1.tar.gz tmp/dnfjson-0.3.0-py3-none-any.whl.zip --markdown 20240513/d/dnfjson/0.2.0rc1-0.3.0/README.md --exclude *.pyd
+[2024-05-13 09:17:01] INFO root fetch - processPackages [dnfjson]: Remove: archive file [/home/abi/fetcher/tmp/dnfjson-0.2.0rc1.tar.gz]
+[2024-05-13 09:17:01] INFO root fetch - processPackages [dnfjson]: Remove: archive file [/home/abi/fetcher/tmp/dnfjson-0.3.0-py3-none-any.whl.zip]
+[2024-05-13 09:17:01] INFO root fetch - main [MainThread]: End processing [dnfjson]: success
+[2024-05-13 09:17:01] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-13 09:17:01] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod115-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 09:17:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod115]: success
+[2024-05-13 09:17:02] INFO root fetch - processPackages [go-task-bin]: Remove: archive file [/home/abi/fetcher/tmp/go_task_bin-3.37.0.tar.gz]
+[2024-05-13 09:17:02] INFO root fetch - processPackages [go-task-bin]: Remove: archive file [/home/abi/fetcher/tmp/go_task_bin-3.37.1.tar.gz]
+[2024-05-13 09:17:02] INFO root fetch - main [MainThread]: End processing [go-task-bin]: success
+[2024-05-13 09:17:02] INFO root fetch - main [MainThread]: Store serial: [23179195]
