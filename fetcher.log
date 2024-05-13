@@ -10627,3 +10627,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:31:14] INFO root fetch - processPackages [streamlit-date-picker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_date_picker-0.0.3-py3-none-any.whl.zip]
 [2024-05-13 09:31:14] INFO root fetch - main [MainThread]: End processing [streamlit-date-picker]: success
 [2024-05-13 09:31:14] INFO root fetch - main [MainThread]: Store serial: [23179333]
+[2024-05-13 09:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179333]
+[2024-05-13 09:33:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boresomenessz
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscloud
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-core-package
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astronomer-cosmos
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-shopfloor-rest-log
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: binpolar
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyminufit
+[2024-05-13 09:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib_version_group3
+[2024-05-13 09:33:24] INFO root fetch - processPackages [lib_version_group3]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 09:33:24] INFO root fetch - processPackages [binpolar]: New version: [0.5] Old Version: [0.3]
+[2024-05-13 09:33:24] WARNING root fetch - processPackages [test-core-package]: Skipping, unable to determine old version
+[2024-05-13 09:33:24] INFO root fetch - main [MainThread]: End processing [test-core-package] error
+[2024-05-13 09:33:24] INFO root fetch - processPackages [hscloud]: New version: [0.0.0.8] Old Version: [0.0.0.7]
+[2024-05-13 09:33:24] INFO root fetch - processPackages [lib_version_group3]: Downloading https://files.pythonhosted.org/packages/67/d3/29abce748163b9e7fc64d84ad108da765b8a681eba872831e1e211817361/lib_version_group3-0.1.0.tar.gz
+[2024-05-13 09:33:24] INFO root fetch - processPackages [pyminufit]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 09:33:24] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/d5/c4/63b65a1c1f85fcf4526ee740c5aa68e8d22f2142219b7289ed6cd5321716/binpolar-0.3.tar.gz
+[2024-05-13 09:33:24] WARNING root fetch - processPackages [boresomenessz]: Skipping, unable to determine old version
+[2024-05-13 09:33:24] INFO root fetch - main [MainThread]: End processing [boresomenessz] error
+[2024-05-13 09:33:24] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/62/18d957bbb3a26818eeab6c1c066ce4d5731f79153487d5a0af1ee2cdfa6e/hscloud-0.0.0.7.tar.gz
+[2024-05-13 09:33:24] INFO root fetch - processPackages [astronomer-cosmos]: New version: [1.4.0rc1] Old Version: [1.4.0a4]
+[2024-05-13 09:33:24] WARNING root fetch - processPackages [odoo-addon-shopfloor-rest-log]: Skipping, unable to determine old version
+[2024-05-13 09:33:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-rest-log] error
+[2024-05-13 09:33:24] INFO root fetch - processPackages [pyminufit]: Downloading https://files.pythonhosted.org/packages/9b/cd/14d538ccfaf3a59ec3388f6e811e90a84cecb02c58f72ceb9f63d4e09712/pyminufit-0.2.1.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/e4/09/3727b727737fa2d68c3991ff4a9cce9e564363fdcc13ce403ce3b5e33301/astronomer_cosmos-1.4.0a4.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [lib_version_group3]: Downloading https://files.pythonhosted.org/packages/e4/c1/e6eec09b65addd2d86535a0ac45099f80821120809b5ef9769e7127671ba/lib_version_group3-0.1.1.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [binpolar]: Downloading https://files.pythonhosted.org/packages/6d/3e/89c754a4516a088075e69afea42b47cd6f0629eef8e05fc983b0516f889d/binpolar-0.5.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/33/ce/7f3e3e9a1459c306d459b8d193b224a0c47dddfe802bff03c950c186f4a0/hscloud-0.0.0.8.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [lib_version_group3]: executing diffoscope
+[2024-05-13 09:33:25] INFO root fetch - processPackages [lib_version_group3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_group3-0.1.0.tar.gz tmp/lib_version_group3-0.1.1.tar.gz --markdown 20240513/l/lib_version_group3/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 09:33:25] INFO root fetch - processPackages [binpolar]: executing diffoscope
+[2024-05-13 09:33:25] INFO root fetch - processPackages [binpolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpolar-0.3.tar.gz tmp/binpolar-0.5.tar.gz --markdown 20240513/b/binpolar/0.3-0.5/README.md --exclude *.pyd
+[2024-05-13 09:33:25] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-13 09:33:25] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.7.tar.gz tmp/hscloud-0.0.0.8.tar.gz --markdown 20240513/h/hscloud/0.0.0.7-0.0.0.8/README.md --exclude *.pyd
+[2024-05-13 09:33:25] INFO root fetch - processPackages [pyminufit]: Downloading https://files.pythonhosted.org/packages/c5/22/96c2f188a84227ee3c59a7027da60197c796ede93644e05fd25731753afb/pyminufit-0.2.2.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/06/ca/741fb2358d48140c42d8da1aab377bbb005b276e55aa5d5ad94ce5965cf9/astronomer_cosmos-1.4.0rc1.tar.gz
+[2024-05-13 09:33:25] INFO root fetch - processPackages [pyminufit]: executing diffoscope
+[2024-05-13 09:33:25] INFO root fetch - processPackages [pyminufit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminufit-0.2.1.tar.gz tmp/pyminufit-0.2.2.tar.gz --markdown 20240513/p/pyminufit/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 09:33:25] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2024-05-13 09:33:25] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-1.4.0a4.tar.gz tmp/astronomer_cosmos-1.4.0rc1.tar.gz --markdown 20240513/a/astronomer-cosmos/1.4.0a4-1.4.0rc1/README.md --exclude *.pyd
+[2024-05-13 09:33:26] INFO root fetch - processPackages [lib_version_group3]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_group3-0.1.0.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - processPackages [lib_version_group3]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_group3-0.1.1.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - main [MainThread]: End processing [lib_version_group3]: success
+[2024-05-13 09:33:26] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.3.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - processPackages [binpolar]: Remove: archive file [/home/abi/fetcher/tmp/binpolar-0.5.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - main [MainThread]: End processing [binpolar]: success
+[2024-05-13 09:33:26] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.7.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.8.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-13 09:33:26] INFO root fetch - processPackages [pyminufit]: Remove: archive file [/home/abi/fetcher/tmp/pyminufit-0.2.1.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - processPackages [pyminufit]: Remove: archive file [/home/abi/fetcher/tmp/pyminufit-0.2.2.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - main [MainThread]: End processing [pyminufit]: success
+[2024-05-13 09:33:26] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.4.0a4.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.4.0rc1.tar.gz]
+[2024-05-13 09:33:26] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2024-05-13 09:33:26] INFO root fetch - main [MainThread]: Store serial: [23179358]
