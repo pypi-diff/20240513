@@ -21447,3 +21447,111 @@ EOFError: EOF read where object expected
 [2024-05-13 15:49:12] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc97.post1.tar.gz]
 [2024-05-13 15:49:12] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
 [2024-05-13 15:49:12] INFO root fetch - main [MainThread]: Store serial: [23184012]
+[2024-05-13 15:51:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184012]
+[2024-05-13 15:51:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBlindRL
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vipas
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartlink-local
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gameon
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autosubmitconfigparser
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepeval
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hotsos
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cladoselachidaez
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyStratum-Cli
+[2024-05-13 15:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cgal
+[2024-05-13 15:51:21] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [vipas]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [PyStratum-Cli]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.2rc97.post1] Old Version: [0.1.2rc96.post1]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/ae/07/11335a5644a059fdac803beafdf4047702469c9327d6b0739276135b3318/vipas-0.0.6.tar.gz
+[2024-05-13 15:51:21] WARNING root fetch - processPackages [cladoselachidaez]: Skipping, unable to determine old version
+[2024-05-13 15:51:21] INFO root fetch - processPackages [cladoselachidaez]: Start processing: reverse-argparse
+[2024-05-13 15:51:21] INFO root fetch - main [MainThread]: End processing [cladoselachidaez] error
+[2024-05-13 15:51:21] INFO root fetch - processPackages [gameon]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.62] Old Version: [1.0.61]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/84/1d/0dbe22444712f9b1459a5249de9008f4d9283821ce488470798930e93661/pyblindrl-0.1.2rc96.post1.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [cgal]: New version: [5.6.post202402191743] Old Version: [5.6.post202402071826]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [PyStratum-Cli]: Downloading https://files.pythonhosted.org/packages/f9/49/2236e16f9e86e08cf1beb96d7f42ce3a6abf0327f3a3ba061f25406ce3e3/pystratum_cli-2.0.0.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [reverse-argparse]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 15:51:21] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [gameon]: Downloading https://files.pythonhosted.org/packages/78/a6/93923f3db810e130b2e6cc257d46a3c6bdbf13e6d618fbf40e7a870252d9/gameon-1.0.7.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/b6/9d/31ec08808dd075fcde1bb24044c366c26997d75c0da698e813a72220efe1/autosubmitconfigparser-1.0.61-py3-none-any.whl
+[2024-05-13 15:51:21] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/fe/14/abde1bed17d75402b25f60fb4cc39b4f7a2e862756476c2cc5d5c52628b9/cgal-5.6.post202402071826.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/cf/be/7b130b26a18f86c91ce84cb65037f6be31ec6df096460ac0984793bc16cb/vipas-0.0.7.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/1a/9b/ce4fdea372da39ecd0e3fccf50d9f62d92a542171275c749ce2a33383a8c/pyblindrl-0.1.2rc97.post1.tar.gz
+[2024-05-13 15:51:21] INFO root fetch - processPackages [reverse-argparse]: Downloading https://files.pythonhosted.org/packages/aa/71/2ff27c9413a7e71a17b7d002aafbf116e8c3bb8ed2c52a8231655a01c42a/reverse_argparse-1.0.7.tar.gz
+[2024-05-13 15:51:22] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240513/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [PyStratum-Cli]: Downloading https://files.pythonhosted.org/packages/32/a3/287eb1ccbfff7d7531099e761eae145d3b50c89055704389ab581af8a2f5/pystratum_cli-2.0.1.tar.gz
+[2024-05-13 15:51:22] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-13 15:51:22] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.0.6.tar.gz tmp/vipas-0.0.7.tar.gz --markdown 20240513/v/vipas/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240513/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.1.2rc96.post1.tar.gz tmp/pyblindrl-0.1.2rc97.post1.tar.gz --markdown 20240513/p/pyBlindRL/0.1.2rc96.post1-0.1.2rc97.post1/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [PyStratum-Cli]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [PyStratum-Cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystratum_cli-2.0.0.tar.gz tmp/pystratum_cli-2.0.1.tar.gz --markdown 20240513/P/PyStratum-Cli/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [gameon]: Downloading https://files.pythonhosted.org/packages/40/7c/d846cf7baf7b30ffbe9daf3905db2420a8ed5ab6d0e1dc4262c740028be6/gameon-1.0.8.tar.gz
+[2024-05-13 15:51:22] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240513/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/70/9a/1cc431b855ef27dcd7cc5c32d8114638f452a5595ca281129a43773a17ff/autosubmitconfigparser-1.0.62-py3-none-any.whl
+[2024-05-13 15:51:22] INFO root fetch - processPackages [cgal]: Downloading https://files.pythonhosted.org/packages/d8/54/df8b33d38436604a3975b51cd63c56d9a4a7ca75f8615cb6c5308a87cc28/cgal-5.6.post202402191743-cp39-cp39-win_amd64.whl
+[2024-05-13 15:51:22] INFO root fetch - processPackages [reverse-argparse]: Downloading https://files.pythonhosted.org/packages/43/fe/c7b812ca38d2e45ac33e169eed28ff2ac46af3bd6f442a098d05375a2089/reverse_argparse-1.0.8.tar.gz
+[2024-05-13 15:51:22] INFO root fetch - processPackages [gameon]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [gameon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameon-1.0.7.tar.gz tmp/gameon-1.0.8.tar.gz --markdown 20240513/g/gameon/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.61-py3-none-any.whl.zip tmp/autosubmitconfigparser-1.0.62-py3-none-any.whl.zip --markdown 20240513/a/autosubmitconfigparser/1.0.61-1.0.62/README.md --exclude *.pyd
+[2024-05-13 15:51:22] INFO root fetch - processPackages [reverse-argparse]: executing diffoscope
+[2024-05-13 15:51:22] INFO root fetch - processPackages [reverse-argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse_argparse-1.0.7.tar.gz tmp/reverse_argparse-1.0.8.tar.gz --markdown 20240513/r/reverse-argparse/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 15:51:23] WARNING root fetch - processPackages [cgal]: Skipping package: exceeds size limit 29338622>=10485760
+[2024-05-13 15:51:23] INFO root fetch - processPackages [cgal]: Start processing: finbourne-access-sdk
+[2024-05-13 15:51:23] INFO root fetch - main [MainThread]: End processing [cgal] error
+[2024-05-13 15:51:23] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 15:51:23] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-13 15:51:23] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-13 15:51:23] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.6.tar.gz]
+[2024-05-13 15:51:23] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.7.tar.gz]
+[2024-05-13 15:51:23] INFO root fetch - processPackages [vipas]: Start processing: agi-med-utils
+[2024-05-13 15:51:23] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-13 15:51:23] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-13 15:51:23] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-13 15:51:23] INFO root fetch - processPackages [smartlink-local]: Start processing: cminpack-numba
+[2024-05-13 15:51:23] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-13 15:51:23] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc96.post1.tar.gz]
+[2024-05-13 15:51:23] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.2rc97.post1.tar.gz]
+[2024-05-13 15:51:23] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-05-13 15:51:23] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-13 15:51:23] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 15:51:23] ERROR root fetch - processPackages [agi-med-utils]: Unable to get metadata: No such project 'agi-med-utils'
+[2024-05-13 15:51:23] INFO root fetch - main [MainThread]: End processing [agi-med-utils] error
+[2024-05-13 15:51:23] WARNING root fetch - processPackages [cminpack-numba]: Skipping, unable to determine old version
+[2024-05-13 15:51:23] INFO root fetch - main [MainThread]: End processing [cminpack-numba] error
+[2024-05-13 15:51:24] INFO root fetch - processPackages [PyStratum-Cli]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_cli-2.0.0.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - processPackages [PyStratum-Cli]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_cli-2.0.1.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - main [MainThread]: End processing [PyStratum-Cli]: success
+[2024-05-13 15:51:24] INFO root fetch - processPackages [gameon]: Remove: archive file [/home/abi/fetcher/tmp/gameon-1.0.7.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - processPackages [gameon]: Remove: archive file [/home/abi/fetcher/tmp/gameon-1.0.8.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - main [MainThread]: End processing [gameon]: success
+[2024-05-13 15:51:24] INFO root fetch - processPackages [reverse-argparse]: Remove: archive file [/home/abi/fetcher/tmp/reverse_argparse-1.0.7.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - processPackages [reverse-argparse]: Remove: archive file [/home/abi/fetcher/tmp/reverse_argparse-1.0.8.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - main [MainThread]: End processing [reverse-argparse]: success
+[2024-05-13 15:51:24] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.61-py3-none-any.whl.zip]
+[2024-05-13 15:51:24] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.62-py3-none-any.whl.zip]
+[2024-05-13 15:51:24] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2024-05-13 15:51:24] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-13 15:51:24] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-13 15:51:24] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-13 15:51:25] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-13 15:51:25] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-13 15:51:25] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-13 15:51:25] INFO root fetch - main [MainThread]: Store serial: [23184077]
