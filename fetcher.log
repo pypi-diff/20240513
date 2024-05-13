@@ -9240,3 +9240,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:18:37] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.2.4.tar.gz]
 [2024-05-13 08:18:37] INFO root fetch - main [MainThread]: End processing [goplus]: success
 [2024-05-13 08:18:37] INFO root fetch - main [MainThread]: Store serial: [23178652]
+[2024-05-13 08:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178652]
+[2024-05-13 08:20:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: constellate
+[2024-05-13 08:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-taxi
+[2024-05-13 08:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repulverizez
+[2024-05-13 08:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: direct7
+[2024-05-13 08:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxsharp
+[2024-05-13 08:20:45] INFO root fetch - processPackages [direct7]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 08:20:45] INFO root fetch - processPackages [constellate]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-13 08:20:45] WARNING root fetch - processPackages [llm-taxi]: Skipping, unable to determine old version
+[2024-05-13 08:20:45] INFO root fetch - main [MainThread]: End processing [llm-taxi] error
+[2024-05-13 08:20:46] WARNING root fetch - processPackages [repulverizez]: Skipping, unable to determine old version
+[2024-05-13 08:20:46] INFO root fetch - main [MainThread]: End processing [repulverizez] error
+[2024-05-13 08:20:46] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 08:20:46] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/6c/0d/fd37ee330a191b1d8a379de177951713c074efb50f5ccc649f94e258eabc/constellate-0.8.8.tar.gz
+[2024-05-13 08:20:46] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/a9/56/c9b4e46657e22dc41434f691fd3c4bee1c0f4d46f49d93b2a469df76decc/direct7-0.0.4.tar.gz
+[2024-05-13 08:20:46] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/63/c6/97b46e4a104ec47f2a18ca8aae7b9e76bbd0780d976266393df04a84812a/onnxsharp-0.0.5-py2.py3-none-any.whl
+[2024-05-13 08:20:46] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/1f/ca/19e7dfae08c4c8909dcde4744435503d70ee56a76cfb56e4947dd039c643/constellate-0.8.9.tar.gz
+[2024-05-13 08:20:46] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2024-05-13 08:20:46] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.8.8.tar.gz tmp/constellate-0.8.9.tar.gz --markdown 20240513/c/constellate/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-13 08:20:46] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/58/39/a0454832c1e73c7104c2da4a150fea7e052429e320d85e53ae8bf8767cc3/direct7-0.0.5.tar.gz
+[2024-05-13 08:20:46] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/17/9c/637500164fccd05e189a11d04b3841c179b1bfb18edfd8e17656d0737702/onnxsharp-0.0.6-py2.py3-none-any.whl
+[2024-05-13 08:20:46] INFO root fetch - processPackages [direct7]: executing diffoscope
+[2024-05-13 08:20:46] INFO root fetch - processPackages [direct7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct7-0.0.4.tar.gz tmp/direct7-0.0.5.tar.gz --markdown 20240513/d/direct7/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 08:20:46] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-05-13 08:20:46] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.5-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.6-py2.py3-none-any.whl.zip --markdown 20240513/o/onnxsharp/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 08:20:47] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.4.tar.gz]
+[2024-05-13 08:20:47] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.5.tar.gz]
+[2024-05-13 08:20:47] INFO root fetch - main [MainThread]: End processing [direct7]: success
+[2024-05-13 08:20:47] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.5-py2.py3-none-any.whl.zip]
+[2024-05-13 08:20:47] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-13 08:20:47] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-05-13 08:20:47] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.8.tar.gz]
+[2024-05-13 08:20:47] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.9.tar.gz]
+[2024-05-13 08:20:47] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2024-05-13 08:20:47] INFO root fetch - main [MainThread]: Store serial: [23178667]
