@@ -21986,3 +21986,69 @@ EOFError: EOF read where object expected
 [2024-05-13 16:07:08] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev6.tar.gz]
 [2024-05-13 16:07:08] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2024-05-13 16:07:08] INFO root fetch - main [MainThread]: Store serial: [23184292]
+[2024-05-13 16:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184292]
+[2024-05-13 16:09:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-pseudonimizer
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adb-tool-py
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hstream
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IvmInstruments
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gable
+[2024-05-13 16:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lightning-thunder
+[2024-05-13 16:09:17] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [IvmInstruments]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [adb-tool-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [hstream]: New version: [0.1.48] Old Version: [0.1.47]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [lightning-thunder]: New version: [0.2.0.dev20240513] Old Version: [0.2.0.dev20240505]
+[2024-05-13 16:09:17] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/8f/22/d47ee3acd3ea6d2157eb49de6a737852bc715f2b5779713bc582afa0a18b/IvmInstruments-0.1.5.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Downloading https://files.pythonhosted.org/packages/57/02/3076afc68812021af268f3ada8a74e51cf8ecf553d11205ca3d2736ac859/pyprocessors-pseudonimizer-0.5.7.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [adb-tool-py]: Downloading https://files.pythonhosted.org/packages/25/57/e7370991014e32f8cb76d69a6262fd40e9248be65e301f6c2b94df3abb73/adb_tool_py-0.0.1.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/9b/e9/33a2ae34f9c9d21ed28345c0fefa18dc881a04597c45fecbb41f1844db34/hstream-0.1.47.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [lightning-thunder]: Downloading https://files.pythonhosted.org/packages/01/fd/ce172955f279c4d9bc867dcf72646c5b6fb0a5043dfba0e9fb7fb77078d6/lightning_thunder-0.2.0.dev20240505.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Downloading https://files.pythonhosted.org/packages/20/66/36651888d7a67dd5784f05fdf46e8c8573a66adf85021ecf6470e2a5405f/pyprocessors-pseudonimizer-0.5.9.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/df/2d/a4f8e7865450d007a7323f48100c3cbcb2e0c31532b2eda5d195aaf0b185/IvmInstruments-0.2.0.tar.gz
+[2024-05-13 16:09:17] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-13 16:09:18] INFO root fetch - processPackages [adb-tool-py]: Downloading https://files.pythonhosted.org/packages/86/1d/56f5aee52780a959414ca9be37802fd69999b04941fb6df7037e38b63524/adb_tool_py-0.0.2.tar.gz
+[2024-05-13 16:09:18] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors-pseudonimizer-0.5.7.tar.gz tmp/pyprocessors-pseudonimizer-0.5.9.tar.gz --markdown 20240513/p/pyprocessors-pseudonimizer/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240513/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [IvmInstruments]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [IvmInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IvmInstruments-0.1.5.tar.gz tmp/IvmInstruments-0.2.0.tar.gz --markdown 20240513/I/IvmInstruments/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/50/a5/584365234126508771eb9ccd362d23f7aa77630456731fd33f89ee58005e/hstream-0.1.48.tar.gz
+[2024-05-13 16:09:18] INFO root fetch - processPackages [adb-tool-py]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [adb-tool-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb_tool_py-0.0.1.tar.gz tmp/adb_tool_py-0.0.2.tar.gz --markdown 20240513/a/adb-tool-py/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240513/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [lightning-thunder]: Downloading https://files.pythonhosted.org/packages/e4/97/72b7aae65a5c15b08b906fcb10a5aba2ae763019cc98db1b502d9d934922/lightning_thunder-0.2.0.dev20240513.tar.gz
+[2024-05-13 16:09:18] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.47.tar.gz tmp/hstream-0.1.48.tar.gz --markdown 20240513/h/hstream/0.1.47-0.1.48/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [lightning-thunder]: executing diffoscope
+[2024-05-13 16:09:18] INFO root fetch - processPackages [lightning-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_thunder-0.2.0.dev20240505.tar.gz tmp/lightning_thunder-0.2.0.dev20240513.tar.gz --markdown 20240513/l/lightning-thunder/0.2.0.dev20240505-0.2.0.dev20240513/README.md --exclude *.pyd
+[2024-05-13 16:09:18] INFO root fetch - processPackages [adb-tool-py]: Remove: archive file [/home/abi/fetcher/tmp/adb_tool_py-0.0.1.tar.gz]
+[2024-05-13 16:09:18] INFO root fetch - processPackages [adb-tool-py]: Remove: archive file [/home/abi/fetcher/tmp/adb_tool_py-0.0.2.tar.gz]
+[2024-05-13 16:09:18] INFO root fetch - main [MainThread]: End processing [adb-tool-py]: success
+[2024-05-13 16:09:19] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/IvmInstruments-0.1.5.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/IvmInstruments-0.2.0.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [IvmInstruments]: success
+[2024-05-13 16:09:19] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-pseudonimizer-0.5.7.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - processPackages [pyprocessors-pseudonimizer]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors-pseudonimizer-0.5.9.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [pyprocessors-pseudonimizer]: success
+[2024-05-13 16:09:19] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-13 16:09:19] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.47.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.48.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 16:09:19] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-13 16:09:19] INFO root fetch - processPackages [lightning-thunder]: Remove: archive file [/home/abi/fetcher/tmp/lightning_thunder-0.2.0.dev20240505.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - processPackages [lightning-thunder]: Remove: archive file [/home/abi/fetcher/tmp/lightning_thunder-0.2.0.dev20240513.tar.gz]
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: End processing [lightning-thunder]: success
+[2024-05-13 16:09:19] INFO root fetch - main [MainThread]: Store serial: [23184315]
