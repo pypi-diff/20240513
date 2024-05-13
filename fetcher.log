@@ -4413,3 +4413,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:21:05] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051203.tar.gz]
 [2024-05-13 05:21:05] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-13 05:21:05] INFO root fetch - main [MainThread]: Store serial: [23176355]
+[2024-05-13 05:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176355]
+[2024-05-13 05:23:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 05:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdr
+[2024-05-13 05:23:13] INFO root fetch - processPackages [sdr]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 05:23:14] INFO root fetch - processPackages [sdr]: Downloading https://files.pythonhosted.org/packages/10/4a/d167b42b779701ae66ba016e6132b2ccbc086361efd6f26f7508377d2bdd/sdr-0.0.8.tar.gz
+[2024-05-13 05:23:14] INFO root fetch - processPackages [sdr]: Downloading https://files.pythonhosted.org/packages/1b/8c/35f3f68f199be90bf550c14cf93cfd9dc95a586a2db1a7dd4832b67280c5/sdr-0.0.9.tar.gz
+[2024-05-13 05:23:15] INFO root fetch - processPackages [sdr]: executing diffoscope
+[2024-05-13 05:23:15] INFO root fetch - processPackages [sdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdr-0.0.8.tar.gz tmp/sdr-0.0.9.tar.gz --markdown 20240513/s/sdr/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 05:23:17] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.8.tar.gz]
+[2024-05-13 05:23:17] INFO root fetch - processPackages [sdr]: Remove: archive file [/home/abi/fetcher/tmp/sdr-0.0.9.tar.gz]
+[2024-05-13 05:23:17] INFO root fetch - main [MainThread]: End processing [sdr]: success
+[2024-05-13 05:23:17] INFO root fetch - main [MainThread]: Store serial: [23176359]
