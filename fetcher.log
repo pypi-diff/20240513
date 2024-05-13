@@ -3672,3 +3672,72 @@
 [2024-05-13 04:48:23] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.8.tar.gz]
 [2024-05-13 04:48:23] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
 [2024-05-13 04:48:23] INFO root fetch - main [MainThread]: Store serial: [23176070]
+[2024-05-13 04:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176070]
+[2024-05-13 04:50:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-backup
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: base-tools
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wlkata-mirobot-Virtual
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-plb-db
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linkml-owl
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplevc
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rapidsz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SQLConn
+[2024-05-13 04:50:32] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-13 04:50:32] INFO root fetch - processPackages [SQLConn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 04:50:32] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/85/f7/792fcb911970b33941a4a7a7b119d32399d687b3952a8e7ccf78dd66052f/wlkata_mirobot_Virtual-1.1.1.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [pih-backup]: New version: [0.16] Old Version: [0.15]
+[2024-05-13 04:50:32] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/87/8c/681230a743c60daa7a6b59cb9dac1dfe1866bb26dffc5783f1a1f35b40c9/SQLConn-0.0.8.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [linkml-owl]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-13 04:50:32] WARNING root fetch - processPackages [rapidsz]: Skipping, unable to determine old version
+[2024-05-13 04:50:32] INFO root fetch - main [MainThread]: End processing [rapidsz] error
+[2024-05-13 04:50:32] INFO root fetch - processPackages [pih-plb-db]: New version: [0.19] Old Version: [0.18]
+[2024-05-13 04:50:32] INFO root fetch - processPackages [simplevc]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 04:50:32] INFO root fetch - processPackages [pih-backup]: Downloading https://files.pythonhosted.org/packages/2e/05/2fccfc7950dd51aea9b87f6314094919a283f273121cdf31c759713da216/pih-backup-0.15.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [base-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 04:50:32] INFO root fetch - processPackages [pih-plb-db]: Downloading https://files.pythonhosted.org/packages/55/c7/94bb34d16cbc8361748628db54062256a55dfdc49fc5b3f1f649d9999596/pih-plb_db-0.18.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [simplevc]: Downloading https://files.pythonhosted.org/packages/84/71/cedfe2d9db01e94c67cf16e2e561b82c4a64ee5d166eb2e2121d200f2774/simplevc-0.0.2.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [linkml-owl]: Downloading https://files.pythonhosted.org/packages/80/95/1c1af1d3b8d4d047d6721e1d96a67092d481a81d52bfab260e6ad7ed941e/linkml_owl-0.4.0.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/4a/b7/047a42df4cd7cb70162e24d412f08f938d4a5ed61fe35fc2590cd471b52c/wlkata_mirobot_Virtual-1.1.2.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [SQLConn]: Downloading https://files.pythonhosted.org/packages/95/50/1363f4cc946bff2defd839576dc120017604a8f2df57f5524e654352de60/SQLConn-0.0.9.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [base-tools]: Downloading https://files.pythonhosted.org/packages/10/16/77dd18ff97df40cdf5198179c8a8071e732cf5c40690a911617df002ff5f/base_tools-0.0.8.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-13 04:50:32] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.1.1.tar.gz tmp/wlkata_mirobot_Virtual-1.1.2.tar.gz --markdown 20240513/w/wlkata-mirobot-Virtual/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-13 04:50:32] INFO root fetch - processPackages [pih-backup]: Downloading https://files.pythonhosted.org/packages/c0/52/50128e7b04af5204957afa0477dae8d9c4809e647bf028718d9daa4694f6/pih-backup-0.16.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [SQLConn]: executing diffoscope
+[2024-05-13 04:50:32] INFO root fetch - processPackages [SQLConn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLConn-0.0.8.tar.gz tmp/SQLConn-0.0.9.tar.gz --markdown 20240513/S/SQLConn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 04:50:32] INFO root fetch - processPackages [pih-plb-db]: Downloading https://files.pythonhosted.org/packages/76/df/7f721fde838284e7cd3774d6ff4a1fa9c0c708c0775077f16792c6186461/pih-plb_db-0.19.tar.gz
+[2024-05-13 04:50:32] INFO root fetch - processPackages [simplevc]: Downloading https://files.pythonhosted.org/packages/79/71/eb885f18904e55f1c9cf9cb491c0944fa43097e0c31214409904d2bd2065/simplevc-0.0.3.tar.gz
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-backup]: executing diffoscope
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-backup-0.15.tar.gz tmp/pih-backup-0.16.tar.gz --markdown 20240513/p/pih-backup/0.15-0.16/README.md --exclude *.pyd
+[2024-05-13 04:50:33] INFO root fetch - processPackages [linkml-owl]: Downloading https://files.pythonhosted.org/packages/d9/d0/6b76f4005a8935765c414f92b46cbe39117dc920d4e7bcac96951df643ab/linkml_owl-0.4.1.tar.gz
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-plb-db]: executing diffoscope
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-plb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_db-0.18.tar.gz tmp/pih-plb_db-0.19.tar.gz --markdown 20240513/p/pih-plb-db/0.18-0.19/README.md --exclude *.pyd
+[2024-05-13 04:50:33] INFO root fetch - processPackages [simplevc]: executing diffoscope
+[2024-05-13 04:50:33] INFO root fetch - processPackages [simplevc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplevc-0.0.2.tar.gz tmp/simplevc-0.0.3.tar.gz --markdown 20240513/s/simplevc/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 04:50:33] INFO root fetch - processPackages [base-tools]: Downloading https://files.pythonhosted.org/packages/cd/a1/401d9ddebdb4c25bc1fcdfd5f22b9b2b083fbf949ea989339eab47dc0fc0/base_tools-0.0.9.tar.gz
+[2024-05-13 04:50:33] INFO root fetch - processPackages [linkml-owl]: executing diffoscope
+[2024-05-13 04:50:33] INFO root fetch - processPackages [linkml-owl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkml_owl-0.4.0.tar.gz tmp/linkml_owl-0.4.1.tar.gz --markdown 20240513/l/linkml-owl/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-13 04:50:33] INFO root fetch - processPackages [base-tools]: executing diffoscope
+[2024-05-13 04:50:33] INFO root fetch - processPackages [base-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base_tools-0.0.8.tar.gz tmp/base_tools-0.0.9.tar.gz --markdown 20240513/b/base-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 04:50:33] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.1.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.2.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-13 04:50:33] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.8.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - processPackages [SQLConn]: Remove: archive file [/home/abi/fetcher/tmp/SQLConn-0.0.9.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - main [MainThread]: End processing [SQLConn]: success
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-backup]: Remove: archive file [/home/abi/fetcher/tmp/pih-backup-0.15.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-backup]: Remove: archive file [/home/abi/fetcher/tmp/pih-backup-0.16.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - main [MainThread]: End processing [pih-backup]: success
+[2024-05-13 04:50:33] INFO root fetch - processPackages [simplevc]: Remove: archive file [/home/abi/fetcher/tmp/simplevc-0.0.2.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - processPackages [simplevc]: Remove: archive file [/home/abi/fetcher/tmp/simplevc-0.0.3.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - main [MainThread]: End processing [simplevc]: success
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-plb-db]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_db-0.18.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - processPackages [pih-plb-db]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_db-0.19.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - main [MainThread]: End processing [pih-plb-db]: success
+[2024-05-13 04:50:33] INFO root fetch - processPackages [linkml-owl]: Remove: archive file [/home/abi/fetcher/tmp/linkml_owl-0.4.0.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - processPackages [linkml-owl]: Remove: archive file [/home/abi/fetcher/tmp/linkml_owl-0.4.1.tar.gz]
+[2024-05-13 04:50:33] INFO root fetch - main [MainThread]: End processing [linkml-owl]: success
+[2024-05-13 04:50:34] INFO root fetch - processPackages [base-tools]: Remove: archive file [/home/abi/fetcher/tmp/base_tools-0.0.8.tar.gz]
+[2024-05-13 04:50:34] INFO root fetch - processPackages [base-tools]: Remove: archive file [/home/abi/fetcher/tmp/base_tools-0.0.9.tar.gz]
+[2024-05-13 04:50:34] INFO root fetch - main [MainThread]: End processing [base-tools]: success
+[2024-05-13 04:50:34] INFO root fetch - main [MainThread]: Store serial: [23176094]
