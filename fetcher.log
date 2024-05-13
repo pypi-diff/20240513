@@ -14461,3 +14461,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:53:55] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-13 11:53:55] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-13 11:53:55] INFO root fetch - main [MainThread]: Store serial: [23181181]
+[2024-05-13 11:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181181]
+[2024-05-13 11:56:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wasangoz
+[2024-05-13 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forbidden
+[2024-05-13 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datalibro-backend
+[2024-05-13 11:56:04] INFO root fetch - processPackages [forbidden]: New version: [11.0] Old Version: [10.9]
+[2024-05-13 11:56:04] WARNING root fetch - processPackages [wasangoz]: Skipping, unable to determine old version
+[2024-05-13 11:56:04] INFO root fetch - main [MainThread]: End processing [wasangoz] error
+[2024-05-13 11:56:04] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-13 11:56:04] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/1f/2a/5c3209a31bc4c77eda57a0a6199f030a6c9332473b7b0e262948b74c9584/forbidden-10.9.tar.gz
+[2024-05-13 11:56:04] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/9c/09/4528dbbd4d683667a6f48430e3174ae347c5f328bc415b0ef0d9e94b4ed2/datalibro_backend-1.1.5.tar.gz
+[2024-05-13 11:56:04] INFO root fetch - processPackages [forbidden]: Downloading https://files.pythonhosted.org/packages/cf/f2/4009d0284192f2f871007c158b22d47a60fda3734a77f432ca66b96fddd1/forbidden-11.0.tar.gz
+[2024-05-13 11:56:04] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/51/15/c691510783c85def6b2a661b4ca2a6b300fe8d3ec311cfd521a6724848ff/datalibro_backend-1.1.6.tar.gz
+[2024-05-13 11:56:04] INFO root fetch - processPackages [forbidden]: executing diffoscope
+[2024-05-13 11:56:04] INFO root fetch - processPackages [forbidden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forbidden-10.9.tar.gz tmp/forbidden-11.0.tar.gz --markdown 20240513/f/forbidden/10.9-11.0/README.md --exclude *.pyd
+[2024-05-13 11:56:04] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-13 11:56:04] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.5.tar.gz tmp/datalibro_backend-1.1.6.tar.gz --markdown 20240513/d/datalibro-backend/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-13 11:56:05] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.5.tar.gz]
+[2024-05-13 11:56:05] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.6.tar.gz]
+[2024-05-13 11:56:05] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-13 11:56:05] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-10.9.tar.gz]
+[2024-05-13 11:56:05] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-11.0.tar.gz]
+[2024-05-13 11:56:05] INFO root fetch - main [MainThread]: End processing [forbidden]: success
+[2024-05-13 11:56:05] INFO root fetch - main [MainThread]: Store serial: [23181190]
