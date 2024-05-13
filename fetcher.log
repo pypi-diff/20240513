@@ -24370,3 +24370,132 @@ EOFError: EOF read where object expected
 [2024-05-13 17:16:35] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-13 17:16:35] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-13 17:16:35] INFO root fetch - main [MainThread]: Store serial: [23185572]
+[2024-05-13 17:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185572]
+[2024-05-13 17:18:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doped
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tna-frontend-jinja
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twyn
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tarnsidez
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ddmrp-report-part-flow-index
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-express-components
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: svasir03-ode-module
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aws
+[2024-05-13 17:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linien-common
+[2024-05-13 17:18:44] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.94] Old Version: [0.0.92]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [tna-frontend-jinja]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [doped]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-13 17:18:44] WARNING root fetch - processPackages [tarnsidez]: Skipping, unable to determine old version
+[2024-05-13 17:18:44] INFO root fetch - processPackages [tarnsidez]: Start processing: signal-export
+[2024-05-13 17:18:44] INFO root fetch - main [MainThread]: End processing [tarnsidez] error
+[2024-05-13 17:18:44] WARNING root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: Skipping, unable to determine old version
+[2024-05-13 17:18:44] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: Start processing: linien-server
+[2024-05-13 17:18:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-report-part-flow-index] error
+[2024-05-13 17:18:44] WARNING root fetch - processPackages [svasir03-ode-module]: Skipping, unable to determine old version
+[2024-05-13 17:18:44] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/20/fa/6c562661777a9080d5e82ea573a8568eddf618fed8c7a3bc5f140fe59b7f/dash_express_components-0.0.92.tar.gz
+[2024-05-13 17:18:44] INFO root fetch - processPackages [svasir03-ode-module]: Start processing: fastapi-xroad-soap
+[2024-05-13 17:18:44] INFO root fetch - main [MainThread]: End processing [svasir03-ode-module] error
+[2024-05-13 17:18:44] INFO root fetch - processPackages [linien-common]: New version: [2.0.1] Old Version: [2.0.0rc3]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [tna-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/9a/40/e849ab89ebf62fb58116667b0e32612c85220ecdf17671dce7b6f15291f8/tna-frontend-jinja-0.1.8.tar.gz
+[2024-05-13 17:18:44] INFO root fetch - processPackages [twyn]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-13 17:18:44] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-13 17:18:44] INFO root fetch - processPackages [doped]: Downloading https://files.pythonhosted.org/packages/36/f5/854d898322dd6eb25d9704a608c84b237440d357a2e204f5acc311d0057d/doped-2.4.0.tar.gz
+[2024-05-13 17:18:44] INFO root fetch - processPackages [signal-export]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [linien-server]: New version: [2.0.1] Old Version: [2.0.0rc3]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [fastapi-xroad-soap]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-13 17:18:44] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/3e/65/9a67763e70ad9b9b3fe662256881abfbdd085de12bd040fa57c2a3fa47d3/twyn-2.6.8.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/bb/62/e14b0255acf61e9b75e7c7c82af44c5f85153701994a30b0c9a34a018998/linien-common-2.0.0rc3.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [tna-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/d8/ef/ca870c7d93414a215b920eba8b57830de3bc6c6a851308c2989e4f81eb7c/tna-frontend-jinja-0.1.9.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [signal-export]: Downloading https://files.pythonhosted.org/packages/30/e3/df7aeac3d20d8db1288933e9ccb2e0b9ad09bbab83cab80dcf83aa013f8c/signal_export-2.3.1.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/06/6d/d91857b756b4b9723c2fe79b244a38739caa1eae767a2eae780e741c0202/linien-server-2.0.0rc3.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/bb/a3/82ac9a56130394b73fdde2a12adce4b5d7e668acdd2e06713583fb821861/fastapi_xroad_soap-0.4.4.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/4d/ef/2bb3fe1e750e4fa4d73e1204a5c90dd07024e1076922d38c6019873fdf61/dash_express_components-0.0.94.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240513/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [tna-frontend-jinja]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [tna-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tna-frontend-jinja-0.1.8.tar.gz tmp/tna-frontend-jinja-0.1.9.tar.gz --markdown 20240513/t/tna-frontend-jinja/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [doped]: Downloading https://files.pythonhosted.org/packages/d3/42/609271a397ee952b087b7be60b5de7b6fdd1229c703179c3ca5193350cf6/doped-2.4.1.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.92.tar.gz tmp/dash_express_components-0.0.94.tar.gz --markdown 20240513/d/dash-express-components/0.0.92-0.0.94/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/61/66/200fb13e9086b43ae9bb85b1e3325ec6da3d55eb634ac4b1bd2020be5677/twyn-2.6.9.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [doped]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [doped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doped-2.4.0.tar.gz tmp/doped-2.4.1.tar.gz --markdown 20240513/d/doped/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [signal-export]: Downloading https://files.pythonhosted.org/packages/6b/c3/e3291713b133b755243d875f7b0b7ed708ca46a05feb814b52102236d8e3/signal_export-2.3.2.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.6.8.tar.gz tmp/twyn-2.6.9.tar.gz --markdown 20240513/t/twyn/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [fastapi-xroad-soap]: Downloading https://files.pythonhosted.org/packages/54/71/178b51d46cee43e0d413cbf89c69df09df319a6212319b12ddaed6434953/fastapi_xroad_soap-0.4.5.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/f4/ba/1b3b1109434b1e9a78dffcde516b37930fbc441368789cbe387359d6d176/linien_common-2.0.1.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/29/a9/2b2eb0a52d18e716edbf6c3bd38400aa3f00504654bf5153f053d1ad6601/linien_server-2.0.1.tar.gz
+[2024-05-13 17:18:45] INFO root fetch - processPackages [signal-export]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [signal-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal_export-2.3.1.tar.gz tmp/signal_export-2.3.2.tar.gz --markdown 20240513/s/signal-export/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [fastapi-xroad-soap]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [fastapi-xroad-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_xroad_soap-0.4.4.tar.gz tmp/fastapi_xroad_soap-0.4.5.tar.gz --markdown 20240513/f/fastapi-xroad-soap/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-2.0.0rc3.tar.gz tmp/linien_common-2.0.1.tar.gz --markdown 20240513/l/linien-common/2.0.0rc3-2.0.1/README.md --exclude *.pyd
+[2024-05-13 17:18:45] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-13 17:18:45] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240513/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-13 17:18:46] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-05-13 17:18:46] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-2.0.0rc3.tar.gz tmp/linien_server-2.0.1.tar.gz --markdown 20240513/l/linien-server/2.0.0rc3-2.0.1/README.md --exclude *.pyd
+[2024-05-13 17:18:46] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [music-kraken]: Start processing: lions
+[2024-05-13 17:18:46] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-13 17:18:46] INFO root fetch - processPackages [lions]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [tna-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/tna-frontend-jinja-0.1.8.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [tna-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/tna-frontend-jinja-0.1.9.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [tna-frontend-jinja]: Start processing: linien-client
+[2024-05-13 17:18:46] INFO root fetch - main [MainThread]: End processing [tna-frontend-jinja]: success
+[2024-05-13 17:18:46] INFO root fetch - processPackages [linien-client]: New version: [2.0.1] Old Version: [2.0.0rc3]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/4c/02/62d33ffd523fa7bca46eff8b72f37baf11ed72607d9ffee25160189f92d3/lions-1.0.9.tar.gz
+[2024-05-13 17:18:46] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.8.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.9.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [twyn]: Start processing: linien-gui
+[2024-05-13 17:18:46] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2024-05-13 17:18:46] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-2.0.0rc3.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.1.tar.gz]
+[2024-05-13 17:18:46] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-05-13 17:18:46] INFO root fetch - processPackages [linien-gui]: New version: [2.0.1] Old Version: [2.0.0rc3]
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/5d/80/4594cea8df6f13cdcda56638771a0246e524c1616fb67cc100ed10b40c38/linien-client-2.0.0rc3.tar.gz
+[2024-05-13 17:18:47] INFO root fetch - processPackages [signal-export]: Remove: archive file [/home/abi/fetcher/tmp/signal_export-2.3.1.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - processPackages [signal-export]: Remove: archive file [/home/abi/fetcher/tmp/signal_export-2.3.2.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - main [MainThread]: End processing [signal-export]: success
+[2024-05-13 17:18:47] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/95/ea/d7c2bd30fce5b3ebe15c683f2d2091e784d4cc1004bb9b4c5bf2e9ae2d05/lions-1.1.0.tar.gz
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/0b/03/8a69e49e0953878f9542912e33e05aa90f37db1f2f773af276bb9c89afca/linien-gui-2.0.0rc3.tar.gz
+[2024-05-13 17:18:47] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.4.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - processPackages [fastapi-xroad-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_xroad_soap-0.4.5.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - main [MainThread]: End processing [fastapi-xroad-soap]: success
+[2024-05-13 17:18:47] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 17:18:47] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.9.tar.gz tmp/lions-1.1.0.tar.gz --markdown 20240513/l/lions/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-13 17:18:47] INFO root fetch - processPackages [doped]: Remove: archive file [/home/abi/fetcher/tmp/doped-2.4.0.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - processPackages [doped]: Remove: archive file [/home/abi/fetcher/tmp/doped-2.4.1.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - main [MainThread]: End processing [doped]: success
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/55/b9/7d01ef19ae6ec79d4e8367e3f4f00ca8a5aaee67c361e6692eb3c625712b/linien_client-2.0.1.tar.gz
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-2.0.0rc3.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.1.tar.gz]
+[2024-05-13 17:18:47] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-2.0.0rc3.tar.gz tmp/linien_client-2.0.1.tar.gz --markdown 20240513/l/linien-client/2.0.0rc3-2.0.1/README.md --exclude *.pyd
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/08/63/5e58b7e080d2a0905b31150b584d70a046a561e41eddc9332d2dcbb8e03c/linien_gui-2.0.1.tar.gz
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-13 17:18:47] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-2.0.0rc3.tar.gz tmp/linien_gui-2.0.1.tar.gz --markdown 20240513/l/linien-gui/2.0.0rc3-2.0.1/README.md --exclude *.pyd
+[2024-05-13 17:18:48] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.9.tar.gz]
+[2024-05-13 17:18:48] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.1.0.tar.gz]
+[2024-05-13 17:18:48] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 17:18:48] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-2.0.0rc3.tar.gz]
+[2024-05-13 17:18:48] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.1.tar.gz]
+[2024-05-13 17:18:48] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-05-13 17:18:48] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-2.0.0rc3.tar.gz]
+[2024-05-13 17:18:48] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.1.tar.gz]
+[2024-05-13 17:18:48] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-13 17:18:52] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.92.tar.gz]
+[2024-05-13 17:18:52] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.94.tar.gz]
+[2024-05-13 17:18:52] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2024-05-13 17:19:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-13 17:19:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-13 17:19:04] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-13 17:19:04] INFO root fetch - main [MainThread]: Store serial: [23185621]
