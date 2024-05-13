@@ -17747,3 +17747,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:58:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.6.tar.gz]
 [2024-05-13 13:58:22] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-13 13:58:22] INFO root fetch - main [MainThread]: Store serial: [23182504]
+[2024-05-13 14:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182504]
+[2024-05-13 14:00:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-sponsorblock
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hstream
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nchuchain
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-safedelete
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terminaltexteffects
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics-rknn
+[2024-05-13 14:00:32] INFO root fetch - processPackages [nchuchain]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-13 14:00:32] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/88/aa/ce2d6ab5801f7bdbc5537c0e5d6721df851f3ebb5a53e6e54ce84dd5f101/nchuchain-1.0.2.tar.gz
+[2024-05-13 14:00:32] INFO root fetch - processPackages [django-safedelete]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-13 14:00:32] INFO root fetch - processPackages [hstream]: New version: [0.1.44] Old Version: [0.1.43]
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.152] Old Version: [8.0.151]
+[2024-05-13 14:00:32] INFO root fetch - processPackages [python-sponsorblock]: New version: [0.1.dev1] Old Version: [0.1]
+[2024-05-13 14:00:32] INFO root fetch - processPackages [terminaltexteffects]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-13 14:00:32] INFO root fetch - processPackages [django-safedelete]: Downloading https://files.pythonhosted.org/packages/35/2c/d551a43f365d68baaa820fda87a2194d1be891de43c49a4a364ec84ed2a3/django-safedelete-1.3.3.tar.gz
+[2024-05-13 14:00:32] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/6a/ff/f4b35c72ff7eec4b6d0dbca6e82efe5ae064fe8cd180c30e6e3995b5b01d/hstream-0.1.43.tar.gz
+[2024-05-13 14:00:32] INFO root fetch - processPackages [python-sponsorblock]: Downloading https://files.pythonhosted.org/packages/cd/c4/ffb27cdacded3da163198ae600f2c1e9eb44cd2f30e3e8c1db7669f5b6a4/python_sponsorblock-0.1.tar.gz
+[2024-05-13 14:00:32] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/80/6f/62abe17cf5261b01bc5c37d801352e05a238969261e6b2ceb8c563cc7028/nchuchain-1.0.3.tar.gz
+[2024-05-13 14:00:32] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-05-13 14:00:32] INFO root fetch - processPackages [terminaltexteffects]: Downloading https://files.pythonhosted.org/packages/db/eb/7185b1690fc2e1cfe3412bd29c45e35877e8ff29ba9aa3973ce7629e64c2/terminaltexteffects-0.9.2.tar.gz
+[2024-05-13 14:00:33] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 14:00:33] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.2.tar.gz tmp/nchuchain-1.0.3.tar.gz --markdown 20240513/n/nchuchain/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-13 14:00:33] INFO root fetch - processPackages [django-safedelete]: Downloading https://files.pythonhosted.org/packages/11/3b/379c757c01f54ed7d9ddd129be6e9ad02b394932a93209e5aaa2b71e2da4/django_safedelete-1.4.0.tar.gz
+[2024-05-13 14:00:33] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/97/53/fc3eb04c8f54a74af5e1dfd5807bca0ea132a15809092ec214278b616e12/hstream-0.1.44.tar.gz
+[2024-05-13 14:00:33] INFO root fetch - processPackages [python-sponsorblock]: Downloading https://files.pythonhosted.org/packages/f8/23/729ebb1f1d53cf3e8cb10e72fe122fef7dd91ec4bdc691ac3e3af5c4d8ce/python_sponsorblock-0.1.dev1.tar.gz
+[2024-05-13 14:00:33] INFO root fetch - processPackages [django-safedelete]: executing diffoscope
+[2024-05-13 14:00:33] INFO root fetch - processPackages [django-safedelete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-safedelete-1.3.3.tar.gz tmp/django_safedelete-1.4.0.tar.gz --markdown 20240513/d/django-safedelete/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-13 14:00:33] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 14:00:33] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.43.tar.gz tmp/hstream-0.1.44.tar.gz --markdown 20240513/h/hstream/0.1.43-0.1.44/README.md --exclude *.pyd
+[2024-05-13 14:00:33] INFO root fetch - processPackages [terminaltexteffects]: Downloading https://files.pythonhosted.org/packages/b3/41/ceb2c6328836a9312511dc69151be9a778eed96fb23f419b3d6237501876/terminaltexteffects-0.9.3.tar.gz
+[2024-05-13 14:00:33] INFO root fetch - processPackages [python-sponsorblock]: executing diffoscope
+[2024-05-13 14:00:33] INFO root fetch - processPackages [python-sponsorblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sponsorblock-0.1.tar.gz tmp/python_sponsorblock-0.1.dev1.tar.gz --markdown 20240513/p/python-sponsorblock/0.1-0.1.dev1/README.md --exclude *.pyd
+[2024-05-13 14:00:33] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/9d/21/844392f227b7b049b89a1d52be3ba67d2547956a9d8a0a81e3e8704c1fbd/ultralytics_rknn-8.0.152-py3-none-any.whl
+[2024-05-13 14:00:33] INFO root fetch - processPackages [terminaltexteffects]: executing diffoscope
+[2024-05-13 14:00:33] INFO root fetch - processPackages [terminaltexteffects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminaltexteffects-0.9.2.tar.gz tmp/terminaltexteffects-0.9.3.tar.gz --markdown 20240513/t/terminaltexteffects/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-13 14:00:33] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-05-13 14:00:33] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip --markdown 20240513/u/ultralytics-rknn/8.0.151-8.0.152/README.md --exclude *.pyd
+[2024-05-13 14:00:33] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.2.tar.gz]
+[2024-05-13 14:00:33] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.3.tar.gz]
+[2024-05-13 14:00:33] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 14:00:34] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.43.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.44.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 14:00:34] INFO root fetch - processPackages [django-safedelete]: Remove: archive file [/home/abi/fetcher/tmp/django-safedelete-1.3.3.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - processPackages [django-safedelete]: Remove: archive file [/home/abi/fetcher/tmp/django_safedelete-1.4.0.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - main [MainThread]: End processing [django-safedelete]: success
+[2024-05-13 14:00:34] INFO root fetch - processPackages [python-sponsorblock]: Remove: archive file [/home/abi/fetcher/tmp/python_sponsorblock-0.1.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - processPackages [python-sponsorblock]: Remove: archive file [/home/abi/fetcher/tmp/python_sponsorblock-0.1.dev1.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - main [MainThread]: End processing [python-sponsorblock]: success
+[2024-05-13 14:00:34] INFO root fetch - processPackages [terminaltexteffects]: Remove: archive file [/home/abi/fetcher/tmp/terminaltexteffects-0.9.2.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - processPackages [terminaltexteffects]: Remove: archive file [/home/abi/fetcher/tmp/terminaltexteffects-0.9.3.tar.gz]
+[2024-05-13 14:00:34] INFO root fetch - main [MainThread]: End processing [terminaltexteffects]: success
+[2024-05-13 14:00:34] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-05-13 14:00:34] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
+[2024-05-13 14:00:34] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-05-13 14:00:34] INFO root fetch - main [MainThread]: Store serial: [23182519]
