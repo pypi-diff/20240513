@@ -8859,3 +8859,9 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:56:50] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.3.7-py3-none-any.whl.zip]
 [2024-05-13 07:56:50] INFO root fetch - main [MainThread]: End processing [dlrover]: success
 [2024-05-13 07:56:50] INFO root fetch - main [MainThread]: Store serial: [23178360]
+[2024-05-13 07:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178360]
+[2024-05-13 07:59:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 07:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ps-game-21
+[2024-05-13 07:59:00] WARNING root fetch - processPackages [ps-game-21]: Skipping, unable to determine old version
+[2024-05-13 07:59:00] INFO root fetch - main [MainThread]: End processing [ps-game-21] error
+[2024-05-13 07:59:00] INFO root fetch - main [MainThread]: Store serial: [23178368]
