@@ -10684,3 +10684,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:33:26] INFO root fetch - processPackages [astronomer-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/astronomer_cosmos-1.4.0rc1.tar.gz]
 [2024-05-13 09:33:26] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
 [2024-05-13 09:33:26] INFO root fetch - main [MainThread]: Store serial: [23179358]
+[2024-05-13 09:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179358]
+[2024-05-13 09:35:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 09:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-stack-dingding
+[2024-05-13 09:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: db-contrib-tool
+[2024-05-13 09:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Abava-SDK
+[2024-05-13 09:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfn_kafka_admin
+[2024-05-13 09:35:36] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 09:35:36] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-13 09:35:36] INFO root fetch - processPackages [Abava-SDK]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 09:35:36] INFO root fetch - processPackages [cfn_kafka_admin]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-13 09:35:36] INFO root fetch - processPackages [db-contrib-tool]: New version: [0.8.0] Old Version: [0.7.4]
+[2024-05-13 09:35:36] INFO root fetch - processPackages [cfn_kafka_admin]: Downloading https://files.pythonhosted.org/packages/6a/27/0a9afec6d7c3f973bf1f2b5eeb4a32f3fe33fcc5eeb32bba3f16944455a1/cfn_kafka_admin-0.6.1.tar.gz
+[2024-05-13 09:35:36] INFO root fetch - processPackages [Abava-SDK]: Downloading https://files.pythonhosted.org/packages/32/2c/64f4113b430c57f4735447115c8c26d975fe0c36f2633d10d95e17f70414/Abava_SDK-1.0.8-py3-none-any.whl
+[2024-05-13 09:35:36] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/c8/03/aca27e3c16322a296fe23f1bbfe9f72d134e11b5911397fbb4c2c19ba771/db_contrib_tool-0.7.4.tar.gz
+[2024-05-13 09:35:36] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-13 09:35:36] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 09:35:36] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 09:35:37] INFO root fetch - processPackages [cfn_kafka_admin]: Downloading https://files.pythonhosted.org/packages/d8/87/b6209b087c489235827ce2519f0959ae743f05ecf7f6ef2f3d9853dd81d5/cfn_kafka_admin-0.6.2.tar.gz
+[2024-05-13 09:35:37] INFO root fetch - processPackages [Abava-SDK]: Downloading https://files.pythonhosted.org/packages/21/d6/5e5d87ff36ae1de6a32bb5d7f229271a6238ae177f0b17f872d4ba07e6a8/Abava_SDK-1.0.9-py3-none-any.whl
+[2024-05-13 09:35:37] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/1c/88/455d611dcbe6db660d6a994d59ae3727925d2aa9ab63feee7806916dad70/db_contrib_tool-0.8.0.tar.gz
+[2024-05-13 09:35:37] INFO root fetch - processPackages [cfn_kafka_admin]: executing diffoscope
+[2024-05-13 09:35:37] INFO root fetch - processPackages [cfn_kafka_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn_kafka_admin-0.6.1.tar.gz tmp/cfn_kafka_admin-0.6.2.tar.gz --markdown 20240513/c/cfn_kafka_admin/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-13 09:35:37] INFO root fetch - processPackages [Abava-SDK]: executing diffoscope
+[2024-05-13 09:35:37] INFO root fetch - processPackages [Abava-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abava_SDK-1.0.8-py3-none-any.whl.zip tmp/Abava_SDK-1.0.9-py3-none-any.whl.zip --markdown 20240513/A/Abava-SDK/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 09:35:37] INFO root fetch - processPackages [db-contrib-tool]: executing diffoscope
+[2024-05-13 09:35:37] INFO root fetch - processPackages [db-contrib-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_contrib_tool-0.7.4.tar.gz tmp/db_contrib_tool-0.8.0.tar.gz --markdown 20240513/d/db-contrib-tool/0.7.4-0.8.0/README.md --exclude *.pyd
+[2024-05-13 09:35:37] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-13 09:35:37] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-13 09:35:37] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 09:35:38] INFO root fetch - processPackages [cfn_kafka_admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.6.1.tar.gz]
+[2024-05-13 09:35:38] INFO root fetch - processPackages [cfn_kafka_admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.6.2.tar.gz]
+[2024-05-13 09:35:38] INFO root fetch - main [MainThread]: End processing [cfn_kafka_admin]: success
+[2024-05-13 09:35:38] INFO root fetch - processPackages [db-contrib-tool]: Remove: archive file [/home/abi/fetcher/tmp/db_contrib_tool-0.7.4.tar.gz]
+[2024-05-13 09:35:38] INFO root fetch - processPackages [db-contrib-tool]: Remove: archive file [/home/abi/fetcher/tmp/db_contrib_tool-0.8.0.tar.gz]
+[2024-05-13 09:35:38] INFO root fetch - main [MainThread]: End processing [db-contrib-tool]: success
+[2024-05-13 09:35:38] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.8-py3-none-any.whl.zip]
+[2024-05-13 09:35:38] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.9-py3-none-any.whl.zip]
+[2024-05-13 09:35:38] INFO root fetch - main [MainThread]: End processing [Abava-SDK]: success
+[2024-05-13 09:35:38] INFO root fetch - main [MainThread]: Store serial: [23179369]
