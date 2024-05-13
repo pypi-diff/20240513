@@ -15988,3 +15988,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 13:01:23] INFO root fetch - processPackages [pyx2cscope]: Remove: archive file [/home/abi/fetcher/tmp/pyx2cscope-0.1.4.tar.gz]
 [2024-05-13 13:01:23] INFO root fetch - main [MainThread]: End processing [pyx2cscope]: success
 [2024-05-13 13:01:23] INFO root fetch - main [MainThread]: Store serial: [23181797]
+[2024-05-13 13:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181797]
+[2024-05-13 13:03:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 13:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTkMenuBar
+[2024-05-13 13:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facexformer-pipeline
+[2024-05-13 13:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arbundler
+[2024-05-13 13:03:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-sale-commission-geo-assign
+[2024-05-13 13:03:32] WARNING root fetch - processPackages [facexformer-pipeline]: Skipping, unable to determine old version
+[2024-05-13 13:03:32] WARNING root fetch - processPackages [arbundler]: Skipping, unable to determine old version
+[2024-05-13 13:03:32] INFO root fetch - main [MainThread]: End processing [facexformer-pipeline] error
+[2024-05-13 13:03:32] INFO root fetch - main [MainThread]: End processing [arbundler] error
+[2024-05-13 13:03:32] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev3]
+[2024-05-13 13:03:32] INFO root fetch - processPackages [CTkMenuBar]: New version: [0.8] Old Version: [0.7]
+[2024-05-13 13:03:32] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Downloading https://files.pythonhosted.org/packages/45/1e/c84dcb5565718e79a85db2551db9e7f9bd37940f77885d237e7ca2a92fd3/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev3-py3-none-any.whl
+[2024-05-13 13:03:32] INFO root fetch - processPackages [CTkMenuBar]: Downloading https://files.pythonhosted.org/packages/f8/62/17a6e017a98ca9a25a90c506e09b3e215e45e3b5a384a9a959042edd1118/ctkmenubar-0.7.tar.gz
+[2024-05-13 13:03:33] INFO root fetch - processPackages [CTkMenuBar]: Downloading https://files.pythonhosted.org/packages/ef/1b/3df22027211fcdd9b5b89e5c167730bf00ab57fe2c722ed961fb3204b33d/ctkmenubar-0.8.tar.gz
+[2024-05-13 13:03:33] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Downloading https://files.pythonhosted.org/packages/81/ce/0eeefb66ba21405246ed9ea787ccffa7a77b8d74c9a0ba8bdc06dca44d31/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl
+[2024-05-13 13:03:33] INFO root fetch - processPackages [CTkMenuBar]: executing diffoscope
+[2024-05-13 13:03:33] INFO root fetch - processPackages [CTkMenuBar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctkmenubar-0.7.tar.gz tmp/ctkmenubar-0.8.tar.gz --markdown 20240513/C/CTkMenuBar/0.7-0.8/README.md --exclude *.pyd
+[2024-05-13 13:03:33] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: executing diffoscope
+[2024-05-13 13:03:33] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-sale-commission-geo-assign/14.0.1.1.1.dev3-14.0.1.1.1.dev5/README.md --exclude *.pyd
+[2024-05-13 13:03:34] INFO root fetch - processPackages [CTkMenuBar]: Remove: archive file [/home/abi/fetcher/tmp/ctkmenubar-0.7.tar.gz]
+[2024-05-13 13:03:34] INFO root fetch - processPackages [CTkMenuBar]: Remove: archive file [/home/abi/fetcher/tmp/ctkmenubar-0.8.tar.gz]
+[2024-05-13 13:03:34] INFO root fetch - main [MainThread]: End processing [CTkMenuBar]: success
+[2024-05-13 13:03:34] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2024-05-13 13:03:34] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2024-05-13 13:03:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-geo-assign]: success
+[2024-05-13 13:03:34] INFO root fetch - main [MainThread]: Store serial: [23181812]
