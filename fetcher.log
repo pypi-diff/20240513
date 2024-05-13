@@ -11654,3 +11654,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:13:02] INFO root fetch - processPackages [wgpu]: Remove: archive file [/home/abi/fetcher/tmp/wgpu-0.9.5.tar.gz]
 [2024-05-13 10:13:02] INFO root fetch - main [MainThread]: End processing [wgpu]: success
 [2024-05-13 10:13:02] INFO root fetch - main [MainThread]: Store serial: [23179773]
+[2024-05-13 10:15:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179773]
+[2024-05-13 10:15:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erp-apis-temp
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DANE
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectice
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: helloai
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: co6co
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: co6co.db-ext
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: co6co.permissions
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: co6co.sanic-ext
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: co6co.web-db
+[2024-05-13 10:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-shopfloor-batch-automatic-creation
+[2024-05-13 10:15:11] INFO root fetch - processPackages [DANE]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co.db-ext]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-13 10:15:11] WARNING root fetch - processPackages [erp-apis-temp]: Skipping, unable to determine old version
+[2024-05-13 10:15:11] INFO root fetch - main [MainThread]: End processing [erp-apis-temp] error
+[2024-05-13 10:15:11] INFO root fetch - processPackages [helloai]: New version: [2.2] Old Version: [2.1]
+[2024-05-13 10:15:11] WARNING root fetch - processPackages [odoo-addon-shopfloor-batch-automatic-creation]: Skipping, unable to determine old version
+[2024-05-13 10:15:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-batch-automatic-creation] error
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co]: New version: [0.0.4] Old Version: [0.0.3.231001]
+[2024-05-13 10:15:11] WARNING root fetch - processPackages [co6co.sanic-ext]: Skipping, unable to determine old version
+[2024-05-13 10:15:11] INFO root fetch - main [MainThread]: End processing [co6co.sanic-ext] error
+[2024-05-13 10:15:11] WARNING root fetch - processPackages [co6co.web-db]: Skipping, unable to determine old version
+[2024-05-13 10:15:11] INFO root fetch - main [MainThread]: End processing [co6co.web-db] error
+[2024-05-13 10:15:11] WARNING root fetch - processPackages [co6co.permissions]: Skipping, unable to determine old version
+[2024-05-13 10:15:11] INFO root fetch - main [MainThread]: End processing [co6co.permissions] error
+[2024-05-13 10:15:11] INFO root fetch - processPackages [vectice]: New version: [24.2.5.1] Old Version: [24.2.4.0]
+[2024-05-13 10:15:11] INFO root fetch - processPackages [DANE]: Downloading https://files.pythonhosted.org/packages/a6/9f/17c62133621475e790131459d4473fe637fc63fef5de99346c8853d97aae/dane-0.4.1.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/7b/c4/0246f90bd4dfa66c749b504cb3c243f3db292ae15b6bf9d7dfd838deb46f/helloai-2.1-py3-none-any.whl
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co.db-ext]: Downloading https://files.pythonhosted.org/packages/f9/c1/7e870eb317b18fc1bb6744347abeba67f1a4fe5e0e7a9def4efc09d1ccef/co6co.db_ext-0.0.2.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/f7/e9/7ebe83a9473220c5305051a085826523b07c7747de311a16767b6964634a/vectice-24.2.4.0.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co]: Downloading https://files.pythonhosted.org/packages/6f/4d/a544b24b03a98b88ce48966318c6c196275b49ebc71fba4459d7707945ad/co6co-0.0.3.231001.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [DANE]: Downloading https://files.pythonhosted.org/packages/55/0a/a2a18c07bb744dbc4a303c9fa4aa71ec61636b7a8d2d7d856ea1a2e11dd7/dane-0.4.2.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co.db-ext]: Downloading https://files.pythonhosted.org/packages/c9/1f/13f8a2a84d0818cba7e2befd001bae07783c7f5f5cccb7e70c028183f7d5/co6co.db_ext-0.0.4.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co]: Downloading https://files.pythonhosted.org/packages/2b/95/ef32b330f36f461f3f3b449d3fe1961ddfdce690a735f75906166e1b95dd/co6co-0.0.4.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/91/1a/5190acd892562dc6c8d928e69471db6fc2c3b1317dec506fda114292429f/vectice-24.2.5.1.tar.gz
+[2024-05-13 10:15:11] INFO root fetch - processPackages [helloai]: Downloading https://files.pythonhosted.org/packages/25/05/ff687b8f7adf1e21f2eca690217746081a8d351ff234b4f8c13f41d43097/helloai-2.2-py3-none-any.whl
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co]: executing diffoscope
+[2024-05-13 10:15:11] INFO root fetch - processPackages [co6co]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co6co-0.0.3.231001.tar.gz tmp/co6co-0.0.4.tar.gz --markdown 20240513/c/co6co/0.0.3.231001-0.0.4/README.md --exclude *.pyd
+[2024-05-13 10:15:12] INFO root fetch - processPackages [co6co.db-ext]: executing diffoscope
+[2024-05-13 10:15:12] INFO root fetch - processPackages [co6co.db-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/co6co.db_ext-0.0.2.tar.gz tmp/co6co.db_ext-0.0.4.tar.gz --markdown 20240513/c/co6co.db-ext/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-13 10:15:12] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-05-13 10:15:12] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.2.4.0.tar.gz tmp/vectice-24.2.5.1.tar.gz --markdown 20240513/v/vectice/24.2.4.0-24.2.5.1/README.md --exclude *.pyd
+[2024-05-13 10:15:12] INFO root fetch - processPackages [DANE]: executing diffoscope
+[2024-05-13 10:15:12] INFO root fetch - processPackages [DANE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dane-0.4.1.tar.gz tmp/dane-0.4.2.tar.gz --markdown 20240513/D/DANE/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-13 10:15:12] INFO root fetch - processPackages [helloai]: executing diffoscope
+[2024-05-13 10:15:12] INFO root fetch - processPackages [helloai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloai-2.1-py3-none-any.whl.zip tmp/helloai-2.2-py3-none-any.whl.zip --markdown 20240513/h/helloai/2.1-2.2/README.md --exclude *.pyd
+[2024-05-13 10:15:12] INFO root fetch - processPackages [co6co]: Remove: archive file [/home/abi/fetcher/tmp/co6co-0.0.3.231001.tar.gz]
+[2024-05-13 10:15:12] INFO root fetch - processPackages [co6co]: Remove: archive file [/home/abi/fetcher/tmp/co6co-0.0.4.tar.gz]
+[2024-05-13 10:15:12] INFO root fetch - main [MainThread]: End processing [co6co]: success
+[2024-05-13 10:15:12] INFO root fetch - processPackages [co6co.db-ext]: Remove: archive file [/home/abi/fetcher/tmp/co6co.db_ext-0.0.2.tar.gz]
+[2024-05-13 10:15:12] INFO root fetch - processPackages [co6co.db-ext]: Remove: archive file [/home/abi/fetcher/tmp/co6co.db_ext-0.0.4.tar.gz]
+[2024-05-13 10:15:12] INFO root fetch - main [MainThread]: End processing [co6co.db-ext]: success
+[2024-05-13 10:15:12] INFO root fetch - processPackages [DANE]: Remove: archive file [/home/abi/fetcher/tmp/dane-0.4.1.tar.gz]
+[2024-05-13 10:15:12] INFO root fetch - processPackages [DANE]: Remove: archive file [/home/abi/fetcher/tmp/dane-0.4.2.tar.gz]
+[2024-05-13 10:15:12] INFO root fetch - main [MainThread]: End processing [DANE]: success
+[2024-05-13 10:15:13] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.4.0.tar.gz]
+[2024-05-13 10:15:13] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.5.1.tar.gz]
+[2024-05-13 10:15:13] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-05-13 10:15:13] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.1-py3-none-any.whl.zip]
+[2024-05-13 10:15:13] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.2-py3-none-any.whl.zip]
+[2024-05-13 10:15:13] INFO root fetch - main [MainThread]: End processing [helloai]: success
+[2024-05-13 10:15:13] INFO root fetch - main [MainThread]: Store serial: [23179805]
