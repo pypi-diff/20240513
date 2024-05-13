@@ -8215,3 +8215,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:32:28] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.4.0.tar.gz]
 [2024-05-13 07:32:28] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
 [2024-05-13 07:32:28] INFO root fetch - main [MainThread]: Store serial: [23178045]
+[2024-05-13 07:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178045]
+[2024-05-13 07:34:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toon3d
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-project-milestone
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mobio-admin-sdk
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yairz
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certesz
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-project-type
+[2024-05-13 07:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-project-milestone-tree
+[2024-05-13 07:34:36] WARNING root fetch - processPackages [certesz]: Skipping, unable to determine old version
+[2024-05-13 07:34:36] INFO root fetch - main [MainThread]: End processing [certesz] error
+[2024-05-13 07:34:36] INFO root fetch - processPackages [mobio-admin-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 07:34:36] INFO root fetch - processPackages [toon3d]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 07:34:36] INFO root fetch - processPackages [odoo13-addon-project-milestone]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2024-05-13 07:34:36] WARNING root fetch - processPackages [yairz]: Skipping, unable to determine old version
+[2024-05-13 07:34:36] INFO root fetch - main [MainThread]: End processing [yairz] error
+[2024-05-13 07:34:36] INFO root fetch - processPackages [odoo-addon-project-type]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-13 07:34:36] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-05-13 07:34:37] INFO root fetch - processPackages [toon3d]: Downloading https://files.pythonhosted.org/packages/f6/4f/443824229ad877bc9734cd55ffbe8fe8b50a4ae4a4b4ca0b4c199ef43eb5/toon3d-0.0.1.tar.gz
+[2024-05-13 07:34:37] INFO root fetch - processPackages [mobio-admin-sdk]: Downloading https://files.pythonhosted.org/packages/6c/8e/a372923613b5f9d90f5223b8ba25f57780b18d3ffcbd317b0a98b3eecd4f/mobio-admin-sdk-1.0.8.tar.gz
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo13-addon-project-milestone]: Downloading https://files.pythonhosted.org/packages/2f/49/ea8013eaa500723bf452ab4727610afa8525af4c43b6901e676c33a47faf/odoo13_addon_project_milestone-13.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/f0/65/ff1214eba3331c19d40135c4e2a9307711b02a30403f2a817a8b89b6dce1/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: Downloading https://files.pythonhosted.org/packages/a8/c6/d979177a8e8c2f637fed01ce74476c4940eb8ca494f3d4a7790ebbd4e3b9/odoo_addon_project_milestone_tree-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-13 07:34:37] INFO root fetch - processPackages [toon3d]: Downloading https://files.pythonhosted.org/packages/15/d5/44fcb65824214d82b8206808d5d3931bad4878f054228e7fdf0f4cbe9db1/toon3d-0.0.2.tar.gz
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: Downloading https://files.pythonhosted.org/packages/62/d2/62b0672c8121f084ae5dde6b7bfe6b3457a5c19bbde249691793e123e52d/odoo_addon_project_milestone_tree-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-13 07:34:37] INFO root fetch - processPackages [toon3d]: executing diffoscope
+[2024-05-13 07:34:37] INFO root fetch - processPackages [toon3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toon3d-0.0.1.tar.gz tmp/toon3d-0.0.2.tar.gz --markdown 20240513/t/toon3d/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 07:34:37] INFO root fetch - processPackages [mobio-admin-sdk]: Downloading https://files.pythonhosted.org/packages/3c/b2/a3e4036b79a86464d6bc419cd03eb080a8bf334c1eb0dd3b78921bc98b77/mobio-admin-sdk-1.0.9.tar.gz
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/81/1a/62997214c6b2f24c2fdd5cf1d395c176e0129cf4a2128af9d51b27565e92/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo13-addon-project-milestone]: Downloading https://files.pythonhosted.org/packages/6d/77/18280cc6df1e82b58af9c9d4b31389320d3180db5b0b7d160d488f43394b/odoo13_addon_project_milestone-13.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: executing diffoscope
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_milestone_tree-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_project_milestone_tree-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-project-milestone-tree/16.0.1.0.0.1-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-13 07:34:37] INFO root fetch - processPackages [mobio-admin-sdk]: executing diffoscope
+[2024-05-13 07:34:37] INFO root fetch - processPackages [mobio-admin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-admin-sdk-1.0.8.tar.gz tmp/mobio-admin-sdk-1.0.9.tar.gz --markdown 20240513/m/mobio-admin-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo13-addon-project-milestone]: executing diffoscope
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo13-addon-project-milestone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_milestone-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_project_milestone-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240513/o/odoo13-addon-project-milestone/13.0.1.0.1.dev8-13.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-type]: executing diffoscope
+[2024-05-13 07:34:37] INFO root fetch - processPackages [odoo-addon-project-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-project-type/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-13 07:34:38] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_milestone_tree-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-13 07:34:38] INFO root fetch - processPackages [odoo-addon-project-milestone-tree]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_milestone_tree-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-13 07:34:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-milestone-tree]: success
+[2024-05-13 07:34:38] INFO root fetch - processPackages [mobio-admin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-1.0.8.tar.gz]
+[2024-05-13 07:34:38] INFO root fetch - processPackages [mobio-admin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-1.0.9.tar.gz]
+[2024-05-13 07:34:38] INFO root fetch - main [MainThread]: End processing [mobio-admin-sdk]: success
+[2024-05-13 07:34:38] INFO root fetch - processPackages [toon3d]: Remove: archive file [/home/abi/fetcher/tmp/toon3d-0.0.1.tar.gz]
+[2024-05-13 07:34:38] INFO root fetch - processPackages [toon3d]: Remove: archive file [/home/abi/fetcher/tmp/toon3d-0.0.2.tar.gz]
+[2024-05-13 07:34:38] INFO root fetch - main [MainThread]: End processing [toon3d]: success
+[2024-05-13 07:34:38] INFO root fetch - processPackages [odoo13-addon-project-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_project_milestone-13.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-13 07:34:38] INFO root fetch - processPackages [odoo13-addon-project-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_project_milestone-13.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-13 07:34:38] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-milestone]: success
+[2024-05-13 07:34:38] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 07:34:38] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-13 07:34:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-type]: success
+[2024-05-13 07:34:38] INFO root fetch - main [MainThread]: Store serial: [23178069]
