@@ -21266,3 +21266,58 @@ EOFError: EOF read where object expected
 [2024-05-13 15:42:38] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.3.tar.gz]
 [2024-05-13 15:42:38] INFO root fetch - main [MainThread]: End processing [tensorkrowch]: success
 [2024-05-13 15:42:38] INFO root fetch - main [MainThread]: Store serial: [23183946]
+[2024-05-13 15:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183946]
+[2024-05-13 15:44:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 15:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catalyst-sdwan-lab
+[2024-05-13 15:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idzhiblavi-pydvim
+[2024-05-13 15:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-admin-assets
+[2024-05-13 15:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tromero-tailor
+[2024-05-13 15:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vlinder
+[2024-05-13 15:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vlinder
+[2024-05-13 15:44:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 15:44:47] INFO root fetch - processPackages [catalyst-sdwan-lab]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-13 15:44:47] INFO root fetch - processPackages [tromero-tailor]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-05-13 15:44:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: Downloading https://files.pythonhosted.org/packages/cd/1b/237eefe5738991550833697d54bf1a248892c087559057fa2fab2eea6bff/idzhiblavi_pydvim-0.2.1.tar.gz
+[2024-05-13 15:44:47] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1539] Old Version: [1.0.0.post1538]
+[2024-05-13 15:44:47] INFO root fetch - processPackages [vlinder]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-13 15:44:47] INFO root fetch - processPackages [vlinder]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-13 15:44:47] INFO root fetch - processPackages [catalyst-sdwan-lab]: Downloading https://files.pythonhosted.org/packages/ad/63/d86c58f92f8f97194c146811bb62781510fa38ac2bfd4d4cb9a55393a5f7/catalyst_sdwan_lab-2.0.8.tar.gz
+[2024-05-13 15:44:47] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/0d/3d/5f135836f441109f481af2c92daa3ea9b40f69952afc27c2d270307be022/tromero_tailor-0.0.13.tar.gz
+[2024-05-13 15:44:47] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/90/e7/4a91fad864828392c6487992d545985169e4e5cb6e424820faec8440d793/nucliadb_admin_assets-1.0.0.post1538-py3-none-any.whl
+[2024-05-13 15:44:47] INFO root fetch - processPackages [vlinder]: Downloading https://files.pythonhosted.org/packages/92/95/0896d308566f445a6dd86b19dbd0d6516e014e243f647b2410c000178cd8/vlinder-0.1.1.tar.gz
+[2024-05-13 15:44:47] INFO root fetch - processPackages [vlinder]: Downloading https://files.pythonhosted.org/packages/92/95/0896d308566f445a6dd86b19dbd0d6516e014e243f647b2410c000178cd8/vlinder-0.1.1.tar.gz
+[2024-05-13 15:44:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: Downloading https://files.pythonhosted.org/packages/19/59/c211326e7fe49afa5e2dface0d1842101a07d83d9ad05daa430dcc98b96b/idzhiblavi_pydvim-0.2.2.tar.gz
+[2024-05-13 15:44:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: executing diffoscope
+[2024-05-13 15:44:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idzhiblavi_pydvim-0.2.1.tar.gz tmp/idzhiblavi_pydvim-0.2.2.tar.gz --markdown 20240513/i/idzhiblavi-pydvim/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 15:44:48] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/60/c4/1eb23d9e56db26c6acdd4c83982661b67cbebc3258ef80ddc3f525068184/tromero_tailor-0.0.14.tar.gz
+[2024-05-13 15:44:48] INFO root fetch - processPackages [catalyst-sdwan-lab]: Downloading https://files.pythonhosted.org/packages/f1/23/dc98d2ac80682973787a6c392b53ab57a680b6dff8bac0b815c0864b0692/catalyst_sdwan_lab-2.0.9.tar.gz
+[2024-05-13 15:44:48] INFO root fetch - processPackages [catalyst-sdwan-lab]: executing diffoscope
+[2024-05-13 15:44:48] INFO root fetch - processPackages [catalyst-sdwan-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalyst_sdwan_lab-2.0.8.tar.gz tmp/catalyst_sdwan_lab-2.0.9.tar.gz --markdown 20240513/c/catalyst-sdwan-lab/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-13 15:44:48] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/56/32/46cd78dca775f19ed2255359f0e51a968d50b495f0f776b24db1032afd66/nucliadb_admin_assets-1.0.0.post1539-py3-none-any.whl
+[2024-05-13 15:44:48] INFO root fetch - processPackages [tromero-tailor]: executing diffoscope
+[2024-05-13 15:44:48] INFO root fetch - processPackages [tromero-tailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tromero_tailor-0.0.13.tar.gz tmp/tromero_tailor-0.0.14.tar.gz --markdown 20240513/t/tromero-tailor/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-05-13 15:44:48] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-13 15:44:48] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1538-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1539-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-admin-assets/1.0.0.post1538-1.0.0.post1539/README.md --exclude *.pyd
+[2024-05-13 15:44:48] INFO root fetch - processPackages [vlinder]: Downloading https://files.pythonhosted.org/packages/8a/1a/1a8cd54934b0df5fe36b433b1103f749043a5e77815768812b6e1d36266b/vlinder-1.0.0.tar.gz
+[2024-05-13 15:44:48] INFO root fetch - processPackages [vlinder]: Downloading https://files.pythonhosted.org/packages/8a/1a/1a8cd54934b0df5fe36b433b1103f749043a5e77815768812b6e1d36266b/vlinder-1.0.0.tar.gz
+[2024-05-13 15:44:48] INFO root fetch - processPackages [idzhiblavi-pydvim]: Remove: archive file [/home/abi/fetcher/tmp/idzhiblavi_pydvim-0.2.1.tar.gz]
+[2024-05-13 15:44:48] INFO root fetch - processPackages [idzhiblavi-pydvim]: Remove: archive file [/home/abi/fetcher/tmp/idzhiblavi_pydvim-0.2.2.tar.gz]
+[2024-05-13 15:44:48] INFO root fetch - main [MainThread]: End processing [idzhiblavi-pydvim]: success
+[2024-05-13 15:44:48] INFO root fetch - processPackages [vlinder]: executing diffoscope
+[2024-05-13 15:44:48] INFO root fetch - processPackages [vlinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlinder-0.1.1.tar.gz tmp/vlinder-1.0.0.tar.gz --markdown 20240513/v/vlinder/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-13 15:44:48] INFO root fetch - processPackages [vlinder]: executing diffoscope
+[2024-05-13 15:44:48] INFO root fetch - processPackages [vlinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlinder-0.1.1.tar.gz tmp/vlinder-1.0.0.tar.gz --markdown 20240513/v/vlinder/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-13 15:44:48] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.13.tar.gz]
+[2024-05-13 15:44:48] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.14.tar.gz]
+[2024-05-13 15:44:48] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
+[2024-05-13 15:44:49] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1538-py3-none-any.whl.zip]
+[2024-05-13 15:44:49] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1539-py3-none-any.whl.zip]
+[2024-05-13 15:44:49] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-13 15:44:49] INFO root fetch - processPackages [vlinder]: Remove: archive file [/home/abi/fetcher/tmp/vlinder-0.1.1.tar.gz]
+[2024-05-13 15:44:49] INFO root fetch - processPackages [vlinder]: Remove: archive file [/home/abi/fetcher/tmp/vlinder-1.0.0.tar.gz]
+[2024-05-13 15:44:49] INFO root fetch - main [MainThread]: End processing [vlinder]: success
+[2024-05-13 15:44:49] INFO root fetch - main [MainThread]: End processing [vlinder]: success
+[2024-05-13 15:44:49] INFO root fetch - processPackages [catalyst-sdwan-lab]: Remove: archive file [/home/abi/fetcher/tmp/catalyst_sdwan_lab-2.0.8.tar.gz]
+[2024-05-13 15:44:49] INFO root fetch - processPackages [catalyst-sdwan-lab]: Remove: archive file [/home/abi/fetcher/tmp/catalyst_sdwan_lab-2.0.9.tar.gz]
+[2024-05-13 15:44:49] INFO root fetch - main [MainThread]: End processing [catalyst-sdwan-lab]: success
+[2024-05-13 15:44:49] INFO root fetch - main [MainThread]: Store serial: [23183968]
