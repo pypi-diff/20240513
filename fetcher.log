@@ -22562,3 +22562,116 @@ EOFError: EOF read where object expected
 [2024-05-13 16:29:07] INFO root fetch - processPackages [syntheticstellarpopconvolve]: Remove: archive file [/home/abi/fetcher/tmp/syntheticstellarpopconvolve-0.2.tar.gz]
 [2024-05-13 16:29:07] INFO root fetch - main [MainThread]: End processing [syntheticstellarpopconvolve]: success
 [2024-05-13 16:29:07] INFO root fetch - main [MainThread]: Store serial: [23184838]
+[2024-05-13 16:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184838]
+[2024-05-13 16:31:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kameleo.local-api-client
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dig-ass-ep-protos
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: market-generic
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dig-ass-ocr-protos
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dig-ass-chat-protos
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kkpyui
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dig-ass-critic-protos
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dig-ass-text-protos
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amalgam-lang
+[2024-05-13 16:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codefly-cli
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-ocr-protos]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [codefly-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-ep-protos]: New version: [1.0.0] Old Version: [0.0.8]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-critic-protos]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [kkpyui]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [kameleo.local-api-client]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-05-13 16:31:16] WARNING root fetch - processPackages [market-generic]: Skipping, unable to determine old version
+[2024-05-13 16:31:16] INFO root fetch - processPackages [market-generic]: Start processing: gguf-core
+[2024-05-13 16:31:16] INFO root fetch - main [MainThread]: End processing [market-generic] error
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-chat-protos]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-text-protos]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/63/4a/ed137f1d23c139a5b3cf47ed0d191d7838a8c791885b6adc435672f1dc2c/codefly_cli-0.0.1.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [amalgam-lang]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/b5/e8/df567f2e80496fde056e2676aebd8a25f959beb1c802f1861cc85411f008/dig_ass_ocr_protos-0.0.4.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [gguf-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/d4/40/c788130ccb9a67542e8950f2df81b9481af284e225bf7cb2fac4b7fe40ff/dig_ass_ep_protos-0.0.8.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [kkpyui]: Downloading https://files.pythonhosted.org/packages/2f/72/7f37c9071384c52da0ce987ae47d1b7cc0518f058349895ed4c081bb4bcd/kkpyui-0.9.4.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/88/7f/34f6ff4a4f30ae6aad7bcfebf89398262ee2d0dac5925338f51efc9cf992/dig_ass_critic_protos-0.0.5.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [kameleo.local-api-client]: Downloading https://files.pythonhosted.org/packages/a5/18/ece22649a199cd4b72288450ddc24ba7b4a9ded5fdc11ed6ce1407f4979b/kameleo.local_api_client-3.1.1.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/ad/24/d4a58a2cd1fbe9a26874a1e93e7f4151628e81acdfc9bcd3be0c742961e4/dig_ass_chat_protos-1.0.0.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/23/f3/f29b0e463c1656bf4d8dd5e0893876e3b66811c28525fe434a04538818e2/dig_ass_text_protos-1.0.1.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [amalgam-lang]: Downloading https://files.pythonhosted.org/packages/1f/bb/2b41ffece52d20bec3d5b7622e3b3b8b953c74733f20bf731873baa3aae5/amalgam-lang-9.0.0.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/b8/e5/357ddbfd7cf2f40905b503ea67b055a66f1dcb674216c7c592c2462a8dc8/codefly_cli-0.0.2.tar.gz
+[2024-05-13 16:31:16] INFO root fetch - processPackages [gguf-core]: Downloading https://files.pythonhosted.org/packages/e3/22/b112370662b7849991fe26c5088b1a37924b8a799a5bec34f379c0beffef/gguf_core-0.0.8.tar.gz
+[2024-05-13 16:31:16] WARNING root fetch - processPackages [amalgam-lang]: Skipping package: exceeds size limit 21400981>=10485760
+[2024-05-13 16:31:16] INFO root fetch - processPackages [amalgam-lang]: Start processing: pachakz
+[2024-05-13 16:31:16] INFO root fetch - main [MainThread]: End processing [amalgam-lang] error
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/6a/33/8e0e00916ab23a4829b8db8208d2e75c197887024b9393215073613efa10/dig_ass_ocr_protos-0.0.5.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [codefly-cli]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [codefly-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefly_cli-0.0.1.tar.gz tmp/codefly_cli-0.0.2.tar.gz --markdown 20240513/c/codefly-cli/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/55/04/cb94dc4e6b44e516370c3de2f18d783ca78299a84a47a09c2e00d61bbaec/dig_ass_ep_protos-1.0.0.tar.gz
+[2024-05-13 16:31:17] WARNING root fetch - processPackages [pachakz]: Skipping, unable to determine old version
+[2024-05-13 16:31:17] INFO root fetch - processPackages [pachakz]: Start processing: nchuchain
+[2024-05-13 16:31:17] INFO root fetch - main [MainThread]: End processing [pachakz] error
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/d1/56/4660bcb4b81f4cacdd4c54fd271b3e33fb11a74748ea465e7eb3da738f08/dig_ass_critic_protos-1.0.0.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ocr_protos-0.0.4.tar.gz tmp/dig_ass_ocr_protos-0.0.5.tar.gz --markdown 20240513/d/dig-ass-ocr-protos/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/f9/f7/547e3c09bb5d63279fcdef17d990a85f7f13ab23a604fc436b2fd6efd20e/dig_ass_chat_protos-1.0.1.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [nchuchain]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 16:31:17] INFO root fetch - processPackages [kkpyui]: Downloading https://files.pythonhosted.org/packages/fc/9a/f1edfb0fcbcd4f8acd8bd78fe9455405427448ed3d2f2c36e987ac03a04d/kkpyui-0.9.5.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/30/26/b85f8bb970de74821afb5a49cf1a486d0408fda8fcda1599f0bba879bc99/dig_ass_text_protos-1.0.2.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [kameleo.local-api-client]: Downloading https://files.pythonhosted.org/packages/d7/03/5c90946911a85b0d8b90c39b49f62ef05ef2a2b100d534912fef745e96bb/kameleo.local_api_client-3.2.0.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-ep-protos]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-ep-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ep_protos-0.0.8.tar.gz tmp/dig_ass_ep_protos-1.0.0.tar.gz --markdown 20240513/d/dig-ass-ep-protos/0.0.8-1.0.0/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/84/77/371113b1c4788071816a784c0ad48522e14a73690f5dbd7bc3cc4c445205/nchuchain-1.0.7.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-critic-protos]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-critic-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_critic_protos-0.0.5.tar.gz tmp/dig_ass_critic_protos-1.0.0.tar.gz --markdown 20240513/d/dig-ass-critic-protos/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [kameleo.local-api-client]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [kameleo.local-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kameleo.local_api_client-3.1.1.tar.gz tmp/kameleo.local_api_client-3.2.0.tar.gz --markdown 20240513/k/kameleo.local-api-client/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-chat-protos]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-chat-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_chat_protos-1.0.0.tar.gz tmp/dig_ass_chat_protos-1.0.1.tar.gz --markdown 20240513/d/dig-ass-chat-protos/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-text-protos]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [dig-ass-text-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_text_protos-1.0.1.tar.gz tmp/dig_ass_text_protos-1.0.2.tar.gz --markdown 20240513/d/dig-ass-text-protos/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [kkpyui]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [kkpyui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyui-0.9.4.tar.gz tmp/kkpyui-0.9.5.tar.gz --markdown 20240513/k/kkpyui/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [gguf-core]: Downloading https://files.pythonhosted.org/packages/10/70/abcac777519a7aefa6b88d44ece74e4a1a0351373fd96bd381d192638052/gguf_core-0.0.9.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [gguf-core]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [gguf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gguf_core-0.0.8.tar.gz tmp/gguf_core-0.0.9.tar.gz --markdown 20240513/g/gguf-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:31:17] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/6a/85/f9a95d70278c2303f6f8887f540bcff2b49ffdab2113254632b9570583cf/nchuchain-1.0.8.tar.gz
+[2024-05-13 16:31:17] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 16:31:17] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.7.tar.gz tmp/nchuchain-1.0.8.tar.gz --markdown 20240513/n/nchuchain/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-0.0.8.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.4.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.0.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.5.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-ep-protos]: Start processing: data-watchtower
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [dig-ass-ep-protos]: success
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [dig-ass-ocr-protos]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [data-watchtower]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.1.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-0.0.5.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.2.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.0.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [codefly-cli]: success
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [data-watchtower]: Downloading https://files.pythonhosted.org/packages/55/f1/1695e5fe525a4d92f43a837befa73d3b0993050bb20aa3d9af6822d5bc23/data_watchtower-0.0.4.tar.gz
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.0.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.1.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [kkpyui]: Remove: archive file [/home/abi/fetcher/tmp/kkpyui-0.9.4.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [kkpyui]: Remove: archive file [/home/abi/fetcher/tmp/kkpyui-0.9.5.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [kkpyui]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.1.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.2.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [dig-ass-text-protos]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [kameleo.local-api-client]: Remove: archive file [/home/abi/fetcher/tmp/kameleo.local_api_client-3.1.1.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [kameleo.local-api-client]: Remove: archive file [/home/abi/fetcher/tmp/kameleo.local_api_client-3.2.0.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [kameleo.local-api-client]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [gguf-core]: Remove: archive file [/home/abi/fetcher/tmp/gguf_core-0.0.8.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - processPackages [gguf-core]: Remove: archive file [/home/abi/fetcher/tmp/gguf_core-0.0.9.tar.gz]
+[2024-05-13 16:31:18] INFO root fetch - main [MainThread]: End processing [gguf-core]: success
+[2024-05-13 16:31:18] INFO root fetch - processPackages [data-watchtower]: Downloading https://files.pythonhosted.org/packages/b8/fa/917eae7dfa06263c614f6219cd4ac2f202d1938b9e6c07b7ef8035c2aa67/data_watchtower-0.0.5.tar.gz
+[2024-05-13 16:31:19] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.7.tar.gz]
+[2024-05-13 16:31:19] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.8.tar.gz]
+[2024-05-13 16:31:19] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 16:31:19] INFO root fetch - processPackages [data-watchtower]: executing diffoscope
+[2024-05-13 16:31:19] INFO root fetch - processPackages [data-watchtower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_watchtower-0.0.4.tar.gz tmp/data_watchtower-0.0.5.tar.gz --markdown 20240513/d/data-watchtower/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 16:31:19] INFO root fetch - processPackages [data-watchtower]: Remove: archive file [/home/abi/fetcher/tmp/data_watchtower-0.0.4.tar.gz]
+[2024-05-13 16:31:19] INFO root fetch - processPackages [data-watchtower]: Remove: archive file [/home/abi/fetcher/tmp/data_watchtower-0.0.5.tar.gz]
+[2024-05-13 16:31:19] INFO root fetch - main [MainThread]: End processing [data-watchtower]: success
+[2024-05-13 16:31:19] INFO root fetch - main [MainThread]: Store serial: [23184890]
