@@ -23113,3 +23113,117 @@ EOFError: EOF read where object expected
 [2024-05-13 16:42:33] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.3.tar.gz]
 [2024-05-13 16:42:33] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2024-05-13 16:42:33] INFO root fetch - main [MainThread]: Store serial: [23185085]
+[2024-05-13 16:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185085]
+[2024-05-13 16:44:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasaurus-cxg
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-utils-xmlangel
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: networklab
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netsim-tools
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IvmInstruments
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sarus-data-spec-public
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moveread-dfy
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aopp-deconv-tool
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ultralytics-rknn
+[2024-05-13 16:44:42] INFO root fetch - processPackages [IvmInstruments]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [selenium-utils-xmlangel]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev7] Old Version: [4.0.0.dev6]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.151] Old Version: [3.3.4]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [pandasaurus-cxg]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/98/9c/eb1cb0ef7e03472fbee767444c66077a281948dd2988a43d9e81bfcdc1a4/ivminstruments-0.2.4.tar.gz
+[2024-05-13 16:44:42] INFO root fetch - processPackages [moveread-dfy]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [netsim-tools]: New version: [1.8.2] Old Version: [1.8.1.post1]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [networklab]: New version: [1.8.2.dev1] Old Version: [1.8.2]
+[2024-05-13 16:44:42] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 16:44:42] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-05-13 16:44:42] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-13 16:44:42] INFO root fetch - processPackages [selenium-utils-xmlangel]: Downloading https://files.pythonhosted.org/packages/97/de/7529f48ce49d450fa92e2e60e7d0a960c7dd840e5e486a528a2b9da6c9df/selenium_utils_xmlangel-0.0.1.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/1c/fe/8be350291a2828c5c41f2b24422fe43ba9f7b052a19927d9cc10f85f5400/ultralytics_rknn-3.3.4-py3-none-any.whl
+[2024-05-13 16:44:43] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/06/fe/4413ab8267e5a1421c450aaedfcbf259832289e9b8bd1813402b1ebf6b6c/netsim_tools-1.8.1.post1.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/6a/07/2179fe9c4e53620dd7885625068a6ab53c14c3ae2b2fcdf565a11e8321a5/networklab-1.8.2.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pandasaurus-cxg]: Downloading https://files.pythonhosted.org/packages/64/2d/2807af122db034b8d83afa963e466965df075172e9f2ec27fd8a2417c4da/pandasaurus_cxg-0.1.8.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [moveread-dfy]: Downloading https://files.pythonhosted.org/packages/26/39/90a5726bdddbfadd56139e397d47a84a067116334c3efe7bdb89eb7de437/moveread_dfy-0.1.0.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/f6/99/d909eddfce9898580710206fe0c587b65b62f709404cf829d9a4d17d7b1d/sarus_data_spec_public-4.0.0.dev7.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/f9/57/a2f66755bbf42c2e06eb88937df9351a51de9eac2e1c154856790e615578/ivminstruments-0.2.5.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [selenium-utils-xmlangel]: Downloading https://files.pythonhosted.org/packages/a5/13/e7fc67b925fc1662fbe08c65abcf923030e39227506ec8f4eee7550ffef8/selenium_utils_xmlangel-0.0.2.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [IvmInstruments]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [IvmInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivminstruments-0.2.4.tar.gz tmp/ivminstruments-0.2.5.tar.gz --markdown 20240513/I/IvmInstruments/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz --markdown 20240513/s/sarus-data-spec-public/4.0.0.dev6-4.0.0.dev7/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [selenium-utils-xmlangel]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [selenium-utils-xmlangel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_utils_xmlangel-0.0.1.tar.gz tmp/selenium_utils_xmlangel-0.0.2.tar.gz --markdown 20240513/s/selenium-utils-xmlangel/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [netsim-tools]: Downloading https://files.pythonhosted.org/packages/70/28/86f3ca470c1bfc6df0cbbd27855e9982870c3e498b173a92c3382becf31b/netsim_tools-1.8.2.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-05-13 16:44:43] INFO root fetch - processPackages [moveread-dfy]: Downloading https://files.pythonhosted.org/packages/0b/ed/2a19197125bc637029b6b7c02c9b503735c91cfbbe537443407060973e7b/moveread_dfy-0.1.2.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pandasaurus-cxg]: Downloading https://files.pythonhosted.org/packages/3b/11/12c892f1b671db289eb4b886a4e9dadafc1d823fa0f5894656044b3f4022/pandasaurus_cxg-0.1.9.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240513/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [networklab]: Downloading https://files.pythonhosted.org/packages/94/a6/07ab86292345ba1d526b6ae8767317e08d26b2e91b71dca09c9ff6a258a3/networklab-1.8.2.dev1.tar.gz
+[2024-05-13 16:44:43] INFO root fetch - processPackages [moveread-dfy]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [moveread-dfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveread_dfy-0.1.0.tar.gz tmp/moveread_dfy-0.1.2.tar.gz --markdown 20240513/m/moveread-dfy/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [netsim-tools]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [netsim-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsim_tools-1.8.1.post1.tar.gz tmp/netsim_tools-1.8.2.tar.gz --markdown 20240513/n/netsim-tools/1.8.1.post1-1.8.2/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pandasaurus-cxg]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [pandasaurus-cxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasaurus_cxg-0.1.8.tar.gz tmp/pandasaurus_cxg-0.1.9.tar.gz --markdown 20240513/p/pandasaurus-cxg/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-3.3.4-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip --markdown 20240513/u/ultralytics-rknn/3.3.4-8.0.151/README.md --exclude *.pyd
+[2024-05-13 16:44:43] INFO root fetch - processPackages [networklab]: executing diffoscope
+[2024-05-13 16:44:43] INFO root fetch - processPackages [networklab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networklab-1.8.2.tar.gz tmp/networklab-1.8.2.dev1.tar.gz --markdown 20240513/n/networklab/1.8.2-1.8.2.dev1/README.md --exclude *.pyd
+[2024-05-13 16:44:44] INFO root fetch - processPackages [selenium-utils-xmlangel]: Remove: archive file [/home/abi/fetcher/tmp/selenium_utils_xmlangel-0.0.1.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - processPackages [selenium-utils-xmlangel]: Remove: archive file [/home/abi/fetcher/tmp/selenium_utils_xmlangel-0.0.2.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - processPackages [selenium-utils-xmlangel]: Start processing: tilt-pitch
+[2024-05-13 16:44:44] INFO root fetch - main [MainThread]: End processing [selenium-utils-xmlangel]: success
+[2024-05-13 16:44:44] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/ivminstruments-0.2.4.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/ivminstruments-0.2.5.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - processPackages [IvmInstruments]: Start processing: qass-tools-analyzer
+[2024-05-13 16:44:44] INFO root fetch - main [MainThread]: End processing [IvmInstruments]: success
+[2024-05-13 16:44:44] INFO root fetch - processPackages [tilt-pitch]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-13 16:44:44] WARNING root fetch - processPackages [qass-tools-analyzer]: Skipping, unable to determine old version
+[2024-05-13 16:44:44] INFO root fetch - processPackages [qass-tools-analyzer]: Start processing: wauo
+[2024-05-13 16:44:44] INFO root fetch - main [MainThread]: End processing [qass-tools-analyzer] error
+[2024-05-13 16:44:44] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 16:44:44] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim_tools-1.8.1.post1.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - processPackages [netsim-tools]: Remove: archive file [/home/abi/fetcher/tmp/netsim_tools-1.8.2.tar.gz]
+[2024-05-13 16:44:44] INFO root fetch - main [MainThread]: End processing [netsim-tools]: success
+[2024-05-13 16:44:44] INFO root fetch - processPackages [wauo]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-13 16:44:45] INFO root fetch - processPackages [tilt-pitch]: Downloading https://files.pythonhosted.org/packages/f7/15/61f142dc568bb402eaa9fe26ff4fdb4fb1fd490c43809f7aef8f5da73b6b/tilt-pitch-1.0.2.tar.gz
+[2024-05-13 16:44:45] INFO root fetch - processPackages [pandasaurus-cxg]: Remove: archive file [/home/abi/fetcher/tmp/pandasaurus_cxg-0.1.8.tar.gz]
+[2024-05-13 16:44:45] INFO root fetch - processPackages [pandasaurus-cxg]: Remove: archive file [/home/abi/fetcher/tmp/pandasaurus_cxg-0.1.9.tar.gz]
+[2024-05-13 16:44:45] INFO root fetch - main [MainThread]: End processing [pandasaurus-cxg]: success
+[2024-05-13 16:44:45] INFO root fetch - processPackages [moveread-dfy]: Remove: archive file [/home/abi/fetcher/tmp/moveread_dfy-0.1.0.tar.gz]
+[2024-05-13 16:44:45] INFO root fetch - processPackages [moveread-dfy]: Remove: archive file [/home/abi/fetcher/tmp/moveread_dfy-0.1.2.tar.gz]
+[2024-05-13 16:44:45] INFO root fetch - main [MainThread]: End processing [moveread-dfy]: success
+[2024-05-13 16:44:45] INFO root fetch - processPackages [wauo]: Downloading https://files.pythonhosted.org/packages/ef/a7/0e4c832853d81c05a5ad7cbcddbb50cfbf3e9b9873dc9b384724cab7d23a/wauo-0.5.2.tar.gz
+[2024-05-13 16:44:45] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-05-13 16:44:45] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz]
+[2024-05-13 16:44:45] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-13 16:44:45] INFO root fetch - processPackages [wauo]: Downloading https://files.pythonhosted.org/packages/3c/e1/1b6f2473dd1ae41354811f49b3684cb529408262d4963c909c4a5eb60e50/wauo-0.5.3.tar.gz
+[2024-05-13 16:44:45] INFO root fetch - processPackages [tilt-pitch]: Downloading https://files.pythonhosted.org/packages/78/d5/17c2fc78d837e0cf9da74481910261e1c00d5ce84feec576cd6d6bbd78ac/tilt-pitch-1.1.0.tar.gz
+[2024-05-13 16:44:45] INFO root fetch - processPackages [wauo]: executing diffoscope
+[2024-05-13 16:44:45] INFO root fetch - processPackages [wauo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wauo-0.5.2.tar.gz tmp/wauo-0.5.3.tar.gz --markdown 20240513/w/wauo/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-13 16:44:45] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-3.3.4-py3-none-any.whl.zip]
+[2024-05-13 16:44:45] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-05-13 16:44:45] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-05-13 16:44:45] INFO root fetch - processPackages [tilt-pitch]: executing diffoscope
+[2024-05-13 16:44:45] INFO root fetch - processPackages [tilt-pitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilt-pitch-1.0.2.tar.gz tmp/tilt-pitch-1.1.0.tar.gz --markdown 20240513/t/tilt-pitch/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-13 16:44:46] INFO root fetch - processPackages [wauo]: Remove: archive file [/home/abi/fetcher/tmp/wauo-0.5.2.tar.gz]
+[2024-05-13 16:44:46] INFO root fetch - processPackages [wauo]: Remove: archive file [/home/abi/fetcher/tmp/wauo-0.5.3.tar.gz]
+[2024-05-13 16:44:46] INFO root fetch - main [MainThread]: End processing [wauo]: success
+[2024-05-13 16:44:46] INFO root fetch - processPackages [tilt-pitch]: Remove: archive file [/home/abi/fetcher/tmp/tilt-pitch-1.0.2.tar.gz]
+[2024-05-13 16:44:46] INFO root fetch - processPackages [tilt-pitch]: Remove: archive file [/home/abi/fetcher/tmp/tilt-pitch-1.1.0.tar.gz]
+[2024-05-13 16:44:46] INFO root fetch - main [MainThread]: End processing [tilt-pitch]: success
+[2024-05-13 16:44:47] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.2.tar.gz]
+[2024-05-13 16:44:47] INFO root fetch - processPackages [networklab]: Remove: archive file [/home/abi/fetcher/tmp/networklab-1.8.2.dev1.tar.gz]
+[2024-05-13 16:44:47] INFO root fetch - main [MainThread]: End processing [networklab]: success
+[2024-05-13 16:44:54] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-13 16:44:54] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-13 16:44:54] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-13 16:44:54] INFO root fetch - main [MainThread]: Store serial: [23185123]
