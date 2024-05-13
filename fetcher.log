@@ -12381,3 +12381,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:41:50] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-13 10:41:50] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-13 10:41:50] INFO root fetch - main [MainThread]: Store serial: [23180196]
+[2024-05-13 10:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180196]
+[2024-05-13 10:43:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 10:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-messaging-webpubsubservice
+[2024-05-13 10:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: koomkiez
+[2024-05-13 10:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: livestyled
+[2024-05-13 10:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frformat
+[2024-05-13 10:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bota
+[2024-05-13 10:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhlyr
+[2024-05-13 10:43:59] INFO root fetch - processPackages [zhlyr]: New version: [3.8] Old Version: [3.7]
+[2024-05-13 10:43:59] INFO root fetch - processPackages [frformat]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-13 10:43:59] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-13 10:43:59] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/9f/dd/0ad90ff6a9d0218567cbdaad701d1a0b7614b1b8042877b49be909fb5e86/zhlyr-3.7.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: New version: [1.1.0b1] Old Version: [1.1.0]
+[2024-05-13 10:43:59] WARNING root fetch - processPackages [koomkiez]: Skipping, unable to determine old version
+[2024-05-13 10:43:59] INFO root fetch - main [MainThread]: End processing [koomkiez] error
+[2024-05-13 10:43:59] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [frformat]: Downloading https://files.pythonhosted.org/packages/98/8b/c5c5aa5d37e667b9ff7a0d1c171131f5b86cca05e9ba6aa6cdc74fc23148/frformat-0.1.2.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [livestyled]: New version: [1.4.8] Old Version: [1.4.6]
+[2024-05-13 10:43:59] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: Downloading https://files.pythonhosted.org/packages/01/12/7b2d3fe1b91f87096eccf0d8b978ac57199c688a07dff14c5bdb78a84a5b/azure-messaging-webpubsubservice-1.1.0.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/df/c4/94c980973c5078a30fc9ea01fb366388c1348fe0ff33597095d58c535858/livestyled-1.4.6.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [frformat]: Downloading https://files.pythonhosted.org/packages/bb/a3/1e7d25f0f785c33cd91b3e90da5e0e031a785f6d8fd266927329b8e6fd5e/frformat-0.2.0.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/d8/e5/d1bf181028da069b781d1b4174d910b4b0700460b5da06cb44029d949c6e/zhlyr-3.8.tar.gz
+[2024-05-13 10:43:59] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-05-13 10:43:59] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240513/b/bota/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-13 10:43:59] INFO root fetch - processPackages [zhlyr]: executing diffoscope
+[2024-05-13 10:43:59] INFO root fetch - processPackages [zhlyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhlyr-3.7.tar.gz tmp/zhlyr-3.8.tar.gz --markdown 20240513/z/zhlyr/3.7-3.8/README.md --exclude *.pyd
+[2024-05-13 10:43:59] INFO root fetch - processPackages [frformat]: executing diffoscope
+[2024-05-13 10:43:59] INFO root fetch - processPackages [frformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frformat-0.1.2.tar.gz tmp/frformat-0.2.0.tar.gz --markdown 20240513/f/frformat/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:44:00] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: Downloading https://files.pythonhosted.org/packages/e8/67/991e4b20eb3bc05efc25e48ec2d9c9715de7b698368d4ba9658c458fe891/azure-messaging-webpubsubservice-1.1.0b1.zip
+[2024-05-13 10:44:00] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/d9/5b/dd0c5e58592af54ce169081c59ea48ed2bd6e92badd9882aee35ee9a7e20/livestyled-1.4.8.tar.gz
+[2024-05-13 10:44:00] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: executing diffoscope
+[2024-05-13 10:44:00] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-messaging-webpubsubservice-1.1.0.tar.gz tmp/azure-messaging-webpubsubservice-1.1.0b1.zip --markdown 20240513/a/azure-messaging-webpubsubservice/1.1.0-1.1.0b1/README.md --exclude *.pyd
+[2024-05-13 10:44:00] INFO root fetch - processPackages [livestyled]: executing diffoscope
+[2024-05-13 10:44:00] INFO root fetch - processPackages [livestyled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livestyled-1.4.6.tar.gz tmp/livestyled-1.4.8.tar.gz --markdown 20240513/l/livestyled/1.4.6-1.4.8/README.md --exclude *.pyd
+[2024-05-13 10:44:00] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-05-13 10:44:00] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.1.2.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.2.0.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - main [MainThread]: End processing [frformat]: success
+[2024-05-13 10:44:00] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.7.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.8.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - main [MainThread]: End processing [zhlyr]: success
+[2024-05-13 10:44:00] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: Remove: archive file [/home/abi/fetcher/tmp/azure-messaging-webpubsubservice-1.1.0.tar.gz]
+[2024-05-13 10:44:00] INFO root fetch - processPackages [azure-messaging-webpubsubservice]: Remove: archive file [/home/abi/fetcher/tmp/azure-messaging-webpubsubservice-1.1.0b1.zip]
+[2024-05-13 10:44:00] INFO root fetch - main [MainThread]: End processing [azure-messaging-webpubsubservice]: success
+[2024-05-13 10:44:01] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.6.tar.gz]
+[2024-05-13 10:44:01] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.8.tar.gz]
+[2024-05-13 10:44:01] INFO root fetch - main [MainThread]: End processing [livestyled]: success
+[2024-05-13 10:44:01] INFO root fetch - main [MainThread]: Store serial: [23180215]
