@@ -14637,3 +14637,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:02:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.52-py3-none-any.whl.zip]
 [2024-05-13 12:02:43] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-13 12:02:43] INFO root fetch - main [MainThread]: Store serial: [23181247]
+[2024-05-13 12:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181247]
+[2024-05-13 12:04:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seacrowd
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-custom-sidebar-test
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satsure-core-test
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawlee
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pineboo
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwb4fp
+[2024-05-13 12:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: undecoicz
+[2024-05-13 12:04:53] INFO root fetch - processPackages [satsure-core-test]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 12:04:53] INFO root fetch - processPackages [pineboo]: New version: [0.99.84] Old Version: [0.99.83.1]
+[2024-05-13 12:04:53] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 12:04:53] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/62/b2/1f8b8094f0814bd5513dc997a330bbcc0556538b1ea573999ca06fb0bc9e/satsure_core_test-0.0.7.tar.gz
+[2024-05-13 12:04:53] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/43/6b/abe9ec58d7c104717106f46631ffff111da4311cedc9b906f9058dc5d4d2/pineboo-0.99.83.1.tar.gz
+[2024-05-13 12:04:53] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b9] Old Version: [0.0.3b8]
+[2024-05-13 12:04:53] WARNING root fetch - processPackages [undecoicz]: Skipping, unable to determine old version
+[2024-05-13 12:04:53] INFO root fetch - main [MainThread]: End processing [undecoicz] error
+[2024-05-13 12:04:53] INFO root fetch - processPackages [seacrowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 12:04:53] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.6] Old Version: [0.6.2.5]
+[2024-05-13 12:04:53] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-13 12:04:53] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/57/20/3d5bb371e90bdb176b8bdbc1219e485f0019fc63547814b270c3acb9e9a2/satsure_core_test-0.0.8.tar.gz
+[2024-05-13 12:04:53] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/9f/72/688eb2e27a31cb96a74e93e99a90d6fe1cf7353cce9f00adbde3974adb74/crawlee-0.0.3b8.tar.gz
+[2024-05-13 12:04:53] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/ea/15/2c76219d3ba794aa24846ae64d1b07d4a6dd3c3c65e3b984d5d0a23a1eec/nwb4fp-0.6.2.5.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/1f/ba/346de6683a7e18210cd836f5cfbcd169e5daa3d6a3cd013d360925353530/seacrowd-0.0.8.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-13 12:04:54] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.0.7.tar.gz tmp/satsure_core_test-0.0.8.tar.gz --markdown 20240513/s/satsure-core-test/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 12:04:54] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cd/61/e3a8ac9e2f5d83c54a293e605a5ca480322d966c2f92d238bb5b550051b4/pineboo-0.99.84.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/bd/72/59d4679112bf49b1a5ebf80acfe22a278d776c7b67736f60b079b07594a6/nwb4fp-0.6.2.6.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/84/03/9368bf77c453e6b5e03fac8250e51113b079ed2408053fc99d1e551fe02f/crawlee-0.0.3b9.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [seacrowd]: Downloading https://files.pythonhosted.org/packages/db/e5/e823c1dd15f44fad1df7f17a4bc789afab1d6f35bdcec84ae1dcd8010936/seacrowd-0.0.9.tar.gz
+[2024-05-13 12:04:54] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-13 12:04:54] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b8.tar.gz tmp/crawlee-0.0.3b9.tar.gz --markdown 20240513/c/crawlee/0.0.3b8-0.0.3b9/README.md --exclude *.pyd
+[2024-05-13 12:04:54] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-13 12:04:54] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.5.tar.gz tmp/nwb4fp-0.6.2.6.tar.gz --markdown 20240513/n/nwb4fp/0.6.2.5-0.6.2.6/README.md --exclude *.pyd
+[2024-05-13 12:04:54] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-13 12:04:54] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240513/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 12:04:54] INFO root fetch - processPackages [seacrowd]: executing diffoscope
+[2024-05-13 12:04:54] INFO root fetch - processPackages [seacrowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seacrowd-0.0.8.tar.gz tmp/seacrowd-0.0.9.tar.gz --markdown 20240513/s/seacrowd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 12:04:54] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 12:04:54] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.83.1.tar.gz tmp/pineboo-0.99.84.tar.gz --markdown 20240513/p/pineboo/0.99.83.1-0.99.84/README.md --exclude *.pyd
+[2024-05-13 12:04:54] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.7.tar.gz]
+[2024-05-13 12:04:54] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.8.tar.gz]
+[2024-05-13 12:04:54] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-13 12:04:55] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.5.tar.gz]
+[2024-05-13 12:04:55] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.6.tar.gz]
+[2024-05-13 12:04:55] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-13 12:04:55] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b8.tar.gz]
+[2024-05-13 12:04:55] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
+[2024-05-13 12:04:55] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-13 12:04:56] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.8.tar.gz]
+[2024-05-13 12:04:56] INFO root fetch - processPackages [seacrowd]: Remove: archive file [/home/abi/fetcher/tmp/seacrowd-0.0.9.tar.gz]
+[2024-05-13 12:04:56] INFO root fetch - main [MainThread]: End processing [seacrowd]: success
+[2024-05-13 12:04:58] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.83.1.tar.gz]
+[2024-05-13 12:04:58] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.tar.gz]
+[2024-05-13 12:04:58] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 12:05:06] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-13 12:05:06] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-13 12:05:06] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-13 12:05:06] INFO root fetch - main [MainThread]: Store serial: [23181271]
