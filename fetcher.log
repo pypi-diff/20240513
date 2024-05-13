@@ -4092,3 +4092,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:05:48] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl.zip]
 [2024-05-13 05:05:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
 [2024-05-13 05:05:48] INFO root fetch - main [MainThread]: Store serial: [23176228]
+[2024-05-13 05:07:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176228]
+[2024-05-13 05:07:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 05:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mat3ra-api-examples
+[2024-05-13 05:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nutrical
+[2024-05-13 05:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-payment-order
+[2024-05-13 05:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genocide
+[2024-05-13 05:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airflow-providers-wherobots
+[2024-05-13 05:07:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yoto-api
+[2024-05-13 05:07:57] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2024-05-13 05:07:57] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [nutrical]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-13 05:07:57] INFO root fetch - processPackages [airflow-providers-wherobots]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 05:07:57] INFO root fetch - processPackages [odoo-addon-account-payment-order]: New version: [17.0.1.1.0.4] Old Version: [17.0.1.1.0.3]
+[2024-05-13 05:07:57] INFO root fetch - processPackages [mat3ra-api-examples]: New version: [2024.5.7.post0] Old Version: [2024.5.3.post1]
+[2024-05-13 05:07:57] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-13 05:07:57] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/a8/ac/a609692ef26ae0b5341afdcf415405a5cc31f7b3c47fa1d4857fa987df66/nutrical-0.0.6.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/ee/f0/a1fb643ddb476d364a9a5566b8d14d3fd373f6549e47e4b344a3a0f0b858/mat3ra_api_examples-2024.5.3.post1.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/9a/ab/d0fc63ca31b3e3ea9a6999fe5feb5f659cfe1088268198c8c2574c495979/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-13 05:07:57] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/de/35/4084eeb6208e2ad70e2b5de7df97e339638ffd18d1a51f851c015f3de1c8/airflow_providers_wherobots-0.1.1.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/3a/51/a4ac3977bcbc81d7e29b18116bdb52db7b615b7d0e786dc9f8470cefb2e2/nutrical-0.0.9.tar.gz
+[2024-05-13 05:07:57] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/54/32/8ce0e67e4c1e78047774b6e8af97bd99f76920e32b66547c3409a76c618d/airflow_providers_wherobots-0.1.2.tar.gz
+[2024-05-13 05:07:58] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-13 05:07:58] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.6.tar.gz tmp/nutrical-0.0.9.tar.gz --markdown 20240513/n/nutrical/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-13 05:07:58] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-13 05:07:58] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/74/f3/e3c12b9c8ffe806fb5dba45913142733e194a2499285bae233a8171dd6eb/mat3ra_api_examples-2024.5.7.post0.tar.gz
+[2024-05-13 05:07:58] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/45/d8/eb96c4f25b6e1364802605d676665aa399b91c794204144842ef4c27fb47/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl
+[2024-05-13 05:07:58] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-13 05:07:58] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240513/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 05:07:58] INFO root fetch - processPackages [airflow-providers-wherobots]: executing diffoscope
+[2024-05-13 05:07:58] INFO root fetch - processPackages [airflow-providers-wherobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_providers_wherobots-0.1.1.tar.gz tmp/airflow_providers_wherobots-0.1.2.tar.gz --markdown 20240513/a/airflow-providers-wherobots/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 05:07:58] INFO root fetch - processPackages [mat3ra-api-examples]: executing diffoscope
+[2024-05-13 05:07:58] INFO root fetch - processPackages [mat3ra-api-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra_api_examples-2024.5.3.post1.tar.gz tmp/mat3ra_api_examples-2024.5.7.post0.tar.gz --markdown 20240513/m/mat3ra-api-examples/2024.5.3.post1-2024.5.7.post0/README.md --exclude *.pyd
+[2024-05-13 05:07:58] INFO root fetch - processPackages [odoo-addon-account-payment-order]: executing diffoscope
+[2024-05-13 05:07:58] INFO root fetch - processPackages [odoo-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-account-payment-order/17.0.1.1.0.3-17.0.1.1.0.4/README.md --exclude *.pyd
+[2024-05-13 05:07:58] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2024-05-13 05:07:58] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20240513/g/genocide/90-91/README.md --exclude *.pyd
+[2024-05-13 05:07:58] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-13 05:07:58] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.6.tar.gz]
+[2024-05-13 05:07:58] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-13 05:07:58] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.9.tar.gz]
+[2024-05-13 05:07:58] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-13 05:07:58] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-13 05:07:58] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.1.tar.gz]
+[2024-05-13 05:07:58] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.2.tar.gz]
+[2024-05-13 05:07:58] INFO root fetch - main [MainThread]: End processing [airflow-providers-wherobots]: success
+[2024-05-13 05:07:59] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_api_examples-2024.5.3.post1.tar.gz]
+[2024-05-13 05:07:59] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_api_examples-2024.5.7.post0.tar.gz]
+[2024-05-13 05:07:59] INFO root fetch - main [MainThread]: End processing [mat3ra-api-examples]: success
+[2024-05-13 05:07:59] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-13 05:07:59] INFO root fetch - processPackages [odoo-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-13 05:07:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order]: success
+[2024-05-13 05:07:59] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2024-05-13 05:07:59] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2024-05-13 05:07:59] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2024-05-13 05:07:59] INFO root fetch - main [MainThread]: Store serial: [23176244]
