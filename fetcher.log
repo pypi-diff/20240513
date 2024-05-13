@@ -8814,3 +8814,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:54:39] INFO root fetch - processPackages [icad-tone-detection]: Remove: archive file [/home/abi/fetcher/tmp/icad_tone_detection-0.9.tar.gz]
 [2024-05-13 07:54:39] INFO root fetch - main [MainThread]: End processing [icad-tone-detection]: success
 [2024-05-13 07:54:39] INFO root fetch - main [MainThread]: Store serial: [23178335]
+[2024-05-13 07:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178335]
+[2024-05-13 07:56:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 07:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktest
+[2024-05-13 07:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gbfs
+[2024-05-13 07:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cancer-simulation
+[2024-05-13 07:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlrover
+[2024-05-13 07:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scratchablez
+[2024-05-13 07:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kogiri
+[2024-05-13 07:56:48] INFO root fetch - processPackages [linktest]: New version: [2.7.8] Old Version: [2.7.7]
+[2024-05-13 07:56:48] INFO root fetch - processPackages [cancer-simulation]: New version: [0.7.1] Old Version: [0.7]
+[2024-05-13 07:56:48] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/5f/a8/6725353ebc672400ac51adf0319ff4d65607389ca67ef5693b58c62c734b/linktest-2.7.7.tar.gz
+[2024-05-13 07:56:48] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/91/ff/8253ecb42d5648a4915abe16c263b8cdb1086f3e35785d0b801d9b922b4d/cancer_simulation-0.7.tar.gz
+[2024-05-13 07:56:48] WARNING root fetch - processPackages [scratchablez]: Skipping, unable to determine old version
+[2024-05-13 07:56:48] INFO root fetch - main [MainThread]: End processing [scratchablez] error
+[2024-05-13 07:56:48] WARNING root fetch - processPackages [kogiri]: Skipping, unable to determine old version
+[2024-05-13 07:56:48] INFO root fetch - main [MainThread]: End processing [kogiri] error
+[2024-05-13 07:56:48] INFO root fetch - processPackages [gbfs]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-13 07:56:48] INFO root fetch - processPackages [dlrover]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-13 07:56:48] INFO root fetch - processPackages [gbfs]: Downloading https://files.pythonhosted.org/packages/7f/ac/634722dba7c9d9b2fe48d6037d822e4e36017b95afa8f4fc9afbf4029282/gbfs-0.1.1.tar.gz
+[2024-05-13 07:56:48] INFO root fetch - processPackages [dlrover]: Downloading https://files.pythonhosted.org/packages/7b/8c/0b84fc49667ec16c7c0e45f6e7c3eb49dedb868510b71aba1109cba8ccd0/dlrover-0.3.6-py3-none-any.whl
+[2024-05-13 07:56:48] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/e7/15/c8b89ea3887b858527c2ac24c08b11a1456c66c5fa27531c58117e65ff5f/cancer_simulation-0.7.1.tar.gz
+[2024-05-13 07:56:48] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/a0/16/044aa5661cfce284cbbf152f3cad4de3692af4b65154f7b647b23c71e838/linktest-2.7.8.tar.gz
+[2024-05-13 07:56:48] INFO root fetch - processPackages [cancer-simulation]: executing diffoscope
+[2024-05-13 07:56:48] INFO root fetch - processPackages [cancer-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancer_simulation-0.7.tar.gz tmp/cancer_simulation-0.7.1.tar.gz --markdown 20240513/c/cancer-simulation/0.7-0.7.1/README.md --exclude *.pyd
+[2024-05-13 07:56:48] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-13 07:56:48] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.7.tar.gz tmp/linktest-2.7.8.tar.gz --markdown 20240513/l/linktest/2.7.7-2.7.8/README.md --exclude *.pyd
+[2024-05-13 07:56:49] INFO root fetch - processPackages [gbfs]: Downloading https://files.pythonhosted.org/packages/53/0b/c45289b5ff2e65df8f39c1056e0661e86d4864e32ca9e3f2cc36c57743d2/gbfs-0.2.0.tar.gz
+[2024-05-13 07:56:49] INFO root fetch - processPackages [dlrover]: Downloading https://files.pythonhosted.org/packages/e5/dd/d6137afd945278f4492a7c3adbe7e2055884d4c9d25f5a2c7823329ed3cd/dlrover-0.3.7-py3-none-any.whl
+[2024-05-13 07:56:49] INFO root fetch - processPackages [gbfs]: executing diffoscope
+[2024-05-13 07:56:49] INFO root fetch - processPackages [gbfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbfs-0.1.1.tar.gz tmp/gbfs-0.2.0.tar.gz --markdown 20240513/g/gbfs/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 07:56:49] INFO root fetch - processPackages [dlrover]: executing diffoscope
+[2024-05-13 07:56:49] INFO root fetch - processPackages [dlrover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlrover-0.3.6-py3-none-any.whl.zip tmp/dlrover-0.3.7-py3-none-any.whl.zip --markdown 20240513/d/dlrover/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-13 07:56:49] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.tar.gz]
+[2024-05-13 07:56:49] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.1.tar.gz]
+[2024-05-13 07:56:49] INFO root fetch - main [MainThread]: End processing [cancer-simulation]: success
+[2024-05-13 07:56:49] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.7.tar.gz]
+[2024-05-13 07:56:49] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.8.tar.gz]
+[2024-05-13 07:56:49] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-13 07:56:49] INFO root fetch - processPackages [gbfs]: Remove: archive file [/home/abi/fetcher/tmp/gbfs-0.1.1.tar.gz]
+[2024-05-13 07:56:49] INFO root fetch - processPackages [gbfs]: Remove: archive file [/home/abi/fetcher/tmp/gbfs-0.2.0.tar.gz]
+[2024-05-13 07:56:49] INFO root fetch - main [MainThread]: End processing [gbfs]: success
+[2024-05-13 07:56:50] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.3.6-py3-none-any.whl.zip]
+[2024-05-13 07:56:50] INFO root fetch - processPackages [dlrover]: Remove: archive file [/home/abi/fetcher/tmp/dlrover-0.3.7-py3-none-any.whl.zip]
+[2024-05-13 07:56:50] INFO root fetch - main [MainThread]: End processing [dlrover]: success
+[2024-05-13 07:56:50] INFO root fetch - main [MainThread]: Store serial: [23178360]
