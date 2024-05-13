@@ -8661,3 +8661,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:45:56] INFO root fetch - processPackages [funcnodes_images]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_images-0.1.16.tar.gz]
 [2024-05-13 07:45:56] INFO root fetch - main [MainThread]: End processing [funcnodes_images]: success
 [2024-05-13 07:45:56] INFO root fetch - main [MainThread]: Store serial: [23178247]
+[2024-05-13 07:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178247]
+[2024-05-13 07:48:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 07:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyStratum-Middle
+[2024-05-13 07:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcnodes-opencv
+[2024-05-13 07:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collectiontools-vrb
+[2024-05-13 07:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sharepoint-graphql
+[2024-05-13 07:48:05] INFO root fetch - processPackages [funcnodes-opencv]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-13 07:48:05] INFO root fetch - processPackages [sharepoint-graphql]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 07:48:05] INFO root fetch - processPackages [PyStratum-Middle]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-13 07:48:05] ERROR root fetch - processPackages [collectiontools-vrb]: Unable to get metadata: No such project 'collectiontools-vrb'
+[2024-05-13 07:48:05] INFO root fetch - main [MainThread]: End processing [collectiontools-vrb] error
+[2024-05-13 07:48:05] INFO root fetch - processPackages [funcnodes-opencv]: Downloading https://files.pythonhosted.org/packages/31/7f/cc1e31f1c623be9354bd5b4f53fb3bff4f8b099c38bd5ee75a561f52946f/funcnodes_opencv-0.1.5.tar.gz
+[2024-05-13 07:48:05] INFO root fetch - processPackages [sharepoint-graphql]: Downloading https://files.pythonhosted.org/packages/c5/2a/5b96cf1e9d59bf205d27c1dd981696dfb4ba06e8464fb2bf47993f0133d5/sharepoint_graphql-0.1.0.tar.gz
+[2024-05-13 07:48:05] INFO root fetch - processPackages [funcnodes-opencv]: Downloading https://files.pythonhosted.org/packages/c5/e6/8a5719034ee497cea1447e6686b40de73e39e9dd01e78eb5597ca8f978bc/funcnodes_opencv-0.1.6.tar.gz
+[2024-05-13 07:48:05] INFO root fetch - processPackages [PyStratum-Middle]: Downloading https://files.pythonhosted.org/packages/6a/72/562b2c18e6b46820e7e6e9569dd92f660921c49e42f8b1039deda2b4b2b7/PyStratum-Middle-1.0.0.tar.gz
+[2024-05-13 07:48:05] INFO root fetch - processPackages [funcnodes-opencv]: executing diffoscope
+[2024-05-13 07:48:05] INFO root fetch - processPackages [funcnodes-opencv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_opencv-0.1.5.tar.gz tmp/funcnodes_opencv-0.1.6.tar.gz --markdown 20240513/f/funcnodes-opencv/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-13 07:48:05] INFO root fetch - processPackages [sharepoint-graphql]: Downloading https://files.pythonhosted.org/packages/fa/c6/a8d992179e62f4bb982ddd2526426ba2343f772cfbf8da4b2fdc6be3e87d/sharepoint_graphql-0.1.1-py3-none-any.whl
+[2024-05-13 07:48:06] INFO root fetch - processPackages [PyStratum-Middle]: Downloading https://files.pythonhosted.org/packages/7d/cb/c5f05c4ba4c9b3a21406e9a727d715c8c7cc8a616fb1629bd78534f46062/pystratum_middle-1.1.0.tar.gz
+[2024-05-13 07:48:06] INFO root fetch - processPackages [sharepoint-graphql]: executing diffoscope
+[2024-05-13 07:48:06] INFO root fetch - processPackages [sharepoint-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharepoint_graphql-0.1.0.tar.gz tmp/sharepoint_graphql-0.1.1-py3-none-any.whl.zip --markdown 20240513/s/sharepoint-graphql/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 07:48:06] INFO root fetch - processPackages [PyStratum-Middle]: executing diffoscope
+[2024-05-13 07:48:06] INFO root fetch - processPackages [PyStratum-Middle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Middle-1.0.0.tar.gz tmp/pystratum_middle-1.1.0.tar.gz --markdown 20240513/P/PyStratum-Middle/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-13 07:48:06] INFO root fetch - processPackages [funcnodes-opencv]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_opencv-0.1.5.tar.gz]
+[2024-05-13 07:48:06] INFO root fetch - processPackages [funcnodes-opencv]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_opencv-0.1.6.tar.gz]
+[2024-05-13 07:48:06] INFO root fetch - main [MainThread]: End processing [funcnodes-opencv]: success
+[2024-05-13 07:48:06] INFO root fetch - processPackages [sharepoint-graphql]: Remove: archive file [/home/abi/fetcher/tmp/sharepoint_graphql-0.1.0.tar.gz]
+[2024-05-13 07:48:06] INFO root fetch - processPackages [sharepoint-graphql]: Remove: archive file [/home/abi/fetcher/tmp/sharepoint_graphql-0.1.1-py3-none-any.whl.zip]
+[2024-05-13 07:48:06] INFO root fetch - main [MainThread]: End processing [sharepoint-graphql]: success
+[2024-05-13 07:48:06] INFO root fetch - processPackages [PyStratum-Middle]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Middle-1.0.0.tar.gz]
+[2024-05-13 07:48:06] INFO root fetch - processPackages [PyStratum-Middle]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_middle-1.1.0.tar.gz]
+[2024-05-13 07:48:06] INFO root fetch - main [MainThread]: End processing [PyStratum-Middle]: success
+[2024-05-13 07:48:06] INFO root fetch - main [MainThread]: Store serial: [23178266]
