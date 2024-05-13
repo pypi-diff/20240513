@@ -22169,3 +22169,87 @@ EOFError: EOF read where object expected
 [2024-05-13 16:13:46] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-05-13 16:13:46] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-05-13 16:13:46] INFO root fetch - main [MainThread]: Store serial: [23184363]
+[2024-05-13 16:15:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184363]
+[2024-05-13 16:15:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyStratum-Common
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyclesperanto
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chronomeleon
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OMTF
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sniffing-io
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swiss-army-man
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infernalityz
+[2024-05-13 16:15:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spl-core
+[2024-05-13 16:15:55] INFO root fetch - processPackages [PyStratum-Common]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-05-13 16:15:55] INFO root fetch - processPackages [OMTF]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 16:15:55] INFO root fetch - processPackages [sniffing-io]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 16:15:55] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-13 16:15:55] WARNING root fetch - processPackages [infernalityz]: Skipping, unable to determine old version
+[2024-05-13 16:15:55] INFO root fetch - main [MainThread]: End processing [infernalityz] error
+[2024-05-13 16:15:55] INFO root fetch - processPackages [chronomeleon]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-13 16:15:55] INFO root fetch - processPackages [spl-core]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-05-13 16:15:55] INFO root fetch - processPackages [swiss-army-man]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-13 16:15:55] INFO root fetch - processPackages [PyStratum-Common]: Downloading https://files.pythonhosted.org/packages/b2/50/308f5e603779f046448c3a1d923052b746e4f09f777de55f8b31fc389353/PyStratum-Common-1.1.1.tar.gz
+[2024-05-13 16:15:55] INFO root fetch - processPackages [pyclesperanto]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-13 16:15:56] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/74/bf/a52a6a79eff80060418702e7cd2c9dff9a4d9981e1b433ebd1e6b3ae3870/omtf-1.0.0.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/49/71/d492d10d22c488118e93aab943218198635eaf551acab467c2c2813a094c/sniffing-io-0.0.1.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/48/1f/294f600f1fa28cd18c161440c03fb3b30e0c131a86552d9308f61aa90137/swiss_army_man-0.1.7.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spl-core]: Downloading https://files.pythonhosted.org/packages/01/aa/b2794c60b7a0c68f8dfd2ea0e4fcb5c0d04fa5f2fc27a9eec81b1b18f5fd/spl_core-4.4.0.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [chronomeleon]: Downloading https://files.pythonhosted.org/packages/92/56/e8d6cec1b3b7816790d71c18c38a6e4df4e2b095af93f390a39e75c1e08c/chronomeleon-0.0.0.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [pyclesperanto]: Downloading https://files.pythonhosted.org/packages/6f/f3/9cce4b441ae3801059257eed565c9608594141d569437214ff8b1bb08533/pyclesperanto-0.9.0.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [PyStratum-Common]: Downloading https://files.pythonhosted.org/packages/e0/bd/fc29a5d702c86bf1869d81e244f9a31adf1dc9daa4cbec11256741e098f3/pystratum_common-2.0.0.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240513/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240513/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-13 16:15:56] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/e8/d3/4253acfb67dbdfb8e4e8cc6946a0dac7669dae9b221e7bd3738931c44b01/sniffing-io-0.0.2.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/1e/3a/b183f3d4507848226edde9bb6584143f2a67864030d9f8081017a7196647/omtf-1.0.1.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [PyStratum-Common]: executing diffoscope
+[2024-05-13 16:15:56] INFO root fetch - processPackages [PyStratum-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Common-1.1.1.tar.gz tmp/pystratum_common-2.0.0.tar.gz --markdown 20240513/P/PyStratum-Common/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-05-13 16:15:56] INFO root fetch - processPackages [swiss-army-man]: Downloading https://files.pythonhosted.org/packages/56/82/24e0c66ae73179bc5f3180da018b1c49aadae130d6093a4ba1f45acd2afa/swiss_army_man-0.1.9.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [sniffing-io]: executing diffoscope
+[2024-05-13 16:15:56] INFO root fetch - processPackages [sniffing-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniffing-io-0.0.1.tar.gz tmp/sniffing-io-0.0.2.tar.gz --markdown 20240513/s/sniffing-io/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 16:15:56] INFO root fetch - processPackages [chronomeleon]: Downloading https://files.pythonhosted.org/packages/f9/8d/a0d2dafa5d393822201504508fa3eaf2e926da1737d69d999bd81f5df7fa/chronomeleon-0.1.0.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [OMTF]: executing diffoscope
+[2024-05-13 16:15:56] INFO root fetch - processPackages [OMTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omtf-1.0.0.tar.gz tmp/omtf-1.0.1.tar.gz --markdown 20240513/O/OMTF/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 16:15:56] INFO root fetch - processPackages [swiss-army-man]: executing diffoscope
+[2024-05-13 16:15:56] INFO root fetch - processPackages [swiss-army-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiss_army_man-0.1.7.tar.gz tmp/swiss_army_man-0.1.9.tar.gz --markdown 20240513/s/swiss-army-man/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-13 16:15:56] INFO root fetch - processPackages [spl-core]: Downloading https://files.pythonhosted.org/packages/c9/ea/a996e9575a2bf31f06e0e88b61c0eddcced136eee7cff9d596dcb9085a97/spl_core-4.4.1.tar.gz
+[2024-05-13 16:15:56] INFO root fetch - processPackages [pyclesperanto]: Downloading https://files.pythonhosted.org/packages/2b/5c/36db2a5b02ff50777cf456c14007836d77cf1cc3e9a5faa281be81705d7e/pyclesperanto-0.9.1.tar.gz
+[2024-05-13 16:15:57] INFO root fetch - processPackages [chronomeleon]: executing diffoscope
+[2024-05-13 16:15:57] INFO root fetch - processPackages [chronomeleon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronomeleon-0.0.0.tar.gz tmp/chronomeleon-0.1.0.tar.gz --markdown 20240513/c/chronomeleon/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-13 16:15:57] INFO root fetch - processPackages [spl-core]: executing diffoscope
+[2024-05-13 16:15:57] INFO root fetch - processPackages [spl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spl_core-4.4.0.tar.gz tmp/spl_core-4.4.1.tar.gz --markdown 20240513/s/spl-core/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-05-13 16:15:57] INFO root fetch - processPackages [pyclesperanto]: executing diffoscope
+[2024-05-13 16:15:57] INFO root fetch - processPackages [pyclesperanto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclesperanto-0.9.0.tar.gz tmp/pyclesperanto-0.9.1.tar.gz --markdown 20240513/p/pyclesperanto/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 16:15:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-13 16:15:57] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-13 16:15:57] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-13 16:15:58] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.1.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.2.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [sniffing-io]: success
+[2024-05-13 16:15:58] INFO root fetch - processPackages [chronomeleon]: Remove: archive file [/home/abi/fetcher/tmp/chronomeleon-0.0.0.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.7.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [chronomeleon]: Remove: archive file [/home/abi/fetcher/tmp/chronomeleon-0.1.0.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [swiss-army-man]: Remove: archive file [/home/abi/fetcher/tmp/swiss_army_man-0.1.9.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [chronomeleon]: success
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [swiss-army-man]: success
+[2024-05-13 16:15:58] INFO root fetch - processPackages [PyStratum-Common]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Common-1.1.1.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [PyStratum-Common]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_common-2.0.0.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [PyStratum-Common]: success
+[2024-05-13 16:15:58] INFO root fetch - processPackages [spl-core]: Remove: archive file [/home/abi/fetcher/tmp/spl_core-4.4.0.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [spl-core]: Remove: archive file [/home/abi/fetcher/tmp/spl_core-4.4.1.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [spl-core]: success
+[2024-05-13 16:15:58] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.0.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.1.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [OMTF]: success
+[2024-05-13 16:15:58] INFO root fetch - processPackages [pyclesperanto]: Remove: archive file [/home/abi/fetcher/tmp/pyclesperanto-0.9.0.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - processPackages [pyclesperanto]: Remove: archive file [/home/abi/fetcher/tmp/pyclesperanto-0.9.1.tar.gz]
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: End processing [pyclesperanto]: success
+[2024-05-13 16:15:58] INFO root fetch - main [MainThread]: Store serial: [23184437]
