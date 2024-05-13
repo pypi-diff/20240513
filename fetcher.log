@@ -12572,3 +12572,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:49:24] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.2.0rc1.tar.gz]
 [2024-05-13 10:49:24] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2024-05-13 10:49:24] INFO root fetch - main [MainThread]: Store serial: [23180299]
+[2024-05-13 10:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180299]
+[2024-05-13 10:51:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeit.nightwatch
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhlyr
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtealeaves
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RupineLib
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-aws-apigateway
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opencvv
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lxs-SimpleTools
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openagents-node-sdk
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: secretflow-rayfed
+[2024-05-13 10:51:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ciceroscm
+[2024-05-13 10:51:34] INFO root fetch - processPackages [RupineLib]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-13 10:51:34] WARNING root fetch - processPackages [lxs-SimpleTools]: Skipping, unable to determine old version
+[2024-05-13 10:51:34] INFO root fetch - main [MainThread]: End processing [lxs-SimpleTools] error
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zhlyr]: New version: [3.9] Old Version: [3.8]
+[2024-05-13 10:51:34] WARNING root fetch - processPackages [opencvv]: Skipping, unable to determine old version
+[2024-05-13 10:51:34] INFO root fetch - main [MainThread]: End processing [opencvv] error
+[2024-05-13 10:51:34] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/d8/e5/d1bf181028da069b781d1b4174d910b4b0700460b5da06cb44029d949c6e/zhlyr-3.8.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [secretflow-rayfed]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zeit.nightwatch]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-05-13 10:51:34] INFO root fetch - processPackages [ciceroscm]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-13 10:51:34] INFO root fetch - processPackages [pytest-aws-apigateway]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-13 10:51:34] INFO root fetch - processPackages [openagents-node-sdk]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-13 10:51:34] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/7d/f4/f7c3528f8da271a9884ebe4a0533862edeff3593c9b92f89606c75b5f5d9/RupineLib-0.0.1.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [pytest-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/64/46/1e24a162adbbceb932500b493aca668ee60cd12e310282535c16a1eabfd1/pytest_aws_apigateway-0.1.0.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/cd/e7/73b27cf41511defa955eb0124b64d9e546ecc2bd16e6c06ba2b0152a91dc/qtealeaves-1.1.6.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zeit.nightwatch]: Downloading https://files.pythonhosted.org/packages/2d/72/fba16f5039474892d1f938d469ce3487e459a42471c3ef82cad86fe1fcc1/zeit.nightwatch-1.7.1.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [ciceroscm]: Downloading https://files.pythonhosted.org/packages/eb/65/8a506b2776c6187ef8d6c082f186e311033d8dcaa215fb9af8b24bb26382/ciceroscm-1.1.1.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/c7/c9/395a747719d94a61e3d99cbdc15144436d72a2f67f96cd985e4e1fb1342f/openagents_node_sdk-0.3.2.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [secretflow-rayfed]: Downloading https://files.pythonhosted.org/packages/95/02/3de0f507b61fac96ebba6d62a5835354e19db1a4cd776cedc3571f283121/secretflow_rayfed-0.2.1a1-py3-none-any.whl
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/d5/2d/f46230845cf7aa86764bae13d6559b484eefd2c5443cd77ce3b75db47164/zhlyr-3.9.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/88/b4/c7023129be5d7b11fba487387a44a9d988964ddc148aafc1b16d07555978/RupineLib-0.0.3.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [pytest-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/2b/83/5208e3105dbd35dca7940d6d187dd1297d72d819db2a095d178ba246ccd9/pytest_aws_apigateway-0.2.0.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zhlyr]: executing diffoscope
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zhlyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhlyr-3.8.tar.gz tmp/zhlyr-3.9.tar.gz --markdown 20240513/z/zhlyr/3.8-3.9/README.md --exclude *.pyd
+[2024-05-13 10:51:34] INFO root fetch - processPackages [RupineLib]: executing diffoscope
+[2024-05-13 10:51:34] INFO root fetch - processPackages [RupineLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RupineLib-0.0.1.tar.gz tmp/RupineLib-0.0.3.tar.gz --markdown 20240513/R/RupineLib/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zeit.nightwatch]: Downloading https://files.pythonhosted.org/packages/03/46/4484ed75453cf49bb50278e1f88e00fb2fc36328c1536489a1e2a80c8d8e/zeit_nightwatch-1.8.0.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/5a/ec/5afbc102fca87daebf73a0214d70eae408b943285014589e892c25d30bfd/openagents_node_sdk-0.3.3.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/2d/05/62d5f92b7fca735a261ef09cd94d320542f26bec2769a0f4ac45028f9a30/qtealeaves-1.1.7.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [pytest-aws-apigateway]: executing diffoscope
+[2024-05-13 10:51:34] INFO root fetch - processPackages [pytest-aws-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aws_apigateway-0.1.0.tar.gz tmp/pytest_aws_apigateway-0.2.0.tar.gz --markdown 20240513/p/pytest-aws-apigateway/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:51:34] INFO root fetch - processPackages [ciceroscm]: Downloading https://files.pythonhosted.org/packages/42/9a/c2917127763d65fb477588a3b14cf219d57cddcdc1c7cba4de1c1bd587f9/ciceroscm-1.1.2.tar.gz
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zeit.nightwatch]: executing diffoscope
+[2024-05-13 10:51:34] INFO root fetch - processPackages [zeit.nightwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeit.nightwatch-1.7.1.tar.gz tmp/zeit_nightwatch-1.8.0.tar.gz --markdown 20240513/z/zeit.nightwatch/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-05-13 10:51:34] INFO root fetch - processPackages [secretflow-rayfed]: Downloading https://files.pythonhosted.org/packages/ec/b5/dcccf316b71ea6ce9c01f94a547a7108cb8a2357cbbd919887b5c46b312d/secretflow_rayfed-0.2.1a2-py3-none-any.whl
+[2024-05-13 10:51:34] INFO root fetch - processPackages [openagents-node-sdk]: executing diffoscope
+[2024-05-13 10:51:34] INFO root fetch - processPackages [openagents-node-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_node_sdk-0.3.2.tar.gz tmp/openagents_node_sdk-0.3.3.tar.gz --markdown 20240513/o/openagents-node-sdk/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-13 10:51:34] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-13 10:51:34] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.6.tar.gz tmp/qtealeaves-1.1.7.tar.gz --markdown 20240513/q/qtealeaves/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-13 10:51:35] INFO root fetch - processPackages [secretflow-rayfed]: executing diffoscope
+[2024-05-13 10:51:35] INFO root fetch - processPackages [secretflow-rayfed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_rayfed-0.2.1a1-py3-none-any.whl.zip tmp/secretflow_rayfed-0.2.1a2-py3-none-any.whl.zip --markdown 20240513/s/secretflow-rayfed/0.2.1a1-0.2.1a2/README.md --exclude *.pyd
+[2024-05-13 10:51:35] INFO root fetch - processPackages [ciceroscm]: executing diffoscope
+[2024-05-13 10:51:35] INFO root fetch - processPackages [ciceroscm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciceroscm-1.1.1.tar.gz tmp/ciceroscm-1.1.2.tar.gz --markdown 20240513/c/ciceroscm/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-13 10:51:35] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.8.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.9.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - main [MainThread]: End processing [zhlyr]: success
+[2024-05-13 10:51:35] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.1.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.3.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - main [MainThread]: End processing [RupineLib]: success
+[2024-05-13 10:51:35] INFO root fetch - processPackages [pytest-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aws_apigateway-0.1.0.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - processPackages [pytest-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aws_apigateway-0.2.0.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - main [MainThread]: End processing [pytest-aws-apigateway]: success
+[2024-05-13 10:51:35] INFO root fetch - processPackages [zeit.nightwatch]: Remove: archive file [/home/abi/fetcher/tmp/zeit.nightwatch-1.7.1.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - processPackages [zeit.nightwatch]: Remove: archive file [/home/abi/fetcher/tmp/zeit_nightwatch-1.8.0.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - main [MainThread]: End processing [zeit.nightwatch]: success
+[2024-05-13 10:51:35] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.3.2.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.3.3.tar.gz]
+[2024-05-13 10:51:35] INFO root fetch - main [MainThread]: End processing [openagents-node-sdk]: success
+[2024-05-13 10:51:36] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.2.1a1-py3-none-any.whl.zip]
+[2024-05-13 10:51:36] INFO root fetch - processPackages [secretflow-rayfed]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_rayfed-0.2.1a2-py3-none-any.whl.zip]
+[2024-05-13 10:51:36] INFO root fetch - main [MainThread]: End processing [secretflow-rayfed]: success
+[2024-05-13 10:51:36] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.6.tar.gz]
+[2024-05-13 10:51:36] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.7.tar.gz]
+[2024-05-13 10:51:36] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-13 10:51:36] INFO root fetch - processPackages [ciceroscm]: Remove: archive file [/home/abi/fetcher/tmp/ciceroscm-1.1.1.tar.gz]
+[2024-05-13 10:51:36] INFO root fetch - processPackages [ciceroscm]: Remove: archive file [/home/abi/fetcher/tmp/ciceroscm-1.1.2.tar.gz]
+[2024-05-13 10:51:36] INFO root fetch - main [MainThread]: End processing [ciceroscm]: success
+[2024-05-13 10:51:36] INFO root fetch - main [MainThread]: Store serial: [23180346]
