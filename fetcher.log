@@ -9528,3 +9528,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:34:09] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-05-13 08:34:09] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-05-13 08:34:09] INFO root fetch - main [MainThread]: Store serial: [23178809]
+[2024-05-13 08:36:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178809]
+[2024-05-13 08:36:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plumyz
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zxj-portal-gun
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxsharp
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flamefishz
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fireducks
+[2024-05-13 08:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firefw
+[2024-05-13 08:36:19] WARNING root fetch - processPackages [zxj-portal-gun]: Skipping, unable to determine old version
+[2024-05-13 08:36:19] INFO root fetch - main [MainThread]: End processing [zxj-portal-gun] error
+[2024-05-13 08:36:19] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 08:36:19] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/63/c6/97b46e4a104ec47f2a18ca8aae7b9e76bbd0780d976266393df04a84812a/onnxsharp-0.0.5-py2.py3-none-any.whl
+[2024-05-13 08:36:19] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-13 08:36:19] WARNING root fetch - processPackages [plumyz]: Skipping, unable to determine old version
+[2024-05-13 08:36:19] INFO root fetch - main [MainThread]: End processing [plumyz] error
+[2024-05-13 08:36:19] WARNING root fetch - processPackages [flamefishz]: Skipping, unable to determine old version
+[2024-05-13 08:36:19] INFO root fetch - main [MainThread]: End processing [flamefishz] error
+[2024-05-13 08:36:19] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-13 08:36:19] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-13 08:36:19] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/17/9c/637500164fccd05e189a11d04b3841c179b1bfb18edfd8e17656d0737702/onnxsharp-0.0.6-py2.py3-none-any.whl
+[2024-05-13 08:36:19] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-13 08:36:19] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-13 08:36:19] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-05-13 08:36:19] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-05-13 08:36:19] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.5-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.6-py2.py3-none-any.whl.zip --markdown 20240513/o/onnxsharp/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 08:36:19] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-13 08:36:19] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-05-13 08:36:19] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-13 08:36:19] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240513/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-13 08:36:19] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-05-13 08:36:19] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240513/f/firefw/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-13 08:36:20] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.5-py2.py3-none-any.whl.zip]
+[2024-05-13 08:36:20] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-13 08:36:20] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-05-13 08:36:20] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-05-13 08:36:20] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-05-13 08:36:20] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-05-13 08:36:20] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-13 08:36:20] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-13 08:36:20] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-13 08:36:21] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-13 08:36:23] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-05-13 08:36:23] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240513/f/fireducks/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-13 08:38:34] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-13 08:38:34] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-13 08:38:34] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-05-13 08:38:34] INFO root fetch - main [MainThread]: Store serial: [23178833]
