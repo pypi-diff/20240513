@@ -22364,3 +22364,21 @@ EOFError: EOF read where object expected
 [2024-05-13 16:20:21] INFO root fetch - processPackages [mlcbase]: Remove: archive file [/home/abi/fetcher/tmp/mlcbase-1.2.0a1.tar.gz]
 [2024-05-13 16:20:21] INFO root fetch - main [MainThread]: End processing [mlcbase]: success
 [2024-05-13 16:20:21] INFO root fetch - main [MainThread]: Store serial: [23184535]
+[2024-05-13 16:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184535]
+[2024-05-13 16:22:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 16:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: golundauzez
+[2024-05-13 16:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StrucPy
+[2024-05-13 16:22:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sniffing-io
+[2024-05-13 16:22:29] INFO root fetch - processPackages [sniffing-io]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 16:22:30] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/e8/d3/4253acfb67dbdfb8e4e8cc6946a0dac7669dae9b221e7bd3738931c44b01/sniffing-io-0.0.2.tar.gz
+[2024-05-13 16:22:30] WARNING root fetch - processPackages [golundauzez]: Skipping, unable to determine old version
+[2024-05-13 16:22:30] INFO root fetch - main [MainThread]: End processing [golundauzez] error
+[2024-05-13 16:22:30] WARNING root fetch - processPackages [StrucPy]: Skipping, unable to determine old version
+[2024-05-13 16:22:30] INFO root fetch - main [MainThread]: End processing [StrucPy] error
+[2024-05-13 16:22:30] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/58/0f/9c532e7d9dfd10ef09a33368ee685f8e4b4052dbf3a1b270f662e6fd6e5c/sniffing-io-0.0.3.tar.gz
+[2024-05-13 16:22:30] INFO root fetch - processPackages [sniffing-io]: executing diffoscope
+[2024-05-13 16:22:30] INFO root fetch - processPackages [sniffing-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniffing-io-0.0.2.tar.gz tmp/sniffing-io-0.0.3.tar.gz --markdown 20240513/s/sniffing-io/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 16:22:31] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.2.tar.gz]
+[2024-05-13 16:22:31] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.3.tar.gz]
+[2024-05-13 16:22:31] INFO root fetch - main [MainThread]: End processing [sniffing-io]: success
+[2024-05-13 16:22:31] INFO root fetch - main [MainThread]: Store serial: [23184618]
