@@ -16446,3 +16446,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:16:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
 [2024-05-13 13:16:44] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
 [2024-05-13 13:16:44] INFO root fetch - main [MainThread]: Store serial: [23181937]
+[2024-05-13 13:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181937]
+[2024-05-13 13:18:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alephclient
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovinc-client
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aily-sdk
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: teo
+[2024-05-13 13:18:53] INFO root fetch - processPackages [alephclient]: New version: [2.4.0] Old Version: [2.3.6]
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ovinc-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-13 13:18:53] INFO root fetch - processPackages [alephclient]: Downloading https://files.pythonhosted.org/packages/49/46/978dee60cfe548768608e86f8f1df1a0b7e3e93a80c29069ee05ed6d113a/alephclient-2.3.6.tar.gz
+[2024-05-13 13:18:53] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 13:18:53] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240513111633] Old Version: [3.4.1.dev20240509171947]
+[2024-05-13 13:18:53] INFO root fetch - processPackages [teo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 13:18:53] INFO root fetch - processPackages [ovinc-client]: Downloading https://files.pythonhosted.org/packages/34/40/74662296bae0f8ea2dbd762bb6ead941ef57994655deb2ef10145d924ecd/ovinc_client-0.2.2.tar.gz
+[2024-05-13 13:18:53] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-05-13 13:18:53] INFO root fetch - processPackages [alephclient]: Downloading https://files.pythonhosted.org/packages/7c/65/abac935777e54e538f7d050436bf623df03231d36cc0577d132ec1ac63b5/alephclient-2.4.0.tar.gz
+[2024-05-13 13:18:53] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/80/06/baefeac52a33996b2018c0703d10b84270704916d517bf99fa31547603b6/localstack_core-3.4.1.dev20240509171947.tar.gz
+[2024-05-13 13:18:53] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/b1/e9/d6c6c71d9ba363284528d0085e2537ab5241ca9c41177346095254276a2c/teo-0.2.8.tar.gz
+[2024-05-13 13:18:54] INFO root fetch - processPackages [alephclient]: executing diffoscope
+[2024-05-13 13:18:54] INFO root fetch - processPackages [alephclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alephclient-2.3.6.tar.gz tmp/alephclient-2.4.0.tar.gz --markdown 20240513/a/alephclient/2.3.6-2.4.0/README.md --exclude *.pyd
+[2024-05-13 13:18:54] INFO root fetch - processPackages [ovinc-client]: Downloading https://files.pythonhosted.org/packages/e7/db/197a383862471a441016b67821b11a27179b75fbc1702cc380c9202445e3/ovinc_client-0.2.3.tar.gz
+[2024-05-13 13:18:54] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-05-13 13:18:54] INFO root fetch - processPackages [ovinc-client]: executing diffoscope
+[2024-05-13 13:18:54] INFO root fetch - processPackages [ovinc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovinc_client-0.2.2.tar.gz tmp/ovinc_client-0.2.3.tar.gz --markdown 20240513/o/ovinc-client/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-13 13:18:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6a/b9/ea400be49dc383ec56e7d070f34a1e22fd19269a2c5b626a3d5071648288/localstack_core-3.4.1.dev20240513111633.tar.gz
+[2024-05-13 13:18:54] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-05-13 13:18:54] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240513/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 13:18:54] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/1a/6e/79fac05caa23b6f8d6325ce41b4c00733012f08b4aee6cd1b1d45c11bd0a/teo-0.2.9.tar.gz
+[2024-05-13 13:18:54] INFO root fetch - processPackages [teo]: executing diffoscope
+[2024-05-13 13:18:54] INFO root fetch - processPackages [teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teo-0.2.8.tar.gz tmp/teo-0.2.9.tar.gz --markdown 20240513/t/teo/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 13:18:54] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-13 13:18:54] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240509171947.tar.gz tmp/localstack_core-3.4.1.dev20240513111633.tar.gz --markdown 20240513/l/localstack-core/3.4.1.dev20240509171947-3.4.1.dev20240513111633/README.md --exclude *.pyd
+[2024-05-13 13:18:54] INFO root fetch - processPackages [alephclient]: Remove: archive file [/home/abi/fetcher/tmp/alephclient-2.3.6.tar.gz]
+[2024-05-13 13:18:54] INFO root fetch - processPackages [alephclient]: Remove: archive file [/home/abi/fetcher/tmp/alephclient-2.4.0.tar.gz]
+[2024-05-13 13:18:54] INFO root fetch - main [MainThread]: End processing [alephclient]: success
+[2024-05-13 13:18:54] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-05-13 13:18:54] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-05-13 13:18:54] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-05-13 13:18:55] INFO root fetch - processPackages [ovinc-client]: Remove: archive file [/home/abi/fetcher/tmp/ovinc_client-0.2.2.tar.gz]
+[2024-05-13 13:18:55] INFO root fetch - processPackages [ovinc-client]: Remove: archive file [/home/abi/fetcher/tmp/ovinc_client-0.2.3.tar.gz]
+[2024-05-13 13:18:55] INFO root fetch - main [MainThread]: End processing [ovinc-client]: success
+[2024-05-13 13:18:55] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.8.tar.gz]
+[2024-05-13 13:18:55] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.9.tar.gz]
+[2024-05-13 13:18:55] INFO root fetch - main [MainThread]: End processing [teo]: success
+[2024-05-13 13:18:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240509171947.tar.gz]
+[2024-05-13 13:18:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240513111633.tar.gz]
+[2024-05-13 13:18:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-13 13:18:58] INFO root fetch - main [MainThread]: Store serial: [23181955]
