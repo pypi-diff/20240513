@@ -2507,3 +2507,57 @@
 [2024-05-13 03:33:28] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.32.tar.gz]
 [2024-05-13 03:33:28] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
 [2024-05-13 03:33:28] INFO root fetch - main [MainThread]: Store serial: [23175531]
+[2024-05-13 03:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175531]
+[2024-05-13 03:35:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sssm
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: richweedz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cardex
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parse-llm-code
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezside
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camera-service-api
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: workforce
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 03:35:38] INFO root fetch - processPackages [sssm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 03:35:38] WARNING root fetch - processPackages [richweedz]: Skipping, unable to determine old version
+[2024-05-13 03:35:38] INFO root fetch - main [MainThread]: End processing [richweedz] error
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [sssm]: Downloading https://files.pythonhosted.org/packages/e5/ca/c9b82ed3712492a32f0e02a21c93518bc9bf5ad98174e46993809370d5c6/sssm-0.0.2.tar.gz
+[2024-05-13 03:35:38] WARNING root fetch - processPackages [camera-service-api]: Skipping, unable to determine old version
+[2024-05-13 03:35:38] INFO root fetch - main [MainThread]: End processing [camera-service-api] error
+[2024-05-13 03:35:38] INFO root fetch - processPackages [workforce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 03:35:38] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-13 03:35:38] INFO root fetch - processPackages [parse-llm-code]: New version: [0.1.5] Old Version: [0.1.23]
+[2024-05-13 03:35:38] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [sssm]: Downloading https://files.pythonhosted.org/packages/3c/54/fdf0ff0de7fd663940fe6e12f0d848bf746cd123354237ce653d6edf1fda/sssm-0.0.3.tar.gz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [parse-llm-code]: Downloading https://files.pythonhosted.org/packages/4c/cd/41a0c4827aee34c1135557701584749d0f4732958868156d324e257ba022/parse_llm_code-0.1.23.tar.gz
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-05-13 03:35:38] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240513/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 03:35:39] INFO root fetch - processPackages [sssm]: executing diffoscope
+[2024-05-13 03:35:39] INFO root fetch - processPackages [sssm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssm-0.0.2.tar.gz tmp/sssm-0.0.3.tar.gz --markdown 20240513/s/sssm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 03:35:39] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-13 03:35:39] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/2d/19/86805c3946865872d10ea1e4ee5d133e7a8a82b698617f1b47e9b91cb517/workforce-1.0.9.tar.gz
+[2024-05-13 03:35:39] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-13 03:35:39] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240513/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-13 03:35:39] INFO root fetch - processPackages [parse-llm-code]: Downloading https://files.pythonhosted.org/packages/46/1f/88c3f6ca2ad61f0ec88608aba44764240db7f46e606fa92df7517d1e204b/parse_llm_code-0.1.5.tar.gz
+[2024-05-13 03:35:39] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2024-05-13 03:35:39] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.8.tar.gz tmp/workforce-1.0.9.tar.gz --markdown 20240513/w/workforce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 03:35:39] INFO root fetch - processPackages [parse-llm-code]: executing diffoscope
+[2024-05-13 03:35:39] INFO root fetch - processPackages [parse-llm-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_llm_code-0.1.23.tar.gz tmp/parse_llm_code-0.1.5.tar.gz --markdown 20240513/p/parse-llm-code/0.1.23-0.1.5/README.md --exclude *.pyd
+[2024-05-13 03:35:39] INFO root fetch - processPackages [sssm]: Remove: archive file [/home/abi/fetcher/tmp/sssm-0.0.2.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - processPackages [sssm]: Remove: archive file [/home/abi/fetcher/tmp/sssm-0.0.3.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - main [MainThread]: End processing [sssm]: success
+[2024-05-13 03:35:39] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-05-13 03:35:39] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-13 03:35:39] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.9.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2024-05-13 03:35:39] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.23.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.5.tar.gz]
+[2024-05-13 03:35:39] INFO root fetch - main [MainThread]: End processing [parse-llm-code]: success
+[2024-05-13 03:35:39] INFO root fetch - main [MainThread]: Store serial: [23175555]
