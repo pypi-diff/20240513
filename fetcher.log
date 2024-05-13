@@ -14978,3 +14978,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:16:06] INFO root fetch - processPackages [ffmpeg-normalize]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-normalize-1.3.8.tar.gz]
 [2024-05-13 12:16:07] INFO root fetch - main [MainThread]: End processing [ffmpeg-normalize]: success
 [2024-05-13 12:16:07] INFO root fetch - main [MainThread]: Store serial: [23181379]
+[2024-05-13 12:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181379]
+[2024-05-13 12:18:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 12:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalibro-backend
+[2024-05-13 12:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-quality-validation-pydeequ
+[2024-05-13 12:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catchment_data_api
+[2024-05-13 12:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuralogic
+[2024-05-13 12:18:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antakia-core
+[2024-05-13 12:18:15] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-13 12:18:15] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/9c/09/4528dbbd4d683667a6f48430e3174ae347c5f328bc415b0ef0d9e94b4ed2/datalibro_backend-1.1.5.tar.gz
+[2024-05-13 12:18:15] INFO root fetch - processPackages [antakia-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-13 12:18:15] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [1.1] Old Version: [1.0]
+[2024-05-13 12:18:15] INFO root fetch - processPackages [neuralogic]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-13 12:18:15] INFO root fetch - processPackages [catchment_data_api]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 12:18:16] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/ef/b9/6c348f3ff0a0b81f11a942d9e6bd25bf028b5004a33ac87a90ac4ed3a808/data-quality-validation-pydeequ-1.0.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/ef/d1/263021cf26d01aadcce3a493954177a1eb38a84f67addbbee9a2d71347a3/antakia_core-0.4.4.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/51/15/c691510783c85def6b2a661b4ca2a6b300fe8d3ec311cfd521a6724848ff/datalibro_backend-1.1.6.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [catchment_data_api]: Downloading https://files.pythonhosted.org/packages/ac/b5/523fef84d4f5014c87264e89b57f8f660c9e392fe1054e9e02e8e39c9670/catchment_data_api-0.1.0.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [neuralogic]: Downloading https://files.pythonhosted.org/packages/dd/c6/469eb53ba68d39907fc861540c4383a42478b65e9dcd9133bd72f7c83210/neuralogic-0.7.8.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-13 12:18:16] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.5.tar.gz tmp/datalibro_backend-1.1.6.tar.gz --markdown 20240513/d/datalibro-backend/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-13 12:18:16] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/dd/3b/950b745930e9d4563a901f3f3343a92281ef8cb4f51bb0dd0aadd1ba367a/data-quality-validation-pydeequ-1.1.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/ae/1b/80a37c65a9929abb306f6ed4d894ebd22326e7cd41476862713b70fa4f02/antakia_core-0.4.5.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [catchment_data_api]: Downloading https://files.pythonhosted.org/packages/76/73/f6dd85062e2bc2d81ea06a5bd7b49bfaa30afb9919d1e861183feb588e2e/catchment_data_api-0.1.1.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-13 12:18:16] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-1.0.tar.gz tmp/data-quality-validation-pydeequ-1.1.tar.gz --markdown 20240513/d/data-quality-validation-pydeequ/1.0-1.1/README.md --exclude *.pyd
+[2024-05-13 12:18:16] INFO root fetch - processPackages [neuralogic]: Downloading https://files.pythonhosted.org/packages/f8/a8/7fa5f85edbb4a2c94cdb5d9641a18285dc1fbced549a16b44505b27658a2/neuralogic-0.7.9.tar.gz
+[2024-05-13 12:18:16] INFO root fetch - processPackages [antakia-core]: executing diffoscope
+[2024-05-13 12:18:16] INFO root fetch - processPackages [catchment_data_api]: executing diffoscope
+[2024-05-13 12:18:16] INFO root fetch - processPackages [antakia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antakia_core-0.4.4.tar.gz tmp/antakia_core-0.4.5.tar.gz --markdown 20240513/a/antakia-core/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-13 12:18:16] INFO root fetch - processPackages [catchment_data_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchment_data_api-0.1.0.tar.gz tmp/catchment_data_api-0.1.1.tar.gz --markdown 20240513/c/catchment_data_api/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 12:18:16] INFO root fetch - processPackages [neuralogic]: executing diffoscope
+[2024-05-13 12:18:16] INFO root fetch - processPackages [neuralogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralogic-0.7.8.tar.gz tmp/neuralogic-0.7.9.tar.gz --markdown 20240513/n/neuralogic/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-13 12:18:17] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.5.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.6.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-13 12:18:17] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-1.0.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-1.1.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-13 12:18:17] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.4.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.5.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - main [MainThread]: End processing [antakia-core]: success
+[2024-05-13 12:18:17] INFO root fetch - processPackages [catchment_data_api]: Remove: archive file [/home/abi/fetcher/tmp/catchment_data_api-0.1.0.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - processPackages [catchment_data_api]: Remove: archive file [/home/abi/fetcher/tmp/catchment_data_api-0.1.1.tar.gz]
+[2024-05-13 12:18:17] INFO root fetch - main [MainThread]: End processing [catchment_data_api]: success
+[2024-05-13 12:20:10] INFO root fetch - processPackages [neuralogic]: Remove: archive file [/home/abi/fetcher/tmp/neuralogic-0.7.8.tar.gz]
+[2024-05-13 12:20:10] INFO root fetch - processPackages [neuralogic]: Remove: archive file [/home/abi/fetcher/tmp/neuralogic-0.7.9.tar.gz]
+[2024-05-13 12:20:10] INFO root fetch - main [MainThread]: End processing [neuralogic]: success
+[2024-05-13 12:20:10] INFO root fetch - main [MainThread]: Store serial: [23181394]
