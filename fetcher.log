@@ -17987,3 +17987,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:05:04] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.53-py3-none-any.whl.zip]
 [2024-05-13 14:05:04] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-13 14:05:04] INFO root fetch - main [MainThread]: Store serial: [23182586]
+[2024-05-13 14:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182586]
+[2024-05-13 14:07:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlcbase
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-leaflet
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgcopyinsert
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upsonic-legacy
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepeval
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ophyd-async
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: power-grid-model
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsassy
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ultralytics-rknn
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-neat
+[2024-05-13 14:07:12] INFO root fetch - processPackages [django-leaflet]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-13 14:07:12] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.152] Old Version: [8.0.151]
+[2024-05-13 14:07:12] INFO root fetch - processPackages [pgcopyinsert]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-05-13 14:07:13] WARNING root fetch - processPackages [mlcbase]: Skipping, unable to determine old version
+[2024-05-13 14:07:13] INFO root fetch - main [MainThread]: End processing [mlcbase] error
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ophyd-async]: New version: [0.3a4] Old Version: [0.3a3]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [upsonic-legacy]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [lsassy]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [cognite-neat]: New version: [0.77.0] Old Version: [0.76.3]
+[2024-05-13 14:07:13] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [django-leaflet]: Downloading https://files.pythonhosted.org/packages/ff/f7/a630e43c385a0bfed521636e88d45e3e9f15277efecadc084b7eb5d4f939/django-leaflet-0.8.5.zip
+[2024-05-13 14:07:13] INFO root fetch - processPackages [pgcopyinsert]: Downloading https://files.pythonhosted.org/packages/6e/de/6e0a348196215d0c28182b8a9ed4680132c23fe317ffcbd1df518cd030e1/pgcopyinsert-0.1.0.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [upsonic-legacy]: Downloading https://files.pythonhosted.org/packages/50/d1/7b3ce6cb8e23ae27dc664a5c80005cda6a3fdc65a5938ec3e7b5e487478f/upsonic_legacy-0.23.7.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ophyd-async]: Downloading https://files.pythonhosted.org/packages/bd/8f/22eca02ea2db98f206c8e29d934d4ba492657aa401ea9dfd1ca11ae86cfa/ophyd_async-0.3a3.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [lsassy]: Downloading https://files.pythonhosted.org/packages/19/93/eecbf054b9773397b20178c6156d4c1612e339f65cfc33ec0edea9d44fee/lsassy-3.1.8.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/71/df/0e01fdb16bf23320f59a38749e3db9ca1f2e376a6c9a7920cb10519124c3/cognite_neat-0.76.3.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/9d/21/844392f227b7b049b89a1d52be3ba67d2547956a9d8a0a81e3e8704c1fbd/ultralytics_rknn-8.0.152-py3-none-any.whl
+[2024-05-13 14:07:13] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [pgcopyinsert]: Downloading https://files.pythonhosted.org/packages/61/be/273b9851397fcfba90615df4380aa16ae4d751dcb265491c994ed72e66b6/pgcopyinsert-0.1.1.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [django-leaflet]: Downloading https://files.pythonhosted.org/packages/9e/1e/48315daf56cb943436fd8502ec7c34a6f3d0dd785cfe01393d8da4cf4070/django-leaflet-0.9.0.zip
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip --markdown 20240513/u/ultralytics-rknn/8.0.151-8.0.152/README.md --exclude *.pyd
+[2024-05-13 14:07:13] INFO root fetch - processPackages [pgcopyinsert]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [pgcopyinsert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgcopyinsert-0.1.0.tar.gz tmp/pgcopyinsert-0.1.1.tar.gz --markdown 20240513/p/pgcopyinsert/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 14:07:13] INFO root fetch - processPackages [upsonic-legacy]: Downloading https://files.pythonhosted.org/packages/81/a4/9deba232701364881051c417cb708b077718c62207e677f73598c09710b2/upsonic_legacy-0.23.8.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240513/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-13 14:07:13] INFO root fetch - processPackages [django-leaflet]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [django-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-leaflet-0.8.5.zip tmp/django-leaflet-0.9.0.zip --markdown 20240513/d/django-leaflet/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-13 14:07:13] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ophyd-async]: Downloading https://files.pythonhosted.org/packages/fa/0e/9f2bd9d4708ff94311cd14afacf937dc84903fae428033c2d22a0a4cca28/ophyd_async-0.3a4.tar.gz
+[2024-05-13 14:07:13] INFO root fetch - processPackages [upsonic-legacy]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [upsonic-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic_legacy-0.23.7.tar.gz tmp/upsonic_legacy-0.23.8.tar.gz --markdown 20240513/u/upsonic-legacy/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-13 14:07:13] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240513/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ophyd-async]: executing diffoscope
+[2024-05-13 14:07:13] INFO root fetch - processPackages [ophyd-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_async-0.3a3.tar.gz tmp/ophyd_async-0.3a4.tar.gz --markdown 20240513/o/ophyd-async/0.3a3-0.3a4/README.md --exclude *.pyd
+[2024-05-13 14:07:14] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/a8/c5/1724bd5524596a730b57644697b58563a4df6b1539ee5553b4fb79304eda/cognite_neat-0.77.0.tar.gz
+[2024-05-13 14:07:14] INFO root fetch - processPackages [lsassy]: Downloading https://files.pythonhosted.org/packages/9b/68/836a6990c74593d345a0441dffc024ad8ea529650f6318a6f067fdfa2e57/lsassy-3.1.9.tar.gz
+[2024-05-13 14:07:14] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-13 14:07:14] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.76.3.tar.gz tmp/cognite_neat-0.77.0.tar.gz --markdown 20240513/c/cognite-neat/0.76.3-0.77.0/README.md --exclude *.pyd
+[2024-05-13 14:07:14] INFO root fetch - processPackages [lsassy]: executing diffoscope
+[2024-05-13 14:07:14] INFO root fetch - processPackages [lsassy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsassy-3.1.8.tar.gz tmp/lsassy-3.1.9.tar.gz --markdown 20240513/l/lsassy/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-13 14:07:14] INFO root fetch - processPackages [pgcopyinsert]: Remove: archive file [/home/abi/fetcher/tmp/pgcopyinsert-0.1.0.tar.gz]
+[2024-05-13 14:07:14] INFO root fetch - processPackages [pgcopyinsert]: Remove: archive file [/home/abi/fetcher/tmp/pgcopyinsert-0.1.1.tar.gz]
+[2024-05-13 14:07:14] INFO root fetch - main [MainThread]: End processing [pgcopyinsert]: success
+[2024-05-13 14:07:14] INFO root fetch - processPackages [upsonic-legacy]: Remove: archive file [/home/abi/fetcher/tmp/upsonic_legacy-0.23.7.tar.gz]
+[2024-05-13 14:07:14] INFO root fetch - processPackages [upsonic-legacy]: Remove: archive file [/home/abi/fetcher/tmp/upsonic_legacy-0.23.8.tar.gz]
+[2024-05-13 14:07:14] INFO root fetch - main [MainThread]: End processing [upsonic-legacy]: success
+[2024-05-13 14:07:15] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-13 14:07:15] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-13 14:07:15] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-13 14:07:15] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-05-13 14:07:15] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
+[2024-05-13 14:07:15] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-05-13 14:07:15] INFO root fetch - processPackages [lsassy]: Remove: archive file [/home/abi/fetcher/tmp/lsassy-3.1.8.tar.gz]
+[2024-05-13 14:07:15] INFO root fetch - processPackages [lsassy]: Remove: archive file [/home/abi/fetcher/tmp/lsassy-3.1.9.tar.gz]
+[2024-05-13 14:07:15] INFO root fetch - main [MainThread]: End processing [lsassy]: success
+[2024-05-13 14:07:15] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a3.tar.gz]
+[2024-05-13 14:07:15] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a4.tar.gz]
+[2024-05-13 14:07:15] INFO root fetch - main [MainThread]: End processing [ophyd-async]: success
+[2024-05-13 14:07:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-13 14:07:16] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-13 14:07:16] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-13 14:07:18] INFO root fetch - processPackages [django-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/django-leaflet-0.8.5.zip]
+[2024-05-13 14:07:18] INFO root fetch - processPackages [django-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/django-leaflet-0.9.0.zip]
+[2024-05-13 14:07:18] INFO root fetch - main [MainThread]: End processing [django-leaflet]: success
+[2024-05-13 14:07:19] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.76.3.tar.gz]
+[2024-05-13 14:07:19] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.77.0.tar.gz]
+[2024-05-13 14:07:19] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-13 14:07:19] INFO root fetch - main [MainThread]: Store serial: [23182622]
