@@ -16978,3 +16978,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:34:25] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip]
 [2024-05-13 13:34:25] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
 [2024-05-13 13:34:25] INFO root fetch - main [MainThread]: Store serial: [23182153]
+[2024-05-13 13:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182153]
+[2024-05-13 13:36:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtpandas
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semchunk
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbimagetotext
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-text-alignment
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygradflow
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: landcover_assignment
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qecore
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbimagetotext
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tq42-grpc-client
+[2024-05-13 13:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sherlockpipe
+[2024-05-13 13:36:34] INFO root fetch - processPackages [mtpandas]: New version: [1.9.202208120520] Old Version: [1.9.202208011136]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:36:34] WARNING root fetch - processPackages [wagtail-text-alignment]: Skipping, unable to determine old version
+[2024-05-13 13:36:34] INFO root fetch - processPackages [wagtail-text-alignment]: Start processing: contact-user-external-local
+[2024-05-13 13:36:34] INFO root fetch - main [MainThread]: End processing [wagtail-text-alignment] error
+[2024-05-13 13:36:34] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [landcover_assignment]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/83/07/ea7b949233637231b605ad043e5af153695fabeec4dd4d2941c8d0bdd8c1/mtpandas-1.9.202208011136-py3-none-any.whl
+[2024-05-13 13:36:34] INFO root fetch - processPackages [semchunk]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-13 13:36:34] INFO root fetch - processPackages [qecore]: New version: [3.9] Old Version: [3.8]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-13 13:36:34] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-13 13:36:34] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-13 13:36:34] INFO root fetch - processPackages [contact-user-external-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 13:36:34] INFO root fetch - processPackages [landcover_assignment]: Downloading https://files.pythonhosted.org/packages/83/a3/0ce556d2b8b213407dc450be30a5a66fc02fd495d94e07d83006192db8d3/landcover_assignment-0.2.1.tar.gz
+[2024-05-13 13:36:34] INFO root fetch - processPackages [semchunk]: Downloading https://files.pythonhosted.org/packages/c3/01/6cfcf54bb6bd87cb6b01bcd23e681601714e26042605c98e04cf27e8c22d/semchunk-0.2.3.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [qecore]: Downloading https://files.pythonhosted.org/packages/73/cb/eb3ee86bdd3b0f41e2347c735467caf4096dac1b2b870f884b6bfadcc048/qecore-3.8.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/ee/d7/c327532c8d29836b170cf073fbafe06c74bce70599b03f09093faf52717a/contact_user_external_local-0.0.3.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/6b/c5/5887a43a006743313198ea775120a74710c0da606c9ccbd6612c8010296a/mtpandas-1.9.202208120520-py3-none-any.whl
+[2024-05-13 13:36:35] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240513/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240513/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [mtpandas]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [mtpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip --markdown 20240513/m/mtpandas/1.9.202208011136-1.9.202208120520/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240513/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240513/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [landcover_assignment]: Downloading https://files.pythonhosted.org/packages/51/e2/26b7d24f738f88cc687eb8dbdbc70756d99dc398cb8017a182ca74907d8c/landcover_assignment-0.2.2.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [semchunk]: Downloading https://files.pythonhosted.org/packages/b1/54/3bb0f68b05369d962faed1b1c22b9f8b25fa8b2e471e31f482cab512e9e8/semchunk-0.2.4.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [qecore]: Downloading https://files.pythonhosted.org/packages/25/94/63b394997fb3ae40746393b5c86ff967be6aa834973467ffef8f769c053a/qecore-3.9.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/ac/16/0d0b34154154292860cf460cf0bd95c903da68826a75d96bec60dc2bd7a6/contact_user_external_local-0.0.4.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2024-05-13 13:36:35] INFO root fetch - processPackages [landcover_assignment]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [landcover_assignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landcover_assignment-0.2.1.tar.gz tmp/landcover_assignment-0.2.2.tar.gz --markdown 20240513/l/landcover_assignment/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [qecore]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [qecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qecore-3.8.tar.gz tmp/qecore-3.9.tar.gz --markdown 20240513/q/qecore/3.8-3.9/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [semchunk]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [semchunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semchunk-0.2.3.tar.gz tmp/semchunk-0.2.4.tar.gz --markdown 20240513/s/semchunk/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [contact-user-external-local]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [contact-user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_user_external_local-0.0.3.tar.gz tmp/contact_user_external_local-0.0.4.tar.gz --markdown 20240513/c/contact-user-external-local/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 13:36:35] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2024-05-13 13:36:35] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20240513/s/sherlockpipe/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-13 13:36:37] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [vbimagetotext]: Start processing: bluekit
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [mtpandas]: Start processing: alphaz-next
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [alphaz-next]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [vbimagetotext]: Start processing: dstack
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [pygradflow]: Start processing: pineboo
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-13 13:36:37] WARNING root fetch - processPackages [bluekit]: Skipping, unable to determine old version
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [bluekit] error
+[2024-05-13 13:36:37] INFO root fetch - processPackages [pineboo]: New version: [0.99.84.6] Old Version: [0.99.84.5]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/37/05/225d9e4e05e5ec2fae893db156a99ac1bea4ad70c53939de2669985c36ca/alphaz-next-0.6.2.tar.gz
+[2024-05-13 13:36:37] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.3.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.4.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [contact-user-external-local]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/89/c0/89514eac4ed196377d0588f154bfd77ed98c10806797f4b99f49f65aa7d1/pineboo-0.99.84.5.tar.gz
+[2024-05-13 13:36:37] INFO root fetch - processPackages [semchunk]: Remove: archive file [/home/abi/fetcher/tmp/semchunk-0.2.3.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [semchunk]: Remove: archive file [/home/abi/fetcher/tmp/semchunk-0.2.4.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [semchunk]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [landcover_assignment]: Remove: archive file [/home/abi/fetcher/tmp/landcover_assignment-0.2.1.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [landcover_assignment]: Remove: archive file [/home/abi/fetcher/tmp/landcover_assignment-0.2.2.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [landcover_assignment]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.8.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.9.tar.gz]
+[2024-05-13 13:36:37] INFO root fetch - main [MainThread]: End processing [qecore]: success
+[2024-05-13 13:36:37] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/65/da/c13d634ebd6b7f206d5fcefad66ad76a45f32c52e2d82169ca901c25d2d0/alphaz-next-0.6.3.tar.gz
+[2024-05-13 13:36:38] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2024-05-13 13:36:38] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-13 13:36:38] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.6.2.tar.gz tmp/alphaz-next-0.6.3.tar.gz --markdown 20240513/a/alphaz-next/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-13 13:36:38] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.6.tar.gz]
+[2024-05-13 13:36:38] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
+[2024-05-13 13:36:38] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2024-05-13 13:36:38] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2024-05-13 13:36:38] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/21/a0/9b2d535435a01daa90fa7a725f631f8a4d6e653afba7aabebbf9bb1eba27/pineboo-0.99.84.6.tar.gz
+[2024-05-13 13:36:38] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2024-05-13 13:36:38] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20240513/d/dstack/0.9.post1-0.9rc2/README.md --exclude *.pyd
+[2024-05-13 13:36:38] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 13:36:38] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.84.5.tar.gz tmp/pineboo-0.99.84.6.tar.gz --markdown 20240513/p/pineboo/0.99.84.5-0.99.84.6/README.md --exclude *.pyd
+[2024-05-13 13:36:38] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.2.tar.gz]
+[2024-05-13 13:36:38] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.3.tar.gz]
+[2024-05-13 13:36:38] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-13 13:36:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-13 13:36:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-13 13:36:39] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-13 13:36:39] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2024-05-13 13:36:39] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2024-05-13 13:36:39] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2024-05-13 13:36:42] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.5.tar.gz]
+[2024-05-13 13:36:42] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.6.tar.gz]
+[2024-05-13 13:36:42] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 13:36:42] INFO root fetch - main [MainThread]: Store serial: [23182201]
