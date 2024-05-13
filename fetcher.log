@@ -16252,3 +16252,161 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 13:12:20] INFO root fetch - processPackages [mnelab]: Remove: archive file [/home/abi/fetcher/tmp/mnelab-0.9.1.tar.gz]
 [2024-05-13 13:12:20] INFO root fetch - main [MainThread]: End processing [mnelab]: success
 [2024-05-13 13:12:20] INFO root fetch - main [MainThread]: Store serial: [23181902]
+[2024-05-13 13:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181902]
+[2024-05-13 13:14:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hmt-basemodels
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: REMLA-Test-Lib-version
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytonlq-party-address-location
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytonlq-party-address-location
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-cpp
+[2024-05-13 13:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hombre-tools
+[2024-05-13 13:14:29] INFO root fetch - processPackages [trytonlq-party-address-location]: New version: [6.8.0] Old Version: [6.6.0]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [trytonlq-party-address-location]: New version: [6.8.0] Old Version: [6.6.0]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [trytonlq-party-address-location]: Downloading https://files.pythonhosted.org/packages/1f/b2/a76fe88c5c15755ba6b495ca5189a9d9a98a421c6aec7d79cc4b973257f0/trytonlq_party_address_location-6.6.0.tar.gz
+[2024-05-13 13:14:29] INFO root fetch - processPackages [REMLA-Test-Lib-version]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240513] Old Version: [2.5.0b20240512]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [hombre-tools]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [hmt-basemodels]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240513] Old Version: [2.5.0b20240512]
+[2024-05-13 13:14:29] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-13 13:14:29] INFO root fetch - processPackages [trytonlq-party-address-location]: Downloading https://files.pythonhosted.org/packages/1f/b2/a76fe88c5c15755ba6b495ca5189a9d9a98a421c6aec7d79cc4b973257f0/trytonlq_party_address_location-6.6.0.tar.gz
+[2024-05-13 13:14:30] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/2c/f4/e04e3265f4266ca05e88631f0d1a1388229fc4d892bfa25cde7ef4211dc1/hombre_tools-0.1.21-py3-none-any.whl
+[2024-05-13 13:14:30] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/0d/00/e7f4a03a83cb55050349bb9046a3c98d99c67c317fe944acccaf251daeea/REMLA-Test-Lib-version-0.0.2.tar.gz
+[2024-05-13 13:14:30] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/f7/5a/f26bd323b730d20eca21ca0a99bff7dc3bd8a20d1adaf0df72c6a6198159/bigdl_core_cpp-2.5.0b20240512-py3-none-win_amd64.whl
+[2024-05-13 13:14:30] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/3e/31/8af4b87006663de03ae39c9811ca5ae5e8aabfc04cfbccf1805b5837c802/bigdl_core_xe_esimd_21-2.5.0b20240512-cp39-cp39-win_amd64.whl
+[2024-05-13 13:14:30] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/a3/40/1b4f1ffa129d965d4429aa6957355e5885ba0fd6fb39a2a73f1697e135a2/hmt-basemodels-1.0.0.tar.gz
+[2024-05-13 13:14:30] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 27043541>=10485760
+[2024-05-13 13:14:30] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-13 13:14:30] INFO root fetch - processPackages [trytonlq-party-address-location]: Downloading https://files.pythonhosted.org/packages/35/92/882c2a436171e0ca8d281b82361db887a2798e433a757e61c677296902c3/trytonlq_party_address_location-6.8.0.tar.gz
+[2024-05-13 13:14:30] INFO root fetch - processPackages [trytonlq-party-address-location]: Downloading https://files.pythonhosted.org/packages/35/92/882c2a436171e0ca8d281b82361db887a2798e433a757e61c677296902c3/trytonlq_party_address_location-6.8.0.tar.gz
+[2024-05-13 13:14:30] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-13 13:14:30] INFO root fetch - processPackages [trytonlq-party-address-location]: executing diffoscope
+[2024-05-13 13:14:30] INFO root fetch - processPackages [trytonlq-party-address-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytonlq_party_address_location-6.6.0.tar.gz tmp/trytonlq_party_address_location-6.8.0.tar.gz --markdown 20240513/t/trytonlq-party-address-location/6.6.0-6.8.0/README.md --exclude *.pyd
+[2024-05-13 13:14:30] INFO root fetch - processPackages [trytonlq-party-address-location]: executing diffoscope
+[2024-05-13 13:14:30] INFO root fetch - processPackages [trytonlq-party-address-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytonlq_party_address_location-6.6.0.tar.gz tmp/trytonlq_party_address_location-6.8.0.tar.gz --markdown 20240513/t/trytonlq-party-address-location/6.6.0-6.8.0/README.md --exclude *.pyd
+[2024-05-13 13:14:30] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/78/f8/b7823e680c9a0949cc49f5e0446b4804c30a36aab1090bcc09da36a923f2/REMLA-Test-Lib-version-0.1.0.tar.gz
+[2024-05-13 13:14:30] INFO root fetch - processPackages [hmt-basemodels]: Downloading https://files.pythonhosted.org/packages/c2/ab/c7cdaafd695d07b0d20686fcde5207755ef241cf5fa3d1242eac4fc2bc2e/hmt_basemodels-1.1.0.tar.gz
+[2024-05-13 13:14:30] INFO root fetch - processPackages [REMLA-Test-Lib-version]: executing diffoscope
+[2024-05-13 13:14:30] INFO root fetch - processPackages [REMLA-Test-Lib-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REMLA-Test-Lib-version-0.0.2.tar.gz tmp/REMLA-Test-Lib-version-0.1.0.tar.gz --markdown 20240513/R/REMLA-Test-Lib-version/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-13 13:14:30] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/06/5e/a3447bd71141d2e160899445fc9fca0f776343870b12a838588b38a1d6f7/hombre_tools-0.1.22-py3-none-any.whl
+[2024-05-13 13:14:30] INFO root fetch - processPackages [hmt-basemodels]: executing diffoscope
+[2024-05-13 13:14:30] INFO root fetch - processPackages [hmt-basemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmt-basemodels-1.0.0.tar.gz tmp/hmt_basemodels-1.1.0.tar.gz --markdown 20240513/h/hmt-basemodels/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-13 13:14:30] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/b6/34/b450d8f9f289b2ed6b56844394451890723710f1b05b9df6650aa6ad8175/bigdl_core_xe_esimd_21-2.5.0b20240513-cp310-cp310-win_amd64.whl
+[2024-05-13 13:14:30] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-13 13:14:30] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240513/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-13 13:14:30] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-13 13:14:30] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240512-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240513-cp310-cp310-win_amd64.whl.zip --markdown 20240513/b/bigdl-core-xe-esimd-21/2.5.0b20240512-2.5.0b20240513/README.md --exclude *.pyd
+[2024-05-13 13:14:31] INFO root fetch - processPackages [hombre-tools]: executing diffoscope
+[2024-05-13 13:14:31] INFO root fetch - processPackages [hombre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hombre_tools-0.1.21-py3-none-any.whl.zip tmp/hombre_tools-0.1.22-py3-none-any.whl.zip --markdown 20240513/h/hombre-tools/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-05-13 13:14:31] INFO root fetch - processPackages [trytonlq-party-address-location]: Remove: archive file [/home/abi/fetcher/tmp/trytonlq_party_address_location-6.6.0.tar.gz]
+[2024-05-13 13:14:31] INFO root fetch - processPackages [trytonlq-party-address-location]: Remove: archive file [/home/abi/fetcher/tmp/trytonlq_party_address_location-6.8.0.tar.gz]
+[2024-05-13 13:14:31] INFO root fetch - main [MainThread]: End processing [trytonlq-party-address-location]: success
+[2024-05-13 13:14:31] INFO root fetch - main [MainThread]: End processing [trytonlq-party-address-location]: success
+[2024-05-13 13:14:31] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.0.2.tar.gz]
+[2024-05-13 13:14:31] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.1.0.tar.gz]
+[2024-05-13 13:14:31] INFO root fetch - main [MainThread]: End processing [REMLA-Test-Lib-version]: success
+[2024-05-13 13:14:32] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt-basemodels-1.0.0.tar.gz]
+[2024-05-13 13:14:32] INFO root fetch - processPackages [hmt-basemodels]: Remove: archive file [/home/abi/fetcher/tmp/hmt_basemodels-1.1.0.tar.gz]
+[2024-05-13 13:14:32] INFO root fetch - main [MainThread]: End processing [hmt-basemodels]: success
+[2024-05-13 13:14:32] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-13T13:14:31+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140611726351872)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140611860569488)
+
+[2024-05-13 13:14:32] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-13 13:14:33] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-13 13:14:33] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-13 13:14:33] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-13 13:14:34] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.21-py3-none-any.whl.zip]
+[2024-05-13 13:14:34] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.22-py3-none-any.whl.zip]
+[2024-05-13 13:14:34] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
+[2024-05-13 13:14:34] INFO root fetch - main [MainThread]: Store serial: [23181919]
