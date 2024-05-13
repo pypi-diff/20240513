@@ -4254,3 +4254,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:14:31] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.3.0a1.tar.gz]
 [2024-05-13 05:14:31] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
 [2024-05-13 05:14:31] INFO root fetch - main [MainThread]: Store serial: [23176294]
+[2024-05-13 05:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176294]
+[2024-05-13 05:16:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: incrustsz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: touchpy
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: annonition
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: personal-interfaces
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-cv-nightly
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: facialz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentry-stack-dingding
+[2024-05-13 05:16:40] INFO root fetch - processPackages [annonition]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 05:16:40] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-13 05:16:40] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/92/48/165334b685126b6c1f9904aaee58bf3d2b60d6e5cf13baea81df0709f648/annonition-0.0.4.tar.gz
+[2024-05-13 05:16:40] WARNING root fetch - processPackages [facialz]: Skipping, unable to determine old version
+[2024-05-13 05:16:40] INFO root fetch - main [MainThread]: End processing [facialz] error
+[2024-05-13 05:16:40] INFO root fetch - processPackages [personal-interfaces]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-13 05:16:40] WARNING root fetch - processPackages [sentry-stack-dingding]: Skipping, unable to determine old version
+[2024-05-13 05:16:40] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding] error
+[2024-05-13 05:16:40] WARNING root fetch - processPackages [incrustsz]: Skipping, unable to determine old version
+[2024-05-13 05:16:40] INFO root fetch - main [MainThread]: End processing [incrustsz] error
+[2024-05-13 05:16:40] INFO root fetch - processPackages [touchpy]: New version: [0.0.3] Old Version: [0.0.0]
+[2024-05-13 05:16:40] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [personal-interfaces]: Downloading https://files.pythonhosted.org/packages/d5/89/4a42c6bc1ac872e863014849a48aef56218fecd8f25a997d9bef28e5e38a/personal_interfaces-0.3.0.tar.gz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [touchpy]: Downloading https://files.pythonhosted.org/packages/cf/50/9f520124371aa0199aa7b8ce35b252a26b3246a4cf8aefd8f912f9ff5d43/touchpy-0.0.0.tar.gz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/73/28/4a109ae205f81c9059996529e66aa391f535cd111a44b0c0fd90c0f404cb/annonition-0.0.5.tar.gz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-13 05:16:40] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.0.4.tar.gz tmp/annonition-0.0.5.tar.gz --markdown 20240513/a/annonition/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 05:16:40] INFO root fetch - processPackages [touchpy]: Downloading https://files.pythonhosted.org/packages/b6/5d/1e0ed6b4c910b31a5a9151fc72ddc5867e2bf78f3fd958a71dd8392f1757/touchpy-0.0.3-py3-none-any.whl
+[2024-05-13 05:16:40] INFO root fetch - processPackages [personal-interfaces]: Downloading https://files.pythonhosted.org/packages/75/98/8e22399553924ebc711e04969bedd93b584acc0c218d88d58956e198ee8a/personal_interfaces-0.4.0.tar.gz
+[2024-05-13 05:16:40] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-13 05:16:40] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240513/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-13 05:16:40] INFO root fetch - processPackages [personal-interfaces]: executing diffoscope
+[2024-05-13 05:16:40] INFO root fetch - processPackages [personal-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/personal_interfaces-0.3.0.tar.gz tmp/personal_interfaces-0.4.0.tar.gz --markdown 20240513/p/personal-interfaces/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-13 05:16:41] INFO root fetch - processPackages [touchpy]: executing diffoscope
+[2024-05-13 05:16:41] INFO root fetch - processPackages [touchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/touchpy-0.0.0.tar.gz tmp/touchpy-0.0.3-py3-none-any.whl.zip --markdown 20240513/t/touchpy/0.0.0-0.0.3/README.md --exclude *.pyd
+[2024-05-13 05:16:41] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.0.4.tar.gz]
+[2024-05-13 05:16:41] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.0.5.tar.gz]
+[2024-05-13 05:16:41] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-13 05:16:41] INFO root fetch - processPackages [personal-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/personal_interfaces-0.3.0.tar.gz]
+[2024-05-13 05:16:41] INFO root fetch - processPackages [personal-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/personal_interfaces-0.4.0.tar.gz]
+[2024-05-13 05:16:41] INFO root fetch - main [MainThread]: End processing [personal-interfaces]: success
+[2024-05-13 05:16:41] INFO root fetch - processPackages [touchpy]: Remove: archive file [/home/abi/fetcher/tmp/touchpy-0.0.0.tar.gz]
+[2024-05-13 05:16:41] INFO root fetch - processPackages [touchpy]: Remove: archive file [/home/abi/fetcher/tmp/touchpy-0.0.3-py3-none-any.whl.zip]
+[2024-05-13 05:16:41] INFO root fetch - main [MainThread]: End processing [touchpy]: success
+[2024-05-13 05:16:42] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-13 05:16:42] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-13 05:16:42] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-13 05:16:42] INFO root fetch - main [MainThread]: Store serial: [23176318]
