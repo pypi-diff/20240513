@@ -15026,3 +15026,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:20:10] INFO root fetch - processPackages [neuralogic]: Remove: archive file [/home/abi/fetcher/tmp/neuralogic-0.7.9.tar.gz]
 [2024-05-13 12:20:10] INFO root fetch - main [MainThread]: End processing [neuralogic]: success
 [2024-05-13 12:20:10] INFO root fetch - main [MainThread]: Store serial: [23181394]
+[2024-05-13 12:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181394]
+[2024-05-13 12:22:20] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pineboo
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gamspy
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: activetigger
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antakia
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hugr
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vipas
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soccerz
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mailslurp-client
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acmecse
+[2024-05-13 12:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wlkata-mirobot-Virtual
+[2024-05-13 12:22:20] INFO root fetch - processPackages [pineboo]: New version: [0.99.84.1] Old Version: [0.99.84]
+[2024-05-13 12:22:20] INFO root fetch - processPackages [activetigger]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 12:22:20] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.1.6] Old Version: [1.1.4]
+[2024-05-13 12:22:20] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-05-13 12:22:20] WARNING root fetch - processPackages [soccerz]: Skipping, unable to determine old version
+[2024-05-13 12:22:20] INFO root fetch - processPackages [soccerz]: Start processing: pyc4
+[2024-05-13 12:22:20] INFO root fetch - main [MainThread]: End processing [soccerz] error
+[2024-05-13 12:22:20] INFO root fetch - processPackages [hugr]: New version: [0.2.0a1] Old Version: [0.1.0a1]
+[2024-05-13 12:22:20] INFO root fetch - processPackages [vipas]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 12:22:20] INFO root fetch - processPackages [antakia]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-13 12:22:20] WARNING root fetch - processPackages [acmecse]: Skipping, unable to determine old version
+[2024-05-13 12:22:20] INFO root fetch - processPackages [acmecse]: Start processing: algorithmbyfahadhussain
+[2024-05-13 12:22:20] INFO root fetch - main [MainThread]: End processing [acmecse] error
+[2024-05-13 12:22:20] INFO root fetch - processPackages [gamspy]: New version: [0.12.4] Old Version: [0.12.3]
+[2024-05-13 12:22:20] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cd/61/e3a8ac9e2f5d83c54a293e605a5ca480322d966c2f92d238bb5b550051b4/pineboo-0.99.84.tar.gz
+[2024-05-13 12:22:20] INFO root fetch - processPackages [activetigger]: Downloading https://files.pythonhosted.org/packages/71/90/e13211b26fafb40fd3c072a66b627054c0adff57806a65cfa16019e42754/activetigger-0.1.2.tar.gz
+[2024-05-13 12:22:20] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/a0/e8/c258dbac1323b628d81027a507cf4717fd815e5116fda3fb612757428e51/wlkata_mirobot_Virtual-1.1.4-py3-none-any.whl
+[2024-05-13 12:22:20] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-05-13 12:22:20] INFO root fetch - processPackages [pyc4]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 12:22:20] WARNING root fetch - processPackages [algorithmbyfahadhussain]: Skipping, unable to determine old version
+[2024-05-13 12:22:20] INFO root fetch - processPackages [algorithmbyfahadhussain]: Start processing: geo-skeletons
+[2024-05-13 12:22:20] INFO root fetch - main [MainThread]: End processing [algorithmbyfahadhussain] error
+[2024-05-13 12:22:20] INFO root fetch - processPackages [hugr]: Downloading https://files.pythonhosted.org/packages/e7/e0/1d84448bf6eba4140f4031384558f02107c9351835fea4700cdfea0c029c/hugr-0.1.0a1.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [antakia]: Downloading https://files.pythonhosted.org/packages/4c/6f/ae5c6ede7f2438868b53eb0399db6e6a316b909f75ea1ea760ccf3dec164/antakia-0.4.4.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [gamspy]: Downloading https://files.pythonhosted.org/packages/ec/92/a013cbc794556d4439ec4b1fe6dfe7576baf156fdc281a40d7fe0ec5e62f/gamspy-0.12.3-py3-none-any.whl
+[2024-05-13 12:22:21] WARNING root fetch - processPackages [antakia]: Skipping package: exceeds size limit 22881582>=10485760
+[2024-05-13 12:22:21] INFO root fetch - processPackages [antakia]: Start processing: ftb-snbt-lib
+[2024-05-13 12:22:21] INFO root fetch - main [MainThread]: End processing [antakia] error
+[2024-05-13 12:22:21] INFO root fetch - processPackages [pyc4]: Downloading https://files.pythonhosted.org/packages/a5/40/0becce9fb6a2ed51116404fcc0e5fdffe7f211ab8d6c7f68e03f8909cb13/pyc4-1.0.0.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 12:22:21] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/ce/50/9ae515d7c136a8b55eac47707d139af6f6f0ec94c81f50579b80ce777190/vipas-0.0.3.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/6b/2f/e4bfedfaa4d4dbabe093484ff98f2c10b3792ebca0ace2ec476b3704d79e/wlkata_mirobot_Virtual-1.1.6.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [ftb-snbt-lib]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-13 12:22:21] INFO root fetch - processPackages [activetigger]: Downloading https://files.pythonhosted.org/packages/d1/00/28bcc5b441efd11449d7d192c1142f6ec376858209a91f2585d41ca6988f/activetigger-0.1.3.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [hugr]: Downloading https://files.pythonhosted.org/packages/3d/6d/af987f3879c60122c1ec883fc2710e12f328485c22276b27796e9f66db98/hugr-0.2.0a1.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.1.4-py3-none-any.whl.zip tmp/wlkata_mirobot_Virtual-1.1.6.tar.gz --markdown 20240513/w/wlkata-mirobot-Virtual/1.1.4-1.1.6/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240513/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [gamspy]: Downloading https://files.pythonhosted.org/packages/bf/9a/bd7bf8cb437362498c22c07b2a359a17f83a373d81094f1fc4921f4a088f/gamspy-0.12.4-py3-none-any.whl
+[2024-05-13 12:22:21] INFO root fetch - processPackages [ftb-snbt-lib]: Downloading https://files.pythonhosted.org/packages/d4/38/3d931596076926c0a34417744e4cef7bd9392d05be0ed14b41dcf78dd551/ftb_snbt_lib-0.3.0.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [pyc4]: Downloading https://files.pythonhosted.org/packages/8f/20/891b59fa62d01820d36c73347f98ea247a5e359c0e981276ae93028a9580/pyc4-1.0.1.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/77/db/dc4ed1baa928b96c50560dd5c6a7ead0e01278dc42cd6e8b7d179007107a/pineboo-0.99.84.1.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [hugr]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [hugr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugr-0.1.0a1.tar.gz tmp/hugr-0.2.0a1.tar.gz --markdown 20240513/h/hugr/0.1.0a1-0.2.0a1/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/b3/33/6022c6a360b9987f12e65b4f550287196a08e7617d1a93f5047e971f7a20/vipas-0.0.4.tar.gz
+[2024-05-13 12:22:21] INFO root fetch - processPackages [activetigger]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [activetigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activetigger-0.1.2.tar.gz tmp/activetigger-0.1.3.tar.gz --markdown 20240513/a/activetigger/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [gamspy]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [gamspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy-0.12.3-py3-none-any.whl.zip tmp/gamspy-0.12.4-py3-none-any.whl.zip --markdown 20240513/g/gamspy/0.12.3-0.12.4/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [pyc4]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [pyc4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyc4-1.0.0.tar.gz tmp/pyc4-1.0.1.tar.gz --markdown 20240513/p/pyc4/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-13 12:22:21] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.0.3.tar.gz tmp/vipas-0.0.4.tar.gz --markdown 20240513/v/vipas/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 12:22:21] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-05-13 12:22:22] INFO root fetch - processPackages [ftb-snbt-lib]: Downloading https://files.pythonhosted.org/packages/f0/c4/a69e1fe47ef69fc00813539815e4722b901f2e65559ba02b842bc5148675/ftb_snbt_lib-0.3.1.tar.gz
+[2024-05-13 12:22:22] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-05-13 12:22:22] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240513/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 12:22:22] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 12:22:22] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.84.tar.gz tmp/pineboo-0.99.84.1.tar.gz --markdown 20240513/p/pineboo/0.99.84-0.99.84.1/README.md --exclude *.pyd
+[2024-05-13 12:22:22] INFO root fetch - processPackages [ftb-snbt-lib]: executing diffoscope
+[2024-05-13 12:22:22] INFO root fetch - processPackages [ftb-snbt-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftb_snbt_lib-0.3.0.tar.gz tmp/ftb_snbt_lib-0.3.1.tar.gz --markdown 20240513/f/ftb-snbt-lib/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-13 12:22:23] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.4-py3-none-any.whl.zip]
+[2024-05-13 12:22:23] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.6.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Start processing: aiocoap
+[2024-05-13 12:22:23] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-13 12:22:23] INFO root fetch - processPackages [hugr]: Remove: archive file [/home/abi/fetcher/tmp/hugr-0.1.0a1.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - processPackages [hugr]: Remove: archive file [/home/abi/fetcher/tmp/hugr-0.2.0a1.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - main [MainThread]: End processing [hugr]: success
+[2024-05-13 12:22:23] INFO root fetch - processPackages [aiocoap]: New version: [0.4b3] Old Version: [0.4b2]
+[2024-05-13 12:22:23] INFO root fetch - processPackages [pyc4]: Remove: archive file [/home/abi/fetcher/tmp/pyc4-1.0.0.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - processPackages [pyc4]: Remove: archive file [/home/abi/fetcher/tmp/pyc4-1.0.1.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - main [MainThread]: End processing [pyc4]: success
+[2024-05-13 12:22:23] INFO root fetch - processPackages [aiocoap]: Downloading https://files.pythonhosted.org/packages/8a/db/1e5c95ebb821c23f89afd9e3755b871b29b519dbb51d77b9cae03de96571/aiocoap-0.4b2.tar.gz
+[2024-05-13 12:22:23] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.3.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.4.tar.gz]
+[2024-05-13 12:22:23] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-13 12:22:24] INFO root fetch - processPackages [activetigger]: Remove: archive file [/home/abi/fetcher/tmp/activetigger-0.1.2.tar.gz]
+[2024-05-13 12:22:24] INFO root fetch - processPackages [activetigger]: Remove: archive file [/home/abi/fetcher/tmp/activetigger-0.1.3.tar.gz]
+[2024-05-13 12:22:24] INFO root fetch - main [MainThread]: End processing [activetigger]: success
+[2024-05-13 12:22:24] INFO root fetch - processPackages [aiocoap]: Downloading https://files.pythonhosted.org/packages/85/d4/655cee7954903af13a61497e9d2473315494f43b6991740140fac317b6b1/aiocoap-0.4b3.tar.gz
+[2024-05-13 12:22:24] INFO root fetch - processPackages [ftb-snbt-lib]: Remove: archive file [/home/abi/fetcher/tmp/ftb_snbt_lib-0.3.0.tar.gz]
+[2024-05-13 12:22:24] INFO root fetch - processPackages [ftb-snbt-lib]: Remove: archive file [/home/abi/fetcher/tmp/ftb_snbt_lib-0.3.1.tar.gz]
+[2024-05-13 12:22:24] INFO root fetch - main [MainThread]: End processing [ftb-snbt-lib]: success
+[2024-05-13 12:22:24] INFO root fetch - processPackages [aiocoap]: executing diffoscope
+[2024-05-13 12:22:24] INFO root fetch - processPackages [aiocoap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocoap-0.4b2.tar.gz tmp/aiocoap-0.4b3.tar.gz --markdown 20240513/a/aiocoap/0.4b2-0.4b3/README.md --exclude *.pyd
+[2024-05-13 12:22:24] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-05-13 12:22:24] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-05-13 12:22:24] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-05-13 12:22:24] INFO root fetch - processPackages [gamspy]: Remove: archive file [/home/abi/fetcher/tmp/gamspy-0.12.3-py3-none-any.whl.zip]
+[2024-05-13 12:22:24] INFO root fetch - processPackages [gamspy]: Remove: archive file [/home/abi/fetcher/tmp/gamspy-0.12.4-py3-none-any.whl.zip]
+[2024-05-13 12:22:24] INFO root fetch - main [MainThread]: End processing [gamspy]: success
+[2024-05-13 12:22:25] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-05-13 12:22:25] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-05-13 12:22:25] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-05-13 12:22:26] INFO root fetch - processPackages [aiocoap]: Remove: archive file [/home/abi/fetcher/tmp/aiocoap-0.4b2.tar.gz]
+[2024-05-13 12:22:26] INFO root fetch - processPackages [aiocoap]: Remove: archive file [/home/abi/fetcher/tmp/aiocoap-0.4b3.tar.gz]
+[2024-05-13 12:22:26] INFO root fetch - main [MainThread]: End processing [aiocoap]: success
+[2024-05-13 12:22:28] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.tar.gz]
+[2024-05-13 12:22:28] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.1.tar.gz]
+[2024-05-13 12:22:28] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 12:22:28] INFO root fetch - main [MainThread]: Store serial: [23181451]
