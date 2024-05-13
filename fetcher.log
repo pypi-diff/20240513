@@ -20990,3 +20990,51 @@ EOFError: EOF read where object expected
 [2024-05-13 15:36:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
 [2024-05-13 15:36:00] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-05-13 15:36:00] INFO root fetch - main [MainThread]: Store serial: [23183845]
+[2024-05-13 15:38:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183845]
+[2024-05-13 15:38:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guan
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unacatlib
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mergefast1
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ibroadcast-dl
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngstrefftz
+[2024-05-13 15:38:10] INFO root fetch - processPackages [mergefast1]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 15:38:10] INFO root fetch - processPackages [guan]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ibroadcast-dl]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-13 15:38:10] INFO root fetch - processPackages [unacatlib]: New version: [0.0.81] Old Version: [0.0.80]
+[2024-05-13 15:38:10] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/83/e1/6b686ecb9b6d4816a6835f0fe2c00899526ca31fe7fe9fb3a31f123331f3/guan-0.1.98.tar.gz
+[2024-05-13 15:38:10] INFO root fetch - processPackages [mergefast1]: Downloading https://files.pythonhosted.org/packages/2e/ea/d591a4b1b6b3a0417de97ec68232083f0059e0c06d0d0afb497d63264f42/mergefast1-0.1.3.tar.gz
+[2024-05-13 15:38:10] INFO root fetch - processPackages [ngstrefftz]: New version: [0.3.2402.dev35] Old Version: [0.3.2402.dev34]
+[2024-05-13 15:38:11] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/40/5a/060a2d3b27c15cbea442e07159c2aa8354197f4be9ec75591c6ba0493e9c/unacatlib-0.0.80-py2.py3-none-any.whl
+[2024-05-13 15:38:11] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/23/9b/7e086c2a15515ecf196da0393766200ec49ac8a52033424da629a3b9055e/guan-0.1.99.tar.gz
+[2024-05-13 15:38:11] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/a8/ef/cfa1d783341ce69e300cffd2cb6e0173ea485b37cb4b986248e6b4f0412b/ngstrefftz-0.3.2402.dev34.tar.gz
+[2024-05-13 15:38:11] INFO root fetch - processPackages [mergefast1]: Downloading https://files.pythonhosted.org/packages/c5/d4/85d403e1d9560eb93d9e2e99b068943bbe56e08f449308233006efa899fa/mergefast1-0.1.4.tar.gz
+[2024-05-13 15:38:11] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-05-13 15:38:11] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.98.tar.gz tmp/guan-0.1.99.tar.gz --markdown 20240513/g/guan/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-13 15:38:11] INFO root fetch - processPackages [ibroadcast-dl]: Downloading https://files.pythonhosted.org/packages/50/05/d6efdea9d09e2b41358b4b8cde54395b260bb7a5d88dd5c66b904f6aa8fa/ibroadcast_dl-1.1.1.tar.gz
+[2024-05-13 15:38:11] INFO root fetch - processPackages [mergefast1]: executing diffoscope
+[2024-05-13 15:38:11] INFO root fetch - processPackages [mergefast1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergefast1-0.1.3.tar.gz tmp/mergefast1-0.1.4.tar.gz --markdown 20240513/m/mergefast1/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 15:38:11] INFO root fetch - processPackages [unacatlib]: Downloading https://files.pythonhosted.org/packages/ae/2d/2acf7071124a269183249afe037ac986bbeabe7e50da695ded186d47647d/unacatlib-0.0.81-py2.py3-none-any.whl
+[2024-05-13 15:38:11] INFO root fetch - processPackages [unacatlib]: executing diffoscope
+[2024-05-13 15:38:11] INFO root fetch - processPackages [unacatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unacatlib-0.0.80-py2.py3-none-any.whl.zip tmp/unacatlib-0.0.81-py2.py3-none-any.whl.zip --markdown 20240513/u/unacatlib/0.0.80-0.0.81/README.md --exclude *.pyd
+[2024-05-13 15:38:11] INFO root fetch - processPackages [ibroadcast-dl]: Downloading https://files.pythonhosted.org/packages/19/20/9106edfffb329a53b1a8cd6e7681144b9b1dc87b18e53c7d06c855119a13/ibroadcast_dl-1.1.2.tar.gz
+[2024-05-13 15:38:11] INFO root fetch - processPackages [ibroadcast-dl]: executing diffoscope
+[2024-05-13 15:38:11] INFO root fetch - processPackages [ibroadcast-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibroadcast_dl-1.1.1.tar.gz tmp/ibroadcast_dl-1.1.2.tar.gz --markdown 20240513/i/ibroadcast-dl/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-13 15:38:11] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/44/7d/44aa826889bd95b815df52f2e4f41261bb32933951d52bd761ae418110fa/ngstrefftz-0.3.2402.dev35.tar.gz
+[2024-05-13 15:38:12] INFO root fetch - processPackages [ngstrefftz]: executing diffoscope
+[2024-05-13 15:38:12] INFO root fetch - processPackages [ngstrefftz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-0.3.2402.dev34.tar.gz tmp/ngstrefftz-0.3.2402.dev35.tar.gz --markdown 20240513/n/ngstrefftz/0.3.2402.dev34-0.3.2402.dev35/README.md --exclude *.pyd
+[2024-05-13 15:38:12] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.98.tar.gz]
+[2024-05-13 15:38:12] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.99.tar.gz]
+[2024-05-13 15:38:12] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-05-13 15:38:12] INFO root fetch - processPackages [mergefast1]: Remove: archive file [/home/abi/fetcher/tmp/mergefast1-0.1.3.tar.gz]
+[2024-05-13 15:38:12] INFO root fetch - processPackages [mergefast1]: Remove: archive file [/home/abi/fetcher/tmp/mergefast1-0.1.4.tar.gz]
+[2024-05-13 15:38:12] INFO root fetch - main [MainThread]: End processing [mergefast1]: success
+[2024-05-13 15:38:12] INFO root fetch - processPackages [ibroadcast-dl]: Remove: archive file [/home/abi/fetcher/tmp/ibroadcast_dl-1.1.1.tar.gz]
+[2024-05-13 15:38:12] INFO root fetch - processPackages [ibroadcast-dl]: Remove: archive file [/home/abi/fetcher/tmp/ibroadcast_dl-1.1.2.tar.gz]
+[2024-05-13 15:38:12] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.80-py2.py3-none-any.whl.zip]
+[2024-05-13 15:38:12] INFO root fetch - main [MainThread]: End processing [ibroadcast-dl]: success
+[2024-05-13 15:38:12] INFO root fetch - processPackages [unacatlib]: Remove: archive file [/home/abi/fetcher/tmp/unacatlib-0.0.81-py2.py3-none-any.whl.zip]
+[2024-05-13 15:38:12] INFO root fetch - main [MainThread]: End processing [unacatlib]: success
+[2024-05-13 15:38:13] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev34.tar.gz]
+[2024-05-13 15:38:13] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev35.tar.gz]
+[2024-05-13 15:38:13] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
+[2024-05-13 15:38:13] INFO root fetch - main [MainThread]: Store serial: [23183867]
