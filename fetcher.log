@@ -23645,3 +23645,132 @@ EOFError: EOF read where object expected
 [2024-05-13 16:56:12] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.2b0.tar.gz]
 [2024-05-13 16:56:12] INFO root fetch - main [MainThread]: End processing [OMTF]: success
 [2024-05-13 16:56:12] INFO root fetch - main [MainThread]: Store serial: [23185302]
+[2024-05-13 16:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185302]
+[2024-05-13 16:58:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-telemetry
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-utils
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-skill-personal
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcicutils
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mountain-chicken
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adrenitisz
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stack-graphs-python-bindings
+[2024-05-13 16:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [stack-graphs-python-bindings]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kfish]: New version: [99.0.202405130627] Old Version: [99.0.202405091645]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kcli]: New version: [99.0.202405131453] Old Version: [99.0.202405130624]
+[2024-05-13 16:58:23] WARNING root fetch - processPackages [adrenitisz]: Skipping, unable to determine old version
+[2024-05-13 16:58:23] INFO root fetch - processPackages [ovos-skill-personal]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2024-05-13 16:58:23] WARNING root fetch - processPackages [mountain-chicken]: Skipping, unable to determine old version
+[2024-05-13 16:58:23] INFO root fetch - processPackages [adrenitisz]: Start processing: process-time-azure-devops
+[2024-05-13 16:58:23] INFO root fetch - main [MainThread]: End processing [adrenitisz] error
+[2024-05-13 16:58:23] INFO root fetch - processPackages [mountain-chicken]: Start processing: dbopenapi
+[2024-05-13 16:58:23] INFO root fetch - main [MainThread]: End processing [mountain-chicken] error
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/f2/3f/94f2eccd699ff40332d2d8c3f2221662c0fd208bf3b6c83496041fd9863f/nucliadb_utils-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f2/65/fe31547ad83d569690d526578e7d866a5f9e1c62133e290a247f267d2d33/nucliadb_sdk-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/ca/3b/de9540460d31f21795907438585351101406484110208363467a0953694d/stack_graphs_python_bindings-0.0.5.tar.gz
+[2024-05-13 16:58:23] INFO root fetch - processPackages [dcicutils]: New version: [8.8.4.1b9] Old Version: [8.8.4.1b8]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/a8/d0/dc6d18a55c4aa6ce6014f8ec30db1dd4fef6dffa6e1b55d3c183f0aae136/nucliadb_telemetry-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [process-time-azure-devops]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 16:58:23] WARNING root fetch - processPackages [dbopenapi]: Skipping, unable to determine old version
+[2024-05-13 16:58:23] INFO root fetch - processPackages [dbopenapi]: Start processing: message-send-local
+[2024-05-13 16:58:23] INFO root fetch - main [MainThread]: End processing [dbopenapi] error
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c1/b5/4a4c5bacd4a3b39b24e5d07d2064c07331d5963718e80967fa99e384c318/kfish-99.0.202405091645-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/17/e3/4389424227d1bbd536afc0e0cc01e0ee67d123d1725ad799238b672852ab/kcli-99.0.202405130624.tar.gz
+[2024-05-13 16:58:23] INFO root fetch - processPackages [ovos-skill-personal]: Downloading https://files.pythonhosted.org/packages/e1/6e/b616d82158886e80f88c2a7986c733172f7751b56a83cca40179f2841e7b/ovos_skill_personal-0.0.4a8-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [message-send-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:58:23] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/88/e3/a68b919149fb754f37e341f70d383d88a49db02e5b5e7f34d0cf00879646/dcicutils-8.8.4.1b8.tar.gz
+[2024-05-13 16:58:23] INFO root fetch - processPackages [process-time-azure-devops]: Downloading https://files.pythonhosted.org/packages/47/50/7c977aa1e2473df3f1f2675923ab012b528a805738b84d5330fc514614e1/process_time_azure_devops-0.0.2.tar.gz
+[2024-05-13 16:58:23] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/41/bb/1b18fe677de280c04892c9d6b495bf647dff1030429c240a9e95a3926a86/stack_graphs_python_bindings-0.0.6.tar.gz
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/bc/62/858d9f540a94bbd367e0e3288c87acac2f7c86cdfb9517f67bf0caa06842/kfish-99.0.202405130627-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/93/31/7d99b1b82408c29391cc667220d0e524192ee67541840116e0a4abdb3d49/nucliadb_sdk-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [stack-graphs-python-bindings]: executing diffoscope
+[2024-05-13 16:58:23] INFO root fetch - processPackages [stack-graphs-python-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stack_graphs_python_bindings-0.0.5.tar.gz tmp/stack_graphs_python_bindings-0.0.6.tar.gz --markdown 20240513/s/stack-graphs-python-bindings/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/8f/2b/64394f72578b386655e4de3ff199f7d560ae06340eb263fb4b28a2134889/nucliadb_utils-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/3e/db/20078e6bce901b0dbb9011faa9575f415223a54413a0d1d8a39235f01f78/message-send-local-0.0.8.tar.gz
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/64/de/f627b5bb3940bba914a399cd1808d348d8e8b6a5d2a2401ddf57b3ceecfc/nucliadb_telemetry-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-13 16:58:23] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405091645-py3-none-any.whl.zip tmp/kfish-99.0.202405130627-py3-none-any.whl.zip --markdown 20240513/k/kfish/99.0.202405091645-99.0.202405130627/README.md --exclude *.pyd
+[2024-05-13 16:58:23] INFO root fetch - processPackages [ovos-skill-personal]: Downloading https://files.pythonhosted.org/packages/f3/07/9b7b9bf3c112832f6cfe48310c5b73676b0d4da5adc887857c93f97f0b57/ovos_skill_personal-0.0.4a9-py3-none-any.whl
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-13 16:58:23] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-utils/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ea/9f/39e5ad327eb654aa9469be329b09c337529eea040a7222d7c3dd26a77de2/kcli-99.0.202405131453.tar.gz
+[2024-05-13 16:58:24] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-sdk/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-telemetry/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [process-time-azure-devops]: Downloading https://files.pythonhosted.org/packages/0b/4a/d7e3fd5cd677742cf801f737dbcd07d6408a3101504d16cbcadde5661c6b/process_time_azure_devops-0.0.3.tar.gz
+[2024-05-13 16:58:24] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ab/80/64152621f2e387ed0dff6f4fbf31f5b2e11f4dfe300d598bbfb27dfd25b5/dcicutils-8.8.4.1b9.tar.gz
+[2024-05-13 16:58:24] INFO root fetch - processPackages [ovos-skill-personal]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [ovos-skill-personal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_personal-0.0.4a8-py3-none-any.whl.zip tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip --markdown 20240513/o/ovos-skill-personal/0.0.4a8-0.0.4a9/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [process-time-azure-devops]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [process-time-azure-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process_time_azure_devops-0.0.2.tar.gz tmp/process_time_azure_devops-0.0.3.tar.gz --markdown 20240513/p/process-time-azure-devops/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.1b8.tar.gz tmp/dcicutils-8.8.4.1b9.tar.gz --markdown 20240513/d/dcicutils/8.8.4.1b8-8.8.4.1b9/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/db/66/5da108296f6700eab97b86794abc1bd0796a98314fbe82224556c81fed80/message-send-local-0.0.9.tar.gz
+[2024-05-13 16:58:24] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405130624.tar.gz tmp/kcli-99.0.202405131453.tar.gz --markdown 20240513/k/kcli/99.0.202405130624-99.0.202405131453/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [message-send-local]: executing diffoscope
+[2024-05-13 16:58:24] INFO root fetch - processPackages [message-send-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-send-local-0.0.8.tar.gz tmp/message-send-local-0.0.9.tar.gz --markdown 20240513/m/message-send-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:58:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405091645-py3-none-any.whl.zip]
+[2024-05-13 16:58:24] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405130627-py3-none-any.whl.zip]
+[2024-05-13 16:58:24] INFO root fetch - processPackages [kfish]: Start processing: anabih-python-test
+[2024-05-13 16:58:24] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-13 16:58:24] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.5.tar.gz]
+[2024-05-13 16:58:24] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.6.tar.gz]
+[2024-05-13 16:58:24] INFO root fetch - processPackages [stack-graphs-python-bindings]: Start processing: medicafe
+[2024-05-13 16:58:24] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings]: success
+[2024-05-13 16:58:25] INFO root fetch - processPackages [anabih-python-test]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [medicafe]: New version: [0.240513.1] Old Version: [0.240513.0]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/20/7c/c0bfe83118a5137b808fef6b08ddcd2516031b8a45d0b9c3a12ccb128173/medicafe-0.240513.0.tar.gz
+[2024-05-13 16:58:25] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/8f/0d/cb4164f3f11269487379fdf0c45ca126f81d3ab4355ce23e4cdf8dd2b4cd/anabih_python_test-8.0.0.tar.gz
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: PDKMaster
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-13 16:58:25] INFO root fetch - processPackages [PDKMaster]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-13 16:58:25] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/83/16/9305f1d0ffc310349acc9a6c48a942e3c816874b788e87e5252e12b1a42a/anabih_python_test-9.0.0.tar.gz
+[2024-05-13 16:58:25] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.8.tar.gz]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [process-time-azure-devops]: Remove: archive file [/home/abi/fetcher/tmp/process_time_azure_devops-0.0.2.tar.gz]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.9.tar.gz]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [process-time-azure-devops]: Remove: archive file [/home/abi/fetcher/tmp/process_time_azure_devops-0.0.3.tar.gz]
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [message-send-local]: success
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [process-time-azure-devops]: success
+[2024-05-13 16:58:25] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-13 16:58:25] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-8.0.0.tar.gz tmp/anabih_python_test-9.0.0.tar.gz --markdown 20240513/a/anabih-python-test/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-13 16:58:25] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/f3/f8/596aa3a9189dee0d5cd2bbdbe8eff0074fbdd745cc33b2261dd3c6febe10/medicafe-0.240513.1.tar.gz
+[2024-05-13 16:58:25] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/b3/54/7cad1e01a19f7c8804dae120cd6e3f29a553e84767cece999760f8d333e2/PDKMaster-0.9.5.tar.gz
+[2024-05-13 16:58:25] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-13 16:58:25] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240513.0.tar.gz tmp/medicafe-0.240513.1.tar.gz --markdown 20240513/m/medicafe/0.240513.0-0.240513.1/README.md --exclude *.pyd
+[2024-05-13 16:58:25] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a8-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [ovos-skill-personal]: Remove: archive file [/home/abi/fetcher/tmp/ovos_skill_personal-0.0.4a9-py3-none-any.whl.zip]
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [ovos-skill-personal]: success
+[2024-05-13 16:58:25] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b8.tar.gz]
+[2024-05-13 16:58:25] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b9.tar.gz]
+[2024-05-13 16:58:25] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-13 16:58:26] INFO root fetch - processPackages [PDKMaster]: Downloading https://files.pythonhosted.org/packages/c3/73/b02a1cbc99178b294b85cd8de84bbaf8d2e5ab6635280a35ce191d9629c5/PDKMaster-0.9.6.tar.gz
+[2024-05-13 16:58:26] INFO root fetch - processPackages [PDKMaster]: executing diffoscope
+[2024-05-13 16:58:26] INFO root fetch - processPackages [PDKMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PDKMaster-0.9.5.tar.gz tmp/PDKMaster-0.9.6.tar.gz --markdown 20240513/P/PDKMaster/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-13 16:58:26] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-8.0.0.tar.gz]
+[2024-05-13 16:58:26] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-9.0.0.tar.gz]
+[2024-05-13 16:58:26] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-13 16:58:26] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240513.0.tar.gz]
+[2024-05-13 16:58:26] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240513.1.tar.gz]
+[2024-05-13 16:58:26] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-13 16:58:27] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.5.tar.gz]
+[2024-05-13 16:58:27] INFO root fetch - processPackages [PDKMaster]: Remove: archive file [/home/abi/fetcher/tmp/PDKMaster-0.9.6.tar.gz]
+[2024-05-13 16:58:27] INFO root fetch - main [MainThread]: End processing [PDKMaster]: success
+[2024-05-13 16:58:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405130624.tar.gz]
+[2024-05-13 16:58:27] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405131453.tar.gz]
+[2024-05-13 16:58:27] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-13 16:58:27] INFO root fetch - main [MainThread]: Store serial: [23185364]
