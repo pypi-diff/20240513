@@ -22382,3 +22382,75 @@ EOFError: EOF read where object expected
 [2024-05-13 16:22:31] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.3.tar.gz]
 [2024-05-13 16:22:31] INFO root fetch - main [MainThread]: End processing [sniffing-io]: success
 [2024-05-13 16:22:31] INFO root fetch - main [MainThread]: Store serial: [23184618]
+[2024-05-13 16:24:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184618]
+[2024-05-13 16:24:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wat-inspector
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiida-shell
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pizzoo
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-alignment
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codeflare-sdk
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-threaded-tcp
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anabih-python-test
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PrusaLinkPy
+[2024-05-13 16:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cookieplone
+[2024-05-13 16:24:40] INFO root fetch - processPackages [anabih-python-test]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-13 16:24:40] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/8f/0d/cb4164f3f11269487379fdf0c45ca126f81d3ab4355ce23e4cdf8dd2b4cd/anabih_python_test-8.0.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [cookieplone]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-13 16:24:40] WARNING root fetch - processPackages [wat-inspector]: Skipping, unable to determine old version
+[2024-05-13 16:24:40] INFO root fetch - main [MainThread]: End processing [wat-inspector] error
+[2024-05-13 16:24:40] WARNING root fetch - processPackages [model-alignment]: Skipping, unable to determine old version
+[2024-05-13 16:24:40] INFO root fetch - processPackages [pizzoo]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-13 16:24:40] INFO root fetch - main [MainThread]: End processing [model-alignment] error
+[2024-05-13 16:24:40] INFO root fetch - processPackages [simple-threaded-tcp]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-13 16:24:40] INFO root fetch - processPackages [aiida-shell]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-13 16:24:40] INFO root fetch - processPackages [PrusaLinkPy]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-13 16:24:40] INFO root fetch - processPackages [codeflare-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 16:24:40] INFO root fetch - processPackages [simple-threaded-tcp]: Downloading https://files.pythonhosted.org/packages/2e/18/3107d3e329cd4d67724f27d4ffccd836e34d5e826a5ee961d15fb334c9b9/simple_threaded_tcp-1.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/9b/b0/1443081dd4fb7104acebcceb986f80135f9b7c096b95a53c2a579ad49935/pizzoo-0.9.5.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/83/16/9305f1d0ffc310349acc9a6c48a942e3c816874b788e87e5252e12b1a42a/anabih_python_test-9.0.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/48/41/70e11a8c259cd37e90ff27e4819bb2f18db54634e69e0321ec28bb1ebfe6/cookieplone-0.5.1.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [PrusaLinkPy]: Downloading https://files.pythonhosted.org/packages/11/e5/edbaf27cf6ff288fe2b8405e992a5be01749298e97f529126e0de37177be/PrusaLinkPy-2.1.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [codeflare-sdk]: Downloading https://files.pythonhosted.org/packages/51/72/60924744f8ea3a826e0bd21d2a4ae9fc85164a563eed9afb7bfa337a0d06/codeflare_sdk-0.8.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/d2/6b/b1f3a5ad7f1774fe36fe71f1e99824da5271ea49596d422a9fd23ce5b61c/aiida_shell-0.7.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-13 16:24:40] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-8.0.0.tar.gz tmp/anabih_python_test-9.0.0.tar.gz --markdown 20240513/a/anabih-python-test/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-13 16:24:40] INFO root fetch - processPackages [simple-threaded-tcp]: Downloading https://files.pythonhosted.org/packages/af/a5/173d7cbeec71e1d6c6c1a8972986e102eb97771f95be777a51b6ce7a80fe/simple_threaded_tcp-1.0.1.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/69/6d/1aa3fee39d862b69df983699baf08fddc3ad812ab4971a32b1d5b4da4f23/pizzoo-0.9.6.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [PrusaLinkPy]: Downloading https://files.pythonhosted.org/packages/5e/20/147fb335a6887e94cd51cc87feb9b4a59eb1031149348e06631be72cce92/prusalinkpy-2.2.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/57/6e/4d91db1e12c175f38cb35a8d24bd1284ed4f5e9726580afba96dec23bb7d/cookieplone-0.5.2.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [codeflare-sdk]: Downloading https://files.pythonhosted.org/packages/4c/7f/6f5f6ac5132d9fc883ae67214025cd558ee612f41fe5ea711df2a8ce8dfe/codeflare_sdk-0.9.0.tar.gz
+[2024-05-13 16:24:40] INFO root fetch - processPackages [simple-threaded-tcp]: executing diffoscope
+[2024-05-13 16:24:40] INFO root fetch - processPackages [simple-threaded-tcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_threaded_tcp-1.0.tar.gz tmp/simple_threaded_tcp-1.0.1.tar.gz --markdown 20240513/s/simple-threaded-tcp/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 16:24:41] INFO root fetch - processPackages [pizzoo]: executing diffoscope
+[2024-05-13 16:24:41] INFO root fetch - processPackages [pizzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizzoo-0.9.5.tar.gz tmp/pizzoo-0.9.6.tar.gz --markdown 20240513/p/pizzoo/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-13 16:24:41] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/ce/dc/f7977d95e69bbcd3a06611ecc550823d767b7e4987424b6b289f4d3f447a/aiida_shell-0.7.1.tar.gz
+[2024-05-13 16:24:41] INFO root fetch - processPackages [codeflare-sdk]: executing diffoscope
+[2024-05-13 16:24:41] INFO root fetch - processPackages [codeflare-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeflare_sdk-0.8.0.tar.gz tmp/codeflare_sdk-0.9.0.tar.gz --markdown 20240513/c/codeflare-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 16:24:41] INFO root fetch - processPackages [PrusaLinkPy]: executing diffoscope
+[2024-05-13 16:24:41] INFO root fetch - processPackages [PrusaLinkPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrusaLinkPy-2.1.0.tar.gz tmp/prusalinkpy-2.2.0.tar.gz --markdown 20240513/P/PrusaLinkPy/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-13 16:24:41] INFO root fetch - processPackages [cookieplone]: executing diffoscope
+[2024-05-13 16:24:41] INFO root fetch - processPackages [cookieplone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookieplone-0.5.1.tar.gz tmp/cookieplone-0.5.2.tar.gz --markdown 20240513/c/cookieplone/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-13 16:24:41] INFO root fetch - processPackages [aiida-shell]: executing diffoscope
+[2024-05-13 16:24:41] INFO root fetch - processPackages [aiida-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_shell-0.7.0.tar.gz tmp/aiida_shell-0.7.1.tar.gz --markdown 20240513/a/aiida-shell/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-13 16:24:41] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-8.0.0.tar.gz]
+[2024-05-13 16:24:41] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-9.0.0.tar.gz]
+[2024-05-13 16:24:41] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-13 16:24:41] INFO root fetch - processPackages [simple-threaded-tcp]: Remove: archive file [/home/abi/fetcher/tmp/simple_threaded_tcp-1.0.tar.gz]
+[2024-05-13 16:24:41] INFO root fetch - processPackages [simple-threaded-tcp]: Remove: archive file [/home/abi/fetcher/tmp/simple_threaded_tcp-1.0.1.tar.gz]
+[2024-05-13 16:24:41] INFO root fetch - main [MainThread]: End processing [simple-threaded-tcp]: success
+[2024-05-13 16:24:41] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.5.tar.gz]
+[2024-05-13 16:24:41] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.6.tar.gz]
+[2024-05-13 16:24:41] INFO root fetch - main [MainThread]: End processing [pizzoo]: success
+[2024-05-13 16:24:42] INFO root fetch - processPackages [PrusaLinkPy]: Remove: archive file [/home/abi/fetcher/tmp/PrusaLinkPy-2.1.0.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - processPackages [PrusaLinkPy]: Remove: archive file [/home/abi/fetcher/tmp/prusalinkpy-2.2.0.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - main [MainThread]: End processing [PrusaLinkPy]: success
+[2024-05-13 16:24:42] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.1.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.5.2.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - main [MainThread]: End processing [cookieplone]: success
+[2024-05-13 16:24:42] INFO root fetch - processPackages [codeflare-sdk]: Remove: archive file [/home/abi/fetcher/tmp/codeflare_sdk-0.8.0.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - processPackages [codeflare-sdk]: Remove: archive file [/home/abi/fetcher/tmp/codeflare_sdk-0.9.0.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - main [MainThread]: End processing [codeflare-sdk]: success
+[2024-05-13 16:24:42] INFO root fetch - processPackages [aiida-shell]: Remove: archive file [/home/abi/fetcher/tmp/aiida_shell-0.7.0.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - processPackages [aiida-shell]: Remove: archive file [/home/abi/fetcher/tmp/aiida_shell-0.7.1.tar.gz]
+[2024-05-13 16:24:42] INFO root fetch - main [MainThread]: End processing [aiida-shell]: success
+[2024-05-13 16:24:42] INFO root fetch - main [MainThread]: Store serial: [23184726]
