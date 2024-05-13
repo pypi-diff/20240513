@@ -2633,3 +2633,18 @@
 [2024-05-13 03:42:09] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-0.2.2.tar.gz]
 [2024-05-13 03:42:09] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
 [2024-05-13 03:42:09] INFO root fetch - main [MainThread]: Store serial: [23175608]
+[2024-05-13 03:44:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175608]
+[2024-05-13 03:44:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-13 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-core
+[2024-05-13 03:44:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duetz
+[2024-05-13 03:44:18] INFO root fetch - processPackages [pypomes-core]: New version: [1.0.0] Old Version: [0.9.9]
+[2024-05-13 03:44:18] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/88/ac/4eeae4e4f106b306a9193ea0a999c691c5fbe54f00f7b8c4acb8ae784d8f/pypomes_core-0.9.9.tar.gz
+[2024-05-13 03:44:18] WARNING root fetch - processPackages [duetz]: Skipping, unable to determine old version
+[2024-05-13 03:44:18] INFO root fetch - main [MainThread]: End processing [duetz] error
+[2024-05-13 03:44:18] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/cf/24/1169b0f27f90ef823cc7f70bfd2a6f08825749dcb14cc2fcb1120ea14f96/pypomes_core-1.0.0.tar.gz
+[2024-05-13 03:44:18] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-13 03:44:18] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.9.9.tar.gz tmp/pypomes_core-1.0.0.tar.gz --markdown 20240513/p/pypomes-core/0.9.9-1.0.0/README.md --exclude *.pyd
+[2024-05-13 03:44:19] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.9.9.tar.gz]
+[2024-05-13 03:44:19] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.0.tar.gz]
+[2024-05-13 03:44:19] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-13 03:44:19] INFO root fetch - main [MainThread]: Store serial: [23175615]
