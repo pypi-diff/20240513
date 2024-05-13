@@ -1387,3 +1387,71 @@
 [2024-05-13 02:09:57] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-13 02:09:57] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-13 02:09:57] INFO root fetch - main [MainThread]: Store serial: [23175000]
+[2024-05-13 02:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175000]
+[2024-05-13 02:12:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbb-nightly
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unhoardingz
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metagene
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-quantizers-nightly
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonbureaucraticz
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prophetverse
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-events-notify
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib-version-URLPhishing
+[2024-05-13 02:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: socket.d
+[2024-05-13 02:12:06] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405120010] Old Version: [4.1.7.dev202405110010]
+[2024-05-13 02:12:06] INFO root fetch - processPackages [metagene]: New version: [0.0.0.dev6] Old Version: [0.0.0.dev51]
+[2024-05-13 02:12:06] INFO root fetch - processPackages [socket.d]: New version: [2.4.16] Old Version: [2.4.15]
+[2024-05-13 02:12:06] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240512.post1149] Old Version: [1.5.0.20240511.post1052]
+[2024-05-13 02:12:06] WARNING root fetch - processPackages [nonbureaucraticz]: Skipping, unable to determine old version
+[2024-05-13 02:12:06] INFO root fetch - main [MainThread]: End processing [nonbureaucraticz] error
+[2024-05-13 02:12:06] WARNING root fetch - processPackages [unhoardingz]: Skipping, unable to determine old version
+[2024-05-13 02:12:06] INFO root fetch - main [MainThread]: End processing [unhoardingz] error
+[2024-05-13 02:12:06] INFO root fetch - processPackages [prophetverse]: New version: [0.1.0] Old Version: [0.0.4rc4]
+[2024-05-13 02:12:06] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/91/40/22de755ead164aac9939b21ca5d52a6ac8429c1b00b03af566944a2ccb2b/openbb_nightly-4.1.7.dev202405110010.tar.gz
+[2024-05-13 02:12:06] INFO root fetch - processPackages [lib-version-URLPhishing]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 02:12:06] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/64/24/6a621c1453fa6edee056daf411fc734c2b81a4ee01f7d6c6bb90653d7077/socket.d-2.4.15.tar.gz
+[2024-05-13 02:12:06] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/46/ab/cf17cad041afa36e5c437bcbf5ebea4ca05d4919beba3dd08ae52fdc0655/mct-quantizers-nightly-1.5.0.20240511.post1052.tar.gz
+[2024-05-13 02:12:06] INFO root fetch - processPackages [metagene]: Downloading https://files.pythonhosted.org/packages/cd/fa/b98e8a85606b44aa46e0a72700300ad63463114f5346eb271f39ae164447/metagene-0.0.0.dev51.tar.gz
+[2024-05-13 02:12:07] WARNING root fetch - processPackages [metagene]: Skipping package: exceeds size limit 17509975>=10485760
+[2024-05-13 02:12:07] INFO root fetch - main [MainThread]: End processing [metagene] error
+[2024-05-13 02:12:07] INFO root fetch - processPackages [prophetverse]: Downloading https://files.pythonhosted.org/packages/bc/ef/d31f11da9a0643e060de60917390159e2c91a849b89480420e9378dfb1ba/prophetverse-0.0.4rc4.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [lib-version-URLPhishing]: Downloading https://files.pythonhosted.org/packages/39/84/7388e74c5b363360c645517947eff267232cd4f841386f7fe1bc23ff5ddc/lib_version_urlphishing-1.0.0.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/6e/decff3f2924d616b2bb0a048383e027715b6ddb635b6a20b9eec05a7db1f/mct-quantizers-nightly-1.5.0.20240512.post1149.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/84/37/3bc731d3d6c954b021b275670a5fd350d87b23bb8714c556f421182d63ad/socket.d-2.4.16.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-13 02:12:07] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240511.post1052.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240512.post1149.tar.gz --markdown 20240513/m/mct-quantizers-nightly/1.5.0.20240511.post1052-1.5.0.20240512.post1149/README.md --exclude *.pyd
+[2024-05-13 02:12:07] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-05-13 02:12:07] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.15.tar.gz tmp/socket.d-2.4.16.tar.gz --markdown 20240513/s/socket.d/2.4.15-2.4.16/README.md --exclude *.pyd
+[2024-05-13 02:12:07] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/50/6f/50fa7522926e0c5d1f2fe66242532f441128c6212ebb4152739724989c69/openbb_nightly-4.1.7.dev202405120010.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [lib-version-URLPhishing]: Downloading https://files.pythonhosted.org/packages/ba/54/2ab67ef6c0c51c1b7e8a1584202b11b2462a263ce4e9f54b7e0324efbf59/lib_version_urlphishing-1.0.1.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [prophetverse]: Downloading https://files.pythonhosted.org/packages/88/e7/c54ee542b1be4f2cb7d1842a8acbb1cccb57853193d79020ced753cae1fb/prophetverse-0.1.0.tar.gz
+[2024-05-13 02:12:07] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-13 02:12:07] INFO root fetch - processPackages [lib-version-URLPhishing]: executing diffoscope
+[2024-05-13 02:12:07] INFO root fetch - processPackages [lib-version-URLPhishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-1.0.0.tar.gz tmp/lib_version_urlphishing-1.0.1.tar.gz --markdown 20240513/l/lib-version-URLPhishing/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 02:12:07] INFO root fetch - processPackages [prophetverse]: executing diffoscope
+[2024-05-13 02:12:07] INFO root fetch - processPackages [prophetverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophetverse-0.0.4rc4.tar.gz tmp/prophetverse-0.1.0.tar.gz --markdown 20240513/p/prophetverse/0.0.4rc4-0.1.0/README.md --exclude *.pyd
+[2024-05-13 02:12:07] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-13 02:12:08] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-13 02:12:08] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240511.post1052.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240512.post1149.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-13 02:12:08] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-13 02:12:08] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240513/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-13 02:12:08] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.15.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.16.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-05-13 02:12:08] INFO root fetch - processPackages [prophetverse]: Remove: archive file [/home/abi/fetcher/tmp/prophetverse-0.0.4rc4.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - processPackages [prophetverse]: Remove: archive file [/home/abi/fetcher/tmp/prophetverse-0.1.0.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - main [MainThread]: End processing [prophetverse]: success
+[2024-05-13 02:12:08] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-13 02:12:08] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405110010.tar.gz tmp/openbb_nightly-4.1.7.dev202405120010.tar.gz --markdown 20240513/o/openbb-nightly/4.1.7.dev202405110010-4.1.7.dev202405120010/README.md --exclude *.pyd
+[2024-05-13 02:12:08] INFO root fetch - processPackages [lib-version-URLPhishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-1.0.0.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - processPackages [lib-version-URLPhishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-1.0.1.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - main [MainThread]: End processing [lib-version-URLPhishing]: success
+[2024-05-13 02:12:08] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-13 02:12:08] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-13 02:12:11] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405110010.tar.gz]
+[2024-05-13 02:12:11] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405120010.tar.gz]
+[2024-05-13 02:12:11] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-13 02:12:11] INFO root fetch - main [MainThread]: Store serial: [23175028]
