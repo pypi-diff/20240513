@@ -4733,3 +4733,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:45:04] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
 [2024-05-13 05:45:04] INFO root fetch - main [MainThread]: End processing [coretex]: success
 [2024-05-13 05:45:04] INFO root fetch - main [MainThread]: Store serial: [23176482]
+[2024-05-13 05:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176482]
+[2024-05-13 05:47:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: furrow1k
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-cli
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: practicus
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: milvinaez
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afeng-py-tools
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: romancingz
+[2024-05-13 05:47:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: furrow1k
+[2024-05-13 05:47:12] INFO root fetch - processPackages [furrow1k]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 05:47:12] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 05:47:12] INFO root fetch - processPackages [furrow1k]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 05:47:12] WARNING root fetch - processPackages [milvinaez]: Skipping, unable to determine old version
+[2024-05-13 05:47:12] INFO root fetch - main [MainThread]: End processing [milvinaez] error
+[2024-05-13 05:47:12] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 05:47:12] WARNING root fetch - processPackages [romancingz]: Skipping, unable to determine old version
+[2024-05-13 05:47:12] INFO root fetch - main [MainThread]: End processing [romancingz] error
+[2024-05-13 05:47:12] INFO root fetch - processPackages [practicus]: New version: [24.3.0] Old Version: [24.1.0]
+[2024-05-13 05:47:12] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c7/af/7a45aa909c85a3dbd7842e4b28813452bc44d1350cbd535bcd51daa05162/furrow1k-1.0.1.tar.gz
+[2024-05-13 05:47:12] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/c7/af/7a45aa909c85a3dbd7842e4b28813452bc44d1350cbd535bcd51daa05162/furrow1k-1.0.1.tar.gz
+[2024-05-13 05:47:12] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-13 05:47:13] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/f7/f7/02243ca7578620a9f1e3ad3b8b2a12a29cd2cf2a5b2fdbad79128f0b4814/docmesh_cli-0.0.3.tar.gz
+[2024-05-13 05:47:13] INFO root fetch - processPackages [practicus]: Downloading https://files.pythonhosted.org/packages/51/ff/fc3eaec7e4bd9794adb46fddbf55c1a117503dd3784fcd7d941a9173bb77/practicus-24.1.0-cp311-none-win_amd64.whl
+[2024-05-13 05:47:13] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-13 05:47:13] WARNING root fetch - processPackages [practicus]: Skipping package: exceeds size limit 11025334>=10485760
+[2024-05-13 05:47:13] INFO root fetch - main [MainThread]: End processing [practicus] error
+[2024-05-13 05:47:13] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/43/bc/2e81a81ddd69f994445d96b3274e2e219c93c406bf47805369cb18bf1774/furrow1k-1.0.2.tar.gz
+[2024-05-13 05:47:13] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/43/bc/2e81a81ddd69f994445d96b3274e2e219c93c406bf47805369cb18bf1774/furrow1k-1.0.2.tar.gz
+[2024-05-13 05:47:13] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-13 05:47:13] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240513/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 05:47:13] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/2a/30/879c482211aac40f0f3aa3dbb89c40668ff08cd8731c71c8b50d1526f657/docmesh_cli-0.0.4.tar.gz
+[2024-05-13 05:47:13] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-13 05:47:13] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-1.0.1.tar.gz tmp/furrow1k-1.0.2.tar.gz --markdown 20240513/f/furrow1k/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 05:47:13] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-13 05:47:13] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-1.0.1.tar.gz tmp/furrow1k-1.0.2.tar.gz --markdown 20240513/f/furrow1k/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 05:47:13] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-13 05:47:13] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.3.tar.gz tmp/docmesh_cli-0.0.4.tar.gz --markdown 20240513/d/docmesh-cli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 05:47:14] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.1.tar.gz]
+[2024-05-13 05:47:14] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.2.tar.gz]
+[2024-05-13 05:47:14] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-13 05:47:14] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.3.tar.gz]
+[2024-05-13 05:47:14] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.4.tar.gz]
+[2024-05-13 05:47:14] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-13 05:47:14] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-13 05:47:14] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-13 05:47:14] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-13 05:47:14] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-13 05:47:14] INFO root fetch - main [MainThread]: Store serial: [23176507]
