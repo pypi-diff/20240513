@@ -16015,3 +16015,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 13:03:34] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign-14.0.1.1.1.dev5-py3-none-any.whl.zip]
 [2024-05-13 13:03:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-geo-assign]: success
 [2024-05-13 13:03:34] INFO root fetch - main [MainThread]: Store serial: [23181812]
+[2024-05-13 13:05:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181812]
+[2024-05-13 13:05:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annet
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enbios
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vanguard-api
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grader-helper
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spatialproteomics
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solarlog-cli
+[2024-05-13 13:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eolymp
+[2024-05-13 13:05:43] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [vanguard-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [grader-helper]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [enbios]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [spatialproteomics]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [solarlog-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-13 13:05:43] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [vanguard-api]: Downloading https://files.pythonhosted.org/packages/ca/71/164fd82933edc570dbf3a2362b17ef3d4a1fb173019e0906cd23625aeca4/vanguard_api-0.0.6.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/40/de/31eccb96a7c957039bb896924e67a60a9d54ee3b8aaa7deed4b0d59abcb8/grader_helper-0.1.7.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [spatialproteomics]: Downloading https://files.pythonhosted.org/packages/e9/b5/7977c21e14cc473b73d6908a9a36b3b48c532b1567b45fd146be1a3634da/spatialproteomics-0.4.0.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [enbios]: Downloading https://files.pythonhosted.org/packages/43/b2/4023d584044cbba90aaf6a16a7b742bdb2f56b0294a736ba428e46cd3776/enbios-2.2.8.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [solarlog-cli]: Downloading https://files.pythonhosted.org/packages/3a/5f/a329bcecac155983703322715df15df3d22f085aeb9dc9df0b50dcef1ed8/solarlog_cli-0.1.2.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/61/d1/33658f0e19553a5434609d8d756588a1751b849ce50d2392641ef35bd6aa/grader_helper-0.1.9.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [vanguard-api]: Downloading https://files.pythonhosted.org/packages/63/31/34f2b2b5e5d96b82a3ce83425212f2f31eee1bf082d36b57316647a3bf3c/vanguard_api-0.0.7.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [enbios]: Downloading https://files.pythonhosted.org/packages/8d/47/ccf0c3c1dd0bfdecf91d4943ca8f84cea50fdd675236f712bef4197850e0/enbios-2.2.9.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [solarlog-cli]: Downloading https://files.pythonhosted.org/packages/55/1f/6472dedf57f1d408e4cb115ffcc7e21627120cdaadd16645b6a619416257/solarlog_cli-0.1.3.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [spatialproteomics]: Downloading https://files.pythonhosted.org/packages/02/dc/0c4ff366abaf9feac6b969ef6134cda8b96383d51b66a85fd999fa9cab9a/spatialproteomics-0.5.0.tar.gz
+[2024-05-13 13:05:43] INFO root fetch - processPackages [grader-helper]: executing diffoscope
+[2024-05-13 13:05:43] INFO root fetch - processPackages [grader-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grader_helper-0.1.7.tar.gz tmp/grader_helper-0.1.9.tar.gz --markdown 20240513/g/grader-helper/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:05:44] INFO root fetch - processPackages [vanguard-api]: executing diffoscope
+[2024-05-13 13:05:44] INFO root fetch - processPackages [vanguard-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanguard_api-0.0.6.tar.gz tmp/vanguard_api-0.0.7.tar.gz --markdown 20240513/v/vanguard-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 13:05:44] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-13 13:05:44] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-13 13:05:44] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240513/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-13 13:05:44] INFO root fetch - processPackages [solarlog-cli]: executing diffoscope
+[2024-05-13 13:05:44] INFO root fetch - processPackages [solarlog-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarlog_cli-0.1.2.tar.gz tmp/solarlog_cli-0.1.3.tar.gz --markdown 20240513/s/solarlog-cli/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 13:05:44] INFO root fetch - processPackages [enbios]: executing diffoscope
+[2024-05-13 13:05:44] INFO root fetch - processPackages [enbios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enbios-2.2.8.tar.gz tmp/enbios-2.2.9.tar.gz --markdown 20240513/e/enbios/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-13 13:05:44] INFO root fetch - processPackages [spatialproteomics]: executing diffoscope
+[2024-05-13 13:05:44] INFO root fetch - processPackages [spatialproteomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialproteomics-0.4.0.tar.gz tmp/spatialproteomics-0.5.0.tar.gz --markdown 20240513/s/spatialproteomics/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 13:05:44] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-13 13:05:44] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240513/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-13 13:05:45] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.7.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.9.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - main [MainThread]: End processing [grader-helper]: success
+[2024-05-13 13:05:45] INFO root fetch - processPackages [vanguard-api]: Remove: archive file [/home/abi/fetcher/tmp/vanguard_api-0.0.6.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - processPackages [vanguard-api]: Remove: archive file [/home/abi/fetcher/tmp/vanguard_api-0.0.7.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - main [MainThread]: End processing [vanguard-api]: success
+[2024-05-13 13:05:45] INFO root fetch - processPackages [solarlog-cli]: Remove: archive file [/home/abi/fetcher/tmp/solarlog_cli-0.1.2.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - processPackages [solarlog-cli]: Remove: archive file [/home/abi/fetcher/tmp/solarlog_cli-0.1.3.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - main [MainThread]: End processing [solarlog-cli]: success
+[2024-05-13 13:05:45] INFO root fetch - processPackages [spatialproteomics]: Remove: archive file [/home/abi/fetcher/tmp/spatialproteomics-0.4.0.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - processPackages [spatialproteomics]: Remove: archive file [/home/abi/fetcher/tmp/spatialproteomics-0.5.0.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - main [MainThread]: End processing [spatialproteomics]: success
+[2024-05-13 13:05:45] INFO root fetch - processPackages [enbios]: Remove: archive file [/home/abi/fetcher/tmp/enbios-2.2.8.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - processPackages [enbios]: Remove: archive file [/home/abi/fetcher/tmp/enbios-2.2.9.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - main [MainThread]: End processing [enbios]: success
+[2024-05-13 13:05:45] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-13 13:05:45] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-13 13:05:46] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-13 13:05:46] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-13 13:05:46] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-13 13:05:46] INFO root fetch - main [MainThread]: Store serial: [23181835]
