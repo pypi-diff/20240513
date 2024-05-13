@@ -4535,3 +4535,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:34:07] INFO root fetch - processPackages [s3-reader]: Remove: archive file [/home/abi/fetcher/tmp/s3_reader-0.3.0.tar.gz]
 [2024-05-13 05:34:07] INFO root fetch - main [MainThread]: End processing [s3-reader]: success
 [2024-05-13 05:34:07] INFO root fetch - main [MainThread]: Store serial: [23176408]
+[2024-05-13 05:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176408]
+[2024-05-13 05:36:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hscloud
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dispider
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-stack-dingding
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-set-sdk
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: precorrectz
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garbardinez
+[2024-05-13 05:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kbp2video
+[2024-05-13 05:36:16] INFO root fetch - processPackages [hscloud]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2024-05-13 05:36:16] WARNING root fetch - processPackages [sentry-stack-dingding]: Skipping, unable to determine old version
+[2024-05-13 05:36:16] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding] error
+[2024-05-13 05:36:16] INFO root fetch - processPackages [kbp2video]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 05:36:16] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/bd/0b/6e8412141ef525d0e1399ecb07f3afa1aff954df1109c1a26722b3a765e6/hscloud-0.0.0.4.tar.gz
+[2024-05-13 05:36:16] INFO root fetch - processPackages [test-set-sdk]: New version: [1.0.5] Old Version: [1.0.12]
+[2024-05-13 05:36:16] INFO root fetch - processPackages [kbp2video]: Downloading https://files.pythonhosted.org/packages/31/e8/b95f11ac3b34d51ca7b4bf63ee110e71806cfd577201d82eb553fc25b0a0/kbp2video-0.1.4.tar.gz
+[2024-05-13 05:36:16] WARNING root fetch - processPackages [precorrectz]: Skipping, unable to determine old version
+[2024-05-13 05:36:16] INFO root fetch - processPackages [dispider]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 05:36:16] INFO root fetch - main [MainThread]: End processing [precorrectz] error
+[2024-05-13 05:36:16] WARNING root fetch - processPackages [garbardinez]: Skipping, unable to determine old version
+[2024-05-13 05:36:16] INFO root fetch - main [MainThread]: End processing [garbardinez] error
+[2024-05-13 05:36:16] INFO root fetch - processPackages [test-set-sdk]: Downloading https://files.pythonhosted.org/packages/e5/23/caa0e0add8bb9fd1bf6690392a18a7041511aa6d604d0bf2c2c8198f6d60/test-set-sdk-1.0.12.tar.gz
+[2024-05-13 05:36:16] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/4c/49/e237c19025a28a987a9cdd4026731ec2c21eeb32e086949eb8751b4f0480/hscloud-0.0.0.5.tar.gz
+[2024-05-13 05:36:16] INFO root fetch - processPackages [dispider]: Downloading https://files.pythonhosted.org/packages/41/d4/2baa8f7a0071fe6fee7cdac9d66796b11a3d332a9e92e4cefe7d4481e3ee/dispider-1.0.1.tar.gz
+[2024-05-13 05:36:16] INFO root fetch - processPackages [kbp2video]: Downloading https://files.pythonhosted.org/packages/d4/dd/7a948d9c291d8949c21811cc83ce70b9ada6ff4599e15581fed02a472189/kbp2video-0.1.5.tar.gz
+[2024-05-13 05:36:16] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-13 05:36:16] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.4.tar.gz tmp/hscloud-0.0.0.5.tar.gz --markdown 20240513/h/hscloud/0.0.0.4-0.0.0.5/README.md --exclude *.pyd
+[2024-05-13 05:36:16] INFO root fetch - processPackages [kbp2video]: executing diffoscope
+[2024-05-13 05:36:16] INFO root fetch - processPackages [kbp2video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbp2video-0.1.4.tar.gz tmp/kbp2video-0.1.5.tar.gz --markdown 20240513/k/kbp2video/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 05:36:17] INFO root fetch - processPackages [dispider]: Downloading https://files.pythonhosted.org/packages/3d/b9/34d12bfacb1ef689aee81e55087ff21e0c09b5828d1c14e8dba19a28bf5b/dispider-1.0.2.tar.gz
+[2024-05-13 05:36:17] INFO root fetch - processPackages [test-set-sdk]: Downloading https://files.pythonhosted.org/packages/7e/a5/f31df41c13ebd720097d616704ad4f2dc5f82d6565cc48623ed29d3d48fc/test-set-sdk-1.0.5.tar.gz
+[2024-05-13 05:36:17] INFO root fetch - processPackages [dispider]: executing diffoscope
+[2024-05-13 05:36:17] INFO root fetch - processPackages [dispider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispider-1.0.1.tar.gz tmp/dispider-1.0.2.tar.gz --markdown 20240513/d/dispider/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 05:36:17] INFO root fetch - processPackages [test-set-sdk]: executing diffoscope
+[2024-05-13 05:36:17] INFO root fetch - processPackages [test-set-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-set-sdk-1.0.12.tar.gz tmp/test-set-sdk-1.0.5.tar.gz --markdown 20240513/t/test-set-sdk/1.0.12-1.0.5/README.md --exclude *.pyd
+[2024-05-13 05:36:17] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.4.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.5.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-13 05:36:17] INFO root fetch - processPackages [kbp2video]: Remove: archive file [/home/abi/fetcher/tmp/kbp2video-0.1.4.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - processPackages [kbp2video]: Remove: archive file [/home/abi/fetcher/tmp/kbp2video-0.1.5.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - main [MainThread]: End processing [kbp2video]: success
+[2024-05-13 05:36:17] INFO root fetch - processPackages [dispider]: Remove: archive file [/home/abi/fetcher/tmp/dispider-1.0.1.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - processPackages [dispider]: Remove: archive file [/home/abi/fetcher/tmp/dispider-1.0.2.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - main [MainThread]: End processing [dispider]: success
+[2024-05-13 05:36:17] INFO root fetch - processPackages [test-set-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test-set-sdk-1.0.12.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - processPackages [test-set-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test-set-sdk-1.0.5.tar.gz]
+[2024-05-13 05:36:17] INFO root fetch - main [MainThread]: End processing [test-set-sdk]: success
+[2024-05-13 05:36:17] INFO root fetch - main [MainThread]: Store serial: [23176428]
