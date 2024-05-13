@@ -13225,3 +13225,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:11:43] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.6.0-py3-none-win_amd64.whl.zip]
 [2024-05-13 11:11:43] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
 [2024-05-13 11:11:43] INFO root fetch - main [MainThread]: Store serial: [23180636]
+[2024-05-13 11:13:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180636]
+[2024-05-13 11:13:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taxidTools
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fortitudo-tech
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RupineLib
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moltx
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coolbg
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyopentts
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fernleafz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jeedomdaemon
+[2024-05-13 11:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mteb
+[2024-05-13 11:13:52] WARNING root fetch - processPackages [pyopentts]: Skipping, unable to determine old version
+[2024-05-13 11:13:52] INFO root fetch - main [MainThread]: End processing [pyopentts] error
+[2024-05-13 11:13:52] INFO root fetch - processPackages [torch-model-manager]: New version: [0.3.0.dev9] Old Version: [0.3.0.dev8]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [RupineLib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [mteb]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [taxidTools]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-13 11:13:52] WARNING root fetch - processPackages [fernleafz]: Skipping, unable to determine old version
+[2024-05-13 11:13:52] INFO root fetch - main [MainThread]: End processing [fernleafz] error
+[2024-05-13 11:13:52] INFO root fetch - processPackages [jeedomdaemon]: New version: [0.9.5] Old Version: [0.9.1]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [moltx]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [fortitudo-tech]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 11:13:52] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/f3/09/8b85c064c04441b46ac1093109370cbf0881f810ce0075916157ba264cad/RupineLib-0.0.8.tar.gz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5e/b6/318a59b2e0fede61acaeba28c3e24eefc4709e2658296e5b1b08891bffb1/torch_model_manager-0.3.0.dev8.tar.gz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/67/03/34ece901f53f12b3005b0a989c7feaee38cf202c3f4f5ee2b36118cf93b4/mteb-1.8.8.tar.gz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [taxidTools]: Downloading https://files.pythonhosted.org/packages/b4/48/437516f1661aa3304b83365bd024f4627440a991407119f541d8636492f4/taxidTools-2.2.3.tar.gz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [fortitudo-tech]: Downloading https://files.pythonhosted.org/packages/70/07/cf20c8d8c7f078095cc67f9bf0215fd922925c1c626a6f9b6935b86ad32b/fortitudo_tech-1.0.6.tar.gz
+[2024-05-13 11:13:52] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/8d/df/96bf95bcdf1a640c25e1d97f95cc2d7f0cab3d7d1337241b86ed3bb9d00e/moltx-1.0.0.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/f0/ac/c7d4bf4bbdeb136b6fe040f8b4fcfb5bc2501477829611cec173a16004b1/jeedomdaemon-0.9.1.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/e1/21/801789894f7615f2d31272e7efee65d856c2d70b33aa9b55f835e76c35e0/RupineLib-0.0.9.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/13/29/39ec8ce1bb609980c6daa4377ab05384d741a834e356c7e5f6369104f9bc/torch_model_manager-0.3.0.dev9.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/36/94/67407adefa444b8ceed1f61e2d6c7d0033fcaa2851b13d3fc1762c34ad81/mteb-1.8.9.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [RupineLib]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [RupineLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RupineLib-0.0.8.tar.gz tmp/RupineLib-0.0.9.tar.gz --markdown 20240513/R/RupineLib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240513/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [taxidTools]: Downloading https://files.pythonhosted.org/packages/00/87/f8d41745e301ffe37b0af49f0a464ce2b9dff66a16b803fe498bcfd273d0/taxidtools-2.3.0.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.3.0.dev8.tar.gz tmp/torch_model_manager-0.3.0.dev9.tar.gz --markdown 20240513/t/torch-model-manager/0.3.0.dev8-0.3.0.dev9/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/02/0a/d8fb4a54f72761b24a84174585a36f982ad94a219bf4c958772272f72ffd/moltx-1.0.1.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [jeedomdaemon]: Downloading https://files.pythonhosted.org/packages/08/b5/6eefdc2b611b1dc3b6862b34060c77ff49747f92f1307f219c171cf7ffd8/jeedomdaemon-0.9.5.tar.gz
+[2024-05-13 11:13:53] INFO root fetch - processPackages [taxidTools]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [taxidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxidTools-2.2.3.tar.gz tmp/taxidtools-2.3.0.tar.gz --markdown 20240513/t/taxidTools/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.8.8.tar.gz tmp/mteb-1.8.9.tar.gz --markdown 20240513/m/mteb/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-1.0.0.tar.gz tmp/moltx-1.0.1.tar.gz --markdown 20240513/m/moltx/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [jeedomdaemon]: executing diffoscope
+[2024-05-13 11:13:53] INFO root fetch - processPackages [jeedomdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeedomdaemon-0.9.1.tar.gz tmp/jeedomdaemon-0.9.5.tar.gz --markdown 20240513/j/jeedomdaemon/0.9.1-0.9.5/README.md --exclude *.pyd
+[2024-05-13 11:13:53] INFO root fetch - processPackages [fortitudo-tech]: Downloading https://files.pythonhosted.org/packages/6f/5f/c6a06245541dbe7b6632405d5027180838cc0b30da987284183cf4712099/fortitudo_tech-1.0.7.tar.gz
+[2024-05-13 11:13:54] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.3.0.dev8.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.3.0.dev9.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-13 11:13:54] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.8.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.9.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - main [MainThread]: End processing [RupineLib]: success
+[2024-05-13 11:13:54] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-13 11:13:54] INFO root fetch - processPackages [taxidTools]: Remove: archive file [/home/abi/fetcher/tmp/taxidTools-2.2.3.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - processPackages [taxidTools]: Remove: archive file [/home/abi/fetcher/tmp/taxidtools-2.3.0.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - main [MainThread]: End processing [taxidTools]: success
+[2024-05-13 11:13:54] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.9.1.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - processPackages [jeedomdaemon]: Remove: archive file [/home/abi/fetcher/tmp/jeedomdaemon-0.9.5.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - main [MainThread]: End processing [jeedomdaemon]: success
+[2024-05-13 11:13:54] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.0.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.1.tar.gz]
+[2024-05-13 11:13:54] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-05-13 11:13:54] INFO root fetch - processPackages [fortitudo-tech]: executing diffoscope
+[2024-05-13 11:13:54] INFO root fetch - processPackages [fortitudo-tech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortitudo_tech-1.0.6.tar.gz tmp/fortitudo_tech-1.0.7.tar.gz --markdown 20240513/f/fortitudo-tech/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 11:13:55] INFO root fetch - processPackages [fortitudo-tech]: Remove: archive file [/home/abi/fetcher/tmp/fortitudo_tech-1.0.6.tar.gz]
+[2024-05-13 11:13:55] INFO root fetch - processPackages [fortitudo-tech]: Remove: archive file [/home/abi/fetcher/tmp/fortitudo_tech-1.0.7.tar.gz]
+[2024-05-13 11:13:55] INFO root fetch - main [MainThread]: End processing [fortitudo-tech]: success
+[2024-05-13 11:13:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.8.tar.gz]
+[2024-05-13 11:13:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.9.tar.gz]
+[2024-05-13 11:13:56] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-13 11:13:56] INFO root fetch - main [MainThread]: Store serial: [23180669]
