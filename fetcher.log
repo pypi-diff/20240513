@@ -23425,3 +23425,75 @@ EOFError: EOF read where object expected
 [2024-05-13 16:51:37] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.3.tar.gz]
 [2024-05-13 16:51:37] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
 [2024-05-13 16:51:37] INFO root fetch - main [MainThread]: Store serial: [23185228]
+[2024-05-13 16:53:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185228]
+[2024-05-13 16:53:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: venatoryz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecr-scan-notifier
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lavague
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkt-retv
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sarus-data-spec-public
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nereus
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: comet-ml
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shipper-shippy
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fontc
+[2024-05-13 16:53:47] INFO root fetch - processPackages [fontc]: New version: [0.0.2a4] Old Version: [0.0.2a3]
+[2024-05-13 16:53:47] INFO root fetch - processPackages [lavague]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 16:53:47] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev7] Old Version: [4.0.0.dev6]
+[2024-05-13 16:53:47] WARNING root fetch - processPackages [venatoryz]: Skipping, unable to determine old version
+[2024-05-13 16:53:47] INFO root fetch - main [MainThread]: End processing [venatoryz] error
+[2024-05-13 16:53:47] INFO root fetch - processPackages [fontc]: Downloading https://files.pythonhosted.org/packages/f0/94/e9b066d885b788ef4b136e3a4e0d665a607d344e1eecafaf21a8a05062e7/fontc-0.0.2a3.tar.gz
+[2024-05-13 16:53:47] WARNING root fetch - processPackages [nereus]: Skipping, unable to determine old version
+[2024-05-13 16:53:47] INFO root fetch - main [MainThread]: End processing [nereus] error
+[2024-05-13 16:53:47] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/b0/fa/e20813e49f490477b80c5b638ee1f7a8f5f0dbc3dff78c34a4896c8b2b9c/lavague-1.0.8.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:53:47] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [mkt-retv]: New version: [1.423] Old Version: [1.422]
+[2024-05-13 16:53:47] INFO root fetch - processPackages [shipper-shippy]: New version: [2.37.3] Old Version: [2.37.2]
+[2024-05-13 16:53:47] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-13 16:53:47] INFO root fetch - processPackages [lavague]: Downloading https://files.pythonhosted.org/packages/60/cb/7b6033d655fe04e7fccb06f4409ba468218cb80c59d82064105a3e64f973/lavague-1.0.9.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/64/5f/58b169e252cd8a1fb55c01fc0a76abda09651b2e928842dee067f40cd1f1/mkt-retv-1.422.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/9e/32/75e7ed9b5393993f18211060db7a691430370f18cc8906d1373a82ca55ea/shipper_shippy-2.37.2.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/f6/99/d909eddfce9898580710206fe0c587b65b62f709404cf829d9a4d17d7b1d/sarus_data_spec_public-4.0.0.dev7.tar.gz
+[2024-05-13 16:53:47] INFO root fetch - processPackages [lavague]: executing diffoscope
+[2024-05-13 16:53:47] INFO root fetch - processPackages [lavague]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague-1.0.8.tar.gz tmp/lavague-1.0.9.tar.gz --markdown 20240513/l/lavague/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 16:53:47] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-13 16:53:47] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz --markdown 20240513/s/sarus-data-spec-public/4.0.0.dev6-4.0.0.dev7/README.md --exclude *.pyd
+[2024-05-13 16:53:47] INFO root fetch - processPackages [fontc]: Downloading https://files.pythonhosted.org/packages/b9/10/4ace4308d6119250c98d0a614b4265b72abc18329905272eeb9211246d53/fontc-0.0.2a4.tar.gz
+[2024-05-13 16:53:48] INFO root fetch - processPackages [mkt-retv]: Downloading https://files.pythonhosted.org/packages/b7/71/cfac3cad4e47116153dd47865f830f0fab9d2102fedfeb5bd1aa40731d63/mkt-retv-1.423.tar.gz
+[2024-05-13 16:53:48] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/8e/f8/ffe5204798bf8c770d590ddca0e17adc4f6b179e489c5193a1e0f7b7d391/shipper_shippy-2.37.3.tar.gz
+[2024-05-13 16:53:48] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2024-05-13 16:53:48] INFO root fetch - processPackages [fontc]: executing diffoscope
+[2024-05-13 16:53:48] INFO root fetch - processPackages [fontc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fontc-0.0.2a3.tar.gz tmp/fontc-0.0.2a4.tar.gz --markdown 20240513/f/fontc/0.0.2a3-0.0.2a4/README.md --exclude *.pyd
+[2024-05-13 16:53:48] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-05-13 16:53:48] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-13 16:53:48] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.37.2.tar.gz tmp/shipper_shippy-2.37.3.tar.gz --markdown 20240513/s/shipper-shippy/2.37.2-2.37.3/README.md --exclude *.pyd
+[2024-05-13 16:53:48] INFO root fetch - processPackages [mkt-retv]: executing diffoscope
+[2024-05-13 16:53:48] INFO root fetch - processPackages [mkt-retv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkt-retv-1.422.tar.gz tmp/mkt-retv-1.423.tar.gz --markdown 20240513/m/mkt-retv/1.422-1.423/README.md --exclude *.pyd
+[2024-05-13 16:53:48] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2024-05-13 16:53:48] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20240513/c/comet-ml/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-13 16:53:48] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-05-13 16:53:48] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240513/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:53:48] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.8.tar.gz]
+[2024-05-13 16:53:48] INFO root fetch - processPackages [lavague]: Remove: archive file [/home/abi/fetcher/tmp/lavague-1.0.9.tar.gz]
+[2024-05-13 16:53:48] INFO root fetch - main [MainThread]: End processing [lavague]: success
+[2024-05-13 16:53:48] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.422.tar.gz]
+[2024-05-13 16:53:48] INFO root fetch - processPackages [mkt-retv]: Remove: archive file [/home/abi/fetcher/tmp/mkt-retv-1.423.tar.gz]
+[2024-05-13 16:53:48] INFO root fetch - main [MainThread]: End processing [mkt-retv]: success
+[2024-05-13 16:53:48] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.2.tar.gz]
+[2024-05-13 16:53:48] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.3.tar.gz]
+[2024-05-13 16:53:48] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-13 16:53:49] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-05-13 16:53:49] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-05-13 16:53:49] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-05-13 16:53:49] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-05-13 16:53:49] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz]
+[2024-05-13 16:53:49] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-13 16:53:49] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.0.tar.gz]
+[2024-05-13 16:53:49] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
+[2024-05-13 16:53:49] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2024-05-13 16:53:56] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a3.tar.gz]
+[2024-05-13 16:53:56] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a4.tar.gz]
+[2024-05-13 16:53:56] INFO root fetch - main [MainThread]: End processing [fontc]: success
+[2024-05-13 16:53:56] INFO root fetch - main [MainThread]: Store serial: [23185261]
