@@ -4981,3 +4981,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:56:03] INFO root fetch - processPackages [btledstrip]: Remove: archive file [/home/abi/fetcher/tmp/btledstrip-0.1.1.tar.gz]
 [2024-05-13 05:56:03] INFO root fetch - main [MainThread]: End processing [btledstrip]: success
 [2024-05-13 05:56:03] INFO root fetch - main [MainThread]: Store serial: [23176673]
+[2024-05-13 05:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176673]
+[2024-05-13 05:58:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btledstrip
+[2024-05-13 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makingsz
+[2024-05-13 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-05-13 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kvz
+[2024-05-13 05:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-05-13 05:58:12] INFO root fetch - processPackages [btledstrip]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 05:58:12] INFO root fetch - processPackages [btledstrip]: Downloading https://files.pythonhosted.org/packages/43/4f/46c001984ab8d25481c777680a55458dc8d8c675a57409bbf56555225e28/btledstrip-0.1.0.tar.gz
+[2024-05-13 05:58:12] WARNING root fetch - processPackages [kvz]: Skipping, unable to determine old version
+[2024-05-13 05:58:12] INFO root fetch - main [MainThread]: End processing [kvz] error
+[2024-05-13 05:58:12] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 05:58:12] WARNING root fetch - processPackages [makingsz]: Skipping, unable to determine old version
+[2024-05-13 05:58:12] INFO root fetch - main [MainThread]: End processing [makingsz] error
+[2024-05-13 05:58:12] INFO root fetch - processPackages [OZI]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-13 05:58:12] INFO root fetch - processPackages [btledstrip]: Downloading https://files.pythonhosted.org/packages/e0/f8/fa9f13b56e89414396f64b3880863bb568c0556822daab7b95ce66d39684/btledstrip-0.1.1.tar.gz
+[2024-05-13 05:58:12] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-13 05:58:13] INFO root fetch - processPackages [btledstrip]: executing diffoscope
+[2024-05-13 05:58:13] INFO root fetch - processPackages [btledstrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btledstrip-0.1.0.tar.gz tmp/btledstrip-0.1.1.tar.gz --markdown 20240513/b/btledstrip/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 05:58:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/3a/7b/dadaa1c3b8883bd457d255603a0032ff727391192800616c8471837478ec/OZI-1.6.1.tar.gz
+[2024-05-13 05:58:13] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-13 05:58:13] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-13 05:58:13] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240513/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 05:58:13] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/b3/dd/aaf5e9567aeac30837b5f0d06c2b14e1f75788fb3a2a7bf9231bebafe444/OZI-1.6.2.tar.gz
+[2024-05-13 05:58:13] INFO root fetch - processPackages [btledstrip]: Remove: archive file [/home/abi/fetcher/tmp/btledstrip-0.1.0.tar.gz]
+[2024-05-13 05:58:13] INFO root fetch - processPackages [btledstrip]: Remove: archive file [/home/abi/fetcher/tmp/btledstrip-0.1.1.tar.gz]
+[2024-05-13 05:58:13] INFO root fetch - main [MainThread]: End processing [btledstrip]: success
+[2024-05-13 05:58:13] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-13 05:58:13] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.6.1.tar.gz tmp/OZI-1.6.2.tar.gz --markdown 20240513/O/OZI/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-13 05:58:13] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-13 05:58:13] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-13 05:58:13] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-13 05:58:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.6.1.tar.gz]
+[2024-05-13 05:58:14] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.6.2.tar.gz]
+[2024-05-13 05:58:14] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-13 05:58:14] INFO root fetch - main [MainThread]: Store serial: [23176692]
