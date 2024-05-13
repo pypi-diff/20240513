@@ -11252,3 +11252,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:55:29] INFO root fetch - processPackages [nxswriter]: Remove: archive file [/home/abi/fetcher/tmp/nxswriter-3.9.0.tar.gz]
 [2024-05-13 09:55:29] INFO root fetch - main [MainThread]: End processing [nxswriter]: success
 [2024-05-13 09:55:29] INFO root fetch - main [MainThread]: Store serial: [23179605]
+[2024-05-13 09:57:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179605]
+[2024-05-13 09:57:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartboiler
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satsure-core-test
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTG-Utils
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: projectal
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eunuchoidz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satsure-core-test
+[2024-05-13 09:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-proxmoxve
+[2024-05-13 09:57:39] INFO root fetch - processPackages [CTG-Utils]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 09:57:39] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-13 09:57:39] WARNING root fetch - processPackages [eunuchoidz]: Skipping, unable to determine old version
+[2024-05-13 09:57:39] INFO root fetch - main [MainThread]: End processing [eunuchoidz] error
+[2024-05-13 09:57:39] INFO root fetch - processPackages [CTG-Utils]: Downloading https://files.pythonhosted.org/packages/0f/2b/9c7917b9ad6cd0498d1bbfdb243599b6276053b8c3b50e88ee16dca06723/CTG_Utils-1.1.0.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [satsure-core-test]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 09:57:39] INFO root fetch - processPackages [satsure-core-test]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 09:57:39] INFO root fetch - processPackages [projectal]: New version: [5.0.0] Old Version: [4.3.1]
+[2024-05-13 09:57:39] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [6.6.0] Old Version: [6.5.1]
+[2024-05-13 09:57:39] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/62/b2/1f8b8094f0814bd5513dc997a330bbcc0556538b1ea573999ca06fb0bc9e/satsure_core_test-0.0.7.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/62/b2/1f8b8094f0814bd5513dc997a330bbcc0556538b1ea573999ca06fb0bc9e/satsure_core_test-0.0.7.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/f6/f9/88ea076d8e9adee48cacd520ebb760620c48c418b3878a4a3dfbc52c9b71/projectal-4.3.1.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/47/85/1d8d3b696a737b9360f50c5af456b7bf86741920773dfb45498c5bbe0ea9/pulumi_proxmoxve-6.5.1.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [CTG-Utils]: Downloading https://files.pythonhosted.org/packages/ce/ee/1e857c735be5dace63b7067a41b87f9cdc34350d067b8a076ba9887bb13a/CTG_Utils-1.1.1.tar.gz
+[2024-05-13 09:57:39] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-13 09:57:39] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240513/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-13 09:57:40] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/57/20/3d5bb371e90bdb176b8bdbc1219e485f0019fc63547814b270c3acb9e9a2/satsure_core_test-0.0.8.tar.gz
+[2024-05-13 09:57:40] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/57/20/3d5bb371e90bdb176b8bdbc1219e485f0019fc63547814b270c3acb9e9a2/satsure_core_test-0.0.8.tar.gz
+[2024-05-13 09:57:40] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/2e/57/bde7e0775825ba7975cb67ce261fd785dec29bed25c295581c262a2b7f48/pulumi_proxmoxve-6.6.0.tar.gz
+[2024-05-13 09:57:40] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/91/de/2af217d0ced7b239f0f1c924adf1d9b92f01ac51e191b9f7b9592df83df3/projectal-5.0.0.tar.gz
+[2024-05-13 09:57:40] INFO root fetch - processPackages [CTG-Utils]: executing diffoscope
+[2024-05-13 09:57:40] INFO root fetch - processPackages [CTG-Utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTG_Utils-1.1.0.tar.gz tmp/CTG_Utils-1.1.1.tar.gz --markdown 20240513/C/CTG-Utils/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 09:57:40] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-13 09:57:40] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.0.7.tar.gz tmp/satsure_core_test-0.0.8.tar.gz --markdown 20240513/s/satsure-core-test/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 09:57:40] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-13 09:57:40] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.0.7.tar.gz tmp/satsure_core_test-0.0.8.tar.gz --markdown 20240513/s/satsure-core-test/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 09:57:40] INFO root fetch - processPackages [projectal]: executing diffoscope
+[2024-05-13 09:57:40] INFO root fetch - processPackages [projectal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectal-4.3.1.tar.gz tmp/projectal-5.0.0.tar.gz --markdown 20240513/p/projectal/4.3.1-5.0.0/README.md --exclude *.pyd
+[2024-05-13 09:57:40] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2024-05-13 09:57:40] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-6.5.1.tar.gz tmp/pulumi_proxmoxve-6.6.0.tar.gz --markdown 20240513/p/pulumi-proxmoxve/6.5.1-6.6.0/README.md --exclude *.pyd
+[2024-05-13 09:57:40] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-13 09:57:40] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-13 09:57:40] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-13 09:57:41] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.7.tar.gz]
+[2024-05-13 09:57:41] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.8.tar.gz]
+[2024-05-13 09:57:41] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-13 09:57:41] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-13 09:57:41] INFO root fetch - processPackages [CTG-Utils]: Remove: archive file [/home/abi/fetcher/tmp/CTG_Utils-1.1.0.tar.gz]
+[2024-05-13 09:57:41] INFO root fetch - processPackages [CTG-Utils]: Remove: archive file [/home/abi/fetcher/tmp/CTG_Utils-1.1.1.tar.gz]
+[2024-05-13 09:57:41] INFO root fetch - main [MainThread]: End processing [CTG-Utils]: success
+[2024-05-13 09:57:42] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.5.1.tar.gz]
+[2024-05-13 09:57:42] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.6.0.tar.gz]
+[2024-05-13 09:57:42] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2024-05-13 09:57:42] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.3.1.tar.gz]
+[2024-05-13 09:57:42] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-5.0.0.tar.gz]
+[2024-05-13 09:57:42] INFO root fetch - main [MainThread]: End processing [projectal]: success
+[2024-05-13 09:57:42] INFO root fetch - main [MainThread]: Store serial: [23179626]
