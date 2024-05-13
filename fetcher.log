@@ -9912,3 +9912,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:57:18] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240511.tar.gz]
 [2024-05-13 08:57:18] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-13 08:57:18] INFO root fetch - main [MainThread]: Store serial: [23179019]
+[2024-05-13 08:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179019]
+[2024-05-13 08:59:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingodb
+[2024-05-13 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gref4hsi
+[2024-05-13 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-problem
+[2024-05-13 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perun.proxygui
+[2024-05-13 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gref4hsi
+[2024-05-13 08:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kubeinfra
+[2024-05-13 08:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiple-hypothesis-testing
+[2024-05-13 08:59:28] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/10/54/18b332a499ecc5f4e9aab2d1e74d46df745eb47e82428f01a6861411c8c4/fastapi_problem-0.7.1.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [gref4hsi]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [gref4hsi]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [perun.proxygui]: New version: [6.0.0] Old Version: [5.2.1]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [multiple-hypothesis-testing]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [kubeinfra]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-05-13 08:59:28] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/d4/48/b8039995a1f3c92123a9a2f336c523924cc59ac3550514fccf1c235bab58/gref4hsi-0.2.1.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/d4/48/b8039995a1f3c92123a9a2f336c523924cc59ac3550514fccf1c235bab58/gref4hsi-0.2.1.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/ae/26/fd6a3c780aa04a2fc62be91401bd9b31e3030d9665811d91edbea2b5dcaa/perun.proxygui-5.2.1.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [kubeinfra]: Downloading https://files.pythonhosted.org/packages/8c/6d/db5307b16e153d02a36f22732cd70ecce524b9e48374600b833188c0883e/kubeinfra-0.0.1a3.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [multiple-hypothesis-testing]: Downloading https://files.pythonhosted.org/packages/78/fe/cdea604adca68c617ae84cbd13ef0c4a2ecb533822b5aace61e1b28628ef/multiple-hypothesis-testing-0.1.8.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/4e/a9/3189bbef989692830e31801848dc4439e060653cd789055ddf454fcedfbe/fastapi_problem-0.7.2.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-13 08:59:28] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.1.tar.gz tmp/fastapi_problem-0.7.2.tar.gz --markdown 20240513/f/fastapi-problem/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-13 08:59:28] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/14/0a/7a6dbf4d6fbc3159c74d1d7255e81df3a0040341f7ab94857fa7d229e2db/gref4hsi-0.2.2.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-13 08:59:28] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240513/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 08:59:28] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/14/0a/7a6dbf4d6fbc3159c74d1d7255e81df3a0040341f7ab94857fa7d229e2db/gref4hsi-0.2.2.tar.gz
+[2024-05-13 08:59:28] INFO root fetch - processPackages [kubeinfra]: Downloading https://files.pythonhosted.org/packages/36/35/d35e1454cf02ed762ce6df6b9ecf68d993a4ec3e587e697a55f08b833ed7/kubeinfra-0.0.1a4.tar.gz
+[2024-05-13 08:59:29] INFO root fetch - processPackages [multiple-hypothesis-testing]: Downloading https://files.pythonhosted.org/packages/90/51/76dba9707ba7443f9b393213d5de3d31888396b1d9f59b4cf115891b8fa8/multiple-hypothesis-testing-0.1.9.tar.gz
+[2024-05-13 08:59:29] INFO root fetch - processPackages [gref4hsi]: executing diffoscope
+[2024-05-13 08:59:29] INFO root fetch - processPackages [gref4hsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gref4hsi-0.2.1.tar.gz tmp/gref4hsi-0.2.2.tar.gz --markdown 20240513/g/gref4hsi/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 08:59:29] INFO root fetch - processPackages [gref4hsi]: executing diffoscope
+[2024-05-13 08:59:29] INFO root fetch - processPackages [gref4hsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gref4hsi-0.2.1.tar.gz tmp/gref4hsi-0.2.2.tar.gz --markdown 20240513/g/gref4hsi/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 08:59:29] INFO root fetch - processPackages [kubeinfra]: executing diffoscope
+[2024-05-13 08:59:29] INFO root fetch - processPackages [kubeinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubeinfra-0.0.1a3.tar.gz tmp/kubeinfra-0.0.1a4.tar.gz --markdown 20240513/k/kubeinfra/0.0.1a3-0.0.1a4/README.md --exclude *.pyd
+[2024-05-13 08:59:29] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/cd/ee/1611009de02f18afd8c4c59a5fcb11aef56d30f494d9456e3784f99438ef/perun.proxygui-6.0.0.tar.gz
+[2024-05-13 08:59:29] INFO root fetch - processPackages [multiple-hypothesis-testing]: executing diffoscope
+[2024-05-13 08:59:29] INFO root fetch - processPackages [multiple-hypothesis-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiple-hypothesis-testing-0.1.8.tar.gz tmp/multiple-hypothesis-testing-0.1.9.tar.gz --markdown 20240513/m/multiple-hypothesis-testing/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 08:59:29] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.1.tar.gz]
+[2024-05-13 08:59:29] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.2.tar.gz]
+[2024-05-13 08:59:29] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-13 08:59:29] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-13 08:59:29] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-13 08:59:29] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-13 08:59:30] INFO root fetch - processPackages [multiple-hypothesis-testing]: Remove: archive file [/home/abi/fetcher/tmp/multiple-hypothesis-testing-0.1.8.tar.gz]
+[2024-05-13 08:59:30] INFO root fetch - processPackages [multiple-hypothesis-testing]: Remove: archive file [/home/abi/fetcher/tmp/multiple-hypothesis-testing-0.1.9.tar.gz]
+[2024-05-13 08:59:30] INFO root fetch - main [MainThread]: End processing [multiple-hypothesis-testing]: success
+[2024-05-13 08:59:30] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.2.1.tar.gz]
+[2024-05-13 08:59:30] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.2.2.tar.gz]
+[2024-05-13 08:59:30] INFO root fetch - main [MainThread]: End processing [gref4hsi]: success
+[2024-05-13 08:59:30] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-05-13 08:59:30] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-5.2.1.tar.gz tmp/perun.proxygui-6.0.0.tar.gz --markdown 20240513/p/perun.proxygui/5.2.1-6.0.0/README.md --exclude *.pyd
+[2024-05-13 08:59:30] INFO root fetch - processPackages [kubeinfra]: Remove: archive file [/home/abi/fetcher/tmp/kubeinfra-0.0.1a3.tar.gz]
+[2024-05-13 08:59:30] INFO root fetch - processPackages [kubeinfra]: Remove: archive file [/home/abi/fetcher/tmp/kubeinfra-0.0.1a4.tar.gz]
+[2024-05-13 08:59:30] INFO root fetch - main [MainThread]: End processing [kubeinfra]: success
+[2024-05-13 08:59:30] INFO root fetch - main [MainThread]: End processing [gref4hsi]: success
+[2024-05-13 08:59:33] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-5.2.1.tar.gz]
+[2024-05-13 08:59:33] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-6.0.0.tar.gz]
+[2024-05-13 08:59:33] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-05-13 08:59:33] INFO root fetch - main [MainThread]: Store serial: [23179047]
