@@ -13686,3 +13686,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:29:27] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-13 11:29:27] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-13 11:29:27] INFO root fetch - main [MainThread]: Store serial: [23180870]
+[2024-05-13 11:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180870]
+[2024-05-13 11:31:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-signedUrl-uploader
+[2024-05-13 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycwr
+[2024-05-13 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RupineLib
+[2024-05-13 11:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: more-math3
+[2024-05-13 11:31:36] INFO root fetch - processPackages [RupineLib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 11:31:36] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.1] Old Version: [1.0]
+[2024-05-13 11:31:36] INFO root fetch - processPackages [pycwr]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-05-13 11:31:36] WARNING root fetch - processPackages [more-math3]: Skipping, unable to determine old version
+[2024-05-13 11:31:36] INFO root fetch - main [MainThread]: End processing [more-math3] error
+[2024-05-13 11:31:36] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/f3/09/8b85c064c04441b46ac1093109370cbf0881f810ce0075916157ba264cad/RupineLib-0.0.8.tar.gz
+[2024-05-13 11:31:37] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/49/db/a4afb1d91d7b1759a0e8f892e5b18481cbdf804852a37f26273892c4060d/st_signedurl_uploader-1.0.tar.gz
+[2024-05-13 11:31:37] INFO root fetch - processPackages [pycwr]: Downloading https://files.pythonhosted.org/packages/49/20/57d41f35a55f44bb3dbd0b7d096367756b4b7224a59255c3122cf565a454/pycwr-0.3.6.tar.gz
+[2024-05-13 11:31:37] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/e1/21/801789894f7615f2d31272e7efee65d856c2d70b33aa9b55f835e76c35e0/RupineLib-0.0.9.tar.gz
+[2024-05-13 11:31:37] INFO root fetch - processPackages [RupineLib]: executing diffoscope
+[2024-05-13 11:31:37] INFO root fetch - processPackages [RupineLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RupineLib-0.0.8.tar.gz tmp/RupineLib-0.0.9.tar.gz --markdown 20240513/R/RupineLib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 11:31:37] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/ee/c5/3de38654f63d529a8f766e2cd4cba802721b61c526f3284575e60f3c82c3/st_signedurl_uploader-1.1.tar.gz
+[2024-05-13 11:31:37] INFO root fetch - processPackages [pycwr]: Downloading https://files.pythonhosted.org/packages/59/65/614a90b8807c90af26535ed39f7085ae713ae00cf97ac3b968655214f9b6/pycwr-0.4.0.tar.gz
+[2024-05-13 11:31:37] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-13 11:31:37] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.0.tar.gz tmp/st_signedurl_uploader-1.1.tar.gz --markdown 20240513/s/st-signedUrl-uploader/1.0-1.1/README.md --exclude *.pyd
+[2024-05-13 11:31:37] INFO root fetch - processPackages [pycwr]: executing diffoscope
+[2024-05-13 11:31:37] INFO root fetch - processPackages [pycwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycwr-0.3.6.tar.gz tmp/pycwr-0.4.0.tar.gz --markdown 20240513/p/pycwr/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-05-13 11:31:37] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.8.tar.gz]
+[2024-05-13 11:31:37] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.9.tar.gz]
+[2024-05-13 11:31:37] INFO root fetch - main [MainThread]: End processing [RupineLib]: success
+[2024-05-13 11:31:38] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.0.tar.gz]
+[2024-05-13 11:31:38] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.1.tar.gz]
+[2024-05-13 11:31:38] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-13 11:31:38] INFO root fetch - processPackages [pycwr]: Remove: archive file [/home/abi/fetcher/tmp/pycwr-0.3.6.tar.gz]
+[2024-05-13 11:31:38] INFO root fetch - processPackages [pycwr]: Remove: archive file [/home/abi/fetcher/tmp/pycwr-0.4.0.tar.gz]
+[2024-05-13 11:31:38] INFO root fetch - main [MainThread]: End processing [pycwr]: success
+[2024-05-13 11:31:38] INFO root fetch - main [MainThread]: Store serial: [23180900]
