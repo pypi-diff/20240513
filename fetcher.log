@@ -15183,3 +15183,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:24:39] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.5.tar.gz]
 [2024-05-13 12:24:39] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
 [2024-05-13 12:24:39] INFO root fetch - main [MainThread]: Store serial: [23181488]
+[2024-05-13 12:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181488]
+[2024-05-13 12:26:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zjuintl-assistant
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octarine3d
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antralz
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tanu
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcedefender
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schubertpy
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steam-sdk
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pineboo
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: searchkit
+[2024-05-13 12:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vagd
+[2024-05-13 12:26:48] INFO root fetch - processPackages [pineboo]: New version: [0.99.84.2] Old Version: [0.99.84.1]
+[2024-05-13 12:26:48] INFO root fetch - processPackages [steam-sdk]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-13 12:26:48] INFO root fetch - processPackages [searchkit]: New version: [0.4.1.post3] Old Version: [0.4.1.post2]
+[2024-05-13 12:26:48] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/77/db/dc4ed1baa928b96c50560dd5c6a7ead0e01278dc42cd6e8b7d179007107a/pineboo-0.99.84.1.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [schubertpy]: New version: [0.3.22] Old Version: [0.3.21]
+[2024-05-13 12:26:48] WARNING root fetch - processPackages [antralz]: Skipping, unable to determine old version
+[2024-05-13 12:26:48] INFO root fetch - main [MainThread]: End processing [antralz] error
+[2024-05-13 12:26:48] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/9f/78/44850de87062964ec29ec957ff03dea7f33f8f805de1a6d7d1e2b1a61291/searchkit-0.4.1.post2.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/d3/e3/32ab37ead8c5f270bc12882df0d032d75b2aedd0cd96c60b325b66f91739/steam-sdk-2024.5.1.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [tanu]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 12:26:48] INFO root fetch - processPackages [octarine3d]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 12:26:48] INFO root fetch - processPackages [vagd]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-13 12:26:48] WARNING root fetch - processPackages [zjuintl-assistant]: Skipping, unable to determine old version
+[2024-05-13 12:26:48] INFO root fetch - processPackages [sourcedefender]: New version: [14.0.0] Old Version: [13.0.0]
+[2024-05-13 12:26:48] INFO root fetch - main [MainThread]: End processing [zjuintl-assistant] error
+[2024-05-13 12:26:48] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/74/e0/8468848438816e2de079c50c595d26a0087dd733aa024eac6d6f18743c0a/tanu-0.1.2.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [octarine3d]: Downloading https://files.pythonhosted.org/packages/e3/7c/9cf7ae0fdb727a894030c61efdd7e1b670165c9438f3aec22222dd1162ed/octarine3d-0.1.3.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [schubertpy]: Downloading https://files.pythonhosted.org/packages/0f/6e/741d99b9e0e5cb638dd5b4db55eff686a9b56530b9f0ac1f2df173e40acb/schubertpy-0.3.21.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/0d/27/70a70c50baeeb45ba7c0d2e489161b8106333c81b6cb59d6945299de9009/sourcedefender-13.0.0.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/78/51/2fb02ad48de0f22821fe1925f92eb39cd52820e7b4424fc4515d73436cc0/searchkit-0.4.1.post3.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/88/a4/f274e80f7fc68113d39d361e1e1395b0a7fa0c81dd7cce9e75b5d0aa32f0/vagd-1.3.2.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/b7/a5/de6150771e91d2443b121ef6040162df3f7d76bd27dffcb2a6cbe97d8de6/steam-sdk-2024.5.2.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2024-05-13 12:26:48] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.4.1.post2.tar.gz tmp/searchkit-0.4.1.post3.tar.gz --markdown 20240513/s/searchkit/0.4.1.post2-0.4.1.post3/README.md --exclude *.pyd
+[2024-05-13 12:26:48] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/2a/9e/ebda345adb75f610db9af8439755e9da952b79dbbf612bf0ef859cc62b7f/tanu-0.1.3.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [schubertpy]: Downloading https://files.pythonhosted.org/packages/5c/42/13f5b1495bc898d328cfca79cb8a107c7225578ce8750b1da9ba19dfd27c/schubertpy-0.3.22.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2024-05-13 12:26:48] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2024.5.1.tar.gz tmp/steam-sdk-2024.5.2.tar.gz --markdown 20240513/s/steam-sdk/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-13 12:26:48] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/bf/80/347f29d1e8446b590cd9cd3cf66e87c76c982e71941e43e1671b6a3c12d7/pineboo-0.99.84.2.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [octarine3d]: Downloading https://files.pythonhosted.org/packages/7b/fe/a784c43ce504c079bf488e69f2ec1b767ac6480acf752fa4746cb3a42e91/octarine3d-0.1.4.tar.gz
+[2024-05-13 12:26:48] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-13 12:26:48] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.2.tar.gz tmp/tanu-0.1.3.tar.gz --markdown 20240513/t/tanu/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 12:26:48] INFO root fetch - processPackages [schubertpy]: executing diffoscope
+[2024-05-13 12:26:48] INFO root fetch - processPackages [schubertpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schubertpy-0.3.21.tar.gz tmp/schubertpy-0.3.22.tar.gz --markdown 20240513/s/schubertpy/0.3.21-0.3.22/README.md --exclude *.pyd
+[2024-05-13 12:26:48] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/e1/bc/6e7a28005ebf6c19e902a19338ea7d6d332ae9d6bf2ef00bf01de96ec47a/vagd-1.3.3.tar.gz
+[2024-05-13 12:26:49] INFO root fetch - processPackages [octarine3d]: executing diffoscope
+[2024-05-13 12:26:49] INFO root fetch - processPackages [octarine3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octarine3d-0.1.3.tar.gz tmp/octarine3d-0.1.4.tar.gz --markdown 20240513/o/octarine3d/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 12:26:49] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2024-05-13 12:26:49] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-1.3.2.tar.gz tmp/vagd-1.3.3.tar.gz --markdown 20240513/v/vagd/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-13 12:26:49] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/57/a8/d066595d23f88285614215892d1c33fa37300abb88c8f99fad66b537e352/sourcedefender-14.0.0.tar.gz
+[2024-05-13 12:26:49] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-05-13 12:26:49] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.84.1.tar.gz tmp/pineboo-0.99.84.2.tar.gz --markdown 20240513/p/pineboo/0.99.84.1-0.99.84.2/README.md --exclude *.pyd
+[2024-05-13 12:26:49] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.4.1.post2.tar.gz]
+[2024-05-13 12:26:49] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.4.1.post3.tar.gz]
+[2024-05-13 12:26:49] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2024-05-13 12:26:49] INFO root fetch - processPackages [sourcedefender]: executing diffoscope
+[2024-05-13 12:26:49] INFO root fetch - processPackages [sourcedefender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcedefender-13.0.0.tar.gz tmp/sourcedefender-14.0.0.tar.gz --markdown 20240513/s/sourcedefender/13.0.0-14.0.0/README.md --exclude *.pyd
+[2024-05-13 12:26:49] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.2.tar.gz]
+[2024-05-13 12:26:49] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.3.tar.gz]
+[2024-05-13 12:26:49] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-13 12:26:49] INFO root fetch - processPackages [octarine3d]: Remove: archive file [/home/abi/fetcher/tmp/octarine3d-0.1.3.tar.gz]
+[2024-05-13 12:26:49] INFO root fetch - processPackages [octarine3d]: Remove: archive file [/home/abi/fetcher/tmp/octarine3d-0.1.4.tar.gz]
+[2024-05-13 12:26:49] INFO root fetch - main [MainThread]: End processing [octarine3d]: success
+[2024-05-13 12:26:50] INFO root fetch - processPackages [schubertpy]: Remove: archive file [/home/abi/fetcher/tmp/schubertpy-0.3.21.tar.gz]
+[2024-05-13 12:26:50] INFO root fetch - processPackages [schubertpy]: Remove: archive file [/home/abi/fetcher/tmp/schubertpy-0.3.22.tar.gz]
+[2024-05-13 12:26:50] INFO root fetch - main [MainThread]: End processing [schubertpy]: success
+[2024-05-13 12:26:50] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-1.3.2.tar.gz]
+[2024-05-13 12:26:50] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-1.3.3.tar.gz]
+[2024-05-13 12:26:50] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2024-05-13 12:26:50] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.1.tar.gz]
+[2024-05-13 12:26:50] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.2.tar.gz]
+[2024-05-13 12:26:50] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2024-05-13 12:26:52] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.1.tar.gz]
+[2024-05-13 12:26:52] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.2.tar.gz]
+[2024-05-13 12:26:52] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-05-13 12:28:12] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-13.0.0.tar.gz]
+[2024-05-13 12:28:12] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-14.0.0.tar.gz]
+[2024-05-13 12:28:12] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
+[2024-05-13 12:28:12] INFO root fetch - main [MainThread]: Store serial: [23181518]
