@@ -12516,3 +12516,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:46:20] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev6.tar.gz]
 [2024-05-13 10:46:20] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-13 10:46:20] INFO root fetch - main [MainThread]: Store serial: [23180275]
+[2024-05-13 10:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180275]
+[2024-05-13 10:48:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysmallutils
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ec_slp_lib
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notebook
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdroidserver
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: urnparse
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keckyz
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xoppylib
+[2024-05-13 10:48:30] INFO root fetch - processPackages [notebook]: New version: [7.2.0rc1] Old Version: [7.2.0rc0]
+[2024-05-13 10:48:30] WARNING root fetch - processPackages [keckyz]: Skipping, unable to determine old version
+[2024-05-13 10:48:30] INFO root fetch - main [MainThread]: End processing [keckyz] error
+[2024-05-13 10:48:30] INFO root fetch - processPackages [urnparse]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 10:48:30] INFO root fetch - processPackages [ec_slp_lib]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-05-13 10:48:30] INFO root fetch - processPackages [fdroidserver]: New version: [2.3a1] Old Version: [2.3a0]
+[2024-05-13 10:48:30] INFO root fetch - processPackages [mysmallutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-13 10:48:30] INFO root fetch - processPackages [xoppylib]: New version: [1.0.23] Old Version: [1.0.22]
+[2024-05-13 10:48:31] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/66/fc/d102e335f564cfd8bc88e1099e79961bf6f57df0ab03fdccf7d391d66b64/notebook-7.2.0rc0.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [ec_slp_lib]: Downloading https://files.pythonhosted.org/packages/b8/6d/1387a86b70e7e8f8f082466f12a2f48517bafeb01583b502bf10aaffca59/ec_slp_lib-1.0.5.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [xoppylib]: Downloading https://files.pythonhosted.org/packages/0c/1a/f1b36118b85b134146a8540709a88ddaa50ac334f043077e9ea55f4bfebb/xoppylib-1.0.22.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [urnparse]: Downloading https://files.pythonhosted.org/packages/f9/79/efbe5dd37b26368fef74e1adea0736ec59313f5fbd06efd5969404147327/urnparse-0.2.1.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [mysmallutils]: Downloading https://files.pythonhosted.org/packages/48/b1/8a46ca1fa06c719ed68b08250f8905709af83fd450a370701fe8393ac88d/mysmallutils-2.0.8.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [fdroidserver]: Downloading https://files.pythonhosted.org/packages/1b/eb/10ab1f5261bf9eef9f6557ab77fe03bbb24f29349b1b95e2b8f3c1d7f74f/fdroidserver-2.3a0.tar.gz
+[2024-05-13 10:48:31] WARNING root fetch - processPackages [xoppylib]: Skipping package: exceeds size limit 17301838>=10485760
+[2024-05-13 10:48:31] INFO root fetch - main [MainThread]: End processing [xoppylib] error
+[2024-05-13 10:48:31] INFO root fetch - processPackages [ec_slp_lib]: Downloading https://files.pythonhosted.org/packages/0c/f0/04ebe249817e05e4a1bddb4759bec1595e3431c549c152b1277c9328e534/ec_slp_lib-1.1.0.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [urnparse]: Downloading https://files.pythonhosted.org/packages/1d/f4/9f6440fd271892e00c963226a9c13b072bb75613354cdbb769ae2d885c16/urnparse-0.2.2.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [mysmallutils]: Downloading https://files.pythonhosted.org/packages/c1/7b/9cb02517d3c26da15f250b0dad05380f9167b5e911b9dec6c2bc0a506a24/mysmallutils-2.0.9.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [ec_slp_lib]: executing diffoscope
+[2024-05-13 10:48:31] INFO root fetch - processPackages [ec_slp_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec_slp_lib-1.0.5.tar.gz tmp/ec_slp_lib-1.1.0.tar.gz --markdown 20240513/e/ec_slp_lib/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-05-13 10:48:31] INFO root fetch - processPackages [urnparse]: executing diffoscope
+[2024-05-13 10:48:31] INFO root fetch - processPackages [urnparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urnparse-0.2.1.tar.gz tmp/urnparse-0.2.2.tar.gz --markdown 20240513/u/urnparse/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 10:48:31] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/65/85/66b7e91a863a97f1e195d5c646b7513c2e65e4d43b7b3652f1824b7a4efd/notebook-7.2.0rc1.tar.gz
+[2024-05-13 10:48:31] INFO root fetch - processPackages [mysmallutils]: executing diffoscope
+[2024-05-13 10:48:31] INFO root fetch - processPackages [mysmallutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysmallutils-2.0.8.tar.gz tmp/mysmallutils-2.0.9.tar.gz --markdown 20240513/m/mysmallutils/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-13 10:48:32] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2024-05-13 10:48:32] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.2.0rc0.tar.gz tmp/notebook-7.2.0rc1.tar.gz --markdown 20240513/n/notebook/7.2.0rc0-7.2.0rc1/README.md --exclude *.pyd
+[2024-05-13 10:48:32] INFO root fetch - processPackages [fdroidserver]: Downloading https://files.pythonhosted.org/packages/65/67/f0bc0518c635ea39a88ec0438679627cc2cfb142d1da05f8d2e72997270d/fdroidserver-2.3a1.tar.gz
+[2024-05-13 10:48:32] INFO root fetch - processPackages [urnparse]: Remove: archive file [/home/abi/fetcher/tmp/urnparse-0.2.1.tar.gz]
+[2024-05-13 10:48:32] INFO root fetch - processPackages [urnparse]: Remove: archive file [/home/abi/fetcher/tmp/urnparse-0.2.2.tar.gz]
+[2024-05-13 10:48:32] INFO root fetch - main [MainThread]: End processing [urnparse]: success
+[2024-05-13 10:48:32] INFO root fetch - processPackages [ec_slp_lib]: Remove: archive file [/home/abi/fetcher/tmp/ec_slp_lib-1.0.5.tar.gz]
+[2024-05-13 10:48:32] INFO root fetch - processPackages [ec_slp_lib]: Remove: archive file [/home/abi/fetcher/tmp/ec_slp_lib-1.1.0.tar.gz]
+[2024-05-13 10:48:32] INFO root fetch - main [MainThread]: End processing [ec_slp_lib]: success
+[2024-05-13 10:48:32] INFO root fetch - processPackages [mysmallutils]: Remove: archive file [/home/abi/fetcher/tmp/mysmallutils-2.0.8.tar.gz]
+[2024-05-13 10:48:32] INFO root fetch - processPackages [mysmallutils]: Remove: archive file [/home/abi/fetcher/tmp/mysmallutils-2.0.9.tar.gz]
+[2024-05-13 10:48:32] INFO root fetch - main [MainThread]: End processing [mysmallutils]: success
+[2024-05-13 10:48:32] INFO root fetch - processPackages [fdroidserver]: executing diffoscope
+[2024-05-13 10:48:32] INFO root fetch - processPackages [fdroidserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdroidserver-2.3a0.tar.gz tmp/fdroidserver-2.3a1.tar.gz --markdown 20240513/f/fdroidserver/2.3a0-2.3a1/README.md --exclude *.pyd
+[2024-05-13 10:48:39] INFO root fetch - processPackages [fdroidserver]: Remove: archive file [/home/abi/fetcher/tmp/fdroidserver-2.3a0.tar.gz]
+[2024-05-13 10:48:39] INFO root fetch - processPackages [fdroidserver]: Remove: archive file [/home/abi/fetcher/tmp/fdroidserver-2.3a1.tar.gz]
+[2024-05-13 10:48:39] INFO root fetch - main [MainThread]: End processing [fdroidserver]: success
+[2024-05-13 10:49:24] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.2.0rc0.tar.gz]
+[2024-05-13 10:49:24] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.2.0rc1.tar.gz]
+[2024-05-13 10:49:24] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2024-05-13 10:49:24] INFO root fetch - main [MainThread]: Store serial: [23180299]
