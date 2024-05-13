@@ -21038,3 +21038,165 @@ EOFError: EOF read where object expected
 [2024-05-13 15:38:13] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev35.tar.gz]
 [2024-05-13 15:38:13] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
 [2024-05-13 15:38:13] INFO root fetch - main [MainThread]: Store serial: [23183867]
+[2024-05-13 15:40:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183867]
+[2024-05-13 15:40:22] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midas-mosaik
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LinkMLFormbuilder
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgegap-scheduling
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythia-client
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: holobench
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edgegap-logging
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-dataset
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-models
+[2024-05-13 15:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [edgegap-scheduling]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [holobench]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [pythia-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [LinkMLFormbuilder]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [edgegap-logging]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [midas-mosaik]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/de/6a/1ea9627d35d9f5c0cca67592ecc65e5c241d5e241371649d574554cecf86/nucliadb_protos-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d3/cd/686785042bf8e025c28545d273953aa24efd01d4796f73d58f78b8bc600d/nucliadb_dataset-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3c/78/3dccc7477454e54f0e627565b8ebcef7fd4d61f33eb3915856b7a3116c4d/nucliadb_models-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/44/a3/dbab20688a552de24718bf2d2a5f3005d8da5c8381a1ef6fcf8b549e2326/nucliadb-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:22] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/62/c0/2975948bb8b1c809a023db3bd1c8de949c9d56bf34dd96f5015259b9e77b/holobench-1.8.0.tar.gz
+[2024-05-13 15:40:22] INFO root fetch - processPackages [LinkMLFormbuilder]: Downloading https://files.pythonhosted.org/packages/ac/0a/ca2a741672f4434a388e5890c41a516729a4f14633333de9cf770467b18a/linkmlformbuilder-0.1.9.tar.gz
+[2024-05-13 15:40:22] INFO root fetch - processPackages [edgegap-scheduling]: Downloading https://files.pythonhosted.org/packages/f7/e7/7dd2586a47332b4351d4b1f3783e7c4eaf3718c7c621041064006de87909/edgegap_scheduling-1.8.1.tar.gz
+[2024-05-13 15:40:22] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/fd/ed/7be9117d5f346cf7fdf41f7006c267885bf06ef27ec629820b98edba2e16/pythia_client-0.1.8.tar.gz
+[2024-05-13 15:40:22] INFO root fetch - processPackages [midas-mosaik]: Downloading https://files.pythonhosted.org/packages/8c/c9/46ee2f06d3a3f19e55352369a1d1191075d64344e83d55c07efde6566bcd/midas-mosaik-1.2.1.tar.gz
+[2024-05-13 15:40:22] INFO root fetch - processPackages [edgegap-logging]: Downloading https://files.pythonhosted.org/packages/65/7b/49e237eacc23b974e0207a157c896669616341db6e03b05fb3b72bb6e1e4/edgegap_logging-1.8.1.tar.gz
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/98/4c/416e9d3726ccc2138807f092f1de8d8d0f1831c530a6701aa23d0536afe0/nucliadb_protos-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d5/f7/4129be460bae9bfae993d915f61250c38e766997f6e19c0892fb60a965a8/nucliadb_dataset-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/99/ca/0191f64712f0752aab157ef4a15c50c51ba10475e48210d44912e572d4e6/nucliadb_models-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:23] INFO root fetch - processPackages [LinkMLFormbuilder]: Downloading https://files.pythonhosted.org/packages/b2/9d/a5c747fe5ebf323f10c3c687b4b4f8b71ff2ad5568cd7c82a513f2a0f83c/linkmlformbuilder-1.0.0.tar.gz
+[2024-05-13 15:40:23] INFO root fetch - processPackages [edgegap-scheduling]: Downloading https://files.pythonhosted.org/packages/08/64/67ac0e88fdad3fe4100e835564b2401aabb97d5bf9884b9fbf7467f5c51d/edgegap_scheduling-1.9.0.tar.gz
+[2024-05-13 15:40:23] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/93/4f/5ab3d9f60dc2580f0c2f054540ed82c34393cc7b4e115f96d3a5b81e1b16/holobench-1.9.0.tar.gz
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/c7/0f/8deb1770ea2ccf53bf4239d63a394e1e11654a0bcbfac4fb3dd3c294c178/pythia_client-0.1.9.tar.gz
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-protos/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b6/b8/03c2ab552ff4d3c78ee1028be77f8dd9940c5db97d43f8ad44cbf6ea3896/nucliadb-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-dataset/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [edgegap-logging]: Downloading https://files.pythonhosted.org/packages/0d/d4/56b0f2223413a08b60d900c533e5146069f89bfc57ab6d4a195e3dad3753/edgegap_logging-1.9.0.tar.gz
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-models/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-1.8.0.tar.gz tmp/holobench-1.9.0.tar.gz --markdown 20240513/h/holobench/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [edgegap-logging]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [edgegap-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_logging-1.8.1.tar.gz tmp/edgegap_logging-1.9.0.tar.gz --markdown 20240513/e/edgegap-logging/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [pythia-client]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [pythia-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythia_client-0.1.8.tar.gz tmp/pythia_client-0.1.9.tar.gz --markdown 20240513/p/pythia-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [LinkMLFormbuilder]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [LinkMLFormbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkmlformbuilder-0.1.9.tar.gz tmp/linkmlformbuilder-1.0.0.tar.gz --markdown 20240513/L/LinkMLFormbuilder/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [edgegap-scheduling]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [edgegap-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_scheduling-1.8.1.tar.gz tmp/edgegap_scheduling-1.9.0.tar.gz --markdown 20240513/e/edgegap-scheduling/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-13 15:40:23] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:24] INFO root fetch - processPackages [midas-mosaik]: Downloading https://files.pythonhosted.org/packages/03/d0/67d5e073b992eda03dd4f60454f71abf59f74136f57086684a916fd46774/midas-mosaik-1.2.2.tar.gz
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: pg-sync-roles
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-13 15:40:24] INFO root fetch - processPackages [midas-mosaik]: executing diffoscope
+[2024-05-13 15:40:24] INFO root fetch - processPackages [midas-mosaik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-mosaik-1.2.1.tar.gz tmp/midas-mosaik-1.2.2.tar.gz --markdown 20240513/m/midas-mosaik/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-13 15:40:24] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-protos]: Start processing: nucliadb-sdk
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-models]: Start processing: wordmongeringz
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-13 15:40:24] INFO root fetch - processPackages [edgegap-logging]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_logging-1.8.1.tar.gz]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [edgegap-logging]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_logging-1.9.0.tar.gz]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [edgegap-logging]: Start processing: nucliadb-telemetry
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [edgegap-logging]: success
+[2024-05-13 15:40:24] INFO root fetch - processPackages [edgegap-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_scheduling-1.8.1.tar.gz]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.8.tar.gz]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [edgegap-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_scheduling-1.9.0.tar.gz]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.9.tar.gz]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [edgegap-scheduling]: Start processing: nucliadb-utils
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [edgegap-scheduling]: success
+[2024-05-13 15:40:24] INFO root fetch - processPackages [pythia-client]: Start processing: odoo-addon-event-mail
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [pythia-client]: success
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f6/b3/bfa48762966eba0d8af87b1ec519802d6f52cfc9bb7118d7a4f7cac46861/nucliadb_sdk-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-13 15:40:24] WARNING root fetch - processPackages [wordmongeringz]: Skipping, unable to determine old version
+[2024-05-13 15:40:24] INFO root fetch - processPackages [wordmongeringz]: Start processing: zjbbintest
+[2024-05-13 15:40:24] INFO root fetch - main [MainThread]: End processing [wordmongeringz] error
+[2024-05-13 15:40:24] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post495] Old Version: [3.1.0.post494]
+[2024-05-13 15:40:24] INFO root fetch - processPackages [LinkMLFormbuilder]: Remove: archive file [/home/abi/fetcher/tmp/linkmlformbuilder-0.1.9.tar.gz]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [LinkMLFormbuilder]: Remove: archive file [/home/abi/fetcher/tmp/linkmlformbuilder-1.0.0.tar.gz]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [LinkMLFormbuilder]: Start processing: IvmInstruments
+[2024-05-13 15:40:25] INFO root fetch - main [MainThread]: End processing [LinkMLFormbuilder]: success
+[2024-05-13 15:40:25] INFO root fetch - processPackages [odoo-addon-event-mail]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.8]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.8.0.tar.gz]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.9.0.tar.gz]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [holobench]: Start processing: tomtag-test-package
+[2024-05-13 15:40:25] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2024-05-13 15:40:25] INFO root fetch - processPackages [IvmInstruments]: New version: [0.1.5] Old Version: [0.0.2]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [zjbbintest]: New version: [2.5] Old Version: [2.4]
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/2c/ed/4b2f8b5f405a464a107e0250998d1d200f728075ad87cdb55fd64be85d91/nucliadb_telemetry-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d9/29/65373b8ad9564ee581898942ffe3d3706e840de75a85ce3eca0f7e8bae51/nucliadb_utils-3.1.0.post494-py3-none-any.whl
+[2024-05-13 15:40:25] ERROR root fetch - processPackages [tomtag-test-package]: Unable to get metadata: No such project 'tomtag-test-package'
+[2024-05-13 15:40:25] INFO root fetch - main [MainThread]: End processing [tomtag-test-package] error
+[2024-05-13 15:40:25] INFO root fetch - processPackages [odoo-addon-event-mail]: Downloading https://files.pythonhosted.org/packages/1f/df/aa7d354e646dace13e04fbe80e33c80364f2b8266ae58235ce9e72b85225/odoo_addon_event_mail-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-13 15:40:25] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/36/34/c8e469f5b55881fa3a68b1e681891dccb24adb2ed7e612f2936a1c33ce2d/zjbbintest-2.4.tar.gz
+[2024-05-13 15:40:25] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/0b/83/6f24a1becc151f9c2cc4f5814639ca1f92670deb40a185fd910be65dbaca/IvmInstruments-0.0.2.tar.gz
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/f2/65/fe31547ad83d569690d526578e7d866a5f9e1c62133e290a247f267d2d33/nucliadb_sdk-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:25] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-sdk/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/a8/d0/dc6d18a55c4aa6ce6014f8ec30db1dd4fef6dffa6e1b55d3c183f0aae136/nucliadb_telemetry-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:25] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-13 15:40:25] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240513/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/f2/3f/94f2eccd699ff40332d2d8c3f2221662c0fd208bf3b6c83496041fd9863f/nucliadb_utils-3.1.0.post495-py3-none-any.whl
+[2024-05-13 15:40:25] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/ca/f5/7643ebf1ec495ede13ce530d27c7d39f715050b40489f1c98671833cadf0/zjbbintest-2.5.tar.gz
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-telemetry/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:25] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/8f/22/d47ee3acd3ea6d2157eb49de6a737852bc715f2b5779713bc582afa0a18b/IvmInstruments-0.1.5.tar.gz
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-13 15:40:25] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post494-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post495-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-utils/3.1.0.post494-3.1.0.post495/README.md --exclude *.pyd
+[2024-05-13 15:40:25] INFO root fetch - processPackages [odoo-addon-event-mail]: Downloading https://files.pythonhosted.org/packages/c2/4f/642c2f19ab0867530b30bf9cc27f581a14f930967841ed00c63080950124/odoo_addon_event_mail-16.0.1.1.0-py3-none-any.whl
+[2024-05-13 15:40:25] INFO root fetch - processPackages [zjbbintest]: executing diffoscope
+[2024-05-13 15:40:25] INFO root fetch - processPackages [zjbbintest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zjbbintest-2.4.tar.gz tmp/zjbbintest-2.5.tar.gz --markdown 20240513/z/zjbbintest/2.4-2.5/README.md --exclude *.pyd
+[2024-05-13 15:40:25] INFO root fetch - processPackages [IvmInstruments]: executing diffoscope
+[2024-05-13 15:40:25] INFO root fetch - processPackages [IvmInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IvmInstruments-0.0.2.tar.gz tmp/IvmInstruments-0.1.5.tar.gz --markdown 20240513/I/IvmInstruments/0.0.2-0.1.5/README.md --exclude *.pyd
+[2024-05-13 15:40:26] INFO root fetch - processPackages [odoo-addon-event-mail]: executing diffoscope
+[2024-05-13 15:40:26] INFO root fetch - processPackages [odoo-addon-event-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_mail-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_event_mail-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-event-mail/16.0.1.0.0.8-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-13 15:40:26] INFO root fetch - processPackages [midas-mosaik]: Remove: archive file [/home/abi/fetcher/tmp/midas-mosaik-1.2.1.tar.gz]
+[2024-05-13 15:40:26] INFO root fetch - processPackages [midas-mosaik]: Remove: archive file [/home/abi/fetcher/tmp/midas-mosaik-1.2.2.tar.gz]
+[2024-05-13 15:40:26] INFO root fetch - main [MainThread]: End processing [midas-mosaik]: success
+[2024-05-13 15:40:26] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-13 15:40:26] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-13 15:40:26] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-13 15:40:26] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:26] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:26] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-13 15:40:27] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.4.tar.gz]
+[2024-05-13 15:40:27] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.5.tar.gz]
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [zjbbintest]: success
+[2024-05-13 15:40:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-13 15:40:27] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/IvmInstruments-0.0.2.tar.gz]
+[2024-05-13 15:40:27] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/IvmInstruments-0.1.5.tar.gz]
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [IvmInstruments]: success
+[2024-05-13 15:40:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-13 15:40:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-13 15:40:27] INFO root fetch - processPackages [odoo-addon-event-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_mail-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - processPackages [odoo-addon-event-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_mail-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-mail]: success
+[2024-05-13 15:40:27] INFO root fetch - main [MainThread]: Store serial: [23183927]
