@@ -2033,3 +2033,15 @@
 [2024-05-13 02:49:35] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.5.tar.gz]
 [2024-05-13 02:49:35] INFO root fetch - main [MainThread]: End processing [webflask]: success
 [2024-05-13 02:49:35] INFO root fetch - main [MainThread]: Store serial: [23175324]
+[2024-05-13 02:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175324]
+[2024-05-13 02:51:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 02:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-version-URLPhishing
+[2024-05-13 02:51:43] INFO root fetch - processPackages [lib-version-URLPhishing]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 02:51:43] INFO root fetch - processPackages [lib-version-URLPhishing]: Downloading https://files.pythonhosted.org/packages/39/84/7388e74c5b363360c645517947eff267232cd4f841386f7fe1bc23ff5ddc/lib_version_urlphishing-1.0.0.tar.gz
+[2024-05-13 02:51:43] INFO root fetch - processPackages [lib-version-URLPhishing]: Downloading https://files.pythonhosted.org/packages/ba/54/2ab67ef6c0c51c1b7e8a1584202b11b2462a263ce4e9f54b7e0324efbf59/lib_version_urlphishing-1.0.1.tar.gz
+[2024-05-13 02:51:43] INFO root fetch - processPackages [lib-version-URLPhishing]: executing diffoscope
+[2024-05-13 02:51:43] INFO root fetch - processPackages [lib-version-URLPhishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-1.0.0.tar.gz tmp/lib_version_urlphishing-1.0.1.tar.gz --markdown 20240513/l/lib-version-URLPhishing/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 02:51:44] INFO root fetch - processPackages [lib-version-URLPhishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-1.0.0.tar.gz]
+[2024-05-13 02:51:44] INFO root fetch - processPackages [lib-version-URLPhishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-1.0.1.tar.gz]
+[2024-05-13 02:51:44] INFO root fetch - main [MainThread]: End processing [lib-version-URLPhishing]: success
+[2024-05-13 02:51:44] INFO root fetch - main [MainThread]: Store serial: [23175327]
