@@ -8167,3 +8167,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:30:17] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-13 07:30:17] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-13 07:30:17] INFO root fetch - main [MainThread]: Store serial: [23178026]
+[2024-05-13 07:32:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178026]
+[2024-05-13 07:32:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 07:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuneapi
+[2024-05-13 07:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsp-cvxpy
+[2024-05-13 07:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyStratum-Backend
+[2024-05-13 07:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2024-05-13 07:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-project-milestone
+[2024-05-13 07:32:26] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-13 07:32:26] INFO root fetch - processPackages [PyStratum-Backend]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-13 07:32:26] INFO root fetch - processPackages [tuneapi]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-13 07:32:26] INFO root fetch - processPackages [odoo12-addon-project-milestone]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev5]
+[2024-05-13 07:32:26] INFO root fetch - processPackages [dsp-cvxpy]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-13 07:32:26] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-13 07:32:26] INFO root fetch - processPackages [dsp-cvxpy]: Downloading https://files.pythonhosted.org/packages/f3/0b/ebff43d1064c8803c5fc6285b4e2feb73b8ccf07d255680af6ca911e317f/dsp_cvxpy-0.1.1.tar.gz
+[2024-05-13 07:32:26] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/11/55/db9df99067b1c302ea56cb5eb6c2e12e6d177e0874b28ea2a6e3ecb02b32/PyStratum-Backend-1.0.2.tar.gz
+[2024-05-13 07:32:26] INFO root fetch - processPackages [odoo12-addon-project-milestone]: Downloading https://files.pythonhosted.org/packages/42/78/127eea894560fec7a20a7e00b1e1d98da2d3ad2efaa1ff80382feea6f31c/odoo12_addon_project_milestone-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2024-05-13 07:32:26] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/22/2a/851169c0bcce277bb7d1e03960b472fdb19d21abdfd9f219cb12b685d8d1/tuneapi-0.3.3.tar.gz
+[2024-05-13 07:32:26] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-13 07:32:27] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-13 07:32:27] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240513/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-13 07:32:27] INFO root fetch - processPackages [PyStratum-Backend]: Downloading https://files.pythonhosted.org/packages/13/ae/86fe825a5fbc52c56e8d81ee2ad25308be1d713cf5118559bffbc61b3bd3/pystratum_backend-2.0.0.tar.gz
+[2024-05-13 07:32:27] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/53/41/a4f3b433b58a808e8271f4a7895d7ced13a6abf9e8c81449d361880917f5/tuneapi-0.4.0.tar.gz
+[2024-05-13 07:32:27] INFO root fetch - processPackages [dsp-cvxpy]: Downloading https://files.pythonhosted.org/packages/3c/e9/8428e4b94b3f0d00e21567e8a1358629c3408bc816e8b6c01d77848ca00c/dsp-cvxpy-0.2.0.tar.gz
+[2024-05-13 07:32:27] INFO root fetch - processPackages [odoo12-addon-project-milestone]: Downloading https://files.pythonhosted.org/packages/1c/c9/14aea3b8dcbcf0ab950602487699d327fc8e1b178d6c1eaba11d07783aa2/odoo12_addon_project_milestone-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2024-05-13 07:32:27] INFO root fetch - processPackages [PyStratum-Backend]: executing diffoscope
+[2024-05-13 07:32:27] INFO root fetch - processPackages [PyStratum-Backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Backend-1.0.2.tar.gz tmp/pystratum_backend-2.0.0.tar.gz --markdown 20240513/P/PyStratum-Backend/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-13 07:32:27] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-05-13 07:32:27] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.3.3.tar.gz tmp/tuneapi-0.4.0.tar.gz --markdown 20240513/t/tuneapi/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-13 07:32:27] INFO root fetch - processPackages [dsp-cvxpy]: executing diffoscope
+[2024-05-13 07:32:27] INFO root fetch - processPackages [dsp-cvxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_cvxpy-0.1.1.tar.gz tmp/dsp-cvxpy-0.2.0.tar.gz --markdown 20240513/d/dsp-cvxpy/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 07:32:27] INFO root fetch - processPackages [odoo12-addon-project-milestone]: executing diffoscope
+[2024-05-13 07:32:27] INFO root fetch - processPackages [odoo12-addon-project-milestone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_project_milestone-12.0.1.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_project_milestone-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20240513/o/odoo12-addon-project-milestone/12.0.1.0.0.99.dev5-12.0.1.0.0.99.dev7/README.md --exclude *.pyd
+[2024-05-13 07:32:27] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-13 07:32:27] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-13 07:32:27] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-13 07:32:28] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Backend-1.0.2.tar.gz]
+[2024-05-13 07:32:28] INFO root fetch - processPackages [PyStratum-Backend]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_backend-2.0.0.tar.gz]
+[2024-05-13 07:32:28] INFO root fetch - main [MainThread]: End processing [PyStratum-Backend]: success
+[2024-05-13 07:32:28] INFO root fetch - processPackages [dsp-cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/dsp_cvxpy-0.1.1.tar.gz]
+[2024-05-13 07:32:28] INFO root fetch - processPackages [dsp-cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/dsp-cvxpy-0.2.0.tar.gz]
+[2024-05-13 07:32:28] INFO root fetch - main [MainThread]: End processing [dsp-cvxpy]: success
+[2024-05-13 07:32:28] INFO root fetch - processPackages [odoo12-addon-project-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_milestone-12.0.1.0.0.99.dev5-py3-none-any.whl.zip]
+[2024-05-13 07:32:28] INFO root fetch - processPackages [odoo12-addon-project-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_milestone-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2024-05-13 07:32:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-project-milestone]: success
+[2024-05-13 07:32:28] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.3.tar.gz]
+[2024-05-13 07:32:28] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.4.0.tar.gz]
+[2024-05-13 07:32:28] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-05-13 07:32:28] INFO root fetch - main [MainThread]: Store serial: [23178045]
