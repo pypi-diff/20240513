@@ -4302,3 +4302,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:16:42] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-13 05:16:42] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-13 05:16:42] INFO root fetch - main [MainThread]: Store serial: [23176318]
+[2024-05-13 05:18:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176318]
+[2024-05-13 05:18:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 05:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualysetl
+[2024-05-13 05:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vesselasid
+[2024-05-13 05:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-auto
+[2024-05-13 05:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cameo-geo-query
+[2024-05-13 05:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdbt
+[2024-05-13 05:18:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: InternEvo
+[2024-05-13 05:18:50] INFO root fetch - processPackages [cdbt]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-13 05:18:50] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/1c/b3/545326197ac816a03059d5e4851517c7e9dea01a0ca5b577399c59b21f8f/cdbt-0.1.5.tar.gz
+[2024-05-13 05:18:50] INFO root fetch - processPackages [pih-auto]: New version: [0.21] Old Version: [0.20]
+[2024-05-13 05:18:50] INFO root fetch - processPackages [cameo-geo-query]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 05:18:50] INFO root fetch - processPackages [qualysetl]: New version: [0.8.95] Old Version: [0.8.91]
+[2024-05-13 05:18:50] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 05:18:50] INFO root fetch - processPackages [InternEvo]: New version: [0.5.1] Old Version: [0.5.0.dev20240510]
+[2024-05-13 05:18:51] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/10/02/aa7a1978a828a9cbf22fd3fbb5859fc70e2d00f0ad6d4b598a9b0c8d03ab/pih-auto-0.20.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/77/87/5899bc584955458fd1ec54d6a29a164ff1551e41947359d622a5289c7b02/cameo_geo_query-1.0.7.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/5c/15/750b90095c4613c84263b036dd56fafad3b97b0e03d5e8af40e493e213a2/InternEvo-0.5.0.dev20240510.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [qualysetl]: Downloading https://files.pythonhosted.org/packages/7c/b7/beba6ec1aa93715893126c38a738f08a4ea325429341c7d0a520373a0b52/qualysetl-0.8.91.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cdbt]: Downloading https://files.pythonhosted.org/packages/cf/0c/889c84bfab9b842adfa4a0224a9ef18e60f16d588e78450f786ef202cafe/cdbt-0.1.6.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cdbt]: executing diffoscope
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cdbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdbt-0.1.5.tar.gz tmp/cdbt-0.1.6.tar.gz --markdown 20240513/c/cdbt/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-13 05:18:51] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/96/37/7e17f3be4ecbc07801086a4ea859a072aff4c80566c1c95b19823a3acf41/pih-auto-0.21.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/d5/14/f7609a338ea449405fcd0710c82d085a70e36cb0922491a9586ec4c52388/InternEvo-0.5.1.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/c0/97/58868a2cf5de3a0ed6c033a295ad565a7a767580d6bcf83031afa1f6b2ec/cameo_geo_query-1.0.8.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [pih-auto]: executing diffoscope
+[2024-05-13 05:18:51] INFO root fetch - processPackages [pih-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-auto-0.20.tar.gz tmp/pih-auto-0.21.tar.gz --markdown 20240513/p/pih-auto/0.20-0.21/README.md --exclude *.pyd
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cameo-geo-query]: executing diffoscope
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cameo-geo-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameo_geo_query-1.0.7.tar.gz tmp/cameo_geo_query-1.0.8.tar.gz --markdown 20240513/c/cameo-geo-query/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 05:18:51] INFO root fetch - processPackages [qualysetl]: Downloading https://files.pythonhosted.org/packages/3f/fd/011d8e40d7eeee41c7c54fa2021b46ed3ff53d9accf8198ddfc774758257/qualysetl-0.8.95.tar.gz
+[2024-05-13 05:18:51] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-13 05:18:51] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.5.0.dev20240510.tar.gz tmp/InternEvo-0.5.1.tar.gz --markdown 20240513/I/InternEvo/0.5.0.dev20240510-0.5.1/README.md --exclude *.pyd
+[2024-05-13 05:18:51] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-05-13 05:18:51] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240513/v/vesselasid/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.1.5.tar.gz]
+[2024-05-13 05:18:51] INFO root fetch - processPackages [cdbt]: Remove: archive file [/home/abi/fetcher/tmp/cdbt-0.1.6.tar.gz]
+[2024-05-13 05:18:51] INFO root fetch - main [MainThread]: End processing [cdbt]: success
+[2024-05-13 05:18:51] INFO root fetch - processPackages [qualysetl]: executing diffoscope
+[2024-05-13 05:18:51] INFO root fetch - processPackages [qualysetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualysetl-0.8.91.tar.gz tmp/qualysetl-0.8.95.tar.gz --markdown 20240513/q/qualysetl/0.8.91-0.8.95/README.md --exclude *.pyd
+[2024-05-13 05:18:52] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.7.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.8.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - main [MainThread]: End processing [cameo-geo-query]: success
+[2024-05-13 05:18:52] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.20.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.21.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - main [MainThread]: End processing [pih-auto]: success
+[2024-05-13 05:18:52] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-05-13 05:18:52] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.5.0.dev20240510.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.5.1.tar.gz]
+[2024-05-13 05:18:52] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-13 05:18:53] INFO root fetch - processPackages [qualysetl]: Remove: archive file [/home/abi/fetcher/tmp/qualysetl-0.8.91.tar.gz]
+[2024-05-13 05:18:53] INFO root fetch - processPackages [qualysetl]: Remove: archive file [/home/abi/fetcher/tmp/qualysetl-0.8.95.tar.gz]
+[2024-05-13 05:18:53] INFO root fetch - main [MainThread]: End processing [qualysetl]: success
+[2024-05-13 05:18:53] INFO root fetch - main [MainThread]: Store serial: [23176334]
