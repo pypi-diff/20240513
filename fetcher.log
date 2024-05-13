@@ -21615,3 +21615,84 @@ EOFError: EOF read where object expected
 [2024-05-13 15:53:55] INFO root fetch - processPackages [dara-core]: Remove: archive file [/home/abi/fetcher/tmp/dara_core-1.9.1-py3-none-any.whl.zip]
 [2024-05-13 15:53:55] INFO root fetch - main [MainThread]: End processing [dara-core]: success
 [2024-05-13 15:53:55] INFO root fetch - main [MainThread]: Store serial: [23184097]
+[2024-05-13 15:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184097]
+[2024-05-13 15:56:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nchuchain
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: craynn
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-ws-libp2p-proxy
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seposez
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyxll
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cminpack-numba
+[2024-05-13 15:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2024-05-13 15:56:04] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-13 15:56:04] WARNING root fetch - processPackages [cminpack-numba]: Skipping, unable to determine old version
+[2024-05-13 15:56:04] INFO root fetch - main [MainThread]: End processing [cminpack-numba] error
+[2024-05-13 15:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 15:56:04] INFO root fetch - processPackages [py-ws-libp2p-proxy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-13 15:56:04] INFO root fetch - processPackages [nchuchain]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 15:56:04] WARNING root fetch - processPackages [seposez]: Skipping, unable to determine old version
+[2024-05-13 15:56:04] INFO root fetch - main [MainThread]: End processing [seposez] error
+[2024-05-13 15:56:04] INFO root fetch - processPackages [craynn]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-13 15:56:04] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-13 15:56:04] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-13 15:56:04] INFO root fetch - processPackages [pyxll]: New version: [5.8.1] Old Version: [5.8.0]
+[2024-05-13 15:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/92/36/819c077c6f13e604fee257ce897f68e5860a53e54214b83dce4b4878dff6/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-13 15:56:04] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Downloading https://files.pythonhosted.org/packages/7c/ca/9fd9d2ea48320ab3e9dca7bc5b24e2312a8ed377f3da291aba1d5499ce0f/py_ws_libp2p_proxy-0.1.3.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [craynn]: Downloading https://files.pythonhosted.org/packages/54/00/c93040a74bbdf8ff118bf78358dcf620d3a215e53fe49bb4cc627383f59f/craynn-0.3.2.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/7a/bb/3f31b0e193d7169628d0f50040a83454348ce504295187b68187cf60cbf1/nchuchain-1.0.6.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-13 15:56:04] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/8d/6a/4c270325fdcdee96394131ab858a3f17fcded7961bcf3d0ccc28bf3639aa/pyxll-5.8.0-cp39-none-any.whl
+[2024-05-13 15:56:04] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-13 15:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/b9/28/e296d4b168e87aedf19b6cf0d7e65b1474a3da33b8e5314b4a04050bda78/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-13 15:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-13 15:56:04] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 15:56:04] INFO root fetch - processPackages [craynn]: Downloading https://files.pythonhosted.org/packages/a1/cb/54495423e9653b46e3c9be384a114dc1f7f02360f4eddaca6aa1fb183065/craynn-0.4.0.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Downloading https://files.pythonhosted.org/packages/c4/65/dcbd24b237d7fb36ab7d960a0df59c405de53762337aee7c3f2129373ec9/py_ws_libp2p_proxy-0.1.4.tar.gz
+[2024-05-13 15:56:04] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/84/77/371113b1c4788071816a784c0ad48522e14a73690f5dbd7bc3cc4c445205/nchuchain-1.0.7.tar.gz
+[2024-05-13 15:56:05] INFO root fetch - processPackages [pyxll]: Downloading https://files.pythonhosted.org/packages/59/74/db659437d9e5d9881d49fe705e33f8c7c7b257570b45eae7d2683edd7553/pyxll-5.8.1-cp39-none-any.whl
+[2024-05-13 15:56:05] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240513/t/tensordict-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-13 15:56:05] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-13 15:56:05] INFO root fetch - processPackages [py-ws-libp2p-proxy]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [py-ws-libp2p-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ws_libp2p_proxy-0.1.3.tar.gz tmp/py_ws_libp2p_proxy-0.1.4.tar.gz --markdown 20240513/p/py-ws-libp2p-proxy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-13 15:56:05] INFO root fetch - processPackages [craynn]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [craynn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craynn-0.3.2.tar.gz tmp/craynn-0.4.0.tar.gz --markdown 20240513/c/craynn/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-13 15:56:05] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.6.tar.gz tmp/nchuchain-1.0.7.tar.gz --markdown 20240513/n/nchuchain/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 15:56:05] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-13 15:56:05] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240513/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-13 15:56:05] INFO root fetch - processPackages [pyxll]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [pyxll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxll-5.8.0-cp39-none-any.whl.zip tmp/pyxll-5.8.1-cp39-none-any.whl.zip --markdown 20240513/p/pyxll/5.8.0-5.8.1/README.md --exclude *.pyd
+[2024-05-13 15:56:05] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-13 15:56:05] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240513/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-13 15:56:06] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_ws_libp2p_proxy-0.1.3.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_ws_libp2p_proxy-0.1.4.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [py-ws-libp2p-proxy]: success
+[2024-05-13 15:56:06] INFO root fetch - processPackages [craynn]: Remove: archive file [/home/abi/fetcher/tmp/craynn-0.3.2.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [craynn]: Remove: archive file [/home/abi/fetcher/tmp/craynn-0.4.0.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [craynn]: success
+[2024-05-13 15:56:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-13 15:56:06] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.6.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.7.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 15:56:06] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-13 15:56:06] INFO root fetch - processPackages [pyxll]: Remove: archive file [/home/abi/fetcher/tmp/pyxll-5.8.0-cp39-none-any.whl.zip]
+[2024-05-13 15:56:06] INFO root fetch - processPackages [pyxll]: Remove: archive file [/home/abi/fetcher/tmp/pyxll-5.8.1-cp39-none-any.whl.zip]
+[2024-05-13 15:56:06] INFO root fetch - main [MainThread]: End processing [pyxll]: success
+[2024-05-13 15:56:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-13 15:56:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-13 15:56:07] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-13 15:56:07] INFO root fetch - main [MainThread]: Store serial: [23184143]
