@@ -3598,3 +3598,23 @@
 [2024-05-13 04:44:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
 [2024-05-13 04:44:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-05-13 04:44:02] INFO root fetch - main [MainThread]: Store serial: [23176040]
+[2024-05-13 04:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176040]
+[2024-05-13 04:46:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beanbagsz
+[2024-05-13 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grooveshop-django-api
+[2024-05-13 04:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-core
+[2024-05-13 04:46:11] INFO root fetch - processPackages [pypomes-core]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 04:46:11] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/fe/6c/1268a26d89611327ef5b5cc7c633f862216aac075e6c178351f790d03f8d/pypomes_core-1.0.1.tar.gz
+[2024-05-13 04:46:11] WARNING root fetch - processPackages [beanbagsz]: Skipping, unable to determine old version
+[2024-05-13 04:46:11] INFO root fetch - main [MainThread]: End processing [beanbagsz] error
+[2024-05-13 04:46:11] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-05-13 04:46:11] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-05-13 04:46:11] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/17/40/feb6bcd2e2e31e2c297d52f942441217a1c0d7418d858cca077ad105ec89/pypomes_core-1.0.2.tar.gz
+[2024-05-13 04:46:11] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-05-13 04:46:11] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-05-13 04:46:12] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-13 04:46:12] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.0.1.tar.gz tmp/pypomes_core-1.0.2.tar.gz --markdown 20240513/p/pypomes-core/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 04:46:12] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.1.tar.gz]
+[2024-05-13 04:46:12] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.2.tar.gz]
+[2024-05-13 04:46:12] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-13 04:46:12] INFO root fetch - main [MainThread]: Store serial: [23176050]
