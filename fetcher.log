@@ -11310,3 +11310,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:57:42] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-5.0.0.tar.gz]
 [2024-05-13 09:57:42] INFO root fetch - main [MainThread]: End processing [projectal]: success
 [2024-05-13 09:57:42] INFO root fetch - main [MainThread]: Store serial: [23179626]
+[2024-05-13 09:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179626]
+[2024-05-13 09:59:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrippy-api
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lgjsfinance
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-gnn
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multi-interface-inversion
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: local-determinacy
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: misleep
+[2024-05-13 09:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rlsdk_python
+[2024-05-13 09:59:53] WARNING root fetch - processPackages [multi-interface-inversion]: Skipping, unable to determine old version
+[2024-05-13 09:59:53] INFO root fetch - main [MainThread]: End processing [multi-interface-inversion] error
+[2024-05-13 09:59:53] INFO root fetch - processPackages [lgjsfinance]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 09:59:53] WARNING root fetch - processPackages [local-determinacy]: Skipping, unable to determine old version
+[2024-05-13 09:59:53] INFO root fetch - main [MainThread]: End processing [local-determinacy] error
+[2024-05-13 09:59:53] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/38/06/9b9aa83772490f062673c844a973bc82115ca0e4268f15cb91039d39dba3/lgjsfinance-0.0.2.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [rlsdk_python]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-13 09:59:53] INFO root fetch - processPackages [tensorflow-gnn]: New version: [1.0.3rc0] Old Version: [1.0.3]
+[2024-05-13 09:59:53] INFO root fetch - processPackages [scrippy-api]: New version: [1.1.85] Old Version: [1.1.84]
+[2024-05-13 09:59:53] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-13 09:59:53] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240513] Old Version: [2.17.0.dev20240512]
+[2024-05-13 09:59:53] INFO root fetch - processPackages [rlsdk_python]: Downloading https://files.pythonhosted.org/packages/ad/6f/76ebe579edc3355fb9c01d360666eb5dde1999956f46dd73643f07438a7c/rlsdk_python-0.4.2.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/12/0c/28df5029ba3315f1ff54f3c4023de349dc0d25e852ce11303d41515dddbd/tensorflow-gnn-1.0.3.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [scrippy-api]: Downloading https://files.pythonhosted.org/packages/ba/77/b5372be44fe4135353773af34dae809dd3a1bad017901f815d396679241b/scrippy-api-1.1.84.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/3b/e3/1cba93960e5f0acbab96f7b078b14acd73048202a436584db36a2031d329/tf_nightly-2.17.0.dev20240512-cp39-cp39-win_amd64.whl
+[2024-05-13 09:59:53] INFO root fetch - processPackages [lgjsfinance]: Downloading https://files.pythonhosted.org/packages/c8/d6/04cb4b96700062363d24be2a50f21377ca68860f83986b40092790767da7/lgjsfinance-0.0.3.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [lgjsfinance]: executing diffoscope
+[2024-05-13 09:59:53] INFO root fetch - processPackages [lgjsfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lgjsfinance-0.0.2.tar.gz tmp/lgjsfinance-0.0.3.tar.gz --markdown 20240513/l/lgjsfinance/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 09:59:53] INFO root fetch - processPackages [rlsdk_python]: Downloading https://files.pythonhosted.org/packages/e3/84/2e032fd5a98571fd4f66045056cdb5bdd20584e67fe54b0e5e0a208764bd/rlsdk_python-0.5.0.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [scrippy-api]: Downloading https://files.pythonhosted.org/packages/e8/2c/349997fc2e67722fbfcf0844ae15bb3aaf8dc9c4849674dc68fc37f278f0/scrippy_api-1.1.85.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/bd/5a/44c46a73b1840d886ba1fab70b9e62e0bb4a63dac4012b679e7e6a25eba8/tf_nightly-2.17.0.dev20240513-cp39-cp39-win_amd64.whl
+[2024-05-13 09:59:53] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-13 09:59:53] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/88/58/5f1f3e0dcf0a1f87af76856b262c0a6beeefd220ac24d5c26c0115112bde/tensorflow-gnn-1.0.3rc0.tar.gz
+[2024-05-13 09:59:54] INFO root fetch - processPackages [scrippy-api]: executing diffoscope
+[2024-05-13 09:59:54] INFO root fetch - processPackages [scrippy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrippy-api-1.1.84.tar.gz tmp/scrippy_api-1.1.85.tar.gz --markdown 20240513/s/scrippy-api/1.1.84-1.1.85/README.md --exclude *.pyd
+[2024-05-13 09:59:54] INFO root fetch - processPackages [rlsdk_python]: executing diffoscope
+[2024-05-13 09:59:54] INFO root fetch - processPackages [rlsdk_python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlsdk_python-0.4.2.tar.gz tmp/rlsdk_python-0.5.0.tar.gz --markdown 20240513/r/rlsdk_python/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-13 09:59:54] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-13 09:59:54] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240513/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-13 09:59:54] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-13 09:59:54] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240512-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip --markdown 20240513/t/tf-nightly/2.17.0.dev20240512-2.17.0.dev20240513/README.md --exclude *.pyd
+[2024-05-13 09:59:54] INFO root fetch - processPackages [tensorflow-gnn]: executing diffoscope
+[2024-05-13 09:59:54] INFO root fetch - processPackages [tensorflow-gnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-gnn-1.0.3.tar.gz tmp/tensorflow-gnn-1.0.3rc0.tar.gz --markdown 20240513/t/tensorflow-gnn/1.0.3-1.0.3rc0/README.md --exclude *.pyd
+[2024-05-13 09:59:54] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.2.tar.gz]
+[2024-05-13 09:59:54] INFO root fetch - processPackages [lgjsfinance]: Remove: archive file [/home/abi/fetcher/tmp/lgjsfinance-0.0.3.tar.gz]
+[2024-05-13 09:59:54] INFO root fetch - main [MainThread]: End processing [lgjsfinance]: success
+[2024-05-13 09:59:54] INFO root fetch - processPackages [scrippy-api]: Remove: archive file [/home/abi/fetcher/tmp/scrippy-api-1.1.84.tar.gz]
+[2024-05-13 09:59:54] INFO root fetch - processPackages [scrippy-api]: Remove: archive file [/home/abi/fetcher/tmp/scrippy_api-1.1.85.tar.gz]
+[2024-05-13 09:59:54] INFO root fetch - main [MainThread]: End processing [scrippy-api]: success
+[2024-05-13 09:59:55] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-13 09:59:55] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-13 09:59:55] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-13 09:59:55] INFO root fetch - processPackages [rlsdk_python]: Remove: archive file [/home/abi/fetcher/tmp/rlsdk_python-0.4.2.tar.gz]
+[2024-05-13 09:59:55] INFO root fetch - processPackages [rlsdk_python]: Remove: archive file [/home/abi/fetcher/tmp/rlsdk_python-0.5.0.tar.gz]
+[2024-05-13 09:59:55] INFO root fetch - main [MainThread]: End processing [rlsdk_python]: success
+[2024-05-13 09:59:55] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240512-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 09:59:55] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 09:59:55] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-13 09:59:55] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-1.0.3.tar.gz]
+[2024-05-13 09:59:55] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-1.0.3rc0.tar.gz]
+[2024-05-13 09:59:55] INFO root fetch - main [MainThread]: End processing [tensorflow-gnn]: success
+[2024-05-13 09:59:55] INFO root fetch - main [MainThread]: Store serial: [23179654]
