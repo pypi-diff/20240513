@@ -13719,3 +13719,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:31:38] INFO root fetch - processPackages [pycwr]: Remove: archive file [/home/abi/fetcher/tmp/pycwr-0.4.0.tar.gz]
 [2024-05-13 11:31:38] INFO root fetch - main [MainThread]: End processing [pycwr]: success
 [2024-05-13 11:31:38] INFO root fetch - main [MainThread]: Store serial: [23180900]
+[2024-05-13 11:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180900]
+[2024-05-13 11:33:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 11:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-access-sdk
+[2024-05-13 11:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-community
+[2024-05-13 11:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-signedUrl-uploader
+[2024-05-13 11:33:47] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.1] Old Version: [1.0]
+[2024-05-13 11:33:47] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/49/db/a4afb1d91d7b1759a0e8f892e5b18481cbdf804852a37f26273892c4060d/st_signedurl_uploader-1.0.tar.gz
+[2024-05-13 11:33:47] INFO root fetch - processPackages [djangoldp-community]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-13 11:33:47] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 11:33:47] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-13 11:33:47] INFO root fetch - processPackages [djangoldp-community]: Downloading https://files.pythonhosted.org/packages/7c/67/c21545be3f919758590b196ce4f1d7d893d29e7252f3bbd4c67d6c4e284c/djangoldp_community-3.1.8.tar.gz
+[2024-05-13 11:33:48] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/ee/c5/3de38654f63d529a8f766e2cd4cba802721b61c526f3284575e60f3c82c3/st_signedurl_uploader-1.1.tar.gz
+[2024-05-13 11:33:48] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-13 11:33:48] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-13 11:33:48] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.0.tar.gz tmp/st_signedurl_uploader-1.1.tar.gz --markdown 20240513/s/st-signedUrl-uploader/1.0-1.1/README.md --exclude *.pyd
+[2024-05-13 11:33:48] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-13 11:33:48] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 11:33:48] INFO root fetch - processPackages [djangoldp-community]: Downloading https://files.pythonhosted.org/packages/67/ce/a38d0175d1ade572370179259cb8c703244fe4a51cb22dc83fef2dc3cf1f/djangoldp_community-3.1.9.tar.gz
+[2024-05-13 11:33:48] INFO root fetch - processPackages [djangoldp-community]: executing diffoscope
+[2024-05-13 11:33:48] INFO root fetch - processPackages [djangoldp-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_community-3.1.8.tar.gz tmp/djangoldp_community-3.1.9.tar.gz --markdown 20240513/d/djangoldp-community/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-13 11:33:48] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.0.tar.gz]
+[2024-05-13 11:33:48] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.1.tar.gz]
+[2024-05-13 11:33:48] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-13 11:33:49] INFO root fetch - processPackages [djangoldp-community]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_community-3.1.8.tar.gz]
+[2024-05-13 11:33:49] INFO root fetch - processPackages [djangoldp-community]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_community-3.1.9.tar.gz]
+[2024-05-13 11:33:49] INFO root fetch - main [MainThread]: End processing [djangoldp-community]: success
+[2024-05-13 11:33:49] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-13 11:33:49] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-13 11:33:49] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-13 11:33:49] INFO root fetch - main [MainThread]: Store serial: [23180910]
