@@ -23497,3 +23497,151 @@ EOFError: EOF read where object expected
 [2024-05-13 16:53:56] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a4.tar.gz]
 [2024-05-13 16:53:56] INFO root fetch - main [MainThread]: End processing [fontc]: success
 [2024-05-13 16:53:56] INFO root fetch - main [MainThread]: Store serial: [23185261]
+[2024-05-13 16:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185261]
+[2024-05-13 16:56:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modular-sdk
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MaestroOps
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultralytics-rknn
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-pagerduty
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exponentation
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-audio
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bilby
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rtisdev
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dclex
+[2024-05-13 16:56:07] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.151] Old Version: [3.3.4]
+[2024-05-13 16:56:07] INFO root fetch - processPackages [exponentation]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 16:56:07] INFO root fetch - processPackages [MaestroOps]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [kcli]: New version: [99.0.202405130624] Old Version: [99.0.202405091641]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [bilby]: New version: [2.3.0rc0] Old Version: [2.2.3]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [MaestroOps]: Downloading https://files.pythonhosted.org/packages/90/19/0fb4c66ecf9d275208b76e9b78f40b5ac6ae9b7e689c5b56421af883b2c2/maestroops-0.9.0.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/1c/fe/8be350291a2828c5c41f2b24422fe43ba9f7b052a19927d9cc10f85f5400/ultralytics_rknn-3.3.4-py3-none-any.whl
+[2024-05-13 16:56:08] INFO root fetch - processPackages [dclex]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [rtisdev]: New version: [2.14.0] Old Version: [2.13.0]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [modular-sdk]: New version: [5.1.2] Old Version: [5.1.1]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ovos-audio]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [exponentation]: Downloading https://files.pythonhosted.org/packages/c4/4c/d28ede336e144e0b115770ddc79a1f13d92b75f5a65c08d236e812711bbf/exponentation-0.0.5.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3f/79/24409c79e663def50fa24c5354c1fe14c6cad510651762272c1db60fa8a3/kcli-99.0.202405091641.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [dclex]: Downloading https://files.pythonhosted.org/packages/92/7e/99dddab4d28c19e24eb1442b7536857ca8a83bb90b565c214ea2514d1b86/dclex-0.0.7.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [bilby]: Downloading https://files.pythonhosted.org/packages/d7/df/7c72adaa6679c86245ff2cfe262cfbb171ce5407e5aa75ef0f6b9c357a18/bilby-2.2.3.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [MaestroOps]: Downloading https://files.pythonhosted.org/packages/89/27/7b016a26cc9979b539c66a86594c8a44926d846de8716b77f99b7f470f6c/maestroops-0.9.1.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/d4/17/2d3fbb5841c27544510814bf6ec9bc14e395b73db018714288dfb969ac7a/ovos_audio-0.0.2a8-py3-none-any.whl
+[2024-05-13 16:56:08] WARNING root fetch - processPackages [bilby]: Skipping package: exceeds size limit 11478060>=10485760
+[2024-05-13 16:56:08] INFO root fetch - processPackages [bilby]: Start processing: nucliadb
+[2024-05-13 16:56:08] INFO root fetch - main [MainThread]: End processing [bilby] error
+[2024-05-13 16:56:08] INFO root fetch - processPackages [modular-sdk]: Downloading https://files.pythonhosted.org/packages/bb/e1/92111b745ee716bf36cab50cb4e976c9862167f80b24df55fad9ffee8dac/modular_sdk-5.1.1.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [rtisdev]: Downloading https://files.pythonhosted.org/packages/dc/f9/195147469488632b482ae934b8361f1829d191adca833058e5e9e26cdaf9/rtisdev-2.13.0.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-05-13 16:56:08] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:56:08] INFO root fetch - processPackages [MaestroOps]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [MaestroOps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestroops-0.9.0.tar.gz tmp/maestroops-0.9.1.tar.gz --markdown 20240513/M/MaestroOps/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 16:56:08] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/17/e3/4389424227d1bbd536afc0e0cc01e0ee67d123d1725ad799238b672852ab/kcli-99.0.202405130624.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b6/b8/03c2ab552ff4d3c78ee1028be77f8dd9940c5db97d43f8ad44cbf6ea3896/nucliadb-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:56:08] INFO root fetch - processPackages [exponentation]: Downloading https://files.pythonhosted.org/packages/7c/ec/b3c7125042a4e6b89a06b0f2773419718630bda9fea217c2921ce6916016/exponentation-0.0.6.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [dclex]: Downloading https://files.pythonhosted.org/packages/1c/11/746648cee732a51604ce450a206f162c32e054199e416bf443a07efbc4e0/dclex-0.0.8.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-3.3.4-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip --markdown 20240513/u/ultralytics-rknn/3.3.4-8.0.151/README.md --exclude *.pyd
+[2024-05-13 16:56:08] INFO root fetch - processPackages [exponentation]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [exponentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exponentation-0.0.5.tar.gz tmp/exponentation-0.0.6.tar.gz --markdown 20240513/e/exponentation/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 16:56:08] INFO root fetch - processPackages [modular-sdk]: Downloading https://files.pythonhosted.org/packages/de/e3/305c30522f526e706403e5b26de4c75aa81077481edbbf016b61e5f0d72a/modular_sdk-5.1.2.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/20/6f/67cf3b43303131b43946e6f35ff68018c8c9e3112db8aaf2d6dfc8545a60/ovos_audio-0.0.2a9-py3-none-any.whl
+[2024-05-13 16:56:08] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405091641.tar.gz tmp/kcli-99.0.202405130624.tar.gz --markdown 20240513/k/kcli/99.0.202405091641-99.0.202405130624/README.md --exclude *.pyd
+[2024-05-13 16:56:08] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-13 16:56:08] INFO root fetch - processPackages [dclex]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [dclex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclex-0.0.7.tar.gz tmp/dclex-0.0.8.tar.gz --markdown 20240513/d/dclex/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ovos-audio]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [ovos-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip --markdown 20240513/o/ovos-audio/0.0.2a8-0.0.2a9/README.md --exclude *.pyd
+[2024-05-13 16:56:08] INFO root fetch - processPackages [modular-sdk]: executing diffoscope
+[2024-05-13 16:56:08] INFO root fetch - processPackages [modular-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_sdk-5.1.1.tar.gz tmp/modular_sdk-5.1.2.tar.gz --markdown 20240513/m/modular-sdk/5.1.1-5.1.2/README.md --exclude *.pyd
+[2024-05-13 16:56:09] INFO root fetch - processPackages [rtisdev]: Downloading https://files.pythonhosted.org/packages/e6/8e/0e76455987e4139c097d8a99e8af4af277615cba400dfc25c105f568ff39/rtisdev-2.14.0.tar.gz
+[2024-05-13 16:56:09] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-13 16:56:09] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240513/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-13 16:56:09] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/3c/7d/aaa70c253b73186dcdf5fec469c6bb1b78951a78923fe853e4be1937af73/nucliadb-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:56:09] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-13 16:56:09] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:56:09] INFO root fetch - processPackages [rtisdev]: executing diffoscope
+[2024-05-13 16:56:09] INFO root fetch - processPackages [rtisdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtisdev-2.13.0.tar.gz tmp/rtisdev-2.14.0.tar.gz --markdown 20240513/r/rtisdev/2.13.0-2.14.0/README.md --exclude *.pyd
+[2024-05-13 16:56:09] INFO root fetch - processPackages [MaestroOps]: Remove: archive file [/home/abi/fetcher/tmp/maestroops-0.9.0.tar.gz]
+[2024-05-13 16:56:09] INFO root fetch - processPackages [MaestroOps]: Remove: archive file [/home/abi/fetcher/tmp/maestroops-0.9.1.tar.gz]
+[2024-05-13 16:56:09] INFO root fetch - processPackages [MaestroOps]: Start processing: tdw
+[2024-05-13 16:56:09] INFO root fetch - main [MainThread]: End processing [MaestroOps]: success
+[2024-05-13 16:56:09] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [ovos-audio]: Start processing: nucliadb-dataset
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [ovos-audio]: success
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [dclex]: Remove: archive file [/home/abi/fetcher/tmp/dclex-0.0.7.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [dclex]: Remove: archive file [/home/abi/fetcher/tmp/dclex-0.0.8.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [dclex]: Start processing: nucliadb-models
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [dclex]: success
+[2024-05-13 16:56:10] INFO root fetch - processPackages [exponentation]: Remove: archive file [/home/abi/fetcher/tmp/exponentation-0.0.5.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [exponentation]: Remove: archive file [/home/abi/fetcher/tmp/exponentation-0.0.6.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [exponentation]: Start processing: nucliadb-protos
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [exponentation]: success
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/d5/f7/4129be460bae9bfae993d915f61250c38e766997f6e19c0892fb60a965a8/nucliadb_dataset-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:56:10] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post496] Old Version: [3.1.0.post495]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [modular-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_sdk-5.1.1.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [modular-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modular_sdk-5.1.2.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [modular-sdk]: Start processing: OMTF
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [modular-sdk]: success
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/99/ca/0191f64712f0752aab157ef4a15c50c51ba10475e48210d44912e572d4e6/nucliadb_models-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:56:10] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2024-05-13 16:56:10] INFO root fetch - processPackages [tdw]: Start processing: selenium-utils-xmlangel
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/98/4c/416e9d3726ccc2138807f092f1de8d8d0f1831c530a6701aa23d0536afe0/nucliadb_protos-3.1.0.post495-py3-none-any.whl
+[2024-05-13 16:56:10] INFO root fetch - processPackages [OMTF]: New version: [1.0.2b0] Old Version: [1.0.2]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [selenium-utils-xmlangel]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-3.3.4-py3-none-any.whl.zip]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/3c/71/46cccec3794ede4ead529c1a6887dc280a8c71d4cbaf3d9852ce65944a78/omtf-1.0.2.tar.gz
+[2024-05-13 16:56:10] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/12/81/dca8eed43377f54212c11441628717addb5d0981efeab857f76f63eb0ee7/nucliadb_dataset-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:56:10] INFO root fetch - processPackages [selenium-utils-xmlangel]: Downloading https://files.pythonhosted.org/packages/a5/13/e7fc67b925fc1662fbe08c65abcf923030e39227506ec8f4eee7550ffef8/selenium_utils_xmlangel-0.0.2.tar.gz
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-dataset/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/f3/2b/69e68c48f2d6701404e16ecee88e2071ff1074ab98f30ac1bf9fb16b08a4/nucliadb_models-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/2c/94/4bca61f9a13452e7422c1ed9372632bfdde17ffbe53461dfd296ef556d8e/nucliadb_protos-3.1.0.post496-py3-none-any.whl
+[2024-05-13 16:56:10] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-13 16:56:10] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-13 16:56:10] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-models/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:56:11] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/ee/63/e2050bed02454284d66de8ba57b2a537221c469b18a142ca3b5409624485/omtf-1.0.2b0.tar.gz
+[2024-05-13 16:56:11] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-13 16:56:11] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post495-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post496-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-protos/3.1.0.post495-3.1.0.post496/README.md --exclude *.pyd
+[2024-05-13 16:56:11] INFO root fetch - processPackages [rtisdev]: Remove: archive file [/home/abi/fetcher/tmp/rtisdev-2.13.0.tar.gz]
+[2024-05-13 16:56:11] INFO root fetch - processPackages [rtisdev]: Remove: archive file [/home/abi/fetcher/tmp/rtisdev-2.14.0.tar.gz]
+[2024-05-13 16:56:11] INFO root fetch - main [MainThread]: End processing [rtisdev]: success
+[2024-05-13 16:56:11] INFO root fetch - processPackages [selenium-utils-xmlangel]: Downloading https://files.pythonhosted.org/packages/1f/38/5c11854654bddab77aef6945851d5263ead6b14379c4be2eaaf72c0257ac/selenium_utils_xmlangel-0.0.3.tar.gz
+[2024-05-13 16:56:11] INFO root fetch - processPackages [OMTF]: executing diffoscope
+[2024-05-13 16:56:11] INFO root fetch - processPackages [OMTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omtf-1.0.2.tar.gz tmp/omtf-1.0.2b0.tar.gz --markdown 20240513/O/OMTF/1.0.2-1.0.2b0/README.md --exclude *.pyd
+[2024-05-13 16:56:11] INFO root fetch - processPackages [selenium-utils-xmlangel]: executing diffoscope
+[2024-05-13 16:56:11] INFO root fetch - processPackages [selenium-utils-xmlangel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_utils_xmlangel-0.0.2.tar.gz tmp/selenium_utils_xmlangel-0.0.3.tar.gz --markdown 20240513/s/selenium-utils-xmlangel/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 16:56:11] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:56:11] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:56:11] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-13 16:56:11] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:56:11] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:56:11] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-13 16:56:12] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:56:12] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:56:12] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-13 16:56:12] INFO root fetch - processPackages [selenium-utils-xmlangel]: Remove: archive file [/home/abi/fetcher/tmp/selenium_utils_xmlangel-0.0.2.tar.gz]
+[2024-05-13 16:56:12] INFO root fetch - processPackages [selenium-utils-xmlangel]: Remove: archive file [/home/abi/fetcher/tmp/selenium_utils_xmlangel-0.0.3.tar.gz]
+[2024-05-13 16:56:12] INFO root fetch - main [MainThread]: End processing [selenium-utils-xmlangel]: success
+[2024-05-13 16:56:12] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post495-py3-none-any.whl.zip]
+[2024-05-13 16:56:12] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post496-py3-none-any.whl.zip]
+[2024-05-13 16:56:12] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-13 16:56:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405091641.tar.gz]
+[2024-05-13 16:56:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405130624.tar.gz]
+[2024-05-13 16:56:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-13 16:56:12] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.2.tar.gz]
+[2024-05-13 16:56:12] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.2b0.tar.gz]
+[2024-05-13 16:56:12] INFO root fetch - main [MainThread]: End processing [OMTF]: success
+[2024-05-13 16:56:12] INFO root fetch - main [MainThread]: Store serial: [23185302]
