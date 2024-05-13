@@ -15264,3 +15264,105 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:28:12] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-14.0.0.tar.gz]
 [2024-05-13 12:28:12] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
 [2024-05-13 12:28:12] INFO root fetch - main [MainThread]: Store serial: [23181518]
+[2024-05-13 12:30:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181518]
+[2024-05-13 12:30:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-flights
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-version-remla24-team02
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webscout
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hotsos
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: browserbase
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-quality-validation-pydeequ
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sisaptools
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyStratum-Cli
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: onetomultipleimage
+[2024-05-13 12:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-inventory
+[2024-05-13 12:30:28] WARNING root fetch - processPackages [fast-flights]: Skipping, unable to determine old version
+[2024-05-13 12:30:28] INFO root fetch - processPackages [fast-flights]: Start processing: tanu
+[2024-05-13 12:30:28] INFO root fetch - main [MainThread]: End processing [fast-flights] error
+[2024-05-13 12:30:28] INFO root fetch - processPackages [browserbase]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 12:30:28] INFO root fetch - processPackages [lib-version-remla24-team02]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 12:30:28] WARNING root fetch - processPackages [onetomultipleimage]: Skipping, unable to determine old version
+[2024-05-13 12:30:28] INFO root fetch - processPackages [onetomultipleimage]: Start processing: sunholo
+[2024-05-13 12:30:28] INFO root fetch - main [MainThread]: End processing [onetomultipleimage] error
+[2024-05-13 12:30:28] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [1.1] Old Version: [1.0]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [PyStratum-Cli]: New version: [2.0.0] Old Version: [1.0.4]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [webscout]: New version: [2.3b0] Old Version: [2.2b0]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [tanu]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [netbox-inventory]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-13 12:30:29] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/97/33/f0124d5e0776b662b77b3a950edd964219b1ad487966aaf81cd4c8d07d40/browserbase-0.1.0.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [lib-version-remla24-team02]: Downloading https://files.pythonhosted.org/packages/5e/51/aefa05b5e05f6928a580a244410af22baa9dfc5a79f2c9b403703026959f/lib_version_remla24_team02-0.0.1.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/ef/b9/6c348f3ff0a0b81f11a942d9e6bd25bf028b5004a33ac87a90ac4ed3a808/data-quality-validation-pydeequ-1.0.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [PyStratum-Cli]: Downloading https://files.pythonhosted.org/packages/80/4f/59a01d5506eef83ceb94943f1539b513b9216efd40e2035d15abeab00935/PyStratum-Cli-1.0.4.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/74/e0/8468848438816e2de079c50c595d26a0087dd733aa024eac6d6f18743c0a/tanu-0.1.2.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/a8/74/1c685f1680a7479ac1065f6833476e77e8be8dfd8099d8615341a74cfde8/webscout-2.2b0.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/51/d9/c3532cb068fba5e404a64af051a679d4cdac06a5c603d175d0fa682f3d5b/netbox_inventory-2.0.0.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/dd/3b/950b745930e9d4563a901f3f3343a92281ef8cb4f51bb0dd0aadd1ba367a/data-quality-validation-pydeequ-1.1.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/fb/89/3d1096e8cdffddae567b7b9a4628a0fc0da98977dfada09ffd81c412d6ff/browserbase-0.1.1.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [PyStratum-Cli]: Downloading https://files.pythonhosted.org/packages/f9/49/2236e16f9e86e08cf1beb96d7f42ce3a6abf0327f3a3ba061f25406ce3e3/pystratum_cli-2.0.0.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/2a/9e/ebda345adb75f610db9af8439755e9da952b79dbbf612bf0ef859cc62b7f/tanu-0.1.3.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [lib-version-remla24-team02]: Downloading https://files.pythonhosted.org/packages/b5/ad/9c989788f87a4cbaf766c90ffad603e9bcc35075f95a8cd03b35f7db7bfc/lib_version_remla24_team02-0.0.2.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/f8/41/2537df6f52b3718c60a9e0a7c235c6aa8d44002a067eda202f60d1160d5f/webscout-2.3b0.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [browserbase]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [browserbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserbase-0.1.0.tar.gz tmp/browserbase-0.1.1.tar.gz --markdown 20240513/b/browserbase/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-1.0.tar.gz tmp/data-quality-validation-pydeequ-1.1.tar.gz --markdown 20240513/d/data-quality-validation-pydeequ/1.0-1.1/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [PyStratum-Cli]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [PyStratum-Cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Cli-1.0.4.tar.gz tmp/pystratum_cli-2.0.0.tar.gz --markdown 20240513/P/PyStratum-Cli/1.0.4-2.0.0/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.2.tar.gz tmp/tanu-0.1.3.tar.gz --markdown 20240513/t/tanu/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [lib-version-remla24-team02]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [lib-version-remla24-team02]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla24_team02-0.0.1.tar.gz tmp/lib_version_remla24_team02-0.0.2.tar.gz --markdown 20240513/l/lib-version-remla24-team02/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240513/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [netbox-inventory]: Downloading https://files.pythonhosted.org/packages/c6/21/d4cdf5b8d00be0844d761aef8a72fdee29765f64bf44238ccbaa86457fa8/netbox_inventory-2.0.1.tar.gz
+[2024-05-13 12:30:29] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-2.2b0.tar.gz tmp/webscout-2.3b0.tar.gz --markdown 20240513/w/webscout/2.2b0-2.3b0/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-13 12:30:29] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240513/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-13 12:30:29] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2024-05-13 12:30:30] INFO root fetch - processPackages [netbox-inventory]: executing diffoscope
+[2024-05-13 12:30:30] INFO root fetch - processPackages [netbox-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_inventory-2.0.0.tar.gz tmp/netbox_inventory-2.0.1.tar.gz --markdown 20240513/n/netbox-inventory/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-13 12:30:30] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2024-05-13 12:30:30] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20240513/s/sisaptools/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-13 12:30:30] INFO root fetch - processPackages [PyStratum-Cli]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Cli-1.0.4.tar.gz]
+[2024-05-13 12:30:30] INFO root fetch - processPackages [PyStratum-Cli]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_cli-2.0.0.tar.gz]
+[2024-05-13 12:30:30] INFO root fetch - processPackages [PyStratum-Cli]: Start processing: punsterz
+[2024-05-13 12:30:30] INFO root fetch - main [MainThread]: End processing [PyStratum-Cli]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.2.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.3.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.0.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.1.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [browserbase]: success
+[2024-05-13 12:30:31] WARNING root fetch - processPackages [punsterz]: Skipping, unable to determine old version
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [punsterz] error
+[2024-05-13 12:30:31] INFO root fetch - processPackages [lib-version-remla24-team02]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla24_team02-0.0.1.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [lib-version-remla24-team02]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla24_team02-0.0.2.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [lib-version-remla24-team02]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-1.0.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-1.1.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.8.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.9.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.2b0.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.3b0.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [netbox-inventory]: Remove: archive file [/home/abi/fetcher/tmp/netbox_inventory-2.0.0.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [netbox-inventory]: Remove: archive file [/home/abi/fetcher/tmp/netbox_inventory-2.0.1.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [netbox-inventory]: success
+[2024-05-13 12:30:31] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-13 12:30:31] INFO root fetch - main [MainThread]: Store serial: [23181557]
