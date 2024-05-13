@@ -17393,3 +17393,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:49:29] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-13 13:49:29] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-13 13:49:29] INFO root fetch - main [MainThread]: Store serial: [23182374]
+[2024-05-13 13:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182374]
+[2024-05-13 13:51:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: common-tools-ai-bnq
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CreaTeBME
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-pydantic-form
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphaz-next
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paradi
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algokit-utils
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vis-analysis-torch
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kaizen-cloudcode
+[2024-05-13 13:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asreview
+[2024-05-13 13:51:38] WARNING root fetch - processPackages [dash-pydantic-form]: Skipping, unable to determine old version
+[2024-05-13 13:51:38] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form] error
+[2024-05-13 13:51:38] INFO root fetch - processPackages [algokit-utils]: New version: [2.3.0b3] Old Version: [2.3.0b2]
+[2024-05-13 13:51:38] INFO root fetch - processPackages [alphaz-next]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-13 13:51:38] INFO root fetch - processPackages [kaizen-cloudcode]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 13:51:38] INFO root fetch - processPackages [vis-analysis-torch]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-13 13:51:38] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-13 13:51:38] INFO root fetch - processPackages [CreaTeBME]: New version: [1.2.0] Old Version: [1.0.1]
+[2024-05-13 13:51:38] WARNING root fetch - processPackages [paradi]: Skipping, unable to determine old version
+[2024-05-13 13:51:38] INFO root fetch - main [MainThread]: End processing [paradi] error
+[2024-05-13 13:51:38] INFO root fetch - processPackages [asreview]: New version: [1.6rc3] Old Version: [1.6rc2]
+[2024-05-13 13:51:38] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ce/8f/158327259fa08e70862d382ca9e3aee64c258ceccc11998b9bd4a3899b8c/algokit_utils-2.3.0b2-py3-none-any.whl
+[2024-05-13 13:51:38] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/52/44/52d3283e3354c3b7dd760c77bda468bda739b3b81ff0f22ec5f06422bc33/alphaz-next-0.6.4.tar.gz
+[2024-05-13 13:51:38] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/1b/68/1f466ce7cb19c4cd2109d667922a6660450eeb9b0b8da0f59a3908d45dfe/vis_analysis_torch-0.4.3.tar.gz
+[2024-05-13 13:51:38] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/bc/c7/f8284fe2411aa7af12ee08467cb21c9d0c0d7a4cc46822e4b606cac4013a/common-tools-ai-bnq-0.1.5.tar.gz
+[2024-05-13 13:51:38] INFO root fetch - processPackages [CreaTeBME]: Downloading https://files.pythonhosted.org/packages/d3/e7/08ae4d66a2ca52cfed49c7b7ae0f4e5d7c3d0be43ba4257445fe0415ade7/CreaTeBME-1.0.1.tar.gz
+[2024-05-13 13:51:38] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/20/5e/59c92f15bbfa3d4f55329c053f26117a04ee4e5f10eee79bcd5061ed7d95/kaizen_cloudcode-0.1.1.tar.gz
+[2024-05-13 13:51:38] INFO root fetch - processPackages [asreview]: Downloading https://files.pythonhosted.org/packages/89/e3/2ba25ed70eeed102c69c58140108f6d97d14dd28511d669551e5c9a3b89f/asreview-1.6rc2.tar.gz
+[2024-05-13 13:51:39] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/52/d4/375f55fc2867e4afdc0f61cc256a5dd0aed4497bfd53256e5258af151b7d/alphaz-next-0.6.5.tar.gz
+[2024-05-13 13:51:39] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/3c/9b/a0eaf12e84e03e3e973d110ba9af3c31588252ce523016e71491b3e34fc8/algokit_utils-2.3.0b3-py3-none-any.whl
+[2024-05-13 13:51:39] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-13 13:51:39] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.6.4.tar.gz tmp/alphaz-next-0.6.5.tar.gz --markdown 20240513/a/alphaz-next/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-13 13:51:39] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-05-13 13:51:39] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip tmp/algokit_utils-2.3.0b3-py3-none-any.whl.zip --markdown 20240513/a/algokit-utils/2.3.0b2-2.3.0b3/README.md --exclude *.pyd
+[2024-05-13 13:51:39] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/6e/2f/7692031422e014b76ec6db455e54351b7c8c4636b8b8203824ccb667ee29/vis_analysis_torch-0.4.4.tar.gz
+[2024-05-13 13:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/e8/24/2faab990150a115d2225b0d352f9262123782245df19ad1d4f943c3dac96/common-tools-ai-bnq-0.1.6.tar.gz
+[2024-05-13 13:51:39] INFO root fetch - processPackages [CreaTeBME]: Downloading https://files.pythonhosted.org/packages/cb/f0/7e62ec5a06cb686ade0e0355330875974a5de504b5c876ee5d41a4e754b9/createbme-1.2.0.tar.gz
+[2024-05-13 13:51:39] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/2f/72/208cdb861b2e94794b5ccead83184a25402694763d36349a7357bba127a9/kaizen_cloudcode-0.1.2.tar.gz
+[2024-05-13 13:51:39] INFO root fetch - processPackages [vis-analysis-torch]: executing diffoscope
+[2024-05-13 13:51:39] INFO root fetch - processPackages [vis-analysis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vis_analysis_torch-0.4.3.tar.gz tmp/vis_analysis_torch-0.4.4.tar.gz --markdown 20240513/v/vis-analysis-torch/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-13 13:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-13 13:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.5.tar.gz tmp/common-tools-ai-bnq-0.1.6.tar.gz --markdown 20240513/c/common-tools-ai-bnq/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-13 13:51:39] INFO root fetch - processPackages [CreaTeBME]: executing diffoscope
+[2024-05-13 13:51:39] INFO root fetch - processPackages [CreaTeBME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreaTeBME-1.0.1.tar.gz tmp/createbme-1.2.0.tar.gz --markdown 20240513/C/CreaTeBME/1.0.1-1.2.0/README.md --exclude *.pyd
+[2024-05-13 13:51:39] INFO root fetch - processPackages [kaizen-cloudcode]: executing diffoscope
+[2024-05-13 13:51:39] INFO root fetch - processPackages [kaizen-cloudcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_cloudcode-0.1.1.tar.gz tmp/kaizen_cloudcode-0.1.2.tar.gz --markdown 20240513/k/kaizen-cloudcode/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 13:51:39] INFO root fetch - processPackages [asreview]: Downloading https://files.pythonhosted.org/packages/5c/5b/924f0c8e31bbc9b6e1b9ad97e2ac3a2b5aea5cbf683a6c74518e2f719fc0/asreview-1.6rc3.tar.gz
+[2024-05-13 13:51:40] INFO root fetch - processPackages [asreview]: executing diffoscope
+[2024-05-13 13:51:40] INFO root fetch - processPackages [asreview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asreview-1.6rc2.tar.gz tmp/asreview-1.6rc3.tar.gz --markdown 20240513/a/asreview/1.6rc2-1.6rc3/README.md --exclude *.pyd
+[2024-05-13 13:51:40] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.4.3.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.4.4.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch]: success
+[2024-05-13 13:51:40] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.5.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.6.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-13 13:51:40] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.4.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.6.5.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-13 13:51:40] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip]
+[2024-05-13 13:51:40] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b3-py3-none-any.whl.zip]
+[2024-05-13 13:51:40] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-05-13 13:51:40] INFO root fetch - processPackages [CreaTeBME]: Remove: archive file [/home/abi/fetcher/tmp/CreaTeBME-1.0.1.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - processPackages [CreaTeBME]: Remove: archive file [/home/abi/fetcher/tmp/createbme-1.2.0.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - main [MainThread]: End processing [CreaTeBME]: success
+[2024-05-13 13:51:40] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.1.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.2.tar.gz]
+[2024-05-13 13:51:40] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
+[2024-05-13 13:51:42] INFO root fetch - processPackages [asreview]: Remove: archive file [/home/abi/fetcher/tmp/asreview-1.6rc2.tar.gz]
+[2024-05-13 13:51:42] INFO root fetch - processPackages [asreview]: Remove: archive file [/home/abi/fetcher/tmp/asreview-1.6rc3.tar.gz]
+[2024-05-13 13:51:42] INFO root fetch - main [MainThread]: End processing [asreview]: success
+[2024-05-13 13:51:42] INFO root fetch - main [MainThread]: Store serial: [23182402]
