@@ -4631,3 +4631,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:38:28] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
 [2024-05-13 05:38:28] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
 [2024-05-13 05:38:28] INFO root fetch - main [MainThread]: Store serial: [23176442]
+[2024-05-13 05:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176442]
+[2024-05-13 05:40:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solar-registry
+[2024-05-13 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xarray
+[2024-05-13 05:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-tsugu
+[2024-05-13 05:40:36] WARNING root fetch - processPackages [nonebot-tsugu]: Skipping, unable to determine old version
+[2024-05-13 05:40:36] INFO root fetch - main [MainThread]: End processing [nonebot-tsugu] error
+[2024-05-13 05:40:36] WARNING root fetch - processPackages [solar-registry]: Skipping, unable to determine old version
+[2024-05-13 05:40:36] INFO root fetch - main [MainThread]: End processing [solar-registry] error
+[2024-05-13 05:40:36] INFO root fetch - processPackages [xarray]: New version: [2024.5.0] Old Version: [2024.3.0]
+[2024-05-13 05:40:36] INFO root fetch - processPackages [xarray]: Downloading https://files.pythonhosted.org/packages/db/ac/9db13d2a6d2e9f72d4d6305ed7796a45ea9cd58f0a4a47d434a276830adf/xarray-2024.3.0.tar.gz
+[2024-05-13 05:40:37] INFO root fetch - processPackages [xarray]: Downloading https://files.pythonhosted.org/packages/55/71/f96394654c409131e74cfb9e8d816518761552e54f81c3a2a9219cbc22fc/xarray-2024.5.0.tar.gz
+[2024-05-13 05:40:38] INFO root fetch - processPackages [xarray]: executing diffoscope
+[2024-05-13 05:40:38] INFO root fetch - processPackages [xarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-2024.3.0.tar.gz tmp/xarray-2024.5.0.tar.gz --markdown 20240513/x/xarray/2024.3.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-13 05:40:42] INFO root fetch - processPackages [xarray]: Remove: archive file [/home/abi/fetcher/tmp/xarray-2024.3.0.tar.gz]
+[2024-05-13 05:40:42] INFO root fetch - processPackages [xarray]: Remove: archive file [/home/abi/fetcher/tmp/xarray-2024.5.0.tar.gz]
+[2024-05-13 05:40:42] INFO root fetch - main [MainThread]: End processing [xarray]: success
+[2024-05-13 05:40:42] INFO root fetch - main [MainThread]: Store serial: [23176450]
