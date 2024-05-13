@@ -3417,3 +3417,69 @@
 [2024-05-13 04:34:59] WARNING root fetch - processPackages [epinastyz]: Skipping, unable to determine old version
 [2024-05-13 04:34:59] INFO root fetch - main [MainThread]: End processing [epinastyz] error
 [2024-05-13 04:34:59] INFO root fetch - main [MainThread]: Store serial: [23175955]
+[2024-05-13 04:37:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175955]
+[2024-05-13 04:37:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-department-analytic
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mrp-stock-analytic
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tator
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: treetop
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-plb
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scottbrian-locking
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytegg
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dolosz
+[2024-05-13 04:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiocmcapi
+[2024-05-13 04:37:07] WARNING root fetch - processPackages [bytegg]: Skipping, unable to determine old version
+[2024-05-13 04:37:07] INFO root fetch - main [MainThread]: End processing [bytegg] error
+[2024-05-13 04:37:07] INFO root fetch - processPackages [aiocmcapi]: New version: [0.6.1] Old Version: [0.6]
+[2024-05-13 04:37:07] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-05-13 04:37:07] WARNING root fetch - processPackages [dolosz]: Skipping, unable to determine old version
+[2024-05-13 04:37:07] INFO root fetch - main [MainThread]: End processing [dolosz] error
+[2024-05-13 04:37:07] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-13 04:37:07] WARNING root fetch - processPackages [treetop]: Skipping, unable to determine old version
+[2024-05-13 04:37:07] INFO root fetch - main [MainThread]: End processing [treetop] error
+[2024-05-13 04:37:07] INFO root fetch - processPackages [pih-plb]: New version: [0.22.1] Old Version: [0.22]
+[2024-05-13 04:37:07] INFO root fetch - processPackages [scottbrian-locking]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-05-13 04:37:07] INFO root fetch - processPackages [tator]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-13 04:37:07] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/b9/6b/48b51ee73aaf58d21a0e0ac8d36ce9a402404058de9d2db8d16e1fea862b/aiocmcapi-0.6.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: Downloading https://files.pythonhosted.org/packages/7f/13/228a256de43b1d5203dcb15b5c610c5d79eb530c46d509e60b1165bbd7e9/odoo_addon_mrp_stock_analytic-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-13 04:37:08] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/8a/a9/240c6c051181ab5875283386577476cef4953f3a151f10feedd3b6ad4794/pih-plb-0.22.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Downloading https://files.pythonhosted.org/packages/32/da/9717a4c4a1cfbeddb17fea39cf6faba0c8e9c7bd250d10784a2c65b7df2a/odoo_addon_hr_department_analytic-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-13 04:37:08] INFO root fetch - processPackages [scottbrian-locking]: Downloading https://files.pythonhosted.org/packages/6a/16/52894a16ddefa3e9517e22e2008d0875749b01e391037b612f40b79a786c/scottbrian_locking-1.1.0.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/f9/66/ae4067c632047493bdb8c7e214ca46bd46b9e41c915d28fa928f33bbd85e/tator-1.2.8.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/57/4b/c97df9caa23935ded94be21723b22a015433f3aa69588e4d265d9ed0df83/aiocmcapi-0.6.1.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [aiocmcapi]: executing diffoscope
+[2024-05-13 04:37:08] INFO root fetch - processPackages [aiocmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocmcapi-0.6.tar.gz tmp/aiocmcapi-0.6.1.tar.gz --markdown 20240513/a/aiocmcapi/0.6-0.6.1/README.md --exclude *.pyd
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: Downloading https://files.pythonhosted.org/packages/df/b1/3ed823ffc6581c5b0ece18c65b515b0031506c6514b33b4991c0c0b94344/odoo_addon_mrp_stock_analytic-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-13 04:37:08] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/bc/17/162caf25b28318d2eb2120b0f38a14532b9eb72907a1464f9b2514eb7f06/pih-plb-0.22.1.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Downloading https://files.pythonhosted.org/packages/17/52/201f4cdade3e4e6734608641de67b45e4b4a84319f2d90948cb487a5b747/odoo_addon_hr_department_analytic-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-13 04:37:08] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/6c/89/e8fb0e9b3c19ca07509e09b45064f3aa953183fa07c8667a7949c37fb634/tator-1.2.9.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [scottbrian-locking]: Downloading https://files.pythonhosted.org/packages/26/33/ffd81880b00d31229ac96d9636cb196bce59c0920e31f91c5fb6a806561a/scottbrian_locking-2.0.0.tar.gz
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: executing diffoscope
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_stock_analytic-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_stock_analytic-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-mrp-stock-analytic/16.0.1.0.0.4-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-13 04:37:08] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-05-13 04:37:08] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.22.tar.gz tmp/pih-plb-0.22.1.tar.gz --markdown 20240513/p/pih-plb/0.22-0.22.1/README.md --exclude *.pyd
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: executing diffoscope
+[2024-05-13 04:37:08] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-hr-department-analytic/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-13 04:37:08] INFO root fetch - processPackages [tator]: executing diffoscope
+[2024-05-13 04:37:08] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.2.8.tar.gz tmp/tator-1.2.9.tar.gz --markdown 20240513/t/tator/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-13 04:37:08] INFO root fetch - processPackages [scottbrian-locking]: executing diffoscope
+[2024-05-13 04:37:08] INFO root fetch - processPackages [scottbrian-locking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scottbrian_locking-1.1.0.tar.gz tmp/scottbrian_locking-2.0.0.tar.gz --markdown 20240513/s/scottbrian-locking/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-05-13 04:37:09] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.tar.gz]
+[2024-05-13 04:37:09] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.1.tar.gz]
+[2024-05-13 04:37:09] INFO root fetch - main [MainThread]: End processing [aiocmcapi]: success
+[2024-05-13 04:37:09] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-13 04:37:09] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-13 04:37:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-department-analytic]: success
+[2024-05-13 04:37:09] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.22.tar.gz]
+[2024-05-13 04:37:09] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.22.1.tar.gz]
+[2024-05-13 04:37:09] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-05-13 04:37:09] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_stock_analytic-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-13 04:37:09] INFO root fetch - processPackages [odoo-addon-mrp-stock-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_stock_analytic-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-13 04:37:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-stock-analytic]: success
+[2024-05-13 04:37:09] INFO root fetch - processPackages [scottbrian-locking]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_locking-1.1.0.tar.gz]
+[2024-05-13 04:37:09] INFO root fetch - processPackages [scottbrian-locking]: Remove: archive file [/home/abi/fetcher/tmp/scottbrian_locking-2.0.0.tar.gz]
+[2024-05-13 04:37:09] INFO root fetch - main [MainThread]: End processing [scottbrian-locking]: success
+[2024-05-13 04:37:10] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.2.8.tar.gz]
+[2024-05-13 04:37:10] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.2.9.tar.gz]
+[2024-05-13 04:37:10] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2024-05-13 04:37:10] INFO root fetch - main [MainThread]: Store serial: [23175984]
