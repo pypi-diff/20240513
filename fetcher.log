@@ -4781,3 +4781,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:47:14] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-13 05:47:14] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-13 05:47:14] INFO root fetch - main [MainThread]: Store serial: [23176507]
+[2024-05-13 05:49:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176507]
+[2024-05-13 05:49:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tilearn-llm
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: InternEvo
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rotary-emb
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pisahkan-ktp
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: practicuscore
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xentropy
+[2024-05-13 05:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docmesh
+[2024-05-13 05:49:23] INFO root fetch - processPackages [InternEvo]: New version: [0.5.1] Old Version: [0.5.0.dev20240510]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [rotary-emb]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/5c/15/750b90095c4613c84263b036dd56fafad3b97b0e03d5e8af40e493e213a2/InternEvo-0.5.0.dev20240510.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [docmesh]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [xentropy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.1.6] Old Version: [0.0.6]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [tilearn-llm]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [practicuscore]: New version: [24.3.0] Old Version: [24.1.0]
+[2024-05-13 05:49:23] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/7e/d3/645a7c29b2cfbd1df8cd1df427d7103b4bfb49145da1f9305781be4b1ce0/rotary_emb-0.5.1.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/3f/3a/2037a9ded6c52071cdf7c2f733244e467922001acfa733860eeeb5e18add/pisahkan_ktp-0.0.6.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [xentropy]: Downloading https://files.pythonhosted.org/packages/b5/b5/fdd4d16689ef213beb51ee288ea030357835df602314e1e7b725c976a5b8/xentropy-0.1.1.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [docmesh]: Downloading https://files.pythonhosted.org/packages/2b/fc/89ed2fe5e68ff0389ba8bbddad95bc6f8e2e5eec6d6b81711f3339e333b3/docmesh-0.0.4.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/9f/79/c0d27365d415ab9303bfe54e6872813f6488d4611e6a63e92370cf294172/tilearn_llm-0.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 05:49:23] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 15253241>=10485760
+[2024-05-13 05:49:23] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-05-13 05:49:23] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/d5/14/f7609a338ea449405fcd0710c82d085a70e36cb0922491a9586ec4c52388/InternEvo-0.5.1.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [practicuscore]: Downloading https://files.pythonhosted.org/packages/50/02/90b3c02cca2c89f9fee63cb2eff8957092358019053efcc0afa20d66f61d/practicuscore-24.1.0-cp311-none-win_amd64.whl
+[2024-05-13 05:49:23] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/b8/86/7650135058a7893f7d3eace42b723fb9216839e1a1d0e8836180d8efaa27/rotary_emb-0.5.2.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-13 05:49:23] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.5.0.dev20240510.tar.gz tmp/InternEvo-0.5.1.tar.gz --markdown 20240513/I/InternEvo/0.5.0.dev20240510-0.5.1/README.md --exclude *.pyd
+[2024-05-13 05:49:23] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/ef/4e/f35e2dbd4d680487298926b8ead74ae531c15f4c8deee025bd7ceddf3f23/pisahkan_ktp-0.1.6.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [xentropy]: Downloading https://files.pythonhosted.org/packages/26/97/aab3b1b6dddd889b4bce712b1eefd473e79b016447551e35a1e874b3dce6/xentropy-0.1.2.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [docmesh]: Downloading https://files.pythonhosted.org/packages/cb/9b/1af3163fd901ec7a9d787bdc0bfcf30c82402a0fd5a508d6856404515f19/docmesh-0.0.5.tar.gz
+[2024-05-13 05:49:23] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-13 05:49:23] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.5.1.tar.gz tmp/rotary_emb-0.5.2.tar.gz --markdown 20240513/r/rotary-emb/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-13 05:49:23] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-13 05:49:23] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.0.6.tar.gz tmp/pisahkan_ktp-0.1.6.tar.gz --markdown 20240513/p/pisahkan-ktp/0.0.6-0.1.6/README.md --exclude *.pyd
+[2024-05-13 05:49:24] INFO root fetch - processPackages [xentropy]: executing diffoscope
+[2024-05-13 05:49:24] INFO root fetch - processPackages [xentropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xentropy-0.1.1.tar.gz tmp/xentropy-0.1.2.tar.gz --markdown 20240513/x/xentropy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 05:49:24] INFO root fetch - processPackages [docmesh]: executing diffoscope
+[2024-05-13 05:49:24] INFO root fetch - processPackages [docmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh-0.0.4.tar.gz tmp/docmesh-0.0.5.tar.gz --markdown 20240513/d/docmesh/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 05:49:24] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.5.1.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.5.2.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-13 05:49:24] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.0.6.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.1.6.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-13 05:49:24] INFO root fetch - processPackages [xentropy]: Remove: archive file [/home/abi/fetcher/tmp/xentropy-0.1.1.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - processPackages [xentropy]: Remove: archive file [/home/abi/fetcher/tmp/xentropy-0.1.2.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - main [MainThread]: End processing [xentropy]: success
+[2024-05-13 05:49:24] INFO root fetch - processPackages [docmesh]: Remove: archive file [/home/abi/fetcher/tmp/docmesh-0.0.4.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - processPackages [docmesh]: Remove: archive file [/home/abi/fetcher/tmp/docmesh-0.0.5.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - main [MainThread]: End processing [docmesh]: success
+[2024-05-13 05:49:24] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.5.0.dev20240510.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.5.1.tar.gz]
+[2024-05-13 05:49:24] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-13 05:49:24] INFO root fetch - processPackages [practicuscore]: Downloading https://files.pythonhosted.org/packages/b6/67/c5b86a921e017baf487d16e4837484f6422d8f1cb31e4d8afb6229a2effb/practicuscore-24.3.0-cp312-none-macosx_10_9_x86_64.whl
+[2024-05-13 05:49:26] INFO root fetch - processPackages [practicuscore]: executing diffoscope
+[2024-05-13 05:49:26] INFO root fetch - processPackages [practicuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/practicuscore-24.1.0-cp311-none-win_amd64.whl.zip tmp/practicuscore-24.3.0-cp312-none-macosx_10_9_x86_64.whl.zip --markdown 20240513/p/practicuscore/24.1.0-24.3.0/README.md --exclude *.pyd
+[2024-05-13 05:49:27] INFO root fetch - processPackages [practicuscore]: Remove: archive file [/home/abi/fetcher/tmp/practicuscore-24.1.0-cp311-none-win_amd64.whl.zip]
+[2024-05-13 05:49:27] INFO root fetch - processPackages [practicuscore]: Remove: archive file [/home/abi/fetcher/tmp/practicuscore-24.3.0-cp312-none-macosx_10_9_x86_64.whl.zip]
+[2024-05-13 05:49:27] INFO root fetch - main [MainThread]: End processing [practicuscore]: success
+[2024-05-13 05:49:27] INFO root fetch - main [MainThread]: Store serial: [23176547]
