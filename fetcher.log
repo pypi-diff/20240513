@@ -3072,3 +3072,35 @@
 [2024-05-13 04:12:31] INFO root fetch - processPackages [hakowan]: Remove: archive file [/home/abi/fetcher/tmp/hakowan-0.3.5-py3-none-any.whl.zip]
 [2024-05-13 04:12:31] INFO root fetch - main [MainThread]: End processing [hakowan]: success
 [2024-05-13 04:12:31] INFO root fetch - main [MainThread]: Store serial: [23175773]
+[2024-05-13 04:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175773]
+[2024-05-13 04:14:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 04:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liteium
+[2024-05-13 04:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipih
+[2024-05-13 04:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samge-scrapyd
+[2024-05-13 04:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezkl-gpu
+[2024-05-13 04:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typhopneumoniaz
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-13 04:14:40] WARNING root fetch - processPackages [samge-scrapyd]: Skipping, unable to determine old version
+[2024-05-13 04:14:40] INFO root fetch - main [MainThread]: End processing [samge-scrapyd] error
+[2024-05-13 04:14:40] WARNING root fetch - processPackages [typhopneumoniaz]: Skipping, unable to determine old version
+[2024-05-13 04:14:40] INFO root fetch - main [MainThread]: End processing [typhopneumoniaz] error
+[2024-05-13 04:14:40] INFO root fetch - processPackages [liteium]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ipih]: New version: [0.23] Old Version: [0.22]
+[2024-05-13 04:14:40] INFO root fetch - processPackages [liteium]: Downloading https://files.pythonhosted.org/packages/52/e6/600595a46adbe88dbf751036b5f3a53ac2794dcd5f83c93e1dca06e1345f/liteium-1.0.2.tar.gz
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ipih]: Downloading https://files.pythonhosted.org/packages/0d/42/8096ca1ade988714545e3000946413216ee4d7bdc6bfe7f8c74e466c8458/ipih-0.22.tar.gz
+[2024-05-13 04:14:40] INFO root fetch - processPackages [liteium]: Downloading https://files.pythonhosted.org/packages/c1/65/3f9d604a57b503f8afef166d1129d2ca7263007da043baa2cab4b9f82ec0/liteium-1.0.3.tar.gz
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ipih]: Downloading https://files.pythonhosted.org/packages/33/8b/5b3d97d4554a3310c1e30dacc1c68865f7fb395759ac02c16e15add1e4a5/ipih-0.23.tar.gz
+[2024-05-13 04:14:40] INFO root fetch - processPackages [liteium]: executing diffoscope
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ipih]: executing diffoscope
+[2024-05-13 04:14:40] INFO root fetch - processPackages [liteium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteium-1.0.2.tar.gz tmp/liteium-1.0.3.tar.gz --markdown 20240513/l/liteium/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-13 04:14:40] INFO root fetch - processPackages [ipih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipih-0.22.tar.gz tmp/ipih-0.23.tar.gz --markdown 20240513/i/ipih/0.22-0.23/README.md --exclude *.pyd
+[2024-05-13 04:14:41] INFO root fetch - processPackages [ipih]: Remove: archive file [/home/abi/fetcher/tmp/ipih-0.22.tar.gz]
+[2024-05-13 04:14:41] INFO root fetch - processPackages [ipih]: Remove: archive file [/home/abi/fetcher/tmp/ipih-0.23.tar.gz]
+[2024-05-13 04:14:41] INFO root fetch - main [MainThread]: End processing [ipih]: success
+[2024-05-13 04:14:41] INFO root fetch - processPackages [liteium]: Remove: archive file [/home/abi/fetcher/tmp/liteium-1.0.2.tar.gz]
+[2024-05-13 04:14:41] INFO root fetch - processPackages [liteium]: Remove: archive file [/home/abi/fetcher/tmp/liteium-1.0.3.tar.gz]
+[2024-05-13 04:14:41] INFO root fetch - main [MainThread]: End processing [liteium]: success
+[2024-05-13 04:14:44] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-05-13 04:14:44] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-05-13 04:14:44] INFO root fetch - main [MainThread]: Store serial: [23175789]
