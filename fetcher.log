@@ -4511,3 +4511,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:31:57] INFO root fetch - processPackages [hd2-macros]: Remove: archive file [/home/abi/fetcher/tmp/hd2_macros-1.2.1.tar.gz]
 [2024-05-13 05:31:57] INFO root fetch - main [MainThread]: End processing [hd2-macros]: success
 [2024-05-13 05:31:57] INFO root fetch - main [MainThread]: Store serial: [23176400]
+[2024-05-13 05:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176400]
+[2024-05-13 05:34:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qb-parser
+[2024-05-13 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: touchpy
+[2024-05-13 05:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3-reader
+[2024-05-13 05:34:06] WARNING root fetch - processPackages [qb-parser]: Skipping, unable to determine old version
+[2024-05-13 05:34:06] INFO root fetch - main [MainThread]: End processing [qb-parser] error
+[2024-05-13 05:34:06] INFO root fetch - processPackages [touchpy]: New version: [0.0.3] Old Version: [0.0.0]
+[2024-05-13 05:34:06] INFO root fetch - processPackages [touchpy]: Downloading https://files.pythonhosted.org/packages/cf/50/9f520124371aa0199aa7b8ce35b252a26b3246a4cf8aefd8f912f9ff5d43/touchpy-0.0.0.tar.gz
+[2024-05-13 05:34:06] INFO root fetch - processPackages [s3-reader]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-13 05:34:06] INFO root fetch - processPackages [touchpy]: Downloading https://files.pythonhosted.org/packages/b6/5d/1e0ed6b4c910b31a5a9151fc72ddc5867e2bf78f3fd958a71dd8392f1757/touchpy-0.0.3-py3-none-any.whl
+[2024-05-13 05:34:06] INFO root fetch - processPackages [s3-reader]: Downloading https://files.pythonhosted.org/packages/59/8a/c81a39083cf126cca6b5cb08ce63a75ee36c34690ebc2d746468ffac33f0/s3_reader-0.2.3.tar.gz
+[2024-05-13 05:34:07] INFO root fetch - processPackages [touchpy]: executing diffoscope
+[2024-05-13 05:34:07] INFO root fetch - processPackages [touchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/touchpy-0.0.0.tar.gz tmp/touchpy-0.0.3-py3-none-any.whl.zip --markdown 20240513/t/touchpy/0.0.0-0.0.3/README.md --exclude *.pyd
+[2024-05-13 05:34:07] INFO root fetch - processPackages [s3-reader]: Downloading https://files.pythonhosted.org/packages/01/a6/c2421b0fc887d4a71a3d93cce173495a02df2bd9f5780e9e14d708f7d647/s3_reader-0.3.0.tar.gz
+[2024-05-13 05:34:07] INFO root fetch - processPackages [s3-reader]: executing diffoscope
+[2024-05-13 05:34:07] INFO root fetch - processPackages [s3-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3_reader-0.2.3.tar.gz tmp/s3_reader-0.3.0.tar.gz --markdown 20240513/s/s3-reader/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-13 05:34:07] INFO root fetch - processPackages [touchpy]: Remove: archive file [/home/abi/fetcher/tmp/touchpy-0.0.0.tar.gz]
+[2024-05-13 05:34:07] INFO root fetch - processPackages [touchpy]: Remove: archive file [/home/abi/fetcher/tmp/touchpy-0.0.3-py3-none-any.whl.zip]
+[2024-05-13 05:34:07] INFO root fetch - main [MainThread]: End processing [touchpy]: success
+[2024-05-13 05:34:07] INFO root fetch - processPackages [s3-reader]: Remove: archive file [/home/abi/fetcher/tmp/s3_reader-0.2.3.tar.gz]
+[2024-05-13 05:34:07] INFO root fetch - processPackages [s3-reader]: Remove: archive file [/home/abi/fetcher/tmp/s3_reader-0.3.0.tar.gz]
+[2024-05-13 05:34:07] INFO root fetch - main [MainThread]: End processing [s3-reader]: success
+[2024-05-13 05:34:07] INFO root fetch - main [MainThread]: Store serial: [23176408]
