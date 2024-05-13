@@ -11774,3 +11774,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:19:39] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
 [2024-05-13 10:19:39] INFO root fetch - main [MainThread]: End processing [sunholo]: success
 [2024-05-13 10:19:39] INFO root fetch - main [MainThread]: Store serial: [23179823]
+[2024-05-13 10:21:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179823]
+[2024-05-13 10:21:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bota
+[2024-05-13 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-file-router
+[2024-05-13 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delphai-utils
+[2024-05-13 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradescope-tool
+[2024-05-13 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: efel
+[2024-05-13 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-stack-dingding
+[2024-05-13 10:21:47] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-13 10:21:47] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 10:21:47] INFO root fetch - processPackages [fastapi-file-router]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 10:21:48] INFO root fetch - processPackages [delphai-utils]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-13 10:21:48] INFO root fetch - processPackages [gradescope-tool]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 10:21:48] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/17/5f/232d30d2d2a3ed5ef5e6b65af3a64a081ca77beeace680138164fed98eb9/fastapi_file_router-0.1.8.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/93/38/f216b77a0c5e02f71a17dec1a04846835f8515efc2e427b60267de40375e/delphai_utils-4.0.0.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [gradescope-tool]: Downloading https://files.pythonhosted.org/packages/21/be/dd1c49f10258e0002bebc8dbee011a1a20efc3d9ecad786cdafea3dd4791/gradescope-tool-0.1.0.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [fastapi-file-router]: Downloading https://files.pythonhosted.org/packages/99/58/2bce583488d98fc4dc8fd2593456168fc3553937419df8c73dc0c699b252/fastapi_file_router-0.1.9.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [fastapi-file-router]: executing diffoscope
+[2024-05-13 10:21:48] INFO root fetch - processPackages [fastapi-file-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_file_router-0.1.8.tar.gz tmp/fastapi_file_router-0.1.9.tar.gz --markdown 20240513/f/fastapi-file-router/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 10:21:48] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 10:21:48] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 10:21:48] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-05-13 10:21:48] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240513/b/bota/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-13 10:21:48] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/1c/45/ab5b926d5ef237d3149cc7997d0156044111a747c28d803c82c0f398c54b/delphai_utils-4.0.1.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [gradescope-tool]: Downloading https://files.pythonhosted.org/packages/ac/ec/97d0807ec220f4a0afbcc8f9bf9e4dfc9638a0ebfed810491e8d545ae763/gradescope_tool-0.1.1.tar.gz
+[2024-05-13 10:21:48] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-13 10:21:48] INFO root fetch - processPackages [delphai-utils]: executing diffoscope
+[2024-05-13 10:21:48] INFO root fetch - processPackages [delphai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_utils-4.0.0.tar.gz tmp/delphai_utils-4.0.1.tar.gz --markdown 20240513/d/delphai-utils/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-13 10:21:48] INFO root fetch - processPackages [gradescope-tool]: executing diffoscope
+[2024-05-13 10:21:48] INFO root fetch - processPackages [gradescope-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradescope-tool-0.1.0.tar.gz tmp/gradescope_tool-0.1.1.tar.gz --markdown 20240513/g/gradescope-tool/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 10:21:48] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-05-13 10:21:49] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-05-13 10:21:49] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-05-13 10:21:49] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.8.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - processPackages [fastapi-file-router]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_file_router-0.1.9.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - main [MainThread]: End processing [fastapi-file-router]: success
+[2024-05-13 10:21:49] INFO root fetch - processPackages [gradescope-tool]: Remove: archive file [/home/abi/fetcher/tmp/gradescope-tool-0.1.0.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - processPackages [gradescope-tool]: Remove: archive file [/home/abi/fetcher/tmp/gradescope_tool-0.1.1.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - main [MainThread]: End processing [gradescope-tool]: success
+[2024-05-13 10:21:49] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-05-13 10:21:49] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240513/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-13 10:21:49] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 10:21:49] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.0.0.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.0.1.tar.gz]
+[2024-05-13 10:21:49] INFO root fetch - main [MainThread]: End processing [delphai-utils]: success
+[2024-05-13 10:21:50] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-05-13 10:21:50] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-05-13 10:21:50] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-05-13 10:21:50] INFO root fetch - main [MainThread]: Store serial: [23179848]
