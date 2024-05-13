@@ -13560,3 +13560,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:25:00] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-13 11:25:00] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-13 11:25:00] INFO root fetch - main [MainThread]: Store serial: [23180820]
+[2024-05-13 11:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180820]
+[2024-05-13 11:27:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-allianceutils
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imt-ikarus
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teradatamodelops
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anemoi-datasets
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sotoki
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-import-plugin
+[2024-05-13 11:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-mapengine
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-mapengine]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-allianceutils]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-05-13 11:27:12] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-13 11:27:12] INFO root fetch - processPackages [anemoi-datasets]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-13 11:27:12] INFO root fetch - processPackages [imt-ikarus]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-13 11:27:12] WARNING root fetch - processPackages [poetry-import-plugin]: Skipping, unable to determine old version
+[2024-05-13 11:27:12] INFO root fetch - main [MainThread]: End processing [poetry-import-plugin] error
+[2024-05-13 11:27:12] INFO root fetch - processPackages [sotoki]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-13 11:27:12] INFO root fetch - processPackages [teradatamodelops]: New version: [7.0.7b1] Old Version: [7.0.6rc2]
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-mapengine]: Downloading https://files.pythonhosted.org/packages/3f/7b/6f6a8f2ec1b09b43308a0b6e142680a24f195712579cf71ff8a179f630f9/django_mapengine-1.6.0.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-allianceutils]: Downloading https://files.pythonhosted.org/packages/0a/65/966b085bf5453cb69846ed5ce4413970be5c04f8dc8e4387699c34ff787b/django_allianceutils-3.0.0.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [sotoki]: Downloading https://files.pythonhosted.org/packages/fb/a2/004bdf8103afe00e35fb6f1724efcc3e24fe4f05cca3ad449508bb391d84/sotoki-2.1.1.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/17/db/04b77de253dad060efc4dc13fe5a83dd55759ba660eb23d7674924d43a9a/imt_ikarus-1.1.2.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [teradatamodelops]: Downloading https://files.pythonhosted.org/packages/f5/07/892f1eea3a3a19131e4dd5f602cf19db893e7e357fd9b9d58a02d095f60b/teradatamodelops-7.0.6rc2.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/1d/aa/7c0648b943bba7077f0734b3d4ee25117f6f256edcad35352e300b3a1b72/anemoi_datasets-0.1.7.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-mapengine]: Downloading https://files.pythonhosted.org/packages/bf/e9/3408053c92a6c29361d0a05047ff9d6d63db23471537415b4bf18b2deeee/django_mapengine-1.6.1.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-13 11:27:12] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240513/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-allianceutils]: Downloading https://files.pythonhosted.org/packages/5c/7c/134026e207fe7f9bda71c1d2ce2e3e1bcf034e88672c120414434a54716d/django_allianceutils-4.0.0.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [teradatamodelops]: Downloading https://files.pythonhosted.org/packages/19/95/5b3791504e59b801d557d98685a72008bd63fcd1583213a2d29b31f8973d/teradatamodelops-7.0.7b1.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-mapengine]: executing diffoscope
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-mapengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_mapengine-1.6.0.tar.gz tmp/django_mapengine-1.6.1.tar.gz --markdown 20240513/d/django-mapengine/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-13 11:27:12] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/31/83/9a5e7ff3eddcbabea11d5d2921ea2685dabb130a1a3d3424727a2a6a102f/imt_ikarus-1.2.0.tar.gz
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-allianceutils]: executing diffoscope
+[2024-05-13 11:27:12] INFO root fetch - processPackages [django-allianceutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_allianceutils-3.0.0.tar.gz tmp/django_allianceutils-4.0.0.tar.gz --markdown 20240513/d/django-allianceutils/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-05-13 11:27:12] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/36/2e/87b7bcf59e9e8117e38deec9b560825210c2790676c3b7dc9d31ddbee7b3/anemoi_datasets-0.2.0.tar.gz
+[2024-05-13 11:27:13] INFO root fetch - processPackages [sotoki]: Downloading https://files.pythonhosted.org/packages/7b/ae/bc9ffb6ab894b29a4a77e5d45ec9d0771a26323874bc712c4d86a0e79a04/sotoki-2.1.2.tar.gz
+[2024-05-13 11:27:13] INFO root fetch - processPackages [teradatamodelops]: executing diffoscope
+[2024-05-13 11:27:13] INFO root fetch - processPackages [teradatamodelops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teradatamodelops-7.0.6rc2.tar.gz tmp/teradatamodelops-7.0.7b1.tar.gz --markdown 20240513/t/teradatamodelops/7.0.6rc2-7.0.7b1/README.md --exclude *.pyd
+[2024-05-13 11:27:13] INFO root fetch - processPackages [anemoi-datasets]: executing diffoscope
+[2024-05-13 11:27:13] INFO root fetch - processPackages [anemoi-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi_datasets-0.1.7.tar.gz tmp/anemoi_datasets-0.2.0.tar.gz --markdown 20240513/a/anemoi-datasets/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-13 11:27:13] INFO root fetch - processPackages [imt-ikarus]: executing diffoscope
+[2024-05-13 11:27:13] INFO root fetch - processPackages [imt-ikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt_ikarus-1.1.2.tar.gz tmp/imt_ikarus-1.2.0.tar.gz --markdown 20240513/i/imt-ikarus/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-13 11:27:13] INFO root fetch - processPackages [sotoki]: executing diffoscope
+[2024-05-13 11:27:13] INFO root fetch - processPackages [sotoki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotoki-2.1.1.tar.gz tmp/sotoki-2.1.2.tar.gz --markdown 20240513/s/sotoki/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-13 11:27:13] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.6.0.tar.gz]
+[2024-05-13 11:27:13] INFO root fetch - processPackages [django-mapengine]: Remove: archive file [/home/abi/fetcher/tmp/django_mapengine-1.6.1.tar.gz]
+[2024-05-13 11:27:13] INFO root fetch - main [MainThread]: End processing [django-mapengine]: success
+[2024-05-13 11:27:13] INFO root fetch - processPackages [django-allianceutils]: Remove: archive file [/home/abi/fetcher/tmp/django_allianceutils-3.0.0.tar.gz]
+[2024-05-13 11:27:13] INFO root fetch - processPackages [django-allianceutils]: Remove: archive file [/home/abi/fetcher/tmp/django_allianceutils-4.0.0.tar.gz]
+[2024-05-13 11:27:13] INFO root fetch - main [MainThread]: End processing [django-allianceutils]: success
+[2024-05-13 11:27:14] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt_ikarus-1.1.2.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt_ikarus-1.2.0.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - main [MainThread]: End processing [imt-ikarus]: success
+[2024-05-13 11:27:14] INFO root fetch - processPackages [teradatamodelops]: Remove: archive file [/home/abi/fetcher/tmp/teradatamodelops-7.0.6rc2.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - processPackages [teradatamodelops]: Remove: archive file [/home/abi/fetcher/tmp/teradatamodelops-7.0.7b1.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - main [MainThread]: End processing [teradatamodelops]: success
+[2024-05-13 11:27:14] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-13 11:27:14] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_datasets-0.1.7.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_datasets-0.2.0.tar.gz]
+[2024-05-13 11:27:14] INFO root fetch - main [MainThread]: End processing [anemoi-datasets]: success
+[2024-05-13 11:27:15] INFO root fetch - processPackages [sotoki]: Remove: archive file [/home/abi/fetcher/tmp/sotoki-2.1.1.tar.gz]
+[2024-05-13 11:27:15] INFO root fetch - processPackages [sotoki]: Remove: archive file [/home/abi/fetcher/tmp/sotoki-2.1.2.tar.gz]
+[2024-05-13 11:27:15] INFO root fetch - main [MainThread]: End processing [sotoki]: success
+[2024-05-13 11:27:15] INFO root fetch - main [MainThread]: Store serial: [23180847]
