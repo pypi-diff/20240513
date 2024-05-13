@@ -17351,3 +17351,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:47:09] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
 [2024-05-13 13:47:09] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-05-13 13:47:09] INFO root fetch - main [MainThread]: Store serial: [23182357]
+[2024-05-13 13:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182357]
+[2024-05-13 13:49:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 13:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idiopsychologicalz
+[2024-05-13 13:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azure
+[2024-05-13 13:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uiautomator2
+[2024-05-13 13:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vy-lambda-tools
+[2024-05-13 13:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcp47
+[2024-05-13 13:49:17] WARNING root fetch - processPackages [idiopsychologicalz]: Skipping, unable to determine old version
+[2024-05-13 13:49:17] INFO root fetch - main [MainThread]: End processing [idiopsychologicalz] error
+[2024-05-13 13:49:17] INFO root fetch - processPackages [uiautomator2]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-13 13:49:17] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-13 13:49:17] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/42/54/adb8c6f4d5981c3a567cc1019010a45e1432f363bd027a2be23dad7c32eb/uiautomator2-3.0.8.tar.gz
+[2024-05-13 13:49:17] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.1] Old Version: [0.4.0b4]
+[2024-05-13 13:49:17] INFO root fetch - processPackages [bcp47]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-13 13:49:18] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/48/26/31bcc5e5b39a8315870be0340c16c5817a1002f7bdcd2ecec681ec72bc60/vy_lambda_tools-0.4.0b4.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [bcp47]: Downloading https://files.pythonhosted.org/packages/2a/89/9803e485190b1af8027753e041d6a3562b9a74b2cd4b267eb3314ccf7d23/bcp47-0.0.6.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/45/e9/352ceaa7f871f2ff3b9c8cf661414f73c6857dffc42977c57b9a621b837c/uiautomator2-3.0.9.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [bcp47]: Downloading https://files.pythonhosted.org/packages/35/66/259eed040158b4e4df04fdf2c9f5f6387dfb155e7005d8522b588a700ea7/bcp47-0.1.0.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/2e/52/bdfb35995857a79bfc506406a3e7ed28b4f1dfe4fd8d4c188819b45f47b1/vy_lambda_tools-0.4.1.tar.gz
+[2024-05-13 13:49:18] INFO root fetch - processPackages [uiautomator2]: executing diffoscope
+[2024-05-13 13:49:18] INFO root fetch - processPackages [uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautomator2-3.0.8.tar.gz tmp/uiautomator2-3.0.9.tar.gz --markdown 20240513/u/uiautomator2/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-13 13:49:18] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-05-13 13:49:18] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.4.0b4.tar.gz tmp/vy_lambda_tools-0.4.1.tar.gz --markdown 20240513/v/vy-lambda-tools/0.4.0b4-0.4.1/README.md --exclude *.pyd
+[2024-05-13 13:49:18] INFO root fetch - processPackages [bcp47]: executing diffoscope
+[2024-05-13 13:49:18] INFO root fetch - processPackages [bcp47]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcp47-0.0.6.tar.gz tmp/bcp47-0.1.0.tar.gz --markdown 20240513/b/bcp47/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-13 13:49:18] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-13 13:49:18] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240513/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-13 13:49:19] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b4.tar.gz]
+[2024-05-13 13:49:19] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.1.tar.gz]
+[2024-05-13 13:49:19] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-05-13 13:49:19] INFO root fetch - processPackages [bcp47]: Remove: archive file [/home/abi/fetcher/tmp/bcp47-0.0.6.tar.gz]
+[2024-05-13 13:49:19] INFO root fetch - processPackages [bcp47]: Remove: archive file [/home/abi/fetcher/tmp/bcp47-0.1.0.tar.gz]
+[2024-05-13 13:49:19] INFO root fetch - main [MainThread]: End processing [bcp47]: success
+[2024-05-13 13:49:20] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.8.tar.gz]
+[2024-05-13 13:49:20] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.9.tar.gz]
+[2024-05-13 13:49:20] INFO root fetch - main [MainThread]: End processing [uiautomator2]: success
+[2024-05-13 13:49:29] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-13 13:49:29] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-13 13:49:29] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-13 13:49:29] INFO root fetch - main [MainThread]: Store serial: [23182374]
