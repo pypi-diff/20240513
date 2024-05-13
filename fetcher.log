@@ -20618,3 +20618,90 @@ EOFError: EOF read where object expected
 [2024-05-13 15:22:35] INFO root fetch - processPackages [function-sampler]: Remove: archive file [/home/abi/fetcher/tmp/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip]
 [2024-05-13 15:22:35] INFO root fetch - main [MainThread]: End processing [function-sampler]: success
 [2024-05-13 15:22:35] INFO root fetch - main [MainThread]: Store serial: [23183622]
+[2024-05-13 15:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183622]
+[2024-05-13 15:24:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils-woodsx
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webhook-cli
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycode
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rindegastos-revops
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phidata
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib_version_group3
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idzhiblavi-pydvim
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: function-sampler
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: footwearz
+[2024-05-13 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hstream
+[2024-05-13 15:24:45] INFO root fetch - processPackages [hstream]: New version: [0.1.46] Old Version: [0.1.45]
+[2024-05-13 15:24:45] INFO root fetch - processPackages [idzhiblavi-pydvim]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-13 15:24:45] INFO root fetch - processPackages [lib_version_group3]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 15:24:45] INFO root fetch - processPackages [cycode]: New version: [1.9.5.dev3] Old Version: [1.9.5.dev2]
+[2024-05-13 15:24:45] INFO root fetch - processPackages [function-sampler]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 15:24:46] INFO root fetch - processPackages [phidata]: New version: [2.4.6] Old Version: [2.4.5]
+[2024-05-13 15:24:46] INFO root fetch - processPackages [webhook-cli]: New version: [2024.4.17] Old Version: [2023.3.17]
+[2024-05-13 15:24:46] INFO root fetch - processPackages [utils-woodsx]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 15:24:46] WARNING root fetch - processPackages [footwearz]: Skipping, unable to determine old version
+[2024-05-13 15:24:46] INFO root fetch - main [MainThread]: End processing [footwearz] error
+[2024-05-13 15:24:46] INFO root fetch - processPackages [rindegastos-revops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 15:24:46] INFO root fetch - processPackages [function-sampler]: Downloading https://files.pythonhosted.org/packages/35/1c/91d49c1b704baca5a3a265c6be41d0f3d005729e744e4be5dd7c6fc6c743/function_sampler-0.1.8-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-13 15:24:46] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/c4/4c/4b2849bc340de8e7155946ae5f2c60957394e2e645000dce8256c6a2f4fd/hstream-0.1.45.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [lib_version_group3]: Downloading https://files.pythonhosted.org/packages/e4/c1/e6eec09b65addd2d86535a0ac45099f80821120809b5ef9769e7127671ba/lib_version_group3-0.1.1.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/94/59/085a2709bff0de5b946092dd063669b55669a429dd789966a977b3ad14f7/phidata-2.4.5.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/2c/cd/a7b8b82b1bfe194afbeddfa077aaf7a988e937a21cec85e0009b61f58300/cycode-1.9.5.dev2.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [idzhiblavi-pydvim]: Downloading https://files.pythonhosted.org/packages/71/23/b6806ff057b198806355f63c10cf2c753e82f7e8405b39f43c3e846b8379/idzhiblavi_pydvim-0.1.2.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [webhook-cli]: Downloading https://files.pythonhosted.org/packages/67/e4/c691d26388680025bee605fa6c897539c886812850651e6ad381618a18a0/webhook_cli-2023.3.17.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [utils-woodsx]: Downloading https://files.pythonhosted.org/packages/86/9c/dddf51bf211ef28aa9f7d45046a53ba8a92fcab441bae895edf20047758a/utils_woodsx-0.0.2.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/cf/2b/f5bb3a5e85b56897dbeaedf871d84567473b2e16320bd68d5255bdc055bd/rindegastos_revops-0.0.8.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [function-sampler]: Downloading https://files.pythonhosted.org/packages/81/c0/f8a33c006044bef458afb45bcf05bb480de74576b997f442f1ca52c828b0/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2024-05-13 15:24:46] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/e6/bd/4eb7cfc741725736f66de0803bea621f07c60ee857c633d900f9cfdada8b/hstream-0.1.46.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/3b/ae/ae3fec4445adda85984c5d9b3c0745c7d2ce37cc3f51c903f3fadef49566/cycode-1.9.5.dev3.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [lib_version_group3]: Downloading https://files.pythonhosted.org/packages/cd/d1/43d2b41c351f9c6eb1e1c92c09f3cc4f94f945c59df84b89bef05393ece1/lib_version_group3-0.1.2.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [idzhiblavi-pydvim]: Downloading https://files.pythonhosted.org/packages/90/cc/f63cb8bfd18d37e224d9a5c1be351b6dfcfaef867dfea2dea558b32940b2/idzhiblavi_pydvim-0.2.0.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/78/84/519dcf54fd7bbefb74d36942c96d2b2c90e94417a73c1a146a1dab7fb851/phidata-2.4.6.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [function-sampler]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [function-sampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function_sampler-0.1.8-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip --markdown 20240513/f/function-sampler/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [utils-woodsx]: Downloading https://files.pythonhosted.org/packages/5b/34/8580486b085487ce7c10f9b787adb2ab015fa239352de383f1b5e26519ba/utils_woodsx-0.0.3.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [rindegastos-revops]: Downloading https://files.pythonhosted.org/packages/11/53/5886fb722876e1530a3ff42b6aa97510dd201e65807fe9ba72132b8b4d37/rindegastos_revops-0.0.9.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [lib_version_group3]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.45.tar.gz tmp/hstream-0.1.46.tar.gz --markdown 20240513/h/hstream/0.1.45-0.1.46/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [lib_version_group3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_group3-0.1.1.tar.gz tmp/lib_version_group3-0.1.2.tar.gz --markdown 20240513/l/lib_version_group3/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [webhook-cli]: Downloading https://files.pythonhosted.org/packages/23/fa/e3b9ede70f8936ec78d7bfcc224ac8db9b8410b6366638ab596f04152f50/webhook_cli-2024.4.17.tar.gz
+[2024-05-13 15:24:46] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.5.dev2.tar.gz tmp/cycode-1.9.5.dev3.tar.gz --markdown 20240513/c/cycode/1.9.5.dev2-1.9.5.dev3/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [idzhiblavi-pydvim]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [idzhiblavi-pydvim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idzhiblavi_pydvim-0.1.2.tar.gz tmp/idzhiblavi_pydvim-0.2.0.tar.gz --markdown 20240513/i/idzhiblavi-pydvim/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [utils-woodsx]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [utils-woodsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_woodsx-0.0.2.tar.gz tmp/utils_woodsx-0.0.3.tar.gz --markdown 20240513/u/utils-woodsx/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.5.tar.gz tmp/phidata-2.4.6.tar.gz --markdown 20240513/p/phidata/2.4.5-2.4.6/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [rindegastos-revops]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [rindegastos-revops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rindegastos_revops-0.0.8.tar.gz tmp/rindegastos_revops-0.0.9.tar.gz --markdown 20240513/r/rindegastos-revops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 15:24:46] INFO root fetch - processPackages [webhook-cli]: executing diffoscope
+[2024-05-13 15:24:46] INFO root fetch - processPackages [webhook-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webhook_cli-2023.3.17.tar.gz tmp/webhook_cli-2024.4.17.tar.gz --markdown 20240513/w/webhook-cli/2023.3.17-2024.4.17/README.md --exclude *.pyd
+[2024-05-13 15:24:47] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.45.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.46.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 15:24:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: Remove: archive file [/home/abi/fetcher/tmp/idzhiblavi_pydvim-0.1.2.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - processPackages [idzhiblavi-pydvim]: Remove: archive file [/home/abi/fetcher/tmp/idzhiblavi_pydvim-0.2.0.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - main [MainThread]: End processing [idzhiblavi-pydvim]: success
+[2024-05-13 15:24:47] INFO root fetch - processPackages [lib_version_group3]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_group3-0.1.1.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - processPackages [lib_version_group3]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_group3-0.1.2.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - main [MainThread]: End processing [lib_version_group3]: success
+[2024-05-13 15:24:47] INFO root fetch - processPackages [utils-woodsx]: Remove: archive file [/home/abi/fetcher/tmp/utils_woodsx-0.0.2.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - processPackages [utils-woodsx]: Remove: archive file [/home/abi/fetcher/tmp/utils_woodsx-0.0.3.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - main [MainThread]: End processing [utils-woodsx]: success
+[2024-05-13 15:24:47] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.8.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - processPackages [rindegastos-revops]: Remove: archive file [/home/abi/fetcher/tmp/rindegastos_revops-0.0.9.tar.gz]
+[2024-05-13 15:24:47] INFO root fetch - main [MainThread]: End processing [rindegastos-revops]: success
+[2024-05-13 15:24:48] INFO root fetch - processPackages [webhook-cli]: Remove: archive file [/home/abi/fetcher/tmp/webhook_cli-2023.3.17.tar.gz]
+[2024-05-13 15:24:48] INFO root fetch - processPackages [webhook-cli]: Remove: archive file [/home/abi/fetcher/tmp/webhook_cli-2024.4.17.tar.gz]
+[2024-05-13 15:24:48] INFO root fetch - main [MainThread]: End processing [webhook-cli]: success
+[2024-05-13 15:24:48] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev2.tar.gz]
+[2024-05-13 15:24:48] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev3.tar.gz]
+[2024-05-13 15:24:48] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-13 15:24:49] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.5.tar.gz]
+[2024-05-13 15:24:49] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.6.tar.gz]
+[2024-05-13 15:24:49] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-13 15:24:50] INFO root fetch - processPackages [function-sampler]: Remove: archive file [/home/abi/fetcher/tmp/function_sampler-0.1.8-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-13 15:24:50] INFO root fetch - processPackages [function-sampler]: Remove: archive file [/home/abi/fetcher/tmp/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip]
+[2024-05-13 15:24:50] INFO root fetch - main [MainThread]: End processing [function-sampler]: success
+[2024-05-13 15:24:50] INFO root fetch - main [MainThread]: Store serial: [23183695]
