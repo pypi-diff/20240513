@@ -14580,3 +14580,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:00:30] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.tar.gz]
 [2024-05-13 12:00:30] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-05-13 12:00:30] INFO root fetch - main [MainThread]: Store serial: [23181231]
+[2024-05-13 12:02:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181231]
+[2024-05-13 12:02:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 12:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlowVisor
+[2024-05-13 12:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-taxi
+[2024-05-13 12:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: everai
+[2024-05-13 12:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onion-clustering
+[2024-05-13 12:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redistensor
+[2024-05-13 12:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pms-encoder
+[2024-05-13 12:02:40] INFO root fetch - processPackages [llm-taxi]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-13 12:02:40] INFO root fetch - processPackages [redistensor]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 12:02:40] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 12:02:40] INFO root fetch - processPackages [FlowVisor]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-13 12:02:41] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/94/01/3b8e9813c58fb219b7f437097e606d7313323fb79a446c08473f630f37e2/FlowVisor-0.1.5.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [onion-clustering]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 12:02:41] INFO root fetch - processPackages [redistensor]: Downloading https://files.pythonhosted.org/packages/a7/2d/f738266f377fad285e6cc0042513969633be8c5d92befea43724505b0bb4/redistensor-0.0.4.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [everai]: New version: [0.1.52] Old Version: [0.1.51]
+[2024-05-13 12:02:41] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/71/a1/64969263d536c7981987f00ac154553cfadcadcecdfed4dc3aa076fd42c6/llm_taxi-0.1.1.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/6a/0e/a103267f85947ac2644d29411875be35bc829fb1a53338ca33e0483e7917/onion_clustering-0.2.0.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/10/13/0c1584d769be1cf7431bc8bcb1ecb30a5db462c4720b669790eaa2bc9b5b/FlowVisor-0.1.6.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/e9/90/8fadfba1dbe2ed4f4b32548c80cd58c89515410dc581b005c82cc361c8a7/everai-0.1.51-py3-none-any.whl
+[2024-05-13 12:02:41] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-05-13 12:02:41] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.1.5.tar.gz tmp/FlowVisor-0.1.6.tar.gz --markdown 20240513/F/FlowVisor/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-13 12:02:41] INFO root fetch - processPackages [redistensor]: Downloading https://files.pythonhosted.org/packages/24/b3/3c143ec20d26cbd990d7db1eeebfa6620251301305a0d590a67f29b74260/redistensor-0.0.5.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/6e/cf/a13e7ae2bd14279f79c54ed9ee3aedc58606eaea57b07e2fc1dc7ab2a018/llm_taxi-0.2.0.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/6d/8f/3d1bca47947cb248ccbaeeef6b03a85b4bed36d6b6ef5c715a5559f9ca5d/onion_clustering-0.2.1.tar.gz
+[2024-05-13 12:02:41] INFO root fetch - processPackages [llm-taxi]: executing diffoscope
+[2024-05-13 12:02:41] INFO root fetch - processPackages [llm-taxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_taxi-0.1.1.tar.gz tmp/llm_taxi-0.2.0.tar.gz --markdown 20240513/l/llm-taxi/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 12:02:41] INFO root fetch - processPackages [redistensor]: executing diffoscope
+[2024-05-13 12:02:41] INFO root fetch - processPackages [redistensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redistensor-0.0.4.tar.gz tmp/redistensor-0.0.5.tar.gz --markdown 20240513/r/redistensor/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 12:02:41] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-13 12:02:41] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240513/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 12:02:41] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/83/ba/acf3a57d75256b15f63178c114e3e792f1a160bf8ff5f61a188669041131/everai-0.1.52-py3-none-any.whl
+[2024-05-13 12:02:41] INFO root fetch - processPackages [onion-clustering]: executing diffoscope
+[2024-05-13 12:02:41] INFO root fetch - processPackages [onion-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_clustering-0.2.0.tar.gz tmp/onion_clustering-0.2.1.tar.gz --markdown 20240513/o/onion-clustering/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 12:02:41] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-13 12:02:41] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.51-py3-none-any.whl.zip tmp/everai-0.1.52-py3-none-any.whl.zip --markdown 20240513/e/everai/0.1.51-0.1.52/README.md --exclude *.pyd
+[2024-05-13 12:02:42] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-13 12:02:42] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.5.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.1.6.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-05-13 12:02:42] INFO root fetch - processPackages [redistensor]: Remove: archive file [/home/abi/fetcher/tmp/redistensor-0.0.4.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - processPackages [redistensor]: Remove: archive file [/home/abi/fetcher/tmp/redistensor-0.0.5.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - main [MainThread]: End processing [redistensor]: success
+[2024-05-13 12:02:42] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.1.1.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.2.0.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - main [MainThread]: End processing [llm-taxi]: success
+[2024-05-13 12:02:42] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.0.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.1.tar.gz]
+[2024-05-13 12:02:42] INFO root fetch - main [MainThread]: End processing [onion-clustering]: success
+[2024-05-13 12:02:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.51-py3-none-any.whl.zip]
+[2024-05-13 12:02:43] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.52-py3-none-any.whl.zip]
+[2024-05-13 12:02:43] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-13 12:02:43] INFO root fetch - main [MainThread]: Store serial: [23181247]
