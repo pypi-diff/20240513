@@ -13836,3 +13836,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:36:01] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.5.tar.gz]
 [2024-05-13 11:36:01] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
 [2024-05-13 11:36:01] INFO root fetch - main [MainThread]: Store serial: [23180936]
+[2024-05-13 11:38:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180936]
+[2024-05-13 11:38:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 11:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: st-signedUrl-uploader
+[2024-05-13 11:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: power-grid-model
+[2024-05-13 11:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stonfi
+[2024-05-13 11:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbs-installer
+[2024-05-13 11:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: storybuilder
+[2024-05-13 11:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-aws-apigateway
+[2024-05-13 11:38:10] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-13 11:38:10] INFO root fetch - processPackages [pytest-aws-apigateway]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-13 11:38:10] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.13]
+[2024-05-13 11:38:10] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.2] Old Version: [1.1]
+[2024-05-13 11:38:10] WARNING root fetch - processPackages [stonfi]: Skipping, unable to determine old version
+[2024-05-13 11:38:10] INFO root fetch - main [MainThread]: End processing [stonfi] error
+[2024-05-13 11:38:10] INFO root fetch - processPackages [pbs-installer]: New version: [2024.4.24] Old Version: [2024.4.1]
+[2024-05-13 11:38:10] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/ee/c5/3de38654f63d529a8f766e2cd4cba802721b61c526f3284575e60f3c82c3/st_signedurl_uploader-1.1.tar.gz
+[2024-05-13 11:38:10] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-13 11:38:10] INFO root fetch - processPackages [pytest-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/64/46/1e24a162adbbceb932500b493aca668ee60cd12e310282535c16a1eabfd1/pytest_aws_apigateway-0.1.0.tar.gz
+[2024-05-13 11:38:10] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/93/20/b12e1e66ba4c48d154b2ad6918cb47aadef60fa231fdca0a2bec0ce3bfdd/storybuilder-0.0.13-py3-none-any.whl
+[2024-05-13 11:38:10] INFO root fetch - processPackages [pbs-installer]: Downloading https://files.pythonhosted.org/packages/bc/51/1a535bbbb7d2fbd30853c62a26d5d66c2d77549b750d9f3fce4f238ae3e1/pbs_installer-2024.4.1.tar.gz
+[2024-05-13 11:38:11] INFO root fetch - processPackages [pytest-aws-apigateway]: Downloading https://files.pythonhosted.org/packages/2b/83/5208e3105dbd35dca7940d6d187dd1297d72d819db2a095d178ba246ccd9/pytest_aws_apigateway-0.2.0.tar.gz
+[2024-05-13 11:38:11] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-13 11:38:11] INFO root fetch - processPackages [pytest-aws-apigateway]: executing diffoscope
+[2024-05-13 11:38:11] INFO root fetch - processPackages [pytest-aws-apigateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aws_apigateway-0.1.0.tar.gz tmp/pytest_aws_apigateway-0.2.0.tar.gz --markdown 20240513/p/pytest-aws-apigateway/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-13 11:38:11] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/91/b1/3949f0342c2a242356c30f2a9df7019e214e90eb872e842565c05e4373d5/st_signedurl_uploader-1.2.tar.gz
+[2024-05-13 11:38:11] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-13 11:38:11] INFO root fetch - processPackages [pbs-installer]: Downloading https://files.pythonhosted.org/packages/08/ae/4cd6d39bd365ac440f6a0f11e3614356fc280a8717b22a36f73f139f59b4/pbs_installer-2024.4.24.tar.gz
+[2024-05-13 11:38:11] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-13 11:38:11] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240513/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-13 11:38:11] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-13 11:38:11] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.13-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240513/s/storybuilder/0.0.13-0.0.9/README.md --exclude *.pyd
+[2024-05-13 11:38:11] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-13 11:38:11] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.1.tar.gz tmp/st_signedurl_uploader-1.2.tar.gz --markdown 20240513/s/st-signedUrl-uploader/1.1-1.2/README.md --exclude *.pyd
+[2024-05-13 11:38:11] INFO root fetch - processPackages [pbs-installer]: executing diffoscope
+[2024-05-13 11:38:11] INFO root fetch - processPackages [pbs-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbs_installer-2024.4.1.tar.gz tmp/pbs_installer-2024.4.24.tar.gz --markdown 20240513/p/pbs-installer/2024.4.1-2024.4.24/README.md --exclude *.pyd
+[2024-05-13 11:38:12] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.13-py3-none-any.whl.zip]
+[2024-05-13 11:38:12] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-13 11:38:12] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-13 11:38:12] INFO root fetch - processPackages [pytest-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aws_apigateway-0.1.0.tar.gz]
+[2024-05-13 11:38:12] INFO root fetch - processPackages [pytest-aws-apigateway]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aws_apigateway-0.2.0.tar.gz]
+[2024-05-13 11:38:12] INFO root fetch - main [MainThread]: End processing [pytest-aws-apigateway]: success
+[2024-05-13 11:38:12] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.1.tar.gz]
+[2024-05-13 11:38:12] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.tar.gz]
+[2024-05-13 11:38:12] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-13 11:38:12] INFO root fetch - processPackages [pbs-installer]: Remove: archive file [/home/abi/fetcher/tmp/pbs_installer-2024.4.1.tar.gz]
+[2024-05-13 11:38:12] INFO root fetch - processPackages [pbs-installer]: Remove: archive file [/home/abi/fetcher/tmp/pbs_installer-2024.4.24.tar.gz]
+[2024-05-13 11:38:12] INFO root fetch - main [MainThread]: End processing [pbs-installer]: success
+[2024-05-13 11:38:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-13 11:38:13] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-13 11:38:13] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-13 11:38:13] INFO root fetch - main [MainThread]: Store serial: [23180960]
