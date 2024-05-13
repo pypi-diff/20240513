@@ -9463,3 +9463,26 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:29:44] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-13 08:29:44] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-13 08:29:44] INFO root fetch - main [MainThread]: Store serial: [23178771]
+[2024-05-13 08:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178771]
+[2024-05-13 08:31:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 08:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-05-13 08:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antiliturgistz
+[2024-05-13 08:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vespacli
+[2024-05-13 08:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: binpolar
+[2024-05-13 08:31:54] WARNING root fetch - processPackages [binpolar]: Skipping, unable to determine old version
+[2024-05-13 08:31:54] INFO root fetch - main [MainThread]: End processing [binpolar] error
+[2024-05-13 08:31:54] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-13 08:31:54] INFO root fetch - processPackages [vespacli]: New version: [8.340.17] Old Version: [8.331.34]
+[2024-05-13 08:31:54] WARNING root fetch - processPackages [antiliturgistz]: Skipping, unable to determine old version
+[2024-05-13 08:31:54] INFO root fetch - main [MainThread]: End processing [antiliturgistz] error
+[2024-05-13 08:31:54] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-13 08:31:54] INFO root fetch - processPackages [vespacli]: Downloading https://files.pythonhosted.org/packages/0e/60/31f3506cb78f0ed419b71b9f038b0e6bddc9cf3b7aa17967246e5a7c6264/vespacli-8.331.34.tar.gz
+[2024-05-13 08:31:54] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-13 08:31:54] WARNING root fetch - processPackages [vespacli]: Skipping package: exceeds size limit 49214069>=10485760
+[2024-05-13 08:31:54] INFO root fetch - main [MainThread]: End processing [vespacli] error
+[2024-05-13 08:31:54] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-13 08:31:54] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240513/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-13 08:31:55] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-13 08:31:55] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-13 08:31:55] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-13 08:31:55] INFO root fetch - main [MainThread]: Store serial: [23178787]
