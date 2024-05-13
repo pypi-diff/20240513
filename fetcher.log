@@ -1886,3 +1886,36 @@
 [2024-05-13 02:38:35] INFO root fetch - processPackages [webflask]: Remove: archive file [/home/abi/fetcher/tmp/webflask-0.4.5.tar.gz]
 [2024-05-13 02:38:35] INFO root fetch - main [MainThread]: End processing [webflask]: success
 [2024-05-13 02:38:35] INFO root fetch - main [MainThread]: Store serial: [23175261]
+[2024-05-13 02:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175261]
+[2024-05-13 02:40:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 02:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywlroots
+[2024-05-13 02:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlmarlbot-plugin
+[2024-05-13 02:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpg-utils
+[2024-05-13 02:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmbench
+[2024-05-13 02:40:44] WARNING root fetch - processPackages [rlmarlbot-plugin]: Skipping, unable to determine old version
+[2024-05-13 02:40:44] INFO root fetch - main [MainThread]: End processing [rlmarlbot-plugin] error
+[2024-05-13 02:40:44] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.8] Old Version: [5.0.7]
+[2024-05-13 02:40:44] INFO root fetch - processPackages [pywlroots]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 02:40:44] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 02:40:44] INFO root fetch - processPackages [pywlroots]: Downloading https://files.pythonhosted.org/packages/04/2c/2b8e1598804aa4ec0236ed5f3d40015f6ec0a85212d8b0bd36ae7728b017/pywlroots-0.2.8.tar.gz
+[2024-05-13 02:40:44] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/cb/33/88e1afe128603b3d10221d27e3d3b6ea1dcc38a0518a14467d171189dff5/cpg-utils-5.0.7.tar.gz
+[2024-05-13 02:40:44] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-05-13 02:40:44] INFO root fetch - processPackages [pywlroots]: Downloading https://files.pythonhosted.org/packages/ed/3b/374aff31c2aaf618ea34e82553e535a849c409d10bc7b6a61a595cad01f6/pywlroots-0.2.9.tar.gz
+[2024-05-13 02:40:44] INFO root fetch - processPackages [pywlroots]: executing diffoscope
+[2024-05-13 02:40:44] INFO root fetch - processPackages [pywlroots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywlroots-0.2.8.tar.gz tmp/pywlroots-0.2.9.tar.gz --markdown 20240513/p/pywlroots/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 02:40:44] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/f3/43/7b4f502e4125bec08062233784b2aee624684ce7ae60e982c5d3e564c3a0/cpg-utils-5.0.8.tar.gz
+[2024-05-13 02:40:44] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-05-13 02:40:44] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.7.tar.gz tmp/cpg-utils-5.0.8.tar.gz --markdown 20240513/c/cpg-utils/5.0.7-5.0.8/README.md --exclude *.pyd
+[2024-05-13 02:40:44] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-05-13 02:40:44] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-05-13 02:40:44] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240513/f/fmbench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 02:40:45] INFO root fetch - processPackages [pywlroots]: Remove: archive file [/home/abi/fetcher/tmp/pywlroots-0.2.8.tar.gz]
+[2024-05-13 02:40:45] INFO root fetch - processPackages [pywlroots]: Remove: archive file [/home/abi/fetcher/tmp/pywlroots-0.2.9.tar.gz]
+[2024-05-13 02:40:45] INFO root fetch - main [MainThread]: End processing [pywlroots]: success
+[2024-05-13 02:40:45] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.7.tar.gz]
+[2024-05-13 02:40:45] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.8.tar.gz]
+[2024-05-13 02:40:45] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-05-13 02:40:45] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-05-13 02:40:45] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-05-13 02:40:45] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-05-13 02:40:45] INFO root fetch - main [MainThread]: Store serial: [23175279]
