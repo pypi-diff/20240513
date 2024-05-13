@@ -12701,3 +12701,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:54:05] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-13 10:54:05] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-13 10:54:05] INFO root fetch - main [MainThread]: Store serial: [23180371]
+[2024-05-13 10:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180371]
+[2024-05-13 10:56:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 10:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-core-package
+[2024-05-13 10:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tempit
+[2024-05-13 10:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rid-kit
+[2024-05-13 10:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RupineLib
+[2024-05-13 10:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MethodicConfigurator
+[2024-05-13 10:56:14] INFO root fetch - processPackages [test-core-package]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 10:56:14] INFO root fetch - processPackages [RupineLib]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 10:56:14] INFO root fetch - processPackages [tempit]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 10:56:14] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/9f/0e/2d690d58e7cab934645b77a9076130a7a1363e81d5116935d86e973b9db3/test_core_package-0.0.6.tar.gz
+[2024-05-13 10:56:14] INFO root fetch - processPackages [MethodicConfigurator]: New version: [0.4.0] Old Version: [0.2.2]
+[2024-05-13 10:56:14] INFO root fetch - processPackages [rid-kit]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-13 10:56:14] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/88/b4/c7023129be5d7b11fba487387a44a9d988964ddc148aafc1b16d07555978/RupineLib-0.0.3.tar.gz
+[2024-05-13 10:56:14] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/e8/59/40fbd695928eb169629ecd5241a01508dd8e73d0ade7947ff5766001c138/tempit-0.1.2.tar.gz
+[2024-05-13 10:56:14] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/8d/50/9525de5ad9dbe082e76ff4f11c2649a150bb59fefc8b3842c84a806b9152/rid-kit-0.6.3.tar.gz
+[2024-05-13 10:56:14] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/4d/a9/86d7abd77a51b9ec332ec7c2f7cda7ffb9691f035f702859c72f9f84b02e/methodicconfigurator-0.2.2.tar.gz
+[2024-05-13 10:56:15] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/c2/ff/39b99319570a12398bd60ef3d1eb2166e044e4c74cb620d1a427737c7076/test_core_package-0.0.7.tar.gz
+[2024-05-13 10:56:15] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/e4/4e/b029bb5d17810d4af6f93dff00f798c613592e42769efa5d7b4ba6071ac2/RupineLib-0.0.4.tar.gz
+[2024-05-13 10:56:15] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/17/3e/aa5f496430ad6a8be80a4bf16ca9a3bd9b4d9e6def4297d4c2f2073aa322/tempit-0.1.3.tar.gz
+[2024-05-13 10:56:15] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-13 10:56:15] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.0.6.tar.gz tmp/test_core_package-0.0.7.tar.gz --markdown 20240513/t/test-core-package/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 10:56:15] INFO root fetch - processPackages [RupineLib]: executing diffoscope
+[2024-05-13 10:56:15] INFO root fetch - processPackages [RupineLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RupineLib-0.0.3.tar.gz tmp/RupineLib-0.0.4.tar.gz --markdown 20240513/R/RupineLib/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 10:56:15] INFO root fetch - processPackages [tempit]: executing diffoscope
+[2024-05-13 10:56:15] INFO root fetch - processPackages [tempit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempit-0.1.2.tar.gz tmp/tempit-0.1.3.tar.gz --markdown 20240513/t/tempit/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 10:56:15] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/fe/14/770feeffaa2bd663afef0bfb21d28e5bf287a94b719afed8b596504dd6f3/methodicconfigurator-0.4.0.tar.gz
+[2024-05-13 10:56:15] INFO root fetch - processPackages [rid-kit]: Downloading https://files.pythonhosted.org/packages/1f/0d/ec55b87562705c4cb8c32359a505f49393057beb495f3a63666fca7c083b/rid-kit-0.6.4.tar.gz
+[2024-05-13 10:56:15] INFO root fetch - processPackages [MethodicConfigurator]: executing diffoscope
+[2024-05-13 10:56:15] INFO root fetch - processPackages [MethodicConfigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodicconfigurator-0.2.2.tar.gz tmp/methodicconfigurator-0.4.0.tar.gz --markdown 20240513/M/MethodicConfigurator/0.2.2-0.4.0/README.md --exclude *.pyd
+[2024-05-13 10:56:15] INFO root fetch - processPackages [rid-kit]: executing diffoscope
+[2024-05-13 10:56:15] INFO root fetch - processPackages [rid-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rid-kit-0.6.3.tar.gz tmp/rid-kit-0.6.4.tar.gz --markdown 20240513/r/rid-kit/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-13 10:56:16] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.6.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.7.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-13 10:56:16] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.2.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.3.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - main [MainThread]: End processing [tempit]: success
+[2024-05-13 10:56:16] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.3.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.4.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - main [MainThread]: End processing [RupineLib]: success
+[2024-05-13 10:56:16] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.2.2.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.4.0.tar.gz]
+[2024-05-13 10:56:16] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
+[2024-05-13 10:56:17] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.3.tar.gz]
+[2024-05-13 10:56:17] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.4.tar.gz]
+[2024-05-13 10:56:17] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
+[2024-05-13 10:56:17] INFO root fetch - main [MainThread]: Store serial: [23180385]
