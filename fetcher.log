@@ -3565,3 +3565,36 @@
 [2024-05-13 04:41:52] INFO root fetch - main [MainThread]: End processing [clipzyme]: success
 [2024-05-13 04:41:52] INFO root fetch - main [MainThread]: End processing [bytegg]: success
 [2024-05-13 04:41:52] INFO root fetch - main [MainThread]: Store serial: [23176027]
+[2024-05-13 04:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176027]
+[2024-05-13 04:44:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fun-things
+[2024-05-13 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LanusStats
+[2024-05-13 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-financial-report
+[2024-05-13 04:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paganicallyz
+[2024-05-13 04:44:01] INFO root fetch - processPackages [fun-things]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-13 04:44:01] INFO root fetch - processPackages [LanusStats]: New version: [1.5.0] Old Version: [1.3.1]
+[2024-05-13 04:44:01] WARNING root fetch - processPackages [paganicallyz]: Skipping, unable to determine old version
+[2024-05-13 04:44:01] INFO root fetch - main [MainThread]: End processing [paganicallyz] error
+[2024-05-13 04:44:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-13 04:44:01] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/0e/ae/5af23b8ec3c191dabcf4793eba7526ad965517d015eb8b06d5306796f2e4/fun_things-0.2.0.tar.gz
+[2024-05-13 04:44:01] INFO root fetch - processPackages [LanusStats]: Downloading https://files.pythonhosted.org/packages/b9/b8/ea31637e1315d353d78d4519a28fe48ff5cc240a3b2b2ba584439a961ef3/LanusStats-1.3.1.tar.gz
+[2024-05-13 04:44:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/45/ea/e9bbe4361e6e9f4b4bb48f4d100a160bb8e1de5a147ab2fd1ee65f06b509/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl
+[2024-05-13 04:44:01] INFO root fetch - processPackages [fun-things]: Downloading https://files.pythonhosted.org/packages/76/03/7bdc49a2d5de4bdfc6de6442f4c415001a168c5715fe9bcdeff5e15bc835/fun_things-0.3.0.tar.gz
+[2024-05-13 04:44:01] INFO root fetch - processPackages [LanusStats]: Downloading https://files.pythonhosted.org/packages/34/6f/ab763f519073752ec9801f758c9d41b9a42d5973e3a8c851a2a20e1ca322/LanusStats-1.5.0.tar.gz
+[2024-05-13 04:44:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-13 04:44:01] INFO root fetch - processPackages [fun-things]: executing diffoscope
+[2024-05-13 04:44:01] INFO root fetch - processPackages [fun-things]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fun_things-0.2.0.tar.gz tmp/fun_things-0.3.0.tar.gz --markdown 20240513/f/fun-things/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-13 04:44:01] INFO root fetch - processPackages [LanusStats]: executing diffoscope
+[2024-05-13 04:44:01] INFO root fetch - processPackages [LanusStats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LanusStats-1.3.1.tar.gz tmp/LanusStats-1.5.0.tar.gz --markdown 20240513/L/LanusStats/1.3.1-1.5.0/README.md --exclude *.pyd
+[2024-05-13 04:44:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-13 04:44:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-account-financial-report/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-13 04:44:02] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.2.0.tar.gz]
+[2024-05-13 04:44:02] INFO root fetch - processPackages [fun-things]: Remove: archive file [/home/abi/fetcher/tmp/fun_things-0.3.0.tar.gz]
+[2024-05-13 04:44:02] INFO root fetch - main [MainThread]: End processing [fun-things]: success
+[2024-05-13 04:44:02] INFO root fetch - processPackages [LanusStats]: Remove: archive file [/home/abi/fetcher/tmp/LanusStats-1.3.1.tar.gz]
+[2024-05-13 04:44:02] INFO root fetch - processPackages [LanusStats]: Remove: archive file [/home/abi/fetcher/tmp/LanusStats-1.5.0.tar.gz]
+[2024-05-13 04:44:02] INFO root fetch - main [MainThread]: End processing [LanusStats]: success
+[2024-05-13 04:44:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-13 04:44:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-13 04:44:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-13 04:44:02] INFO root fetch - main [MainThread]: Store serial: [23176040]
