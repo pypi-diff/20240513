@@ -5295,3 +5295,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:21:17] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
 [2024-05-13 06:21:17] INFO root fetch - main [MainThread]: End processing [finter]: success
 [2024-05-13 06:21:17] INFO root fetch - main [MainThread]: Store serial: [23176836]
+[2024-05-13 06:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176836]
+[2024-05-13 06:23:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 06:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-intl-en
+[2024-05-13 06:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strophanhinz
+[2024-05-13 06:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bisos.facter
+[2024-05-13 06:23:26] INFO root fetch - processPackages [bisos.facter]: New version: [0.8] Old Version: [0.7]
+[2024-05-13 06:23:27] INFO root fetch - processPackages [bisos.facter]: Downloading https://files.pythonhosted.org/packages/a7/86/02562f995d5cf86c2c5f627fab706a9e94288f766dc25a5eb862915751b3/bisos.facter-0.7.tar.gz
+[2024-05-13 06:23:27] WARNING root fetch - processPackages [strophanhinz]: Skipping, unable to determine old version
+[2024-05-13 06:23:27] INFO root fetch - main [MainThread]: End processing [strophanhinz] error
+[2024-05-13 06:23:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2024-05-13 06:23:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2024-05-13 06:23:27] INFO root fetch - processPackages [bisos.facter]: Downloading https://files.pythonhosted.org/packages/52/5b/6f6f0b839e0e4f84f9aa5e62c55c498512af345b46a10d9797cd63523067/bisos.facter-0.8.tar.gz
+[2024-05-13 06:23:27] INFO root fetch - processPackages [bisos.facter]: executing diffoscope
+[2024-05-13 06:23:27] INFO root fetch - processPackages [bisos.facter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisos.facter-0.7.tar.gz tmp/bisos.facter-0.8.tar.gz --markdown 20240513/b/bisos.facter/0.7-0.8/README.md --exclude *.pyd
+[2024-05-13 06:23:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2024-05-13 06:23:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2024-05-13 06:23:27] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/README.md --exclude *.pyd
+[2024-05-13 06:23:28] INFO root fetch - processPackages [bisos.facter]: Remove: archive file [/home/abi/fetcher/tmp/bisos.facter-0.7.tar.gz]
+[2024-05-13 06:23:28] INFO root fetch - processPackages [bisos.facter]: Remove: archive file [/home/abi/fetcher/tmp/bisos.facter-0.8.tar.gz]
+[2024-05-13 06:23:28] INFO root fetch - main [MainThread]: End processing [bisos.facter]: success
+[2024-05-13 06:23:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2024-05-13 06:23:29] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2024-05-13 06:23:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2024-05-13 06:23:29] INFO root fetch - main [MainThread]: Store serial: [23176850]
