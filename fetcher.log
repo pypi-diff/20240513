@@ -2225,3 +2225,39 @@
 [2024-05-13 03:07:09] INFO root fetch - processPackages [qctrl-release-noter]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_release_noter-0.9.0.tar.gz]
 [2024-05-13 03:07:09] INFO root fetch - main [MainThread]: End processing [qctrl-release-noter]: success
 [2024-05-13 03:07:09] INFO root fetch - main [MainThread]: Store serial: [23175402]
+[2024-05-13 03:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175402]
+[2024-05-13 03:09:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 03:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odin
+[2024-05-13 03:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spawnz
+[2024-05-13 03:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dismo
+[2024-05-13 03:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wlkata-mirobot-Virtual
+[2024-05-13 03:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monetisesz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 03:09:18] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/cd/f4/b8652bc0b9c06eb2771d23fdfd14030eab532416f827de149ea5b78c0b0a/wlkata_mirobot_Virtual-1.1.0.tar.gz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 03:09:18] WARNING root fetch - processPackages [monetisesz]: Skipping, unable to determine old version
+[2024-05-13 03:09:18] INFO root fetch - main [MainThread]: End processing [monetisesz] error
+[2024-05-13 03:09:18] WARNING root fetch - processPackages [spawnz]: Skipping, unable to determine old version
+[2024-05-13 03:09:18] INFO root fetch - main [MainThread]: End processing [spawnz] error
+[2024-05-13 03:09:18] INFO root fetch - processPackages [odin]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-13 03:09:18] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [odin]: Downloading https://files.pythonhosted.org/packages/c0/6a/8632e883494fda34c935a3fbb242170da87b30a75e6074bd2287efdc8ecc/odin-2.8.1.tar.gz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/85/f7/792fcb911970b33941a4a7a7b119d32399d687b3952a8e7ccf78dd66052f/wlkata_mirobot_Virtual-1.1.1.tar.gz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-13 03:09:18] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.1.0.tar.gz tmp/wlkata_mirobot_Virtual-1.1.1.tar.gz --markdown 20240513/w/wlkata-mirobot-Virtual/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 03:09:18] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [odin]: Downloading https://files.pythonhosted.org/packages/0f/2f/11e797d553685ebeb5a1b97bd2e6c8a5df97724166af2b22888fa0289b88/odin-2.9.0.tar.gz
+[2024-05-13 03:09:18] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-05-13 03:09:18] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240513/d/dismo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 03:09:19] INFO root fetch - processPackages [odin]: executing diffoscope
+[2024-05-13 03:09:19] INFO root fetch - processPackages [odin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odin-2.8.1.tar.gz tmp/odin-2.9.0.tar.gz --markdown 20240513/o/odin/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-13 03:09:19] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.0.tar.gz]
+[2024-05-13 03:09:19] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.1.tar.gz]
+[2024-05-13 03:09:19] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-13 03:09:19] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-05-13 03:09:19] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-05-13 03:09:19] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-05-13 03:09:19] INFO root fetch - processPackages [odin]: Remove: archive file [/home/abi/fetcher/tmp/odin-2.8.1.tar.gz]
+[2024-05-13 03:09:19] INFO root fetch - processPackages [odin]: Remove: archive file [/home/abi/fetcher/tmp/odin-2.9.0.tar.gz]
+[2024-05-13 03:09:19] INFO root fetch - main [MainThread]: End processing [odin]: success
+[2024-05-13 03:09:19] INFO root fetch - main [MainThread]: Store serial: [23175419]
