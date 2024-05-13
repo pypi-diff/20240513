@@ -11717,3 +11717,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:15:13] INFO root fetch - processPackages [helloai]: Remove: archive file [/home/abi/fetcher/tmp/helloai-2.2-py3-none-any.whl.zip]
 [2024-05-13 10:15:13] INFO root fetch - main [MainThread]: End processing [helloai]: success
 [2024-05-13 10:15:13] INFO root fetch - main [MainThread]: Store serial: [23179805]
+[2024-05-13 10:17:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179805]
+[2024-05-13 10:17:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 10:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erlab
+[2024-05-13 10:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaide
+[2024-05-13 10:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hoagyz
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: New version: [4.1] Old Version: [4.0]
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: Downloading https://files.pythonhosted.org/packages/8b/5e/8317c445f86583accd3a58b23c743b826eaef17ed9d535139f1d91cec515/zaide-4.0.tar.gz
+[2024-05-13 10:17:24] INFO root fetch - processPackages [erlab]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-05-13 10:17:24] WARNING root fetch - processPackages [hoagyz]: Skipping, unable to determine old version
+[2024-05-13 10:17:24] INFO root fetch - main [MainThread]: End processing [hoagyz] error
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: Downloading https://files.pythonhosted.org/packages/47/18/6e0a5c005d2cc2e1337b01e445e60bee1463b0a11f21f62aecd4961e74a7/zaide-4.1.tar.gz
+[2024-05-13 10:17:24] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/35/0a/367883007a8d83f90eade3beec97079dbb94322cc5d55654839d84c4c1c5/erlab-2.4.2.tar.gz
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: executing diffoscope
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaide-4.0.tar.gz tmp/zaide-4.1.tar.gz --markdown 20240513/z/zaide/4.0-4.1/README.md --exclude *.pyd
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: Remove: archive file [/home/abi/fetcher/tmp/zaide-4.0.tar.gz]
+[2024-05-13 10:17:24] INFO root fetch - processPackages [zaide]: Remove: archive file [/home/abi/fetcher/tmp/zaide-4.1.tar.gz]
+[2024-05-13 10:17:24] INFO root fetch - main [MainThread]: End processing [zaide]: success
+[2024-05-13 10:17:25] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/b4/0a/96ac9c59457c379015a6f6bb5f40559f8753b89c02a5b0e1bb062c1cbc19/erlab-2.5.0.tar.gz
+[2024-05-13 10:17:26] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-13 10:17:26] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.4.2.tar.gz tmp/erlab-2.5.0.tar.gz --markdown 20240513/e/erlab/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-05-13 10:17:28] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.4.2.tar.gz]
+[2024-05-13 10:17:28] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.0.tar.gz]
+[2024-05-13 10:17:28] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-13 10:17:28] INFO root fetch - main [MainThread]: Store serial: [23179811]
