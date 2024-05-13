@@ -10226,3 +10226,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:12:38] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.5.tar.gz]
 [2024-05-13 09:12:38] INFO root fetch - main [MainThread]: End processing [i2cylib]: success
 [2024-05-13 09:12:38] INFO root fetch - main [MainThread]: Store serial: [23179163]
+[2024-05-13 09:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179163]
+[2024-05-13 09:14:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezside
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homopolymerizez
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youless-api
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-order-line-chained-move
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 09:14:48] WARNING root fetch - processPackages [odoo-addon-sale-order-line-chained-move]: Skipping, unable to determine old version
+[2024-05-13 09:14:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-chained-move] error
+[2024-05-13 09:14:48] WARNING root fetch - processPackages [homopolymerizez]: Skipping, unable to determine old version
+[2024-05-13 09:14:48] INFO root fetch - main [MainThread]: End processing [homopolymerizez] error
+[2024-05-13 09:14:48] INFO root fetch - processPackages [youless-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-05-13 09:14:48] INFO root fetch - processPackages [youless-api]: Downloading https://files.pythonhosted.org/packages/26/3f/7b757df98c3367b7b2cc876b3ef0c22f5ac0b40ce54e3264229a55e29ca7/youless_api-1.1.0.tar.gz
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-05-13 09:14:48] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240513/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 09:14:49] INFO root fetch - processPackages [youless-api]: Downloading https://files.pythonhosted.org/packages/cd/cd/bd789814b548ad746d4cd03f0d9d64695573487f71dd8204d560edb797f4/youless_api-1.1.1.tar.gz
+[2024-05-13 09:14:49] INFO root fetch - processPackages [youless-api]: executing diffoscope
+[2024-05-13 09:14:49] INFO root fetch - processPackages [youless-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youless_api-1.1.0.tar.gz tmp/youless_api-1.1.1.tar.gz --markdown 20240513/y/youless-api/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 09:14:49] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-05-13 09:14:49] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-05-13 09:14:49] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-05-13 09:14:49] INFO root fetch - processPackages [youless-api]: Remove: archive file [/home/abi/fetcher/tmp/youless_api-1.1.0.tar.gz]
+[2024-05-13 09:14:49] INFO root fetch - processPackages [youless-api]: Remove: archive file [/home/abi/fetcher/tmp/youless_api-1.1.1.tar.gz]
+[2024-05-13 09:14:49] INFO root fetch - main [MainThread]: End processing [youless-api]: success
+[2024-05-13 09:14:49] INFO root fetch - main [MainThread]: Store serial: [23179177]
