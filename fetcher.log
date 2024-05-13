@@ -14125,3 +14125,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:44:55] INFO root fetch - processPackages [djangoldp-notification]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_notification-3.1.4.tar.gz]
 [2024-05-13 11:44:55] INFO root fetch - main [MainThread]: End processing [djangoldp-notification]: success
 [2024-05-13 11:44:55] INFO root fetch - main [MainThread]: Store serial: [23181050]
+[2024-05-13 11:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181050]
+[2024-05-13 11:47:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steam-sdk
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Hakware-py
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odd-great-expectations
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owimetadatabase-preprocessor
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openagents-node-sdk
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wtfutil
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mobio-mail-client-sdk-test
+[2024-05-13 11:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ShadowFinder
+[2024-05-13 11:47:05] WARNING root fetch - processPackages [ShadowFinder]: Skipping, unable to determine old version
+[2024-05-13 11:47:05] INFO root fetch - main [MainThread]: End processing [ShadowFinder] error
+[2024-05-13 11:47:05] INFO root fetch - processPackages [openagents-node-sdk]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-13 11:47:05] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 11:47:05] INFO root fetch - processPackages [owimetadatabase-preprocessor]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-13 11:47:05] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/c7/c9/395a747719d94a61e3d99cbdc15144436d72a2f67f96cd985e4e1fb1342f/openagents_node_sdk-0.3.2.tar.gz
+[2024-05-13 11:47:05] WARNING root fetch - processPackages [Hakware-py]: Skipping, unable to determine old version
+[2024-05-13 11:47:05] INFO root fetch - processPackages [odd-great-expectations]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 11:47:05] INFO root fetch - main [MainThread]: End processing [Hakware-py] error
+[2024-05-13 11:47:05] INFO root fetch - processPackages [wtfutil]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 11:47:05] INFO root fetch - processPackages [steam-sdk]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-13 11:47:05] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: Downloading https://files.pythonhosted.org/packages/fc/2d/8f79ca24e811640f4a3fb3400a1cbe414c4ddb09e3aee232361ce5ff23ee/mobio-mail-client-sdk-test-0.1.8.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-13 11:47:05] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Downloading https://files.pythonhosted.org/packages/f5/f1/7be677659913aa1bfcb5d3459e20b5e5a9f58c80131c334ca974c01ba8f9/owimetadatabase_preprocessor-0.8.1.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/8f/43/51b8b3211af5105e250f6360dc5b415eafd405f0cc3435945bf0fb8d4488/odd_great_expectations-0.2.1.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [openagents-node-sdk]: Downloading https://files.pythonhosted.org/packages/5a/ec/5afbc102fca87daebf73a0214d70eae408b943285014589e892c25d30bfd/openagents_node_sdk-0.3.3.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/ef/a3/5273d96af5f3445ced5ebbd318da18a2f94bec15d595ebe50edfde566236/steam-sdk-2024.5.0.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/c8/7c/e552245f3f74a3b0ce79478c264c39b0b8f680465bf475f5858e0069fcfc/wtfutil-1.0.8-py2.py3-none-any.whl
+[2024-05-13 11:47:05] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: Downloading https://files.pythonhosted.org/packages/94/a4/509e0a0b3b36e85993d6c66ade15c73758bf3dad1eb8ee14c0652b613463/mobio-mail-client-sdk-test-0.1.9.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [openagents-node-sdk]: executing diffoscope
+[2024-05-13 11:47:05] INFO root fetch - processPackages [openagents-node-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openagents_node_sdk-0.3.2.tar.gz tmp/openagents_node_sdk-0.3.3.tar.gz --markdown 20240513/o/openagents-node-sdk/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-13 11:47:05] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: executing diffoscope
+[2024-05-13 11:47:05] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-mail-client-sdk-test-0.1.8.tar.gz tmp/mobio-mail-client-sdk-test-0.1.9.tar.gz --markdown 20240513/m/mobio-mail-client-sdk-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 11:47:05] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Downloading https://files.pythonhosted.org/packages/0a/23/2fd5e57e05c273be32865279d042eca2b8fc6e1be6b547684c5ded80381c/owimetadatabase_preprocessor-0.8.2.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [odd-great-expectations]: Downloading https://files.pythonhosted.org/packages/0c/4d/ce1ff274878cf20142cae9ccc16931fd33518e3c726cdac8b3175e7e4740/odd_great_expectations-0.2.2.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/d3/e3/32ab37ead8c5f270bc12882df0d032d75b2aedd0cd96c60b325b66f91739/steam-sdk-2024.5.1.tar.gz
+[2024-05-13 11:47:05] INFO root fetch - processPackages [owimetadatabase-preprocessor]: executing diffoscope
+[2024-05-13 11:47:05] INFO root fetch - processPackages [owimetadatabase-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owimetadatabase_preprocessor-0.8.1.tar.gz tmp/owimetadatabase_preprocessor-0.8.2.tar.gz --markdown 20240513/o/owimetadatabase-preprocessor/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-13 11:47:06] INFO root fetch - processPackages [wtfutil]: Downloading https://files.pythonhosted.org/packages/7c/17/9753ffecedc6f31909b872005fdc062bfb889f54193d4a2cb1463cabc305/wtfutil-1.0.9-py2.py3-none-any.whl
+[2024-05-13 11:47:06] INFO root fetch - processPackages [odd-great-expectations]: executing diffoscope
+[2024-05-13 11:47:06] INFO root fetch - processPackages [odd-great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_great_expectations-0.2.1.tar.gz tmp/odd_great_expectations-0.2.2.tar.gz --markdown 20240513/o/odd-great-expectations/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 11:47:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-13 11:47:06] INFO root fetch - processPackages [wtfutil]: executing diffoscope
+[2024-05-13 11:47:06] INFO root fetch - processPackages [wtfutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip --markdown 20240513/w/wtfutil/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 11:47:06] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2024-05-13 11:47:06] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2024.5.0.tar.gz tmp/steam-sdk-2024.5.1.tar.gz --markdown 20240513/s/steam-sdk/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-13 11:47:06] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-13 11:47:06] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240513/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-13 11:47:06] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.3.2.tar.gz]
+[2024-05-13 11:47:06] INFO root fetch - processPackages [openagents-node-sdk]: Remove: archive file [/home/abi/fetcher/tmp/openagents_node_sdk-0.3.3.tar.gz]
+[2024-05-13 11:47:06] INFO root fetch - main [MainThread]: End processing [openagents-node-sdk]: success
+[2024-05-13 11:47:06] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-mail-client-sdk-test-0.1.8.tar.gz]
+[2024-05-13 11:47:06] INFO root fetch - processPackages [mobio-mail-client-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-mail-client-sdk-test-0.1.9.tar.gz]
+[2024-05-13 11:47:06] INFO root fetch - main [MainThread]: End processing [mobio-mail-client-sdk-test]: success
+[2024-05-13 11:47:06] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Remove: archive file [/home/abi/fetcher/tmp/owimetadatabase_preprocessor-0.8.1.tar.gz]
+[2024-05-13 11:47:06] INFO root fetch - processPackages [owimetadatabase-preprocessor]: Remove: archive file [/home/abi/fetcher/tmp/owimetadatabase_preprocessor-0.8.2.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - main [MainThread]: End processing [owimetadatabase-preprocessor]: success
+[2024-05-13 11:47:07] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.8-py2.py3-none-any.whl.zip]
+[2024-05-13 11:47:07] INFO root fetch - processPackages [wtfutil]: Remove: archive file [/home/abi/fetcher/tmp/wtfutil-1.0.9-py2.py3-none-any.whl.zip]
+[2024-05-13 11:47:07] INFO root fetch - main [MainThread]: End processing [wtfutil]: success
+[2024-05-13 11:47:07] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.2.1.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - processPackages [odd-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/odd_great_expectations-0.2.2.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - main [MainThread]: End processing [odd-great-expectations]: success
+[2024-05-13 11:47:07] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.0.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.1.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2024-05-13 11:47:07] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-13 11:47:07] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-13 11:47:07] INFO root fetch - main [MainThread]: Store serial: [23181077]
