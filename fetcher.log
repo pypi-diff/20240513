@@ -11906,3 +11906,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:26:17] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
 [2024-05-13 10:26:17] INFO root fetch - main [MainThread]: End processing [pipez]: success
 [2024-05-13 10:26:17] INFO root fetch - main [MainThread]: Store serial: [23179922]
+[2024-05-13 10:28:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179922]
+[2024-05-13 10:28:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 10:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DocsChat
+[2024-05-13 10:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscout
+[2024-05-13 10:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RupineLib
+[2024-05-13 10:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revealsz
+[2024-05-13 10:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: binarysearchfile
+[2024-05-13 10:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpuhunt
+[2024-05-13 10:28:26] WARNING root fetch - processPackages [RupineLib]: Skipping, unable to determine old version
+[2024-05-13 10:28:26] INFO root fetch - main [MainThread]: End processing [RupineLib] error
+[2024-05-13 10:28:26] WARNING root fetch - processPackages [DocsChat]: Skipping, unable to determine old version
+[2024-05-13 10:28:26] INFO root fetch - main [MainThread]: End processing [DocsChat] error
+[2024-05-13 10:28:26] INFO root fetch - processPackages [webscout]: New version: [2.2b0] Old Version: [2.2]
+[2024-05-13 10:28:26] INFO root fetch - processPackages [gpuhunt]: New version: [0.0.9rc3] Old Version: [0.0.9rc2]
+[2024-05-13 10:28:26] WARNING root fetch - processPackages [binarysearchfile]: Skipping, unable to determine old version
+[2024-05-13 10:28:26] INFO root fetch - main [MainThread]: End processing [binarysearchfile] error
+[2024-05-13 10:28:26] WARNING root fetch - processPackages [revealsz]: Skipping, unable to determine old version
+[2024-05-13 10:28:26] INFO root fetch - main [MainThread]: End processing [revealsz] error
+[2024-05-13 10:28:26] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/02/2a/c3d408c4204a3c1610ee462ef53d0e72e1b03f0db1f038a7cf60d6a7251a/webscout-2.2.tar.gz
+[2024-05-13 10:28:26] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/34/16/55e82735631251920ca0a3d4bd3ea7f498433980fe10d7f36631170fde18/gpuhunt-0.0.9rc2.tar.gz
+[2024-05-13 10:28:26] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/a8/74/1c685f1680a7479ac1065f6833476e77e8be8dfd8099d8615341a74cfde8/webscout-2.2b0.tar.gz
+[2024-05-13 10:28:26] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-13 10:28:26] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-2.2.tar.gz tmp/webscout-2.2b0.tar.gz --markdown 20240513/w/webscout/2.2-2.2b0/README.md --exclude *.pyd
+[2024-05-13 10:28:26] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/2b/d7/8b344c81c8e253c8fe9370f1d34be369887e5d43dcb069efa917e3c73239/gpuhunt-0.0.9rc3.tar.gz
+[2024-05-13 10:28:27] INFO root fetch - processPackages [gpuhunt]: executing diffoscope
+[2024-05-13 10:28:27] INFO root fetch - processPackages [gpuhunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpuhunt-0.0.9rc2.tar.gz tmp/gpuhunt-0.0.9rc3.tar.gz --markdown 20240513/g/gpuhunt/0.0.9rc2-0.0.9rc3/README.md --exclude *.pyd
+[2024-05-13 10:28:30] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.2.tar.gz]
+[2024-05-13 10:28:30] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.2b0.tar.gz]
+[2024-05-13 10:28:30] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-13 10:28:30] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc2.tar.gz]
+[2024-05-13 10:28:30] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc3.tar.gz]
+[2024-05-13 10:28:30] INFO root fetch - main [MainThread]: End processing [gpuhunt]: success
+[2024-05-13 10:28:30] INFO root fetch - main [MainThread]: Store serial: [23179942]
