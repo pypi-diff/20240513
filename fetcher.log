@@ -15507,3 +15507,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:37:10] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.21-py3-none-any.whl.zip]
 [2024-05-13 12:37:10] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
 [2024-05-13 12:37:10] INFO root fetch - main [MainThread]: Store serial: [23181602]
+[2024-05-13 12:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181602]
+[2024-05-13 12:39:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaiah-toolkit
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tanu
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ziptimezone
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartboiler
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orca_nw_lib
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-resolver
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stonefish-license-manager
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ektools
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skypilot-nightly
+[2024-05-13 12:39:18] INFO root fetch - processPackages [tanu]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [model-resolver]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240512] Old Version: [1.0.0.dev20240511]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/73/b2/cb282ba669f19b563fc7e5725eddecde173ab617b48db24805fdd9183273/tanu-0.1.4.tar.gz
+[2024-05-13 12:39:18] INFO root fetch - processPackages [orca_nw_lib]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-13 12:39:18] WARNING root fetch - processPackages [gaiah-toolkit]: Skipping, unable to determine old version
+[2024-05-13 12:39:18] INFO root fetch - main [MainThread]: End processing [gaiah-toolkit] error
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ektools]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [stonefish-license-manager]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [ziptimezone]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-13 12:39:18] INFO root fetch - processPackages [model-resolver]: Downloading https://files.pythonhosted.org/packages/96/a8/431130c8581d05d2950e89bc5499c72f0001e301732b12179defd405acdd/model_resolver-0.1.0.tar.gz
+[2024-05-13 12:39:18] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/41/4f/dc68cb4ca9e19881916621ddc47d443ab97c60be920ff111eb683689823d/skypilot_nightly-1.0.0.dev20240511.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [orca_nw_lib]: Downloading https://files.pythonhosted.org/packages/2f/2d/754ee2bc7d4d5d2baba39cc15fb0f6e3c2c336d68a1832148e1417b17f3f/orca_nw_lib-1.3.7.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ektools]: Downloading https://files.pythonhosted.org/packages/bc/43/17e38b44845b5cf3d2189b46f860b2701409820854ae88570cf8bc48399f/ektools-0.1.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/f0/ad/d3b5caaabd5ba7980f74302ca088a8e3bd1014597f27058b0440408ca15f/stonefish_license_manager-0.4.5-py3-none-any.whl
+[2024-05-13 12:39:19] INFO root fetch - processPackages [model-resolver]: Downloading https://files.pythonhosted.org/packages/77/cd/ac7d08f3d98a2ddf7f4cb6b140ac00596c0a1cd2ba40c77e5b177a18ee3d/model_resolver-0.2.0.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/c1/a4/ca8b617acfe061cb2dc7c7926312067c2dbb0d805fba9603235e5909660a/ziptimezone-1.0.4.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/50/96/62a223ecf0287b9a3bc90b677178db06150f9221969942b3ada8c565792b/tanu-0.1.4.1.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [model-resolver]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [model-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_resolver-0.1.0.tar.gz tmp/model_resolver-0.2.0.tar.gz --markdown 20240513/m/model-resolver/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.4.tar.gz tmp/tanu-0.1.4.1.tar.gz --markdown 20240513/t/tanu/0.1.4-0.1.4.1/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240513/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/fc/6a/7f6441fe2501a6d3c1ab25e96d2874458e09c2bc9fa0cd8b926a30a3299e/skypilot_nightly-1.0.0.dev20240512.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [orca_nw_lib]: Downloading https://files.pythonhosted.org/packages/03/03/55355652cab14af5b970d9910434ba1b2dfdd8caa7743638a1389343ccf3/orca_nw_lib-1.3.8.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ektools]: Downloading https://files.pythonhosted.org/packages/02/d1/7c18a23b44c7f68c2cb6be7a308dc65031c5eaea8a98d4d694aa9c2d7675/ektools-0.1.1.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/52/60/120a8b9413c34abb8beb2874a6015624a5ca8ff2fb1d01ba40834d1bc780/stonefish_license_manager-0.4.6-py3-none-any.whl
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/e4/6d/579809248a50d14c181156921438d69020e1eda6ce8a1399842ec80082b2/ziptimezone-1.1.0.tar.gz
+[2024-05-13 12:39:19] INFO root fetch - processPackages [orca_nw_lib]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [orca_nw_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orca_nw_lib-1.3.7.tar.gz tmp/orca_nw_lib-1.3.8.tar.gz --markdown 20240513/o/orca_nw_lib/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ektools]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ektools-0.1.tar.gz tmp/ektools-0.1.1.tar.gz --markdown 20240513/e/ektools/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240511.tar.gz tmp/skypilot_nightly-1.0.0.dev20240512.tar.gz --markdown 20240513/s/skypilot-nightly/1.0.0.dev20240511-1.0.0.dev20240512/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.0.4.tar.gz tmp/ziptimezone-1.1.0.tar.gz --markdown 20240513/z/ziptimezone/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-13 12:39:19] INFO root fetch - processPackages [stonefish-license-manager]: executing diffoscope
+[2024-05-13 12:39:19] INFO root fetch - processPackages [stonefish-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip --markdown 20240513/s/stonefish-license-manager/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-13 12:39:20] INFO root fetch - processPackages [model-resolver]: Remove: archive file [/home/abi/fetcher/tmp/model_resolver-0.1.0.tar.gz]
+[2024-05-13 12:39:20] INFO root fetch - processPackages [model-resolver]: Remove: archive file [/home/abi/fetcher/tmp/model_resolver-0.2.0.tar.gz]
+[2024-05-13 12:39:20] INFO root fetch - main [MainThread]: End processing [model-resolver]: success
+[2024-05-13 12:39:20] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.tar.gz]
+[2024-05-13 12:39:20] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.1.tar.gz]
+[2024-05-13 12:39:20] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-13 12:39:20] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-13 12:39:20] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-13 12:39:20] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-13 12:39:21] INFO root fetch - processPackages [ektools]: Remove: archive file [/home/abi/fetcher/tmp/ektools-0.1.tar.gz]
+[2024-05-13 12:39:21] INFO root fetch - processPackages [ektools]: Remove: archive file [/home/abi/fetcher/tmp/ektools-0.1.1.tar.gz]
+[2024-05-13 12:39:21] INFO root fetch - main [MainThread]: End processing [ektools]: success
+[2024-05-13 12:39:21] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip]
+[2024-05-13 12:39:21] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip]
+[2024-05-13 12:39:21] INFO root fetch - main [MainThread]: End processing [stonefish-license-manager]: success
+[2024-05-13 12:39:21] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.0.4.tar.gz]
+[2024-05-13 12:39:21] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.0.tar.gz]
+[2024-05-13 12:39:21] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-05-13 12:39:21] INFO root fetch - processPackages [orca_nw_lib]: Remove: archive file [/home/abi/fetcher/tmp/orca_nw_lib-1.3.7.tar.gz]
+[2024-05-13 12:39:21] INFO root fetch - processPackages [orca_nw_lib]: Remove: archive file [/home/abi/fetcher/tmp/orca_nw_lib-1.3.8.tar.gz]
+[2024-05-13 12:39:21] INFO root fetch - main [MainThread]: End processing [orca_nw_lib]: success
+[2024-05-13 12:39:22] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240511.tar.gz]
+[2024-05-13 12:39:22] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240512.tar.gz]
+[2024-05-13 12:39:22] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-13 12:39:22] INFO root fetch - main [MainThread]: Store serial: [23181629]
