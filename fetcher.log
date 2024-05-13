@@ -12432,3 +12432,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:44:01] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.8.tar.gz]
 [2024-05-13 10:44:01] INFO root fetch - main [MainThread]: End processing [livestyled]: success
 [2024-05-13 10:44:01] INFO root fetch - main [MainThread]: Store serial: [23180215]
+[2024-05-13 10:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180215]
+[2024-05-13 10:46:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartboiler
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eo-learn
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eo-grow
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygradflow
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multicallable
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuzu
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: copasi-basico
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2024-05-13 10:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: soma-integ
+[2024-05-13 10:46:10] INFO root fetch - processPackages [soma-integ]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [eo-grow]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [copasi-basico]: New version: [0.9] Old Version: [0.8]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [eo-learn]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [multicallable]: New version: [6.0.3] Old Version: [6.0.2]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/e1/d1/aa03fa962f9fca3814191de0d8d014c6d4109299beb9581e11aeddd22d0e/soma_integ-0.1.4.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [kuzu]: New version: [0.4.2.dev6] Old Version: [0.4.2.dev5]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240513] Old Version: [2.17.0.dev20240512]
+[2024-05-13 10:46:10] INFO root fetch - processPackages [eo-grow]: Downloading https://files.pythonhosted.org/packages/3d/2e/47799dd741b65b13a46ae696dc866cb07cb9c973963da1229baca84483d4/eo_grow-1.7.8.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [eo-learn]: Downloading https://files.pythonhosted.org/packages/6f/a3/5b6641613b076933c7f56a2d74fc495a511ccbbdffd54a6c66b65f49ba9e/eo_learn-1.5.3.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [multicallable]: Downloading https://files.pythonhosted.org/packages/12/eb/4cde6f264688a8b38cb81681e389632541552fb10b2cd491d0f691246433/multicallable-6.0.2.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/2c/06/652f88bbab57586dfe4ca1bc14ba17e1e81fcf9425df961eb214afb88eae/copasi_basico-0.8.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ad/6c/af3869666ad3e4780bd643e3d4980dc814951db00a68d9c43db37b874f66/tf_nightly_cpu-2.17.0.dev20240512-cp39-cp39-win_amd64.whl
+[2024-05-13 10:46:10] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/c9/cd/665348333ac9ccff9fab462b97e99366978ae814a9f0f328f9ecd08fffb4/kuzu-0.4.2.dev5.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/59/a5/15ce0c632233bd51030d3d1dcbe192c0f20c7556c9a10e6b1efa66994873/soma_integ-0.1.5.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-13 10:46:10] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240513/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-13 10:46:10] INFO root fetch - processPackages [soma-integ]: executing diffoscope
+[2024-05-13 10:46:10] INFO root fetch - processPackages [soma-integ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soma_integ-0.1.4.tar.gz tmp/soma_integ-0.1.5.tar.gz --markdown 20240513/s/soma-integ/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 10:46:10] INFO root fetch - processPackages [eo-grow]: Downloading https://files.pythonhosted.org/packages/8c/ca/65dc3431f5a74639e7ed9f1d4023d0d4b0a52a6ee4b756aab02b45cca564/eo_grow-1.7.9.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [multicallable]: Downloading https://files.pythonhosted.org/packages/bd/16/5cbc756f4b0d420176b477449b49d7b29963d24dda2752dad78c84b5a161/multicallable-6.0.3.tar.gz
+[2024-05-13 10:46:10] INFO root fetch - processPackages [eo-learn]: Downloading https://files.pythonhosted.org/packages/fb/09/0178522fc590d80910886fa40553b60373d6919424451ba8ac8f1aecd4c4/eo_learn-1.5.4.tar.gz
+[2024-05-13 10:46:11] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/69/3e/4cdfa458ef7e98bff8febf8266cc2fff83a927be6f8593ad22f83ba762f5/tf_nightly_cpu-2.17.0.dev20240513-cp39-cp39-win_amd64.whl
+[2024-05-13 10:46:11] INFO root fetch - processPackages [copasi-basico]: Downloading https://files.pythonhosted.org/packages/ad/c1/8141b5ce634d2722b7cc85f199f86f66248f1b3621113604bdfd49c590ab/copasi_basico-0.9.tar.gz
+[2024-05-13 10:46:11] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-13 10:46:11] INFO root fetch - processPackages [multicallable]: executing diffoscope
+[2024-05-13 10:46:11] INFO root fetch - processPackages [multicallable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicallable-6.0.2.tar.gz tmp/multicallable-6.0.3.tar.gz --markdown 20240513/m/multicallable/6.0.2-6.0.3/README.md --exclude *.pyd
+[2024-05-13 10:46:11] INFO root fetch - processPackages [eo-learn]: executing diffoscope
+[2024-05-13 10:46:11] INFO root fetch - processPackages [eo-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_learn-1.5.3.tar.gz tmp/eo_learn-1.5.4.tar.gz --markdown 20240513/e/eo-learn/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-13 10:46:11] INFO root fetch - processPackages [eo-grow]: executing diffoscope
+[2024-05-13 10:46:11] INFO root fetch - processPackages [eo-grow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_grow-1.7.8.tar.gz tmp/eo_grow-1.7.9.tar.gz --markdown 20240513/e/eo-grow/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-13 10:46:11] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-13 10:46:11] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240513/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-13 10:46:11] INFO root fetch - processPackages [copasi-basico]: executing diffoscope
+[2024-05-13 10:46:11] INFO root fetch - processPackages [copasi-basico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copasi_basico-0.8.tar.gz tmp/copasi_basico-0.9.tar.gz --markdown 20240513/c/copasi-basico/0.8-0.9/README.md --exclude *.pyd
+[2024-05-13 10:46:11] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-13 10:46:11] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240512-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip --markdown 20240513/t/tf-nightly-cpu/2.17.0.dev20240512-2.17.0.dev20240513/README.md --exclude *.pyd
+[2024-05-13 10:46:11] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a9/f4/db1151cb9463fc404337f6d7934a2130725b994b14c9da117616fda3d294/kuzu-0.4.2.dev6.tar.gz
+[2024-05-13 10:46:11] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.1.4.tar.gz]
+[2024-05-13 10:46:11] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.1.5.tar.gz]
+[2024-05-13 10:46:11] INFO root fetch - main [MainThread]: End processing [soma-integ]: success
+[2024-05-13 10:46:12] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-13 10:46:12] INFO root fetch - processPackages [multicallable]: Remove: archive file [/home/abi/fetcher/tmp/multicallable-6.0.2.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - processPackages [multicallable]: Remove: archive file [/home/abi/fetcher/tmp/multicallable-6.0.3.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - main [MainThread]: End processing [multicallable]: success
+[2024-05-13 10:46:12] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-13 10:46:12] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.2.dev5.tar.gz tmp/kuzu-0.4.2.dev6.tar.gz --markdown 20240513/k/kuzu/0.4.2.dev5-0.4.2.dev6/README.md --exclude *.pyd
+[2024-05-13 10:46:12] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240512-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 10:46:12] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip]
+[2024-05-13 10:46:12] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-13 10:46:12] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-13 10:46:12] INFO root fetch - processPackages [eo-learn]: Remove: archive file [/home/abi/fetcher/tmp/eo_learn-1.5.3.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - processPackages [eo-learn]: Remove: archive file [/home/abi/fetcher/tmp/eo_learn-1.5.4.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - main [MainThread]: End processing [eo-learn]: success
+[2024-05-13 10:46:12] INFO root fetch - processPackages [eo-grow]: Remove: archive file [/home/abi/fetcher/tmp/eo_grow-1.7.8.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - processPackages [eo-grow]: Remove: archive file [/home/abi/fetcher/tmp/eo_grow-1.7.9.tar.gz]
+[2024-05-13 10:46:12] INFO root fetch - main [MainThread]: End processing [eo-grow]: success
+[2024-05-13 10:46:13] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.8.tar.gz]
+[2024-05-13 10:46:13] INFO root fetch - processPackages [copasi-basico]: Remove: archive file [/home/abi/fetcher/tmp/copasi_basico-0.9.tar.gz]
+[2024-05-13 10:46:13] INFO root fetch - main [MainThread]: End processing [copasi-basico]: success
+[2024-05-13 10:46:20] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev5.tar.gz]
+[2024-05-13 10:46:20] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev6.tar.gz]
+[2024-05-13 10:46:20] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-13 10:46:20] INFO root fetch - main [MainThread]: Store serial: [23180275]
