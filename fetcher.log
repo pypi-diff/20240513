@@ -22948,3 +22948,71 @@ EOFError: EOF read where object expected
 [2024-05-13 16:38:02] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.68.tar.gz]
 [2024-05-13 16:38:02] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2024-05-13 16:38:02] INFO root fetch - main [MainThread]: Store serial: [23184991]
+[2024-05-13 16:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184991]
+[2024-05-13 16:40:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OMTF
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HakObserverpy
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harness-py-sdk
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MaestroOps
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tomwer
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metatensor-core
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: my-simple-package
+[2024-05-13 16:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IvmInstruments
+[2024-05-13 16:40:13] INFO root fetch - processPackages [OMTF]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-13 16:40:13] INFO root fetch - processPackages [IvmInstruments]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-13 16:40:13] INFO root fetch - processPackages [harness-py-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 16:40:13] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240512.15.20.110517] Old Version: [20240512.11.56.204571]
+[2024-05-13 16:40:13] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/1e/3a/b183f3d4507848226edde9bb6584143f2a67864030d9f8081017a7196647/omtf-1.0.1.tar.gz
+[2024-05-13 16:40:13] INFO root fetch - processPackages [metatensor-core]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-13 16:40:13] WARNING root fetch - processPackages [HakObserverpy]: Skipping, unable to determine old version
+[2024-05-13 16:40:13] INFO root fetch - processPackages [MaestroOps]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 16:40:13] INFO root fetch - main [MainThread]: End processing [HakObserverpy] error
+[2024-05-13 16:40:13] WARNING root fetch - processPackages [my-simple-package]: Skipping, unable to determine old version
+[2024-05-13 16:40:13] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/60/34/017fc5700119f546715c88caa875577fa4a3d7aec42d777dca4f96076717/ivminstruments-0.2.2.tar.gz
+[2024-05-13 16:40:13] INFO root fetch - main [MainThread]: End processing [my-simple-package] error
+[2024-05-13 16:40:13] INFO root fetch - processPackages [tomwer]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-13 16:40:13] INFO root fetch - processPackages [harness-py-sdk]: Downloading https://files.pythonhosted.org/packages/48/d9/fe3457e065eda42ed684147f254ea39c843b02248471403d6fb85ee49762/harness_py_sdk-0.0.8.tar.gz
+[2024-05-13 16:40:13] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/6f/b9/a12efe90908bc01f4786263608c00c54104f892fae0a424c342750d1dd8b/certora-cli-alpha-master-20240512.11.56.204571.tar.gz
+[2024-05-13 16:40:13] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14511941>=10485760
+[2024-05-13 16:40:13] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-13 16:40:13] INFO root fetch - processPackages [MaestroOps]: Downloading https://files.pythonhosted.org/packages/90/19/0fb4c66ecf9d275208b76e9b78f40b5ac6ae9b7e689c5b56421af883b2c2/maestroops-0.9.0.tar.gz
+[2024-05-13 16:40:13] INFO root fetch - processPackages [metatensor-core]: Downloading https://files.pythonhosted.org/packages/19/00/7821c96d3af9c6107898bc3d6d3b95f4ef3307c376d3bc9dc825052c0dbd/metatensor_core-0.1.6.tar.gz
+[2024-05-13 16:40:13] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/be/91/1ab3961b84831b8fcfd7cce17a0cc334ef3231b6326f5e311f6f12a0397d/tomwer-1.3.8.tar.gz
+[2024-05-13 16:40:13] INFO root fetch - processPackages [harness-py-sdk]: Downloading https://files.pythonhosted.org/packages/18/7d/875f4033b4af291d82163b75e8d0cf9e107f6663a0a2c4cb7f0e84cc5605/harness_py_sdk-0.0.9.tar.gz
+[2024-05-13 16:40:14] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/98/9c/eb1cb0ef7e03472fbee767444c66077a281948dd2988a43d9e81bfcdc1a4/ivminstruments-0.2.4.tar.gz
+[2024-05-13 16:40:14] INFO root fetch - processPackages [harness-py-sdk]: executing diffoscope
+[2024-05-13 16:40:14] INFO root fetch - processPackages [harness-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harness_py_sdk-0.0.8.tar.gz tmp/harness_py_sdk-0.0.9.tar.gz --markdown 20240513/h/harness-py-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 16:40:14] INFO root fetch - processPackages [IvmInstruments]: executing diffoscope
+[2024-05-13 16:40:14] INFO root fetch - processPackages [IvmInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivminstruments-0.2.2.tar.gz tmp/ivminstruments-0.2.4.tar.gz --markdown 20240513/I/IvmInstruments/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-13 16:40:14] INFO root fetch - processPackages [OMTF]: Downloading https://files.pythonhosted.org/packages/3c/71/46cccec3794ede4ead529c1a6887dc280a8c71d4cbaf3d9852ce65944a78/omtf-1.0.2.tar.gz
+[2024-05-13 16:40:14] INFO root fetch - processPackages [MaestroOps]: Downloading https://files.pythonhosted.org/packages/89/27/7b016a26cc9979b539c66a86594c8a44926d846de8716b77f99b7f470f6c/maestroops-0.9.1.tar.gz
+[2024-05-13 16:40:14] INFO root fetch - processPackages [metatensor-core]: Downloading https://files.pythonhosted.org/packages/4a/eb/c700f7b05e78871a826731941e1b7cbace038b43cf70780f2586b4699634/metatensor_core-0.1.7.tar.gz
+[2024-05-13 16:40:14] INFO root fetch - processPackages [MaestroOps]: executing diffoscope
+[2024-05-13 16:40:14] INFO root fetch - processPackages [MaestroOps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestroops-0.9.0.tar.gz tmp/maestroops-0.9.1.tar.gz --markdown 20240513/M/MaestroOps/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 16:40:14] INFO root fetch - processPackages [metatensor-core]: executing diffoscope
+[2024-05-13 16:40:14] INFO root fetch - processPackages [metatensor-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metatensor_core-0.1.6.tar.gz tmp/metatensor_core-0.1.7.tar.gz --markdown 20240513/m/metatensor-core/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-13 16:40:14] INFO root fetch - processPackages [OMTF]: executing diffoscope
+[2024-05-13 16:40:14] INFO root fetch - processPackages [OMTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omtf-1.0.1.tar.gz tmp/omtf-1.0.2.tar.gz --markdown 20240513/O/OMTF/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-13 16:40:14] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/ivminstruments-0.2.2.tar.gz]
+[2024-05-13 16:40:14] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/ivminstruments-0.2.4.tar.gz]
+[2024-05-13 16:40:14] INFO root fetch - main [MainThread]: End processing [IvmInstruments]: success
+[2024-05-13 16:40:14] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/6d/57/c0bb17c90932b118b724c80808df82b9601c2ad2a905fcabed87d587240b/tomwer-1.3.9.tar.gz
+[2024-05-13 16:40:15] INFO root fetch - processPackages [harness-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harness_py_sdk-0.0.8.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - processPackages [harness-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harness_py_sdk-0.0.9.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - main [MainThread]: End processing [harness-py-sdk]: success
+[2024-05-13 16:40:15] INFO root fetch - processPackages [MaestroOps]: Remove: archive file [/home/abi/fetcher/tmp/maestroops-0.9.0.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - processPackages [MaestroOps]: Remove: archive file [/home/abi/fetcher/tmp/maestroops-0.9.1.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - main [MainThread]: End processing [MaestroOps]: success
+[2024-05-13 16:40:15] INFO root fetch - processPackages [metatensor-core]: Remove: archive file [/home/abi/fetcher/tmp/metatensor_core-0.1.6.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - processPackages [metatensor-core]: Remove: archive file [/home/abi/fetcher/tmp/metatensor_core-0.1.7.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - main [MainThread]: End processing [metatensor-core]: success
+[2024-05-13 16:40:15] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2024-05-13 16:40:15] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.3.8.tar.gz tmp/tomwer-1.3.9.tar.gz --markdown 20240513/t/tomwer/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-13 16:40:15] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.1.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - processPackages [OMTF]: Remove: archive file [/home/abi/fetcher/tmp/omtf-1.0.2.tar.gz]
+[2024-05-13 16:40:15] INFO root fetch - main [MainThread]: End processing [OMTF]: success
+[2024-05-13 16:40:18] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.8.tar.gz]
+[2024-05-13 16:40:18] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.9.tar.gz]
+[2024-05-13 16:40:18] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2024-05-13 16:40:18] INFO root fetch - main [MainThread]: Store serial: [23185038]
