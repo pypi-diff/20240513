@@ -14050,3 +14050,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:42:43] INFO root fetch - processPackages [slint]: Remove: archive file [/home/abi/fetcher/tmp/slint-1.6.0a8.tar.gz]
 [2024-05-13 11:42:43] INFO root fetch - main [MainThread]: End processing [slint]: success
 [2024-05-13 11:42:43] INFO root fetch - main [MainThread]: Store serial: [23181019]
+[2024-05-13 11:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181019]
+[2024-05-13 11:44:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlpage
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlpage
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlpage
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ndbioimage
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysql-repo
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: racs-tools
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: confusabilityz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gasconsumption
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-notification
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [gasconsumption]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/78/4c/ec29a5bb91b66a572273c4c8e4b699f9cace8e18006dc39de812d498efd3/sqlpage-0.0.5-py3-none-any.whl
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/78/4c/ec29a5bb91b66a572273c4c8e4b699f9cace8e18006dc39de812d498efd3/sqlpage-0.0.5-py3-none-any.whl
+[2024-05-13 11:44:53] INFO root fetch - processPackages [pysql-repo]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [racs-tools]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-05-13 11:44:53] WARNING root fetch - processPackages [confusabilityz]: Skipping, unable to determine old version
+[2024-05-13 11:44:53] INFO root fetch - main [MainThread]: End processing [confusabilityz] error
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ndbioimage]: New version: [2024.5.0] Old Version: [2024.4.8]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [djangoldp-notification]: New version: [3.1.4] Old Version: [3.1.3]
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/64/10/c1427e1cf10497564cd0e6d38adc86d133cb4776b4c7007237d6695d077f/sqlpage-0.0.6-py3-none-any.whl
+[2024-05-13 11:44:53] INFO root fetch - processPackages [gasconsumption]: Downloading https://files.pythonhosted.org/packages/e6/8c/bfc5f96eea2b56c181188512a9daf7a486a4ba89c1de9b29782b298c7b4b/gasconsumption-0.0.6.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [racs-tools]: Downloading https://files.pythonhosted.org/packages/2b/4d/ad09bb54bea34773551e6037b470d498c65c306b3ddd49b8ce8506703734/racs_tools-3.0.4.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/ae/66/cfa8e06e7f713b4459b30939158ad5ec487b8f5d21074e369f6d88ae0231/ndbioimage-2024.4.8.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/1d/2c/0241d74acaf55f6c9e87da9aacf43efa6dfa77b603fd61c128cdf1773d96/pysql-repo-0.6.2.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.5-py3-none-any.whl.zip tmp/sqlpage-0.0.6-py3-none-any.whl.zip --markdown 20240513/s/sqlpage/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/04/a2/5b8d755343681b8e3b016b7cf0c1e4d5514674ab68fcdb503619c68307d8/sqlpage-0.0.6.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [djangoldp-notification]: Downloading https://files.pythonhosted.org/packages/c3/af/351943eae3d995fd878917aa9d783451ba1bed73717a1aed05db570bf416/djangoldp_notification-3.1.3.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: Downloading https://files.pythonhosted.org/packages/2c/0a/4ad98bd235439ecadd45c3047c0b1f071a75ece97d9de6d799d268518121/sqlpage-0.1.0.tar.gz
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:44:53] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.5-py3-none-any.whl.zip tmp/sqlpage-0.0.6.tar.gz --markdown 20240513/s/sqlpage/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [sqlpage]: executing diffoscope
+[2024-05-13 11:44:54] INFO root fetch - processPackages [sqlpage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlpage-0.0.6-py3-none-any.whl.zip tmp/sqlpage-0.1.0.tar.gz --markdown 20240513/s/sqlpage/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [gasconsumption]: Downloading https://files.pythonhosted.org/packages/90/0f/04ad75372d132b4dc2923c94592bbb643bedb162bf6a8c680701c69415a1/gasconsumption-0.0.7.tar.gz
+[2024-05-13 11:44:54] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/12/ee/129e546fab467fd13ecd3b8e815f9da900ddb63122aa16c557ef771b9892/pysql-repo-0.6.3.tar.gz
+[2024-05-13 11:44:54] INFO root fetch - processPackages [racs-tools]: Downloading https://files.pythonhosted.org/packages/ee/3a/8ee0d6a7beb17030a8fdac55e42b8921fa9558bc701e154912d81bb788c0/racs_tools-3.0.5.tar.gz
+[2024-05-13 11:44:54] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/5f/bf/990b5adc610c9ce5348607e93639712f10da10e145702596d60f37901a8a/ndbioimage-2024.5.0.tar.gz
+[2024-05-13 11:44:54] INFO root fetch - processPackages [gasconsumption]: executing diffoscope
+[2024-05-13 11:44:54] INFO root fetch - processPackages [gasconsumption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gasconsumption-0.0.6.tar.gz tmp/gasconsumption-0.0.7.tar.gz --markdown 20240513/g/gasconsumption/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [pysql-repo]: executing diffoscope
+[2024-05-13 11:44:54] INFO root fetch - processPackages [pysql-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql-repo-0.6.2.tar.gz tmp/pysql-repo-0.6.3.tar.gz --markdown 20240513/p/pysql-repo/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [djangoldp-notification]: Downloading https://files.pythonhosted.org/packages/a0/25/e8c9496157d8a775be4566cde60447a50b053290eb133665967ad82504ac/djangoldp_notification-3.1.4.tar.gz
+[2024-05-13 11:44:54] INFO root fetch - processPackages [ndbioimage]: executing diffoscope
+[2024-05-13 11:44:54] INFO root fetch - processPackages [ndbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndbioimage-2024.4.8.tar.gz tmp/ndbioimage-2024.5.0.tar.gz --markdown 20240513/n/ndbioimage/2024.4.8-2024.5.0/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [racs-tools]: executing diffoscope
+[2024-05-13 11:44:54] INFO root fetch - processPackages [racs-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racs_tools-3.0.4.tar.gz tmp/racs_tools-3.0.5.tar.gz --markdown 20240513/r/racs-tools/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [djangoldp-notification]: executing diffoscope
+[2024-05-13 11:44:54] INFO root fetch - processPackages [djangoldp-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_notification-3.1.3.tar.gz tmp/djangoldp_notification-3.1.4.tar.gz --markdown 20240513/d/djangoldp-notification/3.1.3-3.1.4/README.md --exclude *.pyd
+[2024-05-13 11:44:54] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.5-py3-none-any.whl.zip]
+[2024-05-13 11:44:54] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.6-py3-none-any.whl.zip]
+[2024-05-13 11:44:54] INFO root fetch - main [MainThread]: End processing [sqlpage]: success
+[2024-05-13 11:44:54] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.1.0.tar.gz]
+[2024-05-13 11:44:54] INFO root fetch - main [MainThread]: End processing [sqlpage]: success
+[2024-05-13 11:44:54] INFO root fetch - processPackages [sqlpage]: Remove: archive file [/home/abi/fetcher/tmp/sqlpage-0.0.6.tar.gz]
+[2024-05-13 11:44:54] INFO root fetch - main [MainThread]: End processing [sqlpage]: success
+[2024-05-13 11:44:55] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.6.2.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.6.3.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - main [MainThread]: End processing [pysql-repo]: success
+[2024-05-13 11:44:55] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2024.4.8.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2024.5.0.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - main [MainThread]: End processing [ndbioimage]: success
+[2024-05-13 11:44:55] INFO root fetch - processPackages [gasconsumption]: Remove: archive file [/home/abi/fetcher/tmp/gasconsumption-0.0.6.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - processPackages [gasconsumption]: Remove: archive file [/home/abi/fetcher/tmp/gasconsumption-0.0.7.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - main [MainThread]: End processing [gasconsumption]: success
+[2024-05-13 11:44:55] INFO root fetch - processPackages [racs-tools]: Remove: archive file [/home/abi/fetcher/tmp/racs_tools-3.0.4.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - processPackages [racs-tools]: Remove: archive file [/home/abi/fetcher/tmp/racs_tools-3.0.5.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - main [MainThread]: End processing [racs-tools]: success
+[2024-05-13 11:44:55] INFO root fetch - processPackages [djangoldp-notification]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_notification-3.1.3.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - processPackages [djangoldp-notification]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_notification-3.1.4.tar.gz]
+[2024-05-13 11:44:55] INFO root fetch - main [MainThread]: End processing [djangoldp-notification]: success
+[2024-05-13 11:44:55] INFO root fetch - main [MainThread]: Store serial: [23181050]
