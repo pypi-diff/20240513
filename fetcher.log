@@ -17804,3 +17804,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:00:34] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
 [2024-05-13 14:00:34] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
 [2024-05-13 14:00:34] INFO root fetch - main [MainThread]: Store serial: [23182519]
+[2024-05-13 14:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182519]
+[2024-05-13 14:02:43] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics-rknn
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bk-plugin-framework
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-shopfloor-mobile
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exasol-script-languages-container-tool
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unite-toolbox
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safe-yodaplus-py
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcix
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stnpy
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stnpy
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: akshare
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.152] Old Version: [8.0.151]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [stnpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [stnpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-13 14:02:43] WARNING root fetch - processPackages [odoo-addon-shopfloor-mobile]: Skipping, unable to determine old version
+[2024-05-13 14:02:43] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile]: Start processing: diffusion
+[2024-05-13 14:02:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile] error
+[2024-05-13 14:02:43] INFO root fetch - processPackages [exasol-script-languages-container-tool]: New version: [0.18.3] Old Version: [0.18.2]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [unite-toolbox]: New version: [0.1.8] Old Version: [0.1.6]
+[2024-05-13 14:02:43] WARNING root fetch - processPackages [safe-yodaplus-py]: Skipping, unable to determine old version
+[2024-05-13 14:02:43] INFO root fetch - processPackages [safe-yodaplus-py]: Start processing: subcollateralz
+[2024-05-13 14:02:43] INFO root fetch - main [MainThread]: End processing [safe-yodaplus-py] error
+[2024-05-13 14:02:43] INFO root fetch - processPackages [bk-plugin-framework]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [gcix]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-05-13 14:02:43] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-13 14:02:43] INFO root fetch - processPackages [diffusion]: New version: [6.9.8] Old Version: [6.9.7]
+[2024-05-13 14:02:43] INFO root fetch - processPackages [stnpy]: Downloading https://files.pythonhosted.org/packages/d7/f6/7d3453eef63bba42842836aae60f84fe8f2e50c09e499cbce3e7ed7eedd9/stnpy-0.1.0.tar.gz
+[2024-05-13 14:02:43] INFO root fetch - processPackages [stnpy]: Downloading https://files.pythonhosted.org/packages/d7/f6/7d3453eef63bba42842836aae60f84fe8f2e50c09e499cbce3e7ed7eedd9/stnpy-0.1.0.tar.gz
+[2024-05-13 14:02:44] WARNING root fetch - processPackages [subcollateralz]: Skipping, unable to determine old version
+[2024-05-13 14:02:44] INFO root fetch - processPackages [subcollateralz]: Start processing: upsonic
+[2024-05-13 14:02:44] INFO root fetch - main [MainThread]: End processing [subcollateralz] error
+[2024-05-13 14:02:44] INFO root fetch - processPackages [exasol-script-languages-container-tool]: Downloading https://files.pythonhosted.org/packages/0d/94/a0e0cab50f026e4847a6c1c7367fbbdd5e05774bac34fa1ad2080f76d377/exasol_script_languages_container_tool-0.18.2.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [unite-toolbox]: Downloading https://files.pythonhosted.org/packages/c0/cd/8ed02f7964d34c60fd2eb58cb84525a59e488163d75c560715553e05d4b7/unite_toolbox-0.1.6.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/41/d0/3d65b23775f7e3fb6142c9c0fbde32439014afd04491f685d4cb7a5685fb/bk-plugin-framework-2.2.2.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-13 14:02:44] INFO root fetch - processPackages [gcix]: Downloading https://files.pythonhosted.org/packages/03/8a/0aca0082daa5c48c73425da5d93d84270665f74ae523f2681df890d201f0/gcix-0.0.8.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/9d/21/844392f227b7b049b89a1d52be3ba67d2547956a9d8a0a81e3e8704c1fbd/ultralytics_rknn-8.0.152-py3-none-any.whl
+[2024-05-13 14:02:44] INFO root fetch - processPackages [diffusion]: Downloading https://files.pythonhosted.org/packages/b5/f7/3b98241a271d07e427092acf99de96149d1ec91564d1f6e129c8b558c11f/diffusion-6.9.7-1-py3-none-any.whl
+[2024-05-13 14:02:44] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [unite-toolbox]: Downloading https://files.pythonhosted.org/packages/c4/c0/231ff181af7dd6cc70722dee606715609985421d17cb11e9e4f9dde88828/unite_toolbox-0.1.8.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [exasol-script-languages-container-tool]: Downloading https://files.pythonhosted.org/packages/42/9d/04a5adf8ef5ef30034445315bf30941c790309bffd4c7f4ee3fbddd4477d/exasol_script_languages_container_tool-0.18.3.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-05-13 14:02:44] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip --markdown 20240513/u/ultralytics-rknn/8.0.151-8.0.152/README.md --exclude *.pyd
+[2024-05-13 14:02:44] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-13 14:02:44] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240513/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-13 14:02:44] INFO root fetch - processPackages [bk-plugin-framework]: Downloading https://files.pythonhosted.org/packages/97/6c/48f43de7433bd745951d905de7bcab6a2d709f8238465b51e9d81faa5540/bk-plugin-framework-2.2.3.tar.gz
+[2024-05-13 14:02:44] INFO root fetch - processPackages [unite-toolbox]: executing diffoscope
+[2024-05-13 14:02:44] INFO root fetch - processPackages [unite-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unite_toolbox-0.1.6.tar.gz tmp/unite_toolbox-0.1.8.tar.gz --markdown 20240513/u/unite-toolbox/0.1.6-0.1.8/README.md --exclude *.pyd
+[2024-05-13 14:02:44] INFO root fetch - processPackages [diffusion]: Downloading https://files.pythonhosted.org/packages/a3/f3/cc355c312810551ce706afb72ca87141819d5fc3deaef3c22fcb6b861b31/diffusion-6.9.8-1-py3-none-any.whl
+[2024-05-13 14:02:44] INFO root fetch - processPackages [exasol-script-languages-container-tool]: executing diffoscope
+[2024-05-13 14:02:44] INFO root fetch - processPackages [exasol-script-languages-container-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_script_languages_container_tool-0.18.2.tar.gz tmp/exasol_script_languages_container_tool-0.18.3.tar.gz --markdown 20240513/e/exasol-script-languages-container-tool/0.18.2-0.18.3/README.md --exclude *.pyd
+[2024-05-13 14:02:44] INFO root fetch - processPackages [bk-plugin-framework]: executing diffoscope
+[2024-05-13 14:02:44] INFO root fetch - processPackages [bk-plugin-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-plugin-framework-2.2.2.tar.gz tmp/bk-plugin-framework-2.2.3.tar.gz --markdown 20240513/b/bk-plugin-framework/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-13 14:02:44] INFO root fetch - processPackages [stnpy]: Downloading https://files.pythonhosted.org/packages/b9/aa/48c4662578d574c3ef552ef7c9499f9745bf7bb62962ef9a666b32b62934/stnpy-0.1.1-py3-none-any.whl
+[2024-05-13 14:02:44] INFO root fetch - processPackages [stnpy]: Downloading https://files.pythonhosted.org/packages/b9/aa/48c4662578d574c3ef552ef7c9499f9745bf7bb62962ef9a666b32b62934/stnpy-0.1.1-py3-none-any.whl
+[2024-05-13 14:02:44] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-05-13 14:02:45] INFO root fetch - processPackages [stnpy]: executing diffoscope
+[2024-05-13 14:02:45] INFO root fetch - processPackages [stnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stnpy-0.1.0.tar.gz tmp/stnpy-0.1.1-py3-none-any.whl.zip --markdown 20240513/s/stnpy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 14:02:45] INFO root fetch - processPackages [diffusion]: executing diffoscope
+[2024-05-13 14:02:45] INFO root fetch - processPackages [diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusion-6.9.7-1-py3-none-any.whl.zip tmp/diffusion-6.9.8-1-py3-none-any.whl.zip --markdown 20240513/d/diffusion/6.9.7-6.9.8/README.md --exclude *.pyd
+[2024-05-13 14:02:45] INFO root fetch - processPackages [stnpy]: executing diffoscope
+[2024-05-13 14:02:45] INFO root fetch - processPackages [stnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stnpy-0.1.0.tar.gz tmp/stnpy-0.1.1-py3-none-any.whl.zip --markdown 20240513/s/stnpy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 14:02:45] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-05-13 14:02:45] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240513/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-13 14:02:45] INFO root fetch - processPackages [gcix]: Downloading https://files.pythonhosted.org/packages/8b/a9/cbfe0696e2a2c533d8eaba2a8ef8de6f293452a02ab40a00e66c4bb47cac/gcix-0.0.9.tar.gz
+[2024-05-13 14:02:45] INFO root fetch - processPackages [gcix]: executing diffoscope
+[2024-05-13 14:02:45] INFO root fetch - processPackages [gcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcix-0.0.8.tar.gz tmp/gcix-0.0.9.tar.gz --markdown 20240513/g/gcix/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 14:02:46] INFO root fetch - processPackages [unite-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/unite_toolbox-0.1.6.tar.gz]
+[2024-05-13 14:02:46] INFO root fetch - processPackages [unite-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/unite_toolbox-0.1.8.tar.gz]
+[2024-05-13 14:02:46] INFO root fetch - processPackages [unite-toolbox]: Start processing: ostorlab
+[2024-05-13 14:02:46] INFO root fetch - main [MainThread]: End processing [unite-toolbox]: success
+[2024-05-13 14:02:46] INFO root fetch - processPackages [ostorlab]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 14:02:46] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/dd/d3/8dae0b55fa1c673a94a616f9c1c6a6603f0069d5a2f0f27ca05bddad9cdd/ostorlab-1.0.8.tar.gz
+[2024-05-13 14:02:46] INFO root fetch - processPackages [exasol-script-languages-container-tool]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_tool-0.18.2.tar.gz]
+[2024-05-13 14:02:46] INFO root fetch - processPackages [exasol-script-languages-container-tool]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_tool-0.18.3.tar.gz]
+[2024-05-13 14:02:46] INFO root fetch - main [MainThread]: End processing [exasol-script-languages-container-tool]: success
+[2024-05-13 14:02:46] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.2.2.tar.gz]
+[2024-05-13 14:02:46] INFO root fetch - processPackages [bk-plugin-framework]: Remove: archive file [/home/abi/fetcher/tmp/bk-plugin-framework-2.2.3.tar.gz]
+[2024-05-13 14:02:46] INFO root fetch - main [MainThread]: End processing [bk-plugin-framework]: success
+[2024-05-13 14:02:47] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-05-13 14:02:47] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-05-13 14:02:47] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-05-13 14:02:47] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-05-13 14:02:47] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
+[2024-05-13 14:02:47] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-05-13 14:02:47] INFO root fetch - processPackages [diffusion]: Remove: archive file [/home/abi/fetcher/tmp/diffusion-6.9.7-1-py3-none-any.whl.zip]
+[2024-05-13 14:02:47] INFO root fetch - processPackages [diffusion]: Remove: archive file [/home/abi/fetcher/tmp/diffusion-6.9.8-1-py3-none-any.whl.zip]
+[2024-05-13 14:02:47] INFO root fetch - main [MainThread]: End processing [diffusion]: success
+[2024-05-13 14:02:47] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/5f/8c/c577e3732cafc384d512d4337a00d9f6ab6502735a140a1e656f092a126a/ostorlab-1.0.9.tar.gz
+[2024-05-13 14:02:47] INFO root fetch - processPackages [gcix]: Remove: archive file [/home/abi/fetcher/tmp/gcix-0.0.8.tar.gz]
+[2024-05-13 14:02:47] INFO root fetch - processPackages [gcix]: Remove: archive file [/home/abi/fetcher/tmp/gcix-0.0.9.tar.gz]
+[2024-05-13 14:02:47] INFO root fetch - main [MainThread]: End processing [gcix]: success
+[2024-05-13 14:02:47] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2024-05-13 14:02:47] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-1.0.8.tar.gz tmp/ostorlab-1.0.9.tar.gz --markdown 20240513/o/ostorlab/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 14:02:47] INFO root fetch - processPackages [stnpy]: Remove: archive file [/home/abi/fetcher/tmp/stnpy-0.1.0.tar.gz]
+[2024-05-13 14:02:47] INFO root fetch - processPackages [stnpy]: Remove: archive file [/home/abi/fetcher/tmp/stnpy-0.1.1-py3-none-any.whl.zip]
+[2024-05-13 14:02:47] INFO root fetch - main [MainThread]: End processing [stnpy]: success
+[2024-05-13 14:02:47] INFO root fetch - main [MainThread]: End processing [stnpy]: success
+[2024-05-13 14:02:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-13 14:02:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-13 14:02:48] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-13 14:02:50] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.8.tar.gz]
+[2024-05-13 14:02:50] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.9.tar.gz]
+[2024-05-13 14:02:50] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2024-05-13 14:02:50] INFO root fetch - main [MainThread]: Store serial: [23182560]
