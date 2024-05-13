@@ -10549,3 +10549,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:28:57] INFO root fetch - processPackages [streamlit-date-picker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_date_picker-0.0.3-py3-none-any.whl.zip]
 [2024-05-13 09:28:57] INFO root fetch - main [MainThread]: End processing [streamlit-date-picker]: success
 [2024-05-13 09:28:57] INFO root fetch - main [MainThread]: Store serial: [23179305]
+[2024-05-13 09:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179305]
+[2024-05-13 09:31:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-date-picker
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monopticalz
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wlkata-mirobot-Virtual
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eurmlsdk
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yyxx-game-pkg
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqt-toast-notification
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pms-encoder
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: article-parser
+[2024-05-13 09:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dirigera
+[2024-05-13 09:31:10] INFO root fetch - processPackages [dirigera]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-13 09:31:10] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-13 09:31:10] INFO root fetch - processPackages [streamlit-date-picker]: New version: [0.0.3] Old Version: [0.0.2b6]
+[2024-05-13 09:31:10] INFO root fetch - processPackages [pyqt-toast-notification]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-13 09:31:10] WARNING root fetch - processPackages [monopticalz]: Skipping, unable to determine old version
+[2024-05-13 09:31:10] INFO root fetch - main [MainThread]: End processing [monopticalz] error
+[2024-05-13 09:31:10] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/5b/66/30ba57fb5482e6c0d55c8ab3e1fee97e753dd2d122a5be0f11060493966c/wlkata_mirobot_Virtual-1.1.3.tar.gz
+[2024-05-13 09:31:10] INFO root fetch - processPackages [article-parser]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-13 09:31:10] INFO root fetch - processPackages [streamlit-date-picker]: Downloading https://files.pythonhosted.org/packages/60/a9/e23fb6278cbd094fbb5659ac0873740d8a5295e7692872cc1e2d22adeb3d/streamlit-date-picker-0.0.2b6.tar.gz
+[2024-05-13 09:31:10] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 09:31:10] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.79] Old Version: [0.0.78]
+[2024-05-13 09:31:10] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2024.5.13.1] Old Version: [2024.4.2.1]
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pyqt-toast-notification]: Downloading https://files.pythonhosted.org/packages/fa/ec/0ad132a7103bef479497457d225694de4bd9f3262b43b90804b5c5c21810/pyqt-toast-notification-1.0.0.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/ac/c4/63292b951822294dd69affff18ab52b65c49a3491092736488715385d31d/dirigera-1.1.5.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/0b/ce/63d35b41b73043373429832b1678b4afc5dd805686f0fbae496e9e69ca95/pms_encoder-0.0.5.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/8c/14/b7260d0e748cfbe893fe6437ee4d110e6edbf4eda046bf183dd3a474bea0/eurmlsdk-0.0.78.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/42/a3/8883dc4abb02d61e13cf2094ce414bc6d63e3b9fbe2c2b8e145ec7725044/yyxx_game_pkg-2024.4.2.1.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [article-parser]: Downloading https://files.pythonhosted.org/packages/d1/92/5ee6108793d4eb4c5eb085295c36c902fac53235c57a0e48ecd6c7c77bae/article-parser-1.7.0.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [streamlit-date-picker]: Downloading https://files.pythonhosted.org/packages/78/97/1d90033495aaca02b8d9c19fe661f0b43c75647219b5a8640f256ee5848f/streamlit_date_picker-0.0.3-py3-none-any.whl
+[2024-05-13 09:31:11] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/a0/e8/c258dbac1323b628d81027a507cf4717fd815e5116fda3fb612757428e51/wlkata_mirobot_Virtual-1.1.4-py3-none-any.whl
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pyqt-toast-notification]: Downloading https://files.pythonhosted.org/packages/31/5b/08fd01c3de26bd39fe6ff20dd982900cb82cef15813211ce4435ae8967fe/pyqt-toast-notification-1.1.0.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.1.3.tar.gz tmp/wlkata_mirobot_Virtual-1.1.4-py3-none-any.whl.zip --markdown 20240513/w/wlkata-mirobot-Virtual/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/30/d1/b2e985501d52b3c082fd611c9b8e24d5522ae5bb8ce22e9658a5c974eeaf/dirigera-1.1.6.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/1b/92/6e389047361fb75167d1defb337a7ce683164aa1b6f6fe2f328fe5f992e8/eurmlsdk-0.0.79.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/f6/0e/ecebc566ff5e0abc914942d7823771bdcd583ee887434ef5740d8eeb2bfc/pms_encoder-0.0.6.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [streamlit-date-picker]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [streamlit-date-picker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-date-picker-0.0.2b6.tar.gz tmp/streamlit_date_picker-0.0.3-py3-none-any.whl.zip --markdown 20240513/s/streamlit-date-picker/0.0.2b6-0.0.3/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pyqt-toast-notification]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pyqt-toast-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt-toast-notification-1.0.0.tar.gz tmp/pyqt-toast-notification-1.1.0.tar.gz --markdown 20240513/p/pyqt-toast-notification/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [article-parser]: Downloading https://files.pythonhosted.org/packages/67/a1/eeebb88a0ec9c7ff7656dde8a37ea012befe734511d7f001f7b4e93a5bdf/article-parser-1.7.1.tar.gz
+[2024-05-13 09:31:11] INFO root fetch - processPackages [dirigera]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [dirigera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirigera-1.1.5.tar.gz tmp/dirigera-1.1.6.tar.gz --markdown 20240513/d/dirigera/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.78.tar.gz tmp/eurmlsdk-0.0.79.tar.gz --markdown 20240513/e/eurmlsdk/0.0.78-0.0.79/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.5.tar.gz tmp/pms_encoder-0.0.6.tar.gz --markdown 20240513/p/pms-encoder/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [article-parser]: executing diffoscope
+[2024-05-13 09:31:11] INFO root fetch - processPackages [article-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/article-parser-1.7.0.tar.gz tmp/article-parser-1.7.1.tar.gz --markdown 20240513/a/article-parser/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-13 09:31:11] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/80/33/56510b2e9ca331a2d0c12086252556b7bdbfd7d25b580cfb157f9990b341/yyxx_game_pkg-2024.5.13.1.tar.gz
+[2024-05-13 09:31:12] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2024-05-13 09:31:12] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2024.4.2.1.tar.gz tmp/yyxx_game_pkg-2024.5.13.1.tar.gz --markdown 20240513/y/yyxx-game-pkg/2024.4.2.1-2024.5.13.1/README.md --exclude *.pyd
+[2024-05-13 09:31:12] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.3.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.1.4-py3-none-any.whl.zip]
+[2024-05-13 09:31:12] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-13 09:31:12] INFO root fetch - processPackages [pyqt-toast-notification]: Remove: archive file [/home/abi/fetcher/tmp/pyqt-toast-notification-1.0.0.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - processPackages [pyqt-toast-notification]: Remove: archive file [/home/abi/fetcher/tmp/pyqt-toast-notification-1.1.0.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - main [MainThread]: End processing [pyqt-toast-notification]: success
+[2024-05-13 09:31:12] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.78.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.79.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-13 09:31:12] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.5.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.6.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - main [MainThread]: End processing [dirigera]: success
+[2024-05-13 09:31:12] INFO root fetch - processPackages [article-parser]: Remove: archive file [/home/abi/fetcher/tmp/article-parser-1.7.0.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - processPackages [article-parser]: Remove: archive file [/home/abi/fetcher/tmp/article-parser-1.7.1.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - main [MainThread]: End processing [article-parser]: success
+[2024-05-13 09:31:12] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.5.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.6.tar.gz]
+[2024-05-13 09:31:12] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-13 09:31:13] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.4.2.1.tar.gz]
+[2024-05-13 09:31:13] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.5.13.1.tar.gz]
+[2024-05-13 09:31:13] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2024-05-13 09:31:14] INFO root fetch - processPackages [streamlit-date-picker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-date-picker-0.0.2b6.tar.gz]
+[2024-05-13 09:31:14] INFO root fetch - processPackages [streamlit-date-picker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_date_picker-0.0.3-py3-none-any.whl.zip]
+[2024-05-13 09:31:14] INFO root fetch - main [MainThread]: End processing [streamlit-date-picker]: success
+[2024-05-13 09:31:14] INFO root fetch - main [MainThread]: Store serial: [23179333]
