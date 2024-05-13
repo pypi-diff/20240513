@@ -15142,3 +15142,44 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:22:28] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.1.tar.gz]
 [2024-05-13 12:22:28] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-05-13 12:22:28] INFO root fetch - main [MainThread]: Store serial: [23181451]
+[2024-05-13 12:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181451]
+[2024-05-13 12:24:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 12:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profitpulse
+[2024-05-13 12:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DodonaCLI
+[2024-05-13 12:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcl-lib
+[2024-05-13 12:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2e-sae
+[2024-05-13 12:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgqSim
+[2024-05-13 12:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zjuintl-assistant
+[2024-05-13 12:24:37] INFO root fetch - processPackages [profitpulse]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-13 12:24:37] WARNING root fetch - processPackages [e2e-sae]: Skipping, unable to determine old version
+[2024-05-13 12:24:37] INFO root fetch - main [MainThread]: End processing [e2e-sae] error
+[2024-05-13 12:24:37] INFO root fetch - processPackages [DodonaCLI]: New version: [2024.5.13] Old Version: [2024.4.17]
+[2024-05-13 12:24:38] INFO root fetch - processPackages [kcl-lib]: New version: [0.9.0a1] Old Version: [0.8.7]
+[2024-05-13 12:24:38] INFO root fetch - processPackages [profitpulse]: Downloading https://files.pythonhosted.org/packages/82/0d/028ab7aa253ad31cba6b3aa8c296f0d2bd0f1a957248741eff2e338ad753/profitpulse-2.2.0.tar.gz
+[2024-05-13 12:24:38] ERROR root fetch - processPackages [zjuintl-assistant]: Unable to get metadata: No such project 'zjuintl-assistant'
+[2024-05-13 12:24:38] INFO root fetch - main [MainThread]: End processing [zjuintl-assistant] error
+[2024-05-13 12:24:38] INFO root fetch - processPackages [tgqSim]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 12:24:38] INFO root fetch - processPackages [DodonaCLI]: Downloading https://files.pythonhosted.org/packages/43/52/f7eacdd766885951c2020b3ff1639388b099e34e05b6843c238d98bffdf2/dodonacli-2024.4.17.tar.gz
+[2024-05-13 12:24:38] INFO root fetch - processPackages [kcl-lib]: Downloading https://files.pythonhosted.org/packages/af/b9/9b846832b64f65727a2616d2393ac4169f94f58e54195e9063c909c43e4d/kcl_lib-0.8.7.tar.gz
+[2024-05-13 12:24:38] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/aa/dc/bd1d8d67a5e4618a0e3bfa79c6e5b670870a0b059a9bef2553db3f61f1ef/tgqSim-0.1.4.tar.gz
+[2024-05-13 12:24:38] WARNING root fetch - processPackages [kcl-lib]: Skipping package: exceeds size limit 90188317>=10485760
+[2024-05-13 12:24:38] INFO root fetch - main [MainThread]: End processing [kcl-lib] error
+[2024-05-13 12:24:38] INFO root fetch - processPackages [profitpulse]: Downloading https://files.pythonhosted.org/packages/eb/ff/31d80a88c8fc25c28e94304c9deeef81bfd22c1a0f145e3268f67944f475/profitpulse-2.2.1.tar.gz
+[2024-05-13 12:24:38] INFO root fetch - processPackages [profitpulse]: executing diffoscope
+[2024-05-13 12:24:38] INFO root fetch - processPackages [profitpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profitpulse-2.2.0.tar.gz tmp/profitpulse-2.2.1.tar.gz --markdown 20240513/p/profitpulse/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-13 12:24:38] INFO root fetch - processPackages [DodonaCLI]: Downloading https://files.pythonhosted.org/packages/34/9f/46c9afd6e53c2d98ce65b38cf9c131b4ada221d06b0e029583d18a7c6f90/dodonacli-2024.5.13.tar.gz
+[2024-05-13 12:24:38] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/17/42/e7b00af759a4b4d5950757fecca2dff37bb25a4f943ae2bcd2aa25eeb3b6/tgqSim-0.1.5.tar.gz
+[2024-05-13 12:24:38] INFO root fetch - processPackages [DodonaCLI]: executing diffoscope
+[2024-05-13 12:24:38] INFO root fetch - processPackages [DodonaCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodonacli-2024.4.17.tar.gz tmp/dodonacli-2024.5.13.tar.gz --markdown 20240513/D/DodonaCLI/2024.4.17-2024.5.13/README.md --exclude *.pyd
+[2024-05-13 12:24:38] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-13 12:24:38] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.4.tar.gz tmp/tgqSim-0.1.5.tar.gz --markdown 20240513/t/tgqSim/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 12:24:39] INFO root fetch - processPackages [DodonaCLI]: Remove: archive file [/home/abi/fetcher/tmp/dodonacli-2024.4.17.tar.gz]
+[2024-05-13 12:24:39] INFO root fetch - processPackages [DodonaCLI]: Remove: archive file [/home/abi/fetcher/tmp/dodonacli-2024.5.13.tar.gz]
+[2024-05-13 12:24:39] INFO root fetch - main [MainThread]: End processing [DodonaCLI]: success
+[2024-05-13 12:24:39] INFO root fetch - processPackages [profitpulse]: Remove: archive file [/home/abi/fetcher/tmp/profitpulse-2.2.0.tar.gz]
+[2024-05-13 12:24:39] INFO root fetch - processPackages [profitpulse]: Remove: archive file [/home/abi/fetcher/tmp/profitpulse-2.2.1.tar.gz]
+[2024-05-13 12:24:39] INFO root fetch - main [MainThread]: End processing [profitpulse]: success
+[2024-05-13 12:24:39] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.4.tar.gz]
+[2024-05-13 12:24:39] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.5.tar.gz]
+[2024-05-13 12:24:39] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-13 12:24:39] INFO root fetch - main [MainThread]: Store serial: [23181488]
