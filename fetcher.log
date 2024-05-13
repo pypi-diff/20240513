@@ -8048,3 +8048,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 07:25:55] INFO root fetch - processPackages [tencentcloud-sdk-python-tione]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tione-3.0.999.tar.gz]
 [2024-05-13 07:25:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tione]: success
 [2024-05-13 07:25:55] INFO root fetch - main [MainThread]: Store serial: [23177968]
+[2024-05-13 07:27:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23177968]
+[2024-05-13 07:28:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tiw
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tke
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-searchbox
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: survivors
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ps-game-21
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PQAnalysis
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymobiledevice3
+[2024-05-13 07:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spaceone-cost-analysis
+[2024-05-13 07:28:04] INFO root fetch - processPackages [survivors]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [streamlit-searchbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [survivors]: Downloading https://files.pythonhosted.org/packages/ac/2f/cb74065e12c0274c77b40201dac3ae89cf62a110e0bcb6c5e71484a3e484/survivors-1.6.2.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [PQAnalysis]: New version: [1.0] Old Version: [0.5.2]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [streamlit-searchbox]: Downloading https://files.pythonhosted.org/packages/03/05/d3b2298bad20f380da271265171fdd373da7cf0016ef0177ffe99f322864/streamlit-searchbox-0.1.8.tar.gz
+[2024-05-13 07:28:04] WARNING root fetch - processPackages [ps-game-21]: Skipping, unable to determine old version
+[2024-05-13 07:28:04] INFO root fetch - main [MainThread]: End processing [ps-game-21] error
+[2024-05-13 07:28:04] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.5.4] Old Version: [4.5.3]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-13 07:28:04] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/4c/78/58484169da26d1cc3d3b96f8525e0ac47ce82c3e8c428c7d64b78254636b/pqanalysis-0.5.2.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Downloading https://files.pythonhosted.org/packages/5a/4e/7b6315ea3fce605899ad3ccb851eae2b9e399f77c905f1ba14463622f81e/tencentcloud-sdk-python-tke-3.0.998.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [streamlit-searchbox]: Downloading https://files.pythonhosted.org/packages/d9/79/b7dc3794a3eed8a6353683d4234ea1df36db473b37ccb009e9508d7e8f84/streamlit-searchbox-0.1.9.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: Downloading https://files.pythonhosted.org/packages/61/36/55c664f6cfd2cc0a6d0c12d644dc6418d749062f26086afabe556f6d06e7/tencentcloud-sdk-python-tiw-3.0.998.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/5a/37/7787ff61a6de39fc042a63a31b09c4c62c5b5efad0a10a1946ce5d4da074/pymobiledevice3-4.5.3.tar.gz
+[2024-05-13 07:28:04] INFO root fetch - processPackages [survivors]: Downloading https://files.pythonhosted.org/packages/2b/ac/2c259be149cb10ce66447ec74dbabafbb385dbebc8deea95320141f52979/survivors-1.6.3.tar.gz
+[2024-05-13 07:28:04] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31546505>=10485760
+[2024-05-13 07:28:04] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-13 07:28:04] INFO root fetch - processPackages [streamlit-searchbox]: executing diffoscope
+[2024-05-13 07:28:04] INFO root fetch - processPackages [streamlit-searchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-searchbox-0.1.8.tar.gz tmp/streamlit-searchbox-0.1.9.tar.gz --markdown 20240513/s/streamlit-searchbox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 07:28:05] INFO root fetch - processPackages [survivors]: executing diffoscope
+[2024-05-13 07:28:05] INFO root fetch - processPackages [survivors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survivors-1.6.2.tar.gz tmp/survivors-1.6.3.tar.gz --markdown 20240513/s/survivors/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Downloading https://files.pythonhosted.org/packages/d0/07/5f31603562ab2fdf19cb38a817ae6bdf8617f9bdb8fdf17ae3d8da7014cc/tencentcloud-sdk-python-tke-3.0.999.tar.gz
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: Downloading https://files.pythonhosted.org/packages/08/1c/024c3ffe0ce63dbd718a216d838d15d6370442d7b7c740aa23cf31195394/tencentcloud-sdk-python-tiw-3.0.999.tar.gz
+[2024-05-13 07:28:05] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: executing diffoscope
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tke-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tke-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-tke/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: executing diffoscope
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiw-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiw-3.0.999.tar.gz --markdown 20240513/t/tencentcloud-sdk-python-tiw/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-13 07:28:05] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-13 07:28:05] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240513/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-13 07:28:05] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/4c/af/b95ab44de8529add5dd8a6e8a3a80c37dbadccac47492e0e32f919eef14c/pqanalysis-1.0.tar.gz
+[2024-05-13 07:28:05] INFO root fetch - processPackages [streamlit-searchbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-searchbox-0.1.8.tar.gz]
+[2024-05-13 07:28:05] INFO root fetch - processPackages [streamlit-searchbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-searchbox-0.1.9.tar.gz]
+[2024-05-13 07:28:05] INFO root fetch - main [MainThread]: End processing [streamlit-searchbox]: success
+[2024-05-13 07:28:05] INFO root fetch - processPackages [PQAnalysis]: executing diffoscope
+[2024-05-13 07:28:05] INFO root fetch - processPackages [PQAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqanalysis-0.5.2.tar.gz tmp/pqanalysis-1.0.tar.gz --markdown 20240513/P/PQAnalysis/0.5.2-1.0/README.md --exclude *.pyd
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiw-3.0.998.tar.gz]
+[2024-05-13 07:28:05] INFO root fetch - processPackages [tencentcloud-sdk-python-tiw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiw-3.0.999.tar.gz]
+[2024-05-13 07:28:05] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiw]: success
+[2024-05-13 07:28:06] INFO root fetch - processPackages [survivors]: Remove: archive file [/home/abi/fetcher/tmp/survivors-1.6.2.tar.gz]
+[2024-05-13 07:28:06] INFO root fetch - processPackages [survivors]: Remove: archive file [/home/abi/fetcher/tmp/survivors-1.6.3.tar.gz]
+[2024-05-13 07:28:06] INFO root fetch - main [MainThread]: End processing [survivors]: success
+[2024-05-13 07:28:06] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-13 07:28:06] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-13 07:28:06] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-13 07:28:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tke-3.0.998.tar.gz]
+[2024-05-13 07:28:06] INFO root fetch - processPackages [tencentcloud-sdk-python-tke]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tke-3.0.999.tar.gz]
+[2024-05-13 07:28:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tke]: success
+[2024-05-13 07:28:07] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-0.5.2.tar.gz]
+[2024-05-13 07:28:07] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.tar.gz]
+[2024-05-13 07:28:07] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
+[2024-05-13 07:28:07] INFO root fetch - main [MainThread]: Store serial: [23177998]
