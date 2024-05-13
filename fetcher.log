@@ -9364,3 +9364,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:25:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405130624.tar.gz]
 [2024-05-13 08:25:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-13 08:25:10] INFO root fetch - main [MainThread]: Store serial: [23178708]
+[2024-05-13 08:27:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178708]
+[2024-05-13 08:27:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bota
+[2024-05-13 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aparat-crawler
+[2024-05-13 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amos-api
+[2024-05-13 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfirecrest
+[2024-05-13 08:27:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantplay
+[2024-05-13 08:27:20] INFO root fetch - processPackages [aparat-crawler]: New version: [0.9.1.6] Old Version: [0.9.1.5]
+[2024-05-13 08:27:20] INFO root fetch - processPackages [pyfirecrest]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-05-13 08:27:20] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/82/97/0063104213953935e81b0853dab1a04fc4bfb2e695a772f3d800ad16b554/aparat_crawler-0.9.1.5.tar.gz
+[2024-05-13 08:27:20] INFO root fetch - processPackages [amos-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-13 08:27:20] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-13 08:27:20] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-13 08:27:21] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/e4/8a/7775357cfe0e86e15a79cb9132918f3cd8b7468ef366caf8efe083b20691/amos_api-1.0.5.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [pyfirecrest]: Downloading https://files.pythonhosted.org/packages/80/1a/dcc6427786bf374021f37b9453be23bf20e93c27ff71278b4d94c77ff699/pyfirecrest-2.4.0.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [aparat-crawler]: Downloading https://files.pythonhosted.org/packages/22/6b/a782dbcf618187381bc5b060a29e6b72b158a56e91717d5237b3c6f01ca4/aparat_crawler-0.9.1.6.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [aparat-crawler]: executing diffoscope
+[2024-05-13 08:27:21] INFO root fetch - processPackages [aparat-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aparat_crawler-0.9.1.5.tar.gz tmp/aparat_crawler-0.9.1.6.tar.gz --markdown 20240513/a/aparat-crawler/0.9.1.5-0.9.1.6/README.md --exclude *.pyd
+[2024-05-13 08:27:21] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/ce/6c/940c5a18bcc5cfa8120d5be15926885b351faecb9a957be3a0c94537c95a/amos_api-1.0.6.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [pyfirecrest]: Downloading https://files.pythonhosted.org/packages/46/41/73889848c47e0863caa265a74a6fadcad4d7751c742640fde3a9913e205f/pyfirecrest-2.5.0.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-13 08:27:21] INFO root fetch - processPackages [amos-api]: executing diffoscope
+[2024-05-13 08:27:21] INFO root fetch - processPackages [amos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amos_api-1.0.5.tar.gz tmp/amos_api-1.0.6.tar.gz --markdown 20240513/a/amos-api/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-13 08:27:21] INFO root fetch - processPackages [pyfirecrest]: executing diffoscope
+[2024-05-13 08:27:21] INFO root fetch - processPackages [pyfirecrest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfirecrest-2.4.0.tar.gz tmp/pyfirecrest-2.5.0.tar.gz --markdown 20240513/p/pyfirecrest/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-05-13 08:27:21] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-05-13 08:27:21] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240513/b/bota/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-13 08:27:21] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-13 08:27:21] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240513/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-13 08:27:22] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.5.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - processPackages [aparat-crawler]: Remove: archive file [/home/abi/fetcher/tmp/aparat_crawler-0.9.1.6.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - main [MainThread]: End processing [aparat-crawler]: success
+[2024-05-13 08:27:22] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.5.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.6.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - main [MainThread]: End processing [amos-api]: success
+[2024-05-13 08:27:22] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-05-13 08:27:22] INFO root fetch - processPackages [pyfirecrest]: Remove: archive file [/home/abi/fetcher/tmp/pyfirecrest-2.4.0.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - processPackages [pyfirecrest]: Remove: archive file [/home/abi/fetcher/tmp/pyfirecrest-2.5.0.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - main [MainThread]: End processing [pyfirecrest]: success
+[2024-05-13 08:27:22] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-13 08:27:22] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-13 08:27:22] INFO root fetch - main [MainThread]: Store serial: [23178722]
