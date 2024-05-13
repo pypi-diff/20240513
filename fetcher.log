@@ -5175,3 +5175,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 06:11:14] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-9.0.0.tar.gz]
 [2024-05-13 06:11:14] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
 [2024-05-13 06:11:14] INFO root fetch - main [MainThread]: Store serial: [23176764]
+[2024-05-13 06:13:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176764]
+[2024-05-13 06:13:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 06:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unaccessiblez
+[2024-05-13 06:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Robotic-Assistant
+[2024-05-13 06:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tenduke-scale
+[2024-05-13 06:13:22] INFO root fetch - processPackages [tenduke-scale]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-05-13 06:13:23] INFO root fetch - processPackages [tenduke-scale]: Downloading https://files.pythonhosted.org/packages/32/36/33465aaee7b672580f0c7f0041feb6566311fd752e1a36f854127d514347/tenduke_scale-1.2.0.tar.gz
+[2024-05-13 06:13:23] WARNING root fetch - processPackages [unaccessiblez]: Skipping, unable to determine old version
+[2024-05-13 06:13:23] INFO root fetch - main [MainThread]: End processing [unaccessiblez] error
+[2024-05-13 06:13:23] WARNING root fetch - processPackages [Robotic-Assistant]: Skipping, unable to determine old version
+[2024-05-13 06:13:23] INFO root fetch - main [MainThread]: End processing [Robotic-Assistant] error
+[2024-05-13 06:13:23] INFO root fetch - processPackages [tenduke-scale]: Downloading https://files.pythonhosted.org/packages/a1/70/77199a3d325012f255779c894aa89819b89c6570d4c44a6242459213eb4f/tenduke_scale-2.0.0.tar.gz
+[2024-05-13 06:13:23] INFO root fetch - processPackages [tenduke-scale]: executing diffoscope
+[2024-05-13 06:13:23] INFO root fetch - processPackages [tenduke-scale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenduke_scale-1.2.0.tar.gz tmp/tenduke_scale-2.0.0.tar.gz --markdown 20240513/t/tenduke-scale/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-05-13 06:13:24] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-1.2.0.tar.gz]
+[2024-05-13 06:13:24] INFO root fetch - processPackages [tenduke-scale]: Remove: archive file [/home/abi/fetcher/tmp/tenduke_scale-2.0.0.tar.gz]
+[2024-05-13 06:13:24] INFO root fetch - main [MainThread]: End processing [tenduke-scale]: success
+[2024-05-13 06:13:24] INFO root fetch - main [MainThread]: Store serial: [23176775]
