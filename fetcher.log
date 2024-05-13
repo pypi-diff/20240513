@@ -9208,3 +9208,35 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:16:25] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.9.tar.gz]
 [2024-05-13 08:16:25] INFO root fetch - main [MainThread]: End processing [uiautomator2]: success
 [2024-05-13 08:16:25] INFO root fetch - main [MainThread]: Store serial: [23178634]
+[2024-05-13 08:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178634]
+[2024-05-13 08:18:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medor
+[2024-05-13 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sign-oca
+[2024-05-13 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goplus
+[2024-05-13 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: general-operator
+[2024-05-13 08:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foregatherz
+[2024-05-13 08:18:35] WARNING root fetch - processPackages [foregatherz]: Skipping, unable to determine old version
+[2024-05-13 08:18:35] INFO root fetch - main [MainThread]: End processing [foregatherz] error
+[2024-05-13 08:18:35] WARNING root fetch - processPackages [general-operator]: Skipping, unable to determine old version
+[2024-05-13 08:18:35] INFO root fetch - main [MainThread]: End processing [general-operator] error
+[2024-05-13 08:18:35] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.1.1.0.4] Old Version: [16.0.1.1.0.1]
+[2024-05-13 08:18:35] INFO root fetch - processPackages [goplus]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-13 08:18:35] INFO root fetch - processPackages [medor]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 08:18:35] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/51/b6/2f03c1a4594fc1c05c488bc5734dfed24b4cdddf672180ee5c1e0de8b990/goplus-0.2.3.tar.gz
+[2024-05-13 08:18:35] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/4e/d0/bbd1187164be46ba7f352668a8050736a146d03174bbb9fab9fa2668fad1/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-13 08:18:35] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/5d/55/13982af254290b3f357b0c33fc3b7f11b0aedb37c9908862bf1fe71daa04/medor-0.0.1.tar.gz
+[2024-05-13 08:18:35] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16784736>=10485760
+[2024-05-13 08:18:35] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-05-13 08:18:35] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/4c/bd/8f793dcfd7ad049a690c6f2875b9f4eea07675e4af173c1311c21be00dfc/odoo_addon_sign_oca-16.0.1.1.0.4-py3-none-any.whl
+[2024-05-13 08:18:35] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/09/6b/74e6548feb2ceee996fe9361aaca58c417ce0d0d2e81e2d5d377405b7ecf/goplus-0.2.4.tar.gz
+[2024-05-13 08:18:36] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-05-13 08:18:36] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-sign-oca/16.0.1.1.0.1-16.0.1.1.0.4/README.md --exclude *.pyd
+[2024-05-13 08:18:36] INFO root fetch - processPackages [goplus]: executing diffoscope
+[2024-05-13 08:18:36] INFO root fetch - processPackages [goplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goplus-0.2.3.tar.gz tmp/goplus-0.2.4.tar.gz --markdown 20240513/g/goplus/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-13 08:18:37] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-13 08:18:37] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-13 08:18:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-05-13 08:18:37] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.2.3.tar.gz]
+[2024-05-13 08:18:37] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.2.4.tar.gz]
+[2024-05-13 08:18:37] INFO root fetch - main [MainThread]: End processing [goplus]: success
+[2024-05-13 08:18:37] INFO root fetch - main [MainThread]: Store serial: [23178652]
