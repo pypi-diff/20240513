@@ -2081,3 +2081,12 @@
 [2024-05-13 02:54:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-13 02:54:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-13 02:54:12] INFO root fetch - main [MainThread]: Store serial: [23175344]
+[2024-05-13 02:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175344]
+[2024-05-13 02:56:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-13 02:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vegan
+[2024-05-13 02:56:20] INFO root fetch - processPackages [vegan]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-13 02:56:20] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/d1/f0/f8ba3284e9cbd579300133f066f13085099aa5c7ac7f52245de82bf9467d/vegan-2.5.0.tar.gz
+[2024-05-13 02:56:21] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/85/bb/ba4b7be35ee915fb499cdbad854dfc8965b6f40ad0046f2310a8568a4315/vegan-2.6.0.tar.gz
+[2024-05-13 02:56:21] WARNING root fetch - processPackages [vegan]: Skipping package: exceeds size limit 44415374>=10485760
+[2024-05-13 02:56:21] INFO root fetch - main [MainThread]: End processing [vegan] error
+[2024-05-13 02:56:21] INFO root fetch - main [MainThread]: Store serial: [23175346]
