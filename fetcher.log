@@ -2045,3 +2045,39 @@
 [2024-05-13 02:51:44] INFO root fetch - processPackages [lib-version-URLPhishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-1.0.1.tar.gz]
 [2024-05-13 02:51:44] INFO root fetch - main [MainThread]: End processing [lib-version-URLPhishing]: success
 [2024-05-13 02:51:44] INFO root fetch - main [MainThread]: Store serial: [23175327]
+[2024-05-13 02:53:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175327]
+[2024-05-13 02:53:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-05-13 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gipsylikez
+[2024-05-13 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sumnerz
+[2024-05-13 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rlmarlbot-plugin
+[2024-05-13 02:53:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meetlify
+[2024-05-13 02:53:52] INFO root fetch - processPackages [rlmarlbot-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 02:53:52] INFO root fetch - processPackages [meetlify]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 02:53:52] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-13 02:53:52] WARNING root fetch - processPackages [sumnerz]: Skipping, unable to determine old version
+[2024-05-13 02:53:52] INFO root fetch - main [MainThread]: End processing [sumnerz] error
+[2024-05-13 02:53:52] WARNING root fetch - processPackages [gipsylikez]: Skipping, unable to determine old version
+[2024-05-13 02:53:52] INFO root fetch - main [MainThread]: End processing [gipsylikez] error
+[2024-05-13 02:53:52] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/2e/91/2b509c4213b70aad6e9d48147dd663366031e0419e0c3215b9479303fd28/rlmarlbot_plugin-0.1.1.tar.gz
+[2024-05-13 02:53:52] INFO root fetch - processPackages [meetlify]: Downloading https://files.pythonhosted.org/packages/18/83/c4c0940d552f293f6e85a7ac1cd427b5df4dd5a74d7041c93c04e9f814ac/meetlify-0.1.1.tar.gz
+[2024-05-13 02:53:52] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-13 02:53:53] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-13 02:53:53] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/f9/0b/e944364ccd8bc34439438fe525c34c3699fc03173705db7177670a0b0682/rlmarlbot_plugin-0.1.2.tar.gz
+[2024-05-13 02:53:53] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-13 02:53:53] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240513/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-13 02:53:53] INFO root fetch - processPackages [rlmarlbot-plugin]: executing diffoscope
+[2024-05-13 02:53:53] INFO root fetch - processPackages [rlmarlbot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlmarlbot_plugin-0.1.1.tar.gz tmp/rlmarlbot_plugin-0.1.2.tar.gz --markdown 20240513/r/rlmarlbot-plugin/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 02:53:53] INFO root fetch - processPackages [meetlify]: Downloading https://files.pythonhosted.org/packages/42/43/d1988b44bd1a4f61ed17dd9271b01fcdc32a81fbb98717857c1fbbec19b5/meetlify-0.1.2.tar.gz
+[2024-05-13 02:53:53] INFO root fetch - processPackages [meetlify]: executing diffoscope
+[2024-05-13 02:53:53] INFO root fetch - processPackages [meetlify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meetlify-0.1.1.tar.gz tmp/meetlify-0.1.2.tar.gz --markdown 20240513/m/meetlify/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 02:53:53] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.1.tar.gz]
+[2024-05-13 02:53:53] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.2.tar.gz]
+[2024-05-13 02:53:53] INFO root fetch - main [MainThread]: End processing [rlmarlbot-plugin]: success
+[2024-05-13 02:53:54] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.1.tar.gz]
+[2024-05-13 02:53:54] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.2.tar.gz]
+[2024-05-13 02:53:54] INFO root fetch - main [MainThread]: End processing [meetlify]: success
+[2024-05-13 02:54:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-13 02:54:12] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-13 02:54:12] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-13 02:54:12] INFO root fetch - main [MainThread]: Store serial: [23175344]
