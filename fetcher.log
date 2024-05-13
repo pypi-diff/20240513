@@ -18547,3 +18547,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:20:50] INFO root fetch - processPackages [selkie]: Remove: archive file [/home/abi/fetcher/tmp/selkie-0.25.1.tar.gz]
 [2024-05-13 14:20:50] INFO root fetch - main [MainThread]: End processing [selkie]: success
 [2024-05-13 14:20:50] INFO root fetch - main [MainThread]: Store serial: [23182808]
+[2024-05-13 14:22:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182808]
+[2024-05-13 14:23:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 14:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-13 14:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aopp-deconv-tool
+[2024-05-13 14:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-auth-st
+[2024-05-13 14:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsl-relay
+[2024-05-13 14:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensortrax
+[2024-05-13 14:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unperforatedz
+[2024-05-13 14:23:00] WARNING root fetch - processPackages [google-auth-st]: Skipping, unable to determine old version
+[2024-05-13 14:23:00] INFO root fetch - main [MainThread]: End processing [google-auth-st] error
+[2024-05-13 14:23:00] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-13 14:23:00] INFO root fetch - processPackages [aopp-deconv-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:23:00] INFO root fetch - processPackages [lsl-relay]: New version: [3.2.0] Old Version: [3.1.2]
+[2024-05-13 14:23:00] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-13 14:23:00] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-13 14:23:00] WARNING root fetch - processPackages [unperforatedz]: Skipping, unable to determine old version
+[2024-05-13 14:23:00] INFO root fetch - main [MainThread]: End processing [unperforatedz] error
+[2024-05-13 14:23:00] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/50/55/3294e03a3df4e27304d8d45cb34755d7e04ba04fcd5353b065112d29d412/aopp_deconv_tool-0.1.8.tar.gz
+[2024-05-13 14:23:00] INFO root fetch - processPackages [lsl-relay]: Downloading https://files.pythonhosted.org/packages/86/08/75764bf7199677e210406d05d97d2220eeae76a26c30150dd194751bceb1/lsl_relay-3.1.2.tar.gz
+[2024-05-13 14:23:00] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2024-05-13 14:23:00] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-13 14:23:01] INFO root fetch - processPackages [aopp-deconv-tool]: Downloading https://files.pythonhosted.org/packages/9b/1a/bbfe6985d8c21cce84317f26ad1ad7b438e4eee7b28eff4bd7fb6e8a78c3/aopp_deconv_tool-0.1.9.tar.gz
+[2024-05-13 14:23:01] INFO root fetch - processPackages [lsl-relay]: Downloading https://files.pythonhosted.org/packages/f4/c5/fb60e64974937ca049feaa759005a97de615be7ad2822551d6acef6fb099/lsl_relay-3.2.0.tar.gz
+[2024-05-13 14:23:01] INFO root fetch - processPackages [aopp-deconv-tool]: executing diffoscope
+[2024-05-13 14:23:01] INFO root fetch - processPackages [aopp-deconv-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aopp_deconv_tool-0.1.8.tar.gz tmp/aopp_deconv_tool-0.1.9.tar.gz --markdown 20240513/a/aopp-deconv-tool/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:23:01] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-13 14:23:01] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240513/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-13 14:23:01] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2024-05-13 14:23:01] INFO root fetch - processPackages [lsl-relay]: executing diffoscope
+[2024-05-13 14:23:01] INFO root fetch - processPackages [lsl-relay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsl_relay-3.1.2.tar.gz tmp/lsl_relay-3.2.0.tar.gz --markdown 20240513/l/lsl-relay/3.1.2-3.2.0/README.md --exclude *.pyd
+[2024-05-13 14:23:01] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2024-05-13 14:23:01] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20240513/t/tensortrax/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-13 14:23:02] INFO root fetch - processPackages [lsl-relay]: Remove: archive file [/home/abi/fetcher/tmp/lsl_relay-3.1.2.tar.gz]
+[2024-05-13 14:23:02] INFO root fetch - processPackages [lsl-relay]: Remove: archive file [/home/abi/fetcher/tmp/lsl_relay-3.2.0.tar.gz]
+[2024-05-13 14:23:02] INFO root fetch - main [MainThread]: End processing [lsl-relay]: success
+[2024-05-13 14:23:02] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.8.tar.gz]
+[2024-05-13 14:23:02] INFO root fetch - processPackages [aopp-deconv-tool]: Remove: archive file [/home/abi/fetcher/tmp/aopp_deconv_tool-0.1.9.tar.gz]
+[2024-05-13 14:23:02] INFO root fetch - main [MainThread]: End processing [aopp-deconv-tool]: success
+[2024-05-13 14:23:02] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.8.5.tar.gz]
+[2024-05-13 14:23:02] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.9.0.tar.gz]
+[2024-05-13 14:23:02] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2024-05-13 14:23:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-13 14:23:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-13 14:23:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-13 14:23:03] INFO root fetch - main [MainThread]: Store serial: [23182823]
