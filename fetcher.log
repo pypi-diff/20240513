@@ -1455,3 +1455,60 @@
 [2024-05-13 02:12:11] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405120010.tar.gz]
 [2024-05-13 02:12:11] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-13 02:12:11] INFO root fetch - main [MainThread]: Store serial: [23175028]
+[2024-05-13 02:14:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175028]
+[2024-05-13 02:14:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 02:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socket.d
+[2024-05-13 02:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-gitlab-runner
+[2024-05-13 02:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folkmq
+[2024-05-13 02:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2024-05-13 02:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2024-05-13 02:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-ignite
+[2024-05-13 02:14:20] INFO root fetch - processPackages [socket.d]: New version: [2.4.16.1] Old Version: [2.4.16]
+[2024-05-13 02:14:20] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240512] Old Version: [0.6.0.dev20240511]
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-13 02:14:20] INFO root fetch - processPackages [folkmq]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-13 02:14:20] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/84/37/3bc731d3d6c954b021b275670a5fd350d87b23bb8714c556f421182d63ad/socket.d-2.4.16.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/37/2a/64abc42b84a1fa6482dad575b80022bd9add97249b356410258b2b23f8e7/pytorch_ignite-0.6.0.dev20240511.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/9b/9d/43ce069f82c3b9ce5d8926be7607508270454dea58d14fefc633d0530974/folkmq-1.4.3.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/35/f9/d106b69dd0a395c600a8cb88ecff44da4835e22dc0c7429527192c31da31/socket.d-2.4.16.1.tar.gz
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240513/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-13 02:14:20] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240513/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-13 02:14:20] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/d0/e0/31dcb978ba0db0436c939047aa516ac8ddcda11b0ce6ae63816e4db77f30/pytorch_ignite-0.6.0.dev20240512.tar.gz
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-13 02:14:21] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/4d/b6/1c7e925ac93ac8b829228057fbff953a997b4f0e74d6acf4fe00cf0553d4/folkmq-1.4.4.tar.gz
+[2024-05-13 02:14:21] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-13 02:14:21] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240511.tar.gz tmp/pytorch_ignite-0.6.0.dev20240512.tar.gz --markdown 20240513/p/pytorch-ignite/0.6.0.dev20240511-0.6.0.dev20240512/README.md --exclude *.pyd
+[2024-05-13 02:14:21] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-05-13 02:14:21] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.16.tar.gz tmp/socket.d-2.4.16.1.tar.gz --markdown 20240513/s/socket.d/2.4.16-2.4.16.1/README.md --exclude *.pyd
+[2024-05-13 02:14:21] INFO root fetch - processPackages [folkmq]: executing diffoscope
+[2024-05-13 02:14:21] INFO root fetch - processPackages [folkmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folkmq-1.4.3.tar.gz tmp/folkmq-1.4.4.tar.gz --markdown 20240513/f/folkmq/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240513/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-13 02:14:21] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.3.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.4.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - main [MainThread]: End processing [folkmq]: success
+[2024-05-13 02:14:21] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.16.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.16.1.tar.gz]
+[2024-05-13 02:14:21] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-05-13 02:14:22] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240511.tar.gz]
+[2024-05-13 02:14:22] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240512.tar.gz]
+[2024-05-13 02:14:22] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-13 02:14:22] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-13 02:14:22] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-13 02:14:22] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-13 02:14:22] INFO root fetch - main [MainThread]: Store serial: [23175045]
