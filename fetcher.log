@@ -4843,3 +4843,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:49:27] INFO root fetch - processPackages [practicuscore]: Remove: archive file [/home/abi/fetcher/tmp/practicuscore-24.3.0-cp312-none-macosx_10_9_x86_64.whl.zip]
 [2024-05-13 05:49:27] INFO root fetch - main [MainThread]: End processing [practicuscore]: success
 [2024-05-13 05:49:27] INFO root fetch - main [MainThread]: Store serial: [23176547]
+[2024-05-13 05:51:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176547]
+[2024-05-13 05:51:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-agent
+[2024-05-13 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PipelineTS
+[2024-05-13 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-antiddos-public20170518
+[2024-05-13 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landlab
+[2024-05-13 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syrez
+[2024-05-13 05:51:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih
+[2024-05-13 05:51:35] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-13 05:51:35] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-13 05:51:35] INFO root fetch - processPackages [landlab]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-05-13 05:51:36] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 05:51:36] INFO root fetch - processPackages [PipelineTS]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 05:51:36] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-13 05:51:36] WARNING root fetch - processPackages [syrez]: Skipping, unable to determine old version
+[2024-05-13 05:51:36] INFO root fetch - main [MainThread]: End processing [syrez] error
+[2024-05-13 05:51:36] INFO root fetch - processPackages [PipelineTS]: Downloading https://files.pythonhosted.org/packages/8c/f9/8bae3d7478881ea55635e6ce5f034d1407dac412705f43c2c83a2b2ae9dc/PipelineTS-0.3.8.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [landlab]: Downloading https://files.pythonhosted.org/packages/81/ab/0a3d74aa320cb63a8728fdccd9e746736f8bab32b49ea6a6dd284d409a92/landlab-2.7.0.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/82/fa/1d2372ad7b5328f39c6c352ec0c6e978a17dbd08b8f9ab4ba4c801703004/docmesh_agent-0.0.1.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: Downloading https://files.pythonhosted.org/packages/87/2e/7daa085bc003650a37ec79ffa50dc9b2ebbee20d9889647cda4b071a7c8d/alibabacloud_antiddos-public20170518-1.0.2.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-13 05:51:36] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240513/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-13 05:51:36] INFO root fetch - processPackages [PipelineTS]: Downloading https://files.pythonhosted.org/packages/55/4a/0d3499cf4e719b158c4eb2b44348b6fabd5b805fae99a495cd64557419b3/PipelineTS-0.3.9.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/c5/bee3c33015d11d67f3f901d1f3881d70760a9791585e00e2e0e3b72e1f48/docmesh_agent-0.0.2.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: Downloading https://files.pythonhosted.org/packages/d6/c7/2a8b820ffc4b89d43b70a61180e2c135a43aa95792dd890a7da8046604d3/alibabacloud_antiddos-public20170518-1.0.3.tar.gz
+[2024-05-13 05:51:36] INFO root fetch - processPackages [PipelineTS]: executing diffoscope
+[2024-05-13 05:51:36] INFO root fetch - processPackages [PipelineTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PipelineTS-0.3.8.tar.gz tmp/PipelineTS-0.3.9.tar.gz --markdown 20240513/P/PipelineTS/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 05:51:36] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-13 05:51:36] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.1.tar.gz tmp/docmesh_agent-0.0.2.tar.gz --markdown 20240513/d/docmesh-agent/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 05:51:36] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: executing diffoscope
+[2024-05-13 05:51:36] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_antiddos-public20170518-1.0.2.tar.gz tmp/alibabacloud_antiddos-public20170518-1.0.3.tar.gz --markdown 20240513/a/alibabacloud-antiddos-public20170518/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-13 05:51:36] INFO root fetch - processPackages [landlab]: Downloading https://files.pythonhosted.org/packages/26/88/e80cb7e299f7af3554496a5a91c624023d0ab50af84d192a81ce2717d878/landlab-2.8.0.tar.gz
+[2024-05-13 05:51:37] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.1.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.2.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-13 05:51:37] INFO root fetch - processPackages [landlab]: executing diffoscope
+[2024-05-13 05:51:37] INFO root fetch - processPackages [landlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landlab-2.7.0.tar.gz tmp/landlab-2.8.0.tar.gz --markdown 20240513/l/landlab/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-05-13 05:51:37] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-13 05:51:37] INFO root fetch - processPackages [PipelineTS]: Remove: archive file [/home/abi/fetcher/tmp/PipelineTS-0.3.8.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - processPackages [PipelineTS]: Remove: archive file [/home/abi/fetcher/tmp/PipelineTS-0.3.9.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - main [MainThread]: End processing [PipelineTS]: success
+[2024-05-13 05:51:37] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_antiddos-public20170518-1.0.2.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - processPackages [alibabacloud-antiddos-public20170518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_antiddos-public20170518-1.0.3.tar.gz]
+[2024-05-13 05:51:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-antiddos-public20170518]: success
+[2024-05-13 05:51:42] INFO root fetch - processPackages [landlab]: Remove: archive file [/home/abi/fetcher/tmp/landlab-2.7.0.tar.gz]
+[2024-05-13 05:51:42] INFO root fetch - processPackages [landlab]: Remove: archive file [/home/abi/fetcher/tmp/landlab-2.8.0.tar.gz]
+[2024-05-13 05:51:42] INFO root fetch - main [MainThread]: End processing [landlab]: success
+[2024-05-13 05:51:42] INFO root fetch - main [MainThread]: Store serial: [23176635]
