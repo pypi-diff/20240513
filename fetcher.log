@@ -2723,3 +2723,30 @@
 [2024-05-13 03:48:41] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-05-13 03:48:41] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-05-13 03:48:41] INFO root fetch - main [MainThread]: Store serial: [23175639]
+[2024-05-13 03:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175639]
+[2024-05-13 03:50:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 03:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valorousz
+[2024-05-13 03:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-coder
+[2024-05-13 03:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-ssh-key
+[2024-05-13 03:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deloreanby
+[2024-05-13 03:50:49] WARNING root fetch - processPackages [valorousz]: Skipping, unable to determine old version
+[2024-05-13 03:50:49] INFO root fetch - main [MainThread]: End processing [valorousz] error
+[2024-05-13 03:50:49] INFO root fetch - processPackages [deloreanby]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 03:50:49] INFO root fetch - processPackages [deloreanby]: Downloading https://files.pythonhosted.org/packages/b4/09/b4f827598ea710815eded4fe862655e979e1e5910bd79a02d000d2984956/deloreanby-0.2.1.tar.gz
+[2024-05-13 03:50:49] WARNING root fetch - processPackages [github-ssh-key]: Skipping, unable to determine old version
+[2024-05-13 03:50:49] INFO root fetch - main [MainThread]: End processing [github-ssh-key] error
+[2024-05-13 03:50:49] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 03:50:49] INFO root fetch - processPackages [deloreanby]: Downloading https://files.pythonhosted.org/packages/cd/6d/9e340c9ad7c0f75b5a5be1917740e5c4d1cf9d826ef35baa839f49783396/deloreanby-0.2.2.tar.gz
+[2024-05-13 03:50:49] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-13 03:50:50] INFO root fetch - processPackages [deloreanby]: executing diffoscope
+[2024-05-13 03:50:50] INFO root fetch - processPackages [deloreanby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deloreanby-0.2.1.tar.gz tmp/deloreanby-0.2.2.tar.gz --markdown 20240513/d/deloreanby/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 03:50:50] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-13 03:50:50] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-13 03:50:50] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240513/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 03:50:50] INFO root fetch - processPackages [deloreanby]: Remove: archive file [/home/abi/fetcher/tmp/deloreanby-0.2.1.tar.gz]
+[2024-05-13 03:50:50] INFO root fetch - processPackages [deloreanby]: Remove: archive file [/home/abi/fetcher/tmp/deloreanby-0.2.2.tar.gz]
+[2024-05-13 03:50:50] INFO root fetch - main [MainThread]: End processing [deloreanby]: success
+[2024-05-13 03:50:51] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-13 03:50:51] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-13 03:50:51] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-13 03:50:51] INFO root fetch - main [MainThread]: Store serial: [23175652]
