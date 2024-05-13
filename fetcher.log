@@ -4035,3 +4035,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:03:38] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-13 05:03:38] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-13 05:03:38] INFO root fetch - main [MainThread]: Store serial: [23176196]
+[2024-05-13 05:05:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176196]
+[2024-05-13 05:05:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manteia-qa-pylinac
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dt-python-sdk
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grangerizerz
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cardex
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyetfdb-scraper
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: outplodz
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wherobots-python-dbapi
+[2024-05-13 05:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-05-13 05:05:46] INFO root fetch - processPackages [manteia-qa-pylinac]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-13 05:05:46] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-13 05:05:46] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/5d/79/eac3eb6bd9ffe731ee342f4a9c3acfbf64121bb9dfb86471937ed2939d05/manteia_qa_pylinac-1.2.2.tar.gz
+[2024-05-13 05:05:46] WARNING root fetch - processPackages [grangerizerz]: Skipping, unable to determine old version
+[2024-05-13 05:05:46] INFO root fetch - main [MainThread]: End processing [grangerizerz] error
+[2024-05-13 05:05:46] WARNING root fetch - processPackages [dt-python-sdk]: Skipping, unable to determine old version
+[2024-05-13 05:05:46] INFO root fetch - main [MainThread]: End processing [dt-python-sdk] error
+[2024-05-13 05:05:46] INFO root fetch - processPackages [wherobots-python-dbapi]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-13 05:05:46] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-13 05:05:46] WARNING root fetch - processPackages [outplodz]: Skipping, unable to determine old version
+[2024-05-13 05:05:46] INFO root fetch - main [MainThread]: End processing [outplodz] error
+[2024-05-13 05:05:46] INFO root fetch - processPackages [pyetfdb-scraper]: New version: [0.4] Old Version: [0.3]
+[2024-05-13 05:05:46] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.1]
+[2024-05-13 05:05:47] INFO root fetch - processPackages [wherobots-python-dbapi]: Downloading https://files.pythonhosted.org/packages/b2/16/0fa16bb2e33ed0a28b2180f859ebc2e603d245def048725daf0fcf56e94b/wherobots_python_dbapi-0.4.0.tar.gz
+[2024-05-13 05:05:47] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-13 05:05:47] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/47/cc/f6d96109335d275abf8d7698dedcfbfd9e10e77e0d93d316d788cf3a8026/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.1-py3-none-any.whl
+[2024-05-13 05:05:47] INFO root fetch - processPackages [pyetfdb-scraper]: Downloading https://files.pythonhosted.org/packages/c9/fb/96ded997ae78f2aadb865c7f078222ce61f20008bb19fcb2b10d047de067/pyetfdb_scraper-0.3.tar.gz
+[2024-05-13 05:05:47] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/eb/70/d70f6dcfba8ae285426144c4d087bae29c93107adf95add82d2ebc4ec04b/manteia_qa_pylinac-1.2.3.tar.gz
+[2024-05-13 05:05:47] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-13 05:05:47] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240513/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-13 05:05:47] INFO root fetch - processPackages [manteia-qa-pylinac]: executing diffoscope
+[2024-05-13 05:05:47] INFO root fetch - processPackages [manteia-qa-pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manteia_qa_pylinac-1.2.2.tar.gz tmp/manteia_qa_pylinac-1.2.3.tar.gz --markdown 20240513/m/manteia-qa-pylinac/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-13 05:05:47] INFO root fetch - processPackages [wherobots-python-dbapi]: Downloading https://files.pythonhosted.org/packages/21/c2/6d1bf13bbd6b57eed61bcc355000d8e0de5c28dc6d801564f1c60005ed96/wherobots_python_dbapi-0.5.0.tar.gz
+[2024-05-13 05:05:47] INFO root fetch - processPackages [pyetfdb-scraper]: Downloading https://files.pythonhosted.org/packages/f9/68/c52cfb3511763a8bcf505fbfe27380df9996047e676e4a9da6e7dd61653a/pyetfdb_scraper-0.4.tar.gz
+[2024-05-13 05:05:47] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/07/fa/4f84c6803b5e899b62f5e072db7dbc1931fd99c71ac3f41ef19b141634e7/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl
+[2024-05-13 05:05:47] INFO root fetch - processPackages [wherobots-python-dbapi]: executing diffoscope
+[2024-05-13 05:05:47] INFO root fetch - processPackages [wherobots-python-dbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wherobots_python_dbapi-0.4.0.tar.gz tmp/wherobots_python_dbapi-0.5.0.tar.gz --markdown 20240513/w/wherobots-python-dbapi/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-13 05:05:47] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-05-13 05:05:47] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-account-banking-sepa-direct-debit/17.0.1.0.1-17.0.1.1.0/README.md --exclude *.pyd
+[2024-05-13 05:05:47] INFO root fetch - processPackages [pyetfdb-scraper]: executing diffoscope
+[2024-05-13 05:05:47] INFO root fetch - processPackages [pyetfdb-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyetfdb_scraper-0.3.tar.gz tmp/pyetfdb_scraper-0.4.tar.gz --markdown 20240513/p/pyetfdb-scraper/0.3-0.4/README.md --exclude *.pyd
+[2024-05-13 05:05:48] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-13 05:05:48] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.4.0.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.5.0.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - main [MainThread]: End processing [wherobots-python-dbapi]: success
+[2024-05-13 05:05:48] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.2.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.3.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac]: success
+[2024-05-13 05:05:48] INFO root fetch - processPackages [pyetfdb-scraper]: Remove: archive file [/home/abi/fetcher/tmp/pyetfdb_scraper-0.3.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - processPackages [pyetfdb-scraper]: Remove: archive file [/home/abi/fetcher/tmp/pyetfdb_scraper-0.4.tar.gz]
+[2024-05-13 05:05:48] INFO root fetch - main [MainThread]: End processing [pyetfdb-scraper]: success
+[2024-05-13 05:05:48] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-13 05:05:48] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-13 05:05:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-05-13 05:05:48] INFO root fetch - main [MainThread]: Store serial: [23176228]
