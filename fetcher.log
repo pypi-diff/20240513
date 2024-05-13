@@ -3375,3 +3375,39 @@
 [2024-05-13 04:30:40] INFO root fetch - processPackages [larp]: Remove: archive file [/home/abi/fetcher/tmp/larp-0.1.0.tar.gz]
 [2024-05-13 04:30:40] INFO root fetch - main [MainThread]: End processing [larp]: success
 [2024-05-13 04:30:40] INFO root fetch - main [MainThread]: Store serial: [23175925]
+[2024-05-13 04:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175925]
+[2024-05-13 04:32:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-13 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uvrouz
+[2024-05-13 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-cptv
+[2024-05-13 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiocmcapi
+[2024-05-13 04:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: relari
+[2024-05-13 04:32:49] INFO root fetch - processPackages [aiocmcapi]: New version: [0.6] Old Version: [0.5]
+[2024-05-13 04:32:49] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/71/36/f3f67d0df44683e1a1d2554770d44e1555eb4bc4fca81356f7ce8f729e01/aiocmcapi-0.5.tar.gz
+[2024-05-13 04:32:49] WARNING root fetch - processPackages [uvrouz]: Skipping, unable to determine old version
+[2024-05-13 04:32:49] INFO root fetch - main [MainThread]: End processing [uvrouz] error
+[2024-05-13 04:32:49] INFO root fetch - processPackages [relari]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 04:32:49] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 04:32:49] WARNING root fetch - processPackages [python-cptv]: Skipping, unable to determine old version
+[2024-05-13 04:32:49] INFO root fetch - main [MainThread]: End processing [python-cptv] error
+[2024-05-13 04:32:49] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/67/f7/7451d6f365a462d719d6137ea9a95fcd984ab9531ed5386ff63b7ae7db02/relari-0.1.4.tar.gz
+[2024-05-13 04:32:49] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-13 04:32:49] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/b9/6b/48b51ee73aaf58d21a0e0ac8d36ce9a402404058de9d2db8d16e1fea862b/aiocmcapi-0.6.tar.gz
+[2024-05-13 04:32:49] INFO root fetch - processPackages [aiocmcapi]: executing diffoscope
+[2024-05-13 04:32:49] INFO root fetch - processPackages [aiocmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocmcapi-0.5.tar.gz tmp/aiocmcapi-0.6.tar.gz --markdown 20240513/a/aiocmcapi/0.5-0.6/README.md --exclude *.pyd
+[2024-05-13 04:32:49] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-13 04:32:49] INFO root fetch - processPackages [relari]: Downloading https://files.pythonhosted.org/packages/c8/97/86669bdc62e3df1f201f0df70a41080c1ca453755466e40e0f8141948fd9/relari-0.1.5.tar.gz
+[2024-05-13 04:32:49] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-13 04:32:49] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240513/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 04:32:49] INFO root fetch - processPackages [relari]: executing diffoscope
+[2024-05-13 04:32:49] INFO root fetch - processPackages [relari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relari-0.1.4.tar.gz tmp/relari-0.1.5.tar.gz --markdown 20240513/r/relari/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 04:32:50] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.5.tar.gz]
+[2024-05-13 04:32:50] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.tar.gz]
+[2024-05-13 04:32:50] INFO root fetch - main [MainThread]: End processing [aiocmcapi]: success
+[2024-05-13 04:32:50] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.4.tar.gz]
+[2024-05-13 04:32:50] INFO root fetch - processPackages [relari]: Remove: archive file [/home/abi/fetcher/tmp/relari-0.1.5.tar.gz]
+[2024-05-13 04:32:50] INFO root fetch - main [MainThread]: End processing [relari]: success
+[2024-05-13 04:32:50] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-13 04:32:50] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-13 04:32:50] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-13 04:32:50] INFO root fetch - main [MainThread]: Store serial: [23175946]
