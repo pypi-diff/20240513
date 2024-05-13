@@ -14197,3 +14197,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:47:07] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
 [2024-05-13 11:47:07] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2024-05-13 11:47:07] INFO root fetch - main [MainThread]: Store serial: [23181077]
+[2024-05-13 11:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181077]
+[2024-05-13 11:49:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygeneconverter
+[2024-05-13 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superlinked
+[2024-05-13 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onetomultipleimage
+[2024-05-13 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mnt.nanoplacer
+[2024-05-13 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongo-objects
+[2024-05-13 11:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pms-encoder
+[2024-05-13 11:49:17] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 11:49:17] WARNING root fetch - processPackages [pygeneconverter]: Skipping, unable to determine old version
+[2024-05-13 11:49:17] INFO root fetch - main [MainThread]: End processing [pygeneconverter] error
+[2024-05-13 11:49:17] INFO root fetch - processPackages [mnt.nanoplacer]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 11:49:17] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/b6/dd/aecf4442e21bede0fbed014db39b6a3066ae0ddc00c3d51b359739bea238/pms_encoder-0.0.7.tar.gz
+[2024-05-13 11:49:17] WARNING root fetch - processPackages [onetomultipleimage]: Skipping, unable to determine old version
+[2024-05-13 11:49:17] INFO root fetch - main [MainThread]: End processing [onetomultipleimage] error
+[2024-05-13 11:49:17] INFO root fetch - processPackages [mongo-objects]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-13 11:49:17] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-13 11:49:18] INFO root fetch - processPackages [mnt.nanoplacer]: Downloading https://files.pythonhosted.org/packages/41/df/79e26294cce32f2f7453ce9b050bfd706781b82f16b6ea22df45aa0bee5f/mnt.nanoplacer-0.2.1.tar.gz
+[2024-05-13 11:49:18] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/88/1c/b158cde701b8566517c1f98fc0a8a68c97918a60dc15d2f7541dcf4f45fa/mongo_objects-1.2.0.tar.gz
+[2024-05-13 11:49:18] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-05-13 11:49:18] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-13 11:49:18] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-13 11:49:18] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.7.tar.gz tmp/pms_encoder-0.0.8.tar.gz --markdown 20240513/p/pms-encoder/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 11:49:18] INFO root fetch - processPackages [mongo-objects]: Downloading https://files.pythonhosted.org/packages/a3/0f/63dd71e25709e16eaef6bf37f8794069c1f863f59faa314c20ee7aab1c59/mongo_objects-1.2.1.tar.gz
+[2024-05-13 11:49:18] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-13 11:49:18] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-13 11:49:18] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240513/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-13 11:49:18] INFO root fetch - processPackages [mongo-objects]: executing diffoscope
+[2024-05-13 11:49:18] INFO root fetch - processPackages [mongo-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_objects-1.2.0.tar.gz tmp/mongo_objects-1.2.1.tar.gz --markdown 20240513/m/mongo-objects/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-13 11:49:18] INFO root fetch - processPackages [mnt.nanoplacer]: Downloading https://files.pythonhosted.org/packages/44/88/8e123bccd9535b25625110d8b7b375315bb52ccd6deb3ef0f352edbb4f8c/mnt_nanoplacer-0.2.2.tar.gz
+[2024-05-13 11:49:19] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.7.tar.gz]
+[2024-05-13 11:49:19] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-13 11:49:19] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-13 11:49:19] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-05-13 11:49:19] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-13 11:49:19] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-13 11:49:19] INFO root fetch - processPackages [mnt.nanoplacer]: executing diffoscope
+[2024-05-13 11:49:19] INFO root fetch - processPackages [mnt.nanoplacer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnt.nanoplacer-0.2.1.tar.gz tmp/mnt_nanoplacer-0.2.2.tar.gz --markdown 20240513/m/mnt.nanoplacer/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 11:49:20] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.2.0.tar.gz]
+[2024-05-13 11:49:20] INFO root fetch - processPackages [mongo-objects]: Remove: archive file [/home/abi/fetcher/tmp/mongo_objects-1.2.1.tar.gz]
+[2024-05-13 11:49:20] INFO root fetch - main [MainThread]: End processing [mongo-objects]: success
+[2024-05-13 11:49:21] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt.nanoplacer-0.2.1.tar.gz]
+[2024-05-13 11:49:21] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.2.tar.gz]
+[2024-05-13 11:49:21] INFO root fetch - main [MainThread]: End processing [mnt.nanoplacer]: success
+[2024-05-13 11:49:21] INFO root fetch - main [MainThread]: Store serial: [23181098]
