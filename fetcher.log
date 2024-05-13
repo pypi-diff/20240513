@@ -11442,3 +11442,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:04:17] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-4.0.0.tar.gz]
 [2024-05-13 10:04:17] INFO root fetch - main [MainThread]: End processing [b2]: success
 [2024-05-13 10:04:17] INFO root fetch - main [MainThread]: Store serial: [23179687]
+[2024-05-13 10:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179687]
+[2024-05-13 10:06:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rlmarlbot-plugin
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langfun
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybiolib
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: local-determinacy
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rush-py
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linktest
+[2024-05-13 10:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: space-rocks
+[2024-05-13 10:06:26] INFO root fetch - processPackages [linktest]: New version: [2.7.9] Old Version: [2.7.8]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rlmarlbot-plugin]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240512] Old Version: [0.0.2.dev20240511]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rush-py]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [local-determinacy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [space-rocks]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/a3/04/972aaf0bcde189287bbb98633481bff7b741d235e2762a14fe22fb38a233/rlmarlbot_plugin-0.1.5.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/a0/16/044aa5661cfce284cbbf152f3cad4de3692af4b65154f7b647b23c71e838/linktest-2.7.8.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/4d/df/96e72e9425de1ad167fc0f56dccc5000bf511de5a65fbe9a29e9f9846ea3/langfun-0.0.2.dev20240511.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [local-determinacy]: Downloading https://files.pythonhosted.org/packages/5a/19/d5c3c045f8c315259f426a87991059ba55e183531dae17ffe43d4f6ace27/local_determinacy-0.1.1.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rush-py]: Downloading https://files.pythonhosted.org/packages/26/66/76313b36659e2cfb0d5f63fd6fb7e0eaf936534e23def9489c7514d72c95/rush_py-3.0.2.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/15/87/094003724e990ea86a39858936051f5a00c0886317c4ae82c6b0eeea9db7/space_rocks-1.9.8.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/b4/db/a33c832aad5ad6f7874c6b1adf76d3e601666ec04bfcb0e9a0f80718ad1e/rlmarlbot_plugin-0.1.6.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/6e/a8/eb837156d4a17d1b04eaddcb02b7a3ac7b35dcbb52aab3145c56828a5af0/linktest-2.7.9.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/dc/81/7e35ab4ef5b27ed3399598a5de0e1ed8a818f848e0ad2fec84e96128cec6/langfun-0.0.2.dev20240512.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rlmarlbot-plugin]: executing diffoscope
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rlmarlbot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlmarlbot_plugin-0.1.5.tar.gz tmp/rlmarlbot_plugin-0.1.6.tar.gz --markdown 20240513/r/rlmarlbot-plugin/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-13 10:06:26] INFO root fetch - processPackages [local-determinacy]: Downloading https://files.pythonhosted.org/packages/0a/31/06f9bfc63cbe555dd8cea33488ddbe0455ab3a06c6807bfdfdf8c51f924d/local_determinacy-0.1.2.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rush-py]: Downloading https://files.pythonhosted.org/packages/1f/8d/f045f39de9a5c27b4eecd4f58ae11e164662758ae29f08e498219a6901d3/rush_py-3.0.3.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-13 10:06:26] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.8.tar.gz tmp/linktest-2.7.9.tar.gz --markdown 20240513/l/linktest/2.7.8-2.7.9/README.md --exclude *.pyd
+[2024-05-13 10:06:26] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-13 10:06:26] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240511.tar.gz tmp/langfun-0.0.2.dev20240512.tar.gz --markdown 20240513/l/langfun/0.0.2.dev20240511-0.0.2.dev20240512/README.md --exclude *.pyd
+[2024-05-13 10:06:26] INFO root fetch - processPackages [local-determinacy]: executing diffoscope
+[2024-05-13 10:06:26] INFO root fetch - processPackages [local-determinacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_determinacy-0.1.1.tar.gz tmp/local_determinacy-0.1.2.tar.gz --markdown 20240513/l/local-determinacy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rush-py]: executing diffoscope
+[2024-05-13 10:06:26] INFO root fetch - processPackages [rush-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rush_py-3.0.2.tar.gz tmp/rush_py-3.0.3.tar.gz --markdown 20240513/r/rush-py/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-13 10:06:26] INFO root fetch - processPackages [space-rocks]: Downloading https://files.pythonhosted.org/packages/97/0a/0b87e07774dab5f7327812ec0ba55dfb9d2b81a4ca91e9955a784e8ee0e3/space_rocks-1.9.9.tar.gz
+[2024-05-13 10:06:26] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-05-13 10:06:27] INFO root fetch - processPackages [space-rocks]: executing diffoscope
+[2024-05-13 10:06:27] INFO root fetch - processPackages [space-rocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_rocks-1.9.8.tar.gz tmp/space_rocks-1.9.9.tar.gz --markdown 20240513/s/space-rocks/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-13 10:06:27] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-05-13 10:06:27] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240513/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-05-13 10:06:27] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.5.tar.gz]
+[2024-05-13 10:06:27] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.6.tar.gz]
+[2024-05-13 10:06:27] INFO root fetch - main [MainThread]: End processing [rlmarlbot-plugin]: success
+[2024-05-13 10:06:27] INFO root fetch - processPackages [local-determinacy]: Remove: archive file [/home/abi/fetcher/tmp/local_determinacy-0.1.1.tar.gz]
+[2024-05-13 10:06:27] INFO root fetch - processPackages [local-determinacy]: Remove: archive file [/home/abi/fetcher/tmp/local_determinacy-0.1.2.tar.gz]
+[2024-05-13 10:06:27] INFO root fetch - main [MainThread]: End processing [local-determinacy]: success
+[2024-05-13 10:06:27] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.8.tar.gz]
+[2024-05-13 10:06:27] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.9.tar.gz]
+[2024-05-13 10:06:27] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-13 10:06:28] INFO root fetch - processPackages [rush-py]: Remove: archive file [/home/abi/fetcher/tmp/rush_py-3.0.2.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - processPackages [rush-py]: Remove: archive file [/home/abi/fetcher/tmp/rush_py-3.0.3.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - main [MainThread]: End processing [rush-py]: success
+[2024-05-13 10:06:28] INFO root fetch - processPackages [space-rocks]: Remove: archive file [/home/abi/fetcher/tmp/space_rocks-1.9.8.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - processPackages [space-rocks]: Remove: archive file [/home/abi/fetcher/tmp/space_rocks-1.9.9.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - main [MainThread]: End processing [space-rocks]: success
+[2024-05-13 10:06:28] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240511.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240512.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-13 10:06:28] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-05-13 10:06:28] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-05-13 10:06:28] INFO root fetch - main [MainThread]: Store serial: [23179707]
