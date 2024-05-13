@@ -20445,3 +20445,176 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 15:20:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-13 15:20:14] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-13 15:20:14] INFO root fetch - main [MainThread]: Store serial: [23183565]
+[2024-05-13 15:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183565]
+[2024-05-13 15:22:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbc2deltalake
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-ntp
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biomero
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moteus
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moteus-gui
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-configer
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: function-sampler
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: camalis
+[2024-05-13 15:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-vizier-dev
+[2024-05-13 15:22:30] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: New version: [3.1.0] Old Version: [3.0.9]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [camalis]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [moteus-gui]: New version: [0.3.69] Old Version: [0.3.68]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [google-vizier-dev]: New version: [0.1.16.dev20240513132102] Old Version: [0.1.16.dev20240509205053]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [easy-configer]: New version: [2.5.0] Old Version: [2.3.2]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [function-sampler]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [moteus]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [biomero]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-13 15:22:30] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: Downloading https://files.pythonhosted.org/packages/fb/74/e707052ea0872c487c707024cd420128c575bcbefba913e796b9599d032c/adafruit-circuitpython-ntp-3.0.9.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/54/1a/c4c5ee02802b2b320376387e1c595a5ef8da7bac3549f2751668fcfc601f/moteus_gui-0.3.68-py3-none-any.whl
+[2024-05-13 15:22:30] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/41/bc/0a89f9b0ad2376303e5d25b3d626b8ac053c1c03ed6d1f4c94e50a6e0b78/google-vizier-dev-0.1.16.dev20240509205053.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/d0/9a/58f10f02fc0c8e0e7f7bc03cb01ad35a8842b4c430db7e58f16f70d0bf59/easy_configer-2.3.2.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [function-sampler]: Downloading https://files.pythonhosted.org/packages/35/1c/91d49c1b704baca5a3a265c6be41d0f3d005729e744e4be5dd7c6fc6c743/function_sampler-0.1.8-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-13 15:22:30] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/62/f9/078947536b3f3868ab5e18453c4593fb9c6bb31cb7b023fd8ed17fa1cf8c/moteus-0.3.8.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [biomero]: Downloading https://files.pythonhosted.org/packages/c4/f3/5e41f475114acc86b9c5fc20fe702136efe2cfd9a93d877db1b6dd619297/biomero-1.8.0.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [camalis]: Downloading https://files.pythonhosted.org/packages/d3/a2/70bd88f4af2f61355005d0d82809015afe48f152287dd8ad55e7a5be91b6/camalis-0.0.1.tar.gz
+[2024-05-13 15:22:30] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/f0/fe/3def8859f9096d9316a2663c7432514e30f1d958f61e138bee1049e6dcdd/moteus_gui-0.3.69-py3-none-any.whl
+[2024-05-13 15:22:31] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240513/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: Downloading https://files.pythonhosted.org/packages/b2/95/e482cc493ce3e147c4848820f48535c59ac9bfa0baea01820c8f35f9a831/adafruit_circuitpython_ntp-3.1.0.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [moteus-gui]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [moteus-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus_gui-0.3.68-py3-none-any.whl.zip tmp/moteus_gui-0.3.69-py3-none-any.whl.zip --markdown 20240513/m/moteus-gui/0.3.68-0.3.69/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/6a/52/2cde40379a9b4b4f8adc7c9f607b43319b7a588421b65a42e11c6f391616/easy_configer-2.5.0.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ntp-3.0.9.tar.gz tmp/adafruit_circuitpython_ntp-3.1.0.tar.gz --markdown 20240513/a/adafruit-circuitpython-ntp/3.0.9-3.1.0/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/78/b3/d213a086454e82f9c5f13f3fb1c01b68749bb35298812108dc75ada6083c/moteus-0.3.9.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [camalis]: Downloading https://files.pythonhosted.org/packages/45/83/05a9110d15aef7673be109a24d658bc85d4449efc336e77dad6d759bd1c8/camalis-0.0.2.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [function-sampler]: Downloading https://files.pythonhosted.org/packages/81/c0/f8a33c006044bef458afb45bcf05bb480de74576b997f442f1ca52c828b0/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2024-05-13 15:22:31] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240513/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [google-vizier-dev]: Downloading https://files.pythonhosted.org/packages/42/b6/4ae0d1309cf1774c82e2f8ba1cf0e42fd40e7e7e8a4c4ab5100fd2c3f810/google-vizier-dev-0.1.16.dev20240513132102.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [easy-configer]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [easy-configer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_configer-2.3.2.tar.gz tmp/easy_configer-2.5.0.tar.gz --markdown 20240513/e/easy-configer/2.3.2-2.5.0/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [moteus]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [camalis]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [moteus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus-0.3.8.tar.gz tmp/moteus-0.3.9.tar.gz --markdown 20240513/m/moteus/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [camalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camalis-0.0.1.tar.gz tmp/camalis-0.0.2.tar.gz --markdown 20240513/c/camalis/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [biomero]: Downloading https://files.pythonhosted.org/packages/22/4f/1ad8dbbd2c2c569ce42ef22e424c10267f8af17ef0179fecc18dfaceb367/biomero-1.9.0.tar.gz
+[2024-05-13 15:22:31] INFO root fetch - processPackages [function-sampler]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [function-sampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function_sampler-0.1.8-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip --markdown 20240513/f/function-sampler/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [google-vizier-dev]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [google-vizier-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-vizier-dev-0.1.16.dev20240509205053.tar.gz tmp/google-vizier-dev-0.1.16.dev20240513132102.tar.gz --markdown 20240513/g/google-vizier-dev/0.1.16.dev20240509205053-0.1.16.dev20240513132102/README.md --exclude *.pyd
+[2024-05-13 15:22:31] INFO root fetch - processPackages [biomero]: executing diffoscope
+[2024-05-13 15:22:31] INFO root fetch - processPackages [biomero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomero-1.8.0.tar.gz tmp/biomero-1.9.0.tar.gz --markdown 20240513/b/biomero/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-13 15:22:32] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [inoopa_utils]: Start processing: idzhiblavi-pydvim
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-13 15:22:32] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.68-py3-none-any.whl.zip]
+[2024-05-13 15:22:32] WARNING root fetch - processPackages [idzhiblavi-pydvim]: Skipping, unable to determine old version
+[2024-05-13 15:22:32] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.69-py3-none-any.whl.zip]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [idzhiblavi-pydvim]: Start processing: adafruit-circuitpython-rfm69
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [idzhiblavi-pydvim] error
+[2024-05-13 15:22:32] INFO root fetch - processPackages [moteus-gui]: Start processing: gps-building-blocks
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [moteus-gui]: success
+[2024-05-13 15:22:32] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-ntp-3.0.9.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_ntp-3.1.0.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [adafruit-circuitpython-ntp]: Start processing: icare-nlp
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ntp]: success
+[2024-05-13 15:22:32] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [odbc2deltalake]: Start processing: OMTF
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-13 15:22:32] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.3.2.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.5.0.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [easy-configer]: Start processing: minecraft-python
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [easy-configer]: success
+[2024-05-13 15:22:32] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Downloading https://files.pythonhosted.org/packages/83/50/96d2c9bb8fc2de988a1b18b83b412dfe1ca765a4ea6622752292b1848617/adafruit-circuitpython-rfm69-2.1.8.tar.gz
+[2024-05-13 15:22:32] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.8.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.9.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [moteus]: success
+[2024-05-13 15:22:32] WARNING root fetch - processPackages [OMTF]: Skipping, unable to determine old version
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [OMTF] error
+[2024-05-13 15:22:32] INFO root fetch - processPackages [camalis]: Remove: archive file [/home/abi/fetcher/tmp/camalis-0.0.1.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - processPackages [camalis]: Remove: archive file [/home/abi/fetcher/tmp/camalis-0.0.2.tar.gz]
+[2024-05-13 15:22:32] INFO root fetch - main [MainThread]: End processing [camalis]: success
+[2024-05-13 15:22:33] INFO root fetch - processPackages [minecraft-python]: New version: [161348] Old Version: [160052.post1]
+[2024-05-13 15:22:33] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/5a/fc/0dfd46d06720dd1df8e4296fb19a506f36aec5bf75d023af026b8807d732/icare_nlp-0.0.5.tar.gz
+[2024-05-13 15:22:33] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2024-05-13 15:22:33] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20240513/g/gps-building-blocks/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-13 15:22:33] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Downloading https://files.pythonhosted.org/packages/ca/21/2d9b88db931a4d9ed46b3bdebfa1a0b14d848ddf0632f2e3461370685268/adafruit-circuitpython-rfm69-2.1.9.tar.gz
+[2024-05-13 15:22:33] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2024-05-13 15:22:33] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: executing diffoscope
+[2024-05-13 15:22:33] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-rfm69-2.1.8.tar.gz tmp/adafruit-circuitpython-rfm69-2.1.9.tar.gz --markdown 20240513/a/adafruit-circuitpython-rfm69/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 15:22:33] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/a8/3f/a0f4df8358ac8ac58e744adb5e6f8271c54ccae580c4d535cacaf60582cd/icare_nlp-0.0.6.tar.gz
+[2024-05-13 15:22:33] INFO root fetch - processPackages [biomero]: Remove: archive file [/home/abi/fetcher/tmp/biomero-1.8.0.tar.gz]
+[2024-05-13 15:22:33] INFO root fetch - processPackages [biomero]: Remove: archive file [/home/abi/fetcher/tmp/biomero-1.9.0.tar.gz]
+[2024-05-13 15:22:33] INFO root fetch - main [MainThread]: End processing [biomero]: success
+[2024-05-13 15:22:33] WARNING root fetch - processPackages [icare-nlp]: Skipping package: exceeds size limit 92217867>=10485760
+[2024-05-13 15:22:33] INFO root fetch - main [MainThread]: End processing [icare-nlp] error
+[2024-05-13 15:22:33] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/bb/96/2ce2d27777f3528c850f0870857dbb187977b7a1d0a34dcbf43075bf5e4c/minecraft-python-161348.tar.gz
+[2024-05-13 15:22:33] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2024-05-13 15:22:33] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-160052.post1.tar.gz tmp/minecraft-python-161348.tar.gz --markdown 20240513/m/minecraft-python/160052.post1-161348/README.md --exclude *.pyd
+[2024-05-13 15:22:34] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240509205053.tar.gz]
+[2024-05-13 15:22:34] INFO root fetch - processPackages [google-vizier-dev]: Remove: archive file [/home/abi/fetcher/tmp/google-vizier-dev-0.1.16.dev20240513132102.tar.gz]
+[2024-05-13 15:22:34] INFO root fetch - main [MainThread]: End processing [google-vizier-dev]: success
+[2024-05-13 15:22:34] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2024-05-13T15:22:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-05-13 15:22:34] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2024-05-13 15:22:34] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-rfm69-2.1.8.tar.gz]
+[2024-05-13 15:22:34] INFO root fetch - processPackages [adafruit-circuitpython-rfm69]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-rfm69-2.1.9.tar.gz]
+[2024-05-13 15:22:34] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-rfm69]: success
+[2024-05-13 15:22:34] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2024-05-13 15:22:34] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
+[2024-05-13 15:22:34] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2024-05-13 15:22:35] INFO root fetch - processPackages [function-sampler]: Remove: archive file [/home/abi/fetcher/tmp/function_sampler-0.1.8-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-13 15:22:35] INFO root fetch - processPackages [function-sampler]: Remove: archive file [/home/abi/fetcher/tmp/function_sampler-0.1.9-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip]
+[2024-05-13 15:22:35] INFO root fetch - main [MainThread]: End processing [function-sampler]: success
+[2024-05-13 15:22:35] INFO root fetch - main [MainThread]: Store serial: [23183622]
