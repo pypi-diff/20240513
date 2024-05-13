@@ -16798,3 +16798,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:30:00] INFO root fetch - processPackages [diresa]: Remove: archive file [/home/abi/fetcher/tmp/diresa-1.0.6.tar.gz]
 [2024-05-13 13:30:00] INFO root fetch - main [MainThread]: End processing [diresa]: success
 [2024-05-13 13:30:00] INFO root fetch - main [MainThread]: Store serial: [23182104]
+[2024-05-13 13:32:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182104]
+[2024-05-13 13:32:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: REMLA-Test-Lib-version
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multipie
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-bs-email
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nicotool
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbimagetotext
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anticynicismz
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: project-arrakis
+[2024-05-13 13:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovinc-client
+[2024-05-13 13:32:09] INFO root fetch - processPackages [REMLA-Test-Lib-version]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-13 13:32:09] INFO root fetch - processPackages [django-bs-email]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 13:32:09] INFO root fetch - processPackages [ovinc-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-13 13:32:09] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/0d/00/e7f4a03a83cb55050349bb9046a3c98d99c67c317fe944acccaf251daeea/REMLA-Test-Lib-version-0.0.2.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [nicotool]: New version: [1.4.8.4] Old Version: [1.4.8.1]
+[2024-05-13 13:32:09] INFO root fetch - processPackages [project-arrakis]: New version: [0.1.2a0] Old Version: [0.1.2]
+[2024-05-13 13:32:09] WARNING root fetch - processPackages [anticynicismz]: Skipping, unable to determine old version
+[2024-05-13 13:32:09] INFO root fetch - main [MainThread]: End processing [anticynicismz] error
+[2024-05-13 13:32:09] INFO root fetch - processPackages [ovinc-client]: Downloading https://files.pythonhosted.org/packages/34/40/74662296bae0f8ea2dbd762bb6ead941ef57994655deb2ef10145d924ecd/ovinc_client-0.2.2.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:32:09] INFO root fetch - processPackages [multipie]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-13 13:32:09] INFO root fetch - processPackages [django-bs-email]: Downloading https://files.pythonhosted.org/packages/2f/92/33bd95d6305daa61b7f4b57a9b6d5c2098398107c0fe6b562c4e97530b7c/django-bs-email-0.2.0.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [nicotool]: Downloading https://files.pythonhosted.org/packages/6c/8c/283ab4c2a91a4a6a61c16940afec6afd8d8b73022e048cfc48d8d0a38dce/nicotool-1.4.8.1.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Downloading https://files.pythonhosted.org/packages/78/f8/b7823e680c9a0949cc49f5e0446b4804c30a36aab1090bcc09da36a923f2/REMLA-Test-Lib-version-0.1.0.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/00/6f/45a558125dcb3c4e92f82f878fc126b60f177da6388705ac66dd80431f91/multipie-1.2.8.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [project-arrakis]: Downloading https://files.pythonhosted.org/packages/cd/ae/c659456f4e51881e2f736a27e8997c87d87a85b098a50c9cfd7f52f03c9b/project_arrakis-0.1.2-py3-none-any.whl
+[2024-05-13 13:32:09] INFO root fetch - processPackages [ovinc-client]: Downloading https://files.pythonhosted.org/packages/e7/db/197a383862471a441016b67821b11a27179b75fbc1702cc380c9202445e3/ovinc_client-0.2.3.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [REMLA-Test-Lib-version]: executing diffoscope
+[2024-05-13 13:32:09] INFO root fetch - processPackages [REMLA-Test-Lib-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REMLA-Test-Lib-version-0.0.2.tar.gz tmp/REMLA-Test-Lib-version-0.1.0.tar.gz --markdown 20240513/R/REMLA-Test-Lib-version/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-13 13:32:09] INFO root fetch - processPackages [ovinc-client]: executing diffoscope
+[2024-05-13 13:32:09] INFO root fetch - processPackages [ovinc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovinc_client-0.2.2.tar.gz tmp/ovinc_client-0.2.3.tar.gz --markdown 20240513/o/ovinc-client/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-13 13:32:09] INFO root fetch - processPackages [django-bs-email]: Downloading https://files.pythonhosted.org/packages/40/36/22890a36b8e62450709ec3156d75274dd3094d26b4ac73c188853460fb86/django-bs-email-0.2.1.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-13 13:32:09] INFO root fetch - processPackages [django-bs-email]: executing diffoscope
+[2024-05-13 13:32:09] INFO root fetch - processPackages [django-bs-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bs-email-0.2.0.tar.gz tmp/django-bs-email-0.2.1.tar.gz --markdown 20240513/d/django-bs-email/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 13:32:09] INFO root fetch - processPackages [project-arrakis]: Downloading https://files.pythonhosted.org/packages/85/aa/c25852d03e357ba5df55689a852901f38e39d78e3e8189a3bb76de225a67/project_arrakis-0.1.2a0-py3-none-any.whl
+[2024-05-13 13:32:09] INFO root fetch - processPackages [nicotool]: Downloading https://files.pythonhosted.org/packages/ba/41/0573963da5c65046f031d03d8eecd69a62d1ed425e438df6f7e9ac6c293f/nicotool-1.4.8.4.tar.gz
+[2024-05-13 13:32:10] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-13 13:32:10] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240513/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:32:10] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/74/64/6c6f6228098f8ee00ea7ec5c5578e0d3e6d476beab852beee7f374215ab9/multipie-1.2.9.tar.gz
+[2024-05-13 13:32:10] INFO root fetch - processPackages [project-arrakis]: executing diffoscope
+[2024-05-13 13:32:10] INFO root fetch - processPackages [project-arrakis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_arrakis-0.1.2-py3-none-any.whl.zip tmp/project_arrakis-0.1.2a0-py3-none-any.whl.zip --markdown 20240513/p/project-arrakis/0.1.2-0.1.2a0/README.md --exclude *.pyd
+[2024-05-13 13:32:10] INFO root fetch - processPackages [nicotool]: executing diffoscope
+[2024-05-13 13:32:10] INFO root fetch - processPackages [nicotool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicotool-1.4.8.1.tar.gz tmp/nicotool-1.4.8.4.tar.gz --markdown 20240513/n/nicotool/1.4.8.1-1.4.8.4/README.md --exclude *.pyd
+[2024-05-13 13:32:10] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2024-05-13 13:32:10] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.2.8.tar.gz tmp/multipie-1.2.9.tar.gz --markdown 20240513/m/multipie/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-13 13:32:10] INFO root fetch - processPackages [ovinc-client]: Remove: archive file [/home/abi/fetcher/tmp/ovinc_client-0.2.2.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - processPackages [ovinc-client]: Remove: archive file [/home/abi/fetcher/tmp/ovinc_client-0.2.3.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - main [MainThread]: End processing [ovinc-client]: success
+[2024-05-13 13:32:10] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.0.2.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - processPackages [REMLA-Test-Lib-version]: Remove: archive file [/home/abi/fetcher/tmp/REMLA-Test-Lib-version-0.1.0.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - main [MainThread]: End processing [REMLA-Test-Lib-version]: success
+[2024-05-13 13:32:10] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-13 13:32:10] INFO root fetch - processPackages [django-bs-email]: Remove: archive file [/home/abi/fetcher/tmp/django-bs-email-0.2.0.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - processPackages [django-bs-email]: Remove: archive file [/home/abi/fetcher/tmp/django-bs-email-0.2.1.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - main [MainThread]: End processing [django-bs-email]: success
+[2024-05-13 13:32:10] INFO root fetch - processPackages [project-arrakis]: Remove: archive file [/home/abi/fetcher/tmp/project_arrakis-0.1.2-py3-none-any.whl.zip]
+[2024-05-13 13:32:10] INFO root fetch - processPackages [project-arrakis]: Remove: archive file [/home/abi/fetcher/tmp/project_arrakis-0.1.2a0-py3-none-any.whl.zip]
+[2024-05-13 13:32:10] INFO root fetch - main [MainThread]: End processing [project-arrakis]: success
+[2024-05-13 13:32:10] INFO root fetch - processPackages [nicotool]: Remove: archive file [/home/abi/fetcher/tmp/nicotool-1.4.8.1.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - processPackages [nicotool]: Remove: archive file [/home/abi/fetcher/tmp/nicotool-1.4.8.4.tar.gz]
+[2024-05-13 13:32:10] INFO root fetch - main [MainThread]: End processing [nicotool]: success
+[2024-05-13 13:32:12] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.8.tar.gz]
+[2024-05-13 13:32:12] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.9.tar.gz]
+[2024-05-13 13:32:12] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2024-05-13 13:32:12] INFO root fetch - main [MainThread]: Store serial: [23182127]
