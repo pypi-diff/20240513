@@ -12749,3 +12749,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:56:17] INFO root fetch - processPackages [rid-kit]: Remove: archive file [/home/abi/fetcher/tmp/rid-kit-0.6.4.tar.gz]
 [2024-05-13 10:56:17] INFO root fetch - main [MainThread]: End processing [rid-kit]: success
 [2024-05-13 10:56:17] INFO root fetch - main [MainThread]: Store serial: [23180385]
+[2024-05-13 10:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23180385]
+[2024-05-13 10:58:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhlyr
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gw-dsl-parser
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matter-task-queue
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epyt-flow
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odp-sdk
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openhexa.toolbox
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RupineLib
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-ai-python
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frformat
+[2024-05-13 10:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aestheticz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [frformat]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [zhlyr]: New version: [4.0] Old Version: [3.9]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [RupineLib]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [frformat]: Downloading https://files.pythonhosted.org/packages/bb/a3/1e7d25f0f785c33cd91b3e90da5e0e031a785f6d8fd266927329b8e6fd5e/frformat-0.2.0.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [gw-dsl-parser]: New version: [0.1.8a0] Old Version: [0.1.8]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/d5/2d/f46230845cf7aa86764bae13d6559b484eefd2c5443cd77ce3b75db47164/zhlyr-3.9.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/e4/4e/b029bb5d17810d4af6f93dff00f798c613592e42769efa5d7b4ba6071ac2/RupineLib-0.0.4.tar.gz
+[2024-05-13 10:58:27] WARNING root fetch - processPackages [aestheticz]: Skipping, unable to determine old version
+[2024-05-13 10:58:27] INFO root fetch - processPackages [aestheticz]: Start processing: trailblazer
+[2024-05-13 10:58:27] INFO root fetch - main [MainThread]: End processing [aestheticz] error
+[2024-05-13 10:58:27] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [matter-task-queue]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [openhexa.toolbox]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [epyt-flow]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [gw-dsl-parser]: Downloading https://files.pythonhosted.org/packages/15/a5/9506f443525fa668e12d0fbac4b2c738b95a3fe1cd4314152f38ed356cdc/gw_dsl_parser-0.1.8.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/0c/d7/6786eab810e93a55929b9db3e01f60e5730ec2afe2830751c9bc30a33eb7/odp_sdk-0.4.8.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [matter-task-queue]: Downloading https://files.pythonhosted.org/packages/ce/4d/9a5f6a98e6a77e1fcd51b146f86d671f130175696e935a35f2da6128051e/matter_task_queue-2.1.0-py3-none-any.whl
+[2024-05-13 10:58:27] INFO root fetch - processPackages [epyt-flow]: Downloading https://files.pythonhosted.org/packages/76/42/87d57053be3f955ac2fc4edf9ee4da0bb49c15bd4cd3fae448191918e78e/epyt_flow-0.1.0.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/d6/c1/4748f2367422b9708b90a07c9b032eee30dca73ba1e28d43266cfb7380e5/openhexa_toolbox-0.2.1.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-05-13 10:58:27] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-13 10:58:27] INFO root fetch - processPackages [zhlyr]: Downloading https://files.pythonhosted.org/packages/0b/3d/d6ce8efbd55f4531cee776dbd1a0d715779fd353b2bcb0e673eb0a166ecb/zhlyr-4.0.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [RupineLib]: Downloading https://files.pythonhosted.org/packages/4c/c2/a59dcfc9001eba3c8485a717f6591ef63f0ed97665c2ce26623f78698a47/RupineLib-0.0.5.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [frformat]: Downloading https://files.pythonhosted.org/packages/b2/3a/550bf0618110a7a49564818068b781782f5405d9fb08022063c4b24a743a/frformat-0.2.1.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [zhlyr]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [zhlyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhlyr-3.9.tar.gz tmp/zhlyr-4.0.tar.gz --markdown 20240513/z/zhlyr/3.9-4.0/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [RupineLib]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [RupineLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RupineLib-0.0.4.tar.gz tmp/RupineLib-0.0.5.tar.gz --markdown 20240513/R/RupineLib/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [frformat]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [frformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frformat-0.2.0.tar.gz tmp/frformat-0.2.1.tar.gz --markdown 20240513/f/frformat/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [matter-task-queue]: Downloading https://files.pythonhosted.org/packages/ab/b4/3d2cad82a2d5729353f8582de659f6b422a817c4659b284981cbded820c6/matter_task_queue-2.2.0-py3-none-any.whl
+[2024-05-13 10:58:28] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/2d/a3/afccdb1099b3b43252f67f4255e00d2fe91582b91933dc6065455fd43ec8/odp_sdk-0.4.9.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/42/33/e6a5eddd6fc7c3f878453bc41695bcd94703af0c6d25fb0a9d805288312e/openhexa_toolbox-0.2.2.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [epyt-flow]: Downloading https://files.pythonhosted.org/packages/07/fe/5ef747a9da0bffa475ca5cb684bd07eaa34a7755957e6a296396e306c4e9/epyt_flow-0.1.1.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [matter-task-queue]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [matter-task-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matter_task_queue-2.1.0-py3-none-any.whl.zip tmp/matter_task_queue-2.2.0-py3-none-any.whl.zip --markdown 20240513/m/matter-task-queue/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [openhexa.toolbox]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [openhexa.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa_toolbox-0.2.1.tar.gz tmp/openhexa_toolbox-0.2.2.tar.gz --markdown 20240513/o/openhexa.toolbox/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.8.tar.gz tmp/odp_sdk-0.4.9.tar.gz --markdown 20240513/o/odp-sdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [gw-dsl-parser]: Downloading https://files.pythonhosted.org/packages/32/42/18d9b154f1fdecbcb44e2be2dad97b95800d6b5f358955218f560638633c/gw_dsl_parser-0.1.8a0.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [epyt-flow]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [epyt-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyt_flow-0.1.0.tar.gz tmp/epyt_flow-0.1.1.tar.gz --markdown 20240513/e/epyt-flow/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2024-05-13 10:58:28] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240513/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-13 10:58:28] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2024-05-13 10:58:28] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20240513/t/trailblazer/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-13 10:58:29] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.4.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [RupineLib]: Remove: archive file [/home/abi/fetcher/tmp/RupineLib-0.0.5.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [RupineLib]: success
+[2024-05-13 10:58:29] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-3.9.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [zhlyr]: Remove: archive file [/home/abi/fetcher/tmp/zhlyr-4.0.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [zhlyr]: success
+[2024-05-13 10:58:29] INFO root fetch - processPackages [gw-dsl-parser]: executing diffoscope
+[2024-05-13 10:58:29] INFO root fetch - processPackages [gw-dsl-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gw_dsl_parser-0.1.8.tar.gz tmp/gw_dsl_parser-0.1.8a0.tar.gz --markdown 20240513/g/gw-dsl-parser/0.1.8-0.1.8a0/README.md --exclude *.pyd
+[2024-05-13 10:58:29] INFO root fetch - processPackages [matter-task-queue]: Remove: archive file [/home/abi/fetcher/tmp/matter_task_queue-2.1.0-py3-none-any.whl.zip]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [matter-task-queue]: Remove: archive file [/home/abi/fetcher/tmp/matter_task_queue-2.2.0-py3-none-any.whl.zip]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [matter-task-queue]: success
+[2024-05-13 10:58:29] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.8.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.9.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-05-13 10:58:29] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa_toolbox-0.2.1.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa_toolbox-0.2.2.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [openhexa.toolbox]: success
+[2024-05-13 10:58:29] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.2.0.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [frformat]: Remove: archive file [/home/abi/fetcher/tmp/frformat-0.2.1.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [frformat]: success
+[2024-05-13 10:58:29] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2024-05-13 10:58:29] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2024-05-13 10:58:30] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-05-13 10:58:30] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-05-13 10:58:30] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-05-13 10:58:30] INFO root fetch - processPackages [epyt-flow]: Remove: archive file [/home/abi/fetcher/tmp/epyt_flow-0.1.0.tar.gz]
+[2024-05-13 10:58:30] INFO root fetch - processPackages [epyt-flow]: Remove: archive file [/home/abi/fetcher/tmp/epyt_flow-0.1.1.tar.gz]
+[2024-05-13 10:58:30] INFO root fetch - main [MainThread]: End processing [epyt-flow]: success
+[2024-05-13 10:58:30] INFO root fetch - processPackages [gw-dsl-parser]: Remove: archive file [/home/abi/fetcher/tmp/gw_dsl_parser-0.1.8.tar.gz]
+[2024-05-13 10:58:30] INFO root fetch - processPackages [gw-dsl-parser]: Remove: archive file [/home/abi/fetcher/tmp/gw_dsl_parser-0.1.8a0.tar.gz]
+[2024-05-13 10:58:30] INFO root fetch - main [MainThread]: End processing [gw-dsl-parser]: success
+[2024-05-13 10:58:30] INFO root fetch - main [MainThread]: Store serial: [23180414]
