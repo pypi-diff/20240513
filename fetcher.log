@@ -4649,3 +4649,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:40:42] INFO root fetch - processPackages [xarray]: Remove: archive file [/home/abi/fetcher/tmp/xarray-2024.5.0.tar.gz]
 [2024-05-13 05:40:42] INFO root fetch - main [MainThread]: End processing [xarray]: success
 [2024-05-13 05:40:42] INFO root fetch - main [MainThread]: Store serial: [23176450]
+[2024-05-13 05:42:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176450]
+[2024-05-13 05:42:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-tsugu
+[2024-05-13 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: furrow1k
+[2024-05-13 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inflammabilitiesz
+[2024-05-13 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tetez
+[2024-05-13 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PypiInstruments
+[2024-05-13 05:42:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blasttools
+[2024-05-13 05:42:51] INFO root fetch - processPackages [nonebot-tsugu]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 05:42:51] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-13 05:42:51] INFO root fetch - processPackages [furrow1k]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-05-13 05:42:52] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-13 05:42:52] WARNING root fetch - processPackages [inflammabilitiesz]: Skipping, unable to determine old version
+[2024-05-13 05:42:52] INFO root fetch - main [MainThread]: End processing [inflammabilitiesz] error
+[2024-05-13 05:42:52] WARNING root fetch - processPackages [tetez]: Skipping, unable to determine old version
+[2024-05-13 05:42:52] INFO root fetch - main [MainThread]: End processing [tetez] error
+[2024-05-13 05:42:52] INFO root fetch - processPackages [blasttools]: New version: [0.1.14] Old Version: [0.1.13]
+[2024-05-13 05:42:52] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/2c/72/c433ce5b0c141ecb4ecf4fdaddf9a314ac1a1ebcc77b5342d13c4e8fc423/furrow1k-0.1.9.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [nonebot-tsugu]: Downloading https://files.pythonhosted.org/packages/90/69/56f7612da7aa0dd7a215e5c5c151224eba184aa3470e4d313f9eec9232bd/nonebot_tsugu-0.0.1.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [furrow1k]: Downloading https://files.pythonhosted.org/packages/02/f9/5661edf3d06bfdc0bc0377779eef937da31cce3d89850b6c4b0b900855f4/furrow1k-1.0.0.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [blasttools]: Downloading https://files.pythonhosted.org/packages/e8/1a/bca3188589e56a39af306205480520bd1833b8a5a01b8af999fe1c99bd2e/blasttools-0.1.13.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/7d/e4/97f65dff822ee8a319d7b3cc947b134b38c2e966128e7f12939e9102bd0d/PypiInstruments-1.0.9.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [furrow1k]: executing diffoscope
+[2024-05-13 05:42:52] INFO root fetch - processPackages [furrow1k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furrow1k-0.1.9.tar.gz tmp/furrow1k-1.0.0.tar.gz --markdown 20240513/f/furrow1k/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-05-13 05:42:52] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-13 05:42:52] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.7.tar.gz tmp/PypiInstruments-1.0.9.tar.gz --markdown 20240513/P/PypiInstruments/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-13 05:42:52] INFO root fetch - processPackages [nonebot-tsugu]: Downloading https://files.pythonhosted.org/packages/af/f7/d9b217d2933e0a5ef4613303e7667c60e94aec9360d269568a73fef69303/nonebot_tsugu-0.0.2.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [nonebot-tsugu]: executing diffoscope
+[2024-05-13 05:42:52] INFO root fetch - processPackages [nonebot-tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_tsugu-0.0.1.tar.gz tmp/nonebot_tsugu-0.0.2.tar.gz --markdown 20240513/n/nonebot-tsugu/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 05:42:52] INFO root fetch - processPackages [blasttools]: Downloading https://files.pythonhosted.org/packages/4c/2b/50095c57523d5ef9ce9c4cb180c0ab6890297fd5092e69d5483d70256a92/blasttools-0.1.14.tar.gz
+[2024-05-13 05:42:52] INFO root fetch - processPackages [blasttools]: executing diffoscope
+[2024-05-13 05:42:52] INFO root fetch - processPackages [blasttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blasttools-0.1.13.tar.gz tmp/blasttools-0.1.14.tar.gz --markdown 20240513/b/blasttools/0.1.13-0.1.14/README.md --exclude *.pyd
+[2024-05-13 05:42:52] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-0.1.9.tar.gz]
+[2024-05-13 05:42:52] INFO root fetch - processPackages [furrow1k]: Remove: archive file [/home/abi/fetcher/tmp/furrow1k-1.0.0.tar.gz]
+[2024-05-13 05:42:52] INFO root fetch - main [MainThread]: End processing [furrow1k]: success
+[2024-05-13 05:42:53] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.7.tar.gz]
+[2024-05-13 05:42:53] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.9.tar.gz]
+[2024-05-13 05:42:53] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-13 05:42:53] INFO root fetch - processPackages [nonebot-tsugu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_tsugu-0.0.1.tar.gz]
+[2024-05-13 05:42:53] INFO root fetch - processPackages [nonebot-tsugu]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_tsugu-0.0.2.tar.gz]
+[2024-05-13 05:42:53] INFO root fetch - main [MainThread]: End processing [nonebot-tsugu]: success
+[2024-05-13 05:42:53] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.13.tar.gz]
+[2024-05-13 05:42:53] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.14.tar.gz]
+[2024-05-13 05:42:53] INFO root fetch - main [MainThread]: End processing [blasttools]: success
+[2024-05-13 05:42:53] INFO root fetch - main [MainThread]: Store serial: [23176469]
