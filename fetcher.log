@@ -22523,3 +22523,42 @@ EOFError: EOF read where object expected
 [2024-05-13 16:26:54] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc1.tar.gz]
 [2024-05-13 16:26:54] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-05-13 16:26:54] INFO root fetch - main [MainThread]: Store serial: [23184823]
+[2024-05-13 16:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23184823]
+[2024-05-13 16:29:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 16:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syntheticstellarpopconvolve
+[2024-05-13 16:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anabih-python-test
+[2024-05-13 16:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2024-05-13 16:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdo-sdk-python
+[2024-05-13 16:29:04] INFO root fetch - processPackages [anabih-python-test]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-13 16:29:04] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-13 16:29:04] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.986]
+[2024-05-13 16:29:04] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/8f/0d/cb4164f3f11269487379fdf0c45ca126f81d3ab4355ce23e4cdf8dd2b4cd/anabih_python_test-8.0.0.tar.gz
+[2024-05-13 16:29:04] INFO root fetch - processPackages [syntheticstellarpopconvolve]: New version: [0.2] Old Version: [0.1]
+[2024-05-13 16:29:04] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/90/01/8ea2747d985bf1b3e54ac3cce5ddb9af0f0e317973eeafb29f297f73eaab/thesilent-0.0.986.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [syntheticstellarpopconvolve]: Downloading https://files.pythonhosted.org/packages/5b/36/671be9828e6613d73d1346ed5cca8dd639e03015b0c25931311b72a99591/syntheticstellarpopconvolve-0.1.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/83/16/9305f1d0ffc310349acc9a6c48a942e3c816874b788e87e5252e12b1a42a/anabih_python_test-9.0.0.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-13 16:29:05] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-8.0.0.tar.gz tmp/anabih_python_test-9.0.0.tar.gz --markdown 20240513/a/anabih-python-test/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-13 16:29:05] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-13 16:29:05] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240513/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-13 16:29:05] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2024-05-13 16:29:05] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thesilent-0.0.986.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20240513/T/TheSilent/0.0.986-0.0.99/README.md --exclude *.pyd
+[2024-05-13 16:29:05] INFO root fetch - processPackages [syntheticstellarpopconvolve]: Downloading https://files.pythonhosted.org/packages/11/f9/b531cdf59d23ceac45ee469912981348eb21b04abc1f87bf683bd9ba6dd2/syntheticstellarpopconvolve-0.2.tar.gz
+[2024-05-13 16:29:05] INFO root fetch - processPackages [syntheticstellarpopconvolve]: executing diffoscope
+[2024-05-13 16:29:05] INFO root fetch - processPackages [syntheticstellarpopconvolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntheticstellarpopconvolve-0.1.tar.gz tmp/syntheticstellarpopconvolve-0.2.tar.gz --markdown 20240513/s/syntheticstellarpopconvolve/0.1-0.2/README.md --exclude *.pyd
+[2024-05-13 16:29:06] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/thesilent-0.0.986.tar.gz]
+[2024-05-13 16:29:06] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2024-05-13 16:29:06] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2024-05-13 16:29:06] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-8.0.0.tar.gz]
+[2024-05-13 16:29:06] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-9.0.0.tar.gz]
+[2024-05-13 16:29:06] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-13 16:29:06] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-13 16:29:06] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-13 16:29:06] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-13 16:29:07] INFO root fetch - processPackages [syntheticstellarpopconvolve]: Remove: archive file [/home/abi/fetcher/tmp/syntheticstellarpopconvolve-0.1.tar.gz]
+[2024-05-13 16:29:07] INFO root fetch - processPackages [syntheticstellarpopconvolve]: Remove: archive file [/home/abi/fetcher/tmp/syntheticstellarpopconvolve-0.2.tar.gz]
+[2024-05-13 16:29:07] INFO root fetch - main [MainThread]: End processing [syntheticstellarpopconvolve]: success
+[2024-05-13 16:29:07] INFO root fetch - main [MainThread]: Store serial: [23184838]
