@@ -18592,3 +18592,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:23:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-13 14:23:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-13 14:23:03] INFO root fetch - main [MainThread]: Store serial: [23182823]
+[2024-05-13 14:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182823]
+[2024-05-13 14:25:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 14:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unperforatedz
+[2024-05-13 14:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyranges-plot
+[2024-05-13 14:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-digitalocean
+[2024-05-13 14:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-horizon-sdk
+[2024-05-13 14:25:12] WARNING root fetch - processPackages [unperforatedz]: Skipping, unable to determine old version
+[2024-05-13 14:25:12] INFO root fetch - main [MainThread]: End processing [unperforatedz] error
+[2024-05-13 14:25:12] INFO root fetch - processPackages [pyranges-plot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 14:25:12] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-13 14:25:12] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-13 14:25:12] INFO root fetch - processPackages [pyranges-plot]: Downloading https://files.pythonhosted.org/packages/0a/a4/ac8d9c6c34eae2fe2bbbec7404da000571a3552c3280373d646279277e39/pyranges_plot-0.0.8.tar.gz
+[2024-05-13 14:25:12] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-13 14:25:12] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pyranges-plot]: Downloading https://files.pythonhosted.org/packages/ba/3a/58563686555a1c20649d3b050b96e583b9b49a14e5a6f69c0168a599666f/pyranges_plot-0.0.9.tar.gz
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pyranges-plot]: executing diffoscope
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pyranges-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges_plot-0.0.8.tar.gz tmp/pyranges_plot-0.0.9.tar.gz --markdown 20240513/p/pyranges-plot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 14:25:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-13 14:25:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-13 14:25:13] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240513/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240513/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pyranges-plot]: Remove: archive file [/home/abi/fetcher/tmp/pyranges_plot-0.0.8.tar.gz]
+[2024-05-13 14:25:13] INFO root fetch - processPackages [pyranges-plot]: Remove: archive file [/home/abi/fetcher/tmp/pyranges_plot-0.0.9.tar.gz]
+[2024-05-13 14:25:13] INFO root fetch - main [MainThread]: End processing [pyranges-plot]: success
+[2024-05-13 14:25:14] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-13 14:25:14] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-13 14:25:14] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-13 14:25:14] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-13 14:25:14] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-13 14:25:14] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-13 14:25:14] INFO root fetch - main [MainThread]: Store serial: [23182836]
