@@ -8901,3 +8901,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:01:10] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip]
 [2024-05-13 08:01:10] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
 [2024-05-13 08:01:10] INFO root fetch - main [MainThread]: Store serial: [23178387]
+[2024-05-13 08:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178387]
+[2024-05-13 08:03:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubeinfra
+[2024-05-13 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: descriptivez
+[2024-05-13 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongo-bridge
+[2024-05-13 08:03:19] WARNING root fetch - processPackages [kubeinfra]: Skipping, unable to determine old version
+[2024-05-13 08:03:19] INFO root fetch - main [MainThread]: End processing [kubeinfra] error
+[2024-05-13 08:03:19] WARNING root fetch - processPackages [descriptivez]: Skipping, unable to determine old version
+[2024-05-13 08:03:19] WARNING root fetch - processPackages [mongo-bridge]: Skipping, unable to determine old version
+[2024-05-13 08:03:19] INFO root fetch - main [MainThread]: End processing [descriptivez] error
+[2024-05-13 08:03:19] INFO root fetch - main [MainThread]: End processing [mongo-bridge] error
+[2024-05-13 08:03:19] INFO root fetch - main [MainThread]: Store serial: [23178462]
