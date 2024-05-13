@@ -11831,3 +11831,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:21:50] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
 [2024-05-13 10:21:50] INFO root fetch - main [MainThread]: End processing [efel]: success
 [2024-05-13 10:21:50] INFO root fetch - main [MainThread]: Store serial: [23179848]
+[2024-05-13 10:23:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179848]
+[2024-05-13 10:23:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 10:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethnogenistz
+[2024-05-13 10:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyStratum-Common
+[2024-05-13 10:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-moss
+[2024-05-13 10:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitpoll
+[2024-05-13 10:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgeimpulse-api
+[2024-05-13 10:24:00] WARNING root fetch - processPackages [python-moss]: Skipping, unable to determine old version
+[2024-05-13 10:24:00] INFO root fetch - processPackages [gitpoll]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-13 10:24:00] INFO root fetch - main [MainThread]: End processing [python-moss] error
+[2024-05-13 10:24:00] WARNING root fetch - processPackages [ethnogenistz]: Skipping, unable to determine old version
+[2024-05-13 10:24:00] INFO root fetch - main [MainThread]: End processing [ethnogenistz] error
+[2024-05-13 10:24:00] INFO root fetch - processPackages [PyStratum-Common]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-05-13 10:24:00] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-05-13 10:24:00] INFO root fetch - processPackages [PyStratum-Common]: Downloading https://files.pythonhosted.org/packages/b2/50/308f5e603779f046448c3a1d923052b746e4f09f777de55f8b31fc389353/PyStratum-Common-1.1.1.tar.gz
+[2024-05-13 10:24:00] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/66/4a/2126fd0774bcd2215ec26ae3683c944143c2e75df1205ab3e2106fd7696c/gitpoll-1.8.1-py3-none-any.whl
+[2024-05-13 10:24:00] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-05-13 10:24:00] INFO root fetch - processPackages [PyStratum-Common]: Downloading https://files.pythonhosted.org/packages/e0/bd/fc29a5d702c86bf1869d81e244f9a31adf1dc9daa4cbec11256741e098f3/pystratum_common-2.0.0.tar.gz
+[2024-05-13 10:24:00] INFO root fetch - processPackages [gitpoll]: Downloading https://files.pythonhosted.org/packages/b5/3b/781bcbaa4bca96582bb5c402c1ff96ddb7d3c5fb6f2ddfb0276676c8e6b4/gitpoll-1.9.0-py3-none-any.whl
+[2024-05-13 10:24:00] INFO root fetch - processPackages [PyStratum-Common]: executing diffoscope
+[2024-05-13 10:24:00] INFO root fetch - processPackages [PyStratum-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Common-1.1.1.tar.gz tmp/pystratum_common-2.0.0.tar.gz --markdown 20240513/P/PyStratum-Common/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-05-13 10:24:00] INFO root fetch - processPackages [gitpoll]: executing diffoscope
+[2024-05-13 10:24:00] INFO root fetch - processPackages [gitpoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitpoll-1.8.1-py3-none-any.whl.zip tmp/gitpoll-1.9.0-py3-none-any.whl.zip --markdown 20240513/g/gitpoll/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-13 10:24:01] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-05-13 10:24:01] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-13 10:24:01] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240513/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-05-13 10:24:01] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.8.1-py3-none-any.whl.zip]
+[2024-05-13 10:24:01] INFO root fetch - processPackages [gitpoll]: Remove: archive file [/home/abi/fetcher/tmp/gitpoll-1.9.0-py3-none-any.whl.zip]
+[2024-05-13 10:24:01] INFO root fetch - main [MainThread]: End processing [gitpoll]: success
+[2024-05-13 10:24:02] INFO root fetch - processPackages [PyStratum-Common]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Common-1.1.1.tar.gz]
+[2024-05-13 10:24:02] INFO root fetch - processPackages [PyStratum-Common]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_common-2.0.0.tar.gz]
+[2024-05-13 10:24:02] INFO root fetch - main [MainThread]: End processing [PyStratum-Common]: success
+[2024-05-13 10:24:05] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-05-13 10:24:05] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-05-13 10:24:05] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-13 10:24:05] INFO root fetch - main [MainThread]: Store serial: [23179871]
