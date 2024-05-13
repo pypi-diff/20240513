@@ -14242,3 +14242,144 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:49:21] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.2.tar.gz]
 [2024-05-13 11:49:21] INFO root fetch - main [MainThread]: End processing [mnt.nanoplacer]: success
 [2024-05-13 11:49:21] INFO root fetch - main [MainThread]: Store serial: [23181098]
+[2024-05-13 11:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181098]
+[2024-05-13 11:51:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulletz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-formset
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-core
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pidcalib2
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-autogen
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-claude
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-crewai
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-griptape
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-julep
+[2024-05-13 11:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-langchain
+[2024-05-13 11:51:30] INFO root fetch - processPackages [django-formset]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-13 11:51:30] WARNING root fetch - processPackages [pulletz]: Skipping, unable to determine old version
+[2024-05-13 11:51:30] INFO root fetch - processPackages [pulletz]: Start processing: composio-lyzr
+[2024-05-13 11:51:30] INFO root fetch - main [MainThread]: End processing [pulletz] error
+[2024-05-13 11:51:30] INFO root fetch - processPackages [pidcalib2]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-claude]: New version: [0.2.59] Old Version: [0.2.56]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-julep]: New version: [0.2.59] Old Version: [0.2.56]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.59] Old Version: [0.2.56]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-13 11:51:30] INFO root fetch - processPackages [django-formset]: Downloading https://files.pythonhosted.org/packages/1c/a3/04a5fddbc41221d1851820f4313ef90790e1c479ad9d10751b88b0f11923/django_formset-1.4.3.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [pidcalib2]: Downloading https://files.pythonhosted.org/packages/46/f8/a99bc9d3626d4198bce00d60019d1cbec1a3160cf0b37d20bc050b33d006/pidcalib2-1.2.1.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/3f/14/bf96624ae1c6a0633c9612911c9efe88d07cece53fe13f9396bbdf8d1564/composio_julep-0.2.56.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/c4/a3/fece90126a00c129d5864d98167e5968c0db8180e46caf8ea30dcd9afdc6/composio_claude-0.2.56.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/b1/33/57a3ef4c5fa4038973203b2b5325923d92270b44255ea62dc10eea11dee0/composio_griptape-0.2.56.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-13 11:51:30] INFO root fetch - processPackages [django-formset]: Downloading https://files.pythonhosted.org/packages/13/2a/a2f88382810e1b1f3a68d2755162691168332f29a29e8d8a5c5c8fa0ae22/django_formset-1.4.4.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/87/f9/3afeb46ff7e6d246f98e14514fdd18656d012acbd0abaee61d3168910d07/composio_claude-0.2.59.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/9e/72/cd51cda0b37aa52b4e5b78de5e0f4f16e3285f7ed841c65bc6319c865de6/composio_julep-0.2.59.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240513/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/64/41/53947c24070de483c00fabfa972c26d876e10518e24e66ef6c3c66ed9a81/composio_griptape-0.2.59.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [django-formset]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [django-formset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_formset-1.4.3.tar.gz tmp/django_formset-1.4.4.tar.gz --markdown 20240513/d/django-formset/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240513/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.56.tar.gz tmp/composio_claude-0.2.59.tar.gz --markdown 20240513/c/composio-claude/0.2.56-0.2.59/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.56.tar.gz tmp/composio_julep-0.2.59.tar.gz --markdown 20240513/c/composio-julep/0.2.56-0.2.59/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240513/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240513/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.56.tar.gz tmp/composio_griptape-0.2.59.tar.gz --markdown 20240513/c/composio-griptape/0.2.56-0.2.59/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240513/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-13 11:51:31] INFO root fetch - processPackages [pidcalib2]: Downloading https://files.pythonhosted.org/packages/e6/a3/30e3e7c4a70ff082cb7669736ef19af64ae699ab67216ff326dbc87b5db4/pidcalib2-1.3.0.tar.gz
+[2024-05-13 11:51:31] INFO root fetch - processPackages [pidcalib2]: executing diffoscope
+[2024-05-13 11:51:31] INFO root fetch - processPackages [pidcalib2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidcalib2-1.2.1.tar.gz tmp/pidcalib2-1.3.0.tar.gz --markdown 20240513/p/pidcalib2/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-crewai]: Start processing: composio-openai
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-openai]: New version: [0.2.59] Old Version: [0.2.56]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-lyzr]: Start processing: st-signedUrl-uploader
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.56.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.59.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-claude]: Start processing: torch-snake
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-langchain]: Start processing: orb-billing
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [st-signedUrl-uploader]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.56.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.59.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-julep]: Start processing: moltx
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [moltx]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.56.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.59.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/91/b1/3949f0342c2a242356c30f2a9df7019e214e90eb872e842565c05e4373d5/st_signedurl_uploader-1.2.tar.gz
+[2024-05-13 11:51:32] INFO root fetch - processPackages [torch-snake]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-13 11:51:32] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-13 11:51:32] INFO root fetch - processPackages [orb-billing]: New version: [1.51.0] Old Version: [1.50.1]
+[2024-05-13 11:51:32] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/8d/df/96bf95bcdf1a640c25e1d97f95cc2d7f0cab3d7d1337241b86ed3bb9d00e/moltx-1.0.0.tar.gz
+[2024-05-13 11:51:32] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/c7/2a/59622fe2ca73fafcc8540ffd4c118c42ac41a4327e446ff6094c75d20dec/composio_openai-0.2.56.tar.gz
+[2024-05-13 11:51:32] INFO root fetch - processPackages [torch-snake]: Downloading https://files.pythonhosted.org/packages/f3/51/0c712e1370a03b1e763572559e139f5a48f1b08e191321bda38269b2e90b/torch-snake-0.1.0.tar.gz
+[2024-05-13 11:51:32] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/02/0a/d8fb4a54f72761b24a84174585a36f982ad94a219bf4c958772272f72ffd/moltx-1.0.1.tar.gz
+[2024-05-13 11:51:32] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/3e/45/9ed0c78ce21f2dbf0ad0b208c8eacf5d58221f6f5335083c735d40eefad3/orb_billing-1.50.1.tar.gz
+[2024-05-13 11:51:33] INFO root fetch - processPackages [st-signedUrl-uploader]: Downloading https://files.pythonhosted.org/packages/fd/c3/83beb14b1ac5095cb0165c6a9057dd7e689fb2791d69917949455a98ce88/st_signedurl_uploader-1.2.1.tar.gz
+[2024-05-13 11:51:33] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-05-13 11:51:33] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-1.0.0.tar.gz tmp/moltx-1.0.1.tar.gz --markdown 20240513/m/moltx/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 11:51:33] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/42/c1/5944b9d88a3cd845b9831c1382c2e984632b9e3c95f575458b9970836a6c/composio_openai-0.2.59.tar.gz
+[2024-05-13 11:51:33] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-13 11:51:33] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.56.tar.gz tmp/composio_openai-0.2.59.tar.gz --markdown 20240513/c/composio-openai/0.2.56-0.2.59/README.md --exclude *.pyd
+[2024-05-13 11:51:33] INFO root fetch - processPackages [st-signedUrl-uploader]: executing diffoscope
+[2024-05-13 11:51:33] INFO root fetch - processPackages [st-signedUrl-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_signedurl_uploader-1.2.tar.gz tmp/st_signedurl_uploader-1.2.1.tar.gz --markdown 20240513/s/st-signedUrl-uploader/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-13 11:51:33] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/b6/29/ce5383eb5b97a9826e6aba140820f7e245e9b3fd1840a0a232b706fef24a/orb_billing-1.51.0.tar.gz
+[2024-05-13 11:51:33] INFO root fetch - processPackages [torch-snake]: Downloading https://files.pythonhosted.org/packages/4b/b4/2e459ebb24458e6cb1db8be997fdd0e46edeb9a33854feff75e010dcc73f/torch-snake-1.0.0.tar.gz
+[2024-05-13 11:51:33] INFO root fetch - processPackages [torch-snake]: executing diffoscope
+[2024-05-13 11:51:33] INFO root fetch - processPackages [torch-snake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-snake-0.1.0.tar.gz tmp/torch-snake-1.0.0.tar.gz --markdown 20240513/t/torch-snake/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-13 11:51:33] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2024-05-13 11:51:33] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb_billing-1.50.1.tar.gz tmp/orb_billing-1.51.0.tar.gz --markdown 20240513/o/orb-billing/1.50.1-1.51.0/README.md --exclude *.pyd
+[2024-05-13 11:51:33] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.0.tar.gz]
+[2024-05-13 11:51:33] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.1.tar.gz]
+[2024-05-13 11:51:33] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-05-13 11:51:34] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.56.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.59.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-13 11:51:34] INFO root fetch - processPackages [torch-snake]: Remove: archive file [/home/abi/fetcher/tmp/torch-snake-0.1.0.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - processPackages [torch-snake]: Remove: archive file [/home/abi/fetcher/tmp/torch-snake-1.0.0.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - main [MainThread]: End processing [torch-snake]: success
+[2024-05-13 11:51:34] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - processPackages [st-signedUrl-uploader]: Remove: archive file [/home/abi/fetcher/tmp/st_signedurl_uploader-1.2.1.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - main [MainThread]: End processing [st-signedUrl-uploader]: success
+[2024-05-13 11:51:34] INFO root fetch - processPackages [pidcalib2]: Remove: archive file [/home/abi/fetcher/tmp/pidcalib2-1.2.1.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - processPackages [pidcalib2]: Remove: archive file [/home/abi/fetcher/tmp/pidcalib2-1.3.0.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - main [MainThread]: End processing [pidcalib2]: success
+[2024-05-13 11:51:34] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.50.1.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - processPackages [orb-billing]: Remove: archive file [/home/abi/fetcher/tmp/orb_billing-1.51.0.tar.gz]
+[2024-05-13 11:51:34] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2024-05-13 11:51:38] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django_formset-1.4.3.tar.gz]
+[2024-05-13 11:51:38] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django_formset-1.4.4.tar.gz]
+[2024-05-13 11:51:38] INFO root fetch - main [MainThread]: End processing [django-formset]: success
+[2024-05-13 11:51:38] INFO root fetch - main [MainThread]: Store serial: [23181146]
