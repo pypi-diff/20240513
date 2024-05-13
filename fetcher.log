@@ -11117,3 +11117,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:51:04] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post494-py3-none-any.whl.zip]
 [2024-05-13 09:51:04] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-13 09:51:04] INFO root fetch - main [MainThread]: Store serial: [23179558]
+[2024-05-13 09:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179558]
+[2024-05-13 09:53:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-utils
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sardana-nxsrecorder
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiversx-sdk
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistranslatez
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-on-k8s
+[2024-05-13 09:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imbue
+[2024-05-13 09:53:13] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-05-13 09:53:13] WARNING root fetch - processPackages [mistranslatez]: Skipping, unable to determine old version
+[2024-05-13 09:53:13] INFO root fetch - main [MainThread]: End processing [mistranslatez] error
+[2024-05-13 09:53:13] INFO root fetch - processPackages [imbue]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-13 09:53:13] INFO root fetch - processPackages [multiversx-sdk]: New version: [0.9.0b0] Old Version: [0.1.0]
+[2024-05-13 09:53:13] INFO root fetch - processPackages [sardana-nxsrecorder]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-13 09:53:13] INFO root fetch - processPackages [spark-on-k8s]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-13 09:53:13] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post494] Old Version: [3.1.0.post493]
+[2024-05-13 09:53:13] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-05-13 09:53:14] INFO root fetch - processPackages [imbue]: Downloading https://files.pythonhosted.org/packages/a0/d2/94a7b2bc1731ac2635365c3fa0325a58c72aa65404cf131f19d76b0ec6b3/imbue-2.1.0.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [multiversx-sdk]: Downloading https://files.pythonhosted.org/packages/2e/02/95fa726926516572fd9edbdbf16c3afe0fa015d36d28045577c70833ca63/multiversx_sdk-0.1.0.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [spark-on-k8s]: Downloading https://files.pythonhosted.org/packages/77/9a/12a3f905347e797271ac15ac7c38e35ac6f589bddcbd410ea9df378ba14c/spark_on_k8s-0.7.1.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/1d/1c/abdf8355a1e02a330d34c8a32f2717b6b3ac504f21d6dec10aa008fbb851/sardana-nxsrecorder-3.9.1.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/2f/16/0fda8e5d2009d51d08f057d2fbd3b187ead92b9f63005b5b82270ac0d512/nucliadb_utils-3.1.0.post493-py3-none-any.whl
+[2024-05-13 09:53:14] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-05-13 09:53:14] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-05-13 09:53:14] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240513/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-05-13 09:53:14] INFO root fetch - processPackages [imbue]: Downloading https://files.pythonhosted.org/packages/3f/7b/4a5faf226dc7074dc6ac70b01bc5aea3b676c36be3d1e22e9c3bb86f4714/imbue-2.1.1.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [spark-on-k8s]: Downloading https://files.pythonhosted.org/packages/49/04/c10d8f9a4a16fb3007b17e1249e466aee9fa1f8bea761bf0557a846f4530/spark_on_k8s-0.7.2.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/d9/29/65373b8ad9564ee581898942ffe3d3706e840de75a85ce3eca0f7e8bae51/nucliadb_utils-3.1.0.post494-py3-none-any.whl
+[2024-05-13 09:53:14] INFO root fetch - processPackages [multiversx-sdk]: Downloading https://files.pythonhosted.org/packages/c9/63/2f73ad32e101139600dea7f7a293074d42fbaa7272df5f685819960a7e04/multiversx_sdk-0.9.0b0.tar.gz
+[2024-05-13 09:53:14] WARNING root fetch - processPackages [multiversx-sdk]: Skipping package: exceeds size limit 15965266>=10485760
+[2024-05-13 09:53:14] INFO root fetch - main [MainThread]: End processing [multiversx-sdk] error
+[2024-05-13 09:53:14] INFO root fetch - processPackages [sardana-nxsrecorder]: Downloading https://files.pythonhosted.org/packages/22/56/3ba2b4035af19c2da8e7160365c3c06e834b747c243650261705211be616/sardana-nxsrecorder-3.9.2.tar.gz
+[2024-05-13 09:53:14] INFO root fetch - processPackages [spark-on-k8s]: executing diffoscope
+[2024-05-13 09:53:14] INFO root fetch - processPackages [spark-on-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_on_k8s-0.7.1.tar.gz tmp/spark_on_k8s-0.7.2.tar.gz --markdown 20240513/s/spark-on-k8s/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-13 09:53:14] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-13 09:53:14] INFO root fetch - processPackages [imbue]: executing diffoscope
+[2024-05-13 09:53:14] INFO root fetch - processPackages [imbue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imbue-2.1.0.tar.gz tmp/imbue-2.1.1.tar.gz --markdown 20240513/i/imbue/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-13 09:53:14] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post493-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post494-py3-none-any.whl.zip --markdown 20240513/n/nucliadb-utils/3.1.0.post493-3.1.0.post494/README.md --exclude *.pyd
+[2024-05-13 09:53:14] INFO root fetch - processPackages [sardana-nxsrecorder]: executing diffoscope
+[2024-05-13 09:53:14] INFO root fetch - processPackages [sardana-nxsrecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sardana-nxsrecorder-3.9.1.tar.gz tmp/sardana-nxsrecorder-3.9.2.tar.gz --markdown 20240513/s/sardana-nxsrecorder/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-13 09:53:15] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-05-13 09:53:15] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-05-13 09:53:15] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-05-13 09:53:15] INFO root fetch - processPackages [imbue]: Remove: archive file [/home/abi/fetcher/tmp/imbue-2.1.0.tar.gz]
+[2024-05-13 09:53:15] INFO root fetch - processPackages [imbue]: Remove: archive file [/home/abi/fetcher/tmp/imbue-2.1.1.tar.gz]
+[2024-05-13 09:53:15] INFO root fetch - main [MainThread]: End processing [imbue]: success
+[2024-05-13 09:53:15] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post493-py3-none-any.whl.zip]
+[2024-05-13 09:53:15] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post494-py3-none-any.whl.zip]
+[2024-05-13 09:53:15] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-13 09:53:15] INFO root fetch - processPackages [spark-on-k8s]: Remove: archive file [/home/abi/fetcher/tmp/spark_on_k8s-0.7.1.tar.gz]
+[2024-05-13 09:53:15] INFO root fetch - processPackages [spark-on-k8s]: Remove: archive file [/home/abi/fetcher/tmp/spark_on_k8s-0.7.2.tar.gz]
+[2024-05-13 09:53:15] INFO root fetch - main [MainThread]: End processing [spark-on-k8s]: success
+[2024-05-13 09:53:15] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.1.tar.gz]
+[2024-05-13 09:53:15] INFO root fetch - processPackages [sardana-nxsrecorder]: Remove: archive file [/home/abi/fetcher/tmp/sardana-nxsrecorder-3.9.2.tar.gz]
+[2024-05-13 09:53:15] INFO root fetch - main [MainThread]: End processing [sardana-nxsrecorder]: success
+[2024-05-13 09:53:15] INFO root fetch - main [MainThread]: Store serial: [23179578]
