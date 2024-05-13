@@ -14485,3 +14485,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:56:05] INFO root fetch - processPackages [forbidden]: Remove: archive file [/home/abi/fetcher/tmp/forbidden-11.0.tar.gz]
 [2024-05-13 11:56:05] INFO root fetch - main [MainThread]: End processing [forbidden]: success
 [2024-05-13 11:56:05] INFO root fetch - main [MainThread]: Store serial: [23181190]
+[2024-05-13 11:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181190]
+[2024-05-13 11:58:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-viewrouter
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-jupyter
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-eidos
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shared-helpers
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speedmeter
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymaster
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ridepy
+[2024-05-13 11:58:14] INFO root fetch - processPackages [shared-helpers]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-13 11:58:14] INFO root fetch - processPackages [llm-jupyter]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 11:58:14] WARNING root fetch - processPackages [speedmeter]: Skipping, unable to determine old version
+[2024-05-13 11:58:14] INFO root fetch - main [MainThread]: End processing [speedmeter] error
+[2024-05-13 11:58:14] INFO root fetch - processPackages [shared-helpers]: Downloading https://files.pythonhosted.org/packages/f0/5a/8d7f7332fbf2a0ea7491a4755267b53d08676a8be9e0ad91f6428a90b5c3/shared_helpers-0.0.7.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ridepy]: New version: [2.7.0.post1] Old Version: [2.7]
+[2024-05-13 11:58:14] INFO root fetch - processPackages [django-viewrouter]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 11:58:14] WARNING root fetch - processPackages [streamlit-eidos]: Skipping, unable to determine old version
+[2024-05-13 11:58:14] INFO root fetch - main [MainThread]: End processing [streamlit-eidos] error
+[2024-05-13 11:58:14] INFO root fetch - processPackages [pymaster]: New version: [2.0b0] Old Version: [1.6]
+[2024-05-13 11:58:14] INFO root fetch - processPackages [llm-jupyter]: Downloading https://files.pythonhosted.org/packages/3b/77/98e6232744688233a4e1951e5935af0ec316143b4acc71252d83c5b39093/llm_jupyter-0.0.1.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [django-viewrouter]: Downloading https://files.pythonhosted.org/packages/d6/ec/cc66022ebf0bb9621d589daa993ff9b9b066dc75b09ba79bd15834109d89/django_viewrouter-0.1.2.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [shared-helpers]: Downloading https://files.pythonhosted.org/packages/9a/48/ba801ca960f3d479b8b9d337d778fed5f797bf4310ba83bcdd19696432a6/shared_helpers-0.0.9.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/bb/04/fcdd1cce86193d52f85abac33b2d51b09f769f08c62d6892421db94bc85b/ridepy-2.7.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [pymaster]: Downloading https://files.pythonhosted.org/packages/df/ad/67fcbb3654bea9b9f83795a20f8d67fff297a18eae4e24b7afc82ae01b10/pymaster-1.6.tar.gz
+[2024-05-13 11:58:14] WARNING root fetch - processPackages [pymaster]: Skipping package: exceeds size limit 24837346>=10485760
+[2024-05-13 11:58:14] INFO root fetch - main [MainThread]: End processing [pymaster] error
+[2024-05-13 11:58:14] INFO root fetch - processPackages [shared-helpers]: executing diffoscope
+[2024-05-13 11:58:14] INFO root fetch - processPackages [shared-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_helpers-0.0.7.tar.gz tmp/shared_helpers-0.0.9.tar.gz --markdown 20240513/s/shared-helpers/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-13 11:58:14] INFO root fetch - processPackages [llm-jupyter]: Downloading https://files.pythonhosted.org/packages/20/42/273a66c04c674ead0e36b3ee25e76ee38bf2ee681d4dc49ae7de7a7956c1/llm_jupyter-0.0.2.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [django-viewrouter]: Downloading https://files.pythonhosted.org/packages/70/6b/50d834c00e211fba5e8ac1aa677d4480ea6b0b94b93f1b6ebf7377754fcb/django_viewrouter-0.1.3.tar.gz
+[2024-05-13 11:58:14] INFO root fetch - processPackages [llm-jupyter]: executing diffoscope
+[2024-05-13 11:58:14] INFO root fetch - processPackages [llm-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_jupyter-0.0.1.tar.gz tmp/llm_jupyter-0.0.2.tar.gz --markdown 20240513/l/llm-jupyter/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 11:58:15] INFO root fetch - processPackages [ridepy]: Downloading https://files.pythonhosted.org/packages/52/42/078aa7f8c71babc4eda70e4e78bc566d6643275ddf5cc9d63039045f23ab/ridepy-2.7.0.post1.tar.gz
+[2024-05-13 11:58:15] INFO root fetch - processPackages [django-viewrouter]: executing diffoscope
+[2024-05-13 11:58:15] INFO root fetch - processPackages [django-viewrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_viewrouter-0.1.2.tar.gz tmp/django_viewrouter-0.1.3.tar.gz --markdown 20240513/d/django-viewrouter/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 11:58:15] INFO root fetch - processPackages [ridepy]: executing diffoscope
+[2024-05-13 11:58:15] INFO root fetch - processPackages [ridepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridepy-2.7.tar.gz tmp/ridepy-2.7.0.post1.tar.gz --markdown 20240513/r/ridepy/2.7-2.7.0.post1/README.md --exclude *.pyd
+[2024-05-13 11:58:15] INFO root fetch - processPackages [shared-helpers]: Remove: archive file [/home/abi/fetcher/tmp/shared_helpers-0.0.7.tar.gz]
+[2024-05-13 11:58:15] INFO root fetch - processPackages [shared-helpers]: Remove: archive file [/home/abi/fetcher/tmp/shared_helpers-0.0.9.tar.gz]
+[2024-05-13 11:58:15] INFO root fetch - main [MainThread]: End processing [shared-helpers]: success
+[2024-05-13 11:58:15] INFO root fetch - processPackages [llm-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/llm_jupyter-0.0.1.tar.gz]
+[2024-05-13 11:58:15] INFO root fetch - processPackages [llm-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/llm_jupyter-0.0.2.tar.gz]
+[2024-05-13 11:58:15] INFO root fetch - main [MainThread]: End processing [llm-jupyter]: success
+[2024-05-13 11:58:15] INFO root fetch - processPackages [django-viewrouter]: Remove: archive file [/home/abi/fetcher/tmp/django_viewrouter-0.1.2.tar.gz]
+[2024-05-13 11:58:15] INFO root fetch - processPackages [django-viewrouter]: Remove: archive file [/home/abi/fetcher/tmp/django_viewrouter-0.1.3.tar.gz]
+[2024-05-13 11:58:15] INFO root fetch - main [MainThread]: End processing [django-viewrouter]: success
+[2024-05-13 11:58:16] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.7.tar.gz]
+[2024-05-13 11:58:16] INFO root fetch - processPackages [ridepy]: Remove: archive file [/home/abi/fetcher/tmp/ridepy-2.7.0.post1.tar.gz]
+[2024-05-13 11:58:16] INFO root fetch - main [MainThread]: End processing [ridepy]: success
+[2024-05-13 11:58:16] INFO root fetch - main [MainThread]: Store serial: [23181212]
