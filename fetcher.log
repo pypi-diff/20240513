@@ -14697,3 +14697,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 12:05:06] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-13 12:05:06] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-13 12:05:06] INFO root fetch - main [MainThread]: Store serial: [23181271]
+[2024-05-13 12:07:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181271]
+[2024-05-13 12:07:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 12:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2024-05-13 12:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NearBeach
+[2024-05-13 12:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: therix
+[2024-05-13 12:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyStratum-Cli
+[2024-05-13 12:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: axoden
+[2024-05-13 12:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shared-helpers
+[2024-05-13 12:07:16] INFO root fetch - processPackages [shared-helpers]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-13 12:07:16] INFO root fetch - processPackages [axoden]: New version: [0.2.14] Old Version: [0.1.1]
+[2024-05-13 12:07:16] INFO root fetch - processPackages [shared-helpers]: Downloading https://files.pythonhosted.org/packages/f0/5a/8d7f7332fbf2a0ea7491a4755267b53d08676a8be9e0ad91f6428a90b5c3/shared_helpers-0.0.7.tar.gz
+[2024-05-13 12:07:16] INFO root fetch - processPackages [PyStratum-Cli]: New version: [2.0.0] Old Version: [1.0.4]
+[2024-05-13 12:07:16] INFO root fetch - processPackages [therix]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-13 12:07:16] INFO root fetch - processPackages [NearBeach]: New version: [0.31.9] Old Version: [0.31.8]
+[2024-05-13 12:07:16] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-13 12:07:16] INFO root fetch - processPackages [axoden]: Downloading https://files.pythonhosted.org/packages/37/e6/1e0da0ed4b6abbc0d54457f6b8f72f81a9c973eeb14e63b7aeb689a24b05/axoden-0.1.1.tar.gz
+[2024-05-13 12:07:16] INFO root fetch - processPackages [PyStratum-Cli]: Downloading https://files.pythonhosted.org/packages/80/4f/59a01d5506eef83ceb94943f1539b513b9216efd40e2035d15abeab00935/PyStratum-Cli-1.0.4.tar.gz
+[2024-05-13 12:07:16] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/d3/c9/4444a9584fae7ddaa87ff4efa7f16f8833a3827e50758749323b05d77edd/nearbeach-0.31.8.tar.gz
+[2024-05-13 12:07:16] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/26/c4/7dd339ef657db2cd1d0d295e22092c01ea02fbc73043dbb575249c55a904/therix-0.1.4.tar.gz
+[2024-05-13 12:07:16] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-13 12:07:16] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 32530107>=10485760
+[2024-05-13 12:07:16] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2024-05-13 12:07:16] INFO root fetch - processPackages [shared-helpers]: Downloading https://files.pythonhosted.org/packages/9a/48/ba801ca960f3d479b8b9d337d778fed5f797bf4310ba83bcdd19696432a6/shared_helpers-0.0.9.tar.gz
+[2024-05-13 12:07:16] INFO root fetch - processPackages [shared-helpers]: executing diffoscope
+[2024-05-13 12:07:16] INFO root fetch - processPackages [shared-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_helpers-0.0.7.tar.gz tmp/shared_helpers-0.0.9.tar.gz --markdown 20240513/s/shared-helpers/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-13 12:07:16] INFO root fetch - processPackages [axoden]: Downloading https://files.pythonhosted.org/packages/1a/a9/d55d9be2a1985b55e3600ad29bc81e291b415b19f01d5337dafe4c242bfa/axoden-0.2.14.tar.gz
+[2024-05-13 12:07:17] INFO root fetch - processPackages [PyStratum-Cli]: Downloading https://files.pythonhosted.org/packages/f9/49/2236e16f9e86e08cf1beb96d7f42ce3a6abf0327f3a3ba061f25406ce3e3/pystratum_cli-2.0.0.tar.gz
+[2024-05-13 12:07:17] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/99/d5/4e68e17530bdd81793ffc35ec6513cbd992d48a80a4fe832bc27f32b910d/therix-0.1.5.tar.gz
+[2024-05-13 12:07:17] INFO root fetch - processPackages [axoden]: executing diffoscope
+[2024-05-13 12:07:17] INFO root fetch - processPackages [axoden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axoden-0.1.1.tar.gz tmp/axoden-0.2.14.tar.gz --markdown 20240513/a/axoden/0.1.1-0.2.14/README.md --exclude *.pyd
+[2024-05-13 12:07:17] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-13 12:07:17] INFO root fetch - processPackages [PyStratum-Cli]: executing diffoscope
+[2024-05-13 12:07:17] INFO root fetch - processPackages [PyStratum-Cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyStratum-Cli-1.0.4.tar.gz tmp/pystratum_cli-2.0.0.tar.gz --markdown 20240513/P/PyStratum-Cli/1.0.4-2.0.0/README.md --exclude *.pyd
+[2024-05-13 12:07:17] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-13 12:07:17] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.4.tar.gz tmp/therix-0.1.5.tar.gz --markdown 20240513/t/therix/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-13 12:07:17] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-13 12:07:17] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240513/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-13 12:07:17] INFO root fetch - processPackages [shared-helpers]: Remove: archive file [/home/abi/fetcher/tmp/shared_helpers-0.0.7.tar.gz]
+[2024-05-13 12:07:17] INFO root fetch - processPackages [shared-helpers]: Remove: archive file [/home/abi/fetcher/tmp/shared_helpers-0.0.9.tar.gz]
+[2024-05-13 12:07:17] INFO root fetch - main [MainThread]: End processing [shared-helpers]: success
+[2024-05-13 12:07:17] INFO root fetch - processPackages [axoden]: Remove: archive file [/home/abi/fetcher/tmp/axoden-0.1.1.tar.gz]
+[2024-05-13 12:07:17] INFO root fetch - processPackages [axoden]: Remove: archive file [/home/abi/fetcher/tmp/axoden-0.2.14.tar.gz]
+[2024-05-13 12:07:17] INFO root fetch - main [MainThread]: End processing [axoden]: success
+[2024-05-13 12:07:17] INFO root fetch - processPackages [PyStratum-Cli]: Remove: archive file [/home/abi/fetcher/tmp/PyStratum-Cli-1.0.4.tar.gz]
+[2024-05-13 12:07:17] INFO root fetch - processPackages [PyStratum-Cli]: Remove: archive file [/home/abi/fetcher/tmp/pystratum_cli-2.0.0.tar.gz]
+[2024-05-13 12:07:17] INFO root fetch - main [MainThread]: End processing [PyStratum-Cli]: success
+[2024-05-13 12:07:18] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.4.tar.gz]
+[2024-05-13 12:07:18] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.5.tar.gz]
+[2024-05-13 12:07:18] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-13 12:07:18] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-13 12:07:18] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-13 12:07:18] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-13 12:07:18] INFO root fetch - main [MainThread]: Store serial: [23181289]
