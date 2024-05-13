@@ -16768,3 +16768,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:27:50] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.84.5.tar.gz]
 [2024-05-13 13:27:50] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-05-13 13:27:50] INFO root fetch - main [MainThread]: Store serial: [23182091]
+[2024-05-13 13:29:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182091]
+[2024-05-13 13:29:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 13:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diresa
+[2024-05-13 13:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bota
+[2024-05-13 13:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cift
+[2024-05-13 13:29:58] INFO root fetch - processPackages [cift]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-13 13:29:58] INFO root fetch - processPackages [diresa]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-13 13:29:58] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-13 13:29:59] INFO root fetch - processPackages [cift]: Downloading https://files.pythonhosted.org/packages/b0/12/4b9385638a27e27120806d6b52a1a18d9c41eb63b6cee9bf626fa1d00705/cift-0.0.3.tar.gz
+[2024-05-13 13:29:59] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-05-13 13:29:59] INFO root fetch - processPackages [diresa]: Downloading https://files.pythonhosted.org/packages/f6/1a/77921d2d8471ee62bf6529d25a60c30461460254009d2410147ee419781c/diresa-1.0.5.tar.gz
+[2024-05-13 13:29:59] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-05-13 13:29:59] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-05-13 13:29:59] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240513/b/bota/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-13 13:29:59] INFO root fetch - processPackages [cift]: Downloading https://files.pythonhosted.org/packages/a2/a6/41d12b28217b3aa6f6fef1032bafc8c7f55a45426a752c4b82165daae7b1/cift-0.0.4.tar.gz
+[2024-05-13 13:29:59] INFO root fetch - processPackages [diresa]: Downloading https://files.pythonhosted.org/packages/89/86/f54867694b3bdedee83ad03585b5762eb453ff1f1406514237a49499c23a/diresa-1.0.6.tar.gz
+[2024-05-13 13:29:59] INFO root fetch - processPackages [cift]: executing diffoscope
+[2024-05-13 13:29:59] INFO root fetch - processPackages [cift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cift-0.0.3.tar.gz tmp/cift-0.0.4.tar.gz --markdown 20240513/c/cift/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-13 13:29:59] INFO root fetch - processPackages [diresa]: executing diffoscope
+[2024-05-13 13:29:59] INFO root fetch - processPackages [diresa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diresa-1.0.5.tar.gz tmp/diresa-1.0.6.tar.gz --markdown 20240513/d/diresa/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-13 13:30:00] INFO root fetch - processPackages [cift]: Remove: archive file [/home/abi/fetcher/tmp/cift-0.0.3.tar.gz]
+[2024-05-13 13:30:00] INFO root fetch - processPackages [cift]: Remove: archive file [/home/abi/fetcher/tmp/cift-0.0.4.tar.gz]
+[2024-05-13 13:30:00] INFO root fetch - main [MainThread]: End processing [cift]: success
+[2024-05-13 13:30:00] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-05-13 13:30:00] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-05-13 13:30:00] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-05-13 13:30:00] INFO root fetch - processPackages [diresa]: Remove: archive file [/home/abi/fetcher/tmp/diresa-1.0.5.tar.gz]
+[2024-05-13 13:30:00] INFO root fetch - processPackages [diresa]: Remove: archive file [/home/abi/fetcher/tmp/diresa-1.0.6.tar.gz]
+[2024-05-13 13:30:00] INFO root fetch - main [MainThread]: End processing [diresa]: success
+[2024-05-13 13:30:00] INFO root fetch - main [MainThread]: Store serial: [23182104]
