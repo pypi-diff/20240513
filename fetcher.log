@@ -10054,3 +10054,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:03:54] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2024-05-13 09:03:54] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2024-05-13 09:03:54] INFO root fetch - main [MainThread]: Store serial: [23179095]
+[2024-05-13 09:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179095]
+[2024-05-13 09:06:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mxcubeweb
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvisjs
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-shopfloor-base
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ioxplugin
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assentationz
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ioxplugin]: New version: [1.0.5] Old Version: [1.0.0]
+[2024-05-13 09:06:03] WARNING root fetch - processPackages [assentationz]: Skipping, unable to determine old version
+[2024-05-13 09:06:03] INFO root fetch - main [MainThread]: End processing [assentationz] error
+[2024-05-13 09:06:03] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2024-05-13 09:06:03] INFO root fetch - processPackages [pyvisjs]: New version: [1.0.0a1] Old Version: [0.0.0.dev8]
+[2024-05-13 09:06:03] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-13 09:06:03] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-05-13 09:06:03] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/95/8e/1ba749162a509e0f36a73f74b8ed5b09487632b2ea4bc493593ae4439713/ioxplugin-1.0.0.tar.gz
+[2024-05-13 09:06:03] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: Downloading https://files.pythonhosted.org/packages/31/32/924f43bb60b30028fe3c92c8f21c51e88f0879b614f5633e83fad9d95960/odoo_addon_shopfloor_base-16.0.1.0.1-py3-none-any.whl
+[2024-05-13 09:06:03] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/92/a2/7786076adb49fab1af2acb930a9173eb438632a501af5099f6a7707d659a/pyvisjs-0.0.0.dev8.tar.gz
+[2024-05-13 09:06:04] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-05-13 09:06:04] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/ad/b1/25bc902169c7e5a83123bae622c41d4788dc289466c80a9870091b0df38d/pyvisjs-1.0.0a1.tar.gz
+[2024-05-13 09:06:04] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/65/66/a2f034065d3380dc02d1780005e70287668548a740aef8cc68353c274f2a/ioxplugin-1.0.5.tar.gz
+[2024-05-13 09:06:04] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: Downloading https://files.pythonhosted.org/packages/d8/78/8d713a29fdd2fa804a21bbe19f8bb8a0f8654c6ab084f07f8d943b55e40f/odoo_addon_shopfloor_base-16.0.1.0.2-py3-none-any.whl
+[2024-05-13 09:06:04] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-05-13 09:06:04] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240513/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-13 09:06:04] INFO root fetch - processPackages [pyvisjs]: executing diffoscope
+[2024-05-13 09:06:04] INFO root fetch - processPackages [pyvisjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisjs-0.0.0.dev8.tar.gz tmp/pyvisjs-1.0.0a1.tar.gz --markdown 20240513/p/pyvisjs/0.0.0.dev8-1.0.0a1/README.md --exclude *.pyd
+[2024-05-13 09:06:04] INFO root fetch - processPackages [ioxplugin]: executing diffoscope
+[2024-05-13 09:06:04] INFO root fetch - processPackages [ioxplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioxplugin-1.0.0.tar.gz tmp/ioxplugin-1.0.5.tar.gz --markdown 20240513/i/ioxplugin/1.0.0-1.0.5/README.md --exclude *.pyd
+[2024-05-13 09:06:04] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: executing diffoscope
+[2024-05-13 09:06:04] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopfloor_base-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_shopfloor_base-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240513/o/odoo-addon-shopfloor-base/16.0.1.0.1-16.0.1.0.2/README.md --exclude *.pyd
+[2024-05-13 09:06:05] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.0.tar.gz]
+[2024-05-13 09:06:05] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.5.tar.gz]
+[2024-05-13 09:06:05] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
+[2024-05-13 09:06:05] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-0.0.0.dev8.tar.gz]
+[2024-05-13 09:06:05] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0a1.tar.gz]
+[2024-05-13 09:06:05] INFO root fetch - main [MainThread]: End processing [pyvisjs]: success
+[2024-05-13 09:06:05] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-05-13 09:06:05] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-05-13 09:06:05] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-05-13 09:06:05] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_base-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-13 09:06:05] INFO root fetch - processPackages [odoo-addon-shopfloor-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_base-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-13 09:06:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-base]: success
+[2024-05-13 09:06:05] INFO root fetch - main [MainThread]: Store serial: [23179110]
