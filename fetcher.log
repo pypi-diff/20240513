@@ -11588,3 +11588,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 10:10:51] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
 [2024-05-13 10:10:51] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
 [2024-05-13 10:10:51] INFO root fetch - main [MainThread]: Store serial: [23179739]
+[2024-05-13 10:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179739]
+[2024-05-13 10:12:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wgpu
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gbfs
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bota
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semantic-chunkers
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: middleware-help-python
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: z3log
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DocsChat
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RupineLib
+[2024-05-13 10:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mandarahz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-13 10:13:00] INFO root fetch - processPackages [gbfs]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-13 10:13:00] INFO root fetch - processPackages [z3log]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-13 10:13:00] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [wgpu]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-13 10:13:00] WARNING root fetch - processPackages [DocsChat]: Skipping, unable to determine old version
+[2024-05-13 10:13:00] INFO root fetch - main [MainThread]: End processing [DocsChat] error
+[2024-05-13 10:13:00] INFO root fetch - processPackages [semantic-chunkers]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 10:13:00] WARNING root fetch - processPackages [RupineLib]: Skipping, unable to determine old version
+[2024-05-13 10:13:00] INFO root fetch - main [MainThread]: End processing [RupineLib] error
+[2024-05-13 10:13:00] INFO root fetch - processPackages [middleware-help-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 10:13:00] INFO root fetch - processPackages [gbfs]: Downloading https://files.pythonhosted.org/packages/7f/ac/634722dba7c9d9b2fe48d6037d822e4e36017b95afa8f4fc9afbf4029282/gbfs-0.1.1.tar.gz
+[2024-05-13 10:13:00] WARNING root fetch - processPackages [mandarahz]: Skipping, unable to determine old version
+[2024-05-13 10:13:00] INFO root fetch - main [MainThread]: End processing [mandarahz] error
+[2024-05-13 10:13:00] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [z3log]: Downloading https://files.pythonhosted.org/packages/30/85/f985075cd08621325ea0707c7834f5ee7c8b3c869a0f7cc730333cd026ff/z3log-2.2.8.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [wgpu]: Downloading https://files.pythonhosted.org/packages/7b/b0/9b790143926ccfe1c66e56cc9d22e8767bb7eb9cbce83d3ed9a52ccb5bd0/wgpu-0.9.4.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/8e/f3/01b5e210ccb7a68a58d4889c37c8d4c022b492422e15ff6c3ee6434e7156/middleware-help-python-0.1.2.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [gbfs]: Downloading https://files.pythonhosted.org/packages/53/0b/c45289b5ff2e65df8f39c1056e0661e86d4864e32ca9e3f2cc36c57743d2/gbfs-0.2.0.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [semantic-chunkers]: Downloading https://files.pythonhosted.org/packages/5d/35/b3540743953dd79fe6d5858414a062cd2d98d5b9c377dc30fb82205c4f0f/semantic_chunkers-0.0.2.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-05-13 10:13:00] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240513/b/bota/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-13 10:13:00] INFO root fetch - processPackages [gbfs]: executing diffoscope
+[2024-05-13 10:13:00] INFO root fetch - processPackages [gbfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbfs-0.1.1.tar.gz tmp/gbfs-0.2.0.tar.gz --markdown 20240513/g/gbfs/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-13 10:13:00] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/ed/d9/6c06473176826b4539124d1001d99a8bf83c0b327430b43c4e74ba1a250a/middleware-help-python-0.1.3.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [semantic-chunkers]: Downloading https://files.pythonhosted.org/packages/af/76/61e474cf97cfc657a174744a32385428e2ecd540d46aeefe0fb45e8e2587/semantic_chunkers-0.0.3.tar.gz
+[2024-05-13 10:13:00] INFO root fetch - processPackages [z3log]: Downloading https://files.pythonhosted.org/packages/04/81/56960b42b4b1dab30edcaebaac33496850896dfe21df7b7808afd3de886d/z3log-2.2.9.tar.gz
+[2024-05-13 10:13:01] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-05-13 10:13:01] INFO root fetch - processPackages [wgpu]: Downloading https://files.pythonhosted.org/packages/c9/e4/29aaf7ea7880cbce65fc1d2c7e6cec4cd0ac5a89b9a1a6ef953db8337192/wgpu-0.9.5.tar.gz
+[2024-05-13 10:13:01] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.1.2.tar.gz tmp/middleware-help-python-0.1.3.tar.gz --markdown 20240513/m/middleware-help-python/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 10:13:01] INFO root fetch - processPackages [semantic-chunkers]: executing diffoscope
+[2024-05-13 10:13:01] INFO root fetch - processPackages [semantic-chunkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_chunkers-0.0.2.tar.gz tmp/semantic_chunkers-0.0.3.tar.gz --markdown 20240513/s/semantic-chunkers/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 10:13:01] INFO root fetch - processPackages [z3log]: executing diffoscope
+[2024-05-13 10:13:01] INFO root fetch - processPackages [z3log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3log-2.2.8.tar.gz tmp/z3log-2.2.9.tar.gz --markdown 20240513/z/z3log/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-13 10:13:01] INFO root fetch - processPackages [wgpu]: executing diffoscope
+[2024-05-13 10:13:01] INFO root fetch - processPackages [wgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgpu-0.9.4.tar.gz tmp/wgpu-0.9.5.tar.gz --markdown 20240513/w/wgpu/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-13 10:13:01] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-05-13 10:13:01] INFO root fetch - processPackages [gbfs]: Remove: archive file [/home/abi/fetcher/tmp/gbfs-0.1.1.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - processPackages [gbfs]: Remove: archive file [/home/abi/fetcher/tmp/gbfs-0.2.0.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - main [MainThread]: End processing [gbfs]: success
+[2024-05-13 10:13:01] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.1.2.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.1.3.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-05-13 10:13:01] INFO root fetch - processPackages [semantic-chunkers]: Remove: archive file [/home/abi/fetcher/tmp/semantic_chunkers-0.0.2.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - processPackages [semantic-chunkers]: Remove: archive file [/home/abi/fetcher/tmp/semantic_chunkers-0.0.3.tar.gz]
+[2024-05-13 10:13:01] INFO root fetch - main [MainThread]: End processing [semantic-chunkers]: success
+[2024-05-13 10:13:02] INFO root fetch - processPackages [z3log]: Remove: archive file [/home/abi/fetcher/tmp/z3log-2.2.8.tar.gz]
+[2024-05-13 10:13:02] INFO root fetch - processPackages [z3log]: Remove: archive file [/home/abi/fetcher/tmp/z3log-2.2.9.tar.gz]
+[2024-05-13 10:13:02] INFO root fetch - main [MainThread]: End processing [z3log]: success
+[2024-05-13 10:13:02] INFO root fetch - processPackages [wgpu]: Remove: archive file [/home/abi/fetcher/tmp/wgpu-0.9.4.tar.gz]
+[2024-05-13 10:13:02] INFO root fetch - processPackages [wgpu]: Remove: archive file [/home/abi/fetcher/tmp/wgpu-0.9.5.tar.gz]
+[2024-05-13 10:13:02] INFO root fetch - main [MainThread]: End processing [wgpu]: success
+[2024-05-13 10:13:02] INFO root fetch - main [MainThread]: Store serial: [23179773]
