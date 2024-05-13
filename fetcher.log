@@ -18911,3 +18911,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:34:21] INFO root fetch - processPackages [lakers-python]: Remove: archive file [/home/abi/fetcher/tmp/lakers_python-0.3.0.tar.gz]
 [2024-05-13 14:34:21] INFO root fetch - main [MainThread]: End processing [lakers-python]: success
 [2024-05-13 14:34:21] INFO root fetch - main [MainThread]: Store serial: [23182959]
+[2024-05-13 14:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182959]
+[2024-05-13 14:36:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinned-import-linter
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brukeropus
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stnpy
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tna-frontend-jinja
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edsl
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stakefish-web3-utils
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crypto-alpine
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: afeng-py-tools
+[2024-05-13 14:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: histomicstk
+[2024-05-13 14:36:30] INFO root fetch - processPackages [pinned-import-linter]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [stnpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-13 14:36:30] WARNING root fetch - processPackages [crypto-alpine]: Skipping, unable to determine old version
+[2024-05-13 14:36:30] INFO root fetch - main [MainThread]: End processing [crypto-alpine] error
+[2024-05-13 14:36:30] INFO root fetch - processPackages [tna-frontend-jinja]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [stakefish-web3-utils]: New version: [0.7.4] Old Version: [0.7.1]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [brukeropus]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [stnpy]: Downloading https://files.pythonhosted.org/packages/d7/f6/7d3453eef63bba42842836aae60f84fe8f2e50c09e499cbce3e7ed7eedd9/stnpy-0.1.0.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [edsl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [histomicstk]: New version: [1.3.8.dev1] Old Version: [1.3.7.dev1]
+[2024-05-13 14:36:30] INFO root fetch - processPackages [pinned-import-linter]: Downloading https://files.pythonhosted.org/packages/d8/60/cf740a16df0e3274aa2883ddbc2bdc10a365193b246d9cda3aa8864dbe82/pinned_import_linter-1.0.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [tna-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/9a/40/e849ab89ebf62fb58116667b0e32612c85220ecdf17671dce7b6f15291f8/tna-frontend-jinja-0.1.8.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [stakefish-web3-utils]: Downloading https://files.pythonhosted.org/packages/78/71/61796bf9d323548f5e8d1b26f65fac31a5a60d518b5073cd61a0e2723c9e/stakefish_web3_utils-0.7.1.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [brukeropus]: Downloading https://files.pythonhosted.org/packages/0a/1d/1e5adb33b8a2b49908f89bc751c3ad797db92f0ef5fdf80de989fe2d0033/brukeropus-1.0.3.tar.gz
+[2024-05-13 14:36:30] INFO root fetch - processPackages [edsl]: Downloading https://files.pythonhosted.org/packages/a7/b4/ca2ddafd1ecd31e28b2974e932e58274993e658c949b77ae37d057d7c856/edsl-0.1.8.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/32/f9/c1549ee5139ea22021dcb052784ec32f1e8201f0ce80c0344a3afbf5fb0d/histomicstk-1.3.7.dev1.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [stnpy]: Downloading https://files.pythonhosted.org/packages/b9/aa/48c4662578d574c3ef552ef7c9499f9745bf7bb62962ef9a666b32b62934/stnpy-0.1.1-py3-none-any.whl
+[2024-05-13 14:36:31] INFO root fetch - processPackages [pinned-import-linter]: Downloading https://files.pythonhosted.org/packages/86/59/4b4e5ab4b639b43e408d48ff3fc298bf9804e98ff3b26dcba4c21ad7635b/pinned_import_linter-1.0.1.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240513/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [stnpy]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [tna-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/d8/ef/ca870c7d93414a215b920eba8b57830de3bc6c6a851308c2989e4f81eb7c/tna-frontend-jinja-0.1.9.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [stnpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stnpy-0.1.0.tar.gz tmp/stnpy-0.1.1-py3-none-any.whl.zip --markdown 20240513/s/stnpy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [stakefish-web3-utils]: Downloading https://files.pythonhosted.org/packages/d0/2e/da6674ebf0532e9cf6f5f1f74686c61e0baaf35f59cac2a2b4698731bb81/stakefish_web3_utils-0.7.4.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [brukeropus]: Downloading https://files.pythonhosted.org/packages/8e/a6/bb427b2239593e0c009cbabd0ad6a953c358b6de18fe13f12c3a85adf337/brukeropus-1.0.4.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [pinned-import-linter]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [pinned-import-linter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinned_import_linter-1.0.tar.gz tmp/pinned_import_linter-1.0.1.tar.gz --markdown 20240513/p/pinned-import-linter/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [edsl]: Downloading https://files.pythonhosted.org/packages/f7/d4/f0e4527adeb00ef9119790d25c4faad0d3fa62ee7c189076b9b09f11e7f4/edsl-0.1.9.tar.gz
+[2024-05-13 14:36:31] INFO root fetch - processPackages [tna-frontend-jinja]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [tna-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tna-frontend-jinja-0.1.8.tar.gz tmp/tna-frontend-jinja-0.1.9.tar.gz --markdown 20240513/t/tna-frontend-jinja/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [stakefish-web3-utils]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [stakefish-web3-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stakefish_web3_utils-0.7.1.tar.gz tmp/stakefish_web3_utils-0.7.4.tar.gz --markdown 20240513/s/stakefish-web3-utils/0.7.1-0.7.4/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [brukeropus]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [brukeropus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brukeropus-1.0.3.tar.gz tmp/brukeropus-1.0.4.tar.gz --markdown 20240513/b/brukeropus/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [edsl]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [edsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsl-0.1.8.tar.gz tmp/edsl-0.1.9.tar.gz --markdown 20240513/e/edsl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 14:36:31] INFO root fetch - processPackages [histomicstk]: Downloading https://files.pythonhosted.org/packages/ed/0e/54583ecc595d7f8d5b074e49a9bb55fcf917c2b9d612aa3957a45ee7365e/histomicstk-1.3.8.dev1-cp311-cp311-macosx_10_12_x86_64.whl
+[2024-05-13 14:36:31] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-13 14:36:31] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240513/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-13 14:36:32] INFO root fetch - processPackages [histomicstk]: executing diffoscope
+[2024-05-13 14:36:32] INFO root fetch - processPackages [histomicstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicstk-1.3.7.dev1.tar.gz tmp/histomicstk-1.3.8.dev1-cp311-cp311-macosx_10_12_x86_64.whl.zip --markdown 20240513/h/histomicstk/1.3.7.dev1-1.3.8.dev1/README.md --exclude *.pyd
+[2024-05-13 14:36:32] INFO root fetch - processPackages [pinned-import-linter]: Remove: archive file [/home/abi/fetcher/tmp/pinned_import_linter-1.0.tar.gz]
+[2024-05-13 14:36:32] INFO root fetch - processPackages [pinned-import-linter]: Remove: archive file [/home/abi/fetcher/tmp/pinned_import_linter-1.0.1.tar.gz]
+[2024-05-13 14:36:32] INFO root fetch - main [MainThread]: End processing [pinned-import-linter]: success
+[2024-05-13 14:36:32] INFO root fetch - processPackages [brukeropus]: Remove: archive file [/home/abi/fetcher/tmp/brukeropus-1.0.3.tar.gz]
+[2024-05-13 14:36:32] INFO root fetch - processPackages [brukeropus]: Remove: archive file [/home/abi/fetcher/tmp/brukeropus-1.0.4.tar.gz]
+[2024-05-13 14:36:32] INFO root fetch - main [MainThread]: End processing [brukeropus]: success
+[2024-05-13 14:36:32] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish_web3_utils-0.7.1.tar.gz]
+[2024-05-13 14:36:32] INFO root fetch - processPackages [stakefish-web3-utils]: Remove: archive file [/home/abi/fetcher/tmp/stakefish_web3_utils-0.7.4.tar.gz]
+[2024-05-13 14:36:32] INFO root fetch - main [MainThread]: End processing [stakefish-web3-utils]: success
+[2024-05-13 14:36:33] INFO root fetch - processPackages [tna-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/tna-frontend-jinja-0.1.8.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - processPackages [tna-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/tna-frontend-jinja-0.1.9.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - main [MainThread]: End processing [tna-frontend-jinja]: success
+[2024-05-13 14:36:33] INFO root fetch - processPackages [histomicstk]: Remove: archive file [/home/abi/fetcher/tmp/histomicstk-1.3.7.dev1.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - processPackages [histomicstk]: Remove: archive file [/home/abi/fetcher/tmp/histomicstk-1.3.8.dev1-cp311-cp311-macosx_10_12_x86_64.whl.zip]
+[2024-05-13 14:36:33] INFO root fetch - main [MainThread]: End processing [histomicstk]: success
+[2024-05-13 14:36:33] INFO root fetch - processPackages [edsl]: Remove: archive file [/home/abi/fetcher/tmp/edsl-0.1.8.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - processPackages [edsl]: Remove: archive file [/home/abi/fetcher/tmp/edsl-0.1.9.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - main [MainThread]: End processing [edsl]: success
+[2024-05-13 14:36:33] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-13 14:36:33] INFO root fetch - processPackages [stnpy]: Remove: archive file [/home/abi/fetcher/tmp/stnpy-0.1.0.tar.gz]
+[2024-05-13 14:36:33] INFO root fetch - processPackages [stnpy]: Remove: archive file [/home/abi/fetcher/tmp/stnpy-0.1.1-py3-none-any.whl.zip]
+[2024-05-13 14:36:33] INFO root fetch - main [MainThread]: End processing [stnpy]: success
+[2024-05-13 14:36:49] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-13 14:36:49] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-13 14:36:49] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-13 14:36:49] INFO root fetch - main [MainThread]: Store serial: [23182995]
