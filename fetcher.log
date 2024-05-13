@@ -20039,3 +20039,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 15:08:34] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.2a2.tar.gz]
 [2024-05-13 15:08:34] INFO root fetch - main [MainThread]: End processing [fontc]: success
 [2024-05-13 15:08:34] INFO root fetch - main [MainThread]: Store serial: [23183419]
+[2024-05-13 15:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183419]
+[2024-05-13 15:10:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbx-code-owners
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cimsparql
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygradflow
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tusslerz
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvispr
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webviz-config
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: altscore-workflow-builder
+[2024-05-13 15:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synapse-token-authenticator
+[2024-05-13 15:10:43] INFO root fetch - processPackages [pbx-code-owners]: New version: [1.1.0a0] Old Version: [1.0.0a6]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pyvispr]: New version: [2024.9] Old Version: [2024.8]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/7d/3f/0e98ac9be62f8d76ea303901088d197a48effdf5e832a29fcecbbdfc993b/pbx_code_owners-1.0.0a6.tar.gz
+[2024-05-13 15:10:44] WARNING root fetch - processPackages [tusslerz]: Skipping, unable to determine old version
+[2024-05-13 15:10:44] INFO root fetch - main [MainThread]: End processing [tusslerz] error
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pygradflow]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [altscore-workflow-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [synapse-token-authenticator]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [cimsparql]: New version: [4.0.0] Old Version: [3.3.1]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [webviz-config]: New version: [0.6.1] Old Version: [0.5.3a0]
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/63/fb/eb248249b7c847e7a8f8214760b3a9477a3ef33cb3379c755d72fc7bf1af/pygradflow-0.4.8.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/34/1e/3a9b2faf80009bf72563532e3ec8ce21910773e97b728daaf8d62dacd707/pyvispr-2024.8.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/ea/50/68a174e88c0afb9bb3be90eca2364b220176652ef1a6dfd42149bdca6a50/cimsparql-3.3.1.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pbx-code-owners]: Downloading https://files.pythonhosted.org/packages/be/39/0d05b850091ea71b4550d92f820096a72a811b795c69d526af2161293d1c/pbx_code_owners-1.1.0a0-py3-none-any.whl
+[2024-05-13 15:10:44] INFO root fetch - processPackages [synapse-token-authenticator]: Downloading https://files.pythonhosted.org/packages/99/e8/5bd466dc55886e1b9f8d579996daee20438e0c0d33b9aed2cb12b8b3875b/synapse_token_authenticator-0.4.5.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/49/d5/a6fde64ff1591ecce834d60f8862260aa2e1ceca999bfdda230a4f0b7786/webviz-config-0.5.3a0.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/11/e9/5d79c5133f5382a85ca4f969840ba095eade539d2aabec45738a1bf7c27f/pygradflow-0.4.9.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [altscore-workflow-builder]: Downloading https://files.pythonhosted.org/packages/f0/fa/89cca82209a4c117e11fbf9e81a7731baafe7d98942d787c62e02ca375da/altscore_workflow_builder-0.0.8.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pbx-code-owners]: executing diffoscope
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pbx-code-owners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_code_owners-1.0.0a6.tar.gz tmp/pbx_code_owners-1.1.0a0-py3-none-any.whl.zip --markdown 20240513/p/pbx-code-owners/1.0.0a6-1.1.0a0/README.md --exclude *.pyd
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.4.8.tar.gz tmp/pygradflow-0.4.9.tar.gz --markdown 20240513/p/pygradflow/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/c7/88/6f48e09503df3a4b4a74ddf7f68e7e73d487b28935d020a641320a6de3a2/pyvispr-2024.9.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/e6/cd/9fe8554ff6d2c1b6bced0662339f5e5fbf27fb9f074973ec6b617bc63e88/cimsparql-4.0.0.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pyvispr]: executing diffoscope
+[2024-05-13 15:10:44] INFO root fetch - processPackages [pyvispr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvispr-2024.8.tar.gz tmp/pyvispr-2024.9.tar.gz --markdown 20240513/p/pyvispr/2024.8-2024.9/README.md --exclude *.pyd
+[2024-05-13 15:10:44] INFO root fetch - processPackages [synapse-token-authenticator]: Downloading https://files.pythonhosted.org/packages/e4/51/6d1e0965f395793a29382185929cc5bfaeb84d592036d62b2a775dd7610c/synapse_token_authenticator-0.4.6.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2024-05-13 15:10:44] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-3.3.1.tar.gz tmp/cimsparql-4.0.0.tar.gz --markdown 20240513/c/cimsparql/3.3.1-4.0.0/README.md --exclude *.pyd
+[2024-05-13 15:10:44] INFO root fetch - processPackages [altscore-workflow-builder]: Downloading https://files.pythonhosted.org/packages/68/8d/c9a42a6d012c1a9fb9ef55b57e3251bfa8d248169a64513b839c30038528/altscore_workflow_builder-0.0.9.tar.gz
+[2024-05-13 15:10:44] INFO root fetch - processPackages [altscore-workflow-builder]: executing diffoscope
+[2024-05-13 15:10:44] INFO root fetch - processPackages [altscore-workflow-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore_workflow_builder-0.0.8.tar.gz tmp/altscore_workflow_builder-0.0.9.tar.gz --markdown 20240513/a/altscore-workflow-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 15:10:45] INFO root fetch - processPackages [webviz-config]: Downloading https://files.pythonhosted.org/packages/33/cc/a148e8d83d02f79ac15d7a2c897290aa6581a25eaeeb05a27d9d0110591b/webviz_config-0.6.1.tar.gz
+[2024-05-13 15:10:45] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.0.0a6.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - processPackages [pbx-code-owners]: Remove: archive file [/home/abi/fetcher/tmp/pbx_code_owners-1.1.0a0-py3-none-any.whl.zip]
+[2024-05-13 15:10:45] INFO root fetch - main [MainThread]: End processing [pbx-code-owners]: success
+[2024-05-13 15:10:45] INFO root fetch - processPackages [webviz-config]: executing diffoscope
+[2024-05-13 15:10:45] INFO root fetch - processPackages [webviz-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-config-0.5.3a0.tar.gz tmp/webviz_config-0.6.1.tar.gz --markdown 20240513/w/webviz-config/0.5.3a0-0.6.1/README.md --exclude *.pyd
+[2024-05-13 15:10:45] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.8.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.4.9.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-13 15:10:45] INFO root fetch - processPackages [synapse-token-authenticator]: executing diffoscope
+[2024-05-13 15:10:45] INFO root fetch - processPackages [synapse-token-authenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapse_token_authenticator-0.4.5.tar.gz tmp/synapse_token_authenticator-0.4.6.tar.gz --markdown 20240513/s/synapse-token-authenticator/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-13 15:10:45] INFO root fetch - processPackages [altscore-workflow-builder]: Remove: archive file [/home/abi/fetcher/tmp/altscore_workflow_builder-0.0.8.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - processPackages [altscore-workflow-builder]: Remove: archive file [/home/abi/fetcher/tmp/altscore_workflow_builder-0.0.9.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - main [MainThread]: End processing [altscore-workflow-builder]: success
+[2024-05-13 15:10:45] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.3.1.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-4.0.0.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2024-05-13 15:10:45] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.8.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.9.tar.gz]
+[2024-05-13 15:10:45] INFO root fetch - main [MainThread]: End processing [pyvispr]: success
+[2024-05-13 15:10:46] INFO root fetch - processPackages [synapse-token-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/synapse_token_authenticator-0.4.5.tar.gz]
+[2024-05-13 15:10:46] INFO root fetch - processPackages [synapse-token-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/synapse_token_authenticator-0.4.6.tar.gz]
+[2024-05-13 15:10:46] INFO root fetch - main [MainThread]: End processing [synapse-token-authenticator]: success
+[2024-05-13 15:10:46] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz-config-0.5.3a0.tar.gz]
+[2024-05-13 15:10:46] INFO root fetch - processPackages [webviz-config]: Remove: archive file [/home/abi/fetcher/tmp/webviz_config-0.6.1.tar.gz]
+[2024-05-13 15:10:46] INFO root fetch - main [MainThread]: End processing [webviz-config]: success
+[2024-05-13 15:10:46] INFO root fetch - main [MainThread]: Store serial: [23183441]
