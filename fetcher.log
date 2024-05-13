@@ -9027,3 +9027,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 08:07:42] INFO root fetch - processPackages [package-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/package_dev_tools-0.6.0.tar.gz]
 [2024-05-13 08:07:42] INFO root fetch - main [MainThread]: End processing [package-dev-tools]: success
 [2024-05-13 08:07:42] INFO root fetch - main [MainThread]: Store serial: [23178513]
+[2024-05-13 08:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23178513]
+[2024-05-13 08:09:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-stack-dingding
+[2024-05-13 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubeinfra
+[2024-05-13 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mm-sdk
+[2024-05-13 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-pos-environment
+[2024-05-13 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: juranez
+[2024-05-13 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-server-env
+[2024-05-13 08:09:50] WARNING root fetch - processPackages [odoo-addon-pos-environment]: Skipping, unable to determine old version
+[2024-05-13 08:09:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-environment] error
+[2024-05-13 08:09:50] WARNING root fetch - processPackages [kubeinfra]: Skipping, unable to determine old version
+[2024-05-13 08:09:50] INFO root fetch - main [MainThread]: End processing [kubeinfra] error
+[2024-05-13 08:09:50] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-13 08:09:50] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.377] Old Version: [0.1.376]
+[2024-05-13 08:09:50] WARNING root fetch - processPackages [juranez]: Skipping, unable to determine old version
+[2024-05-13 08:09:50] INFO root fetch - main [MainThread]: End processing [juranez] error
+[2024-05-13 08:09:50] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/f0/7f/f6d126b493bed51d1236c1ca07e88ca89e862abc40a9b870c95f1ebc8c41/sentry-stack-dingding-1.0.5.tar.gz
+[2024-05-13 08:09:50] INFO root fetch - processPackages [odoo-addons-oca-server-env]: New version: [16.0.20240512.0] Old Version: [16.0.20221125.0]
+[2024-05-13 08:09:50] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/b4/a5/c52e441b574c695130e488fa657c8d47369448d777904d74d955bad9169b/mm_sdk-0.1.376.tar.gz
+[2024-05-13 08:09:51] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/53/c5/19005ba26fb004db1324c5a10878750a58112546bf8338fee709a74bbcd8/mm_sdk-0.1.377.tar.gz
+[2024-05-13 08:09:51] INFO root fetch - processPackages [odoo-addons-oca-server-env]: Downloading https://files.pythonhosted.org/packages/11/c6/cecc2569f81489c26f017167b3dc25760ce26b9d8ed7a09989ee13e7d460/odoo_addons_oca_server_env-16.0.20221125.0-py3-none-any.whl
+[2024-05-13 08:09:51] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/06/11/0064ec4e60149a69c231f7b44eff4f5295ad9dee5a75c2b7f180b4fc3d2c/sentry-stack-dingding-1.0.6.tar.gz
+[2024-05-13 08:09:51] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2024-05-13 08:09:51] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.376.tar.gz tmp/mm_sdk-0.1.377.tar.gz --markdown 20240513/m/mm-sdk/0.1.376-0.1.377/README.md --exclude *.pyd
+[2024-05-13 08:09:51] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 08:09:51] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.5.tar.gz tmp/sentry-stack-dingding-1.0.6.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-13 08:09:51] INFO root fetch - processPackages [odoo-addons-oca-server-env]: Downloading https://files.pythonhosted.org/packages/6e/c8/3263370222fc814c8f03901dd4a60e9d5d40b6276fbf6f321fc7d1e152be/odoo_addons_oca_server_env-16.0.20240512.0-py3-none-any.whl
+[2024-05-13 08:09:51] INFO root fetch - processPackages [odoo-addons-oca-server-env]: executing diffoscope
+[2024-05-13 08:09:51] INFO root fetch - processPackages [odoo-addons-oca-server-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_env-16.0.20221125.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_env-16.0.20240512.0-py3-none-any.whl.zip --markdown 20240513/o/odoo-addons-oca-server-env/16.0.20221125.0-16.0.20240512.0/README.md --exclude *.pyd
+[2024-05-13 08:09:51] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.5.tar.gz]
+[2024-05-13 08:09:51] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.6.tar.gz]
+[2024-05-13 08:09:51] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 08:09:51] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.376.tar.gz]
+[2024-05-13 08:09:51] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.377.tar.gz]
+[2024-05-13 08:09:51] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2024-05-13 08:09:52] INFO root fetch - processPackages [odoo-addons-oca-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_env-16.0.20221125.0-py3-none-any.whl.zip]
+[2024-05-13 08:09:52] INFO root fetch - processPackages [odoo-addons-oca-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_env-16.0.20240512.0-py3-none-any.whl.zip]
+[2024-05-13 08:09:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-env]: success
+[2024-05-13 08:09:52] INFO root fetch - main [MainThread]: Store serial: [23178531]
