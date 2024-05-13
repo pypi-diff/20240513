@@ -16494,3 +16494,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:18:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240513111633.tar.gz]
 [2024-05-13 13:18:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-13 13:18:58] INFO root fetch - main [MainThread]: Store serial: [23181955]
+[2024-05-13 13:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181955]
+[2024-05-13 13:21:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs2solutions
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfem
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaarf-exporter
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myjive
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prophecy-build-tool
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IvmInstruments
+[2024-05-13 13:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kafka-broker
+[2024-05-13 13:21:07] INFO root fetch - processPackages [cs2solutions]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-13 13:21:07] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-13 13:21:07] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post72.dev0]
+[2024-05-13 13:21:07] INFO root fetch - processPackages [gaarf-exporter]: New version: [0.7.1] Old Version: [0.7.0rc1]
+[2024-05-13 13:21:07] INFO root fetch - processPackages [myjive]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-13 13:21:07] WARNING root fetch - processPackages [IvmInstruments]: Skipping, unable to determine old version
+[2024-05-13 13:21:07] INFO root fetch - main [MainThread]: End processing [IvmInstruments] error
+[2024-05-13 13:21:07] INFO root fetch - processPackages [kafka-broker]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-13 13:21:07] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/8f/47/83214f1516d9d37a61fe9e82537dc407ff4802ccb9cbfc2c2c2e81de5a8c/cs2solutions-0.8.0.tar.gz
+[2024-05-13 13:21:07] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-13 13:21:07] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/87/fd/f4834c6ab5c429c6e4ef3593e3d68f12588c07888f4fd9eebc432448c459/xfem-2.1.2303.post72.dev0.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [gaarf-exporter]: Downloading https://files.pythonhosted.org/packages/c6/af/1ba27e2e799955f43d3dc04d50110a6a740d4532e9add294d981bb72cf13/gaarf-exporter-0.7.0rc1.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [myjive]: Downloading https://files.pythonhosted.org/packages/dc/f8/dfc5f5cdf8c3f3d3e6a5afad3803c2271ddb9494a7a58102b1231ff488ed/myjive-0.1.7.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/14/18/d731254af667cabef829eaa4fa8cdfb895722677bc1552049d36a23f674b/kafka-broker-0.4.3.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/66/14/f376d0a925d96549889ac360f879847ed504c28ab358a5b32ab669a19eb3/cs2solutions-0.8.1.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-13 13:21:08] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240513/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-13 13:21:08] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-05-13 13:21:08] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post72.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240513/x/xfem/2.1.2303.post72.dev0-2.1.2303.post8.dev0/README.md --exclude *.pyd
+[2024-05-13 13:21:08] INFO root fetch - processPackages [gaarf-exporter]: Downloading https://files.pythonhosted.org/packages/e4/20/8be3dfbfc2748e9dcf901319fed757706e66ded783e9e3398d79e207312c/gaarf-exporter-0.7.1.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-05-13 13:21:08] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.8.0.tar.gz tmp/cs2solutions-0.8.1.tar.gz --markdown 20240513/c/cs2solutions/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-13 13:21:08] INFO root fetch - processPackages [myjive]: Downloading https://files.pythonhosted.org/packages/ba/53/48070139b9e4f8bd7c76ca7f93b56bc93c77f1896c6f17ee82b274b3b4b8/myjive-0.1.8.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [kafka-broker]: Downloading https://files.pythonhosted.org/packages/80/a7/5ce0a0b4344c447c36ea735ab16d8c47ea209786878fe7a3e40734f8429f/kafka-broker-0.4.4.tar.gz
+[2024-05-13 13:21:08] INFO root fetch - processPackages [gaarf-exporter]: executing diffoscope
+[2024-05-13 13:21:08] INFO root fetch - processPackages [gaarf-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaarf-exporter-0.7.0rc1.tar.gz tmp/gaarf-exporter-0.7.1.tar.gz --markdown 20240513/g/gaarf-exporter/0.7.0rc1-0.7.1/README.md --exclude *.pyd
+[2024-05-13 13:21:08] INFO root fetch - processPackages [myjive]: executing diffoscope
+[2024-05-13 13:21:08] INFO root fetch - processPackages [myjive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myjive-0.1.7.tar.gz tmp/myjive-0.1.8.tar.gz --markdown 20240513/m/myjive/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-13 13:21:08] INFO root fetch - processPackages [kafka-broker]: executing diffoscope
+[2024-05-13 13:21:08] INFO root fetch - processPackages [kafka-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka-broker-0.4.3.tar.gz tmp/kafka-broker-0.4.4.tar.gz --markdown 20240513/k/kafka-broker/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-13 13:21:09] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-13 13:21:09] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.8.0.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.8.1.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-05-13 13:21:09] INFO root fetch - processPackages [gaarf-exporter]: Remove: archive file [/home/abi/fetcher/tmp/gaarf-exporter-0.7.0rc1.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - processPackages [gaarf-exporter]: Remove: archive file [/home/abi/fetcher/tmp/gaarf-exporter-0.7.1.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [gaarf-exporter]: success
+[2024-05-13 13:21:09] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.3.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - processPackages [kafka-broker]: Remove: archive file [/home/abi/fetcher/tmp/kafka-broker-0.4.4.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [kafka-broker]: success
+[2024-05-13 13:21:09] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post72.dev0.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-05-13 13:21:09] INFO root fetch - processPackages [myjive]: Remove: archive file [/home/abi/fetcher/tmp/myjive-0.1.7.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - processPackages [myjive]: Remove: archive file [/home/abi/fetcher/tmp/myjive-0.1.8.tar.gz]
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: End processing [myjive]: success
+[2024-05-13 13:21:09] INFO root fetch - main [MainThread]: Store serial: [23181985]
