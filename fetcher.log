@@ -4173,3 +4173,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:10:10] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.1.3-py3-none-any.whl.zip]
 [2024-05-13 05:10:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-sheet-file]: success
 [2024-05-13 05:10:10] INFO root fetch - main [MainThread]: Store serial: [23176268]
+[2024-05-13 05:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176268]
+[2024-05-13 05:12:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unchristianlyz
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipih
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: request-response-logging
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naja-atra
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ipih]: New version: [0.23] Old Version: [0.22]
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ipih]: Downloading https://files.pythonhosted.org/packages/0d/42/8096ca1ade988714545e3000946413216ee4d7bdc6bfe7f8c74e466c8458/ipih-0.22.tar.gz
+[2024-05-13 05:12:18] WARNING root fetch - processPackages [unchristianlyz]: Skipping, unable to determine old version
+[2024-05-13 05:12:18] INFO root fetch - main [MainThread]: End processing [unchristianlyz] error
+[2024-05-13 05:12:18] INFO root fetch - processPackages [request-response-logging]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 05:12:18] INFO root fetch - processPackages [naja-atra]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 05:12:18] INFO root fetch - processPackages [ipih]: Downloading https://files.pythonhosted.org/packages/33/8b/5b3d97d4554a3310c1e30dacc1c68865f7fb395759ac02c16e15add1e4a5/ipih-0.23.tar.gz
+[2024-05-13 05:12:18] INFO root fetch - processPackages [request-response-logging]: Downloading https://files.pythonhosted.org/packages/08/96/4527b7c231f9ae30d1f4c141897842e9fa434f51602c6e581ebf036f952c/request_response_logging-1.0.0.tar.gz
+[2024-05-13 05:12:18] INFO root fetch - processPackages [naja-atra]: Downloading https://files.pythonhosted.org/packages/41/c9/915089466973ac68ca911fac06010fbb027b3adc91152cfa717b1c361269/naja_atra-1.1.0.tar.gz
+[2024-05-13 05:12:19] INFO root fetch - processPackages [ipih]: executing diffoscope
+[2024-05-13 05:12:19] INFO root fetch - processPackages [ipih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipih-0.22.tar.gz tmp/ipih-0.23.tar.gz --markdown 20240513/i/ipih/0.22-0.23/README.md --exclude *.pyd
+[2024-05-13 05:12:19] INFO root fetch - processPackages [request-response-logging]: Downloading https://files.pythonhosted.org/packages/1c/bc/a6f01b4a9769b4bea8d2bfb9362267050d32263ed6dede8b0dccb93066a8/request_response_logging-1.0.1.tar.gz
+[2024-05-13 05:12:19] INFO root fetch - processPackages [naja-atra]: Downloading https://files.pythonhosted.org/packages/c6/bd/15b485e6cbfe7bd0dced78c725cedb2c221443c344edf90f2c46429bc95b/naja_atra-1.1.1.tar.gz
+[2024-05-13 05:12:19] INFO root fetch - processPackages [request-response-logging]: executing diffoscope
+[2024-05-13 05:12:19] INFO root fetch - processPackages [request-response-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request_response_logging-1.0.0.tar.gz tmp/request_response_logging-1.0.1.tar.gz --markdown 20240513/r/request-response-logging/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 05:12:19] INFO root fetch - processPackages [naja-atra]: executing diffoscope
+[2024-05-13 05:12:19] INFO root fetch - processPackages [naja-atra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naja_atra-1.1.0.tar.gz tmp/naja_atra-1.1.1.tar.gz --markdown 20240513/n/naja-atra/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 05:12:19] INFO root fetch - processPackages [ipih]: Remove: archive file [/home/abi/fetcher/tmp/ipih-0.22.tar.gz]
+[2024-05-13 05:12:19] INFO root fetch - processPackages [ipih]: Remove: archive file [/home/abi/fetcher/tmp/ipih-0.23.tar.gz]
+[2024-05-13 05:12:19] INFO root fetch - main [MainThread]: End processing [ipih]: success
+[2024-05-13 05:12:19] INFO root fetch - processPackages [request-response-logging]: Remove: archive file [/home/abi/fetcher/tmp/request_response_logging-1.0.0.tar.gz]
+[2024-05-13 05:12:19] INFO root fetch - processPackages [request-response-logging]: Remove: archive file [/home/abi/fetcher/tmp/request_response_logging-1.0.1.tar.gz]
+[2024-05-13 05:12:19] INFO root fetch - main [MainThread]: End processing [request-response-logging]: success
+[2024-05-13 05:12:19] INFO root fetch - processPackages [naja-atra]: Remove: archive file [/home/abi/fetcher/tmp/naja_atra-1.1.0.tar.gz]
+[2024-05-13 05:12:19] INFO root fetch - processPackages [naja-atra]: Remove: archive file [/home/abi/fetcher/tmp/naja_atra-1.1.1.tar.gz]
+[2024-05-13 05:12:19] INFO root fetch - main [MainThread]: End processing [naja-atra]: success
+[2024-05-13 05:12:19] INFO root fetch - main [MainThread]: Store serial: [23176281]
