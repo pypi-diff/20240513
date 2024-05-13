@@ -19219,3 +19219,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:43:23] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240512-py3-none-win_amd64.whl.zip]
 [2024-05-13 14:43:23] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-13 14:43:23] INFO root fetch - main [MainThread]: Store serial: [23183104]
+[2024-05-13 14:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183104]
+[2024-05-13 14:45:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-13 14:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interdispensationz
+[2024-05-13 14:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sarus-data-spec-public
+[2024-05-13 14:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crossword-puzzle
+[2024-05-13 14:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lorepy
+[2024-05-13 14:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-superset
+[2024-05-13 14:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-contour
+[2024-05-13 14:45:32] INFO root fetch - processPackages [torch-contour]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 14:45:32] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.68] Old Version: [1.2.67]
+[2024-05-13 14:45:32] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/25/89/f75200c7d15ab835b3980d290e024586122816f4d9131af6c5e42756250e/torch_contour-0.0.2.tar.gz
+[2024-05-13 14:45:32] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev7] Old Version: [4.0.0.dev6]
+[2024-05-13 14:45:32] WARNING root fetch - processPackages [interdispensationz]: Skipping, unable to determine old version
+[2024-05-13 14:45:32] INFO root fetch - main [MainThread]: End processing [interdispensationz] error
+[2024-05-13 14:45:32] INFO root fetch - processPackages [apache-superset]: New version: [4.0.1] Old Version: [4.0.0rc2]
+[2024-05-13 14:45:32] INFO root fetch - processPackages [lorepy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-13 14:45:33] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/5b/5b/f5270b98bc99a9ddd63e53c3dfb1e34f2d38bbf5734d3a04d6fdbf3cd342/crossword_puzzle-1.2.67.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/5c/b5/ba8be7819a479b53cf73362144abfd190bc76d1ac78f5807abd5ecea9006/torch_contour-0.0.3.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [lorepy]: Downloading https://files.pythonhosted.org/packages/5b/63/2d8376597cc54a284ce1002d5dc3e88569d55ba021e3204fae568f508683/lorepy-0.2.0.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [apache-superset]: Downloading https://files.pythonhosted.org/packages/ed/9c/fb762d3ba2cbd922b779c2fc9b4382526dce6010473ea567ed6c05402b13/apache-superset-4.0.0rc2.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [torch-contour]: executing diffoscope
+[2024-05-13 14:45:33] INFO root fetch - processPackages [torch-contour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_contour-0.0.2.tar.gz tmp/torch_contour-0.0.3.tar.gz --markdown 20240513/t/torch-contour/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 14:45:33] WARNING root fetch - processPackages [apache-superset]: Skipping package: exceeds size limit 49815907>=10485760
+[2024-05-13 14:45:33] INFO root fetch - main [MainThread]: End processing [apache-superset] error
+[2024-05-13 14:45:33] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/04/d9/c9b6011a887651ceee404eed40c6e90d4e2c7095bef0bfc66a687ee7719f/crossword_puzzle-1.2.68.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [lorepy]: Downloading https://files.pythonhosted.org/packages/14/53/ef9f073e4a3747034f620615cec929616cb031f4ec17f054b48504ce7af2/lorepy-0.2.1-py3-none-any.whl
+[2024-05-13 14:45:33] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/f6/99/d909eddfce9898580710206fe0c587b65b62f709404cf829d9a4d17d7b1d/sarus_data_spec_public-4.0.0.dev7.tar.gz
+[2024-05-13 14:45:33] INFO root fetch - processPackages [lorepy]: executing diffoscope
+[2024-05-13 14:45:33] INFO root fetch - processPackages [lorepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lorepy-0.2.0.tar.gz tmp/lorepy-0.2.1-py3-none-any.whl.zip --markdown 20240513/l/lorepy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-13 14:45:33] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-13 14:45:33] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz --markdown 20240513/s/sarus-data-spec-public/4.0.0.dev6-4.0.0.dev7/README.md --exclude *.pyd
+[2024-05-13 14:45:33] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-13 14:45:33] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.67.tar.gz tmp/crossword_puzzle-1.2.68.tar.gz --markdown 20240513/c/crossword-puzzle/1.2.67-1.2.68/README.md --exclude *.pyd
+[2024-05-13 14:45:33] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.2.tar.gz]
+[2024-05-13 14:45:33] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.3.tar.gz]
+[2024-05-13 14:45:33] INFO root fetch - main [MainThread]: End processing [torch-contour]: success
+[2024-05-13 14:45:34] INFO root fetch - processPackages [lorepy]: Remove: archive file [/home/abi/fetcher/tmp/lorepy-0.2.0.tar.gz]
+[2024-05-13 14:45:34] INFO root fetch - processPackages [lorepy]: Remove: archive file [/home/abi/fetcher/tmp/lorepy-0.2.1-py3-none-any.whl.zip]
+[2024-05-13 14:45:34] INFO root fetch - main [MainThread]: End processing [lorepy]: success
+[2024-05-13 14:45:34] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-05-13 14:45:34] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev7.tar.gz]
+[2024-05-13 14:45:34] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-13 14:45:54] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.67.tar.gz]
+[2024-05-13 14:45:54] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.68.tar.gz]
+[2024-05-13 14:45:54] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-13 14:45:54] INFO root fetch - main [MainThread]: Store serial: [23183122]
