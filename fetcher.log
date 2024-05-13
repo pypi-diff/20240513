@@ -19574,3 +19574,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:54:59] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.9.tar.gz]
 [2024-05-13 14:54:59] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
 [2024-05-13 14:54:59] INFO root fetch - main [MainThread]: Store serial: [23183228]
+[2024-05-13 14:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183228]
+[2024-05-13 14:57:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fontc
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auterion-cli
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nchuchain
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nchuchain
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws-native
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wampproto
+[2024-05-13 14:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdf-doctor
+[2024-05-13 14:57:08] INFO root fetch - processPackages [nchuchain]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [nchuchain]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [fontc]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [wampproto]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [auterion-cli]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-13 14:57:08] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/80/6f/62abe17cf5261b01bc5c37d801352e05a238969261e6b2ceb8c563cc7028/nchuchain-1.0.3.tar.gz
+[2024-05-13 14:57:08] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/80/6f/62abe17cf5261b01bc5c37d801352e05a238969261e6b2ceb8c563cc7028/nchuchain-1.0.3.tar.gz
+[2024-05-13 14:57:08] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-13 14:57:08] INFO root fetch - processPackages [fontc]: Downloading https://files.pythonhosted.org/packages/d8/d8/237cf6b3802ee748e4ba7635a0d77040d6ba3ddafbfee972098f0d13ea8c/fontc-0.0.2a2-py3-none-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
+[2024-05-13 14:57:09] WARNING root fetch - processPackages [fontc]: Skipping package: exceeds size limit 10827452>=10485760
+[2024-05-13 14:57:09] INFO root fetch - main [MainThread]: End processing [fontc] error
+[2024-05-13 14:57:09] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/59/7b/9e6e1d0dd04d897cda1fcf2ee660e63f2e3def472a63b0f2cdb8a69f8c18/auterion-cli-1.7.0.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [wampproto]: Downloading https://files.pythonhosted.org/packages/21/0c/e461f483b330f2768945ca0de012caa007a3f3d521e1005435d5aa91dff1/wampproto-0.1.0.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/21/72/879fefe03809a372fb2c5811bbe27799a9074e2554258ec8cbe1a9ddac2e/rdf_doctor-1.1.5-py3-none-any.whl
+[2024-05-13 14:57:09] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/63/42/8ba8b5e7e9d0748da10a6b05b8b2b7fc20664597265ce34a7e287d98fd16/nchuchain-1.0.4.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/63/42/8ba8b5e7e9d0748da10a6b05b8b2b7fc20664597265ce34a7e287d98fd16/nchuchain-1.0.4.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [wampproto]: Downloading https://files.pythonhosted.org/packages/9d/61/b9fc88bb5540b041a0e6e4f42228e50bd67198177fa3bd05a9fa48da3d2e/wampproto-0.2.0.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 14:57:09] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.3.tar.gz tmp/nchuchain-1.0.4.tar.gz --markdown 20240513/n/nchuchain/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-13 14:57:09] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-13 14:57:09] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.3.tar.gz tmp/nchuchain-1.0.4.tar.gz --markdown 20240513/n/nchuchain/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-13 14:57:09] INFO root fetch - processPackages [auterion-cli]: Downloading https://files.pythonhosted.org/packages/eb/18/eb1ae871f87d6da9889f1f17a7c7246d46d5ce7d100eb711e05b584c00c7/auterion-cli-1.7.1.tar.gz
+[2024-05-13 14:57:09] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/84/6d/ecc3448870ccd843da564236153f94f6b4865fa2dc452ff03d44eab9e9d3/rdf_doctor-1.1.6-py3-none-any.whl
+[2024-05-13 14:57:09] INFO root fetch - processPackages [wampproto]: executing diffoscope
+[2024-05-13 14:57:09] INFO root fetch - processPackages [wampproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wampproto-0.1.0.tar.gz tmp/wampproto-0.2.0.tar.gz --markdown 20240513/w/wampproto/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-13 14:57:09] INFO root fetch - processPackages [auterion-cli]: executing diffoscope
+[2024-05-13 14:57:09] INFO root fetch - processPackages [auterion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auterion-cli-1.7.0.tar.gz tmp/auterion-cli-1.7.1.tar.gz --markdown 20240513/a/auterion-cli/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-13 14:57:09] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-05-13 14:57:09] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.5-py3-none-any.whl.zip tmp/rdf_doctor-1.1.6-py3-none-any.whl.zip --markdown 20240513/r/rdf-doctor/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-13 14:57:09] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-13 14:57:09] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240513/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-13 14:57:10] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.3.tar.gz]
+[2024-05-13 14:57:10] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.4.tar.gz]
+[2024-05-13 14:57:10] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 14:57:10] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-13 14:57:10] INFO root fetch - processPackages [auterion-cli]: Remove: archive file [/home/abi/fetcher/tmp/auterion-cli-1.7.0.tar.gz]
+[2024-05-13 14:57:10] INFO root fetch - processPackages [auterion-cli]: Remove: archive file [/home/abi/fetcher/tmp/auterion-cli-1.7.1.tar.gz]
+[2024-05-13 14:57:10] INFO root fetch - main [MainThread]: End processing [auterion-cli]: success
+[2024-05-13 14:57:10] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.5-py3-none-any.whl.zip]
+[2024-05-13 14:57:10] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.6-py3-none-any.whl.zip]
+[2024-05-13 14:57:10] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-05-13 14:57:10] INFO root fetch - processPackages [wampproto]: Remove: archive file [/home/abi/fetcher/tmp/wampproto-0.1.0.tar.gz]
+[2024-05-13 14:57:10] INFO root fetch - processPackages [wampproto]: Remove: archive file [/home/abi/fetcher/tmp/wampproto-0.2.0.tar.gz]
+[2024-05-13 14:57:10] INFO root fetch - main [MainThread]: End processing [wampproto]: success
+[2024-05-13 14:57:24] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-13 14:57:24] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-13 14:57:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-13 14:57:24] INFO root fetch - main [MainThread]: Store serial: [23183251]
