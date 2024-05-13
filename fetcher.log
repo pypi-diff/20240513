@@ -17465,3 +17465,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 13:51:42] INFO root fetch - processPackages [asreview]: Remove: archive file [/home/abi/fetcher/tmp/asreview-1.6rc3.tar.gz]
 [2024-05-13 13:51:42] INFO root fetch - main [MainThread]: End processing [asreview]: success
 [2024-05-13 13:51:42] INFO root fetch - main [MainThread]: Store serial: [23182402]
+[2024-05-13 13:53:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182402]
+[2024-05-13 13:53:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 13:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-scaleway
+[2024-05-13 13:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daleaz
+[2024-05-13 13:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-05-13 13:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contentstack-management
+[2024-05-13 13:53:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onetomultipleimage
+[2024-05-13 13:53:50] INFO root fetch - processPackages [fnschool]: New version: [20240513.614.21] Old Version: [20240513.546.54]
+[2024-05-13 13:53:50] INFO root fetch - processPackages [qiskit-scaleway]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-13 13:53:50] WARNING root fetch - processPackages [daleaz]: Skipping, unable to determine old version
+[2024-05-13 13:53:50] INFO root fetch - main [MainThread]: End processing [daleaz] error
+[2024-05-13 13:53:50] INFO root fetch - processPackages [contentstack-management]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-13 13:53:50] ERROR root fetch - processPackages [onetomultipleimage]: Unable to get metadata: No such project 'onetomultipleimage'
+[2024-05-13 13:53:50] INFO root fetch - main [MainThread]: End processing [onetomultipleimage] error
+[2024-05-13 13:53:50] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/b5/cf/871e8c6fa6a0446b3210ba51e6120b199375794667096113176e64e8d6d4/qiskit_scaleway-0.1.8.tar.gz
+[2024-05-13 13:53:50] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/79/ae/4fcc7b7d2b78c3786619f48912f8bfad6f3b87d329f9e28f14e8f643ed6f/fnschool-20240513.546.54.tar.gz
+[2024-05-13 13:53:51] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/af/89/0f416e1ba80fb5c5d2067b862d0fb22564804d63c56005f72fb0ec524b08/qiskit_scaleway-0.1.9.tar.gz
+[2024-05-13 13:53:51] INFO root fetch - processPackages [contentstack-management]: Downloading https://files.pythonhosted.org/packages/20/4e/6ad1460ac9e4dd8b64be956c724603744f6ad1d8169793d040b38a4a1650/contentstack-management-1.0.1.tar.gz
+[2024-05-13 13:53:51] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/7c/4e/60793751fcc05bd3dcd375f44addebfb70964cb2edf4f8aed573496418e9/fnschool-20240513.614.21.tar.gz
+[2024-05-13 13:53:51] INFO root fetch - processPackages [qiskit-scaleway]: executing diffoscope
+[2024-05-13 13:53:51] INFO root fetch - processPackages [qiskit-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_scaleway-0.1.8.tar.gz tmp/qiskit_scaleway-0.1.9.tar.gz --markdown 20240513/q/qiskit-scaleway/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-13 13:53:51] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-13 13:53:51] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240513.546.54.tar.gz tmp/fnschool-20240513.614.21.tar.gz --markdown 20240513/f/fnschool/20240513.546.54-20240513.614.21/README.md --exclude *.pyd
+[2024-05-13 13:53:51] INFO root fetch - processPackages [contentstack-management]: Downloading https://files.pythonhosted.org/packages/b2/24/7f0816d1281e9403a1c58774577eccf05a170664b8c433d29886b438a6c2/contentstack_management-1.1.0.tar.gz
+[2024-05-13 13:53:51] INFO root fetch - processPackages [contentstack-management]: executing diffoscope
+[2024-05-13 13:53:51] INFO root fetch - processPackages [contentstack-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contentstack-management-1.0.1.tar.gz tmp/contentstack_management-1.1.0.tar.gz --markdown 20240513/c/contentstack-management/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-13 13:53:51] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.8.tar.gz]
+[2024-05-13 13:53:51] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.9.tar.gz]
+[2024-05-13 13:53:51] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
+[2024-05-13 13:53:52] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.546.54.tar.gz]
+[2024-05-13 13:53:52] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240513.614.21.tar.gz]
+[2024-05-13 13:53:52] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-13 13:53:52] INFO root fetch - processPackages [contentstack-management]: Remove: archive file [/home/abi/fetcher/tmp/contentstack-management-1.0.1.tar.gz]
+[2024-05-13 13:53:52] INFO root fetch - processPackages [contentstack-management]: Remove: archive file [/home/abi/fetcher/tmp/contentstack_management-1.1.0.tar.gz]
+[2024-05-13 13:53:52] INFO root fetch - main [MainThread]: End processing [contentstack-management]: success
+[2024-05-13 13:53:52] INFO root fetch - main [MainThread]: Store serial: [23182420]
