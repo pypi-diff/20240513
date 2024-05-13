@@ -23227,3 +23227,84 @@ EOFError: EOF read where object expected
 [2024-05-13 16:44:54] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-13 16:44:54] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-13 16:44:54] INFO root fetch - main [MainThread]: Store serial: [23185123]
+[2024-05-13 16:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185123]
+[2024-05-13 16:47:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-lumino-components
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: locust
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stack-graphs-python-bindings
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-parallelize
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-ctc-decode
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sterilizabilityz
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: harmon-ai
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: joserfc
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: riversand
+[2024-05-13 16:47:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: directory-structure-generator
+[2024-05-13 16:47:03] INFO root fetch - processPackages [dash-lumino-components]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-13 16:47:03] INFO root fetch - processPackages [smart-parallelize]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-13 16:47:03] WARNING root fetch - processPackages [sterilizabilityz]: Skipping, unable to determine old version
+[2024-05-13 16:47:03] INFO root fetch - main [MainThread]: End processing [sterilizabilityz] error
+[2024-05-13 16:47:03] INFO root fetch - processPackages [stack-graphs-python-bindings]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 16:47:03] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-13 16:47:03] INFO root fetch - processPackages [harmon-ai]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-13 16:47:03] WARNING root fetch - processPackages [directory-structure-generator]: Skipping, unable to determine old version
+[2024-05-13 16:47:03] INFO root fetch - main [MainThread]: End processing [directory-structure-generator] error
+[2024-05-13 16:47:03] INFO root fetch - processPackages [riversand]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-13 16:47:03] INFO root fetch - processPackages [joserfc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-13 16:47:03] INFO root fetch - processPackages [smart-parallelize]: Downloading https://files.pythonhosted.org/packages/6a/fe/8ebbcab94845b3b9dc55872bfdc4aca22762d128d40bbf63a34bd61fac01/smart_parallelize-2.0.8.tar.gz
+[2024-05-13 16:47:03] INFO root fetch - processPackages [fast-ctc-decode]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-13 16:47:03] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-13 16:47:03] INFO root fetch - processPackages [dash-lumino-components]: Downloading https://files.pythonhosted.org/packages/b2/ca/5b996e5f427ee3bdc5c73625fe1f226e502cdb06e0afb239644493da6416/dash_lumino_components-0.0.7.tar.gz
+[2024-05-13 16:47:03] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/ca/3b/de9540460d31f21795907438585351101406484110208363467a0953694d/stack_graphs_python_bindings-0.0.5.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [harmon-ai]: Downloading https://files.pythonhosted.org/packages/e0/f2/49982ec21e18cbc55b490b04c3c0d0756a4d02b3d8a97c38b0a68c44396a/harmon_ai-1.2.0.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/0a/47/c1d6994babb2747240a708a08a37aaeab39957135ddc4e0f52990fb7667d/riversand-1.2.2.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [joserfc]: Downloading https://files.pythonhosted.org/packages/f6/91/98934cc5a6efa37e8a11a206d0af62e7f2f45898a70774feb7160a70efe2/joserfc-0.8.0.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [fast-ctc-decode]: Downloading https://files.pythonhosted.org/packages/f0/54/d3506a54182bf3bf61f6bb3b4a8aa1edccc5e4850f68c0508d0d8010420e/fast_ctc_decode-0.3.5-cp39-none-win_amd64.whl
+[2024-05-13 16:47:04] INFO root fetch - processPackages [smart-parallelize]: Downloading https://files.pythonhosted.org/packages/0f/6f/48731f1909b1b681d6a4a859ba23d0b9133c578aaf5ca409036f55dbe11e/smart_parallelize-2.0.9.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [smart-parallelize]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [smart-parallelize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_parallelize-2.0.8.tar.gz tmp/smart_parallelize-2.0.9.tar.gz --markdown 20240513/s/smart-parallelize/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/41/bb/1b18fe677de280c04892c9d6b495bf647dff1030429c240a9e95a3926a86/stack_graphs_python_bindings-0.0.6.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [harmon-ai]: Downloading https://files.pythonhosted.org/packages/b5/3a/2b0d5fee47c0ed83f05d8ee7560a2c25badb7d95e742f467b54e9b3a8166/harmon_ai-1.3.0.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [dash-lumino-components]: Downloading https://files.pythonhosted.org/packages/59/ca/48a5425ce4e27aa2750bd2db3cb72d392468f4e407156f56db528dd9840b/dash_lumino_components-0.0.8.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [joserfc]: Downloading https://files.pythonhosted.org/packages/1e/c0/220477f18e91d518928d1f5844d23d663bd30df91258ea281f9564021b63/joserfc-0.9.0.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [stack-graphs-python-bindings]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [stack-graphs-python-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stack_graphs_python_bindings-0.0.5.tar.gz tmp/stack_graphs_python_bindings-0.0.6.tar.gz --markdown 20240513/s/stack-graphs-python-bindings/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/68/cf/7a74d53c47c6443bca323db2f59d3c7792460cc7e4c34032d5dd3794fca7/riversand-1.2.3.tar.gz
+[2024-05-13 16:47:04] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240513/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [fast-ctc-decode]: Downloading https://files.pythonhosted.org/packages/e5/34/2890cb6cc3ebb0ad665e34ad3977aa4fe62de78cab51ec88bc6abe18d1af/fast_ctc_decode-0.3.6-cp39-none-win_amd64.whl
+[2024-05-13 16:47:04] INFO root fetch - processPackages [dash-lumino-components]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [dash-lumino-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_lumino_components-0.0.7.tar.gz tmp/dash_lumino_components-0.0.8.tar.gz --markdown 20240513/d/dash-lumino-components/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [harmon-ai]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [harmon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harmon_ai-1.2.0.tar.gz tmp/harmon_ai-1.3.0.tar.gz --markdown 20240513/h/harmon-ai/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [joserfc]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [joserfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joserfc-0.8.0.tar.gz tmp/joserfc-0.9.0.tar.gz --markdown 20240513/j/joserfc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [riversand]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [riversand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riversand-1.2.2.tar.gz tmp/riversand-1.2.3.tar.gz --markdown 20240513/r/riversand/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-13 16:47:04] INFO root fetch - processPackages [fast-ctc-decode]: executing diffoscope
+[2024-05-13 16:47:04] INFO root fetch - processPackages [fast-ctc-decode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_ctc_decode-0.3.5-cp39-none-win_amd64.whl.zip tmp/fast_ctc_decode-0.3.6-cp39-none-win_amd64.whl.zip --markdown 20240513/f/fast-ctc-decode/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-13 16:47:05] INFO root fetch - processPackages [smart-parallelize]: Remove: archive file [/home/abi/fetcher/tmp/smart_parallelize-2.0.8.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - processPackages [smart-parallelize]: Remove: archive file [/home/abi/fetcher/tmp/smart_parallelize-2.0.9.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - main [MainThread]: End processing [smart-parallelize]: success
+[2024-05-13 16:47:05] INFO root fetch - processPackages [harmon-ai]: Remove: archive file [/home/abi/fetcher/tmp/harmon_ai-1.2.0.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - processPackages [harmon-ai]: Remove: archive file [/home/abi/fetcher/tmp/harmon_ai-1.3.0.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - main [MainThread]: End processing [harmon-ai]: success
+[2024-05-13 16:47:05] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.5.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.6.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings]: success
+[2024-05-13 16:47:05] INFO root fetch - processPackages [fast-ctc-decode]: Remove: archive file [/home/abi/fetcher/tmp/fast_ctc_decode-0.3.5-cp39-none-win_amd64.whl.zip]
+[2024-05-13 16:47:05] INFO root fetch - processPackages [fast-ctc-decode]: Remove: archive file [/home/abi/fetcher/tmp/fast_ctc_decode-0.3.6-cp39-none-win_amd64.whl.zip]
+[2024-05-13 16:47:05] INFO root fetch - main [MainThread]: End processing [fast-ctc-decode]: success
+[2024-05-13 16:47:05] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.2.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.3.tar.gz]
+[2024-05-13 16:47:05] INFO root fetch - main [MainThread]: End processing [riversand]: success
+[2024-05-13 16:47:06] INFO root fetch - processPackages [joserfc]: Remove: archive file [/home/abi/fetcher/tmp/joserfc-0.8.0.tar.gz]
+[2024-05-13 16:47:06] INFO root fetch - processPackages [joserfc]: Remove: archive file [/home/abi/fetcher/tmp/joserfc-0.9.0.tar.gz]
+[2024-05-13 16:47:06] INFO root fetch - main [MainThread]: End processing [joserfc]: success
+[2024-05-13 16:47:06] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-13 16:47:06] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-13 16:47:06] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-13 16:47:11] INFO root fetch - processPackages [dash-lumino-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_lumino_components-0.0.7.tar.gz]
+[2024-05-13 16:47:11] INFO root fetch - processPackages [dash-lumino-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_lumino_components-0.0.8.tar.gz]
+[2024-05-13 16:47:11] INFO root fetch - main [MainThread]: End processing [dash-lumino-components]: success
+[2024-05-13 16:47:11] INFO root fetch - main [MainThread]: Store serial: [23185191]

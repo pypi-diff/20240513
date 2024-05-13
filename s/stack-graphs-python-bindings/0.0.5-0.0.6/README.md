@@ -1,0 +1,248 @@
+# Comparing `tmp/stack_graphs_python_bindings-0.0.5.tar.gz` & `tmp/stack_graphs_python_bindings-0.0.6.tar.gz`
+
+## Comparing `stack_graphs_python_bindings-0.0.5.tar` & `stack_graphs_python_bindings-0.0.6.tar`
+
+### file list
+
+```diff
+@@ -1,16 +1,17 @@
+--rw-r--r--   0        0        0      577 1970-01-01 00:00:00.000000 stack_graphs_python_bindings-0.0.5/Cargo.toml
+--rw-r--r--   0     1001      127     4988 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/.github/workflows/CI.yml
+--rw-r--r--   0     1001      127      739 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/.gitignore
+--rw-r--r--   0     1001      127     1077 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/LICENSE
+--rw-r--r--   0     1001      127      122 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/Makefile
+--rw-r--r--   0     1001      127      909 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/README.md
+--rw-r--r--   0     1001      127     2101 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/src/classes.rs
+--rw-r--r--   0     1001      127     1159 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/src/lib.rs
+--rw-r--r--   0     1001      127     3547 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/src/stack_graphs_wrapper/mod.rs
+--rw-r--r--   0     1001      127      456 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/stack_graphs_python.pyi
+--rw-r--r--   0     1001      127       66 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/tests/js_sample/index.js
+--rw-r--r--   0     1001      127       25 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/tests/js_sample/module.js
+--rw-r--r--   0     1001      127      934 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/tests/test.py
+--rw-r--r--   0     1001      127    50375 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/Cargo.lock
+--rw-r--r--   0     1001      127      405 2024-05-12 20:36:43.000000 stack_graphs_python_bindings-0.0.5/pyproject.toml
+--rw-r--r--   0        0        0     1279 1970-01-01 00:00:00.000000 stack_graphs_python_bindings-0.0.5/PKG-INFO
++-rw-r--r--   0        0        0      577 1970-01-01 00:00:00.000000 stack_graphs_python_bindings-0.0.6/Cargo.toml
++-rw-r--r--   0     1001      127      840 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/.github/workflows/ci.yaml
++-rw-r--r--   0     1001      127     4176 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/.github/workflows/release.yaml
++-rw-r--r--   0     1001      127      739 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/.gitignore
++-rw-r--r--   0     1001      127     1077 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/LICENSE
++-rw-r--r--   0     1001      127     1664 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/Makefile
++-rw-r--r--   0     1001      127      909 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/README.md
++-rw-r--r--   0     1001      127     2101 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/src/classes.rs
++-rw-r--r--   0     1001      127     1159 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/src/lib.rs
++-rw-r--r--   0     1001      127     3547 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/src/stack_graphs_wrapper/mod.rs
++-rw-r--r--   0     1001      127      456 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/stack_graphs_python.pyi
++-rw-r--r--   0     1001      127       66 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/tests/js_sample/index.js
++-rw-r--r--   0     1001      127       25 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/tests/js_sample/module.js
++-rw-r--r--   0     1001      127      934 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/tests/test.py
++-rw-r--r--   0     1001      127    50375 2024-05-13 14:40:34.000000 stack_graphs_python_bindings-0.0.6/Cargo.lock
++-rw-r--r--   0     1001      127      405 2024-05-13 14:40:29.000000 stack_graphs_python_bindings-0.0.6/pyproject.toml
++-rw-r--r--   0        0        0     1279 1970-01-01 00:00:00.000000 stack_graphs_python_bindings-0.0.6/PKG-INFO
+```
+
+### Comparing `stack_graphs_python_bindings-0.0.5/Cargo.toml` & `stack_graphs_python_bindings-0.0.6/Cargo.toml`
+
+ * *Files 20% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [package]
+ name = "stack-graphs-python-bindings"
+-version = "0.1.0"
++version = "0.0.6"
+ edition = "2021"
+ 
+ # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+ [lib]
+ name = "stack_graphs_python"
+ crate-type = ["cdylib"]
+```
+
+### Comparing `stack_graphs_python_bindings-0.0.5/.github/workflows/CI.yml` & `stack_graphs_python_bindings-0.0.6/.github/workflows/release.yaml`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -1,61 +1,39 @@
+ # This file is abased on the autogenerated file by maturin v1.5.1
+ # It is modified to remove some architectures that were failing to build
+-name: CI
++# Build and release the package to PyPI
++name: Release
+ 
+ on:
+   push:
+-    branches:
+-      - main
+-      - master
+     tags:
+       - '*'
+-  pull_request:
+   workflow_dispatch:
+ 
+ concurrency:
+   group: ${{ github.workflow }}-${{ github.ref }}
+   cancel-in-progress: true
+ 
+ permissions:
+   contents: read
+ 
+ jobs:
+-  # from https://github.com/astral-sh/ruff/blob/main/.github/workflows/release.yaml
+   validate-tag:
+-      name: Validate tag
+-      runs-on: ubuntu-latest
+-      # If you don't set an input tag, it's a dry run (no uploads).
+-      if: ${{ inputs.tag }}
+-      steps:
+-        - uses: actions/checkout@v4
+-          with:
+-            ref: main # We checkout the main branch to check for the commit
+-        - name: Check main branch
+-          if: ${{ inputs.sha }}
+-          run: |
+-            # Fetch the main branch since a shallow checkout is used by default
+-            git fetch origin main --unshallow
+-            if ! git branch --contains ${{ inputs.sha }} | grep -E '(^|\s)main$'; then
+-              echo "The specified sha is not on the main branch" >&2
+-              exit 1
+-            fi
+-        - name: Check tag consistency
+-          run: |
+-            # Switch to the commit we want to release
+-            git checkout ${{ inputs.sha }}
+-            version=$(grep "version = " pyproject.toml | sed -e 's/version = "\(.*\)"/\1/g')
+-            if [ "${{ inputs.tag }}" != "${version}" ]; then
+-              echo "The input tag does not match the version from pyproject.toml:" >&2
+-              echo "${{ inputs.tag }}" >&2
+-              echo "${version}" >&2
+-              exit 1
+-            else
+-              echo "Releasing ${version}"
+-            fi
++    name: Validate tag
++    runs-on: ubuntu-latest
++    if: startsWith(github.ref, 'refs/tags/')
++    steps:
++      - uses: actions/checkout@v4
++        with:
++          fetch-depth: 0  # Ensure all history and tags are fetched
++      - name: Set up environment
++        run: echo "TAG=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
++      - name: Validate tags with Makefile
++        run: make validate-tags
++
+   linux:
+     runs-on: ${{ matrix.platform.runner }}
+     strategy:
+       matrix:
+         platform:
+           - runner: ubuntu-latest
+             target: x86_64
+@@ -146,23 +124,29 @@
+           command: sdist
+           args: --out dist
+       - name: Upload sdist
+         uses: actions/upload-artifact@v4
+         with:
+           name: wheels-sdist
+           path: dist
+-
++          
+   release:
+     name: Release
+     runs-on: ubuntu-latest
+-    # if: "startsWith(github.ref, 'refs/tags/')"
+-    # TODO(@nohehf): Re add validate-tag dependency
+-    needs: [linux, windows, macos, sdist]
++    needs: [linux, windows, macos, sdist, validate-tag]
+     steps:
+       - uses: actions/download-artifact@v4
+       - name: Publish to PyPI
+         uses: PyO3/maturin-action@v1
+         env:
+           MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
+         with:
+           command: upload
+           args: --non-interactive --skip-existing wheels-*/*
++      - name: Create GitHub Release
++        uses: softprops/action-gh-release@v1
++        if: success()
++        with:
++          files: |
++            wheels-*/*
++        env:
++          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+### Comparing `stack_graphs_python_bindings-0.0.5/.gitignore` & `stack_graphs_python_bindings-0.0.6/.gitignore`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/LICENSE` & `stack_graphs_python_bindings-0.0.6/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/README.md` & `stack_graphs_python_bindings-0.0.6/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/src/classes.rs` & `stack_graphs_python_bindings-0.0.6/src/classes.rs`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/src/lib.rs` & `stack_graphs_python_bindings-0.0.6/src/lib.rs`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/src/stack_graphs_wrapper/mod.rs` & `stack_graphs_python_bindings-0.0.6/src/stack_graphs_wrapper/mod.rs`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/tests/test.py` & `stack_graphs_python_bindings-0.0.6/tests/test.py`
+
+ * *Files identical despite different names*
+
+### Comparing `stack_graphs_python_bindings-0.0.5/Cargo.lock` & `stack_graphs_python_bindings-0.0.6/Cargo.lock`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1229,15 +1229,15 @@
+  "serde_with",
+  "smallvec",
+  "thiserror",
+ ]
+ 
+ [[package]]
+ name = "stack-graphs-python-bindings"
+-version = "0.1.0"
++version = "0.0.6"
+ dependencies = [
+  "pyo3",
+  "stack-graphs",
+  "tree-sitter-stack-graphs",
+  "tree-sitter-stack-graphs-java",
+  "tree-sitter-stack-graphs-javascript",
+  "tree-sitter-stack-graphs-python",
+```
+
+### Comparing `stack_graphs_python_bindings-0.0.5/PKG-INFO` & `stack_graphs_python_bindings-0.0.6/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.3
+ Name: stack-graphs-python-bindings
+-Version: 0.0.5
++Version: 0.0.6
+ Classifier: Programming Language :: Rust
+ Classifier: Programming Language :: Python :: Implementation :: CPython
+ Classifier: Programming Language :: Python :: Implementation :: PyPy
+ License-File: LICENSE
+ Requires-Python: >=3.11
+ Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+```
+
