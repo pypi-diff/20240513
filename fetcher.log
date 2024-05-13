@@ -23831,3 +23831,77 @@ EOFError: EOF read where object expected
 [2024-05-13 17:00:38] INFO root fetch - processPackages [bigfunctions]: Remove: archive file [/home/abi/fetcher/tmp/bigfunctions-0.6.tar.gz]
 [2024-05-13 17:00:38] INFO root fetch - main [MainThread]: End processing [bigfunctions]: success
 [2024-05-13 17:00:38] INFO root fetch - main [MainThread]: Store serial: [23185379]
+[2024-05-13 17:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23185379]
+[2024-05-13 17:02:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pioreactor
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: direnumerate
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lions
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartlink-local
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rootdir
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coelostatz
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwb4fp
+[2024-05-13 17:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygameextra
+[2024-05-13 17:02:48] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [rootdir]: New version: [0.1.2.post5] Old Version: [0.1.2.post4]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [lions]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [direnumerate]: New version: [3.3rc1] Old Version: [3.2rc2]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [kfish]: New version: [99.0.202405131500] Old Version: [99.0.202405131456]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-13 17:02:48] WARNING root fetch - processPackages [coelostatz]: Skipping, unable to determine old version
+[2024-05-13 17:02:48] INFO root fetch - main [MainThread]: End processing [coelostatz] error
+[2024-05-13 17:02:48] INFO root fetch - processPackages [pioreactor]: New version: [24.5.1rc0] Old Version: [24.5.13rc0]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.3.1] Old Version: [0.6.3.0]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [pygameextra]: New version: [2.0.0rc1] Old Version: [2.0.0b9]
+[2024-05-13 17:02:48] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/e0/19/43be398cba6fd8009c8c38f553d551eabc682bdd438cfbdcdf030b23f4b1/lions-1.0.8.tar.gz
+[2024-05-13 17:02:48] INFO root fetch - processPackages [rootdir]: Downloading https://files.pythonhosted.org/packages/73/63/73e436d22692e7f3a37e5fba9c2057ea22a69e10336ec03612de6468bc55/rootdir-0.1.2.post4.tar.gz
+[2024-05-13 17:02:48] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/1d/fd/9b041cd9dcb1381a97555bd15f029a8638efb8be61bac57eb5fd011c1634/direnumerate-3.2rc2.tar.gz
+[2024-05-13 17:02:48] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/7c/e5/8df9a03561bcc5b63778b07c22b09a7a3db09b6b0595f56b1dee53666952/kfish-99.0.202405131456-py3-none-any.whl
+[2024-05-13 17:02:48] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/d9/91/08f2fb9299be803fdac9e14ca6c1bb588047c9d8d20f8321b52e09577194/pioreactor-24.5.13rc0-py3-none-any.whl
+[2024-05-13 17:02:48] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/88/55/c2298df50e773ea647e4ac07855efd0174b43be4d652934df7868909362b/nwb4fp-0.6.3.0.tar.gz
+[2024-05-13 17:02:48] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/15/cb/24a5d9be0275983b579bf12118e5e33ef9078ad6bbf622a6335e2f1afdb4/pygameextra-2.0.0b9.tar.gz
+[2024-05-13 17:02:49] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-13 17:02:49] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/4c/02/62d33ffd523fa7bca46eff8b72f37baf11ed72607d9ffee25160189f92d3/lions-1.0.9.tar.gz
+[2024-05-13 17:02:49] ERROR root fetch - processPackages [rootdir]: Unable to fetch info: No such project/version 'rootdir' 0.1.2.post5
+[2024-05-13 17:02:49] INFO root fetch - main [MainThread]: End processing [rootdir] error
+[2024-05-13 17:02:49] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-13 17:02:49] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240513/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 17:02:49] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/40/81/ec2035aa5ea2c13545d3cf5fc2e5fa23ceff70cf0cf173a9ea51b2c64cf6/direnumerate-3.3rc1.tar.gz
+[2024-05-13 17:02:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/b6/89b9e5b38b377440d2514196361b49498f9f36c758db0cf9827258a26b7b/kfish-99.0.202405131500-py3-none-any.whl
+[2024-05-13 17:02:50] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 17:02:50] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.8.tar.gz tmp/lions-1.0.9.tar.gz --markdown 20240513/l/lions/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 17:02:50] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/c9/2b/8342138ccc27aead088b08bb5f7071f8b243d21fd8b1360506474c73ee1f/pioreactor-24.5.1rc0-py3-none-any.whl
+[2024-05-13 17:02:50] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/34/fd/6e06976fea0cab20df4b0128045a57958b902c97b646f98599c57c09455a/nwb4fp-0.6.3.1.tar.gz
+[2024-05-13 17:02:50] INFO root fetch - processPackages [pygameextra]: Downloading https://files.pythonhosted.org/packages/2b/a7/fac6c4d7d9b52934a787a48365b843d0cd5354fdf2af0bc5e0c5d843bb55/pygameextra-2.0.0rc1.tar.gz
+[2024-05-13 17:02:50] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-05-13 17:02:50] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.2rc2.tar.gz tmp/direnumerate-3.3rc1.tar.gz --markdown 20240513/d/direnumerate/3.2rc2-3.3rc1/README.md --exclude *.pyd
+[2024-05-13 17:02:50] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-13 17:02:50] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405131456-py3-none-any.whl.zip tmp/kfish-99.0.202405131500-py3-none-any.whl.zip --markdown 20240513/k/kfish/99.0.202405131456-99.0.202405131500/README.md --exclude *.pyd
+[2024-05-13 17:02:50] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-13 17:02:50] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.3.0.tar.gz tmp/nwb4fp-0.6.3.1.tar.gz --markdown 20240513/n/nwb4fp/0.6.3.0-0.6.3.1/README.md --exclude *.pyd
+[2024-05-13 17:02:50] INFO root fetch - processPackages [pioreactor]: executing diffoscope
+[2024-05-13 17:02:50] INFO root fetch - processPackages [pioreactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor-24.5.13rc0-py3-none-any.whl.zip tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip --markdown 20240513/p/pioreactor/24.5.13rc0-24.5.1rc0/README.md --exclude *.pyd
+[2024-05-13 17:02:50] INFO root fetch - processPackages [pygameextra]: executing diffoscope
+[2024-05-13 17:02:50] INFO root fetch - processPackages [pygameextra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygameextra-2.0.0b9.tar.gz tmp/pygameextra-2.0.0rc1.tar.gz --markdown 20240513/p/pygameextra/2.0.0b9-2.0.0rc1/README.md --exclude *.pyd
+[2024-05-13 17:02:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405131456-py3-none-any.whl.zip]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405131500-py3-none-any.whl.zip]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-13 17:02:51] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.8.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.9.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 17:02:51] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-13 17:02:51] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.2rc2.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.3rc1.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-05-13 17:02:51] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.3.0.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.3.1.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-13 17:02:51] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0b9.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [pygameextra]: Remove: archive file [/home/abi/fetcher/tmp/pygameextra-2.0.0rc1.tar.gz]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [pygameextra]: success
+[2024-05-13 17:02:51] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.13rc0-py3-none-any.whl.zip]
+[2024-05-13 17:02:51] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.1rc0-py3-none-any.whl.zip]
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
+[2024-05-13 17:02:51] INFO root fetch - main [MainThread]: Store serial: [23185409]
