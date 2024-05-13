@@ -17913,3 +17913,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:02:50] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.9.tar.gz]
 [2024-05-13 14:02:50] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2024-05-13 14:02:50] INFO root fetch - main [MainThread]: Store serial: [23182560]
+[2024-05-13 14:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23182560]
+[2024-05-13 14:04:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmat-tools
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uwa-airtest
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccdt
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yuag
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: learning-loop-node
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: everai
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solar-registry
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airb
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vipas
+[2024-05-13 14:04:59] INFO root fetch - processPackages [everai]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-13 14:04:59] INFO root fetch - processPackages [solar-registry]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-13 14:04:59] INFO root fetch - processPackages [vipas]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-13 14:04:59] INFO root fetch - processPackages [kmat-tools]: New version: [0.0.6] Old Version: [0.0.2]
+[2024-05-13 14:04:59] INFO root fetch - processPackages [yuag]: New version: [0.0.70] Old Version: [0.0.69]
+[2024-05-13 14:04:59] WARNING root fetch - processPackages [airb]: Skipping, unable to determine old version
+[2024-05-13 14:04:59] INFO root fetch - main [MainThread]: End processing [airb] error
+[2024-05-13 14:04:59] INFO root fetch - processPackages [uwa-airtest]: New version: [1.2.9.3] Old Version: [1.2.9.2]
+[2024-05-13 14:04:59] INFO root fetch - processPackages [learning-loop-node]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-13 14:04:59] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/bb/4e/92363b24452973ed183c109d597ce1af93c4bc4b701e969e796697b7bafe/vipas-0.0.5.tar.gz
+[2024-05-13 14:04:59] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/27/70/7c61dd42cb238ed62eabc92da75e2dba0f6101080215d7d5c6d181ede11b/solar_registry-0.2.1.tar.gz
+[2024-05-13 14:04:59] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/83/ba/acf3a57d75256b15f63178c114e3e792f1a160bf8ff5f61a188669041131/everai-0.1.52-py3-none-any.whl
+[2024-05-13 14:04:59] INFO root fetch - processPackages [ccdt]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-13 14:05:00] INFO root fetch - processPackages [kmat-tools]: Downloading https://files.pythonhosted.org/packages/78/d5/1f970ec33f3f36e3e304eb8f6ce43014a38ef1a0a297861f74336256b079/kmat_tools-0.0.2.tar.gz
+[2024-05-13 14:05:00] INFO root fetch - processPackages [uwa-airtest]: Downloading https://files.pythonhosted.org/packages/34/a7/f8e8a98e9f77b465943da97d79db8a6e80c299cc673b472b724a3978b0f5/uwa-airtest-1.2.9.2.tar.gz
+[2024-05-13 14:05:00] INFO root fetch - processPackages [yuag]: Downloading https://files.pythonhosted.org/packages/8e/e0/84d65d87b09ee9ecee77414200eef58d892aaf160b0271104de0a4732494/yuag-0.0.69.tar.gz
+[2024-05-13 14:05:00] INFO root fetch - processPackages [learning-loop-node]: Downloading https://files.pythonhosted.org/packages/c2/c3/d9e31c5cdd663dd4fcb72104155f27f644530d332b81c0093aeb9c8eecc0/learning_loop_node-0.9.2.tar.gz
+[2024-05-13 14:05:00] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/5e/9c/468b97d81f651afdc79c90181caf3e96586e1faf49f1f0272cd9d59234cc/ccdt-2.1.98.tar.gz
+[2024-05-13 14:05:01] WARNING root fetch - processPackages [uwa-airtest]: Skipping package: exceeds size limit 28488649>=10485760
+[2024-05-13 14:05:01] INFO root fetch - main [MainThread]: End processing [uwa-airtest] error
+[2024-05-13 14:05:01] INFO root fetch - processPackages [yuag]: Downloading https://files.pythonhosted.org/packages/f3/52/569ceb35881955b9ea330f57d73ddd43da7b6af5d47ed4c9f0d5cae9258e/yuag-0.0.70.tar.gz
+[2024-05-13 14:05:01] INFO root fetch - processPackages [kmat-tools]: Downloading https://files.pythonhosted.org/packages/01/d2/43fb8735d659fb67e1aacb50144e6f6ab38ad4fc7945ebf66f275de41975/kmat_tools-0.0.6.tar.gz
+[2024-05-13 14:05:01] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/ae/07/11335a5644a059fdac803beafdf4047702469c9327d6b0739276135b3318/vipas-0.0.6.tar.gz
+[2024-05-13 14:05:01] INFO root fetch - processPackages [yuag]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [yuag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuag-0.0.69.tar.gz tmp/yuag-0.0.70.tar.gz --markdown 20240513/y/yuag/0.0.69-0.0.70/README.md --exclude *.pyd
+[2024-05-13 14:05:01] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/9d/c2/ab5d103f06cb6c1705f6b0efce3d402f97528427011dabc446b13814b73e/solar_registry-0.2.2.tar.gz
+[2024-05-13 14:05:01] INFO root fetch - processPackages [learning-loop-node]: Downloading https://files.pythonhosted.org/packages/2a/e0/c868d70ad42da4c2eae30d2123fbdee26dc44d6ad03de70f130734246b65/learning_loop_node-0.9.3.tar.gz
+[2024-05-13 14:05:01] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/bf/88/0a8bde31365394e095dda74c8f4ec442ff47265c632929a84196b5192056/ccdt-2.1.99.tar.gz
+[2024-05-13 14:05:01] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/2c/ad/5706662e339f18b3b10591f059fd3deeff73e7f7c0e3a265ac1a52e34bd1/everai-0.1.53-py3-none-any.whl
+[2024-05-13 14:05:01] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.0.5.tar.gz tmp/vipas-0.0.6.tar.gz --markdown 20240513/v/vipas/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-13 14:05:01] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.1.tar.gz tmp/solar_registry-0.2.2.tar.gz --markdown 20240513/s/solar-registry/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-13 14:05:01] INFO root fetch - processPackages [kmat-tools]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [kmat-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmat_tools-0.0.2.tar.gz tmp/kmat_tools-0.0.6.tar.gz --markdown 20240513/k/kmat-tools/0.0.2-0.0.6/README.md --exclude *.pyd
+[2024-05-13 14:05:01] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.98.tar.gz tmp/ccdt-2.1.99.tar.gz --markdown 20240513/c/ccdt/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-13 14:05:01] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.52-py3-none-any.whl.zip tmp/everai-0.1.53-py3-none-any.whl.zip --markdown 20240513/e/everai/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-13 14:05:01] INFO root fetch - processPackages [learning-loop-node]: executing diffoscope
+[2024-05-13 14:05:01] INFO root fetch - processPackages [learning-loop-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learning_loop_node-0.9.2.tar.gz tmp/learning_loop_node-0.9.3.tar.gz --markdown 20240513/l/learning-loop-node/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-13 14:05:02] INFO root fetch - processPackages [yuag]: Remove: archive file [/home/abi/fetcher/tmp/yuag-0.0.69.tar.gz]
+[2024-05-13 14:05:02] INFO root fetch - processPackages [yuag]: Remove: archive file [/home/abi/fetcher/tmp/yuag-0.0.70.tar.gz]
+[2024-05-13 14:05:02] INFO root fetch - main [MainThread]: End processing [yuag]: success
+[2024-05-13 14:05:02] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.1.tar.gz]
+[2024-05-13 14:05:02] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.2.tar.gz]
+[2024-05-13 14:05:02] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-13 14:05:03] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.98.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.99.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2024-05-13 14:05:03] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.5.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.0.6.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-13 14:05:03] INFO root fetch - processPackages [kmat-tools]: Remove: archive file [/home/abi/fetcher/tmp/kmat_tools-0.0.2.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - processPackages [kmat-tools]: Remove: archive file [/home/abi/fetcher/tmp/kmat_tools-0.0.6.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - main [MainThread]: End processing [kmat-tools]: success
+[2024-05-13 14:05:03] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.2.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - processPackages [learning-loop-node]: Remove: archive file [/home/abi/fetcher/tmp/learning_loop_node-0.9.3.tar.gz]
+[2024-05-13 14:05:03] INFO root fetch - main [MainThread]: End processing [learning-loop-node]: success
+[2024-05-13 14:05:04] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.52-py3-none-any.whl.zip]
+[2024-05-13 14:05:04] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.53-py3-none-any.whl.zip]
+[2024-05-13 14:05:04] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-13 14:05:04] INFO root fetch - main [MainThread]: Store serial: [23182586]
