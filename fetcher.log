@@ -19634,3 +19634,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:57:24] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-13 14:57:24] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-13 14:57:24] INFO root fetch - main [MainThread]: Store serial: [23183251]
+[2024-05-13 14:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183251]
+[2024-05-13 14:59:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdsr-wis-config-reader
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statex
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycognaize
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RodTracker
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-jira
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwb4fp
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sensimotorz
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: borneo-client-python
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hstream
+[2024-05-13 14:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymtpng
+[2024-05-13 14:59:33] INFO root fetch - processPackages [hstream]: New version: [0.1.45] Old Version: [0.1.44]
+[2024-05-13 14:59:33] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.2.8] Old Version: [0.6.2.7]
+[2024-05-13 14:59:33] WARNING root fetch - processPackages [borneo-client-python]: Skipping, unable to determine old version
+[2024-05-13 14:59:33] INFO root fetch - main [MainThread]: End processing [borneo-client-python] error
+[2024-05-13 14:59:33] WARNING root fetch - processPackages [sensimotorz]: Skipping, unable to determine old version
+[2024-05-13 14:59:33] INFO root fetch - main [MainThread]: End processing [sensimotorz] error
+[2024-05-13 14:59:33] INFO root fetch - processPackages [RodTracker]: New version: [0.6.2.dev27] Old Version: [0.6.2.dev25]
+[2024-05-13 14:59:33] INFO root fetch - processPackages [airbyte-source-jira]: New version: [2.0.0] Old Version: [1.2.2]
+[2024-05-13 14:59:33] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/97/53/fc3eb04c8f54a74af5e1dfd5807bca0ea132a15809092ec214278b616e12/hstream-0.1.44.tar.gz
+[2024-05-13 14:59:33] INFO root fetch - processPackages [pymtpng]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-13 14:59:33] WARNING root fetch - processPackages [statex]: Skipping, unable to determine old version
+[2024-05-13 14:59:33] INFO root fetch - main [MainThread]: End processing [statex] error
+[2024-05-13 14:59:33] INFO root fetch - processPackages [hdsr-wis-config-reader]: New version: [1.9] Old Version: [1.8]
+[2024-05-13 14:59:33] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-13 14:59:33] INFO root fetch - processPackages [hdsr-wis-config-reader]: Downloading https://files.pythonhosted.org/packages/42/7d/30a695ac7ee0ec095e43b3c702bd3e7cbc5120a1e12ab0139e243f3fe8f5/hdsr_wis_config_reader-1.8.tar.gz
+[2024-05-13 14:59:33] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/9c/52/0e3c04cb0b8563644ba0b95ef968e7362fab5ec050324d1836794e3cdb60/nwb4fp-0.6.2.7.tar.gz
+[2024-05-13 14:59:33] INFO root fetch - processPackages [airbyte-source-jira]: Downloading https://files.pythonhosted.org/packages/af/58/7ccb97440b2381767cd26d8ebc25456cea47256ba88c9d620ddef957c909/airbyte_source_jira-1.2.2.tar.gz
+[2024-05-13 14:59:33] INFO root fetch - processPackages [RodTracker]: Downloading https://files.pythonhosted.org/packages/ec/e6/ae99ffd383c12bf50e8adf7d94fe81fb965fd0532736cf5d3b8efc8ff667/rodtracker-0.6.2.dev25.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pymtpng]: Downloading https://files.pythonhosted.org/packages/86/4d/d45c3e8c3b0dd6d1bef24510b6a35b11edd18d1ad686be71e5d2625ef35c/pymtpng-1.0.2.tar.gz
+[2024-05-13 14:59:34] WARNING root fetch - processPackages [RodTracker]: Skipping package: exceeds size limit 16670763>=10485760
+[2024-05-13 14:59:34] INFO root fetch - main [MainThread]: End processing [RodTracker] error
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/c4/4c/4b2849bc340de8e7155946ae5f2c60957394e2e645000dce8256c6a2f4fd/hstream-0.1.45.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [hdsr-wis-config-reader]: Downloading https://files.pythonhosted.org/packages/c9/aa/e3352b541aaf7ae9b82c90cea820086df82f364fea7ec16b85d4a11cadd8/hdsr_wis_config_reader-1.9.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-13 14:59:34] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.44.tar.gz tmp/hstream-0.1.45.tar.gz --markdown 20240513/h/hstream/0.1.44-0.1.45/README.md --exclude *.pyd
+[2024-05-13 14:59:34] INFO root fetch - processPackages [airbyte-source-jira]: Downloading https://files.pythonhosted.org/packages/8d/51/3a9efd8baac1abfe361c7fde12d398e50293066ea1745ace4d550783f233/airbyte_source_jira-2.0.0.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/4c/f2/fc860961aa7a0548a822f2843b1e718441d135ef7256808112ca5f620741/nwb4fp-0.6.2.8.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pymtpng]: Downloading https://files.pythonhosted.org/packages/92/c6/0f02a5e9067ca02bd330ee0c042e1010639336b02a39a077a2240781928f/pymtpng-1.0.3.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [hdsr-wis-config-reader]: executing diffoscope
+[2024-05-13 14:59:34] INFO root fetch - processPackages [hdsr-wis-config-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_wis_config_reader-1.8.tar.gz tmp/hdsr_wis_config_reader-1.9.tar.gz --markdown 20240513/h/hdsr-wis-config-reader/1.8-1.9/README.md --exclude *.pyd
+[2024-05-13 14:59:34] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-05-13 14:59:34] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.2.7.tar.gz tmp/nwb4fp-0.6.2.8.tar.gz --markdown 20240513/n/nwb4fp/0.6.2.7-0.6.2.8/README.md --exclude *.pyd
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2024-05-13 14:59:34] INFO root fetch - processPackages [airbyte-source-jira]: executing diffoscope
+[2024-05-13 14:59:34] INFO root fetch - processPackages [airbyte-source-jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_jira-1.2.2.tar.gz tmp/airbyte_source_jira-2.0.0.tar.gz --markdown 20240513/a/airbyte-source-jira/1.2.2-2.0.0/README.md --exclude *.pyd
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pymtpng]: executing diffoscope
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pymtpng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymtpng-1.0.2.tar.gz tmp/pymtpng-1.0.3.tar.gz --markdown 20240513/p/pymtpng/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2024-05-13 14:59:34] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20240513/p/pycognaize/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-13 14:59:35] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.44.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.45.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-13 14:59:35] INFO root fetch - processPackages [airbyte-source-jira]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_jira-1.2.2.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - processPackages [airbyte-source-jira]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_jira-2.0.0.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [airbyte-source-jira]: success
+[2024-05-13 14:59:35] INFO root fetch - processPackages [hdsr-wis-config-reader]: Remove: archive file [/home/abi/fetcher/tmp/hdsr_wis_config_reader-1.8.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - processPackages [hdsr-wis-config-reader]: Remove: archive file [/home/abi/fetcher/tmp/hdsr_wis_config_reader-1.9.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [hdsr-wis-config-reader]: success
+[2024-05-13 14:59:35] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.7.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.2.8.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-05-13 14:59:35] INFO root fetch - processPackages [pymtpng]: Remove: archive file [/home/abi/fetcher/tmp/pymtpng-1.0.2.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - processPackages [pymtpng]: Remove: archive file [/home/abi/fetcher/tmp/pymtpng-1.0.3.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [pymtpng]: success
+[2024-05-13 14:59:35] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2024-05-13 14:59:35] INFO root fetch - main [MainThread]: Store serial: [23183294]
