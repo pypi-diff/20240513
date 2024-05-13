@@ -4583,3 +4583,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 05:36:17] INFO root fetch - processPackages [test-set-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test-set-sdk-1.0.5.tar.gz]
 [2024-05-13 05:36:17] INFO root fetch - main [MainThread]: End processing [test-set-sdk]: success
 [2024-05-13 05:36:17] INFO root fetch - main [MainThread]: Store serial: [23176428]
+[2024-05-13 05:38:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23176428]
+[2024-05-13 05:38:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PypiInstruments
+[2024-05-13 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SelfCalibratedConformal
+[2024-05-13 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blar-graph
+[2024-05-13 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-set-sdk
+[2024-05-13 05:38:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qdetective
+[2024-05-13 05:38:26] INFO root fetch - processPackages [SelfCalibratedConformal]: New version: [0.42] Old Version: [0.41]
+[2024-05-13 05:38:26] INFO root fetch - processPackages [test-set-sdk]: New version: [1.0.5] Old Version: [1.0.12]
+[2024-05-13 05:38:26] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-13 05:38:26] INFO root fetch - processPackages [qdetective]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 05:38:26] INFO root fetch - processPackages [blar-graph]: New version: [0.0.9a0] Old Version: [0.0.8]
+[2024-05-13 05:38:26] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/05/8c/cb88bd84dd323c2597c8049e78cda7c88a9f3a85916c60d4c79d8bd6ac2e/SelfCalibratedConformal-0.41.tar.gz
+[2024-05-13 05:38:26] INFO root fetch - processPackages [test-set-sdk]: Downloading https://files.pythonhosted.org/packages/e5/23/caa0e0add8bb9fd1bf6690392a18a7041511aa6d604d0bf2c2c8198f6d60/test-set-sdk-1.0.12.tar.gz
+[2024-05-13 05:38:26] INFO root fetch - processPackages [qdetective]: Downloading https://files.pythonhosted.org/packages/e5/67/bc9c625c512c3871892f7322b0001ee1c30586cd7ed4bf823c2c3166bd7e/QDetective-0.1.0.tar.gz
+[2024-05-13 05:38:26] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/82/5e/3a48bb350f6226ed47004bd91f8808a4b5fa7371e09cb6f14e70dc73f90e/PypiInstruments-1.0.6.tar.gz
+[2024-05-13 05:38:26] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/43/c9/222901972a41b1e279d8429d4441be683af4bee8ec7b3181bef2c5079833/blar_graph-0.0.8.tar.gz
+[2024-05-13 05:38:26] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/1c/71/b2f993061d51bbd7eae2d6ad8493b9a09ec7f42e42cb40f9c781a68196a9/PypiInstruments-1.0.7.tar.gz
+[2024-05-13 05:38:26] INFO root fetch - processPackages [test-set-sdk]: Downloading https://files.pythonhosted.org/packages/7e/a5/f31df41c13ebd720097d616704ad4f2dc5f82d6565cc48623ed29d3d48fc/test-set-sdk-1.0.5.tar.gz
+[2024-05-13 05:38:27] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/1d/ed/d05270d9939f1168d4cd9cef98cf914164b71fdce1d378a959f3f946fa16/blar_graph-0.0.9a0.tar.gz
+[2024-05-13 05:38:27] INFO root fetch - processPackages [SelfCalibratedConformal]: Downloading https://files.pythonhosted.org/packages/e5/04/8821b3fbc99b99833fb85863ffe2bd9c1b4f48308c0772619925bbfc8cba/SelfCalibratedConformal-0.42.tar.gz
+[2024-05-13 05:38:27] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-13 05:38:27] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.6.tar.gz tmp/PypiInstruments-1.0.7.tar.gz --markdown 20240513/P/PypiInstruments/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-13 05:38:27] INFO root fetch - processPackages [test-set-sdk]: executing diffoscope
+[2024-05-13 05:38:27] INFO root fetch - processPackages [test-set-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-set-sdk-1.0.12.tar.gz tmp/test-set-sdk-1.0.5.tar.gz --markdown 20240513/t/test-set-sdk/1.0.12-1.0.5/README.md --exclude *.pyd
+[2024-05-13 05:38:27] INFO root fetch - processPackages [qdetective]: Downloading https://files.pythonhosted.org/packages/68/e6/6838b4dddf9dd487cd30cd0e398b95a832aed63f6c6f1aa873efe836381b/QDetective-0.1.1.tar.gz
+[2024-05-13 05:38:27] INFO root fetch - processPackages [blar-graph]: executing diffoscope
+[2024-05-13 05:38:27] INFO root fetch - processPackages [blar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blar_graph-0.0.8.tar.gz tmp/blar_graph-0.0.9a0.tar.gz --markdown 20240513/b/blar-graph/0.0.8-0.0.9a0/README.md --exclude *.pyd
+[2024-05-13 05:38:27] INFO root fetch - processPackages [SelfCalibratedConformal]: executing diffoscope
+[2024-05-13 05:38:27] INFO root fetch - processPackages [SelfCalibratedConformal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SelfCalibratedConformal-0.41.tar.gz tmp/SelfCalibratedConformal-0.42.tar.gz --markdown 20240513/S/SelfCalibratedConformal/0.41-0.42/README.md --exclude *.pyd
+[2024-05-13 05:38:27] INFO root fetch - processPackages [qdetective]: executing diffoscope
+[2024-05-13 05:38:27] INFO root fetch - processPackages [qdetective]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QDetective-0.1.0.tar.gz tmp/QDetective-0.1.1.tar.gz --markdown 20240513/q/qdetective/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 05:38:27] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.41.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - processPackages [SelfCalibratedConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratedConformal-0.42.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - main [MainThread]: End processing [SelfCalibratedConformal]: success
+[2024-05-13 05:38:27] INFO root fetch - processPackages [test-set-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test-set-sdk-1.0.12.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - processPackages [test-set-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test-set-sdk-1.0.5.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - main [MainThread]: End processing [test-set-sdk]: success
+[2024-05-13 05:38:27] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.6.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.7.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-13 05:38:27] INFO root fetch - processPackages [qdetective]: Remove: archive file [/home/abi/fetcher/tmp/QDetective-0.1.0.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - processPackages [qdetective]: Remove: archive file [/home/abi/fetcher/tmp/QDetective-0.1.1.tar.gz]
+[2024-05-13 05:38:27] INFO root fetch - main [MainThread]: End processing [qdetective]: success
+[2024-05-13 05:38:28] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.8.tar.gz]
+[2024-05-13 05:38:28] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
+[2024-05-13 05:38:28] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
+[2024-05-13 05:38:28] INFO root fetch - main [MainThread]: Store serial: [23176442]
