@@ -2885,3 +2885,27 @@
 [2024-05-13 03:59:33] INFO root fetch - processPackages [parse-llm-code]: Remove: archive file [/home/abi/fetcher/tmp/parse_llm_code-0.1.5.tar.gz]
 [2024-05-13 03:59:33] INFO root fetch - main [MainThread]: End processing [parse-llm-code]: success
 [2024-05-13 03:59:33] INFO root fetch - main [MainThread]: Store serial: [23175704]
+[2024-05-13 04:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175704]
+[2024-05-13 04:01:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-13 04:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ku-of-fuzzy
+[2024-05-13 04:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscloud
+[2024-05-13 04:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-watchtower
+[2024-05-13 04:01:41] INFO root fetch - processPackages [data-watchtower]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 04:01:41] INFO root fetch - processPackages [hscloud]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2024-05-13 04:01:41] WARNING root fetch - processPackages [ku-of-fuzzy]: Skipping, unable to determine old version
+[2024-05-13 04:01:41] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy] error
+[2024-05-13 04:01:41] INFO root fetch - processPackages [data-watchtower]: Downloading https://files.pythonhosted.org/packages/0e/14/5baad307f5933d65d5f61b8ee75a048e74814fe05a7679ce3ab083252b3d/data_watchtower-0.0.2.tar.gz
+[2024-05-13 04:01:41] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/bd/0b/6e8412141ef525d0e1399ecb07f3afa1aff954df1109c1a26722b3a765e6/hscloud-0.0.0.4.tar.gz
+[2024-05-13 04:01:42] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/4c/49/e237c19025a28a987a9cdd4026731ec2c21eeb32e086949eb8751b4f0480/hscloud-0.0.0.5.tar.gz
+[2024-05-13 04:01:42] INFO root fetch - processPackages [data-watchtower]: Downloading https://files.pythonhosted.org/packages/9f/5c/cb65c61811f3d17555f2e35b9d6be3888f362544d08bb6fb74019a19266e/data_watchtower-0.0.3.tar.gz
+[2024-05-13 04:01:42] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-13 04:01:42] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.0.4.tar.gz tmp/hscloud-0.0.0.5.tar.gz --markdown 20240513/h/hscloud/0.0.0.4-0.0.0.5/README.md --exclude *.pyd
+[2024-05-13 04:01:42] INFO root fetch - processPackages [data-watchtower]: executing diffoscope
+[2024-05-13 04:01:42] INFO root fetch - processPackages [data-watchtower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_watchtower-0.0.2.tar.gz tmp/data_watchtower-0.0.3.tar.gz --markdown 20240513/d/data-watchtower/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 04:01:42] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.4.tar.gz]
+[2024-05-13 04:01:42] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.0.5.tar.gz]
+[2024-05-13 04:01:42] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-13 04:01:42] INFO root fetch - processPackages [data-watchtower]: Remove: archive file [/home/abi/fetcher/tmp/data_watchtower-0.0.2.tar.gz]
+[2024-05-13 04:01:42] INFO root fetch - processPackages [data-watchtower]: Remove: archive file [/home/abi/fetcher/tmp/data_watchtower-0.0.3.tar.gz]
+[2024-05-13 04:01:42] INFO root fetch - main [MainThread]: End processing [data-watchtower]: success
+[2024-05-13 04:01:42] INFO root fetch - main [MainThread]: Store serial: [23175710]
