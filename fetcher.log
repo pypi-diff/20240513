@@ -2117,3 +2117,51 @@
 [2024-05-13 02:58:30] INFO root fetch - processPackages [sparse-lmm]: Remove: archive file [/home/abi/fetcher/tmp/sparse-lmm-0.7.tar.gz]
 [2024-05-13 02:58:30] INFO root fetch - main [MainThread]: End processing [sparse-lmm]: success
 [2024-05-13 02:58:30] INFO root fetch - main [MainThread]: Store serial: [23175360]
+[2024-05-13 03:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23175360]
+[2024-05-13 03:00:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-13 03:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dyno-viewer
+[2024-05-13 03:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlmarlbot-plugin
+[2024-05-13 03:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: picodi
+[2024-05-13 03:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gqylpy-log
+[2024-05-13 03:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manteia-qa-pylinac
+[2024-05-13 03:00:39] INFO root fetch - processPackages [rlmarlbot-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-13 03:00:39] INFO root fetch - processPackages [picodi]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-13 03:00:39] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/f9/0b/e944364ccd8bc34439438fe525c34c3699fc03173705db7177670a0b0682/rlmarlbot_plugin-0.1.2.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/a0/f4/5173e30a66392f8f4a309dbf7ab8bb7e4580e3cca5beec8778174e8f156c/picodi-0.6.0.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [dyno-viewer]: New version: [0.21.4] Old Version: [0.21.3]
+[2024-05-13 03:00:39] INFO root fetch - processPackages [gqylpy-log]: New version: [2.0a1] Old Version: [2.0.1]
+[2024-05-13 03:00:39] INFO root fetch - processPackages [manteia-qa-pylinac]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-13 03:00:39] INFO root fetch - processPackages [gqylpy-log]: Downloading https://files.pythonhosted.org/packages/c7/b0/8835d2f743fc3f9ea535112a8e4005518235eb9f7cf1f44460f4f1c21aef/gqylpy_log-2.0.1.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/10/33/1269caffe39fc7833ea1d74cd10e18ad56bcf21076cc4d113d5d415edf6a/picodi-0.7.0.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [dyno-viewer]: Downloading https://files.pythonhosted.org/packages/24/d3/61dbb6ad892b3161b56b5c890a22ae703b9406d4204bb404de42b9276f7f/dyno_viewer-0.21.3.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/d6/85/5b51904e4f7e3740920c2b3dc997e185be3233520a7eed5d35951d45bf99/manteia_qa_pylinac-1.2.1.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [rlmarlbot-plugin]: Downloading https://files.pythonhosted.org/packages/e2/83/2b3636799c951b18bb8cdd1c9d29e2951943e81b66dfbab9fc4ff34a17f2/rlmarlbot_plugin-0.1.3.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [picodi]: executing diffoscope
+[2024-05-13 03:00:39] INFO root fetch - processPackages [picodi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picodi-0.6.0.tar.gz tmp/picodi-0.7.0.tar.gz --markdown 20240513/p/picodi/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-13 03:00:39] INFO root fetch - processPackages [rlmarlbot-plugin]: executing diffoscope
+[2024-05-13 03:00:39] INFO root fetch - processPackages [rlmarlbot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlmarlbot_plugin-0.1.2.tar.gz tmp/rlmarlbot_plugin-0.1.3.tar.gz --markdown 20240513/r/rlmarlbot-plugin/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-13 03:00:39] INFO root fetch - processPackages [dyno-viewer]: Downloading https://files.pythonhosted.org/packages/e8/1d/ad7c47177efe69311c62da779da9a51b34a906b344f76257d52f5a10795a/dyno_viewer-0.21.4.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [gqylpy-log]: Downloading https://files.pythonhosted.org/packages/74/34/6d222bfd0d3ff2eb4f4bc46d981052be91b710ca31c13fd281f6064639cb/gqylpy_log-2.0a1.tar.gz
+[2024-05-13 03:00:39] INFO root fetch - processPackages [dyno-viewer]: executing diffoscope
+[2024-05-13 03:00:39] INFO root fetch - processPackages [dyno-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyno_viewer-0.21.3.tar.gz tmp/dyno_viewer-0.21.4.tar.gz --markdown 20240513/d/dyno-viewer/0.21.3-0.21.4/README.md --exclude *.pyd
+[2024-05-13 03:00:39] INFO root fetch - processPackages [manteia-qa-pylinac]: Downloading https://files.pythonhosted.org/packages/5d/79/eac3eb6bd9ffe731ee342f4a9c3acfbf64121bb9dfb86471937ed2939d05/manteia_qa_pylinac-1.2.2.tar.gz
+[2024-05-13 03:00:40] INFO root fetch - processPackages [gqylpy-log]: executing diffoscope
+[2024-05-13 03:00:40] INFO root fetch - processPackages [gqylpy-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_log-2.0.1.tar.gz tmp/gqylpy_log-2.0a1.tar.gz --markdown 20240513/g/gqylpy-log/2.0.1-2.0a1/README.md --exclude *.pyd
+[2024-05-13 03:00:40] INFO root fetch - processPackages [manteia-qa-pylinac]: executing diffoscope
+[2024-05-13 03:00:40] INFO root fetch - processPackages [manteia-qa-pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manteia_qa_pylinac-1.2.1.tar.gz tmp/manteia_qa_pylinac-1.2.2.tar.gz --markdown 20240513/m/manteia-qa-pylinac/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-13 03:00:40] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.6.0.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.7.0.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - main [MainThread]: End processing [picodi]: success
+[2024-05-13 03:00:40] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.2.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - processPackages [rlmarlbot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rlmarlbot_plugin-0.1.3.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - main [MainThread]: End processing [rlmarlbot-plugin]: success
+[2024-05-13 03:00:40] INFO root fetch - processPackages [dyno-viewer]: Remove: archive file [/home/abi/fetcher/tmp/dyno_viewer-0.21.3.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - processPackages [dyno-viewer]: Remove: archive file [/home/abi/fetcher/tmp/dyno_viewer-0.21.4.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - main [MainThread]: End processing [dyno-viewer]: success
+[2024-05-13 03:00:40] INFO root fetch - processPackages [gqylpy-log]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_log-2.0.1.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - processPackages [gqylpy-log]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_log-2.0a1.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - main [MainThread]: End processing [gqylpy-log]: success
+[2024-05-13 03:00:40] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.1.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - processPackages [manteia-qa-pylinac]: Remove: archive file [/home/abi/fetcher/tmp/manteia_qa_pylinac-1.2.2.tar.gz]
+[2024-05-13 03:00:40] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac]: success
+[2024-05-13 03:00:40] INFO root fetch - main [MainThread]: Store serial: [23175375]
