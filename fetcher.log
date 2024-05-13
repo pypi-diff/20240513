@@ -14383,3 +14383,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 11:51:38] INFO root fetch - processPackages [django-formset]: Remove: archive file [/home/abi/fetcher/tmp/django_formset-1.4.4.tar.gz]
 [2024-05-13 11:51:38] INFO root fetch - main [MainThread]: End processing [django-formset]: success
 [2024-05-13 11:51:38] INFO root fetch - main [MainThread]: Store serial: [23181146]
+[2024-05-13 11:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23181146]
+[2024-05-13 11:53:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heflwr
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shared-helpers
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-eidos
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-voucher-cheque
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ert
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-voucher-bank-cash
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-voucher-giro
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-voucher-mixin
+[2024-05-13 11:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentry-stack-dingding
+[2024-05-13 11:53:48] INFO root fetch - processPackages [heflwr]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 11:53:49] WARNING root fetch - processPackages [dash-eidos]: Skipping, unable to determine old version
+[2024-05-13 11:53:49] INFO root fetch - main [MainThread]: End processing [dash-eidos] error
+[2024-05-13 11:53:49] INFO root fetch - processPackages [heflwr]: Downloading https://files.pythonhosted.org/packages/2f/c8/3e19fc2d2b37c9c21377a3c9e76a7fdc439d13a1b5ccdb200c6c9cf6e016/heflwr-0.1.0.tar.gz
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.2.dev1]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-13 11:53:49] INFO root fetch - processPackages [shared-helpers]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: New version: [14.0.2.3.0] Old Version: [14.0.2.2.0]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: New version: [14.0.2.2.0] Old Version: [14.0.2.1.2.dev1]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: New version: [14.0.1.8.0] Old Version: [14.0.1.7.0]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Downloading https://files.pythonhosted.org/packages/65/8a/a6efbbe47d3d45a5eddd28c97fbe5ffd1827868a20a6bcea990320090752/odoo14_addon_ssi_voucher_cheque-14.0.2.2.0-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: Downloading https://files.pythonhosted.org/packages/11/9e/6eacd4c296b9f72b18a7425fce50e4d9b6ce5fa06bb56d39cb01a2b13b76/odoo14_addon_ssi_voucher_bank_cash-14.0.2.2.2.dev1-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [heflwr]: Downloading https://files.pythonhosted.org/packages/2b/7c/e94d9a6170169fc2425eeec4601850d23e24f88e457188029dad6455c0ae/heflwr-0.1.1.tar.gz
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: Downloading https://files.pythonhosted.org/packages/5f/a5/4f983612c35c05148ea92a424ad84708402c62c87b5b87ae1102b4249cd7/odoo14_addon_ssi_voucher_giro-14.0.2.1.2.dev1-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: Downloading https://files.pythonhosted.org/packages/f0/a9/fdf202c673056b72f129c9a388ab2e005a6b7ef1adaa47833118510ec593/odoo14_addon_ssi_voucher_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-13 11:53:49] INFO root fetch - processPackages [shared-helpers]: Downloading https://files.pythonhosted.org/packages/f0/5a/8d7f7332fbf2a0ea7491a4755267b53d08676a8be9e0ad91f6428a90b5c3/shared_helpers-0.0.7.tar.gz
+[2024-05-13 11:53:49] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-13 11:53:49] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240513/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 11:53:49] INFO root fetch - processPackages [heflwr]: executing diffoscope
+[2024-05-13 11:53:49] INFO root fetch - processPackages [heflwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heflwr-0.1.0.tar.gz tmp/heflwr-0.1.1.tar.gz --markdown 20240513/h/heflwr/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: Downloading https://files.pythonhosted.org/packages/3e/fe/af02f61a874813c317da563b109af535d223ded4e935434a0d134bb5c602/odoo14_addon_ssi_voucher_bank_cash-14.0.2.3.0-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [shared-helpers]: Downloading https://files.pythonhosted.org/packages/9a/48/ba801ca960f3d479b8b9d337d778fed5f797bf4310ba83bcdd19696432a6/shared_helpers-0.0.9.tar.gz
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Downloading https://files.pythonhosted.org/packages/11/b9/54a0c3cd5d25f31b878bf785986154fe9d4fa65e768794bca665676847e2/odoo14_addon_ssi_voucher_cheque-14.0.2.3.0-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: Downloading https://files.pythonhosted.org/packages/24/81/731ef0cc80c663538005fd101ebbe9c1f684d329a157301c9ea65daf309a/odoo14_addon_ssi_voucher_giro-14.0.2.2.0-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [shared-helpers]: executing diffoscope
+[2024-05-13 11:53:49] INFO root fetch - processPackages [shared-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shared_helpers-0.0.7.tar.gz tmp/shared_helpers-0.0.9.tar.gz --markdown 20240513/s/shared-helpers/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: Downloading https://files.pythonhosted.org/packages/b4/f5/2250801961c3c853d19242711a1ac5b7265e84ab34b65041d3ce7c913839/odoo14_addon_ssi_voucher_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: executing diffoscope
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_bank_cash-14.0.2.2.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_bank_cash-14.0.2.3.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-bank-cash/14.0.2.2.2.dev1-14.0.2.3.0/README.md --exclude *.pyd
+[2024-05-13 11:53:49] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: executing diffoscope
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.3.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-cheque/14.0.2.2.0-14.0.2.3.0/README.md --exclude *.pyd
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: executing diffoscope
+[2024-05-13 11:53:49] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_giro-14.0.2.1.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_giro-14.0.2.2.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-giro/14.0.2.1.2.dev1-14.0.2.2.0/README.md --exclude *.pyd
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: executing diffoscope
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_mixin-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_mixin-14.0.1.8.0-py3-none-any.whl.zip --markdown 20240513/o/odoo14-addon-ssi-voucher-mixin/14.0.1.7.0-14.0.1.8.0/README.md --exclude *.pyd
+[2024-05-13 11:53:50] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-13 11:53:50] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-13 11:53:50] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-13 11:53:50] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-13 11:53:50] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-13 11:53:50] INFO root fetch - processPackages [heflwr]: Remove: archive file [/home/abi/fetcher/tmp/heflwr-0.1.0.tar.gz]
+[2024-05-13 11:53:50] INFO root fetch - processPackages [heflwr]: Remove: archive file [/home/abi/fetcher/tmp/heflwr-0.1.1.tar.gz]
+[2024-05-13 11:53:50] INFO root fetch - main [MainThread]: End processing [heflwr]: success
+[2024-05-13 11:53:50] INFO root fetch - processPackages [shared-helpers]: Remove: archive file [/home/abi/fetcher/tmp/shared_helpers-0.0.7.tar.gz]
+[2024-05-13 11:53:50] INFO root fetch - processPackages [shared-helpers]: Remove: archive file [/home/abi/fetcher/tmp/shared_helpers-0.0.9.tar.gz]
+[2024-05-13 11:53:50] INFO root fetch - main [MainThread]: End processing [shared-helpers]: success
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_bank_cash-14.0.2.2.2.dev1-py3-none-any.whl.zip]
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-bank-cash]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_bank_cash-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-13 11:53:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-bank-cash]: success
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_giro-14.0.2.1.2.dev1-py3-none-any.whl.zip]
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-giro]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_giro-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-05-13 11:53:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-giro]: success
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-05-13 11:53:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-05-13 11:53:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-mixin]: success
+[2024-05-13 11:53:51] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-05-13 11:53:51] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-13 11:53:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-cheque]: success
+[2024-05-13 11:53:55] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 11:53:55] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 11:53:55] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-13 11:53:55] INFO root fetch - main [MainThread]: Store serial: [23181181]
