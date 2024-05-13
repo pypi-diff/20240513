@@ -10866,3 +10866,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-13 09:42:13] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-05-13 09:42:13] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-05-13 09:42:13] INFO root fetch - main [MainThread]: Store serial: [23179448]
+[2024-05-13 09:44:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23179448]
+[2024-05-13 09:44:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CodingRider
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epyk
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyattest
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-prep-toolkit-kfp
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-test-common
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: algokit-utils
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synthetic-aia-mia
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lgjsfinance
+[2024-05-13 09:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mxcubeweb
+[2024-05-13 09:44:23] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [synthetic-aia-mia]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/77/32/e1870ff2cf3cfa8aa67341ed691e5828aa67e0420b4dad5cc2db29038c25/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [CodingRider]: New version: [2.4] Old Version: [2.3]
+[2024-05-13 09:44:24] WARNING root fetch - processPackages [lgjsfinance]: Skipping, unable to determine old version
+[2024-05-13 09:44:24] INFO root fetch - main [MainThread]: End processing [lgjsfinance] error
+[2024-05-13 09:44:24] INFO root fetch - processPackages [pyattest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [synthetic-aia-mia]: Downloading https://files.pythonhosted.org/packages/ac/a7/4b74c7e4ecfe669e7feb5457494d74cefdfe4b615b36b82866672ffdf117/synthetic_aia_mia-0.0.8.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [algokit-utils]: New version: [2.3.0b2] Old Version: [2.3.0b1]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-13 09:44:24] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/0a/60/76f7c4030a1003a06647da97c2e8e24a2b799f16d0c6e65a5e4115f5896f/CodingRider-2.3.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [pyattest]: Downloading https://files.pythonhosted.org/packages/83/74/30bc855c05e1fd0ba76c3f0df949a894865f2fd0ffe82c0e41dc22eff6b8/pyattest-0.0.8.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/eb/d1/de4cdf4f0e95f49211ca4385bc2b12d8fdb3a6ffb796247d841f91a5cf68/auto-test-common-2.0.7.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2024-05-13 09:44:24] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/15/e3/ced5aaddf8e6cd19b6a155f3c83a7d76f5187a5cafde20065b8cddd9d3a3/algokit_utils-2.3.0b1-py3-none-any.whl
+[2024-05-13 09:44:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-13 09:44:24] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz --markdown 20240513/d/data-prep-toolkit-kfp/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-05-13 09:44:24] INFO root fetch - processPackages [synthetic-aia-mia]: Downloading https://files.pythonhosted.org/packages/80/38/e87a2a4460fb149ee691426d520c46087c724438cf8d716c5ee7effbb51f/synthetic_aia_mia-0.0.9.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-05-13 09:44:24] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240513/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-13 09:44:24] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/ed/42/0991368cf30dc6e30e86ca4c70764804edcdfdbc80c3eb74a3ff0abfed9e/codingrider-2.4.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/07/44/abeda499183d94a9cb8f98ee9c2bed1985fcece6c26cc9afe0fad8e004aa/auto-test-common-2.0.8.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [synthetic-aia-mia]: executing diffoscope
+[2024-05-13 09:44:24] INFO root fetch - processPackages [synthetic-aia-mia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_aia_mia-0.0.8.tar.gz tmp/synthetic_aia_mia-0.0.9.tar.gz --markdown 20240513/s/synthetic-aia-mia/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 09:44:24] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/ce/8f/158327259fa08e70862d382ca9e3aee64c258ceccc11998b9bd4a3899b8c/algokit_utils-2.3.0b2-py3-none-any.whl
+[2024-05-13 09:44:24] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-05-13 09:44:24] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodingRider-2.3.tar.gz tmp/codingrider-2.4.tar.gz --markdown 20240513/C/CodingRider/2.3-2.4/README.md --exclude *.pyd
+[2024-05-13 09:44:24] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-13 09:44:24] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.7.tar.gz tmp/auto-test-common-2.0.8.tar.gz --markdown 20240513/a/auto-test-common/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-13 09:44:24] INFO root fetch - processPackages [pyattest]: Downloading https://files.pythonhosted.org/packages/10/24/ce4da8daac0a202d8455f6d9273824787ba402deecf8ebbd0125be1ab1a3/pyattest-0.0.9.tar.gz
+[2024-05-13 09:44:24] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-13 09:44:25] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2024-05-13 09:44:25] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-2.3.0b1-py3-none-any.whl.zip tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip --markdown 20240513/a/algokit-utils/2.3.0b1-2.3.0b2/README.md --exclude *.pyd
+[2024-05-13 09:44:25] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-13 09:44:25] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240513/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-13 09:44:25] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2024-05-13 09:44:25] INFO root fetch - processPackages [pyattest]: executing diffoscope
+[2024-05-13 09:44:25] INFO root fetch - processPackages [pyattest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyattest-0.0.8.tar.gz tmp/pyattest-0.0.9.tar.gz --markdown 20240513/p/pyattest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 09:44:25] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2024-05-13 09:44:25] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20240513/e/epyk/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-13 09:44:25] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev8.tar.gz]
+[2024-05-13 09:44:25] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-13 09:44:25] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [pyattest]: Remove: archive file [/home/abi/fetcher/tmp/pyattest-0.0.8.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [pyattest]: Remove: archive file [/home/abi/fetcher/tmp/pyattest-0.0.9.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [pyattest]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b1-py3-none-any.whl.zip]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-2.3.0b2-py3-none-any.whl.zip]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.3.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.4.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.7.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.8.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [synthetic-aia-mia]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_aia_mia-0.0.8.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [synthetic-aia-mia]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_aia_mia-0.0.9.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [synthetic-aia-mia]: success
+[2024-05-13 09:44:26] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-13 09:44:26] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-13 09:44:28] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2024-05-13 09:44:28] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2024-05-13 09:44:28] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2024-05-13 09:44:28] INFO root fetch - main [MainThread]: Store serial: [23179476]
