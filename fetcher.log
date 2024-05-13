@@ -20301,3 +20301,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 15:17:22] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9rc0.tar.gz]
 [2024-05-13 15:17:22] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
 [2024-05-13 15:17:22] INFO root fetch - main [MainThread]: Store serial: [23183508]
+[2024-05-13 15:19:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183508]
+[2024-05-13 15:19:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoblocksai
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lions
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: picai-baseline
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: morast
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grafana-foundation-sdk
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sarus
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resample
+[2024-05-13 15:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dreamhack
+[2024-05-13 15:19:31] INFO root fetch - processPackages [morast]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1715606109!10.3.0] Old Version: [1715605946!10.2.0]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [lions]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [dreamhack]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [autoblocksai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.9] Old Version: [2024.5.13]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240513111633] Old Version: [3.4.1.dev20240509171947]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [picai-baseline]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [resample]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [sarus]: New version: [0.9.7.dev1] Old Version: [0.9.7.dev0]
+[2024-05-13 15:19:31] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/00/4f/f1230e4c9c1f29b9d6430f8fdba2f61eb407bdf2b64d53c82007af2c9afe/autoblocksai-0.0.8.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [morast]: Downloading https://files.pythonhosted.org/packages/d6/ae/fbd784a84c2e59ea3292dbfb7c4b2387add07ddf0ea8c3af921087c81f08/morast-0.3.3.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [dreamhack]: Downloading https://files.pythonhosted.org/packages/25/ad/59c0d9b76c72ae5aeab8cab2cd44dd7a8850116ecc363f2964c5b9827146/dreamhack-1.0.7.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/49/ce/7d49c483fab32d46559a82d28abe27a5ea95d72564fd5dbf436270c0eabb/grafana_foundation_sdk-1715605946!10.2.0.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/b9/29/814e83b9563e0930947db9ba0b19342cfcaafeed5e5a12b1423a4709cd70/lions-1.0.0.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a9/19/f6ff5c6248d86c50b3e0818a329efac6947b76fe2b1a6757bf1f7ed3a5ac/fbgemm_gpu_nightly_cpu-2024.5.13-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-13 15:19:31] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/80/06/baefeac52a33996b2018c0703d10b84270704916d517bf99fa31547603b6/localstack_core-3.4.1.dev20240509171947.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [picai-baseline]: Downloading https://files.pythonhosted.org/packages/02/58/a38285b61b7fda2b905d521d6337bd9ae267b8df2e911ddd4a036c9cc856/picai_baseline-0.8.4.tar.gz
+[2024-05-13 15:19:31] INFO root fetch - processPackages [resample]: Downloading https://files.pythonhosted.org/packages/9b/63/27ee31bf5108a68aeecf14edee5c9961ff840729de48b7cd60265731f40c/resample-1.8.2.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/f8/3c/b3f2addd944556b4ddddb360340e6d5062d0f06c790636f204a0d69a8e04/sarus-0.9.7.dev0.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [morast]: Downloading https://files.pythonhosted.org/packages/05/3c/f50ddcbe869242e4fc93a5b8d6729bbaa3d97519d523e578687b7353b834/morast-0.3.4.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/7d/3f/bb0c01ca25bdf029927519d4da6f040d581a9ac7b177f0834322a4334d17/autoblocksai-0.0.9.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [dreamhack]: Downloading https://files.pythonhosted.org/packages/02/4c/4862cfb37cb2136cb9c4b836df8fa58f2620c2e6aab1a19d7439efdacd73/dreamhack-1.0.8.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/a8/3e/1cc3f381ec19cffef4562c283678c0685bed8c82ff59e0139e80c660daf1/grafana_foundation_sdk-1715606109!10.3.0.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/85/cb/dca038d7a307e5e66ddda16bf5cd8809cc49d775ad7c677bd1a187ea1c2b/lions-1.0.1.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [autoblocksai]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [autoblocksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoblocksai-0.0.8.tar.gz tmp/autoblocksai-0.0.9.tar.gz --markdown 20240513/a/autoblocksai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [morast]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [morast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morast-0.3.3.tar.gz tmp/morast-0.3.4.tar.gz --markdown 20240513/m/morast/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [dreamhack]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [dreamhack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamhack-1.0.7.tar.gz tmp/dreamhack-1.0.8.tar.gz --markdown 20240513/d/dreamhack/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [resample]: Downloading https://files.pythonhosted.org/packages/8b/4b/cc6ee52baa8ebb4957fcf515a706f761c51ac06021afc7692a82277f559c/resample-1.9.0.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6a/b9/ea400be49dc383ec56e7d070f34a1e22fd19269a2c5b626a3d5071648288/localstack_core-3.4.1.dev20240513111633.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.0.0.tar.gz tmp/lions-1.0.1.tar.gz --markdown 20240513/l/lions/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/ae/46/0f6cb0787666a385d47686171009a3a0f719774397cd5b559d30a99b0ba1/sarus-0.9.7.dev1.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1715605946!10.2.0.tar.gz tmp/grafana_foundation_sdk-1715606109!10.3.0.tar.gz --markdown 20240513/g/grafana-foundation-sdk/1715605946!10.2.0-1715606109!10.3.0/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [picai-baseline]: Downloading https://files.pythonhosted.org/packages/83/be/3463dd900bd4871c5ac49444c25ae2b585406511ce1eb68176d491b7397c/picai_baseline-0.8.5.tar.gz
+[2024-05-13 15:19:32] INFO root fetch - processPackages [resample]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [resample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resample-1.8.2.tar.gz tmp/resample-1.9.0.tar.gz --markdown 20240513/r/resample/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.9.7.dev0.tar.gz tmp/sarus-0.9.7.dev1.tar.gz --markdown 20240513/s/sarus/0.9.7.dev0-0.9.7.dev1/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [picai-baseline]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [picai-baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picai_baseline-0.8.4.tar.gz tmp/picai_baseline-0.8.5.tar.gz --markdown 20240513/p/picai-baseline/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-13 15:19:32] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/34/33/65604f909cf0830076814afa9f0dceaa2c308165d02d78b5b11cc85f8d10/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-13 15:19:32] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-13 15:19:32] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240509171947.tar.gz tmp/localstack_core-3.4.1.dev20240513111633.tar.gz --markdown 20240513/l/localstack-core/3.4.1.dev20240509171947-3.4.1.dev20240513111633/README.md --exclude *.pyd
+[2024-05-13 15:19:33] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-13 15:19:33] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.13-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240513/f/fbgemm-gpu-nightly-cpu/2024.5.13-2024.5.9/README.md --exclude *.pyd
+[2024-05-13 15:19:33] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.8.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.9.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [autoblocksai]: Start processing: idzhiblavi-pydvim
+[2024-05-13 15:19:33] INFO root fetch - main [MainThread]: End processing [autoblocksai]: success
+[2024-05-13 15:19:33] WARNING root fetch - processPackages [idzhiblavi-pydvim]: Skipping, unable to determine old version
+[2024-05-13 15:19:33] INFO root fetch - processPackages [idzhiblavi-pydvim]: Start processing: navigator-api
+[2024-05-13 15:19:33] INFO root fetch - main [MainThread]: End processing [idzhiblavi-pydvim] error
+[2024-05-13 15:19:33] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.0.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.0.1.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [lions]: Start processing: nxswriter
+[2024-05-13 15:19:33] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-13 15:19:33] INFO root fetch - processPackages [nxswriter]: New version: [3.9.0] Old Version: [3.8.2]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [navigator-api]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [nxswriter]: Downloading https://files.pythonhosted.org/packages/23/c8/db813cec2a9b15afad0e0003b0030aa16ccca0dc9f91ca8d1de1d7f73ea4/nxswriter-3.8.2.tar.gz
+[2024-05-13 15:19:33] INFO root fetch - processPackages [morast]: Remove: archive file [/home/abi/fetcher/tmp/morast-0.3.3.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [morast]: Remove: archive file [/home/abi/fetcher/tmp/morast-0.3.4.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [morast]: Start processing: opsys-spectrometer
+[2024-05-13 15:19:33] INFO root fetch - processPackages [dreamhack]: Remove: archive file [/home/abi/fetcher/tmp/dreamhack-1.0.7.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - main [MainThread]: End processing [morast]: success
+[2024-05-13 15:19:33] INFO root fetch - processPackages [dreamhack]: Remove: archive file [/home/abi/fetcher/tmp/dreamhack-1.0.8.tar.gz]
+[2024-05-13 15:19:33] INFO root fetch - processPackages [dreamhack]: Start processing: agreersz
+[2024-05-13 15:19:33] INFO root fetch - main [MainThread]: End processing [dreamhack]: success
+[2024-05-13 15:19:33] INFO root fetch - processPackages [opsys-spectrometer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-13 15:19:33] WARNING root fetch - processPackages [agreersz]: Skipping, unable to determine old version
+[2024-05-13 15:19:33] INFO root fetch - processPackages [agreersz]: Start processing: yandex_api_client
+[2024-05-13 15:19:33] INFO root fetch - main [MainThread]: End processing [agreersz] error
+[2024-05-13 15:19:33] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/4a/c1/4d2ef0e02aedcb067c1226d3312106df0168bc742bbe6ff3199051a654c5/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 15:19:34] INFO root fetch - processPackages [resample]: Remove: archive file [/home/abi/fetcher/tmp/resample-1.8.2.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [resample]: Remove: archive file [/home/abi/fetcher/tmp/resample-1.9.0.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [resample]: Start processing: adafruit-circuitpython-bme680
+[2024-05-13 15:19:34] INFO root fetch - main [MainThread]: End processing [resample]: success
+[2024-05-13 15:19:34] INFO root fetch - processPackages [nxswriter]: Downloading https://files.pythonhosted.org/packages/32/f0/61dd6b6bc10b971eab3a13352d4aff8ceb59353b0583f354d5261cb073f9/nxswriter-3.9.0.tar.gz
+[2024-05-13 15:19:34] INFO root fetch - processPackages [yandex_api_client]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.9.7.dev0.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.9.7.dev1.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2024-05-13 15:19:34] INFO root fetch - processPackages [opsys-spectrometer]: Downloading https://files.pythonhosted.org/packages/7c/b8/8618a35904f5a76af97d2b2263a15843147452deb8a0182c68f9b9fbbdb0/opsys-spectrometer-0.0.2.tar.gz
+[2024-05-13 15:19:34] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: New version: [3.7.5] Old Version: [3.7.4]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [nxswriter]: executing diffoscope
+[2024-05-13 15:19:34] INFO root fetch - processPackages [nxswriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxswriter-3.8.2.tar.gz tmp/nxswriter-3.9.0.tar.gz --markdown 20240513/n/nxswriter/3.8.2-3.9.0/README.md --exclude *.pyd
+[2024-05-13 15:19:34] INFO root fetch - processPackages [yandex_api_client]: Downloading https://files.pythonhosted.org/packages/a9/4d/bda7a6dc510dd30b697f4145950e2b2d8e53d6880e9209ec41665c51df8b/yandex_api_client-0.0.1.tar.gz
+[2024-05-13 15:19:34] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1715605946!10.2.0.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1715606109!10.3.0.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-13 15:19:34] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: Downloading https://files.pythonhosted.org/packages/8a/1a/d9569c872313be4eb34afb8cbf1a5b73a1fd52dc2c212a31c2a2b3ff26be/adafruit-circuitpython-bme680-3.7.4.tar.gz
+[2024-05-13 15:19:34] INFO root fetch - processPackages [navigator-api]: Downloading https://files.pythonhosted.org/packages/23/9d/d6e87407f60468f5fc607bc9db56b812d4afaf5641fdc7365a5b358ccfb4/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-13 15:19:34] INFO root fetch - processPackages [opsys-spectrometer]: Downloading https://files.pythonhosted.org/packages/fc/b1/536c3eb8be941062b6a60628297a09654e6c0a1199ad428c1973194401a2/opsys-spectrometer-0.0.3.tar.gz
+[2024-05-13 15:19:34] INFO root fetch - processPackages [picai-baseline]: Remove: archive file [/home/abi/fetcher/tmp/picai_baseline-0.8.4.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - processPackages [picai-baseline]: Remove: archive file [/home/abi/fetcher/tmp/picai_baseline-0.8.5.tar.gz]
+[2024-05-13 15:19:34] INFO root fetch - main [MainThread]: End processing [picai-baseline]: success
+[2024-05-13 15:19:34] INFO root fetch - processPackages [opsys-spectrometer]: executing diffoscope
+[2024-05-13 15:19:34] INFO root fetch - processPackages [opsys-spectrometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsys-spectrometer-0.0.2.tar.gz tmp/opsys-spectrometer-0.0.3.tar.gz --markdown 20240513/o/opsys-spectrometer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-13 15:19:34] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2024-05-13 15:19:34] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240513/n/navigator-api/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-05-13 15:19:34] INFO root fetch - processPackages [yandex_api_client]: Downloading https://files.pythonhosted.org/packages/02/49/b92394885ebbe3328b59d90232cbf2b2dac94e28ce0a4afcf8aaecf12be7/yandex_api_client-0.0.2.tar.gz
+[2024-05-13 15:19:34] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: Downloading https://files.pythonhosted.org/packages/c9/3b/752c79ba039fb31f5b683134bae10fee0fc28b243040972bed34a4a84a76/adafruit_circuitpython_bme680-3.7.5.tar.gz
+[2024-05-13 15:19:35] INFO root fetch - processPackages [yandex_api_client]: executing diffoscope
+[2024-05-13 15:19:35] INFO root fetch - processPackages [yandex_api_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex_api_client-0.0.1.tar.gz tmp/yandex_api_client-0.0.2.tar.gz --markdown 20240513/y/yandex_api_client/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-13 15:19:35] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: executing diffoscope
+[2024-05-13 15:19:35] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-bme680-3.7.4.tar.gz tmp/adafruit_circuitpython_bme680-3.7.5.tar.gz --markdown 20240513/a/adafruit-circuitpython-bme680/3.7.4-3.7.5/README.md --exclude *.pyd
+[2024-05-13 15:19:35] INFO root fetch - processPackages [opsys-spectrometer]: Remove: archive file [/home/abi/fetcher/tmp/opsys-spectrometer-0.0.2.tar.gz]
+[2024-05-13 15:19:35] INFO root fetch - processPackages [opsys-spectrometer]: Remove: archive file [/home/abi/fetcher/tmp/opsys-spectrometer-0.0.3.tar.gz]
+[2024-05-13 15:19:35] INFO root fetch - main [MainThread]: End processing [opsys-spectrometer]: success
+[2024-05-13 15:19:36] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-bme680-3.7.4.tar.gz]
+[2024-05-13 15:19:36] INFO root fetch - processPackages [adafruit-circuitpython-bme680]: Remove: archive file [/home/abi/fetcher/tmp/adafruit_circuitpython_bme680-3.7.5.tar.gz]
+[2024-05-13 15:19:36] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bme680]: success
+[2024-05-13 15:19:36] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 15:19:36] INFO root fetch - processPackages [navigator-api]: Remove: archive file [/home/abi/fetcher/tmp/navigator_api-2.8.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-13 15:19:36] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2024-05-13 15:19:37] INFO root fetch - processPackages [nxswriter]: Remove: archive file [/home/abi/fetcher/tmp/nxswriter-3.8.2.tar.gz]
+[2024-05-13 15:19:37] INFO root fetch - processPackages [nxswriter]: Remove: archive file [/home/abi/fetcher/tmp/nxswriter-3.9.0.tar.gz]
+[2024-05-13 15:19:37] INFO root fetch - main [MainThread]: End processing [nxswriter]: success
+[2024-05-13 15:19:38] INFO root fetch - processPackages [yandex_api_client]: Remove: archive file [/home/abi/fetcher/tmp/yandex_api_client-0.0.1.tar.gz]
+[2024-05-13 15:19:38] INFO root fetch - processPackages [yandex_api_client]: Remove: archive file [/home/abi/fetcher/tmp/yandex_api_client-0.0.2.tar.gz]
+[2024-05-13 15:19:38] INFO root fetch - main [MainThread]: End processing [yandex_api_client]: success
+[2024-05-13 15:19:38] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240509171947.tar.gz]
+[2024-05-13 15:19:38] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240513111633.tar.gz]
+[2024-05-13 15:19:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-13 15:20:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.13-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-13 15:20:14] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-13 15:20:14] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-13 15:20:14] INFO root fetch - main [MainThread]: Store serial: [23183565]
