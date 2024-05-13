@@ -19266,3 +19266,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-13 14:45:54] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.68.tar.gz]
 [2024-05-13 14:45:54] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-13 14:45:54] INFO root fetch - main [MainThread]: Store serial: [23183122]
+[2024-05-13 14:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23183122]
+[2024-05-13 14:48:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: midas-powergrid
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markdownparser
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algokit-client-generator
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-cpp-haystack
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stillsuit
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-azure-native
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentera
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-aws-native
+[2024-05-13 14:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rHDPE-Data-Analysis
+[2024-05-13 14:48:03] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [algokit-client-generator]: New version: [1.1.4b3] Old Version: [1.1.4b2]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [markdownparser]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-13 14:48:03] INFO root fetch - processPackages [midas-powergrid]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/74/dc/5d83711482ebe22bf9e9d3e192f2a58ffa4db0c51b48e7faf2986f795db6/algokit_client_generator-1.1.4b2-py3-none-any.whl
+[2024-05-13 14:48:03] WARNING root fetch - processPackages [stillsuit]: Skipping, unable to determine old version
+[2024-05-13 14:48:03] INFO root fetch - main [MainThread]: End processing [stillsuit] error
+[2024-05-13 14:48:03] INFO root fetch - processPackages [llama-cpp-haystack]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [opentera]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-13 14:48:03] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-13 14:48:04] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/a2/ca/3b8a00e2216242e12569908432df1327788a31452834b8d3d5632225a2ce/markdownparser-0.5.8.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [midas-powergrid]: Downloading https://files.pythonhosted.org/packages/ab/52/d21175a1ac51d47073169b9800d1e5a65b539667e19c4a84815a389cdd71/midas_powergrid-1.1.0-py3-none-any.whl
+[2024-05-13 14:48:04] INFO root fetch - processPackages [opentera]: Downloading https://files.pythonhosted.org/packages/a3/c5/a8286fea5790e2d044eda3264c90189a7a8eeabf95f45aeb143509cb3d2a/opentera-1.2.5.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/1d/9c/c131a9956222698902cde5ccce6110d1bc50ccf5d4aac9c2a24e316550c0/algokit_client_generator-1.1.4b3-py3-none-any.whl
+[2024-05-13 14:48:04] INFO root fetch - processPackages [llama-cpp-haystack]: Downloading https://files.pythonhosted.org/packages/e2/bd/629a9b7bccb8c46baf867eddab455ef32064d953f75a71576aabd0eb90e7/llama_cpp_haystack-0.3.0.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/64/2f/e4ca007e5b9053d0c58a5668b4f6e8aca77929093696eeda71392758bac8/rHDPE_Data_Analysis-1.0.8.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-1.1.4b2-py3-none-any.whl.zip tmp/algokit_client_generator-1.1.4b3-py3-none-any.whl.zip --markdown 20240513/a/algokit-client-generator/1.1.4b2-1.1.4b3/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/f2/e1/5c72761a61c666df02be27b583c81d504a8adbda63a34318dda3bafe48a1/markdownparser-0.5.9.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [midas-powergrid]: Downloading https://files.pythonhosted.org/packages/3c/cb/72d2647ba4366e9ecbaf5b09fcbdb4c48512cfec9b58fb831c081688af88/midas-powergrid-1.1.1.tar.gz
+[2024-05-13 14:48:04] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-13 14:48:04] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-13 14:48:04] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.8.tar.gz tmp/markdownparser-0.5.9.tar.gz --markdown 20240513/m/markdownparser/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [llama-cpp-haystack]: Downloading https://files.pythonhosted.org/packages/c2/5c/f6be4dc865109e1ebadfa7fdbe80544905a7dc3aba6327bd2fa61fcb78c7/llama_cpp_haystack-0.4.0.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [midas-powergrid]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [midas-powergrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas_powergrid-1.1.0-py3-none-any.whl.zip tmp/midas-powergrid-1.1.1.tar.gz --markdown 20240513/m/midas-powergrid/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [opentera]: Downloading https://files.pythonhosted.org/packages/79/c8/abe4bc973dd541c716aefe025a0c525ca69ebdeb4b9a154a8ca2f2c1f686/opentera-1.2.6.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/6b/55/8ca49f99f4d5d68cb92bdb8f75216a49db6840e9e848dbbd20ab2e86edfd/rHDPE_Data_Analysis-1.0.9.tar.gz
+[2024-05-13 14:48:04] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240513/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [llama-cpp-haystack]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [llama-cpp-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_haystack-0.3.0.tar.gz tmp/llama_cpp_haystack-0.4.0.tar.gz --markdown 20240513/l/llama-cpp-haystack/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [opentera]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [opentera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentera-1.2.5.tar.gz tmp/opentera-1.2.6.tar.gz --markdown 20240513/o/opentera/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-13 14:48:04] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.8.tar.gz tmp/rHDPE_Data_Analysis-1.0.9.tar.gz --markdown 20240513/r/rHDPE-Data-Analysis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-13 14:48:04] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-13 14:48:05] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-1.1.4b2-py3-none-any.whl.zip]
+[2024-05-13 14:48:05] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-1.1.4b3-py3-none-any.whl.zip]
+[2024-05-13 14:48:05] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2024-05-13 14:48:05] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-13 14:48:05] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240513:/home/abi/fetcher/20240513:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240513/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-13 14:48:05] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.8.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.9.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2024-05-13 14:48:05] INFO root fetch - processPackages [midas-powergrid]: Remove: archive file [/home/abi/fetcher/tmp/midas_powergrid-1.1.0-py3-none-any.whl.zip]
+[2024-05-13 14:48:05] INFO root fetch - processPackages [midas-powergrid]: Remove: archive file [/home/abi/fetcher/tmp/midas-powergrid-1.1.1.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - main [MainThread]: End processing [midas-powergrid]: success
+[2024-05-13 14:48:05] INFO root fetch - processPackages [llama-cpp-haystack]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_haystack-0.3.0.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - processPackages [llama-cpp-haystack]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_haystack-0.4.0.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - main [MainThread]: End processing [llama-cpp-haystack]: success
+[2024-05-13 14:48:05] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.8.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.9.tar.gz]
+[2024-05-13 14:48:05] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-13 14:48:06] INFO root fetch - processPackages [opentera]: Remove: archive file [/home/abi/fetcher/tmp/opentera-1.2.5.tar.gz]
+[2024-05-13 14:48:06] INFO root fetch - processPackages [opentera]: Remove: archive file [/home/abi/fetcher/tmp/opentera-1.2.6.tar.gz]
+[2024-05-13 14:48:06] INFO root fetch - main [MainThread]: End processing [opentera]: success
+[2024-05-13 14:48:15] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-13 14:48:15] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-13 14:48:15] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-13 14:48:20] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-13 14:48:20] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-13 14:48:20] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-13 14:48:20] INFO root fetch - main [MainThread]: Store serial: [23183152]
